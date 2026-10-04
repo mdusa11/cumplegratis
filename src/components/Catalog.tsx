@@ -6,7 +6,7 @@ import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { PromoCard } from "./PromoCard";
 import { Pin, locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
 import { AVAILABILITY_RANK, availability, isAvailable } from "@/lib/availability";
-import { BENEFIT, GROUPS, groupOf, normalize, promos, type BenefitType, type GroupId } from "@/lib/promos";
+import { BENEFIT, CATEGORIES, GROUPS, groupOf, normalize, promos, type BenefitType, type CategoryId, type GroupId } from "@/lib/promos";
 import { BASE_PATH, cn } from "@/lib/site";
 
 type GroupFilter = GroupId | "todos";
@@ -14,7 +14,9 @@ type GroupFilter = GroupId | "todos";
 export function Catalog() {
   const params = useSearchParams();
   const initial = params.get("g");
+  const initialCat = params.get("c");
   const [group, setGroup] = useState<GroupFilter>(initial && initial in GROUPS ? (initial as GroupId) : "todos");
+  const [cat, setCat] = useState<CategoryId | null>(initialCat && initialCat in CATEGORIES ? (initialCat as CategoryId) : null);
   const [type, setType] = useState<BenefitType | "todos">("todos");
   const [noSignup, setNoSignup] = useState(false);
   const [query, setQuery] = useState("");
@@ -22,30 +24,54 @@ export function Catalog() {
   const { location, openPicker } = useLocation();
   useAutoAskLocation();
 
+  const syncUrl = (g: GroupFilter, c: CategoryId | null) => {
+    const qs = new URLSearchParams();
+    if (g !== "todos") qs.set("g", g);
+    if (c) qs.set("c", c);
+    const search = qs.toString();
+    window.history.replaceState(null, "", `${BASE_PATH}/promos${BASE_PATH ? "/" : ""}${search ? `?${search}` : ""}`);
+  };
   const pickGroup = (g: GroupFilter) => {
     setGroup(g);
-    const url = `${BASE_PATH}/promos${BASE_PATH ? "/" : ""}${g === "todos" ? "" : `?g=${g}`}`;
-    window.history.replaceState(null, "", url);
+    setCat(null);
+    syncUrl(g, null);
+  };
+  const pickCat = (c: CategoryId | null) => {
+    setCat(c);
+    syncUrl(group, c);
   };
 
-  const results = useMemo(() => {
+  // Todo menos el tipo: sirve para contar cuántas promos hay de cada tipo con los demás filtros puestos.
+  const base = useMemo(() => {
     const q = normalize(query.trim());
-    const list = promos.filter(
+    return promos.filter(
       (p) =>
         (group === "todos" || groupOf(p) === group) &&
         (type === "todos" || p.benefitType === type) &&
         (!noSignup || !p.program) &&
         (!location || everywhere || isAvailable(availability(p, location))) &&
-        (!q || normalize(`${p.brand} ${p.benefit} ${p.category}`).includes(q)),
+        (!q || normalize(`${p.brand} ${p.benefit} ${CATEGORIES[p.category].label}`).includes(q)),
     );
+  }, [group, type, noSignup, query, location, everywhere]);
+
+  const catCounts = useMemo(() => {
+    const counts = new Map<CategoryId, number>();
+    base.forEach((p) => counts.set(p.category, (counts.get(p.category) ?? 0) + 1));
+    return counts;
+  }, [base]);
+
+  const results = useMemo(() => {
+    const list = base.filter((p) => !cat || p.category === cat);
     if (!location) return list;
     // Lo local primero (lo que menos gente conoce), luego cadenas nacionales; lo de otras zonas al final.
     return [...list].sort((a, b) => AVAILABILITY_RANK[availability(a, location)] - AVAILABILITY_RANK[availability(b, location)]);
-  }, [group, type, noSignup, query, location, everywhere]);
+  }, [base, cat, location]);
+
 
   const reset = () => {
     setEverywhere(true);
     pickGroup("todos");
+    setCat(null);
     setType("todos");
     setNoSignup(false);
     setQuery("");
@@ -53,7 +79,8 @@ export function Catalog() {
 
   return (
     <>
-      <div className="sticky top-[5.5rem] z-30 -mx-5 border-y-[2.5px] border-ink bg-paper/95 px-5 py-4 backdrop-blur-md sm:top-24 sm:-mx-8 sm:px-8">
+      {/* En móvil la barra no se queda pegada: con tantas opciones taparía media pantalla. */}
+      <div className="z-30 -mx-5 border-y-[2.5px] border-ink bg-paper/95 px-5 py-4 backdrop-blur-md sm:-mx-8 sm:px-8 lg:sticky lg:top-24">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <LayoutGroup id="groups">
             <div className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1" role="tablist" aria-label="Categoría">
@@ -74,6 +101,35 @@ export function Catalog() {
             />
           </label>
         </div>
+        <AnimatePresence initial={false}>
+          {group !== "todos" && (
+            <motion.div
+              key={group}
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+              className="overflow-hidden"
+            >
+              <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pt-3 pb-1" role="group" aria-label="Tipo de producto">
+                <LayoutGroup id="cats">
+                  {(["todas", ...(Object.keys(CATEGORIES) as CategoryId[]).filter((c) => CATEGORIES[c].group === group)] as (CategoryId | "todas")[]).map((c, i) => {
+                    const active = c === "todas" ? !cat : cat === c;
+                    const count = c === "todas" ? base.length : (catCounts.get(c) ?? 0);
+                    return (
+                      <motion.div key={c} initial={{ opacity: 0, y: 10, scale: 0.9 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ delay: i * 0.04, type: "spring", stiffness: 400, damping: 26 }}>
+                        <Pill small active={active} onClick={() => pickCat(c === "todas" ? null : c)} layoutId="cat-pill" disabled={count === 0 && !active}>
+                          {c === "todas" ? `Todo ${GROUPS[group].label.toLowerCase()}` : `${CATEGORIES[c].emoji} ${CATEGORIES[c].label}`}
+                          <span className={cn("ml-1.5 rounded-full px-1.5 text-xs", active ? "bg-acid text-ink" : "bg-paper-2")}>{count}</span>
+                        </Pill>
+                      </motion.div>
+                    );
+                  })}
+                </LayoutGroup>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
         <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
           <LayoutGroup id="types">
             {(["todos", ...Object.keys(BENEFIT)] as (BenefitType | "todos")[]).map((t) => (
@@ -184,12 +240,14 @@ function Pill({
   children,
   layoutId,
   small,
+  disabled,
 }: {
   active: boolean;
   onClick: () => void;
   children: React.ReactNode;
   layoutId: string;
   small?: boolean;
+  disabled?: boolean;
 }) {
   return (
     <button
@@ -197,10 +255,12 @@ function Pill({
       role="tab"
       aria-selected={active}
       onClick={onClick}
+      disabled={disabled}
       className={cn(
         "relative shrink-0 rounded-full border-2 border-ink font-semibold whitespace-nowrap transition-colors",
         small ? "px-3 py-1 text-sm" : "px-4 py-2",
         active ? "text-paper" : "bg-paper hover:bg-paper-2",
+        disabled && "cursor-not-allowed opacity-40",
       )}
     >
       {active && (

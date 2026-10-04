@@ -20,3 +20,14 @@ export const jsonLd = (data: unknown) => ({ __html: JSON.stringify(data).replace
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 /** En GitHub Pages no hay servidor: los formularios que escriben en Supabase se ocultan. */
 export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";
+
+/**
+ * Datos del responsable para Términos y Aviso de privacidad (LFPDPPP).
+ * PENDIENTE: llenar con los datos reales antes de recabar correos (nombre o razón social, domicilio y correo de contacto).
+ */
+export const LEGAL = {
+  responsible: process.env.NEXT_PUBLIC_LEGAL_NAME ?? "Cumplegratis",
+  address: process.env.NEXT_PUBLIC_LEGAL_ADDRESS ?? "México",
+  email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "privacidad@cumplegratis.com",
+  updated: "4 de octubre de 2026",
+};

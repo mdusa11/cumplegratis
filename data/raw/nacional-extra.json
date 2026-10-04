@@ -58,7 +58,16 @@
     ],
     "confidence": "alta",
     "coverage": "estados",
-    "states": ["SIN", "JAL", "BCN", "MIC", "BCS", "NLE", "CMX", "MEX"],
+    "states": [
+      "SIN",
+      "JAL",
+      "BCN",
+      "MIC",
+      "BCS",
+      "NLE",
+      "CMX",
+      "MEX"
+    ],
     "cities": [],
     "locationNote": "Sucursales en Culiacán y Mazatlán (SIN), Guadalajara/Zapopan (JAL), Tijuana (BCN), Morelia (MIC), La Paz (BCS), Monterrey (NLE) y CDMX/Naucalpan; la promo no aplica en la sucursal de Tepic",
     "needsId": true,
@@ -89,8 +98,13 @@
     ],
     "confidence": "media",
     "coverage": "ciudades",
-    "states": ["CMX", "MEX"],
-    "cities": ["cdmx"],
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
     "locationNote": "Súper 100% en línea; solo entrega en CDMX y algunas zonas del área metropolitana",
     "needsId": false,
     "companions": null
@@ -161,29 +175,242 @@
     "slug": "chedraui",
     "brand": "Chedraui",
     "category": "otras-tiendas",
-    "benefit": "30% de descuento en perfumería (tope $600)",
+    "benefit": "Bonos de cumpleaños MiChedraui (varían por campaña)",
     "benefitType": "descuento",
-    "details": "Una publicación de Promodescuentos (ago-2026) reporta 30% de descuento en perfumería y fragancias durante tu mes de cumpleaños para clientes Chedraui, con tope de $600 de descuento y sujeto a un listado de fragancias participantes. No encontré la mecánica oficial (app o programa de clientes); confirma en tienda o app antes de ir.",
-    "program": null,
-    "signupUrl": null,
+    "details": "Chedraui ha lanzado campañas de cumpleaños para clientes MiChedraui: de 2021 a 2024 daban hasta $100 en el monedero MiChedraui al actualizar tu fecha de cumpleaños (para usar en el mes de tu cumpleaños), y en ago-2026 se reportó 30% de descuento en perfumería y fragancias con tope de $600 y listado de productos participantes. Chedraui no publica una promo permanente de cumpleaños; confirma la campaña vigente en tu cuenta MiChedraui, en la app o en tienda.",
+    "program": "MiChedraui",
+    "signupUrl": "https://www.chedraui.com.mx/",
     "requirements": [
-      "Ser cliente Chedraui (mecánica de registro no confirmada)",
-      "Fragancia incluida en el listado participante",
-      "Descuento máximo de $600"
+      "Cuenta MiChedraui con fecha de cumpleaños actualizada",
+      "Mecánica y monto cambian por campaña (confirmar la vigente)",
+      "Perfumería: solo fragancias del listado participante y tope de $600"
     ],
     "registerDaysBefore": null,
     "window": "mes",
-    "windowNote": "Durante tu mes de cumpleaños (según la publicación)",
+    "windowNote": "Durante tu mes de cumpleaños (según la campaña vigente)",
     "minPurchase": null,
-    "howToClaim": "Sin mecánica oficial confirmada: pregunta en el área de perfumería o en la app Chedraui.",
+    "howToClaim": "Actualiza tu fecha de cumpleaños en Mi Cuenta de Chedraui y revisa el monedero o cupones de tu cuenta; sin mecánica permanente confirmada.",
     "sources": [
-      "https://www.promodescuentos.com/ofertas/es-tu-cumple-30-descuento-perfumeria-chedraui-1183998"
+      "https://www.promodescuentos.com/ofertas/es-tu-cumple-30-descuento-perfumeria-chedraui-1183998",
+      "https://cazaofertas.com.mx/otros/promo-mi-chedraui-obten-100-de-saldo-al-actualizar-tu-fecha-de-cumpleanos/"
     ],
     "confidence": "baja",
     "coverage": "ciudades",
-    "states": ["CMX"],
-    "cities": ["cdmx"],
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
     "locationNote": "Publicado como oferta local en CDMX; no confirmado en otras ciudades",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "fiesta-americana-acapulco-villas",
+    "brand": "Fiesta Americana Acapulco Villas",
+    "category": "viajes",
+    "benefit": "Resort credit de $600 en 3 cupones de comida y bebida",
+    "benefitType": "regalo-con-compra",
+    "details": "Al reservar en el sitio web del hotel la oferta \"Celebra tu cumpleaños en Acapulco\" recibes un resort credit de $600 en 3 cupones de $200: cenas o bebidas en El Mexicano, snacks o bebidas en Stelaris Lobby Bar y comidas o bebidas en Blu. Un crédito por habitación y una redención por estancia; sin reembolso en efectivo por no uso. Sujeto a disponibilidad y reservación previa; no válido con tarifas de grupo, corporativas ni con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar en el sitio web oficial del hotel",
+      "Reservar hasta el 15 dic 2026 y viajar hasta el 18 dic 2026",
+      "Un crédito por habitación, una redención por estancia",
+      "No válido con tarifas de grupo, corporativas ni otras promociones",
+      "El sitio no detalla cómo se acredita el cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Reserva hasta el 15 dic 2026 y viaja hasta el 18 dic 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva la oferta \"Celebra tu cumpleaños en Acapulco\" en fiestamericana.com y usa los 3 cupones durante tu estancia.",
+    "sources": [
+      "https://www.fiestamericana.com/ofertas/celebra-tu-cumpleanos-en-acapulco"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Solo Fiesta Americana Acapulco Villas (Acapulco, Guerrero)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "fiesta-americana-cancun-villas",
+    "brand": "Fiesta Americana Cancún Villas",
+    "category": "viajes",
+    "benefit": "15% en estancia, 10% en alimentos y 15% en spa",
+    "benefitType": "descuento",
+    "details": "Con la oferta \"Celebra tu cumpleaños en Cancún\" recibes, al reservar 3 noches o más, 15% de descuento en tu estancia, 10% en alimentos y bebidas y 15% en tratamientos de spa. Válida para estancias mínimas de 3 noches a partir de la categoría Villa Master Suite; no aplica con tarifas de grupo o corporativas ni con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar 3 noches o más",
+      "Categoría Villa Master Suite o superior",
+      "Reservar hasta el 15 dic 2026 y viajar hasta el 18 dic 2026",
+      "No válido con tarifas de grupo, corporativas ni otras promociones",
+      "El sitio no detalla cómo se acredita el cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Reserva hasta el 15 dic 2026 y viaja hasta el 18 dic 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva la oferta \"Celebra tu cumpleaños en Cancún\" en fiestamericana.com con estancia mínima de 3 noches.",
+    "sources": [
+      "https://www.fiestamericana.com/ofertas/celebra-tu-cumpleanos-en-cancun"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Solo Fiesta Americana Cancún Villas (Cancún, Quintana Roo)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "cuadra",
+    "brand": "Cuadra",
+    "category": "ropa",
+    "benefit": "Cupón de 10% en cuadra.com.mx en tu mes",
+    "benefitType": "descuento",
+    "details": "Si estás suscrito al Newsletter de Cuadra y cumples años en el mes, el día 1 recibes por correo un cupón de cumpleaños de 10% válido del día 1 al último día del mes. Se captura manualmente en el checkout (campo Aplicar Cupón), con sesión iniciada; solo en la tienda en línea cuadra.com.mx, no en tiendas físicas. No acumulable, de uso único e intransferible, y no aplica en compras mayores a $10,000.",
+    "program": "Newsletter Cuadra",
+    "signupUrl": "https://www.cuadra.com.mx/",
+    "requirements": [
+      "Estar suscrito al Newsletter de Cuadra",
+      "Iniciar sesión en cuadra.com.mx al comprar",
+      "Solo tienda en línea (no tiendas físicas)",
+      "No aplica en compras mayores a $10,000",
+      "Uso único, intransferible y no acumulable"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Del día 1 al último día de tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "El día 1 de tu mes de cumpleaños llega el cupón a tu correo (revisa spam); inicia sesión en cuadra.com.mx y pégalo en Aplicar Cupón en el checkout.",
+    "sources": [
+      "https://www.cuadra.com.mx/terminos-y-condiciones"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Válido en línea en todo México; no se puede usar en tiendas físicas",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "calvin-klein-mexico",
+    "brand": "Calvin Klein México",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños en calvinklein.mx y app (monto no publicado)",
+    "benefitType": "descuento",
+    "details": "La página de promociones de Calvin Klein México incluye un cupón de cumpleaños entre sus cupones (con bienvenida, lealtad y primera compra en app). Aplica solo en calvinklein.mx y en la app Calvin Klein MX (no tiendas físicas ni outlets), solo sobre el descuento base y no en licencias (fragancias, lentes, relojes); es personal, intransferible y de un solo uso, con vigencia del 1 ene al 31 dic 2026. Se acumula con otras promociones salvo en Hot Sale, Buen Fin, Black Friday, Cyber Monday, flash sales, rebajas, colecciones especiales, lanzamientos y productos CKJK. La marca no publica el monto ni cuándo lo envía.",
+    "program": null,
+    "signupUrl": "https://www.calvinklein.mx/",
+    "requirements": [
+      "Cuenta en calvinklein.mx o en la app Calvin Klein MX",
+      "Solo compras en línea o app (no tiendas físicas ni outlets)",
+      "Un solo uso por cliente",
+      "No aplica en fragancias, lentes ni relojes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Cupón vigente del 1 ene al 31 dic 2026; el sitio no precisa cuándo se envía",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en calvinklein.mx o en la app con tu fecha de nacimiento y revisa tus cupones; el sitio no detalla cómo se entrega.",
+    "sources": [
+      "https://www.calvinklein.mx/promociones"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Válido en línea en todo México; no aplica en tiendas físicas ni outlets",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "100-natural",
+    "brand": "100% Natural",
+    "category": "restaurantes",
+    "benefit": "$100 o $200 de descuento en tu mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Con tu tarjeta de lealtad Puntos 100 (cuesta $50 y te bonifican 100 puntos al registrarla), 'Tu cumple dura todo el mes' da $100 de descuento en consumos desde $300 o $200 de descuento en consumos desde $500 antes de propina. Máximo 1 cupón por día durante tu mes de cumpleaños, solo en sucursales físicas. Fuente: reporte de Cazaofertas (ene-2026); el sitio oficial no lo publica y la promo no tiene vigencia fija.",
+    "program": "Puntos 100",
+    "signupUrl": "https://www.100natural.com/puntos100/",
+    "requirements": [
+      "Tarjeta de lealtad Puntos 100 (costo $50, con 100 puntos de bono)",
+      "Consumo mínimo de $300 ($100 de descuento) o $500 ($200 de descuento)",
+      "1 cupón por día durante tu mes de cumpleaños",
+      "Solo sucursales físicas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": 300,
+    "howToClaim": "Presenta tu tarjeta Puntos 100 al pedir la cuenta en el restaurante.",
+    "sources": [
+      "https://cazaofertas.com.mx/restaurantes/promo-de-cumpleanos-100-natural-hasta-200-de-descuento-en-el-mes-de-tu-cumpleanos/",
+      "https://www.100natural.com/puntos100/"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "ROO",
+      "GRO",
+      "MOR",
+      "PUE",
+      "MEX",
+      "OAX",
+      "QUE",
+      "TAB",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Sucursales participantes en Puntos 100: Cancún, Playa del Carmen, Acapulco, Chilpancingo, Iguala, Cuernavaca, Puebla, Metepec, Oaxaca, Querétaro, Villahermosa y Mérida",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "brooks-brothers-mexico",
+    "brand": "Brooks Brothers México",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños en brooksbrothers.mx (monto no publicado)",
+    "benefitType": "descuento",
+    "details": "Al registrarte en el newsletter de Brooks Brothers México, la marca te envía por correo un código personal de cumpleaños válido en el mes de tu cumpleaños. Es exclusivo de la tienda en línea brooksbrothers.mx y no se combina con otras promociones ni descuentos. Los términos y condiciones no publican el monto del cupón.",
+    "program": "Newsletter Brooks Brothers",
+    "signupUrl": "https://www.brooksbrothers.mx/",
+    "requirements": [
+      "Registrarte al newsletter de Brooks Brothers México",
+      "Solo en el mes de tu cumpleaños",
+      "Exclusivo online (brooksbrothers.mx)",
+      "No acumulable con otras promociones o descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete al newsletter en brooksbrothers.mx; recibirás tu código por correo y lo aplicas al pagar en línea.",
+    "sources": [
+      "https://www.brooksbrothers.mx/terminos-y-condiciones"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Válido en línea en todo México; no aplica en tiendas físicas",
     "needsId": false,
     "companions": null
   }

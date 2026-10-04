@@ -7,6 +7,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { BirthdayPicker, burst } from "./BirthdayPicker";
 import { BenefitBadge } from "./BenefitBadge";
 import { CountUp } from "./fx";
+import { InstallCard } from "./PwaInstall";
 import { locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { availability, isAvailable } from "@/lib/availability";
@@ -128,6 +129,7 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
       <Group title="📅 Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={plan.later} done={done} />
       <Group title="🪪 Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={plan.walkIn} done={done} />
 
+      <InstallCard />
       <ReminderForm birthday={birthday} />
     </>
   );
@@ -310,6 +312,15 @@ function ReminderForm({ birthday }: { birthday: Birthday }) {
         )}
       </AnimatePresence>
       {state === "error" && <p className="mt-3 font-semibold">No se pudo guardar. Intenta en un rato.</p>}
+      {API_ENABLED && state !== "ok" && (
+        <p className="mt-4 text-sm font-medium">
+          Solo guardamos tu correo y tu día y mes de cumpleaños para mandarte los recordatorios. Al suscribirte aceptas el{" "}
+          <Link href="/privacidad" className="underline underline-offset-2">
+            Aviso de privacidad
+          </Link>
+          . Te puedes dar de baja cuando quieras.
+        </p>
+      )}
 
     </section>
   );

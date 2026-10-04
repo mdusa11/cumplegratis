@@ -115,6 +115,15 @@ body::after {
   }
 }
 
+.legal a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.legal a:hover {
+  color: var(--color-hot);
+}
+
 .curtain {
   position: fixed;
   inset: 0;

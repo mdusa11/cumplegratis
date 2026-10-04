@@ -5,6 +5,7 @@ import { BenefitBadge } from "@/components/BenefitBadge";
 import { PromoCard } from "@/components/PromoCard";
 import { ReportButtons } from "@/components/ReportButtons";
 import { WhereCard } from "@/components/WhereCard";
+import { ParallaxEmoji } from "@/components/ParallaxEmoji";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
 import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, quickRules, type Promo } from "@/lib/promos";
@@ -94,9 +95,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             </Link>
           </div>
         </div>
-        <span aria-hidden className="pointer-events-none absolute -right-8 -bottom-10 text-[9rem] opacity-50 select-none sm:-right-10 sm:-bottom-16 sm:text-[22rem] sm:opacity-90">
-          {cat.emoji}
-        </span>
+        <ParallaxEmoji emoji={cat.emoji} />
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-16 px-5 py-20 sm:px-8 lg:grid-cols-[1.5fr_1fr]">

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import { SITE } from "@/lib/site";
+import { openInstall } from "./PwaInstall";
 
 export function Footer() {
   const ref = useRef<HTMLElement>(null);
@@ -19,12 +20,27 @@ export function Footer() {
           <p className="mt-4 max-w-sm text-paper/70">{SITE.description}</p>
         </div>
         <FooterCol title="Explora" links={[["/promos", "Todas las promos"], ["/ciudades", "Promos por ciudad"], ["/mi-cumple", "Mi plan de cumpleaños"], ["/promos?g=comida", "Comida gratis"]]} />
-        <FooterCol title="Ayuda" links={[["/promos#sugerir", "Sugerir una promo"], ["/#faq", "Preguntas frecuentes"]]} />
+        <div>
+          <FooterCol title="Ayuda" links={[["/promos#sugerir", "Sugerir una promo"], ["/#faq", "Preguntas frecuentes"]]} />
+          <button type="button" onClick={openInstall} className="mt-5 inline-flex items-center gap-2 rounded-full border-2 border-acid px-4 py-2 font-semibold text-acid transition-colors hover:bg-acid hover:text-ink">
+            📲 Instalar la app
+          </button>
+        </div>
       </div>
 
+      <div className="mx-auto flex max-w-7xl flex-wrap gap-x-6 gap-y-2 px-5 pb-4 text-sm font-semibold sm:px-8">
+        <Link href="/terminos" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+          Términos y condiciones
+        </Link>
+        <Link href="/privacidad" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+          Aviso de privacidad
+        </Link>
+        <span className="text-paper/40">© {new Date().getFullYear()} {SITE.name}</span>
+      </div>
       <p className="mx-auto max-w-7xl px-5 text-sm text-paper/50 sm:px-8">
-        Cumplegratis no está afiliado a ninguna de las marcas mencionadas. Las promociones cambian sin aviso: revisa siempre las condiciones
-        oficiales. Última revisión: {SITE.lastReview}.
+        Cumplegratis no está afiliado a ninguna de las marcas mencionadas; sus nombres pertenecen a sus titulares y se usan solo para identificar
+        cada promoción. Las promociones las decide cada marca y cambian sin aviso: confirma siempre las condiciones oficiales. Última revisión:{" "}
+        {SITE.lastReview}.
       </p>
 
       <motion.p

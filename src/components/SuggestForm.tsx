@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, type FormEvent } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
@@ -42,6 +43,17 @@ export function SuggestForm() {
             {state === "sending" ? "Enviando…" : "Mandar promo"}
           </button>
           {state === "error" && <p className="font-semibold text-hot">No se pudo enviar. Intenta de nuevo en un rato.</p>}
+          <p className="text-sm font-medium">
+            No incluyas datos personales. Al enviarla aceptas los{" "}
+            <Link href="/terminos" className="underline underline-offset-2">
+              Términos
+            </Link>{" "}
+            y el{" "}
+            <Link href="/privacidad" className="underline underline-offset-2">
+              Aviso de privacidad
+            </Link>
+            .
+          </p>
         </motion.form>
       )}
     </AnimatePresence>

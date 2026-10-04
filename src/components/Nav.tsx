@@ -11,6 +11,7 @@ import {
 } from "motion/react";
 import { Logo } from "./Logo";
 import { useLocation } from "./LocationProvider";
+import { openInstall, useInstalled } from "./PwaInstall";
 import { CITIES, STATES } from "@/lib/places";
 import { cn } from "@/lib/site";
 
@@ -40,6 +41,7 @@ export function Nav() {
   const isActive = (href: string) =>
     pathname === href || pathname.startsWith(`${href}/`);
   const close = () => setOpen(false);
+  const installed = useInstalled();
 
   return (
     <motion.header
@@ -136,6 +138,25 @@ export function Nav() {
                 </Link>
               </motion.div>
             ))}
+            {!installed && (
+              <motion.button
+                type="button"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                onClick={() => {
+                  close();
+                  openInstall();
+                }}
+                className="mt-2 flex items-center gap-3 rounded-2xl border-2 border-ink bg-ink px-4 py-3 text-left font-semibold text-paper"
+              >
+                <span className="text-2xl">📲</span>
+                <span>
+                  Instalar la app
+                  <span className="block text-sm font-medium opacity-70">Gratis, sin tienda de apps</span>
+                </span>
+              </motion.button>
+            )}
           </motion.div>
         )}
       </AnimatePresence>

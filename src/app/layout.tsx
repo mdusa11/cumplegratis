@@ -6,6 +6,7 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
+import { PwaInstall } from "@/components/PwaInstall";
 import { SITE } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
@@ -21,6 +22,9 @@ export const metadata: Metadata = {
   description: SITE.description,
   openGraph: { siteName: SITE.name, locale: "es_MX", type: "website" },
   twitter: { card: "summary_large_image" },
+  applicationName: "Cumplegratis",
+  appleWebApp: { capable: true, title: "Cumplegratis", statusBarStyle: "default" },
+  formatDetection: { telephone: false },
   alternates: { canonical: "/" },
 };
 
@@ -33,6 +37,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Providers>
           <ScrollProgress />
           <FloatingCTA />
+          <PwaInstall />
           <Cursor />
           <Nav />
           {/* El recorte va aquí y no en <body>: en móvil, overflow en body se propaga al viewport y no evita que la página se ensanche. */}

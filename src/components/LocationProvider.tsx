@@ -152,7 +152,7 @@ function LocationSheet({ initial, onClose }: { initial: UserLocation | null; onC
                 </span>
                 <span>
                   <span className="display block text-3xl">{gps.status === "locating" ? "Buscándote…" : "Usar mi ubicación"}</span>
-                  <span className="text-sm font-medium">Se calcula en tu navegador. No guardamos ni enviamos tu ubicación.</span>
+                  <span className="text-sm font-medium">Se calcula en tu cel. No guardamos ni enviamos tu ubicación.</span>
                 </span>
               </button>
               {gps.status === "error" && (

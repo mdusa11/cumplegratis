@@ -1,6 +1,7 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import { burst } from "./BirthdayPicker";
 import { motion } from "motion/react";
 import { BirthdayPicker } from "./BirthdayPicker";
 import { SplitText } from "./Reveal";
@@ -123,12 +124,23 @@ export function Hero({ featured, total, row }: { featured: Promo[]; total: numbe
 
 function SpinBadge({ total }: { total: number }) {
   const text = `+${total} regalos · cero pesos · `;
+  const [spins, setSpins] = useState(0);
+  // Easter egg: al tocarlo gira y suelta confeti.
+  const party = (e: React.MouseEvent) => {
+    setSpins((s) => s + 1);
+    navigator.vibrate?.(20);
+    burst({ x: e.clientX / window.innerWidth, y: e.clientY / window.innerHeight });
+  };
   return (
     <motion.span
       initial={{ scale: 0, rotate: -90 }}
-      animate={{ scale: 1, rotate: 0 }}
-      transition={{ delay: 0.9, type: "spring", stiffness: 200, damping: 12 }}
-      className="relative inline-flex size-[0.85em] shrink-0 items-center justify-center rounded-full border-[3px] border-ink bg-lilac"
+      animate={{ scale: 1, rotate: spins * 360 }}
+      whileHover={{ scale: 1.08 }}
+      whileTap={{ scale: 0.9 }}
+      onClick={party}
+      transition={{ delay: spins ? 0 : 0.9, type: "spring", stiffness: 200, damping: 12 }}
+      className="relative inline-flex size-[0.85em] shrink-0 cursor-pointer items-center justify-center rounded-full border-[3px] border-ink bg-lilac"
+      data-cursor="🎉"
       aria-hidden
     >
       <svg viewBox="0 0 100 100" className="absolute inset-0 animate-spin-slow">
