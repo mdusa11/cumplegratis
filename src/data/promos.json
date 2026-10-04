@@ -7892,6 +7892,79 @@
     "validUntil": null
   },
   {
+    "slug": "motril-cafe-restaurante-irapuato",
+    "brand": "Motril Café-Restaurante",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis en tu cumpleaños con 1 acompañante",
+    "benefitType": "gratis",
+    "details": "El sitio oficial del restaurante (buffet de Irapuato) anuncia la 'Promo Cumpleaños': te regalan tu desayuno por tu cumpleaños si vas con un acompañante y llevas tu INE para validar la promoción; aplican términos y condiciones que no están publicados. El buffet abre martes a viernes de 7:00 a 14:00 y sábado y domingo de 8:00 a 13:00; una reseña de Google de enero de 2024 que aparece en el mismo sitio dice que la promo del buffet gratis no aplicaba en sábado y domingo, así que confirma el día.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con un acompañante",
+      "Llevar INE para validar la promoción",
+      "Términos y condiciones no publicados",
+      "Reseña de 2024: no aplicaba sábado ni domingo (confirma)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños y presenta tu INE; informes al (462) 220 1941.",
+    "sources": [
+      "https://motril.com.mx/",
+      "https://motril.com.mx/contacto"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "irapuato"
+    ],
+    "locationNote": "Plaza Jacarandas, Av. Jacarandas 2019 int. 2317, Col. San Miguelito, junto al Holiday Inn Irapuato",
+    "needsId": true,
+    "companions": 1,
+    "validUntil": null
+  },
+  {
+    "slug": "hs-hotsson-irapuato-los-vitrales-lady-gourmet-club",
+    "brand": "HS HOTSSON Irapuato: Los Vitrales (Lady Gourmet Club)",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía en tu cena de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "La página oficial del restaurante Los Vitrales del hotel HS HOTSSON Irapuato lista, entre los beneficios del programa Lady Gourmet Club (dirigido a comensales frecuentes, 'para las consentidas'), una botella de vino de cortesía en cena de cumpleaños; el mismo programa da descuentos en el desayuno buffet (lunes a viernes de 10 a 12 h) y en comidas y cenas (todos los días de 13 a 24 h). El sitio pide consultar condiciones y restricciones con el personal y no publica porcentajes ni requisitos de consumo.",
+    "program": "Lady Gourmet Club (HS HOTSSON)",
+    "signupUrl": "https://www.hotsson.com/hoteles/irapuato-ejido/servicios/221",
+    "requirements": [
+      "Ser socia del Lady Gourmet Club",
+      "Registro: pide tu tarjeta provisional al personal en tu próxima visita",
+      "Aplica en la cena de cumpleaños",
+      "Condiciones y restricciones: consultar con el personal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: confirma si es el día o el mes",
+    "minPurchase": null,
+    "howToClaim": "Pide tu tarjeta provisional en Los Vitrales, regístrate y avisa al reservar tu cena de cumpleaños; tel. (462) 215 2020 ext. 4005.",
+    "sources": [
+      "https://www.hotsson.com/hoteles/irapuato-ejido/servicios/221"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "irapuato"
+    ],
+    "locationNote": "Restaurante del hotel HS HOTSSON Irapuato, Blvd. Paseo Solidaridad 13649; otros hoteles de la cadena están en León, Silao y Querétaro y podrían operar el mismo programa",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
     "slug": "temixco-parque-acuatico-cuernavaca",
     "brand": "Ex Hacienda de Temixco Parque Acuático",
     "category": "parques",
