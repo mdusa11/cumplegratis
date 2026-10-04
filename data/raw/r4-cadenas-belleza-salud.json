@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "yves-rocher-mexico",
+    "brand": "Yves Rocher México",
+    "category": "belleza",
+    "benefit": "Regalo de cumpleaños sin compra requerida",
+    "benefitType": "gratis",
+    "details": "Miembros de Essence Rewards reciben un regalo de cumpleaños durante todo el mes de su cumpleaños, sin compra requerida. El programa solo opera en los Centros de Belleza (tiendas físicas); el sitio web no genera puntos ni beneficios del programa. Los términos no detallan cuál es el regalo.",
+    "program": "Essence Rewards",
+    "signupUrl": "https://www.yves-rocher.com.mx/pws/homeoffice/tabs/tiendas",
+    "requirements": [
+      "Ser miembro de Essence Rewards",
+      "Alta en un Centro de Belleza tras una compra el mismo día",
+      "Canje solo en tienda física (no en el sitio web)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu tarjeta Essence Rewards en un Centro de Belleza Yves Rocher durante tu mes de cumpleaños; no necesitas comprar.",
+    "sources": [
+      "https://www.yves-rocher.com.mx/pws/homeoffice/tabs/aviso-de-privacidad-essence-rewards",
+      "https://www.yves-rocher.com.mx/pws/homeoffice/tabs/tiendas"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "41 Centros de Belleza en México según el sitio oficial; el beneficio no aplica en la tienda en línea",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "opticas-lux",
+    "brand": "Ópticas Lux",
+    "category": "otras-tiendas",
+    "benefit": "Bono de cumpleaños de $1,000 en tu armazón",
+    "benefitType": "descuento",
+    "details": "Ópticas Lux envía por correo/SMS un Bono de Cumpleaños de $1,000 aplicable al armazón solar u oftálmico en la compra de un anteojo completo (armazón + lentes graduadas), en conjunto con la promoción del mes de lentes graduadas en armazones de monto mínimo $2,500. No aplica con convenio, Bono Lux ni Paquetes Lux, ni en líneas Meta, Chrome Hearts y Cartier; no es canjeable por efectivo ni se bonifica si no se usa completo.",
+    "program": "Cupones Ópticas Lux (registro con fecha de nacimiento)",
+    "signupUrl": "https://lux.mx/pages/cupon",
+    "requirements": [
+      "Estar registrado con correo/celular y fecha de nacimiento",
+      "Compra de anteojo completo (armazón + lentes graduadas)",
+      "Código único del cupón, impreso o en el celular",
+      "No acumulable con convenio, Bono Lux ni Paquetes Lux"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El cupón llega por correo/SMS; la página oficial no indica la ventana exacta ni la vigencia",
+    "minPurchase": null,
+    "howToClaim": "Presenta el código único de tu cupón (impreso o en el celular) al pagar un anteojo completo en sucursal Ópticas Lux.",
+    "sources": [
+      "https://lux.mx/pages/restricciones-promociones-recibidas-1",
+      "https://lux.mx/pages/cupon"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sucursales Ópticas Lux en varios estados; consulta el localizador en lux.mx",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "lancome-mexico",
+    "brand": "Lancôme México",
+    "category": "belleza",
+    "benefit": "Regalo de cumpleaños al comprar en tu mes",
+    "benefitType": "regalo-con-compra",
+    "details": "Al registrarte en Lancômmunity recibes por correo un código para reclamar un regalo de cumpleaños al comprar durante tu mes de cumpleaños. Promoción por tiempo limitado y hasta agotar existencias; puede no acumularse con otras promociones. No se detalla el regalo ni el monto mínimo de compra.",
+    "program": "Lancômmunity",
+    "signupUrl": "https://www.lancome.com.mx/",
+    "requirements": [
+      "Registro en Lancômmunity",
+      "Presentar el código recibido por correo",
+      "Compra durante tu mes de cumpleaños",
+      "Sujeto a existencias"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en Lancômmunity, usa el código que llega a tu correo al comprar en tu mes de cumpleaños.",
+    "sources": [
+      "https://www.lancome.com.mx/offers-page/offers-page.html",
+      "https://www.posta.com.mx/mexico/celebrando-tu-cumpleanos-conoce-las-promociones-que-empresas-tienen-para-ti/vl1592568"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea lancome.com.mx; no se confirma si aplica en mostradores físicos",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "kiehls-mexico",
+    "brand": "Kiehl's México",
+    "category": "belleza",
+    "benefit": "Regalo sorpresa de cumpleaños para miembros",
+    "benefitType": "gratis",
+    "details": "El programa Kiehl's since 1851 Rewards lista un regalo sorpresa de cumpleaños entre sus beneficios para miembros. La fuente consultada no detalla en qué consiste el regalo, la ventana de canje ni si requiere compra.",
+    "program": "Kiehl's since 1851 Rewards",
+    "signupUrl": "https://www.kiehls.com.mx/individual-pages-content/kiehl%E2%80%99s-since-1851-rewards/rewards-loyalty-landing.html",
+    "requirements": [
+      "Ser miembro de Kiehl's since 1851 Rewards"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificada en la fuente",
+    "minPurchase": null,
+    "howToClaim": "Inscríbete al programa en kiehls.com.mx o en boutique; consulta ahí cómo se entrega el regalo.",
+    "sources": [
+      "https://www.kiehls.com.mx/individual-pages-content/kiehl%E2%80%99s-since-1851-rewards/rewards-loyalty-landing.html"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sitio oficial kiehls.com.mx y boutiques Kiehl's; sin detalle de cobertura",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "ulta-beauty-mexico",
+    "brand": "Ulta Beauty México",
+    "category": "belleza",
+    "benefit": "Regalo de cumpleaños sin compra en tienda física",
+    "benefitType": "gratis",
+    "details": "Los clientes registrados con su fecha de nacimiento reciben un regalo una vez al año, durante el mes de su cumpleaños, sin necesidad de compra. Debes haber registrado tu fecha de nacimiento en tu cuenta un mes antes del mes de tu cumpleaños; recibes un cupón por correo y lo canjeas en una tienda física Ulta Beauty presentando identificación oficial. Los regalos son limitados y sujetos a disponibilidad; Ulta decide cuáles ofrecer.",
+    "program": "Ulta Beauty Benefits",
+    "signupUrl": "https://www.ulta.com.mx/ulta-beauty-benefits",
+    "requirements": [
+      "Registro gratuito en Ulta Beauty Benefits con fecha de nacimiento",
+      "Fecha de nacimiento registrada al menos un mes antes del mes de tu cumpleaños",
+      "Suscripción por correo electrónico",
+      "Identificación oficial al canjear",
+      "Canje solo en tienda física"
+    ],
+    "registerDaysBefore": 30,
+    "window": "mes",
+    "windowNote": "Cupón válido durante todo el mes de tu cumpleaños; un cupón por cliente al año",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en ulta.com.mx, agrega tu fecha de nacimiento un mes antes y presenta en tienda el cupón que llega a tu correo junto con tu INE.",
+    "sources": [
+      "https://www.ulta.com.mx/ulta-beauty-benefits/terminos-y-condiciones-ulta-beauty-benefits",
+      "https://www.ulta.com.mx/ulta-beauty-benefits",
+      "https://www.ulta.com.mx/servicio-al-cliente/preguntas-frecuentes",
+      "https://mx.fashionnetwork.com/news/Ulta-beauty-prepara-una-nueva-apertura-en-jalisco,1808710.html"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "JAL",
+      "NLE",
+      "BCN",
+      "GUA"
+    ],
+    "cities": [
+      "cdmx",
+      "toluca",
+      "guadalajara",
+      "monterrey",
+      "tijuana",
+      "leon"
+    ],
+    "locationNote": "9 tiendas a feb-2026: Antara (CDMX), Galerías Metepec y Plaza Satélite (Edomex), Forum Tlaquepaque, Galerías y Vía Viva (Guadalajara), Fiesta San Agustín (Monterrey), Península (Tijuana) y Altacia (León); canje solo en tienda física",
+    "needsId": true,
+    "companions": null
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "program": "IKEA Family",
+    "signupUrl": "https://family.ikea.mx/",
+    "requirements": [
+      "Membresía IKEA Family gratuita (mayor de 18 años y celular nacional)",
+      "Fecha de nacimiento completa (día y mes) capturada en el registro",
+      "Presentar tarjeta digital o los 16 dígitos de membresía al comprar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Primera compra registrada dentro de tu mes de cumpleaños (no retroactivo)",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en family.ikea.mx con tu fecha de nacimiento. En tu mes de cumpleaños identifícate con tu tarjeta digital en tu primera compra (tienda, IKEA.mx, restaurante, bistro o mercado) y se abonan los puntos al triple; canjéalos en caja pidiendo pagar con puntos.",
+    "sources": [
+      "https://family.ikea.mx/benefits",
+      "https://family.ikea.mx/terms",
+      "https://www.ikea.com/mx/es/stores/"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas físicas en IKEA Oceanía (CDMX), IKEA Puebla e IKEA Guadalajara Expo (Zapopan); IKEA.mx envía a todo el país y también acumula el triple",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null,
+    "slug": "ikea-family-mexico",
+    "brand": "IKEA Family México",
+    "category": "otras-tiendas",
+    "benefit": "Puntos al triple en tu primera compra del mes",
+    "benefitType": "regalo-con-compra",
+    "details": "Con la membresía gratuita IKEA Family, la primera compra registrada en tu mes de cumpleaños (tienda física, IKEA.mx, Restaurante, Bistro o Mercado sueco) acumula el triple de puntos; la acumulación base es 1% en puntos. En tienda los puntos se reflejan en máximo 48 h; en IKEA.mx al confirmarse la entrega. El beneficio no es retroactivo y aplica solo a la primera compra del mes (en una orden mixta, solo a lo de entrega inmediata)."
+  },
+  {
+    "program": "PREMIA (City Club)",
+    "signupUrl": "https://www.cityclub.com.mx/membresia-city-club.html",
+    "requirements": [
+      "Membresía City Club clásica vigente",
+      "Beneficio PREMIA vigente (afiliación y renovación solo en clubes)",
+      "Un obsequio por socio",
+      "Dato de cumpleaños del socio registrado"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "En tu mes de cumpleaños acude a cualquier City Club con tu membresía PREMIA vigente. Los términos no detallan el procedimiento ni el artículo (varía a consideración de City Club): pregunta en el club.",
+    "sources": [
+      "https://www.cityclub.com.mx/terminos-condiciones-premia.html",
+      "https://www.cityclub.com.mx/membresia-city-club.html"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Clubes City Club en unos 18 estados; el obsequio se entrega en cualquier club de la república",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null,
+    "slug": "city-club-premia",
+    "brand": "City Club",
+    "category": "otras-tiendas",
+    "benefit": "Obsequio especial de cumpleaños para socios PREMIA",
+    "benefitType": "gratis",
+    "details": "Los socios con beneficio PREMIA vigente reciben un obsequio durante su mes de cumpleaños, que se entrega en cualquier club de la república. Límite de un obsequio por socio y el artículo lo elige City Club. PREMIA es un beneficio adicional a la membresía clásica (vigencia máx. 12 meses, se unifica con la membresía) y sus términos pueden cambiar sin previo aviso."
+  },
+  {
+    "program": "Puntos Porrúa",
+    "signupUrl": "https://porrua.mx/puntos-porrua",
+    "requirements": [
+      "Tarjeta Puntos Porrúa gratuita (se pide en cualquier sucursal) con fecha de nacimiento registrada",
+      "Mostrar monedero e identificación al canjear"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Puntos abonados por tu cumpleaños; vigencia de 3 meses (90 días) desde la fecha de abono",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en cualquier sucursal Porrúa (pide nombre, correo, fecha de nacimiento y dirección). Cuando recibas el aviso de tus puntos de cumpleaños, ve a una Librería Porrúa o a porrua.com y canjéalos con tu monedero e identificación antes de 90 días.",
+    "sources": [
+      "https://porrua.mx/puntos-porrua",
+      "https://porrua.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "CMX",
+      "MEX",
+      "PUE",
+      "VER",
+      "JAL",
+      "CHP",
+      "NAY",
+      "SON",
+      "YUC",
+      "MIC",
+      "HID",
+      "NLE",
+      "QUE"
+    ],
+    "cities": [
+      "cdmx",
+      "puebla",
+      "guadalajara",
+      "monterrey",
+      "queretaro",
+      "merida",
+      "morelia"
+    ],
+    "locationNote": "Sucursales en CDMX (la mayoría) y en varios estados; los puntos también se canjean en porrua.com",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null,
+    "slug": "libreria-porrua-puntos",
+    "brand": "Librería Porrúa",
+    "category": "otras-tiendas",
+    "benefit": "Puntos de regalo por tu cumpleaños (monto no publicado)",
+    "benefitType": "gratis",
+    "details": "Los socios del monedero gratuito Puntos Porrúa reciben puntos de regalo por su cumpleaños; Porrúa no publica el monto. Los puntos de cumpleaños duran 90 días desde el abono: confirma que los recibiste por correo o en sucursal y canjéalos en caja con tu monedero e identificación, o en porrua.com."
+  },
+  {
+    "program": "Waldo's Recompensas",
+    "signupUrl": "https://www.waldosrecompensas.com/",
+    "requirements": [
+      "Tarjeta Waldo's Recompensas ($10 pesos en caja) registrada",
+      "Presentar la tarjeta en cada compra",
+      "Datos personales registrados (confirma que tu cumpleaños esté capturado)"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños (definición exacta no publicada)",
+    "minPurchase": null,
+    "howToClaim": "Pide la tarjeta Waldo's Recompensas en cualquier caja ($10), regístrala por WhatsApp (envía 'Hola' al 55 6708 3922) o en waldosrecompensas.com y preséntala en todas tus compras; en la semana de tu cumpleaños acumulas puntos dobles.",
+    "sources": [
+      "https://www.waldosrecompensas.com/",
+      "https://www.waldosrecompensas.com/TerminosCondiciones.html"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Más de 600 tiendas Waldo's y Eleczion en la república (no tienda en línea ni Waldo's Motos)",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null,
+    "slug": "waldos-recompensas",
+    "brand": "Waldo's Dólar Mart",
+    "category": "otras-tiendas",
+    "benefit": "Puntos dobles en la semana de tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Con la tarjeta Waldo's Recompensas, durante la semana de tu cumpleaños todas tus compras acumulan puntos dobles (nivel Plata 2%, Oro 4%; cada punto vale $1 y dura un año). La página oficial del programa lo anuncia, pero los términos y condiciones no detallan cómo se define la semana ni los topes."
+  }
+]

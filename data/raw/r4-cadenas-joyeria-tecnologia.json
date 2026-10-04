@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "todomoda-mexico",
+    "brand": "Todomoda",
+    "category": "otras-tiendas",
+    "benefit": "900 puntos de regalo (~$40 MXN) en tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "Los miembros de FRIENDS CLUB reciben puntos extra en su cumpleaños: 900 (nivel Friend), 1,350 (Bestie) o 2,250 (BFF). Cada 100 puntos equivalen a $4.50 MXN para tu próxima compra (900 puntos = $40.50), valen 12 meses y se pueden usar en tiendas Todomoda y en mx.todomoda.com. Debes registrar tu fecha de cumpleaños con al menos 30 días de anticipación o los puntos no se acreditan ese año.",
+    "program": "FRIENDS CLUB",
+    "signupUrl": "https://mx.todomoda.com/suscripcion",
+    "requirements": [
+      "Tener cuenta en mx.todomoda.com e inscribirte a FRIENDS CLUB",
+      "Registrar tu fecha de cumpleaños al menos 30 días antes",
+      "Los puntos tienen vigencia de 12 meses"
+    ],
+    "registerDaysBefore": 30,
+    "window": "otro",
+    "windowNote": "Los puntos se acreditan automáticamente por tu cumpleaños; el T&C no precisa el día exacto de abono",
+    "minPurchase": null,
+    "howToClaim": "Inscríbete a FRIENDS CLUB en Mi Cuenta con tu fecha de cumpleaños y canjea los puntos en tienda Todomoda o en línea en tu siguiente compra.",
+    "sources": [
+      "https://mx.todomoda.com/friendsclub-faqs",
+      "https://mx.todomoda.com/suscripcion"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Todomoda en México y mx.todomoda.com",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "opticas-lux",
+    "brand": "Ópticas Lux",
+    "category": "belleza",
+    "benefit": "Bono de $1,000 en armazón al comprar anteojo completo",
+    "benefitType": "descuento",
+    "details": "Ópticas Lux publica un Bono de Cumpleaños de $1,000 MXN que se aplica al armazón (solar u oftálmico) al comprar anteojo completo (armazón + lentes graduadas), junto con la promoción mensual de lentes graduadas en armazones desde $2,500. No aplica en Ray-Ban Meta, Chrome Heart ni Cartier, ni con convenio, Bono LUX o Paquetes LUX; no se canjea por efectivo ni se bonifica si no se usa completo.",
+    "program": "Cupones Ópticas Lux",
+    "signupUrl": "https://lux.mx/pages/cupon",
+    "requirements": [
+      "Compra de anteojo completo (armazón + lentes graduadas)",
+      "Armazón de $2,500 o más para la promoción del mes",
+      "Presentar el código único del cupón (impreso o en dispositivo)",
+      "No acumulable con convenio, Bono LUX ni Paquetes LUX"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El T&C no publica fecha de vigencia ni cómo se envía el cupón; el registro por correo con fecha de nacimiento está en lux.mx/pages/cupon",
+    "minPurchase": 2500,
+    "howToClaim": "Regístrate en lux.mx con tu fecha de nacimiento para recibir cupones por correo y presenta el código único del bono de cumpleaños al pagar en tienda o en línea.",
+    "sources": [
+      "https://lux.mx/pages/restricciones-promociones-recibidas-1",
+      "https://lux.mx/pages/cupon"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sucursales Ópticas Lux y lux.mx; Lux Premium Outlets (Querétaro, Punta Norte, Puebla) con reglas propias en el T&C",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "michael-kors-mexico",
+    "brand": "Michael Kors",
+    "category": "otras-tiendas",
+    "benefit": "20% de descuento en tu próxima compra sin descuento previo",
+    "benefitType": "descuento",
+    "details": "Los miembros de KORSVIP en México reciben un regalo de cumpleaños: 20% de descuento en su próxima compra de artículos sin descuento previo en tiendas Michael Kors Lifestyle y Collection y en el sitio oficial. Oferta de un solo uso; no aplica en artículos rebajados o en promoción, tarjetas de regalo, fragancias, gafas de sol, joyas ni productos Collection, Watch Hunger Stop o Access, ni se combina con otras promociones.",
+    "program": "KORSVIP",
+    "signupUrl": "https://www.michaelkors.global/mx/es/KORSVIP.html",
+    "requirements": [
+      "Tener 18 años o más",
+      "Suscripción activa a correos comerciales de Michael Kors",
+      "Capturar tu fecha de nacimiento en Detalles de la cuenta",
+      "Un solo uso, no acumulable"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El T&C no especifica la vigencia en días ni el momento de envío del código",
+    "minPurchase": null,
+    "howToClaim": "Crea tu cuenta KORSVIP, captura tu fecha de nacimiento y usa el código promocional en línea o escanea el código de barras en tienda.",
+    "sources": [
+      "https://www.michaelkors.global/mx/es/info/terms-and-conditions.html",
+      "https://www.michaelkors.global/mx/es/KORSVIP.html"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Michael Kors Lifestyle y Collection en México y sitio oficial",
+    "needsId": false,
+    "companions": null
+  }
+]

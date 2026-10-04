@@ -124,22 +124,23 @@
     "category": "ropa",
     "benefit": "4 vales de $250 (uno por marca) el día de tu cumpleaños",
     "benefitType": "regalo-con-compra",
-    "details": "Los socios del club Singular Collective México reciben el día de su cumpleaños 4 vales de $250 MXN, uno para Springfield, otro para Women'secret, otro para Hoss Intropia y otro para Cortefiel. Cada vale sirve para una sola compra de mínimo $500 MXN en tienda física o en línea y vence un mes después de su emisión; es un solo regalo al año y no se acumula con otros programas de lealtad de Modafiel. Los T&C piden al menos una compra en los últimos 3 años, aunque las preguntas frecuentes dicen que no se necesita compra previa.",
+    "details": "Los socios del club Singular Collective México reciben el día de su cumpleaños 4 vales de $250 MXN, uno para Springfield, otro para Women'secret, otro para Hoss Intropia y otro para Cortefiel. Cada vale sirve para una sola compra de mínimo $500 MXN en tienda (sin corners ni outlets) o en línea, vale 31 días naturales desde tu cumpleaños, se usa una vez al año por marca y es personal e intransferible. Los T&C piden al menos una compra en los últimos 3 años, aunque las preguntas frecuentes dicen que no se necesita compra previa.",
     "program": "Singular Collective",
     "signupUrl": "https://singularcollective.com/mx/es/unete/",
     "requirements": [
-      "Ser socio gratuito de Singular Collective (mayor de 18, residente en México)",
+      "Ser socio gratuito de Singular Collective (18+ y residente en México)",
       "Tener tu fecha de cumpleaños y celular registrados",
       "Compra mínima de $500 MXN por vale",
-      "Un solo uso por vale; vigencia de un mes desde su emisión",
+      "Un uso por vale y por marca al año; 31 días naturales de vigencia",
       "Identificarte como socio con tu celular al pagar"
     ],
     "registerDaysBefore": null,
     "window": "mes",
-    "windowNote": "Los vales se generan el día de tu cumpleaños y duran un mes",
+    "windowNote": "Los vales se generan el día de tu cumpleaños y valen 31 días naturales",
     "minPurchase": 500,
     "howToClaim": "Regístrate gratis en tienda, en línea o en la app de cualquiera de las 4 marcas; el día de tu cumpleaños llegan los vales y los usas identificándote con tu celular.",
     "sources": [
+      "https://singularcollective.com/mx/es/legales-promociones/",
       "https://singularcollective.com/mx/es/condiciones-generales/",
       "https://singularcollective.com/mx/es/faqs/",
       "https://singularcollective.com/mx/es/ventajas/"
@@ -148,7 +149,7 @@
     "coverage": "nacional",
     "states": [],
     "cities": [],
-    "locationNote": "Tiendas Springfield, Women'secret, Hoss Intropia y Cortefiel en México, y sus tiendas en línea (myspringfield.mx, womensecret.mx, hossintropia.mx, cortefiel.mx)",
+    "locationNote": "Tiendas Springfield, Women'secret, Hoss Intropia y Cortefiel en México (sin corners ni outlets), y sus tiendas en línea (myspringfield.mx, womensecret.mx, hossintropia.mx, cortefiel.mx)",
     "needsId": false,
     "companions": null
   },
@@ -241,6 +242,162 @@
     "states": [],
     "cities": [],
     "locationNote": "mx.tommy.com, app, boutiques y outlets Tommy Hilfiger en México; páginas oficiales bloquean consulta automática, datos vía buscador",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "carters-oshkosh-my-rewarding-moments",
+    "brand": "Carter's y OshKosh (My Rewarding Moments)",
+    "category": "ropa",
+    "benefit": "Descuento de cumpleaños de tus hijos (+25% adicional)",
+    "benefitType": "descuento",
+    "details": "El programa de lealtad My Rewarding Moments de Carter's México anuncia un 'Descuento de Cumpleaños +25% adicional' para el cumpleaños de tus hij@s; el detalle del cupón llega al correo registrado cuando completas el perfil. Los cupones se canjean en tiendas Carter's y en carters.com.mx (algunos solo en uno de los dos canales), solo con el mismo correo registrado, y el cupón vence en la fecha que ves en Mis Cupones. Los T&C publicados no detallan la regla del cupón de cumpleaños.",
+    "program": "My Rewarding Moments",
+    "signupUrl": "https://myrewardingmoments.mx/",
+    "requirements": [
+      "Ser miembro de My Rewarding Moments",
+      "Completar tu perfil y dar de alta a tus hijos",
+      "Usar el mismo correo registrado al comprar",
+      "Cupón vigente y sin usar (ver Mis Cupones)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia indicada en cada cupón (ver Mis Cupones en tu cuenta)",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en myrewardingmoments.mx, captura los datos de tus hijos y usa el cupón de cumpleaños que llegue por correo en tienda Carter's o en carters.com.mx.",
+    "sources": [
+      "https://myrewardingmoments.mx/",
+      "https://myrewardingmoments.mx/TermsConditions.aspx"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Carter's/OshKosh en México y carters.com.mx; el programa aplica al cumpleaños de los hijos, no del titular",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "new-era-mexico-rewards",
+    "brand": "New Era México (New Era Rewards)",
+    "category": "ropa",
+    "benefit": "100 puntos de regalo cada cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Los miembros de New Era Rewards (todos los niveles: ALL PRO, MVP, HOF y GOAT) reciben 100 puntos de regalo cada cumpleaños, sin condición de compra previa según los T&C. Los puntos vencen un año después de generarse y solo se canjean por productos en newera.mx y en la app, no en tiendas físicas; los T&C no publican el valor en pesos de cada punto.",
+    "program": "New Era Rewards",
+    "signupUrl": "https://www.newera.mx/",
+    "requirements": [
+      "Cuenta en newera.mx inscrita a New Era Rewards",
+      "Tener tu fecha de cumpleaños en la cuenta",
+      "Canje solo en newera.mx y app, no en tiendas físicas"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Los puntos se acreditan en tu cumpleaños y vencen a los 12 meses",
+    "minPurchase": null,
+    "howToClaim": "Vincula tu cuenta de newera.mx a New Era Rewards; los 100 puntos se abonan en tu cumpleaños y los canjeas por productos en la web o app.",
+    "sources": [
+      "https://www.newera.mx/pages/terminos-y-condiciones-de-new-era-rewards"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo canje en línea (newera.mx y app); valor por punto no publicado",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "coach-mexico",
+    "brand": "Coach México",
+    "category": "otras-tiendas",
+    "benefit": "Código de cumpleaños por newsletter (monto no publicado)",
+    "benefitType": "descuento",
+    "details": "Al registrarte al newsletter de Coach México recibes por correo un código personal con una promoción válida en el mes de tu cumpleaños. Es único, intransferible, solo válido en mx.coach.com y no aplica con otras promociones ni descuentos; los T&C no publican el monto.",
+    "program": "Newsletter Coach México",
+    "signupUrl": "https://mx.coach.com/",
+    "requirements": [
+      "Registrarte al newsletter de Coach México con tu fecha de cumpleaños",
+      "Código personal, único e intransferible",
+      "Solo válido en mx.coach.com",
+      "No aplica con otras promociones ni descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Aplica el código personal que recibes por correo al pagar en mx.coach.com durante tu mes de cumpleaños.",
+    "sources": [
+      "https://mx.coach.com/terminos-y-condiciones"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo tienda en línea mx.coach.com (envíos a todo México)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "borgatta-bops",
+    "brand": "Borgatta (programa de lealtad en línea)",
+    "category": "ropa",
+    "benefit": "Regalo de cumpleaños de 500 a 2,000 BOPS ($1 cada uno)",
+    "benefitType": "regalo-con-compra",
+    "details": "El programa de lealtad de la tienda en línea de Borgatta incluye un 'regalo de cumpleaños' en BOPS según tu nivel: 500 (Esmeralda), 750 (Platino), 1,200 (Diamante) o 2,000 (Black); cada BOP equivale a $1 MXN y se canjea como cupón en el checkout de tienda.borgatta.com.mx. Los BOPS de cumpleaños vencen a los 13 meses de generarse; los T&C (actualizados el 28 jul 2025) no precisan en qué fecha se acreditan ni piden compra mínima.",
+    "program": "Programa de lealtad Borgatta (BOPS)",
+    "signupUrl": "https://tienda.borgatta.com.mx/",
+    "requirements": [
+      "Tener cuenta en tienda.borgatta.com.mx inscrita al programa",
+      "Nivel Esmeralda desde $0; Platino $30,000, Diamante $70,000, Black $150,000",
+      "Canje solo en la tienda en línea (convertir BOPS en cupón)",
+      "BOPS vigentes 13 meses desde que se generan"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Fecha de acreditación no precisada en los T&C; revisa tu saldo BOPS cerca de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Crea tu cuenta en tienda.borgatta.com.mx, revisa tu saldo BOPS y canjéalo como cupón al pagar en línea.",
+    "sources": [
+      "https://tienda.borgatta.com.mx/pages/terminos-y-condiciones-programa-de-lealtad-borgatta"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Programa exclusivo de la tienda en línea de Borgatta (envíos a México)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "lacoste-club-mexico",
+    "brand": "Lacoste México (Club Lacoste)",
+    "category": "ropa",
+    "benefit": "10% de descuento en tu primera compra online del mes",
+    "benefitType": "descuento",
+    "details": "Sitios de cupones citan los 'Beneficios Socio Club Lacoste' de México: 10% de descuento válido para la primera compra online durante el mes de cumpleaños, no acumulable con otras promociones y sin aplicar en colecciones especiales, colaboraciones, lentes, relojes ni fragancias, 'vigente hasta el 31/10/2026'. Las páginas oficiales de Lacoste México bloquean la consulta automática, por lo que no se pudo verificar en la fuente oficial.",
+    "program": "Club Lacoste",
+    "signupUrl": "https://www.lacoste.com/mx/",
+    "requirements": [
+      "Ser socio gratuito de Club Lacoste con fecha de cumpleaños",
+      "Solo la primera compra online del mes de cumpleaños",
+      "No aplica en colecciones especiales, colaboraciones, lentes, relojes ni fragancias",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños; beneficio citado como vigente hasta el 31/10/2026",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en Club Lacoste en lacoste.com/mx con tu fecha de cumpleaños y usa el beneficio en tu primera compra online del mes.",
+    "sources": [
+      "https://www.cuponesmexico.com.mx/tienda/lacoste/",
+      "https://www.lacoste.com/mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo compra en línea (lacoste.com/mx); dato de fuente no oficial",
     "needsId": false,
     "companions": null
   }

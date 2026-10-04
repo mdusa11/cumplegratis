@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "pasteleria-lety",
+    "brand": "Pastelería Lety",
+    "category": "postres",
+    "benefit": "Cupón de $50 de descuento en tu compra en línea",
+    "benefitType": "descuento",
+    "details": "El cupón de cumpleaños da $50 MXN de descuento en una compra mínima de $399 MXN (subtotal de productos, sin envío). Es de un solo uso por usuario, aplica únicamente en la primera compra elegible posterior a recibirlo y vale 90 días naturales desde su recepción; solo válido en pastelerialety.com (no en sucursal), no acumulable con otros cupones ni promociones.",
+    "program": "Cuenta en pastelerialety.com",
+    "signupUrl": "https://www.pastelerialety.com/login/",
+    "requirements": [
+      "Cuenta en pastelerialety.com con tu fecha de cumpleaños registrada",
+      "Compra mínima de $399 MXN (subtotal de productos)",
+      "Iniciar sesión con la cuenta asociada al cupón e ingresar el código",
+      "Uso único, personal e intransferible"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Los términos no indican cuándo se envía el cupón; una vez recibido dura 90 días naturales",
+    "minPurchase": 399,
+    "howToClaim": "Crea tu cuenta en pastelerialety.com con tu cumpleaños; al recibir el cupón inicia sesión, agrega productos por $399 o más e ingresa el código antes de pagar.",
+    "sources": [
+      "https://www.pastelerialety.com/Terminos.html",
+      "https://www.pastelerialety.com/login/",
+      "https://www.pastelerialety.com/preguntasfrecuentes.html"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NLE",
+      "COA"
+    ],
+    "cities": [
+      "monterrey",
+      "saltillo",
+      "torreon"
+    ],
+    "locationNote": "Cupón canjeable solo en la tienda en línea; entrega a domicilio solo en Monterrey y su área metropolitana, el resto es pick and go en sucursal (Monterrey y Saltillo según su FAQ; también hay sucursales en Torreón)",
+    "needsId": false,
+    "companions": null
+  }
+]
