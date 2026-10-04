@@ -2807,24 +2807,25 @@
     "slug": "terraza-angelo-guadalajara",
     "brand": "Terraza Angelo",
     "category": "restaurantes",
-    "benefit": "Desayuno buffet gratis en tu cumpleaños",
+    "benefit": "Desayuno buffet gratis todo el mes de tu cumpleaños",
     "benefitType": "gratis",
-    "details": "Si es tu cumpleaños desayunas gratis en el buffet de Terraza Angelo (el adulto normal cuesta $319). Según lo publicado en redes, debes ir con 2 o más adultos que consuman buffet y presentar INE; la promoción se anuncia válida todo el mes de tu cumpleaños. Buffet de 8:00 am a 1:00 pm.",
+    "details": "La página de desayunos del sitio oficial anuncia '¿Es tu cumpleaños? ¡Desayunas gratis!': si cumples años y vas con 2 acompañantes, tu desayuno buffet es gratis durante todo el mes de tu cumpleaños (el buffet de adulto cuesta $319 y se sirve de lunes a domingo de 8:00 am a 1:00 pm). Hay que presentar INE y aplican restricciones. También ofrece un 'Paquete Cumpleañero' de $179. El cartel de la promoción no indica fecha de vigencia.",
     "program": null,
     "signupUrl": null,
     "requirements": [
       "INE vigente",
-      "Ir con 2 o más adultos que consuman buffet (según redes)",
-      "Reservar con anticipación (recomendado)"
+      "Ir con 2 acompañantes",
+      "Solo durante el mes de tu cumpleaños",
+      "Aplican restricciones (consultar al reservar)"
     ],
     "registerDaysBefore": null,
     "window": "mes",
-    "windowNote": "Todo el mes de tu cumpleaños (según redes); buffet de 8:00 am a 1:00 pm",
+    "windowNote": "Todo el mes de tu cumpleaños; buffet de lunes a domingo de 8:00 am a 1:00 pm",
     "minPurchase": null,
-    "howToClaim": "Reserva por teléfono o WhatsApp, llega con tus acompañantes y presenta tu INE al pagar.",
+    "howToClaim": "Reserva al (33) 3614 0777 o por WhatsApp, llega con tus 2 acompañantes y presenta tu INE.",
     "sources": [
       "https://terrazaangelo.com/desayunos/",
-      "https://www.tripadvisor.com/Restaurant_Review-g150798-d8557481-Reviews-Terraza_Angelo-Guadalajara_Guadalajara_Metropolitan_Area.html"
+      "https://terrazaangelo.com/wp-content/uploads/2022/02/cumple-feliz.jpeg"
     ],
     "confidence": "alta",
     "coverage": "ciudades",
@@ -2834,80 +2835,9 @@
     "cities": [
       "guadalajara"
     ],
-    "locationNote": "Calle Santa Mónica 1010, La Normal, Guadalajara. El sitio oficial confirma 'Desayunas gratis' en tu cumpleaños; los requisitos de acompañantes y mes completo salen de publicaciones en redes",
+    "locationNote": "Calle Santa Mónica 1010, La Normal, Guadalajara. Cartel oficial sin fecha de vigencia (el sitio lo publica desde 2022)",
     "needsId": true,
     "companions": 2
-  },
-  {
-    "slug": "holiday-inn-guadalajara-select-girasoles",
-    "brand": "Holiday Inn Guadalajara Select (Restaurante Girasoles)",
-    "category": "restaurantes",
-    "benefit": "Desayuno buffet gratis el mes de tu cumpleaños",
-    "benefitType": "gratis",
-    "details": "El cumpleañero no paga el desayuno buffet del Restaurante Girasoles durante el mes de su cumpleaños, acompañado de 3 personas más y presentando INE. El buffet cuesta $450 por persona (precio regular) y la promoción aplica solo al desayuno buffet, no a room service. La página no indica fecha de vigencia.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "INE vigente que compruebe el mes de nacimiento",
-      "Ir con 3 personas más que paguen desayuno buffet",
-      "Solo durante el mes de tu cumpleaños",
-      "Solo desayuno buffet (no room service)"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Todo el mes de tu cumpleaños",
-    "minPurchase": null,
-    "howToClaim": "Reserva al (33) 3122 2020 y presenta tu INE en el restaurante del hotel.",
-    "sources": [
-      "https://hisguadalajara.com.mx/promociones-descripcion.php?lan=es&id=197",
-      "https://www.hisguadalajara.com.mx/promociones-descripcion.php?lan=es&id=169"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "JAL"
-    ],
-    "cities": [
-      "guadalajara"
-    ],
-    "locationNote": "Av. Niños Héroes 3089 esq. López Mateos, Jardines de los Arcos, Guadalajara. Sitio oficial del hotel sin fecha de vigencia visible",
-    "needsId": true,
-    "companions": 3
-  },
-  {
-    "slug": "holiday-inn-guadalajara-expo-la-fuente",
-    "brand": "Holiday Inn Guadalajara Expo (Restaurante La Fuente)",
-    "category": "restaurantes",
-    "benefit": "Desayuno buffet y rebanada de pastel gratis",
-    "benefitType": "gratis",
-    "details": "La cumpleañera no paga el desayuno buffet del Restaurante La Fuente durante el mes de su cumpleaños y recibe una rebanada de pastel de cortesía, acompañada de 3 personas más y con INE. Los acompañantes pagan $349 por persona (IVA incluido); disponible de lunes a sábado de 9:30 am a 12:00 pm. La página no indica fecha de vigencia.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "INE vigente",
-      "Ir con 3 personas más que paguen buffet",
-      "Solo durante el mes de tu cumpleaños",
-      "Lunes a sábado, de 9:30 am a 12:00 pm"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Todo el mes de tu cumpleaños, lunes a sábado de 9:30 am a 12:00 pm",
-    "minPurchase": null,
-    "howToClaim": "Reserva al 33 3634 1034 y presenta tu INE al llegar al restaurante del hotel.",
-    "sources": [
-      "https://higuadalajaraexpo.com.mx/promociones-descripcion.php?lan=es&id=201"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "JAL"
-    ],
-    "cities": [
-      "zapopan"
-    ],
-    "locationNote": "Av. López Mateos Sur 2500 esq. Mariano Otero, Ciudad del Sol, Zapopan. Sitio oficial del hotel sin fecha de vigencia visible",
-    "needsId": true,
-    "companions": 3
   },
   {
     "slug": "hyper-restaurante-guadalajara",
@@ -3171,7 +3101,7 @@
     "window": "dia",
     "windowNote": "Viernes (según redes); confirmar si aplica solo el día o todo el mes",
     "minPurchase": null,
-    "howToClaim": "Reserva por teléfono (33 1888 3817) y pregunta por la promoción de cumpleañeros.",
+    "howToClaim": "Reserva con el restaurante (sitio y redes de Tres Generaciones) y pregunta por la promoción de cumpleañeros.",
     "sources": [
       "https://tresgeneracionesgdl.com/",
       "https://www.tiktok.com/discover/lugares-que-te-regalan-cosas-el-d%C3%ADa-de-tu-cumplea%C3%B1os-en-guadalajara-jalisco"
@@ -3329,25 +3259,26 @@
     "slug": "el-gorderon-tlaquepaque",
     "brand": "El Gorderón Asador Libre",
     "category": "restaurantes",
-    "benefit": "Cumpleañero come gratis con reservación",
+    "benefit": "Cortesía para el cumpleañero al llevar amigos",
     "benefitType": "gratis",
-    "details": "Un listado en redes indica que el cumpleañero come gratis con reservación en este asador de cortes de Tlaquepaque. El sitio oficial tiene un artículo sobre celebrar cumpleaños pero no publica condiciones; confirmar por teléfono o WhatsApp.",
+    "details": "El blog del sitio oficial invita a reservar tu cumpleaños y a preguntar por 'cortesías especiales para el cumpleañero al traer a tus amigos' y por promociones de temporada. Un listado en redes indica que el cumpleañero come gratis con reservación en este asador de espadas y cortes, pero las condiciones (acompañantes, días, vigencia) no están publicadas.",
     "program": null,
     "signupUrl": null,
     "requirements": [
       "Reservación previa",
+      "Ir con amigos o familia (número mínimo no publicado)",
       "Condiciones no publicadas: consultar al reservar"
     ],
     "registerDaysBefore": null,
     "window": "otro",
     "windowNote": "No se especifica periodo; confirmar al reservar",
     "minPurchase": null,
-    "howToClaim": "Reserva por WhatsApp o al 33 3926 0664 y pregunta por la promoción de cumpleaños.",
+    "howToClaim": "Reserva por WhatsApp o al 33 3926 0664 y pregunta por la cortesía para cumpleañeros.",
     "sources": [
-      "https://elgorderonasadorlibre.com/",
-      "https://www.tiktok.com/discover/lugares-que-te-regalan-cosas-el-d%C3%ADa-de-tu-cumplea%C3%B1os-en-guadalajara-jalisco"
+      "https://elgorderonasadorlibre.com/5-motivos-para-celebrar-tu-cumpleanos-en-el-gorderon-asador-libre/",
+      "https://elgorderonasadorlibre.com/"
     ],
-    "confidence": "baja",
+    "confidence": "media",
     "coverage": "ciudades",
     "states": [
       "JAL"
@@ -3565,6 +3496,48 @@
     "locationNote": "Sucursal Moderna (Av. Francia 1400, Guadalajara) y Lienzo Charro Las Cañadas (San Isidro Sur 2, Zapopan); el sitio no aclara si cambia algo por sucursal",
     "needsId": true,
     "companions": 2
+  },
+  {
+    "slug": "la-nona-lola-guadalajara",
+    "brand": "La Nona Lola",
+    "category": "restaurantes",
+    "benefit": "Pizza gratis en miércoles y viernes de cumpleañero",
+    "benefitType": "gratis",
+    "details": "La pizzería tiene 'Miércoles de cumpleañero' (una pizza participante gratis en el mes de tu cumpleaños) y una promo de viernes con pizza participante o botella gratis. Según sus páginas de restricciones: cumplir años en el mes, 1 promoción por mesa, consumir 1 entrada por persona, identificación con fotografía y fecha de nacimiento, solo en restaurante y sin mínimo de personas. La página de restricciones de Guadalajara no se pudo abrir (sitio caído al revisarlo), por lo que las reglas salen de las de otras sucursales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con foto y fecha de nacimiento",
+      "Cumplir años en el mes en que canjeas",
+      "Pedir 1 entrada por persona",
+      "1 promoción por mesa; solo pizzas participantes",
+      "Solo consumo en el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Miércoles (pizza) y viernes (pizza o botella) del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide en mesa en miércoles o viernes y presenta tu identificación con foto.",
+    "sources": [
+      "https://www.lanonalola.mx/restricciones-aguascalientes",
+      "https://www.lanonalola.mx/restriccionesleon",
+      "https://www.tiktok.com/@atascadosgdl/video/7430622348002282757"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "AGU",
+      "GUA",
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara",
+      "leon",
+      "aguascalientes"
+    ],
+    "locationNote": "Sucursal Guadalajara en Avanti Plaza (Morelos 1739 int. 7, col. Americana); también hay sucursales en León, Aguascalientes y Guanajuato. Confirmar que la promoción aplica en tu sucursal",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "zoologico-guadalajara",
@@ -3981,34 +3954,34 @@
     "companions": null
   },
   {
-    "slug": "sushi-factory-guadalajara",
+    "slug": "sushi-factory",
     "brand": "Sushi Factory",
     "category": "restaurantes",
-    "benefit": "1 rollo de 12 piezas y copa de nieve de cortesía",
+    "benefit": "Rollo de 12 piezas + copa de nieve de cortesía",
     "benefitType": "gratis",
-    "details": "El día de tu cumpleaños, si vas con 3 personas que consuman rollos o platillos, recibes de cortesía 1 rollo de 12 piezas y 1 copa de nieve (se bonifica el rollo de menor precio). Solo rollos naturales, empanizados, horneados y vegetarianos de 12 piezas; excluye rollos premium, aguachiles y petit. Solo mayores de 18 años y consumo en restaurante; vigente enero a diciembre de 2026.",
+    "details": "El día de tu cumpleaños, si vas con 3 acompañantes que consuman rollos de 12 pzas. o platillos, recibes de cortesía 1 rollo de 12 piezas y 1 copa de nieve (se descuenta el rollo de menor precio). Solo rollos naturales, capeados, horneados y vegetarianos de 12 pzas.; no aplica en rollos premium, aguachiles ni petit, ni con otras promociones como el rollo del mes. Ingredientes extra se cobran. Vigente enero-diciembre 2026.",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Identificación oficial",
+      "Ir con 3 personas acompañantes",
+      "Los 3 acompañantes deben consumir rollos de 12 pzas. o platillos",
       "Ser mayor de 18 años",
-      "Ir con 3 personas que pidan rollos o platillos",
-      "Solo el día exacto de tu cumpleaños",
-      "Solo consumo en restaurante (no para llevar ni delivery)",
-      "No incluye rollos premium, aguachiles ni petit",
-      "No acumulable con otras promociones"
+      "Identificación oficial",
+      "Solo el día de tu cumpleaños",
+      "Solo consumo en restaurante (no para llevar ni a domicilio)",
+      "No aplica en Tepic"
     ],
     "registerDaysBefore": null,
     "window": "dia",
-    "windowNote": "Solo el día de tu cumpleaños; vigente enero a diciembre de 2026",
+    "windowNote": "Solo el día exacto de tu cumpleaños (vigencia enero-diciembre 2026)",
     "minPurchase": null,
-    "howToClaim": "Pide tus rollos con 3 acompañantes y presenta tu identificación oficial al mesero antes de pedir la cuenta.",
+    "howToClaim": "Llega con tus 3 acompañantes, presenta tu identificación oficial y pide el rollo de cortesía al ordenar en el restaurante.",
     "sources": [
       "https://www.sushifactory.com.mx/promociones",
       "https://www.sushifactory.com.mx/sucursales"
     ],
     "confidence": "alta",
-    "coverage": "estados",
+    "coverage": "ciudades",
     "states": [
       "BCN",
       "BCS",
@@ -4019,8 +3992,19 @@
       "NLE",
       "SIN"
     ],
-    "cities": [],
-    "locationNote": "Zona metropolitana de Guadalajara: Cititower, Galerías, San Ignacio, Distrito La Perla, Paseo Andares, Punto Sur y Midtown. También en Culiacán, Mazatlán, Tijuana, Morelia, La Paz, Monterrey y CDMX/Satélite; no aplica en Tepic",
+    "cities": [
+      "culiacan",
+      "mazatlan",
+      "guadalajara",
+      "zapopan",
+      "tijuana",
+      "morelia",
+      "la-paz",
+      "monterrey",
+      "cdmx",
+      "naucalpan"
+    ],
+    "locationNote": "Sucursales en Culiacán y Mazatlán (SIN), Guadalajara/Zapopan (JAL), Tijuana (BCN), Morelia (MIC), La Paz (BCS), Monterrey (NLE) y CDMX/Naucalpan; la promo no aplica en la sucursal de Tepic",
     "needsId": true,
     "companions": 3
   },

@@ -1,8 +1,43 @@
 [
-  { "slug": "beer-factory", "remove": true, "reason": "Cerró todas sus sucursales el 30-dic-2024 (Expansión, Proceso)" },
+  {
+    "slug": "beer-factory",
+    "remove": true,
+    "reason": "Cerró todas sus sucursales el 30-dic-2024 (Expansión, Proceso)"
+  },
   {
     "slug": "kataplum",
-    "patch": { "howToClaim": "Presenta la copia de tu identificación en taquillas de ¡Kataplum! (Parque Las Antenas, Iztapalapa, CDMX)." },
+    "patch": {
+      "howToClaim": "Presenta la copia de tu identificación en taquillas de ¡Kataplum! (Parque Las Antenas, Iztapalapa, CDMX)."
+    },
     "reason": "Los T&C oficiales listan un solo parque: Parque Las Antenas"
+  },
+  {
+    "slug": "sushi-factory",
+    "patch": {
+      "coverage": "ciudades",
+      "cities": [
+        "culiacan",
+        "mazatlan",
+        "guadalajara",
+        "zapopan",
+        "tijuana",
+        "morelia",
+        "la-paz",
+        "monterrey",
+        "cdmx",
+        "naucalpan"
+      ],
+      "states": [
+        "BCN",
+        "BCS",
+        "CMX",
+        "JAL",
+        "MEX",
+        "MIC",
+        "NLE",
+        "SIN"
+      ]
+    },
+    "reason": "Sucursales confirmadas en sushifactory.com.mx/sucursales; la promo no aplica en Tepic"
   }
 ]
