@@ -181,7 +181,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
         <section className="border-t-[2.5px] border-ink bg-paper-2 px-5 py-20 sm:px-8">
           <div className="mx-auto max-w-7xl">
             <h2 className="display text-6xl sm:text-7xl">También en {group.label.toLowerCase()}</h2>
-            <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((p) => (
                 <PromoCard key={p.slug} promo={p} />
               ))}

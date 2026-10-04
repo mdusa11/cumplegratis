@@ -2736,6 +2736,74 @@
     "companions": 4
   },
   {
+    "slug": "moira-mazatlan",
+    "brand": "Moira Mazatlán",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 5 invitados",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales), el cumpleañero come gratis si va acompañado de 5 invitados. No se encontraron más reglas (días, exclusiones, vigencia); confirma con el local antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 invitados",
+      "Confirmar reglas y vigencia con el local"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el local",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al reservar o al llegar y presenta tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/discover/donde-festejar-cumplea%C3%B1os-mazatlan",
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-cosas-gratis-por-tu-cumplea%C3%B1os-en-mazatlan"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": null,
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "31-sushi-bar-mazatlan",
+    "brand": "31 Sushi Bar",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 5 amigos",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales), el cumpleañero come gratis si va con 5 amigos. No se encontraron más reglas (días, exclusiones, vigencia); confirma con el local antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 amigos",
+      "Confirmar reglas y vigencia con el local"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el local",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al reservar o al llegar y presenta tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/discover/donde-festejar-cumplea%C3%B1os-mazatlan",
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-cosas-gratis-por-tu-cumplea%C3%B1os-en-mazatlan"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": null,
+    "needsId": null,
+    "companions": 5
+  },
+  {
     "slug": "sephora",
     "brand": "Sephora",
     "category": "belleza",

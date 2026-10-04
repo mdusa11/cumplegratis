@@ -139,7 +139,7 @@ export default function Home() {
               </Link>
             </Magnetic>
           </Reveal>
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {featured.slice(0, 6).map((p, i) => (
               <Reveal key={p.slug} delay={(i % 3) * 0.08}>
                 <PromoCard promo={p} />

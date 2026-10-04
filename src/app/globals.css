@@ -39,7 +39,6 @@ html {
 body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
-  overflow-x: clip;
 }
 
 ::selection {

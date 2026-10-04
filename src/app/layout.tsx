@@ -34,8 +34,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <ScrollProgress />
           <Cursor />
           <Nav />
-          <main>{children}</main>
-          <Footer />
+          {/* El recorte va aquí y no en <body>: en móvil, overflow en body se propaga al viewport y no evita que la página se ensanche. */}
+          <div className="overflow-x-clip">
+            <main>{children}</main>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>

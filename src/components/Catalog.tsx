@@ -146,7 +146,7 @@ export function Catalog() {
         )}
       </AnimatePresence>
 
-      <motion.ul layout className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <motion.ul layout className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <AnimatePresence mode="popLayout">
           {results.map((p) => (
             <motion.li

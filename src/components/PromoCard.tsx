@@ -43,7 +43,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
   };
 
   return (
-    <motion.div style={{ rotateX, rotateY, transformPerspective: 900 }} className="h-full">
+    <motion.div style={{ rotateX, rotateY, transformPerspective: 900 }} className="h-full min-w-0">
       <Link
         href={`/promos/${promo.slug}`}
         data-cursor="Ver"
@@ -90,7 +90,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
 
         <div className="relative mt-auto flex flex-wrap gap-2 pt-5">
           <span className="chip bg-paper">📅 {WINDOW_LABEL[promo.window]}</span>
-          <span className={cn("chip", local ? "bg-sun" : "bg-paper")}>
+          <span className={cn("chip max-w-full !whitespace-normal leading-tight", local ? "bg-sun" : "bg-paper")}>
             {promo.coverage === "nacional" ? "🇲🇽" : "📍"} {coverageLabel(promo)}
           </span>
           {avail === "fuera" && <span className="chip bg-hot">Fuera de tu zona</span>}
