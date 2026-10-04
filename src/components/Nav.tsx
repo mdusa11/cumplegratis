@@ -49,7 +49,7 @@ export function Nav() {
       animate={{ y: hidden && !open ? "-130%" : "0%" }}
       transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-3 rounded-full border-[2.5px] border-ink bg-paper/90 py-2 pr-2 pl-5 shadow-hard backdrop-blur-md">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-3 rounded-full border-[2.5px] border-ink bg-paper/90 py-2 pr-2 pl-5 shadow-hard desk:backdrop-blur-md">
         <Logo onClick={close} />
 
         <div className="hidden items-center gap-1 lg:flex">

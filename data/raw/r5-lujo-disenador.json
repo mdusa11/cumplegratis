@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "carolina-herrera-mexico",
+    "brand": "Carolina Herrera México",
+    "category": "belleza",
+    "benefit": "Vela exclusiva de regalo el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "En el sitio oficial de Carolina Herrera México, al introducir tu fecha de cumpleaños en tu cuenta y suscribirte al newsletter, recibes una vela exclusiva de regalo en tu día. La página no publica compra mínima, vigencia, forma de entrega ni si aplica en boutiques, y no incluye enlace a T&C del beneficio.",
+    "program": "Cuenta + newsletter Carolina Herrera",
+    "signupUrl": "https://www.carolinaherrera.com/mx/es/editorial/shopping-with-benefits",
+    "requirements": [
+      "Crear cuenta en carolinaherrera.com/mx",
+      "Capturar tu fecha de cumpleaños en la cuenta",
+      "Suscribirte al newsletter para canjear la oferta"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños; la marca no publica vigencia ni cómo se entrega",
+    "minPurchase": null,
+    "howToClaim": "Registra tu fecha de cumpleaños en tu cuenta, suscríbete al newsletter y usa el botón 'Registrarse ahora' de la página de beneficios; la marca no detalla cómo se canjea el regalo.",
+    "sources": [
+      "https://www.carolinaherrera.com/mx/es/editorial/shopping-with-benefits"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea carolinaherrera.com/mx; no se confirma si aplica en boutiques",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "diesel-house-of-diesel-mexico",
+    "brand": "Diesel México (House of Diesel)",
+    "category": "ropa",
+    "benefit": "Regalos y sorpresas de cumpleaños (House of Diesel)",
+    "benefitType": "gratis",
+    "details": "El programa de lealtad gratuito House of Diesel opera en México e incluye 'regalos y sorpresas de cumpleaños' en sus tres niveles (Lobby, Lounge y Penthouse). El sitio y el reglamento no publican en qué consiste el regalo, su monto ni su vigencia. Al registrarte recibes además 10% de descuento en tu primer pedido online.",
+    "program": "House of Diesel",
+    "signupUrl": "https://diesel.com/es-mx/house-of-diesel/",
+    "requirements": [
+      "Registrarte en House of Diesel (sitio, tiendas participantes o atención a clientes)",
+      "Tener tu fecha de cumpleaños en tu perfil"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El reglamento no precisa cuándo ni cómo se entrega el regalo",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en House of Diesel en diesel.com/es-mx o en una tienda participante; la marca comunica por sus canales el regalo de cumpleaños de tu nivel.",
+    "sources": [
+      "https://diesel.com/es-mx/house-of-diesel/",
+      "https://video.diesel.com/Content/HOUSE-OF-DIESEL-Regulation-ES.pdf"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sitio diesel.com/es-mx y tiendas participantes; el reglamento no lista las boutiques de México",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "intimissimi-mexico",
+    "brand": "Intimissimi México (My Intimissimi)",
+    "category": "ropa",
+    "benefit": "20% (Gold) o 25% (Platinum) de descuento en tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "Con la tarjeta digital gratuita My Intimissimi, los miembros Gold (desde 200 puntos) tienen 20% de descuento en una sola compra y los Platinum un cupón de 25%, válidos desde 7 días antes hasta 21 días después de su cumpleaños, combinables con otras promociones excepto rebajas. Los miembros Silver (nivel inicial) reciben puntos dobles en ese periodo. Se acumula 1 punto por cada $15 MXN.",
+    "program": "My Intimissimi",
+    "signupUrl": "https://www.intimissimi.com/mx/loyaltylanding/",
+    "requirements": [
+      "Ser mayor de edad y registrar la tarjeta My Intimissimi (gratis)",
+      "Descuento solo con estatus Gold (200 puntos) o Platinum",
+      "Silver solo recibe puntos dobles",
+      "No aplica en rebajas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Desde 7 días antes hasta 21 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en intimissimi.com/mx/loyaltylanding o en tienda y compra durante la ventana de cumpleaños con tu tarjeta My Intimissimi.",
+    "sources": [
+      "https://www.intimissimi.com/mx/loyaltylanding/",
+      "https://www.intimissimi.com/mx/myintimissimi-regulation.html",
+      "https://www.intimissimi.com/on/demandware.static/-/Library-Sites-IntimissimiContentLibrary/es_MX/v1791076852136/images/legalArea/INT_Loyalty_T&C_MX.pdf"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Intimissimi participantes (propias y franquicias) y intimissimi.com/mx en la República Mexicana",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "calzedonia-mexico",
+    "brand": "Calzedonia México (Calzedonia Lover)",
+    "category": "ropa",
+    "benefit": "Cupón de 20% de descuento por tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "La página del programa Calzedonia Lover en México anuncia 'un cupón de 20% de descuento por tu cumpleaños' (además de envío gratis desde $1,945 MXN para miembros). El reglamento publicado en el sitio MX es la versión de España y Andorra (nivel Friend o Fan, uso único, 7 días antes a 7 días después, no acumulable), por lo que las reglas exactas para México no están confirmadas.",
+    "program": "Calzedonia Lover",
+    "signupUrl": "https://www.calzedonia.com/mx/loyaltylanding/",
+    "requirements": [
+      "Registrarte gratis en Calzedonia Lover",
+      "Tener tu fecha de cumpleaños en el perfil",
+      "Reglamento (versión España): nivel Friend o Fan, uso único, no acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Reglamento del sitio (versión España): 7 días antes a 7 días después del cumpleaños; no confirmado para México",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en calzedonia.com/mx/loyaltylanding con tu fecha de nacimiento y usa el cupón que recibas por tu cumpleaños.",
+    "sources": [
+      "https://www.calzedonia.com/mx/loyaltylanding/",
+      "https://www.calzedonia.com/mx/calzedonialover-regulation.html"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sitio calzedonia.com/mx; el sitio no aclara si el cupón aplica en tiendas físicas",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "desigual-club-mexico",
+    "brand": "Desigual México (Desigual Club)",
+    "category": "ropa",
+    "benefit": "Descuento de cumpleaños 'auto-regalo' con Desigual Club",
+    "benefitType": "descuento",
+    "details": "Los miembros del programa gratuito Desigual Club en México (niveles Silver y Gold) reciben en su cumpleaños 'un descuento para un auto-regalo'. La página del club no publica el porcentaje ni la vigencia del descuento, y los T&C (válidos desde el 11 feb 2025) remiten a la lista de ventajas del sitio; las ventajas pueden cambiar sin aviso.",
+    "program": "Desigual Club",
+    "signupUrl": "https://www.desigual.com/es_MX/desigual-club-1/",
+    "requirements": [
+      "Registrarte gratis en Desigual Club (online o en tienda)",
+      "Ser mayor de edad",
+      "Tener tu fecha de cumpleaños registrada"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La marca no publica la vigencia del descuento de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en desigual.com/es_MX/register o en una tienda Desigual; el descuento aparece en tu monedero electrónico/cuenta.",
+    "sources": [
+      "https://www.desigual.com/es_MX/desigual-club-1/",
+      "https://www.desigual.com/on/demandware.static/-/Library-Sites-DsglSharedLibrary/default/dw4528320e/docs/legal/Desigual_Club/Desigual_Club_TC_ES_MX_230125.pdf"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas propias y franquicias Desigual en México y desigual.com/es_MX",
+    "needsId": false,
+    "companions": null
+  }
+]

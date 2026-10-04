@@ -19,6 +19,7 @@ import {
   type MotionValue,
 } from "motion/react";
 import { cn } from "@/lib/site";
+import { useMediaQuery } from "@/lib/storage";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -117,18 +118,21 @@ export function Floaters() {
   const mx = useMotionValue(0);
   const my = useMotionValue(0);
   const reduced = useReducedMotion();
+  // Sin mouse no hay parallax que seguir: en tablets/celulares no se montan (ahorra 6 animaciones continuas).
+  const desktop = useMediaQuery("(min-width: 768px) and (hover: hover) and (pointer: fine)");
   useEffect(() => {
-    if (reduced) return;
+    if (reduced || !desktop) return;
     const move = (e: PointerEvent) => {
       mx.set(e.clientX / window.innerWidth - 0.5);
       my.set(e.clientY / window.innerHeight - 0.5);
     };
     window.addEventListener("pointermove", move, { passive: true });
     return () => window.removeEventListener("pointermove", move);
-  }, [mx, my, reduced]);
+  }, [mx, my, reduced, desktop]);
 
+  if (!desktop) return null;
   return (
-    <div aria-hidden className="pointer-events-none absolute inset-0 hidden select-none md:block">
+    <div aria-hidden className="pointer-events-none absolute inset-0 select-none">
       {FLOATERS.map((f, i) => (
         <Floater key={f.e} {...f} index={i} mx={mx} my={my} />
       ))}
@@ -144,14 +148,13 @@ function Floater({ e, x, y, d, s, index, mx, my }: (typeof FLOATERS)[number] & {
       <motion.span
         className="block"
         initial={{ scale: 0, rotate: -40 }}
-        animate={{ scale: 1, rotate: [0, 8, -6, 0], y: [0, -14, 0] }}
-        transition={{
-          scale: { delay: 1.4 + index * 0.1, type: "spring", stiffness: 260, damping: 12 },
-          rotate: { repeat: Infinity, duration: 5 + index, ease: "easeInOut" },
-          y: { repeat: Infinity, duration: 3.5 + index * 0.4, ease: "easeInOut" },
-        }}
+        animate={{ scale: 1, rotate: 0 }}
+        transition={{ delay: 1.4 + index * 0.1, type: "spring", stiffness: 260, damping: 12 }}
       >
-        {e}
+        {/* El vaivén continuo va en CSS (compositor), no en JS. */}
+        <span className="bob block" style={{ animationDuration: `${3.5 + index * 0.4}s`, animationDelay: `${index * 0.3}s` }}>
+          {e}
+        </span>
       </motion.span>
     </motion.span>
   );

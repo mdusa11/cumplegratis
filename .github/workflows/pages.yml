@@ -27,8 +27,6 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # Pages no corre servidor: las rutas /api se quitan del export estático.
-      - run: rm -rf src/app/api
       - run: npx next build
         env:
           GITHUB_PAGES: "true"

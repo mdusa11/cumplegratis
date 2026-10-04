@@ -26,6 +26,8 @@ export async function generateMetadata({ params }: PageProps<"/promos/[slug]">):
     title: `${promo.brand} en tu cumpleaños ${year}: ${promo.benefit}`,
     description: `${promo.details} Requisitos, cuándo registrarte y cómo cobrarlo paso a paso.`.slice(0, 300),
     alternates: { canonical: `/promos/${promo.slug}` },
+    // Sin confirmar: visible en el sitio, pero fuera del índice de Google hasta verificarla (calidad del dominio).
+    ...(promo.confidence === "baja" && { robots: { index: false, follow: true } }),
   };
 }
 

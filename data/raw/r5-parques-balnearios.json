@@ -1,0 +1,197 @@
+[
+  {
+    "slug": "balneario-vito-atotonilco-de-tula",
+    "brand": "Balneario Vito",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis una semana antes y después",
+    "benefitType": "regalo-con-compra",
+    "details": "El cumpleañero entra gratis al balneario de aguas termales desde una semana antes hasta una semana después de su cumpleaños con identificación oficial vigente (INE, copia del acta de nacimiento o CURP). Para validar la promoción hay que comprar mínimo 2 entradas más por cada cumpleañero y pedir que se haga válida antes de adquirir las entradas. No aplica en tarifas de hotel; aplican términos y condiciones.",
+    "program": null,
+    "signupUrl": "http://balneariovito.com/services/cumpleanos-en-vito/",
+    "requirements": [
+      "INE vigente, copia del acta de nacimiento o CURP",
+      "Comprar mínimo 2 entradas más por cada cumpleañero",
+      "Pedir que validen la promoción antes de comprar las entradas",
+      "No aplica en tarifas de hotel"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Una semana antes y una semana después de tu cumpleaños; sin fecha de fin publicada (sitio con © 2026)",
+    "minPurchase": null,
+    "howToClaim": "En taquilla pide que validen tu promoción de cumpleañero y presenta tu identificación antes de comprar las entradas de tus acompañantes.",
+    "sources": [
+      "http://balneariovito.com/services/cumpleanos-en-vito/",
+      "http://balneariovito.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "HID"
+    ],
+    "cities": [],
+    "locationNote": "Balneario Vito, El Refugio km 1.5, Atotonilco de Tula, Hidalgo (a 1 hora de CDMX); abre de 7:00 a 20:00",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "parque-acuatico-santa-rita-ayotlan",
+    "brand": "Parque Acuático Santa Rita",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis 7 días antes o después",
+    "benefitType": "gratis",
+    "details": "Promoción \"CumpleañeRit@ entra gratis\": el cumpleañero entra gratis a entrada general durante los 7 días previos o posteriores a su cumpleaños, con CURP o acta de nacimiento si es menor o INE si es mayor de edad, y llenando el registro de taquilla. No válido en Semana Santa y Pascua, excursiones ni con otras promociones.",
+    "program": null,
+    "signupUrl": "https://www.parqueacuaticosantarita.com.mx/tarifasypromociones",
+    "requirements": [
+      "CURP o acta de nacimiento (menores) o INE (adultos)",
+      "Llenar el registro de taquilla",
+      "Solo entrada general",
+      "No válido en Semana Santa y Pascua, excursiones ni otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Los 7 días previos o los 7 días posteriores a tu cumpleaños; no válido en Semana Santa y Pascua",
+    "minPurchase": null,
+    "howToClaim": "Presenta CURP/acta (menores) o INE (adultos) en la taquilla y llena el registro de cumpleañeros.",
+    "sources": [
+      "https://www.parqueacuaticosantarita.com.mx/tarifasypromociones",
+      "https://www.parqueacuaticosantarita.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "JAL"
+    ],
+    "cities": [],
+    "locationNote": "Camino Vecinal Ayotlán-La Rivera s/n, Santa Rita, Ayotlán, Jalisco (zona Ciénega, ~1.5 h de Guadalajara); abre los 365 días de 9:00 a 18:00",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mundo-granjero-tepetongo",
+    "brand": "Mundo Granjero",
+    "category": "parques",
+    "benefit": "Entrada gratis todo el mes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Cumpleañero gratis: entra gratis durante todo el mes de su cumpleaños presentando original y copia de su INE o acta de nacimiento en las taquillas del parque. Promoción válida todo el año; no aplica en grupos ni es acumulable; aplican restricciones.",
+    "program": null,
+    "signupUrl": "https://mundogranjero.com.mx/promociones/",
+    "requirements": [
+      "Original y copia de INE o acta de nacimiento",
+      "Presentarlos en las taquillas del parque",
+      "No aplica en grupos ni es acumulable"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; la promoción es válida todo el año",
+    "minPurchase": null,
+    "howToClaim": "Ve a taquilla en tu mes de cumpleaños y entrega original y copia de tu INE o acta de nacimiento.",
+    "sources": [
+      "https://mundogranjero.com.mx/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "MIC"
+    ],
+    "cities": [],
+    "locationNote": "Carretera México-Morelia km 129, Tepetongo (Contepec), Michoacán; a 20 min de Atlacomulco (Edomex) y ~90 min de CDMX",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "balneario-la-onda-oacalco-morelos",
+    "brand": "Balneario La Onda",
+    "category": "parques",
+    "benefit": "Cumpleañero del mes no paga entrada",
+    "benefitType": "gratis",
+    "details": "Según el directorio Balnearios en Morelos (precios actualizados 2026), el cumpleañero no paga entrada durante todo el mes presentando su INE; los menores de edad, acta de nacimiento o CURP. Entrada general de $130. No encontré la promoción en un sitio propio del balneario, así que confirma por teléfono antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE (adultos) o acta de nacimiento/CURP (menores)",
+      "Cumplir años en el mes de la visita"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE (o acta/CURP si eres menor) en taquilla; confirma al 735 161 2982 o 735 197 4741.",
+    "sources": [
+      "https://www.balneariosenmorelos.com.mx/index.php?q=la_onda"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "A un costado de la caseta de Oacalco, Yautepec, Morelos; en temporada baja abre de jueves a domingo",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "careva-centro-ecoturistico-actopan",
+    "brand": "Careva Centro Ecoturístico",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis",
+    "benefitType": "gratis",
+    "details": "El directorio Balnearios en Veracruz (precios actualizados 2026) lista \"Cumpleañero entra gratis\" en el centro ecoturístico con albercas, cabañas y áreas verdes junto al río de Actopan. No precisa mes, día ni requisitos y el sitio oficial solo remite a Facebook para promociones; confirma por teléfono (279 822 5164) antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación con fecha de nacimiento (sugerido)",
+      "Confirmar condiciones por teléfono o Facebook"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El directorio no precisa el periodo del beneficio",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en la entrada de Careva o por teléfono con tu identificación; confirma cuándo aplica.",
+    "sources": [
+      "https://www.balneariosenveracruz.com/index.php?q=careva",
+      "https://carevaenactopan.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "VER"
+    ],
+    "cities": [],
+    "locationNote": "Calle 16 de Septiembre 49A, Santa Cruz, Actopan, Veracruz (a ~30 min de Xalapa)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "balneario-la-cantera-tula-de-allende",
+    "brand": "Balneario La Cantera",
+    "category": "parques",
+    "benefit": "Cumpleañeros entran gratis con identificación",
+    "benefitType": "gratis",
+    "details": "El directorio Balnearios de Aguas Termales (cuya fuente declarada es el propio balneario) lista que los cumpleañeros entran gratis con algún documento o credencial que acredite su fecha de nacimiento. No aplica en excursiones ni en temporada de Semana Santa. El directorio no precisa si es el día o el mes, no tiene fecha de actualización y el sitio oficial del parque no abre, así que confirma por teléfono.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Documento o credencial que acredite la fecha de nacimiento",
+      "No aplica en excursiones",
+      "No aplica en Semana Santa"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El directorio no precisa el periodo; no aplica en Semana Santa",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en taquilla y pregunta si aplica hoy; informes al (773) 732 6406 o 103 3625.",
+    "sources": [
+      "https://www.balneariosdeaguastermales.com.mx/ajacuba-tula/balneario_la_cantera.html"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "HID"
+    ],
+    "cities": [],
+    "locationNote": "El Llano 2da Sección, Tula de Allende, Hidalgo; abre 24 h según el directorio",
+    "needsId": true,
+    "companions": null
+  }
+]

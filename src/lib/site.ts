@@ -1,6 +1,6 @@
 export const SITE = {
   name: "Cumplegratis",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://cumplegratis.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://cumplegratis.fun",
   tagline: "Todas las promos de cumpleaños de México en un solo lugar",
   description:
     "Café, pastel, cine, descuentos y regalos gratis en tu cumpleaños. Te decimos qué marcas regalan algo, dónde registrarte y hasta cuándo para cobrarlo todo.",
@@ -28,7 +28,7 @@ export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";
 export const LEGAL = {
   responsible: process.env.NEXT_PUBLIC_LEGAL_NAME ?? "Cumplegratis",
   address: process.env.NEXT_PUBLIC_LEGAL_ADDRESS ?? "México",
-  email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "privacidad@cumplegratis.com",
+  email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "privacidad@cumplegratis.fun",
   updated: "4 de octubre de 2026",
 };
 

@@ -27,7 +27,7 @@ export default function PromosPage() {
           fallback={
             <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {promos.map((p) => (
-                <li key={p.slug}>
+                <li key={p.slug} className="lazy-paint">
                   <PromoCard promo={p} />
                 </li>
               ))}

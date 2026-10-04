@@ -2,7 +2,7 @@
 // - Páginas: red primero (datos frescos), si falla usa la copia guardada y si no hay, /offline.
 // - /_next/static: nunca cambian (llevan hash) → caché primero.
 // - Imágenes, fuentes e íconos: copia guardada al instante y se actualiza por detrás.
-const VERSION = "cg-v2";
+const VERSION = "cg-v3";
 const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const PAGES = `${VERSION}-pages`;
 const STATIC = `${VERSION}-static`;

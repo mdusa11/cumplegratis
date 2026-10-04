@@ -28,15 +28,11 @@ export function StickerRow({ promos }: { promos: Promo[] }) {
               type="button"
               onTap={() => openPromo(p)}
               initial={{ scale: 0, rotate: TILT[i % TILT.length] - 25 }}
-              animate={{ scale: 1, rotate: TILT[i % TILT.length], y: [0, -6, 0] }}
-              transition={{
-                scale: { delay: 1.3 + i * 0.07, type: "spring", stiffness: 260, damping: 14 },
-                rotate: { delay: 1.3 + i * 0.07, type: "spring", stiffness: 260, damping: 14 },
-                y: { repeat: Infinity, duration: 2.6 + (i % 3) * 0.5, ease: "easeInOut", delay: i * 0.2 },
-              }}
+              animate={{ scale: 1, rotate: TILT[i % TILT.length] }}
+              transition={{ delay: 1.3 + i * 0.07, type: "spring", stiffness: 260, damping: 14 }}
               whileTap={{ scale: 0.92, rotate: 0 }}
-              className="shrink-0 rounded-2xl border-[2.5px] border-ink px-4 py-3 text-left shadow-hard"
-              style={{ background: COLORS[i % COLORS.length] }}
+              className="bob shrink-0 rounded-2xl border-[2.5px] border-ink px-4 py-3 text-left shadow-hard"
+              style={{ background: COLORS[i % COLORS.length], animationDuration: `${2.6 + (i % 3) * 0.5}s`, animationDelay: `${i * 0.2}s` }}
             >
               <span className="display block text-3xl whitespace-nowrap">{p.brand}</span>
               <span className="mt-1 flex items-center gap-2 text-xs font-bold">

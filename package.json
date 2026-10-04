@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "data": "node scripts/build-data.mjs"
+    "data": "node scripts/build-data.mjs",
+    "build:static": "STATIC_EXPORT=true next build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

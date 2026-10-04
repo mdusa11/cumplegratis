@@ -78,7 +78,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
         type="button"
         aria-label="Cerrar"
         onClick={onClose}
-        className="absolute inset-0 cursor-default bg-ink/55 backdrop-blur-sm"
+        className="absolute inset-0 cursor-default bg-ink/70 desk:bg-ink/55 desk:backdrop-blur-sm"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -242,7 +242,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
           initial={{ y: 80 }}
           animate={{ y: 0 }}
           transition={{ delay: 0.25, type: "spring", stiffness: 300, damping: 28 }}
-          className="absolute inset-x-0 bottom-0 flex gap-3 border-t-[2.5px] border-ink bg-paper/95 p-4 backdrop-blur sm:px-8"
+          className="absolute inset-x-0 bottom-0 flex gap-3 border-t-[2.5px] border-ink bg-paper/95 p-4 desk:backdrop-blur sm:px-8"
         >
           {promo.signupUrl && (
             <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-ink flex-1 !px-4 !text-lg">

@@ -97,7 +97,7 @@ function LocationSheet({ initial, onClose }: { initial: UserLocation | null; onC
         type="button"
         aria-label="Cerrar"
         onClick={onClose}
-        className="absolute inset-0 cursor-default bg-ink/60 backdrop-blur-sm"
+        className="absolute inset-0 cursor-default bg-ink/70 desk:bg-ink/60 desk:backdrop-blur-sm"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}

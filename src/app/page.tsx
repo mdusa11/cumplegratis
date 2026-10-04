@@ -10,6 +10,7 @@ import { jsonLd } from "@/lib/site";
 import { CITIES, type CitySlug } from "@/lib/places";
 import { ClipReveal, CountUp, Magnetic, TitleReveal } from "@/components/fx";
 import { SwipeDeck } from "@/components/SwipeDeck";
+import { GUIDES } from "@/lib/guides";
 import { GROUPS, groupOf, promos, stats, type GroupId } from "@/lib/promos";
 
 const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence === "alta");
@@ -134,7 +135,7 @@ export default function Home() {
             </Link>
           </Magnetic>
         </div>
-        <Marquee speed={2} className="mt-12 rotate-1 border-y-[2.5px] border-ink bg-lilac py-3">
+        <Marquee speed={35} className="mt-12 rotate-1 border-y-[2.5px] border-ink bg-lilac py-3">
           {TOP_CITIES.map((c) => (
             <Link
               key={c}
@@ -202,6 +203,22 @@ export default function Home() {
           </Reveal>
         </div>
       </ClipReveal>
+
+      <section className="mx-auto max-w-6xl px-5 pt-24 sm:px-8">
+        <p className="mono-tag">Guías</p>
+        <TitleReveal text="Saca *todo tu cumple" className="mt-3 text-[clamp(3rem,8vw,6.5rem)]" />
+        <div className="mt-8 grid gap-3 sm:grid-cols-2">
+          {GUIDES.map((g, i) => (
+            <Reveal key={g.slug} delay={(i % 2) * 0.06} y={20}>
+              <Link href={`/guias/${g.slug}`} className="card group flex items-center gap-4 bg-paper p-4 transition-[translate,box-shadow] hover:-translate-y-0.5 hover:shadow-hard-lg">
+                <span className="text-4xl transition-transform duration-300 group-hover:scale-125">{g.emoji}</span>
+                <span className="display text-2xl sm:text-3xl">{g.short}</span>
+                <span className="ml-auto text-2xl transition-transform group-hover:translate-x-1">→</span>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+      </section>
 
       <section id="faq" className="mx-auto max-w-5xl scroll-mt-28 px-5 py-28 sm:px-8">
         <p className="mono-tag">Preguntas</p>

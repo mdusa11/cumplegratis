@@ -11,6 +11,9 @@ import { BASE_PATH, cn } from "@/lib/site";
 
 type GroupFilter = GroupId | "todos";
 
+const LAYOUT_LIMIT = 36;
+const ANIMATED_ITEMS = 24;
+
 export function Catalog() {
   const params = useSearchParams();
   const initial = params.get("g");
@@ -83,7 +86,7 @@ export function Catalog() {
   return (
     <>
       {/* En móvil la barra no se queda pegada: con tantas opciones taparía media pantalla. */}
-      <div className="z-30 -mx-5 border-y-[2.5px] border-ink bg-paper/95 px-5 py-4 backdrop-blur-md sm:-mx-8 sm:px-8 lg:sticky lg:top-24">
+      <div className="z-30 -mx-5 border-y-[2.5px] border-ink bg-paper/95 px-5 py-4 desk:backdrop-blur-md sm:-mx-8 sm:px-8 lg:sticky lg:top-24">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <LayoutGroup id="groups">
             <div className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1" role="tablist" aria-label="Categoría">
@@ -215,16 +218,18 @@ export function Catalog() {
         )}
       </AnimatePresence>
 
-      <motion.ul layout className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        <AnimatePresence mode="popLayout">
-          {results.map((p) => (
+      {/* Reacomodo animado solo con listas cortas; con cientos de tarjetas mediría todas en cada filtro. */}
+      <motion.ul layout={results.length <= LAYOUT_LIMIT} className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <AnimatePresence mode="popLayout" initial={false}>
+          {results.map((p, i) => (
             <motion.li
               key={p.slug}
-              layout
-              initial={{ opacity: 0, scale: 0.85, y: 20 }}
+              layout={results.length <= LAYOUT_LIMIT}
+              initial={i < ANIMATED_ITEMS ? { opacity: 0, scale: 0.85, y: 20 } : false}
               animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.85 }}
+              exit={i < ANIMATED_ITEMS ? { opacity: 0, scale: 0.85 } : { opacity: 0, transition: { duration: 0 } }}
               transition={{ type: "spring", stiffness: 380, damping: 32 }}
+              className={i >= ANIMATED_ITEMS ? "lazy-paint" : undefined}
             >
               <PromoCard promo={p} />
             </motion.li>

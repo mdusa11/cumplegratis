@@ -31,7 +31,16 @@ export function Footer() {
           ]}
         />
         <div>
-          <FooterCol title="Ayuda" links={[["/promos#sugerir", "Sugerir una promo"], ["/#faq", "Preguntas frecuentes"]]} />
+          <FooterCol
+            title="Guías y ayuda"
+            links={[
+              ["/guias/que-te-regalan-en-tu-cumpleanos", "Qué te regalan en tu cumple"],
+              ["/guias/comida-gratis-en-tu-cumpleanos", "Comida gratis"],
+              ["/guias/como-cobrar-regalos-de-cumpleanos", "Cómo cobrarlo todo"],
+              ["/promos#sugerir", "Sugerir una promo"],
+              ["/#faq", "Preguntas frecuentes"],
+            ]}
+          />
           <button type="button" onClick={openInstall} className="mt-5 inline-flex items-center gap-2 rounded-full border-2 border-acid px-4 py-2 font-semibold text-acid transition-colors hover:bg-acid hover:text-ink">
             📲 Instalar la app
           </button>

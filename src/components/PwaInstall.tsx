@@ -175,7 +175,7 @@ function InstallGuide({ ios, canPrompt, onInstall, onClose }: { ios: boolean; ca
 
   return (
     <div className="fixed inset-0 z-[96] flex items-end justify-center md:items-center md:p-6" role="dialog" aria-modal aria-label="Cómo instalar Cumplegratis">
-      <motion.button type="button" aria-label="Cerrar" onClick={onClose} className="absolute inset-0 cursor-default bg-ink/60 backdrop-blur-sm" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} />
+      <motion.button type="button" aria-label="Cerrar" onClick={onClose} className="absolute inset-0 cursor-default bg-ink/70 desk:bg-ink/60 desk:backdrop-blur-sm" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} />
       <motion.div
         initial={{ y: "100%" }}
         animate={{ y: 0 }}

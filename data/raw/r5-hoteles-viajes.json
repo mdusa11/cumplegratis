@@ -1,0 +1,549 @@
+[
+  {
+    "slug": "camino-real-polanco-buffet-cumpleanos",
+    "brand": "Camino Real Polanco (buffet La Huerta)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis del cumpleañero con 5 comensales",
+    "benefitType": "gratis",
+    "details": "\"Tu mejor cumpleaños está aquí\": en tu mes de cumpleaños, con el consumo de 5 comensales (mayores de 18 años) el festejado no paga el buffet de desayuno (8:00 a 13:00) o de comida (13:30 a 17:30) en La Huerta, de lunes a sábado. Incluye 6 horas de estacionamiento y Wi-Fi sin costo. El sitio no aclara si los 5 comensales incluyen al festejado. Vigente hasta el 20 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-polanco-mexico/special-offers",
+    "requirements": [
+      "Ir con 5 comensales mayores de 18 años (el sitio no aclara si cuenta al festejado)",
+      "Identificación oficial vigente que compruebe el mes de cumpleaños",
+      "Lunes a sábado, 8:00 a 17:30 h (desayuno 8:00-13:00, comida 13:30-17:30)",
+      "Reservar al 55 5263 8821"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños, lunes a sábado; vigente hasta el 20 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 55 5263 8821 y presenta tu identificación oficial al llegar a La Huerta.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-polanco-mexico/special-offers",
+      "https://www.grupocaminoreal.com/en/camino-real/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Restaurante La Huerta del hotel Camino Real Polanco México (Ciudad de México)",
+    "needsId": true,
+    "companions": 5,
+    "validUntil": "2026-12-20"
+  },
+  {
+    "slug": "camino-real-guadalajara-cumpleanos",
+    "brand": "Camino Real Guadalajara (María Bonita y La Huerta)",
+    "category": "restaurantes",
+    "benefit": "Comida gratis del cumpleañero con 3 comensales",
+    "benefitType": "gratis",
+    "details": "\"Tu mejor celebración está aquí\": durante tu mes de cumpleaños, con la compra de 3 comidas de invitados, el festejado no paga en los restaurantes María Bonita o La Huerta, todos los días de 9:00 a 22:00 h. Requiere identificación oficial vigente y no es combinable con otras promociones. El sitio dice vigente hasta diciembre de 2026 sin precisar el día.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-guadalajara/special-offers",
+    "requirements": [
+      "Comprar 3 comidas de invitados",
+      "Identificación oficial vigente",
+      "Solo durante tu mes de cumpleaños",
+      "Todos los días de 9:00 a 22:00 h",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños, de 9:00 a 22:00 h; vigente hasta diciembre de 2026 (el sitio no da el día exacto)",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 33 3134 2424 ext. 8100 y presenta tu identificación oficial en María Bonita o La Huerta.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-guadalajara/special-offers",
+      "https://www.grupocaminoreal.com/en/camino-real/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara",
+      "zapopan"
+    ],
+    "locationNote": "Restaurantes María Bonita y La Huerta del hotel Camino Real Guadalajara",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "camino-real-pedregal-bistro-cumpleanos",
+    "brand": "Camino Real Pedregal (Bistro)",
+    "category": "restaurantes",
+    "benefit": "Consumo gratis del cumpleañero con 5 acompañantes",
+    "benefitType": "gratis",
+    "details": "\"Tu cumpleaños sabe bien en Bistro\": durante tu mes de cumpleaños, con mínimo 5 acompañantes el consumo del festejado es cortesía del restaurante Bistro del hotel. La promoción no aplica a menores de edad. Vigente hasta diciembre de 2026 (el sitio no da el día exacto); el sitio no detalla horarios ni si pide identificación.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-pedregal-mexico/special-offers",
+    "requirements": [
+      "Ir con mínimo 5 acompañantes",
+      "Solo durante tu mes de cumpleaños",
+      "No aplica a menores",
+      "Reservar al 55 5449 3650 ext. 8857",
+      "El sitio no detalla la identificación: lleva una para comprobar la fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños; vigente hasta diciembre de 2026 (el sitio no da el día exacto)",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 55 5449 3650 ext. 8857 (bistro.pedregal@caminoreal.com.mx) e indica que es tu cumpleaños.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-pedregal-mexico/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Restaurante Bistro del hotel Camino Real Pedregal México (Ciudad de México)",
+    "needsId": null,
+    "companions": 5,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "camino-real-monterrey-brunch-cumpleanos",
+    "brand": "Camino Real Fashion Drive Monterrey (Distrito Regio)",
+    "category": "restaurantes",
+    "benefit": "Brunch gratis del cumpleañero por cada 4 comensales",
+    "benefitType": "gratis",
+    "details": "Brunch dominical de Distrito Regio (domingos de 11:00 a 15:00, $630 por adulto): en tu mes de cumpleaños, por cada 4 comensales el consumo del festejado va por cuenta del hotel. Requiere identificación oficial vigente; no aplica en días festivos. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers",
+    "requirements": [
+      "Ir por cada 4 comensales (el festejado no paga)",
+      "Identificación oficial vigente que muestre el mes de cumpleaños",
+      "Solo domingos de 11:00 a 15:00 h",
+      "No aplica en días festivos",
+      "Reservar al 811 223 3200 ext. 8861 u 8865"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Domingos de tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026, no aplica en festivos",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 811 223 3200 ext. 8861/8865 y presenta tu identificación oficial en Distrito Regio.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Restaurante Distrito Regio del hotel Camino Real Fashion Drive Monterrey",
+    "needsId": true,
+    "companions": 4,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "camino-real-monterrey-desayuno-chicas-cumpleanos",
+    "brand": "Camino Real Fashion Drive Monterrey (desayuno entre chicas)",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis para la cumpleañera con 4 comensales",
+    "benefitType": "gratis",
+    "details": "\"Un plan de sabor especial con las chicas\": buffet de desayuno en la terraza de Distrito Regio (lunes a sábado de 9:00 a 12:00, $395 por persona). En tu mes de cumpleaños, con 4 comensales el consumo de la cumpleañera es cortesía. La promoción es válida solo para mujeres, con identificación oficial vigente; no aplica en días festivos. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers",
+    "requirements": [
+      "Solo para mujeres",
+      "Ir con 4 comensales",
+      "Identificación oficial vigente que muestre el mes de cumpleaños",
+      "Lunes a sábado de 9:00 a 12:00 h",
+      "No aplica en días festivos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Lunes a sábado en tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026, no aplica en festivos",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 811 223 3200 ext. 8865 y presenta tu identificación oficial en Distrito Regio.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Terraza de Distrito Regio del hotel Camino Real Fashion Drive Monterrey",
+    "needsId": true,
+    "companions": 4,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "quinta-real-aguascalientes-cumpleanos",
+    "brand": "Quinta Real Aguascalientes (Tierra Mía)",
+    "category": "restaurantes",
+    "benefit": "Brunch gratis + pastel y mimosa con 3 invitados",
+    "benefitType": "gratis",
+    "details": "\"Un cumpleaños inolvidable\": en el brunch dominical de Tierra Mía (domingos de 9:00 a 13:00, $475 por persona), durante tu mes de cumpleaños, con la compra de 3 invitados extra el festejado come gratis y recibe un pastel individual y una mimosa o copa de espumoso de la casa. Requiere identificación oficial vigente y no se combina con otras promociones. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/quinta-real-aguascalientes/special-offers",
+    "requirements": [
+      "Comprar 3 invitados extra",
+      "Identificación oficial vigente",
+      "Solo domingos de 9:00 a 13:00 h",
+      "Solo durante tu mes de cumpleaños",
+      "No combinable con otras promociones",
+      "Reservar al 449 978 5818 ext. 170"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Domingos de tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 449 978 5818 ext. 170 y presenta tu identificación oficial en Tierra Mía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/quinta-real-aguascalientes/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Restaurante Tierra Mía del hotel Quinta Real Aguascalientes",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "quinta-real-zacatecas-cumpleanos",
+    "brand": "Quinta Real Zacatecas (Tierra Mía)",
+    "category": "restaurantes",
+    "benefit": "Brunch gratis + pastel y mimosa con 4 adultos",
+    "benefitType": "gratis",
+    "details": "\"Un cumpleaños inolvidable\": en los brunch de sábado y domingo de Tierra Mía (de 7:00 a 13:00), durante tu mes de cumpleaños, si celebras con cuatro adultos que pagan, el festejado come por cuenta del hotel y recibe un pastel individual y una mimosa o copa de espumoso de la casa. Requiere identificación oficial vigente y no se combina con otras promociones. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/quinta-real-zacatecas/special-offers",
+    "requirements": [
+      "Ir con 4 adultos que pagan",
+      "Identificación oficial vigente",
+      "Solo sábados y domingos de 7:00 a 13:00 h",
+      "Solo durante tu mes de cumpleaños",
+      "No combinable con otras promociones",
+      "Reservar al 492 922 9104 ext. 610"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Sábados y domingos de tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 492 922 9104 ext. 610 (qrzac-capitanes@quintareal.com) y presenta tu identificación oficial en Tierra Mía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/quinta-real-zacatecas/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Restaurante Tierra Mía del hotel Quinta Real Zacatecas",
+    "needsId": true,
+    "companions": 4,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "quinta-real-huatulco-cumpleanos",
+    "brand": "Quinta Real Huatulco (Tierra Mía)",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis + pastel individual con 3 invitados",
+    "benefitType": "gratis",
+    "details": "\"Un cumpleaños inolvidable\": festeja con un desayuno en Tierra Mía; con la compra de 3 invitados extra el consumo del festejado es cortesía y recibes un pastel individual. Válido en tu mes de cumpleaños con identificación oficial vigente; excluye bebidas alcohólicas, grupos de 10 o más requieren reservación previa y no se combina con otras promociones. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/quinta-real-huatulco/special-offers",
+    "requirements": [
+      "Comprar 3 invitados extra",
+      "Identificación oficial vigente",
+      "Solo durante tu mes de cumpleaños",
+      "No incluye bebidas alcohólicas",
+      "Grupos de 10 o más: reservación previa",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños (desayuno); vigente hasta el 31 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 958 136 8286 (gmartinez@quintareal.com) y presenta tu identificación oficial en Tierra Mía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/quinta-real-huatulco/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "OAX"
+    ],
+    "cities": [
+      "huatulco"
+    ],
+    "locationNote": "Restaurante Tierra Mía del hotel Quinta Real Huatulco (distinto de la amenidad de cuarto ya registrada para Camino Real/Quinta Real Huatulco)",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "hs-hotsson-leon-los-vitrales-lady-gourmet-club",
+    "brand": "HS HOTSSON León: Los Vitrales (Lady Gourmet Club)",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía en tu cena de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "La página oficial del restaurante Los Vitrales del hotel HS HOTSSON León lista, entre los beneficios del programa Lady Gourmet Club (dirigido a comensales mujeres frecuentes), una botella de vino de cortesía en la cena de cumpleaños; el mismo programa da 40% en el desayuno buffet (lunes a viernes de 10 a 12 h) y 20% en comidas y cenas (todos los días de 13 a 24 h). El sitio pide consultar condiciones y restricciones con el personal y no publica requisitos de consumo ni si aplica el día o el mes.",
+    "program": "Lady Gourmet Club (HS HOTSSON)",
+    "signupUrl": "https://www.hotsson.com/hoteles/leon-poliforum/servicios/146",
+    "requirements": [
+      "Ser socia del Lady Gourmet Club",
+      "Registro: pide tu tarjeta provisional al personal de Los Vitrales en tu próxima visita",
+      "Aplica en la cena de cumpleaños",
+      "Condiciones y restricciones: consultar con el personal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: confirma si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu tarjeta provisional en Los Vitrales, regístrate y avisa al reservar tu cena de cumpleaños.",
+    "sources": [
+      "https://www.hotsson.com/hoteles/leon-poliforum/servicios/146"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "leon"
+    ],
+    "locationNote": "Restaurante Los Vitrales del hotel HS HOTSSON León, Blvd. Adolfo López Mateos 1102 Oriente, Los Gavilanes. El programa también existe en HS HOTSSON Irapuato (ya registrado)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "hs-hotsson-silao-los-vitrales-lady-gourmet-club",
+    "brand": "HS HOTSSON Silao: Los Vitrales (Lady Gourmet Club)",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía en tu cena de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "La página oficial del restaurante Los Vitrales del hotel HS HOTSSON Silao lista, entre los beneficios del programa Lady Gourmet Club (dirigido a comensales mujeres frecuentes), una botella de vino de cortesía en la cena de cumpleaños; el mismo programa da 40% en el desayuno buffet (lunes a viernes de 10 a 12 h) y 20% en comidas y cenas (todos los días de 13 a 24 h). El sitio pide consultar condiciones y restricciones con el personal y no publica requisitos de consumo ni si aplica el día o el mes.",
+    "program": "Lady Gourmet Club (HS HOTSSON)",
+    "signupUrl": "https://www.hotsson.com/hoteles/silao-libramiento/servicios/232",
+    "requirements": [
+      "Ser socia del Lady Gourmet Club",
+      "Registro: pide tu tarjeta provisional al personal de Los Vitrales en tu próxima visita",
+      "Aplica en la cena de cumpleaños",
+      "Condiciones y restricciones: consultar con el personal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: confirma si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu tarjeta provisional en Los Vitrales, regístrate y avisa al reservar tu cena de cumpleaños.",
+    "sources": [
+      "https://www.hotsson.com/hoteles/silao-libramiento/servicios/232"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "silao"
+    ],
+    "locationNote": "Restaurante Los Vitrales del hotel HS HOTSSON Silao, Carretera Libramiento Norte 1335, Sopeña. El programa también existe en HS HOTSSON Irapuato (ya registrado)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "hs-hotsson-queretaro-los-vitrales-lady-gourmet-club",
+    "brand": "HS HOTSSON Querétaro: Los Vitrales (Lady Gourmet Club)",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía en tu cena de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "La página oficial del restaurante Los Vitrales del hotel HS HOTSSON Querétaro lista, entre los beneficios del programa Lady Gourmet Club (dirigido a comensales mujeres frecuentes), una botella de vino de cortesía en la cena de cumpleaños; el mismo programa da 40% en el desayuno buffet (lunes a viernes de 10 a 12 h) y 20% en comidas y cenas (todos los días de 13 a 24 h). El sitio pide consultar condiciones y restricciones con el personal y no publica requisitos de consumo ni si aplica el día o el mes.",
+    "program": "Lady Gourmet Club (HS HOTSSON)",
+    "signupUrl": "https://www.hotsson.com/hoteles/queretaro-centro/servicios/241",
+    "requirements": [
+      "Ser socia del Lady Gourmet Club",
+      "Registro: pide tu tarjeta provisional al personal de Los Vitrales en tu próxima visita",
+      "Aplica en la cena de cumpleaños",
+      "Condiciones y restricciones: consultar con el personal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: confirma si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu tarjeta provisional en Los Vitrales, regístrate y avisa al reservar tu cena de cumpleaños.",
+    "sources": [
+      "https://www.hotsson.com/hoteles/queretaro-centro/servicios/241"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Restaurante Los Vitrales del hotel HS HOTSSON Querétaro, Blvd. Bernardo Quintana Sur 8300, Centro Sur. El programa también existe en HS HOTSSON Irapuato (ya registrado)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "riu-class-cumpleanos",
+    "brand": "RIU Class (hoteles RIU en México)",
+    "category": "viajes",
+    "benefit": "Sorpresa de cumpleaños para socios del programa RIU Class",
+    "benefitType": "gratis",
+    "details": "La página oficial de beneficios de RIU Class (membresía gratuita de RIU Hotels & Resorts) lista \"una sorpresa en tu cumpleaños\" entre los beneficios de los socios. RIU no publica en qué consiste el regalo, si hay que estar hospedado ese día ni condiciones; solo remite a un enlace de más información. RIU tiene hoteles en Cancún, Playa del Carmen, Riviera Nayarit, Los Cabos, Mazatlán y Guadalajara.",
+    "program": "RIU Class",
+    "signupUrl": "https://www.riu.com/es/riu-class/beneficios",
+    "requirements": [
+      "Ser socio de RIU Class (registro gratuito)",
+      "El sitio no publica condiciones del regalo: confirma con el hotel o en tu cuenta"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: RIU no indica si es el día, el mes o durante una estancia",
+    "minPurchase": null,
+    "howToClaim": "Regístrate gratis en riu.com como socio RIU Class con tu fecha de nacimiento y consulta el regalo en tu cuenta o con el hotel.",
+    "sources": [
+      "https://www.riu.com/es/riu-class/beneficios"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "ROO",
+      "NAY",
+      "BCS",
+      "SIN",
+      "JAL"
+    ],
+    "cities": [
+      "cancun",
+      "playa-del-carmen",
+      "los-cabos",
+      "mazatlan",
+      "guadalajara"
+    ],
+    "locationNote": "Programa global; en México aplica a hoteles RIU en Cancún, Playa del Carmen, Riviera Nayarit, Los Cabos, Mazatlán y Guadalajara",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "amigo-milenium-cumpleanos",
+    "brand": "Amigo Milenium (restaurantes y hoteles Milenium)",
+    "category": "restaurantes",
+    "benefit": "Postre gratis + descuento igual a tu edad (máx. 50%)",
+    "benefitType": "descuento",
+    "details": "Los socios del programa gratuito Amigo Milenium reciben en restaurantes y bares participantes un postre exclusivo de cumpleaños y un descuento sobre el total de la cuenta igual a sus años cumplidos, con tope de 50%. Aplica desde 15 días antes hasta 15 días después de tu cumpleaños, todos los días en desayuno, comida o cena, solo 1 beneficio por visita y máximo 15 personas por mesa. Hay que presentar la Tarjeta Milenium y una identificación oficial; el beneficio de edad es solo en restaurantes (no en hospedaje).",
+    "program": "Amigo Milenium",
+    "signupUrl": "https://www.tarjetamilenium.com/digital/Registro.aspx?IdB=lkKEYpHX4Gg=",
+    "requirements": [
+      "Registro gratuito en Amigo Milenium (tarjeta digital)",
+      "Presentar la Tarjeta Milenium y una identificación oficial",
+      "Válido desde 15 días antes hasta 15 días después de tu cumpleaños",
+      "Solo 1 beneficio por visita (no se combina con el 15% ni el 2x1)",
+      "Máximo 15 personas por mesa",
+      "Solo en restaurantes y bares participantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Desde 15 días antes hasta 15 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en tarjetamilenium.com y presenta tu tarjeta digital con identificación oficial en un restaurante participante.",
+    "sources": [
+      "https://www.amigomilenium.com/",
+      "https://www.amigomilenium.com/terminos"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE",
+      "COA",
+      "GUA",
+      "BCN",
+      "TAM",
+      "CHH"
+    ],
+    "cities": [
+      "monterrey",
+      "torreon",
+      "guanajuato",
+      "silao",
+      "tijuana",
+      "ciudad-victoria",
+      "ciudad-juarez"
+    ],
+    "locationNote": "Restaurantes de MS Milenium Curio, Crowne Plaza y Holiday Inn (Monterrey, Torreón, Silao, Tijuana), iStay, La Montaña, La Cava, Arowana, Continentes y La Faraona; la lista completa está en el sitio. También hay un Wyndham Garden en McAllen, Texas (fuera de México)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "brisas-rewards-galeria-plaza-cumpleanos",
+    "brand": "Brisas Rewards Siente+ (Galería Plaza y Las Brisas)",
+    "category": "viajes",
+    "benefit": "Tarifa de cumpleaños y sorpresas en tu mes (Brisas Rewards)",
+    "benefitType": "descuento",
+    "details": "Los socios del programa gratuito Brisas Rewards Siente+ reciben \"sorpresas y ventajas especiales\" en su mes de cumpleaños. Según los términos del programa, la Tarifa de Cumpleaños es una tarifa exclusiva para socios registrados, válida para una sola estancia en el mes de cumpleaños (una habitación), con identificación oficial; no aplica a estancias largas y hay fechas bloqueadas. No se publica el porcentaje de descuento.",
+    "program": "Brisas Rewards Siente+",
+    "signupUrl": "https://reservas.brisas.com.mx/account/register",
+    "requirements": [
+      "Registrarte gratis como socio Brisas Rewards Siente+",
+      "Una sola estancia y una habitación en tu mes de cumpleaños",
+      "Identificación oficial",
+      "No aplica a estancias largas; hay fechas bloqueadas",
+      "Reservar por los canales de Grupo Brisas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Estancia dentro de tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en brisas.com.mx, reserva con tu cuenta de socio la Tarifa de Cumpleaños y presenta tu identificación oficial al hospedarte.",
+    "sources": [
+      "https://www.galeriaplazahotels.com.mx/es/brisas-rewards/",
+      "https://www.brisas.com.mx/en/brisas-rewards/",
+      "https://reserve.brisas.com.mx/terminos-y-condiciones-brisas-siente"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "VER",
+      "GUA",
+      "NLE"
+    ],
+    "cities": [
+      "cdmx",
+      "veracruz",
+      "irapuato",
+      "monterrey",
+      "leon"
+    ],
+    "locationNote": "Hoteles Galería Plaza (Reforma y San Jerónimo en CDMX, Veracruz, Irapuato, Monterrey, León) y hoteles Las Brisas del mismo grupo; no pude abrir directo los términos, así que confirma qué hoteles y tarifas aplican",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  }
+]

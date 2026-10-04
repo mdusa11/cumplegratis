@@ -73,7 +73,7 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
         <p className="mt-3 text-lg font-medium">Cadenas que todos conocen y que también aplican en {name}.</p>
         <ul className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {national.map((p) => (
-            <li key={p.slug}>
+            <li key={p.slug} className="lazy-paint">
               <PromoCard promo={p} />
             </li>
           ))}
@@ -86,7 +86,7 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
           <p className="mt-3 text-lg font-medium">Negocios locales y cadenas regionales: las que casi nadie conoce.</p>
           <ul className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {local.map((p) => (
-              <li key={p.slug}>
+              <li key={p.slug} className="lazy-paint">
                 <PromoCard promo={p} />
               </li>
             ))}

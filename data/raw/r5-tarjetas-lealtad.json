@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "bp-bpme-rewards",
+    "brand": "BP (BPme Rewards)",
+    "category": "servicios",
+    "benefit": "150 puntos BPme ($15) en tu primera carga del mes",
+    "benefitType": "regalo-con-compra",
+    "details": "Con cuenta activa en BPme Rewards, tu primera carga de combustible bp durante tu mes de cumpleaños te da un bono de 150 Puntos BPme Rewards. Debes dar tu número de teléfono registrado al pagar; cada punto equivale a $0.10 (150 puntos = $15) y se canjea por más combustible en bp. La página oficial no detalla tope, vigencia ni cuándo se abonan los puntos.",
+    "program": "BPme Rewards",
+    "signupUrl": "https://www.bpmerewards.com.mx/",
+    "requirements": [
+      "Cuenta activa en BPme Rewards (registro gratis con tu celular)",
+      "Primera carga de combustible bp dentro de tu mes de cumpleaños",
+      "Dar tu número de teléfono registrado en la terminal al pagar",
+      "Solo estaciones bp participantes en el programa"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Primera carga de combustible bp durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en bpmerewards.com.mx con tu celular (confirma que tu fecha de nacimiento esté capturada). En tu mes de cumpleaños haz tu primera carga de combustible en una estación bp participante y da tu número de teléfono al pagar; el bono de 150 puntos se acredita conforme a los tiempos del programa y lo canjeas por más combustible.",
+    "sources": [
+      "https://www.bp.com/es_mx/mexico/home/products-and-services/bpme_rewards/promociones-.html",
+      "https://www.bp.com/es_mx/mexico/home/products-and-services/bpme_rewards.html",
+      "https://www.bp.com/content/dam/bp/country-sites/es_mx/mexico/home/PROMO%20CON%20BP%20ME%20LLEVA%20A%20LAS%20VEGAS.pdf"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo estaciones bp participantes en BPme Rewards; el listado de estados varía, confirma tu estación en bp.com/es_mx",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "sears-tarjeta-magica-ninos",
+    "brand": "Sears Tarjeta Mágica (niños)",
+    "category": "departamentales",
+    "benefit": "Cupón de 10% de descuento por el cumpleaños del niño",
+    "benefitType": "descuento",
+    "details": "La Tarjeta Mágica Sears (para niños de 0 a 16 años; los papás le abonan saldo) incluye un cupón de 10% de descuento por su cumpleaños, válido solo al presentarlo junto con la tarjeta vigente. Además, manda una carta de felicitación en el mes del cumpleaños si el niño resulta sorteado. Beneficio exclusivo de tienda física en los departamentos participantes (Niños, Niñas, Bebés, Calzado infantil, Juguetería, Dulcería, Deportes, Decoración, Equipaje, Blancos, entre otros). La página oficial no publica vigencia del cupón ni cómo se entrega.",
+    "program": "Tarjeta Mágica Sears",
+    "signupUrl": "https://www.sears.com.mx/c/tarjeta-magica/",
+    "requirements": [
+      "Tarjeta Mágica Sears vigente (niños de 0 a 16 años)",
+      "Presentar el cupón de cumpleaños junto con la tarjeta",
+      "Solo tienda física y departamentos participantes",
+      "La carta de felicitación del mes de cumpleaños es por sorteo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El cupón es por su cumpleaños (vigencia no publicada); la carta de felicitación llega en el mes del cumpleaños si resulta sorteado",
+    "minPurchase": null,
+    "howToClaim": "Solicita la tarjeta en el área de cajas de un departamento participante, llena la solicitud y recibe la Tarjeta Mágica en esa misma tienda; los papás abonan saldo en cajas. Para el cumpleaños, presenta el cupón de 10% junto con la tarjeta vigente (la página no explica cómo llega el cupón; pregunta en cajas o servicio al cliente).",
+    "sources": [
+      "https://www.sears.com.mx/c/tarjeta-magica/"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo en tiendas físicas Sears (no en línea)",
+    "needsId": false,
+    "companions": null
+  }
+]

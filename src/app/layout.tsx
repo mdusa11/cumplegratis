@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { PwaInstall } from "@/components/PwaInstall";
-import { SITE } from "@/lib/site";
+import { SITE, jsonLd } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   applicationName: "Cumplegratis",
   appleWebApp: { capable: true, title: "Cumplegratis", statusBarStyle: "default" },
   formatDetection: { telephone: false },
+  // Search Console / Bing: pega el código en .env (o verifica el dominio por DNS en Cloudflare y deja esto vacío).
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
+    other: process.env.NEXT_PUBLIC_BING_VERIFICATION ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION } : undefined,
+  },
   alternates: { canonical: "/" },
 };
 
@@ -35,6 +40,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="es-MX" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
       <body>
         <Providers>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={jsonLd([
+              { "@context": "https://schema.org", "@type": "Organization", name: SITE.name, url: SITE.url, logo: `${SITE.url}/icons/icon-512.png` },
+              { "@context": "https://schema.org", "@type": "WebSite", name: SITE.name, url: SITE.url, inLanguage: "es-MX", description: SITE.description },
+            ])}
+          />
           <ScrollProgress />
           <FloatingCTA />
           <PwaInstall />

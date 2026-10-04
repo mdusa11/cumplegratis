@@ -16,7 +16,7 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: at("/?app=1"),
     scope: at("/"),
     display: "standalone",
-    orientation: "portrait",
+    orientation: "any",
     background_color: "#f3f0e8",
     theme_color: "#c6ff00",
     categories: ["lifestyle", "shopping", "food"],

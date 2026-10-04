@@ -68,7 +68,7 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
 
       <ul className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((p) => (
-          <li key={p.slug}>
+          <li key={p.slug} className="lazy-paint">
             <PromoCard promo={p} />
           </li>
         ))}

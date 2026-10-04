@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "lenis/dist/lenis.css";
 
+/* Efectos caros (scroll horizontal fijado, parallax, desenfoques) solo en escritorio con mouse. */
+@custom-variant desk (@media (min-width: 64rem) and (hover: hover) and (pointer: fine));
+
 @theme {
   --color-ink: #0b0b0b;
   --color-ink-2: #1d1d1b;
@@ -52,15 +55,16 @@ body {
   border-radius: 6px;
 }
 
-/* Grano de papel sobre todo el sitio: le quita lo "plano" al color sólido. */
+/* Grano de papel sobre todo el sitio: le quita lo "plano" al color sólido.
+   Sin mix-blend-mode: con él, el navegador redibuja toda la pantalla en cada cuadro del scroll. */
 body::after {
   content: "";
   position: fixed;
   inset: 0;
   z-index: 90;
   pointer-events: none;
-  opacity: 0.08;
-  mix-blend-mode: multiply;
+  opacity: 0.05;
+  transform: translateZ(0);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
@@ -132,6 +136,21 @@ body::after {
   background: var(--color-acid);
   transform-origin: top;
   animation: curtain 0.65s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+/* Flotar en CSS: corre en el compositor (GPU) y no en el hilo principal. */
+@keyframes bob {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -6px; }
+}
+.bob {
+  animation: bob 2.8s ease-in-out infinite;
+}
+
+/* Las listas largas solo se dibujan cuando están cerca de la pantalla. */
+.lazy-paint {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 440px;
 }
 
 @keyframes curtain {
