@@ -68,11 +68,11 @@
     "category": "belleza",
     "benefit": "Regalo de cumpleaños al comprar en tu mes",
     "benefitType": "regalo-con-compra",
-    "details": "Al registrarte en Lancômmunity recibes por correo un código para reclamar un regalo de cumpleaños al comprar durante tu mes de cumpleaños. Promoción por tiempo limitado y hasta agotar existencias; puede no acumularse con otras promociones. No se detalla el regalo ni el monto mínimo de compra.",
+    "details": "Al registrarte en Lancômmunity y actualizar tu perfil con tu fecha de nacimiento, recibes por correo un código para reclamar un regalo de cumpleaños al comprar durante tu mes de cumpleaños. Promoción por tiempo limitado y hasta agotar existencias; puede no acumularse con otras promociones. No se detalla el regalo ni el monto mínimo de compra.",
     "program": "Lancômmunity",
     "signupUrl": "https://www.lancome.com.mx/",
     "requirements": [
-      "Registro en Lancômmunity",
+      "Registro en Lancômmunity con fecha de nacimiento",
       "Presentar el código recibido por correo",
       "Compra durante tu mes de cumpleaños",
       "Sujeto a existencias"
@@ -238,6 +238,70 @@
       "monterrey"
     ],
     "locationNote": "Sucursales en el área metropolitana de Monterrey: Galerías Monterrey, Park Point, Plaza Esfera, Punto Valle y Only Nails & Beauty Calzada",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "elemental-beauty-center",
+    "brand": "Elemental Beauty Center",
+    "category": "belleza",
+    "benefit": "15% en depilación láser o facial en tu mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Durante tu mes de cumpleaños obtienes 15% de descuento en cualquier tratamiento de depilación láser o de rejuvenecimiento facial. Debes presentar tu identificación o tarjeta de cliente en el momento de la cita; la página no menciona compra mínima ni vigencia adicional.",
+    "program": null,
+    "signupUrl": "https://elementalbc.com.mx/reserva-tu-cita-de-belleza-en-ciudad-de-mexico",
+    "requirements": [
+      "Presentar identificación o tarjeta de cliente en la cita",
+      "Aplica solo a depilación láser y rejuvenecimiento facial",
+      "Agendar cita y realizar el tratamiento en tu mes de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu cita en elementalbc.com.mx y presenta tu INE o tarjeta de cliente en la sucursal.",
+    "sources": [
+      "https://elementalbc.com.mx/promociones",
+      "https://elementalbc.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Sucursales en CDMX y Edomex: Coacalco, Coyoacán, Valle Dorado, Nezahualcóyotl, Encuentro Oceanía y Cuautitlán Izcalli (el sitio habla de 7 sucursales)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "la-mer-mexico",
+    "brand": "La Mer México",
+    "category": "belleza",
+    "benefit": "Sorpresa de cumpleaños para miembros Waves de La Mer",
+    "benefitType": "gratis",
+    "details": "El programa de lealtad Waves de La Mer incluye una sorpresa de cumpleaños entre sus beneficios para miembros. Acumulas 1 punto por cada peso gastado, se canjean por productos de tamaño completo y te inscribes automáticamente al gastar $7,500 (acumulados o en tu primera compra). El sitio consultado no detalla qué es la sorpresa ni cómo se entrega.",
+    "program": "Waves de La Mer",
+    "signupUrl": "https://www.lamer.com.mx/loyalty-program/waves-de-la-mer",
+    "requirements": [
+      "Ser miembro de Waves de La Mer (inscripción automática al gastar $7,500)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificada en la fuente",
+    "minPurchase": 7500,
+    "howToClaim": "Se te inscribe al alcanzar $7,500 de compras en lamer.com.mx o en punto de venta; confirma con La Mer cómo se entrega la sorpresa de cumpleaños.",
+    "sources": [
+      "https://www.lamer.com.mx/loyalty-program/waves-de-la-mer"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea lamer.com.mx y puntos de venta La Mer; el programa aplica en tienda y en línea",
     "needsId": false,
     "companions": null
   }

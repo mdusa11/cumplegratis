@@ -349,7 +349,7 @@
     "signupUrl": "https://tienda.borgatta.com.mx/",
     "requirements": [
       "Tener cuenta en tienda.borgatta.com.mx inscrita al programa",
-      "Nivel Esmeralda desde $0; Platino $30,000, Diamante $70,000, Black $150,000",
+      "Niveles: Esmeralda $0, Platino $30,000, Diamante $70,000, Black $150,000",
       "Canje solo en la tienda en línea (convertir BOPS en cupón)",
       "BOPS vigentes 13 meses desde que se generan"
     ],
@@ -381,7 +381,7 @@
     "requirements": [
       "Ser socio gratuito de Club Lacoste con fecha de cumpleaños",
       "Solo la primera compra online del mes de cumpleaños",
-      "No aplica en colecciones especiales, colaboraciones, lentes, relojes ni fragancias",
+      "No aplica en colecciones especiales, colaboraciones, lentes ni relojes",
       "No acumulable con otras promociones"
     ],
     "registerDaysBefore": null,
@@ -398,6 +398,70 @@
     "states": [],
     "cities": [],
     "locationNote": "Solo compra en línea (lacoste.com/mx); dato de fuente no oficial",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "rapsodia-mexico",
+    "brand": "Rapsodia México",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños en línea; 20% o 25% en niveles Loyalty",
+    "benefitType": "descuento",
+    "details": "Al registrarte al newsletter de Rapsodia México recibes por correo un código personal con una promoción válida en el mes de tu cumpleaños, para una sola compra en rapsodia.com.mx (exclusivo en línea, único e intransferible, no aplica con otras promociones); los T&C no publican el monto y sitios de cupones citan 20%. Además, el programa Rapsodia Loyalty da 20% (Member, compras de más de $50,000 en 2026) o 25% (VIP, más de $100,000) en el mes de cumpleaños, en producto de precio regular, en tiendas Rapsodia y en línea.",
+    "program": "Newsletter y Rapsodia Loyalty",
+    "signupUrl": "https://www.rapsodia.com.mx/",
+    "requirements": [
+      "Registrarte al newsletter con tu fecha de cumpleaños",
+      "Una sola compra en el mes de tu cumpleaños",
+      "Cupón de newsletter solo en rapsodia.com.mx",
+      "Solo producto de precio regular; no acumulable con otras promos",
+      "Niveles Loyalty: $50,000 (Member) o $100,000 (VIP) de compras"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de tu cumpleaños, en una sola compra",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete al newsletter en rapsodia.com.mx; el código llega por correo y lo aplicas al pagar en línea en tu mes de cumpleaños (miembros Loyalty también en tienda).",
+    "sources": [
+      "https://www.rapsodia.com.mx/terminos-y-condiciones",
+      "https://www.rapsodia.com.mx/loyalty"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón de newsletter solo en línea; beneficio Loyalty en boutiques Rapsodia y rapsodia.com.mx",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "arella-mexico",
+    "brand": "Arella",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños en línea (monto no publicado)",
+    "benefitType": "descuento",
+    "details": "Arella envía por correo un código personal de cumpleaños a quien se registra en 'Mi Cuenta' de arella.com.mx. La promoción es válida en el mes de tu cumpleaños, solo en la tienda en línea, con cupón único e intransferible que no aplica con otras promociones ni descuentos; los T&C no publican el monto ni una fecha de vigencia.",
+    "program": null,
+    "signupUrl": "https://arella.com.mx/",
+    "requirements": [
+      "Crear tu cuenta en arella.com.mx con tu fecha de cumpleaños",
+      "Solo válido en línea (arella.com.mx)",
+      "Cupón único e intransferible",
+      "No aplica con otras promociones ni descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en Mi Cuenta de arella.com.mx; el código llega por correo y lo aplicas al pagar en línea en tu mes de cumpleaños.",
+    "sources": [
+      "https://arella.com.mx/terminos-y-condiciones"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo tienda en línea arella.com.mx (envíos a México)",
     "needsId": false,
     "companions": null
   }

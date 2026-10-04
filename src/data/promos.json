@@ -4161,7 +4161,7 @@
     "category": "restaurantes",
     "benefit": "$200 de descuento con Wow Rewards",
     "benefitType": "descuento",
-    "details": "Listados comunitarios de cumpleaños (Promodescuentos, ene-abr 2026) indican $200 de descuento en tu mes de cumpleaños para socios Wow Rewards (Alsea), con consumo mínimo. P.F. Chang's participa en Wow+ según la app oficial, y Italianni's confirma la misma mecánica ($200 con consumo mínimo de $500), pero P.F. Chang's no publica la promo en su sitio.",
+    "details": "Socios de Wow+ (Alsea) reciben por correo, los primeros días de su mes de cumpleaños, un cupón de $200 con consumo mínimo de $600. Requiere fecha de nacimiento en el registro e identificación; no aplica en sucursales en franquicia.",
     "program": "Wow Rewards (Wow+)",
     "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
     "requirements": [
@@ -4171,14 +4171,12 @@
     "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Durante el mes de tu cumpleaños",
-    "minPurchase": null,
+    "minPurchase": 600,
     "howToClaim": "Muestra tu cuenta Wow+ al pedir la cuenta; confirma la mecánica y el monto mínimo en la sucursal.",
     "sources": [
-      "https://www.promodescuentos.com/ofertas/regalos-cupones-y-descuentos-de-cumpleanos-en-abril-2026-1148393",
-      "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
-      "https://www.italiannis.com.mx/preguntas-frecuentes-italiannis/"
+      "https://www.wow-plus.com/pages/terminos-y-condiciones.html"
     ],
-    "confidence": "baja",
+    "confidence": "media",
     "coverage": "nacional",
     "states": [],
     "cities": [],
@@ -4193,7 +4191,7 @@
     "category": "restaurantes",
     "benefit": "$200 de descuento con Wow Rewards",
     "benefitType": "descuento",
-    "details": "Listados comunitarios de cumpleaños (Promodescuentos, ene-abr 2026) indican $200 de descuento en tu mes de cumpleaños para socios Wow Rewards (Alsea), con consumo mínimo. The Cheesecake Factory participa en Wow+ según la app oficial, y Italianni's confirma la misma mecánica ($200 con consumo mínimo de $500), pero la marca no publica la promo en su sitio.",
+    "details": "Socios de Wow+ (Alsea) reciben por correo, los primeros días de su mes de cumpleaños, un cupón de $200 con consumo mínimo de $600. Requiere fecha de nacimiento en el registro e identificación; no aplica en sucursales en franquicia.",
     "program": "Wow Rewards (Wow+)",
     "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
     "requirements": [
@@ -4203,14 +4201,12 @@
     "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Durante el mes de tu cumpleaños",
-    "minPurchase": null,
+    "minPurchase": 600,
     "howToClaim": "Muestra tu cuenta Wow+ al pedir la cuenta; confirma la mecánica y el monto mínimo en la sucursal.",
     "sources": [
-      "https://www.promodescuentos.com/ofertas/regalos-cupones-y-descuentos-de-cumpleanos-en-abril-2026-1148393",
-      "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
-      "https://www.italiannis.com.mx/preguntas-frecuentes-italiannis/"
+      "https://www.wow-plus.com/pages/terminos-y-condiciones.html"
     ],
-    "confidence": "baja",
+    "confidence": "media",
     "coverage": "nacional",
     "states": [],
     "cities": [],
@@ -13716,11 +13712,11 @@
     "category": "belleza",
     "benefit": "Regalo de cumpleaños al comprar en tu mes",
     "benefitType": "regalo-con-compra",
-    "details": "Al registrarte en Lancômmunity recibes por correo un código para reclamar un regalo de cumpleaños al comprar durante tu mes de cumpleaños. Promoción por tiempo limitado y hasta agotar existencias; puede no acumularse con otras promociones. No se detalla el regalo ni el monto mínimo de compra.",
+    "details": "Al registrarte en Lancômmunity y actualizar tu perfil con tu fecha de nacimiento, recibes por correo un código para reclamar un regalo de cumpleaños al comprar durante tu mes de cumpleaños. Promoción por tiempo limitado y hasta agotar existencias; puede no acumularse con otras promociones. No se detalla el regalo ni el monto mínimo de compra.",
     "program": "Lancômmunity",
     "signupUrl": "https://www.lancome.com.mx/",
     "requirements": [
-      "Registro en Lancômmunity",
+      "Registro en Lancômmunity con fecha de nacimiento",
       "Presentar el código recibido por correo",
       "Compra durante tu mes de cumpleaños",
       "Sujeto a existencias"
@@ -13895,6 +13891,72 @@
     "validUntil": null
   },
   {
+    "slug": "elemental-beauty-center",
+    "brand": "Elemental Beauty Center",
+    "category": "belleza",
+    "benefit": "15% en depilación láser o facial en tu mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Durante tu mes de cumpleaños obtienes 15% de descuento en cualquier tratamiento de depilación láser o de rejuvenecimiento facial. Debes presentar tu identificación o tarjeta de cliente en el momento de la cita; la página no menciona compra mínima ni vigencia adicional.",
+    "program": null,
+    "signupUrl": "https://elementalbc.com.mx/reserva-tu-cita-de-belleza-en-ciudad-de-mexico",
+    "requirements": [
+      "Presentar identificación o tarjeta de cliente en la cita",
+      "Aplica solo a depilación láser y rejuvenecimiento facial",
+      "Agendar cita y realizar el tratamiento en tu mes de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu cita en elementalbc.com.mx y presenta tu INE o tarjeta de cliente en la sucursal.",
+    "sources": [
+      "https://elementalbc.com.mx/promociones",
+      "https://elementalbc.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Sucursales en CDMX y Edomex: Coacalco, Coyoacán, Valle Dorado, Nezahualcóyotl, Encuentro Oceanía y Cuautitlán Izcalli (el sitio habla de 7 sucursales)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "la-mer-mexico",
+    "brand": "La Mer México",
+    "category": "belleza",
+    "benefit": "Sorpresa de cumpleaños para miembros Waves de La Mer",
+    "benefitType": "gratis",
+    "details": "El programa de lealtad Waves de La Mer incluye una sorpresa de cumpleaños entre sus beneficios para miembros. Acumulas 1 punto por cada peso gastado, se canjean por productos de tamaño completo y te inscribes automáticamente al gastar $7,500 (acumulados o en tu primera compra). El sitio consultado no detalla qué es la sorpresa ni cómo se entrega.",
+    "program": "Waves de La Mer",
+    "signupUrl": "https://www.lamer.com.mx/loyalty-program/waves-de-la-mer",
+    "requirements": [
+      "Ser miembro de Waves de La Mer (inscripción automática al gastar $7,500)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificada en la fuente",
+    "minPurchase": 7500,
+    "howToClaim": "Se te inscribe al alcanzar $7,500 de compras en lamer.com.mx o en punto de venta; confirma con La Mer cómo se entrega la sorpresa de cumpleaños.",
+    "sources": [
+      "https://www.lamer.com.mx/loyalty-program/waves-de-la-mer"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea lamer.com.mx y puntos de venta La Mer; el programa aplica en tienda y en línea",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
     "slug": "pasteleria-lety",
     "brand": "Pastelería Lety",
     "category": "postres",
@@ -13975,7 +14037,7 @@
     "slug": "fogo-de-chao-mexico",
     "brand": "Fogo de Chão México",
     "category": "restaurantes",
-    "benefit": "Churrasco gratis el mes de tu cumpleaños (con 5 acompañantes)",
+    "benefit": "Churrasco gratis con 5 acompañantes en tu mes",
     "benefitType": "gratis",
     "details": "Durante todo el mes de tu cumpleaños comes gratis si vas con 5 acompañantes (los niños cuentan desde 6 años); incluye una rebanada de pastel, felicitación 'parabéns' y una tarjeta de regalo. Aplica una promoción por mesa, con identificación, y es válida si algún invitado consume churrasco, pescado, camarón, mercado o cortes premium.",
     "program": null,
@@ -14040,6 +14102,445 @@
     "cities": [],
     "locationNote": "El anuncio es una publicación oficial de enero de 2023 y no he encontrado confirmación reciente ni términos en bisquetsobregon.com; puede variar por sucursal.",
     "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "fiesta-rewards-fine-dining-club",
+    "brand": "Fiesta Rewards Fine Dining Club (Posadas)",
+    "category": "restaurantes",
+    "benefit": "40% de descuento en la cuenta en restaurantes Posadas",
+    "benefitType": "descuento",
+    "details": "Bono de cumpleaños de The Fine Dining Club: 40% de descuento sobre el total de la cuenta, en un solo uso durante la semana posterior a tu cumpleaños, en restaurantes Fine Dining, Casual Dining e Invitta de hoteles Posadas. Aplica a socios Access Fiesta Rewards, Santander Fiesta Rewards, Fiesta Americana Vacation Club y Live Aqua Residence Club (excluye nivel Clásico). Consumo máximo de $12,000 en Casual Dining e Invitta y $15,000 en Fine Dining; reservación previa con mínimo 24 horas por Concierge, máximo 2 reservaciones por día y no aplica a domicilio. Los T&C generales de Fiesta Rewards aún dicen \"el día del cumpleaños\"; la página vigente de Fine Dining dice la semana posterior.",
+    "program": "Fiesta Rewards (Access Fiesta Rewards, Santander Fiesta Rewards, Fiesta Americana Vacation Club, Live Aqua Residence Club)",
+    "signupUrl": "https://www.fiestarewards.com/finedining/",
+    "requirements": [
+      "Ser socio activo de Access Fiesta Rewards, tarjeta Santander Fiesta Rewards, Fiesta Americana Vacation Club o Live Aqua Residence Club (no aplica nivel Clásico)",
+      "Reservar con mínimo 24 horas de anticipación por el Concierge de Fiesta Rewards (máx. 2 reservaciones por día)",
+      "Reservación a nombre del socio",
+      "Identificación oficial que compruebe la fecha de cumpleaños",
+      "Un solo uso; no aplica a domicilio"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Un solo uso durante los 7 días posteriores a tu cumpleaños. Vigencia del 6 de mayo de 2026 al 7 de mayo de 2027",
+    "minPurchase": null,
+    "howToClaim": "Reserva con 24 horas de anticipación por el Concierge de Fiesta Rewards en un restaurante participante y presenta tu identificación oficial al pagar.",
+    "sources": [
+      "https://www.fiestarewards.com/finedining/",
+      "https://www.fiestarewards.com/en/tyc-fr"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "GRO",
+      "GUA",
+      "JAL",
+      "MOR",
+      "NLE",
+      "OAX",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SLP",
+      "VER",
+      "YUC"
+    ],
+    "cities": [
+      "acapulco",
+      "cancun",
+      "cdmx",
+      "cuernavaca",
+      "guadalajara",
+      "merida",
+      "monterrey",
+      "oaxaca",
+      "puebla",
+      "queretaro",
+      "san-luis-potosi",
+      "san-miguel-de-allende",
+      "veracruz"
+    ],
+    "locationNote": "Solo restaurantes participantes en hoteles Posadas de 13 ciudades: Acapulco, Cancún, CDMX, Cuernavaca, Guadalajara, Mérida, Monterrey, Oaxaca, Puebla, Querétaro, San Luis Potosí, San Miguel de Allende y Veracruz; el consumo máximo cambia por tipo de restaurante",
+    "needsId": true,
+    "companions": null,
+    "validUntil": "2027-05-07"
+  },
+  {
+    "slug": "joeys-planet",
+    "brand": "Joey's Planet",
+    "category": "parques",
+    "benefit": "Entrada gratis a niños que cumplen años en el mes",
+    "benefitType": "gratis",
+    "details": "En el parque infantil espacial Joey's Planet, si cumples años en el mes no pagas entrada presentando tu CURP (promoción solo para niños). El día depende de la sucursal: en Océania aplica los viernes; en Pabellón Bosques, Samara Satélite y Paseo Interlomas, los miércoles. La página de promociones solo detalla la exención de entrada.",
+    "program": null,
+    "signupUrl": "https://www.joeysplanet.com.mx/promociones",
+    "requirements": [
+      "Cumplir años en el mes de la visita",
+      "Presentar CURP del niño",
+      "Solo válido para niños",
+      "Ir el día que corresponde a la sucursal (viernes en Océania; miércoles en las demás)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños, solo viernes (Océania) o miércoles (Pabellón Bosques, Samara Satélite, Paseo Interlomas)",
+    "minPurchase": null,
+    "howToClaim": "Presenta la CURP del niño en la taquilla de la sucursal el día que aplica la promoción.",
+    "sources": [
+      "https://www.joeysplanet.com.mx/promociones",
+      "https://dondeir.com/ciudad/joeys-planet-el-parque-con-tematica-espacial-para-ir-con-ninos/2024/02/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan"
+    ],
+    "locationNote": "Cuatro sucursales: Encuentro Oceanía y Pabellón Bosques (CDMX), Samara Satélite (Naucalpan) y Paseo Interlomas (Huixquilucan, Edomex; se mapea a Naucalpan por cercanía)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "bolerama",
+    "brand": "Bolerama",
+    "category": "experiencias",
+    "benefit": "Malteada gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "En la \"Promo Cumpleaños\" de Bolerama recibes una malteada gratis en el mes de tu cumpleaños, en cualquiera de sus sucursales, mostrando una identificación oficial. Válida solo para una malteada y sujeta a disponibilidad de producto. Algunas copias antiguas de la promo en buscadores dicen \"semana de tu cumpleaños\"; la página oficial de promociones dice \"mes\".",
+    "program": null,
+    "signupUrl": "https://bolerama.com/promociones-conganas/",
+    "requirements": [
+      "Identificación oficial",
+      "Ir en el mes de tu cumpleaños",
+      "Válido para una sola malteada",
+      "Sujeto a disponibilidad de producto"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "En el mes de tu cumpleaños (la página oficial no indica fecha de fin)",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación oficial en la sucursal y pide tu malteada de cumpleaños.",
+    "sources": [
+      "https://bolerama.com/promociones-conganas/",
+      "https://bolerama.com/sucursales/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "COA",
+      "DUR",
+      "NLE"
+    ],
+    "cities": [
+      "monterrey",
+      "torreon"
+    ],
+    "locationNote": "Sucursales: Paseo Tec, Paseo La Fe, Paseo Juárez y Punto Cumbres (zona metropolitana de Monterrey) y Paseo Gómez Palacio (Gómez Palacio, Durango, cerca de Torreón)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "real-inn-tijuana-brunch",
+    "brand": "Real Inn Tijuana (Stock Café)",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel de cortesía en el brunch dominical",
+    "benefitType": "regalo-con-compra",
+    "details": "En el Sunday Brunch del Stock Café de Real Inn Tijuana (domingos de 10 a 16 h; adultos $549, niños de 6 a 11 años $285, incluye mimosas), durante tu mes de cumpleaños recibes una rebanada de pastel de cortesía presentando identificación oficial vigente. Vigente hasta el 7 de diciembre de 2026. Real Inn Perinorte (CDMX) también tiene brunch dominical, pero su página no menciona el pastel.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/real-inn-tijuana/special-offers",
+    "requirements": [
+      "Identificación oficial vigente",
+      "Ir al Sunday Brunch (domingos de 10 a 16 h) en tu mes de cumpleaños",
+      "Reservaciones al 664 633 4000"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños, solo en el brunch dominical; vigente hasta el 7 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu lugar en el Sunday Brunch del Stock Café y presenta tu identificación oficial para recibir el pastel de cortesía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/real-inn-tijuana/special-offers",
+      "https://www.grupocaminoreal.com/en/real-inn/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Solo el Stock Café de Real Inn Tijuana; no aplica en los demás hoteles Real Inn",
+    "needsId": true,
+    "companions": null,
+    "validUntil": "2026-12-07"
+  },
+  {
+    "slug": "camino-real-huatulco-acapulco-cumpleanos",
+    "brand": "Camino Real y Quinta Real (Huatulco y Acapulco)",
+    "category": "viajes",
+    "benefit": "Amenidad de cortesía del chef en tu cuarto en tu mes",
+    "benefitType": "regalo-con-compra",
+    "details": "Dentro de la oferta \"Tu viaje a la playa por carretera va por nuestra cuenta\" (reserva por canales directos del hotel: sitio, app, hotel o centro de reservaciones), si cumples años recibes una amenidad de bienvenida cortesía del chef en la habitación, sin valor en efectivo y sujeta a disponibilidad. Válida durante tu mes de cumpleaños aunque la fecha no caiga en tu estancia; una por habitación y por estancia, con identificación oficial al hacer check-in. La oferta pide 3 noches mínimo para el reembolso de casetas; el sitio no aclara si la amenidad exige estancia mínima. Promoción vigente del 15 de julio al 15 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/special-offers/playas",
+    "requirements": [
+      "Reservar la oferta por canales directos (sitio web, app, hotel o centro de reservaciones)",
+      "Identificación oficial al check-in que confirme tu fecha de nacimiento",
+      "Estancia en tu mes de cumpleaños (el día exacto no tiene que caer en la estancia)",
+      "Una amenidad por habitación y por estancia",
+      "No canjeable por efectivo ni por otro producto o servicio"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Estancia en tu mes de cumpleaños; promoción vigente del 15 de julio al 15 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva la oferta en grupocaminoreal.com y presenta tu identificación oficial al check-in.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/special-offers/playas",
+      "https://www.grupocaminoreal.com/en/camino-real-zaashila-huatulco/special-offers/playas-huatulco"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GRO",
+      "OAX"
+    ],
+    "cities": [
+      "huatulco",
+      "acapulco"
+    ],
+    "locationNote": "Según los términos de la oferta: Camino Real Zaashila Huatulco, Quinta Real Huatulco y Camino Real Acapulco Diamante; no aparece en Puerto Vallarta",
+    "needsId": true,
+    "companions": null,
+    "validUntil": "2026-12-15"
+  },
+  {
+    "slug": "chimulco-parque-acuatico",
+    "brand": "Balneario Chimulco",
+    "category": "parques",
+    "benefit": "Cumpleañero del mes ingresa gratis",
+    "benefitType": "gratis",
+    "details": "La página de promociones del balneario publica cada mes la promoción \"Cumpleañero ingresa gratis\" (octubre 2026: \"Cumpleañero ingresa gratis en octubre\"). Debes imprimir la promoción y presentarla en taquilla con una credencial vigente al momento de pagar; después de pagar ya no es válida. Promoción de octubre vigente hasta el 31 de octubre de 2026; el sitio no detalla acompañantes ni restricciones de fechas especiales.",
+    "program": null,
+    "signupUrl": "https://www.chimulco.com.mx/promociones",
+    "requirements": [
+      "Cumplir años en el mes de la promoción (octubre 2026)",
+      "Credencial vigente",
+      "Imprimir la promoción y presentarla en taquilla antes de pagar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "La promo cambia cada mes en la página oficial; octubre 2026 vigente hasta el 31 de octubre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Imprime la promoción desde chimulco.com.mx/promociones y entrégala en taquilla con tu credencial antes de pagar.",
+    "sources": [
+      "https://www.chimulco.com.mx/promociones",
+      "https://www.informador.mx/jalisco/zoologico-guadalajara-lanza-promociones-para-entrar-gratis-en-junio-conoce-quienes-y-como-participar-20260613-0055.html"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "JAL"
+    ],
+    "cities": [],
+    "locationNote": "Balneario Chimulco, Villa Corona, Jalisco (a unos 40 min de Guadalajara por la autopista a Barra de Navidad)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": "2026-10-31"
+  },
+  {
+    "slug": "k1-speed-mexico",
+    "brand": "K1 Speed México",
+    "category": "experiencias",
+    "benefit": "1 carrera gratis en tu mes con la membresía de $130",
+    "benefitType": "regalo-con-compra",
+    "details": "La membresía anual de K1 Speed México ($130) incluye 1 carrera gratis en el mes de tu cumpleaños, además de uso de cascos, una balaclava al año y 10% en ropa y accesorios. Términos: se usa durante el mes de la fecha de nacimiento, requiere compra de carrera previa con membresía vigente, solo 1 carrera por cliente y por año, se pide identificación con fecha de nacimiento y aplica en una sola sucursal. El sitio principal de K1 Speed no detalla estos términos; confirma en la pista.",
+    "program": "Membresía anual K1 Speed ($130)",
+    "signupUrl": "https://www.k1speed.mx/",
+    "requirements": [
+      "Membresía anual K1 Speed vigente ($130)",
+      "Compra de carrera previa con la membresía",
+      "Identificación con fecha de nacimiento",
+      "1 carrera por cliente y por año, en una sola sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu fecha de nacimiento",
+    "minPurchase": 130,
+    "howToClaim": "Compra o renueva tu membresía anual, avisa en recepción de la pista en tu mes de cumpleaños y muestra tu identificación.",
+    "sources": [
+      "https://tienda.k1speed.mx/product/paquetes-de-carreras/",
+      "https://www.eluniversal.com.mx/destinos/saca-al-checo-perez-que-llevas-dentro-en-estos-kartodromos/",
+      "https://www.k1speed.mx/faqs.html"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "QUE"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla",
+      "queretaro"
+    ],
+    "locationNote": "6 pistas: Artz Pedregal, Coapa, Garden Santa Fe, Manacar (CDMX), Mundo E (Tlalnepantla) y Querétaro. Promo no confirmada en sitio oficial",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "pista-de-hielo-la-noria-puebla",
+    "brand": "Pista de Hielo La Noria",
+    "category": "experiencias",
+    "benefit": "Entrada gratis a la pista el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "El cumpleañero entra gratis a la pista de hielo el día exacto de su cumpleaños, en horario de sesión pública, presentando INE, CURP o acta de nacimiento (en menores) en taquilla para comprobar su fecha de nacimiento. Confirma en taquilla: la página oficial de promociones no abrió completa al verificar.",
+    "program": null,
+    "signupUrl": "https://www.pistadehielolanoria.com/promociones/",
+    "requirements": [
+      "Ir el día exacto de tu cumpleaños en sesión pública",
+      "INE, CURP o acta de nacimiento (menores) en taquilla"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños, en sesión pública",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en la taquilla de la pista el día de tu cumpleaños.",
+    "sources": [
+      "https://www.pistadehielolanoria.com/promociones/",
+      "https://www.pistadehielolanoria.com/sesion-publica/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Solo Pista de Hielo La Noria (Plaza La Noria, Puebla)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "sky-zone-cdmx",
+    "brand": "Sky Zone (Lindavista y Santa Fe)",
+    "category": "experiencias",
+    "benefit": "Cumpleañero salta 2 horas gratis",
+    "benefitType": "gratis",
+    "details": "Guías de terceros indican que en Sky Zone el cumpleañero salta 2 horas gratis. Las promociones de los sitios oficiales de Lindavista y Santa Fe se publican como imágenes sin texto, por lo que no se confirmaron condiciones (día o mes, identificación, acompañantes); confirma por WhatsApp antes de ir.",
+    "program": null,
+    "signupUrl": "https://www.skyzonelindavista.com.mx/promociones/",
+    "requirements": [
+      "Identificación con fecha de nacimiento (sin confirmar)",
+      "Confirmar condiciones por WhatsApp o en recepción"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma si aplica el día o el mes",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por la promo de cumpleañero en recepción o por WhatsApp de la sucursal.",
+    "sources": [
+      "https://www.skyzonelindavista.com.mx/promociones/",
+      "https://www.tiktok.com/discover/los-mejores-parques-de-trampolines-cdmx"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Sky Zone Lindavista (GAM) y Sky Zone Santa Fe (CDMX)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "inflalandia-quack",
+    "brand": "Inflalandia Quack",
+    "category": "parques",
+    "benefit": "Cumpleañero salta gratis tiempo ilimitado",
+    "benefitType": "gratis",
+    "details": "Según una guía de CDMX Secreta de nov 2023 y videos de la propia marca, el cumpleañero salta gratis por tiempo ilimitado presentando su CURP, acta de nacimiento o copia de INE. El sitio oficial no publica la promoción y no queda claro si aplica el día o el mes ni en qué sucursales; confirma antes de ir.",
+    "program": null,
+    "signupUrl": "https://inflalandia.com/",
+    "requirements": [
+      "CURP, acta de nacimiento o copia de INE",
+      "Confirmar sucursal participante y días de validez"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en fuentes; confirma si aplica el día o el mes",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu CURP, acta o INE en taquilla y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://cdmxsecreta.com/inflalandia-quack-cdmx/",
+      "https://www.tiktok.com/@inflalandiaquack_mexico/video/7526237379565292807"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "HID",
+      "MEX",
+      "PUE"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla",
+      "pachuca",
+      "puebla",
+      "toluca"
+    ],
+    "locationNote": "Sucursales: Oceanía y Coapa (CDMX), Tlalnepantla, Pachuca, Puebla y Metepec (se mapea a Toluca); el sitio también lista Cancún, Monterrey y Guadalajara sin confirmar la promo ahí",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "hurricane-harbor-oaxtepec",
+    "brand": "Six Flags Hurricane Harbor Oaxtepec",
+    "category": "parques",
+    "benefit": "50% de descuento en admisión general en tu mes",
+    "benefitType": "descuento",
+    "details": "Con tu INE, licencia de conducir u otro documento oficial que compruebe que cumples años en el mes, recibes 50% de descuento en admisión general para mayores de 1.20 m. Dato de un directorio de balnearios de Morelos con precios actualizados en 2025; el sitio oficial de Six Flags no lo confirma.",
+    "program": null,
+    "signupUrl": "https://www.sixflags.com/hurricaneharborox",
+    "requirements": [
+      "INE, licencia de conducir u otro documento oficial con fecha de nacimiento",
+      "Mayores de 1.20 m",
+      "Cumplir años en el mes de la visita"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños; sin fecha de fin publicada",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación en taquilla del parque.",
+    "sources": [
+      "https://www.balneariosenmorelos.com.mx/index.php?q=six_flags_hurricane_harbor",
+      "https://www.sixflags.com/hurricaneharborox"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "Parque en Oaxtepec, Morelos; es aparte de Six Flags México (Tlalpan)",
+    "needsId": true,
     "companions": null,
     "validUntil": null
   },
@@ -14501,7 +15002,7 @@
     "signupUrl": "https://tienda.borgatta.com.mx/",
     "requirements": [
       "Tener cuenta en tienda.borgatta.com.mx inscrita al programa",
-      "Nivel Esmeralda desde $0; Platino $30,000, Diamante $70,000, Black $150,000",
+      "Niveles: Esmeralda $0, Platino $30,000, Diamante $70,000, Black $150,000",
       "Canje solo en la tienda en línea (convertir BOPS en cupón)",
       "BOPS vigentes 13 meses desde que se generan"
     ],
@@ -14534,7 +15035,7 @@
     "requirements": [
       "Ser socio gratuito de Club Lacoste con fecha de cumpleaños",
       "Solo la primera compra online del mes de cumpleaños",
-      "No aplica en colecciones especiales, colaboraciones, lentes, relojes ni fragancias",
+      "No aplica en colecciones especiales, colaboraciones, lentes ni relojes",
       "No acumulable con otras promociones"
     ],
     "registerDaysBefore": null,
@@ -14551,6 +15052,72 @@
     "states": [],
     "cities": [],
     "locationNote": "Solo compra en línea (lacoste.com/mx); dato de fuente no oficial",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "rapsodia-mexico",
+    "brand": "Rapsodia México",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños en línea; 20% o 25% en niveles Loyalty",
+    "benefitType": "descuento",
+    "details": "Al registrarte al newsletter de Rapsodia México recibes por correo un código personal con una promoción válida en el mes de tu cumpleaños, para una sola compra en rapsodia.com.mx (exclusivo en línea, único e intransferible, no aplica con otras promociones); los T&C no publican el monto y sitios de cupones citan 20%. Además, el programa Rapsodia Loyalty da 20% (Member, compras de más de $50,000 en 2026) o 25% (VIP, más de $100,000) en el mes de cumpleaños, en producto de precio regular, en tiendas Rapsodia y en línea.",
+    "program": "Newsletter y Rapsodia Loyalty",
+    "signupUrl": "https://www.rapsodia.com.mx/",
+    "requirements": [
+      "Registrarte al newsletter con tu fecha de cumpleaños",
+      "Una sola compra en el mes de tu cumpleaños",
+      "Cupón de newsletter solo en rapsodia.com.mx",
+      "Solo producto de precio regular; no acumulable con otras promos",
+      "Niveles Loyalty: $50,000 (Member) o $100,000 (VIP) de compras"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de tu cumpleaños, en una sola compra",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete al newsletter en rapsodia.com.mx; el código llega por correo y lo aplicas al pagar en línea en tu mes de cumpleaños (miembros Loyalty también en tienda).",
+    "sources": [
+      "https://www.rapsodia.com.mx/terminos-y-condiciones",
+      "https://www.rapsodia.com.mx/loyalty"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón de newsletter solo en línea; beneficio Loyalty en boutiques Rapsodia y rapsodia.com.mx",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "arella-mexico",
+    "brand": "Arella",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños en línea (monto no publicado)",
+    "benefitType": "descuento",
+    "details": "Arella envía por correo un código personal de cumpleaños a quien se registra en 'Mi Cuenta' de arella.com.mx. La promoción es válida en el mes de tu cumpleaños, solo en la tienda en línea, con cupón único e intransferible que no aplica con otras promociones ni descuentos; los T&C no publican el monto ni una fecha de vigencia.",
+    "program": null,
+    "signupUrl": "https://arella.com.mx/",
+    "requirements": [
+      "Crear tu cuenta en arella.com.mx con tu fecha de cumpleaños",
+      "Solo válido en línea (arella.com.mx)",
+      "Cupón único e intransferible",
+      "No aplica con otras promociones ni descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en Mi Cuenta de arella.com.mx; el código llega por correo y lo aplicas al pagar en línea en tu mes de cumpleaños.",
+    "sources": [
+      "https://arella.com.mx/terminos-y-condiciones"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo tienda en línea arella.com.mx (envíos a México)",
     "needsId": false,
     "companions": null,
     "validUntil": null

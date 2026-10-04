@@ -123,5 +123,29 @@
     "slug": "suburbia",
     "remove": true,
     "reason": "Ambas campañas oficiales vencidas (31-dic-2024 y 30-sep-2026)"
+  },
+  {
+    "slug": "pf-changs",
+    "patch": {
+      "confidence": "media",
+      "minPurchase": 600,
+      "details": "Socios de Wow+ (Alsea) reciben por correo, los primeros días de su mes de cumpleaños, un cupón de $200 con consumo mínimo de $600. Requiere fecha de nacimiento en el registro e identificación; no aplica en sucursales en franquicia.",
+      "sources": [
+        "https://www.wow-plus.com/pages/terminos-y-condiciones.html"
+      ]
+    },
+    "reason": "Términos oficiales Wow+ citan el cupón de cumpleaños (leídos vía buscador)"
+  },
+  {
+    "slug": "the-cheesecake-factory",
+    "patch": {
+      "confidence": "media",
+      "minPurchase": 600,
+      "details": "Socios de Wow+ (Alsea) reciben por correo, los primeros días de su mes de cumpleaños, un cupón de $200 con consumo mínimo de $600. Requiere fecha de nacimiento en el registro e identificación; no aplica en sucursales en franquicia.",
+      "sources": [
+        "https://www.wow-plus.com/pages/terminos-y-condiciones.html"
+      ]
+    },
+    "reason": "Términos oficiales Wow+ citan el cupón de cumpleaños (leídos vía buscador)"
   }
 ]
