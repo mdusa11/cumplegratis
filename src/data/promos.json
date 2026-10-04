@@ -13685,6 +13685,39 @@
     "validUntil": null
   },
   {
+    "slug": "opticas-lux",
+    "brand": "Ópticas Lux",
+    "category": "otras-tiendas",
+    "benefit": "Bono de cumpleaños de $1,000 en tu armazón",
+    "benefitType": "descuento",
+    "details": "Ópticas Lux envía por correo/SMS un Bono de Cumpleaños de $1,000 aplicable al armazón solar u oftálmico en la compra de un anteojo completo (armazón + lentes graduadas), en conjunto con la promoción del mes de lentes graduadas en armazones de monto mínimo $2,500. No aplica con convenio, Bono Lux ni Paquetes Lux, ni en líneas Meta, Chrome Hearts y Cartier; no es canjeable por efectivo ni se bonifica si no se usa completo.",
+    "program": "Cupones Ópticas Lux (registro con fecha de nacimiento)",
+    "signupUrl": "https://lux.mx/pages/cupon",
+    "requirements": [
+      "Estar registrado con correo/celular y fecha de nacimiento",
+      "Compra de anteojo completo (armazón + lentes graduadas)",
+      "Código único del cupón, impreso o en el celular",
+      "No acumulable con convenio, Bono Lux ni Paquetes Lux"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El cupón llega por correo/SMS; la página oficial no indica la ventana exacta ni la vigencia",
+    "minPurchase": null,
+    "howToClaim": "Presenta el código único de tu cupón (impreso o en el celular) al pagar un anteojo completo en sucursal Ópticas Lux.",
+    "sources": [
+      "https://lux.mx/pages/restricciones-promociones-recibidas-1",
+      "https://lux.mx/pages/cupon"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sucursales Ópticas Lux en varios estados; consulta el localizador en lux.mx",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
     "slug": "lancome-mexico",
     "brand": "Lancôme México",
     "category": "belleza",
@@ -14555,39 +14588,6 @@
     "validUntil": null
   },
   {
-    "slug": "opticas-lux",
-    "brand": "Ópticas Lux",
-    "category": "otras-tiendas",
-    "benefit": "Bono de cumpleaños de $1,000 en tu armazón",
-    "benefitType": "descuento",
-    "details": "Ópticas Lux envía por correo/SMS un Bono de Cumpleaños de $1,000 aplicable al armazón solar u oftálmico en la compra de un anteojo completo (armazón + lentes graduadas), en conjunto con la promoción del mes de lentes graduadas en armazones de monto mínimo $2,500. No aplica con convenio, Bono Lux ni Paquetes Lux, ni en líneas Meta, Chrome Hearts y Cartier; no es canjeable por efectivo ni se bonifica si no se usa completo.",
-    "program": "Cupones Ópticas Lux (registro con fecha de nacimiento)",
-    "signupUrl": "https://lux.mx/pages/cupon",
-    "requirements": [
-      "Estar registrado con correo/celular y fecha de nacimiento",
-      "Compra de anteojo completo (armazón + lentes graduadas)",
-      "Código único del cupón, impreso o en el celular",
-      "No acumulable con convenio, Bono Lux ni Paquetes Lux"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "El cupón llega por correo/SMS; la página oficial no indica la ventana exacta ni la vigencia",
-    "minPurchase": null,
-    "howToClaim": "Presenta el código único de tu cupón (impreso o en el celular) al pagar un anteojo completo en sucursal Ópticas Lux.",
-    "sources": [
-      "https://lux.mx/pages/restricciones-promociones-recibidas-1",
-      "https://lux.mx/pages/cupon"
-    ],
-    "confidence": "alta",
-    "coverage": "nacional",
-    "states": [],
-    "cities": [],
-    "locationNote": "Sucursales Ópticas Lux en varios estados; consulta el localizador en lux.mx",
-    "needsId": false,
-    "companions": null,
-    "validUntil": null
-  },
-  {
     "slug": "michael-kors-mexico",
     "brand": "Michael Kors",
     "category": "otras-tiendas",
@@ -15040,38 +15040,6 @@
     "validUntil": null
   },
   {
-    "slug": "borgatta-bops",
-    "brand": "Borgatta (programa de lealtad en línea)",
-    "category": "ropa",
-    "benefit": "Regalo de cumpleaños de 500 a 2,000 BOPS ($1 cada uno)",
-    "benefitType": "regalo-con-compra",
-    "details": "El programa de lealtad de la tienda en línea de Borgatta incluye un 'regalo de cumpleaños' en BOPS según tu nivel: 500 (Esmeralda), 750 (Platino), 1,200 (Diamante) o 2,000 (Black); cada BOP equivale a $1 MXN y se canjea como cupón en el checkout de tienda.borgatta.com.mx. Los BOPS de cumpleaños vencen a los 13 meses de generarse; los T&C (actualizados el 28 jul 2025) no precisan en qué fecha se acreditan ni piden compra mínima.",
-    "program": "Programa de lealtad Borgatta (BOPS)",
-    "signupUrl": "https://tienda.borgatta.com.mx/",
-    "requirements": [
-      "Tener cuenta en tienda.borgatta.com.mx inscrita al programa",
-      "Niveles: Esmeralda $0, Platino $30,000, Diamante $70,000, Black $150,000",
-      "Canje solo en la tienda en línea (convertir BOPS en cupón)",
-      "BOPS vigentes 13 meses desde que se generan"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "Fecha de acreditación no precisada en los T&C; revisa tu saldo BOPS cerca de tu cumpleaños",
-    "minPurchase": null,
-    "howToClaim": "Crea tu cuenta en tienda.borgatta.com.mx, revisa tu saldo BOPS y canjéalo como cupón al pagar en línea.",
-    "sources": [
-      "https://tienda.borgatta.com.mx/pages/terminos-y-condiciones-programa-de-lealtad-borgatta"
-    ],
-    "confidence": "media",
-    "coverage": "nacional",
-    "states": [],
-    "cities": [],
-    "locationNote": "Programa exclusivo de la tienda en línea de Borgatta (envíos a México)",
-    "needsId": false,
-    "companions": null,
-    "validUntil": null
-  },
-  {
     "slug": "lacoste-club-mexico",
     "brand": "Lacoste México (Club Lacoste)",
     "category": "ropa",
@@ -15265,6 +15233,39 @@
     "states": [],
     "cities": [],
     "locationNote": "Etam México (etam.mx y sus tiendas); canal de canje no confirmado",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "todomoda-mexico-friends-club",
+    "brand": "Todomoda México (Friends Club)",
+    "category": "ropa",
+    "benefit": "900 a 2,250 puntos de cumpleaños (unos $40 a $101)",
+    "benefitType": "regalo-con-compra",
+    "details": "Los miembros de Friends Club de Todomoda México reciben puntos extra de cumpleaños: 900 (Friend), 1,350 (Bestie) o 2,250 (BFF); como 100 puntos se convierten en $4.50 de regalo, equivalen a unos $40.50, $60.75 o $101.25 MXN. Hay que registrar la fecha de cumpleaños al menos 30 días antes o los puntos no se acreditan ese año; los puntos vencen a los 12 meses y se canjean como descuento en tienda física o con un cupón de un solo uso (30 días) en mx.todomoda.com. El programa entró en vigor el 25 de noviembre de 2024.",
+    "program": "Friends Club",
+    "signupUrl": "https://mx.todomoda.com/suscripcion",
+    "requirements": [
+      "Crear cuenta gratis en mx.todomoda.com con tu fecha de cumpleaños",
+      "Registrar tu fecha al menos 30 días antes de tu cumpleaños",
+      "Nivel según compras al año (Friend, Bestie o BFF)",
+      "Canje en tienda física o con cupón de un solo uso en línea"
+    ],
+    "registerDaysBefore": 30,
+    "window": "otro",
+    "windowNote": "Los puntos se acreditan por tu cumpleaños y vencen 12 meses después; el cupón canjeado vale 30 días",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en mx.todomoda.com con tu fecha de cumpleaños (30 días antes como mínimo); canjea tus puntos en tienda o genera tu cupón en la Wallet.",
+    "sources": [
+      "https://mx.todomoda.com/friendsclub-faqs",
+      "https://mx.todomoda.com/suscripcion"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Todomoda en México (localizador en mx.todomoda.com) y tienda en línea",
     "needsId": false,
     "companions": null,
     "validUntil": null

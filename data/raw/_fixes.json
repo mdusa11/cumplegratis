@@ -199,5 +199,10 @@
     "slug": "santander-fiesta-rewards-oro",
     "remove": true,
     "reason": "Mismo beneficio que fiesta-rewards-fine-dining-club (40% Fine Dining Club), que es más completo"
+  },
+  {
+    "slug": "borgatta-bops",
+    "remove": true,
+    "reason": "Vende insumos de ortodoncia/dentales, no es una tienda para el público general"
   }
 ]

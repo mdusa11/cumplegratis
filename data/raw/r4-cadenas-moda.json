@@ -561,5 +561,37 @@
     "locationNote": "Etam México (etam.mx y sus tiendas); canal de canje no confirmado",
     "needsId": false,
     "companions": null
+  },
+  {
+    "slug": "todomoda-mexico-friends-club",
+    "brand": "Todomoda México (Friends Club)",
+    "category": "ropa",
+    "benefit": "900 a 2,250 puntos de cumpleaños (unos $40 a $101)",
+    "benefitType": "regalo-con-compra",
+    "details": "Los miembros de Friends Club de Todomoda México reciben puntos extra de cumpleaños: 900 (Friend), 1,350 (Bestie) o 2,250 (BFF); como 100 puntos se convierten en $4.50 de regalo, equivalen a unos $40.50, $60.75 o $101.25 MXN. Hay que registrar la fecha de cumpleaños al menos 30 días antes o los puntos no se acreditan ese año; los puntos vencen a los 12 meses y se canjean como descuento en tienda física o con un cupón de un solo uso (30 días) en mx.todomoda.com. El programa entró en vigor el 25 de noviembre de 2024.",
+    "program": "Friends Club",
+    "signupUrl": "https://mx.todomoda.com/suscripcion",
+    "requirements": [
+      "Crear cuenta gratis en mx.todomoda.com con tu fecha de cumpleaños",
+      "Registrar tu fecha al menos 30 días antes de tu cumpleaños",
+      "Nivel según compras al año (Friend, Bestie o BFF)",
+      "Canje en tienda física o con cupón de un solo uso en línea"
+    ],
+    "registerDaysBefore": 30,
+    "window": "otro",
+    "windowNote": "Los puntos se acreditan por tu cumpleaños y vencen 12 meses después; el cupón canjeado vale 30 días",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en mx.todomoda.com con tu fecha de cumpleaños (30 días antes como mínimo); canjea tus puntos en tienda o genera tu cupón en la Wallet.",
+    "sources": [
+      "https://mx.todomoda.com/friendsclub-faqs",
+      "https://mx.todomoda.com/suscripcion"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Todomoda en México (localizador en mx.todomoda.com) y tienda en línea",
+    "needsId": false,
+    "companions": null
   }
 ]

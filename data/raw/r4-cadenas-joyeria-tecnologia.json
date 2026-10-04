@@ -31,38 +31,6 @@
     "companions": null
   },
   {
-    "slug": "opticas-lux",
-    "brand": "Ópticas Lux",
-    "category": "belleza",
-    "benefit": "Bono de $1,000 en armazón al comprar anteojo completo",
-    "benefitType": "descuento",
-    "details": "Ópticas Lux publica un Bono de Cumpleaños de $1,000 MXN que se aplica al armazón (solar u oftálmico) al comprar anteojo completo (armazón + lentes graduadas), junto con la promoción mensual de lentes graduadas en armazones desde $2,500. No aplica en Ray-Ban Meta, Chrome Heart ni Cartier, ni con convenio, Bono LUX o Paquetes LUX; no se canjea por efectivo ni se bonifica si no se usa completo.",
-    "program": "Cupones Ópticas Lux",
-    "signupUrl": "https://lux.mx/pages/cupon",
-    "requirements": [
-      "Compra de anteojo completo (armazón + lentes graduadas)",
-      "Armazón de $2,500 o más para la promoción del mes",
-      "Presentar el código único del cupón (impreso o en dispositivo)",
-      "No acumulable con convenio, Bono LUX ni Paquetes LUX"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "El T&C no publica fecha de vigencia ni cómo se envía el cupón; el registro por correo con fecha de nacimiento está en lux.mx/pages/cupon",
-    "minPurchase": 2500,
-    "howToClaim": "Regístrate en lux.mx con tu fecha de nacimiento para recibir cupones por correo y presenta el código único del bono de cumpleaños al pagar en tienda o en línea.",
-    "sources": [
-      "https://lux.mx/pages/restricciones-promociones-recibidas-1",
-      "https://lux.mx/pages/cupon"
-    ],
-    "confidence": "media",
-    "coverage": "nacional",
-    "states": [],
-    "cities": [],
-    "locationNote": "Sucursales Ópticas Lux y lux.mx; Lux Premium Outlets (Querétaro, Punta Norte, Puebla) con reglas propias en el T&C",
-    "needsId": false,
-    "companions": null
-  },
-  {
     "slug": "michael-kors-mexico",
     "brand": "Michael Kors",
     "category": "otras-tiendas",
