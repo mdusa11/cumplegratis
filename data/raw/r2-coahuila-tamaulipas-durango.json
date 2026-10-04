@@ -1,0 +1,827 @@
+[
+  {
+    "slug": "mendocinos-tampico",
+    "brand": "Mendocinos",
+    "category": "restaurantes",
+    "benefit": "Buffet y bebida refill gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Buffet y bebida refill totalmente gratis el día de tu cumpleaños mostrando tu INE. La oferta está limitada al consumo pagado de 3 buffets de adulto con bebidas y no es válida con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Tus acompañantes pagan 3 buffets de adulto con bebida",
+      "No válido con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu INE al llegar a Mendocinos y pide tu buffet con bebida refill.",
+    "sources": [
+      "https://www.mendocinos.mx/promociones",
+      "https://www.mendocinos.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "tampico"
+    ],
+    "locationNote": "Mendocinos Premium, Av. Hidalgo 5107, Fracc. Flamboyanes, Tampico; tel. (833) 116-5031. Es la única sucursal que lista su sitio, que no muestra fecha de vigencia.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "tampiquissimo-fish-grill-tampico",
+    "brand": "Tampiquissimo Fish & Grill",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis en tu mes de cumpleaños con 4 adultos",
+    "benefitType": "gratis",
+    "details": "Buffet de cumpleañero gratis acompañado de 4 personas adultas o más, válido todo el mes de tu cumpleaños mostrando una identificación oficial. Solo piden reservación a grupos de 10 o más personas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 4 adultos o más",
+      "Reservación solo para grupos de 10 o más"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Preséntate con tu identificación y tus acompañantes adultos; para grupos de 10 o más reserva al (833) 122-7705 o por WhatsApp 833 157 6911.",
+    "sources": [
+      "https://sites.google.com/view/tampiquissimofishandgrill/p%C3%A1gina-principal",
+      "https://www.facebook.com/tampiquissimo/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "tampico"
+    ],
+    "locationNote": "Av. Hidalgo 3801, col. Guadalupe, Tampico. El sitio oficial aún muestra precios de feb-mar 2019, así que confirma por teléfono que la promo siga vigente.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "sensacao-churrascaria-saltillo",
+    "brand": "Sensação Churrascaría",
+    "category": "restaurantes",
+    "benefit": "Buffet rodizio gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "El cumpleañero come gratis durante su mes de cumpleaños si va con 3 acompañantes que consuman platillos regulares (no promocionales); según publicaciones se puede usar varias veces en el mes. Hay que mostrar identificación para comprobar el mes y no aplica con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación que compruebe tu mes de cumpleaños",
+      "Ir con 3 acompañantes que pidan platillos regulares",
+      "No aplica con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación al llegar y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/SensacaoSaltillo/",
+      "https://www.instagram.com/sensacaosaltillo/",
+      "https://www.tiktok.com/@sensacaomx"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "COA",
+      "NLE"
+    ],
+    "cities": [
+      "saltillo",
+      "monterrey"
+    ],
+    "locationNote": "Sensação Saltillo, Blvd. Venustiano Carranza km 5.5 (tel. 844 432 1257); la promo se reporta válida en Saltillo y Monterrey. Algunas publicaciones dicen \"con 4 personas\", que puede incluirte a ti: confirma la regla.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "mariscos-de-la-rosa-matamoros",
+    "brand": "Mariscos de la Rosa",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis de martes a jueves",
+    "benefitType": "gratis",
+    "details": "Los cumpleañeros comen gratis de martes a jueves presentando su INE y yendo con un mínimo de 5 personas, con derecho a su \"menú cumpleañero\". El texto sale de una publicación del restaurante; no precisa si es solo el día del cumpleaños o todo el mes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Grupo de mínimo 5 personas",
+      "Solo de martes a jueves"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Martes a jueves; no precisan si es el día o todo el mes",
+    "minPurchase": null,
+    "howToClaim": "Llega en grupo de 5 o más, presenta tu INE y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/AbbySalondeEventosMatamoros/",
+      "https://x.com/mariscosdelaros"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "matamoros"
+    ],
+    "locationNote": "Sucursal Arboledas, Matamoros (página de Facebook \"Mariscos de la Rosa Suc. Arboledas\"). No pude abrir el post original: confirma por redes o teléfono.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "chuy-yen-tampico",
+    "brand": "Chuy Yen",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 o más personas",
+    "benefitType": "gratis",
+    "details": "Restaurante de comida china con buffet y servicio a la carta donde el cumpleañero come gratis si va acompañado de 3 o más personas. No pude ver las reglas completas (identificación, días ni exclusiones): confirma con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 o más personas",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu cumpleaños al llegar con tu grupo.",
+    "sources": [
+      "https://www.facebook.com/chuy.yentam/",
+      "https://www.instagram.com/chuy.yentam/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "tampico"
+    ],
+    "locationNote": "Blvd. Emilio Portes Gil 1608, col. Guadalupe Mainero, Tampico; cocina china desde 1978. La promo aparece solo en resúmenes de sus redes, que no pude abrir.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "el-huachinango-reynosa",
+    "brand": "El Huachinango (buffet de mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "Buffet de mariscos dentro de Paseo Reynosa donde el cumpleañero come gratis si va con 3 personas; también anuncian 4x3 de lunes a jueves. Solo lo vimos en una publicación de redes, sin reglas escritas de identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el buffet que es tu cumpleaños y confirma las condiciones antes de ir.",
+    "sources": [
+      "https://www.facebook.com/p/El-Huachinango-Suc-Morelos-Paseo-Reynosa-100090311139661/",
+      "https://www.tiktok.com/@wendyzva/video/7503730904578231559"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "reynosa"
+    ],
+    "locationNote": "Sucursal en Paseo Reynosa (hay otra Suc. Morelos). Buffet reportado en $299 por persona; confirma precio y promo.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "rafitas-restaurant-bar-matamoros",
+    "brand": "Rafita's (Rafi's) Restaurant Bar",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "Restaurante de mariscos y comida china donde, según una publicación con su nombre, el cumpleañero come gratis con el consumo de sus tres acompañantes. No encontré reglas de identificación ni días: confirma con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes que consuman",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://www.tripadvisor.com/Restaurant_Review-g499436-d13111666-Reviews-Rafitas_Restaurant_Bar-Matamoros_Northern_Mexico.html"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "matamoros"
+    ],
+    "locationNote": "Marina Nacional y Manuel de la Cruz, detrás de Plaza San Patricio, Matamoros.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "la-botanita-reynosa",
+    "brand": "La Botanita",
+    "category": "restaurantes",
+    "benefit": "Postre gratis en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Restaurante familiar que regala un postre al cumpleañero que celebra con ellos; el postre lo cubre el restaurante según sus publicaciones. No encontré reglas de identificación, acompañantes ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el restaurante",
+      "Confirma identificación y acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/p/La-Botanita-100055885454885/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "reynosa"
+    ],
+    "locationNote": "Sucursales Cumbres (Blvd. Mil Cumbres) y Petrolera (Blvd. Poza Rica), Reynosa.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "cimaco-cumpleanos",
+    "brand": "Cimaco",
+    "category": "departamentales",
+    "benefit": "Certificado de consumo en su restaurante y cortesía de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Con la tarjeta de crédito Cimaco, el cumpleañero recibe un certificado de consumo en el restaurante Gourmet Cimaco durante su mes de cumpleaños. Además, quien se registra en Ecológica Cimaco (estado de cuenta electrónico) recibe por correo 7 días antes de su cumpleaños una cortesía con vigencia de 2 meses.",
+    "program": "Tarjeta de crédito Cimaco",
+    "signupUrl": null,
+    "requirements": [
+      "Tarjeta de crédito Cimaco",
+      "Estado de cuenta electrónico (Ecológica Cimaco) para la cortesía",
+      "El certificado aplica en el restaurante Gourmet Cimaco"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños (la cortesía por correo dura 2 meses)",
+    "minPurchase": null,
+    "howToClaim": "Si tienes tarjeta Cimaco y estado de cuenta electrónico, revisa tu correo 7 días antes de tu cumpleaños; en caso contrario pregunta en tu tienda.",
+    "sources": [
+      "https://www.cimaco.com.mx/preguntas-frecuentes"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "torreon",
+      "saltillo",
+      "monclova"
+    ],
+    "locationNote": "Tiendas Cimaco en Torreón, Saltillo y Monclova (también Ciudad Juárez, Mazatlán y Culiacán). Los datos salen de su página de preguntas frecuentes, que mi navegador no pudo abrir: confirma el detalle del certificado.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tipioka-tampico",
+    "brand": "Tipi'Óka",
+    "category": "cafe",
+    "benefit": "50% de descuento en tu Tipioka",
+    "benefitType": "descuento",
+    "details": "Según una guía de medios, al presentar una identificación oficial que demuestre que es tu cumpleaños obtienes 50% de descuento en tu Tipioka (bebida con tapioca). No lo encontré en el sitio oficial de la marca: confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con tu fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Día de tu cumpleaños (según la guía; sin confirmar)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en caja al pedir.",
+    "sources": [
+      "https://guiauniversitaria.mx/comercios-en-los-que-te-dan-regalos-por-tu-cumpleanos/",
+      "https://www.tipioka.com/sucursales"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "tampico"
+    ],
+    "locationNote": "Sucursal Galerías Altama en Tampico (el sitio oficial también lista San Luis Potosí y Ciudad Valles).",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "nikkori-sushi-saltillo",
+    "brand": "Nikkori Sushi",
+    "category": "restaurantes",
+    "benefit": "Tempura helado gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Con 4 acompañantes y un consumo mínimo de $500, el cumpleañero recibe un tempura helado gratis mostrando identificación; solo en comedor. Un resumen indica que aplica en todas las sucursales de Nuevo León, Saltillo y Ramos Arizpe, pero su sitio oficial hoy aparece suspendido, así que podría estar desactualizado.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 4 personas",
+      "Consumo mínimo de $500",
+      "Solo en comedor"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": 500,
+    "howToClaim": "Muestra tu identificación en la sucursal antes de pedir la cuenta.",
+    "sources": [
+      "https://www.nikkori.mx/promociones-2/",
+      "https://cazaofertas.com.mx/restaurantes/promocion-nikkori-sushi-cumpleaneros-combo-postre-gratis-si-vas-con-4-personas-o-mas/",
+      "https://www.facebook.com/nikkorioficial/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA",
+      "NLE"
+    ],
+    "cities": [
+      "saltillo",
+      "monterrey"
+    ],
+    "locationNote": "Sucursales en Saltillo, Ramos Arizpe y Nuevo León. La nota de Cazaofertas es de 2019 y el sitio oficial está suspendido: confirma en su Facebook.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "paneamore-saltillo",
+    "brand": "Paneamore",
+    "category": "cafe",
+    "benefit": "Pan francés (French toast) gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Panadería-cafetería artesanal de masa madre que, según un video local, regala pan francés al cumpleañero que celebra en el restaurante; piden reservar y llevar a tu grupo. Los términos exactos no están publicados: consúltalos en la sucursal.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar en el restaurante",
+      "Reservar y llevar a tu grupo",
+      "Términos por confirmar en sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva (844 666 5010) y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/@dondeirsaltillo/video/7350806997048118534",
+      "https://www.instagram.com/paneamore_oficial_mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "saltillo"
+    ],
+    "locationNote": "Sucursal en Blvd. Moctezuma 2156, Saltillo (tienen 3 sucursales en Saltillo y una en Querétaro). Solo la vimos en un video de TikTok.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "meson-de-la-acequia-saltillo",
+    "brand": "Mesón de la Acequia",
+    "category": "restaurantes",
+    "benefit": "Comida gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Restaurante de comida mexicana en el Centro Histórico que regala la comida al cumpleañero y además una velita con rebanada de pastel; solo hay que llevar identificación vigente y consumir en el lugar. No publican acompañantes mínimos ni vigencia: confirma por teléfono.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación vigente",
+      "Consumir en el restaurante",
+      "Confirma acompañantes mínimos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llama al 844 455 0834 para confirmar y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/p/Mes%C3%B3n-de-la-Acequia-61584000972149/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "saltillo"
+    ],
+    "locationNote": "Allende Sur 135, Centro Histórico de Saltillo. Datos de resúmenes de redes y TikTok.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "kimchee-saltillo",
+    "brand": "Kimchee",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Restaurante coreano (BBQ y parrillada) que da un postre de cortesía al cumpleañero; tiene área privada para reservaciones de hasta 12 personas. No encontré reglas escritas de identificación ni acompañantes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el restaurante",
+      "Confirma reglas al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva con anticipación y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/@kimchee.saltillo"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "saltillo"
+    ],
+    "locationNote": "Plaza Arcada, segundo piso, Calle Cuauhtémoc, Saltillo. Dato tomado de resúmenes de sus redes (TikTok); no pude abrir el post original.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "rustic-buffet-durango",
+    "brand": "Rustic Buffet",
+    "category": "restaurantes",
+    "benefit": "Mañanitas y panquecito de regalo para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Su sitio oficial dice que el cumpleañero recibe las mañanitas del equipo y un panquecito especial disponible solo para cumpleañeros. No publica requisitos (identificación, acompañantes) ni vigencia, y no se necesita reservación para ir al buffet.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el restaurante",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.rusticbuffet.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "DUR"
+    ],
+    "cities": [
+      "durango"
+    ],
+    "locationNote": "Cerrada Gabino Barreda, frente al Jardín Hidalgo (Santa Ana), centro de Durango; tel. 618 103 0621. Buffet de desayuno, comida y cena.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "picanha-y-carvao-saltillo",
+    "brand": "Picanha y Carvão (Picanha do Brasil)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 adultos",
+    "benefitType": "gratis",
+    "details": "Churrascaría brasileña donde, según un directorio local, si es tu cumpleaños comes gratis yendo con 3 adultos. Su Instagram tiene una sección de historias \"CUMPLE\", pero no vi las reglas completas (identificación, días, mes).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 adultos",
+      "Confirma identificación y días"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva al (844) 141 2240 y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.kupi.com/en-ae/explore/mexico/saltillo/picanha-do-brasil",
+      "https://www.instagram.com/picanhaycarvao/",
+      "https://www.facebook.com/Picanhaycarvaosaltillo/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "saltillo"
+    ],
+    "locationNote": "Blvd. José Musa de León 2621, Valle Real 2do Sector, Saltillo. El sitio picanha.com.mx que aparece en su bio corresponde a la sucursal de Puebla y no trae la promo.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "stars-and-cream-tampico",
+    "brand": "Stars & Cream",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 2 acompañantes",
+    "benefitType": "gratis",
+    "details": "Restaurante, cafetería y panadería tampiqueña (Grupo Govela) que, según sus publicaciones, regala la comida del cumpleañero si va con 2 o más personas; aplican restricciones que no pude ver. Su sitio oficial no menciona la promo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 2 o más personas",
+      "Aplican restricciones por confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu cumpleaños al llegar con tu grupo.",
+    "sources": [
+      "https://www.facebook.com/starscreamrestaurante/",
+      "https://www.instagram.com/starscream.restaurant/",
+      "https://starscream.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "tampico"
+    ],
+    "locationNote": "Sucursales en Tampico, Madero y Altamira (tel. matriz 833 124 3333). No sé en cuáles aplica: confirma antes de ir.",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "pampas-do-brasil-torreon",
+    "brand": "Pampas do Brasil Torreón",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis por cada 6 adultos",
+    "benefitType": "gratis",
+    "details": "Según su página de Facebook, por cada 6 personas adultas el cumpleañero come gratis (pagas 5 buffets y el sexto es cortesía). La misma página indica que en la semana de tu cumpleaños, yendo con al menos 4 acompañantes, tu buffet también es gratis; un directorio añade que la regla de los 6 adultos aplica en horario de comida.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo de 6 adultos (5 pagan buffet)",
+      "Alternativa: semana del cumpleaños con al menos 4 acompañantes",
+      "Presenta identificación oficial (confirma al reservar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Regla principal sin día fijo; la variante es toda la semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva al (871) 732-6244, avisa que es tu cumpleaños y muestra tu identificación.",
+    "sources": [
+      "https://www.facebook.com/PampasDoBrasilTorreon/",
+      "https://www.foodyas.com/MX/Torre%C3%B3n/151553338231885/Pampas-Torre%C3%B3n"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "torreon"
+    ],
+    "locationNote": "Paseo de la Rosita 421, Torreón. Es un restaurante distinto de Mr. Pampas (Blvd. Independencia 2727, que ya está en el catálogo). El sitio pampasdobrasil.com no abrió; las reglas salen de su Facebook y no tienen fecha.",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "el-costenito-saltillo",
+    "brand": "El Costeñito",
+    "category": "restaurantes",
+    "benefit": "Botella gratis un miércoles de tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Una nota de POSTA (julio 2024) sobre promos de cumpleaños en Saltillo lista a El Costeñito con \"botella gratis un miércoles del mes\" mostrando identificación. Una lista de CDMX con la misma promo exige ir con al menos 3 acompañantes; no está claro que aplique igual en Saltillo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir en miércoles de tu mes de cumpleaños",
+      "Posible mínimo de 3 acompañantes (por confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Un miércoles del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación en el restaurante un miércoles y pide tu botella.",
+    "sources": [
+      "https://www.posta.com.mx/mexico/celebrando-tu-cumpleanos-conoce-las-promociones-que-empresas-tienen-para-ti/vl1592568",
+      "https://www.facebook.com/costenitosaltillo/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "saltillo"
+    ],
+    "locationNote": "Costeñito Saltillo Norte (Blvd. Venustiano Carranza 2302) y Costeñito República. La nota de POSTA tiene más de un año; confirma con la sucursal.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "don-arturo-mariscos-matamoros",
+    "brand": "Mariscos Don Arturo",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero come gratis en el buffet con su INE",
+    "benefitType": "gratis",
+    "details": "Buffet de mariscos donde, según una reseña local en TikTok, el restaurante invita al cumpleañero o cumpleañera si lleva su INE. No pude ver la regla en sus redes oficiales (acompañantes, días, vigencia): confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Confirma acompañantes mínimos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Lleva tu INE y avisa que es tu cumpleaños al pasar al buffet.",
+    "sources": [
+      "https://www.tiktok.com/@hellomatamoros/video/7446522100476677382",
+      "https://www.facebook.com/OficialMariscosDonArturo/",
+      "https://www.instagram.com/donarturomariscos/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "matamoros"
+    ],
+    "locationNote": "Calle Sexta y Marina Nacional, frente a Plaza San Patricio, Matamoros; abierto todos los días de 11:00 a 19:00 según la reseña (buffet de unos $300 por adulto). La marca también tiene sucursal en Monterrey.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "reginas-reynosa",
+    "brand": "Regina's",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero come gratis",
+    "benefitType": "gratis",
+    "details": "Una publicación en TikTok de este restaurante de la col. Longoria anuncia que el cumpleañero come gratis. No pude ver las reglas (identificación, acompañantes, días): confirma por sus redes o por teléfono.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma identificación y acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en el restaurante cómo cobrar la promoción antes de pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-comer-gratis-en-tu-cumplea%C3%B1os-reynosa"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "reynosa"
+    ],
+    "locationNote": "Col. Longoria, Reynosa (por la zona de la Ministerial). Solo la vi en una página de resultados de TikTok.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-makarena-reynosa",
+    "brand": "La Makarena",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero come gratis",
+    "benefitType": "gratis",
+    "details": "Restaurante de comida del noreste (boneless, hamburguesas y área infantil) que, según resúmenes de sus redes, tiene una promoción donde el cumpleañero come gratis. No pude ver reglas, así que confirma acompañantes, días e identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma identificación y acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llama al 899 155 53 00 y confirma la promo antes de ir.",
+    "sources": [
+      "https://www.instagram.com/lamakarena_reynosa/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "reynosa"
+    ],
+    "locationNote": "Reynosa; abre de miércoles a domingo de 4:00 pm a 12:00 am según sus redes.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "las-shulas-cevicheria-reynosa",
+    "brand": "Las Shulas Cevichería",
+    "category": "restaurantes",
+    "benefit": "Mesa decorada y pastel gratis para festejar tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Cevichería que, según sus publicaciones, ofrece mesa decorada y pastel gratis a quien celebra su cumpleaños con ellos; piden reservar. No pude ver las reglas completas (acompañantes mínimos, identificación).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con anticipación",
+      "Confirma mínimo de personas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva por sus redes y menciona que festejas un cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/lasshulascevicheria/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "reynosa"
+    ],
+    "locationNote": "Reynosa. Dato tomado de resúmenes de sus publicaciones.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "songui-mariscos-torreon",
+    "brand": "Songui Mariscos",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero no paga",
+    "benefitType": "gratis",
+    "details": "Una mención en TikTok dice que en Songui el cumpleañero no paga, pero no encontré reglas publicadas (identificación, acompañantes, días). Confirma con el restaurante antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma identificación y acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en el restaurante cómo aplicar la promoción.",
+    "sources": [
+      "https://www.facebook.com/MariscosSongui/",
+      "https://www.instagram.com/songuimx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "torreon"
+    ],
+    "locationNote": "Sucursales en Francisco Sarabia 137 (ex Hacienda La Merced) y Av. Juárez 2899 y Calle 29, Torreón.",
+    "needsId": null,
+    "companions": null
+  }
+]

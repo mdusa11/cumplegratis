@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "farmacias-del-ahorro",
+    "brand": "Farmacias del Ahorro",
+    "category": "otras-tiendas",
+    "benefit": "10% de descuento en productos Me Quiero Bien",
+    "benefitType": "descuento",
+    "details": "Los miembros del Club Me Quiero Bien reciben 10% de descuento durante el mes de su cumpleaños en los productos de la sección Me Quiero Bien. No aplica a productos fuera de esa sección. La página oficial no detalla si se canjea en sucursal, en línea o en la app.",
+    "program": "Club Me Quiero Bien",
+    "signupUrl": "https://www.fahorro.com/mequierobien-club",
+    "requirements": [
+      "Estar suscrito al Club Me Quiero Bien",
+      "Solo en tu mes de cumpleaños",
+      "Solo productos de la sección Me Quiero Bien"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete al Club Me Quiero Bien en fahorro.com o en la app y compra productos de la sección Me Quiero Bien en tu mes de cumpleaños. La mecánica de canje no está detallada: confirma en la app o en sucursal.",
+    "sources": [
+      "https://www.fahorro.com/mequierobien-club"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Farmacias del Ahorro en México; la página no aclara si aplica en sucursal, en línea o ambos",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "sushi-factory",
+    "brand": "Sushi Factory",
+    "category": "restaurantes",
+    "benefit": "Rollo de 12 piezas + copa de nieve de cortesía",
+    "benefitType": "gratis",
+    "details": "El día de tu cumpleaños, si vas con 3 acompañantes que consuman rollos de 12 pzas. o platillos, recibes de cortesía 1 rollo de 12 piezas y 1 copa de nieve (se descuenta el rollo de menor precio). Solo rollos naturales, capeados, horneados y vegetarianos de 12 pzas.; no aplica en rollos premium, aguachiles ni petit, ni con otras promociones como el rollo del mes. Ingredientes extra se cobran. Vigente enero-diciembre 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas acompañantes",
+      "Los 3 acompañantes deben consumir rollos de 12 pzas. o platillos",
+      "Ser mayor de 18 años",
+      "Identificación oficial",
+      "Solo el día de tu cumpleaños",
+      "Solo consumo en restaurante (no para llevar ni a domicilio)",
+      "No aplica en Tepic"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños (vigencia enero-diciembre 2026)",
+    "minPurchase": null,
+    "howToClaim": "Llega con tus 3 acompañantes, presenta tu identificación oficial y pide el rollo de cortesía al ordenar en el restaurante.",
+    "sources": [
+      "https://www.sushifactory.com.mx/promociones",
+      "https://www.sushifactory.com.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": ["SIN", "JAL", "BCN", "MIC", "BCS", "NLE", "CMX", "MEX"],
+    "cities": [],
+    "locationNote": "Sucursales en Culiacán y Mazatlán (SIN), Guadalajara/Zapopan (JAL), Tijuana (BCN), Morelia (MIC), La Paz (BCS), Monterrey (NLE) y CDMX/Naucalpan; la promo no aplica en la sucursal de Tepic",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "justo",
+    "brand": "Jüsto",
+    "category": "otras-tiendas",
+    "benefit": "$200 de saldo en tu cuenta Jüsto",
+    "benefitType": "descuento",
+    "details": "Medios (Milenio, oct-2025; La Crónica de Hoy, jul-2026) reportan que los miembros de Club Jüsto reciben $200 pesos abonados a su saldo por su cumpleaños. Jüsto no lo publica en su centro de ayuda (solo describe el Club con cupones, horarios preferenciales y referidos), así que confirma el abono en la app.",
+    "program": "Club Jüsto",
+    "signupUrl": "https://justo.mx/",
+    "requirements": [
+      "Ser miembro de Club Jüsto (gratis)",
+      "Hacer 1 compra al mes para mantener activos los beneficios del Club"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Las fuentes no precisan la vigencia ni el momento del abono",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en Club Jüsto desde la app y revisa tu saldo en tu mes de cumpleaños.",
+    "sources": [
+      "https://amp.milenio.com/consejos/regalos-gratis-por-tu-cumpleanos-lista-de-empresas-que-dan-cosas",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://faq.justo.mx/hc/es-419/articles/32578928709140-Club-J%C3%BCsto"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": ["CMX", "MEX"],
+    "cities": ["cdmx"],
+    "locationNote": "Súper 100% en línea; solo entrega en CDMX y algunas zonas del área metropolitana",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "pf-changs",
+    "brand": "P.F. Chang's",
+    "category": "restaurantes",
+    "benefit": "$200 de descuento con Wow Rewards",
+    "benefitType": "descuento",
+    "details": "Listados comunitarios de cumpleaños (Promodescuentos, ene-abr 2026) indican $200 de descuento en tu mes de cumpleaños para socios Wow Rewards (Alsea), con consumo mínimo. P.F. Chang's participa en Wow+ según la app oficial, y Italianni's confirma la misma mecánica ($200 con consumo mínimo de $500), pero P.F. Chang's no publica la promo en su sitio.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Cuenta Wow Rewards (Wow+) con fecha de nacimiento",
+      "Consumo mínimo (monto no confirmado; $500 en Italianni's)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cuenta Wow+ al pedir la cuenta; confirma la mecánica y el monto mínimo en la sucursal.",
+    "sources": [
+      "https://www.promodescuentos.com/ofertas/regalos-cupones-y-descuentos-de-cumpleanos-en-abril-2026-1148393",
+      "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+      "https://www.italiannis.com.mx/preguntas-frecuentes-italiannis/"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sucursales P.F. Chang's participantes en Wow Rewards; no confirmado oficialmente por la marca",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "the-cheesecake-factory",
+    "brand": "The Cheesecake Factory",
+    "category": "restaurantes",
+    "benefit": "$200 de descuento con Wow Rewards",
+    "benefitType": "descuento",
+    "details": "Listados comunitarios de cumpleaños (Promodescuentos, ene-abr 2026) indican $200 de descuento en tu mes de cumpleaños para socios Wow Rewards (Alsea), con consumo mínimo. The Cheesecake Factory participa en Wow+ según la app oficial, y Italianni's confirma la misma mecánica ($200 con consumo mínimo de $500), pero la marca no publica la promo en su sitio.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Cuenta Wow Rewards (Wow+) con fecha de nacimiento",
+      "Consumo mínimo (monto no confirmado; $500 en Italianni's)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cuenta Wow+ al pedir la cuenta; confirma la mecánica y el monto mínimo en la sucursal.",
+    "sources": [
+      "https://www.promodescuentos.com/ofertas/regalos-cupones-y-descuentos-de-cumpleanos-en-abril-2026-1148393",
+      "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+      "https://www.italiannis.com.mx/preguntas-frecuentes-italiannis/"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sucursales participantes en Wow Rewards; no confirmado oficialmente por la marca",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "chedraui",
+    "brand": "Chedraui",
+    "category": "otras-tiendas",
+    "benefit": "30% de descuento en perfumería (tope $600)",
+    "benefitType": "descuento",
+    "details": "Una publicación de Promodescuentos (ago-2026) reporta 30% de descuento en perfumería y fragancias durante tu mes de cumpleaños para clientes Chedraui, con tope de $600 de descuento y sujeto a un listado de fragancias participantes. No encontré la mecánica oficial (app o programa de clientes); confirma en tienda o app antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ser cliente Chedraui (mecánica de registro no confirmada)",
+      "Fragancia incluida en el listado participante",
+      "Descuento máximo de $600"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños (según la publicación)",
+    "minPurchase": null,
+    "howToClaim": "Sin mecánica oficial confirmada: pregunta en el área de perfumería o en la app Chedraui.",
+    "sources": [
+      "https://www.promodescuentos.com/ofertas/es-tu-cumple-30-descuento-perfumeria-chedraui-1183998"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": ["CMX"],
+    "cities": ["cdmx"],
+    "locationNote": "Publicado como oferta local en CDMX; no confirmado en otras ciudades",
+    "needsId": false,
+    "companions": null
+  }
+]

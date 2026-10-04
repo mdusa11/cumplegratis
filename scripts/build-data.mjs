@@ -18,6 +18,18 @@ const WINDOW = new Set(["mes", "semana", "dia", "otro"]);
 const CONFIDENCE = new Set(["alta", "media", "baja"]);
 const COVERAGE = new Set(["nacional", "estados", "ciudades"]);
 
+// Directorios de la competencia: sirven como pista, nunca como fuente. Una promo que solo se apoya en ellos se descarta.
+const BLOCKED_SOURCES = ["quecumple.mx"];
+const blocked = (url) => BLOCKED_SOURCES.some((d) => new URL(url).hostname.replace(/^www\./, "").endsWith(d));
+const CONF_RANK = { alta: 0, media: 1, baja: 2 };
+const brandKey = (b) =>
+  b
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/\b(mexico|mx|cdmx|restaurante|restaurant)\b/g, "")
+    .replace(/[^a-z0-9]/g, "");
+
 const isUrl = (s) => {
   try {
     return ["http:", "https:"].includes(new URL(s).protocol);
@@ -57,6 +69,16 @@ function extras(raw, slug) {
     needsId: typeof raw.needsId === "boolean" ? raw.needsId : null,
     companions: Number.isInteger(raw.companions) && raw.companions > 0 ? raw.companions : null,
   };
+}
+
+function mergeLocation(a, b) {
+  if (a.coverage === "nacional" || b.coverage === "nacional") return { coverage: "nacional", states: [], cities: [] };
+  if (!a.coverage || !b.coverage) return a.coverage ? {} : { coverage: b.coverage, states: b.states, cities: b.cities };
+  const states = [...new Set([...a.states, ...b.states])].sort();
+  const cities = [...new Set([...a.cities, ...b.cities])];
+  // Si una de las dos aplica a estados completos, la unión también.
+  const coverage = a.coverage === "ciudades" && b.coverage === "ciudades" ? "ciudades" : "estados";
+  return { coverage, states, cities: coverage === "ciudades" ? cities : [] };
 }
 
 function check(p) {
@@ -112,18 +134,30 @@ for (const file of files) {
       windowNote: raw.windowNote?.trim() ?? "",
       minPurchase: raw.minPurchase ?? null,
       howToClaim: raw.howToClaim?.trim() ?? "",
-      sources: Array.isArray(raw.sources) ? raw.sources.filter(isUrl) : [],
+      sources: Array.isArray(raw.sources) ? raw.sources.filter(isUrl).filter((u) => !blocked(u)) : [],
       confidence: raw.confidence,
       ...extras(raw, raw.slug),
     };
     const errors = check(p);
+    // Sin confirmar + citada de un competidor = la promo viene de su directorio, no de la marca.
+    if (Array.isArray(raw.sources) && raw.sources.some((u) => isUrl(u) && blocked(u)) && (p.sources.length === 0 || p.confidence === "baja")) {
+      errors.push("viene de un directorio competidor sin confirmar");
+    }
     if (errors.length) {
       rejected++;
       console.warn(`✗ ${file} ${p.slug ?? "?"}: ${errors.join(", ")}`);
       continue;
     }
-    if (bySlug.has(p.slug)) console.warn(`↺ ${p.slug} repetido en ${file}; se queda el primero`);
-    else bySlug.set(p.slug, p);
+    const dup = bySlug.get(p.slug) ?? [...bySlug.values()].find((q) => brandKey(q.brand) === brandKey(p.brand));
+    if (dup) {
+      // Misma marca dos veces: el texto de la mejor verificada (empate: la primera) y la ubicación de ambas.
+      const [win, lose] = CONF_RANK[p.confidence] < CONF_RANK[dup.confidence] ? [p, dup] : [dup, p];
+      Object.assign(win, mergeLocation(win, lose));
+      win.sources = [...new Set([...win.sources, ...lose.sources])];
+      bySlug.delete(dup.slug);
+      bySlug.set(win.slug, win);
+      console.warn(`↺ ${p.brand}: se unen ${dup.slug} + ${file}/${p.slug} → ${win.slug}`);
+    } else bySlug.set(p.slug, p);
   }
 }
 

@@ -227,5 +227,50 @@
     "locationNote": "Solo sucursal Aguascalientes: Av. Héroe de Nacozari Sur 2101, Jardines de las Bugambilias.",
     "needsId": true,
     "companions": null
+  },
+  {
+    "slug": "fishers-queretaro-morelia",
+    "brand": "Fisher's",
+    "category": "restaurantes",
+    "benefit": "Shot Pato Beto de regalo en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Fisher's regala un Pato Beto (shot) todos los días del mes de tu cumpleaños, uno por mesa y sujeto a disponibilidad. Hay que ser usuario de la app de Fisher's y redimir el cupón desde la app (no basta mostrar una captura), con consumo de alimentos a partir de las 14:30 h y mostrando INE o pasaporte; solo mayores de edad, no aplica para llevar ni en Oyster's Bar. Vigente del 1 de enero al 31 de diciembre de 2026.",
+    "program": "App Fisher's",
+    "signupUrl": null,
+    "requirements": [
+      "Usuario registrado en la app de Fisher's",
+      "Redimir el cupón desde la app (una captura no basta)",
+      "INE o pasaporte del cumpleañero",
+      "Mayor de edad",
+      "Con consumo de alimentos, a partir de las 14:30 h",
+      "Un Pato Beto por mesa; no aplica para llevar ni en Oyster's Bar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todos los días de tu mes de cumpleaños (vigencia 1 ene a 31 dic 2026)",
+    "minPurchase": null,
+    "howToClaim": "Descarga tu cupón de cumpleaños en la app de Fisher's y redímelo con el mesero mostrando tu INE o pasaporte.",
+    "sources": [
+      "https://www.fishers.com.mx/cumpleanos",
+      "https://www.fishers.com.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE",
+      "MIC",
+      "CMX",
+      "MEX",
+      "GRO"
+    ],
+    "cities": [
+      "queretaro",
+      "morelia",
+      "cdmx",
+      "toluca"
+    ],
+    "locationNote": "Válido en todas las sucursales Fisher's. En la región: Querétaro (Blvd. Bernardo Quintana 22) y Morelia (Paseo Altozano); también CDMX, Edomex y Guerrero.",
+    "needsId": true,
+    "companions": null
   }
 ]

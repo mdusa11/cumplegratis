@@ -1,32 +1,29 @@
 [
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Encuentro Oceanía, Parque Delta, Parque Tepeyac y Mundo E",
-    "needsId": true,
-    "companions": 3,
-    "coverage": "ciudades",
     "slug": "del-pingo-al-tango",
     "brand": "Del Pingo al Tango",
     "category": "restaurantes",
     "benefit": "Menú de 2 tiempos gratis y postre con bengala",
     "benefitType": "gratis",
     "details": "Adultos (11+) comen gratis un menú de 2 tiempos (entrada y plato fuerte) de lunes a viernes durante su mes si van 4 o más personas que consuman; niños de 2 a 10 años reciben un platillo infantil gratis. Todos los festejados reciben postre con bengala cualquier día del mes con cualquier consumo.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación con fecha de nacimiento (INE, pasaporte o acta)",
       "Grupo de 4+ personas que consuman (menú gratis)",
       "Menú gratis solo de lunes a viernes",
       "Avisar a la hostess al llegar o al reservar"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños; promoción publicada con vigencia al 31 de octubre de 2026",
+    "minPurchase": null,
     "howToClaim": "Avisa a la hostess al reservar o al llegar y presenta tu identificación oficial con fecha de nacimiento.",
     "sources": [
       "https://www.delpingoaltango.mx/happingotoyou"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX"
@@ -34,36 +31,36 @@
     "cities": [
       "cdmx",
       "tlalnepantla"
-    ]
+    ],
+    "locationNote": "Encuentro Oceanía, Parque Delta, Parque Tepeyac y Mundo E",
+    "needsId": true,
+    "companions": 3
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Parque Tepeyac, Encuentro Fortuna, Mundo E y Free Wok Perinorte",
-    "needsId": true,
-    "companions": 4,
-    "coverage": "ciudades",
     "slug": "asador-city-wok",
     "brand": "Asador City Wok",
     "category": "restaurantes",
     "benefit": "Buffet del cumpleañero gratis con 4 que paguen",
     "benefitType": "gratis",
     "details": "Al comprar 4 buffets, el quinto (el del cumpleañero) es gratis, cualquier día de la semana. Válido 3 días antes y 3 días después de tu cumpleaños; no acumulable con otras promociones, descuentos ni noches de promoción.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial",
       "Ir con 4 acompañantes que paguen buffet",
       "Válido 3 días antes y 3 después de tu cumpleaños",
       "No acumulable con otras promociones"
     ],
+    "registerDaysBefore": null,
     "window": "otro",
     "windowNote": "3 días antes y 3 días después de tu cumpleaños, cualquier día de la semana",
+    "minPurchase": null,
     "howToClaim": "Presenta tu identificación oficial al pagar; el buffet del festejado se descuenta al comprar 4 buffets.",
     "sources": [
       "https://www.asadorcitywok.com.mx/buffet-libre"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX"
@@ -71,23 +68,20 @@
     "cities": [
       "cdmx",
       "tlalnepantla"
-    ]
+    ],
+    "locationNote": "Parque Tepeyac, Encuentro Fortuna, Mundo E y Free Wok Perinorte",
+    "needsId": true,
+    "companions": 4
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Aplica en todas sus sucursales de CDMX y Edomex",
-    "needsId": true,
-    "companions": 3,
-    "coverage": "ciudades",
     "slug": "carvao-do-brasil",
     "brand": "Carvão do Brasil",
     "category": "restaurantes",
     "benefit": "Buffet de espadas brasileñas gratis",
     "benefitType": "gratis",
     "details": "El cumpleañero no paga su buffet (precio de lista $479) al comprar 3 buffets de adulto, de lunes a viernes durante el mes de su cumpleaños. Si caes en sábado o domingo, solo aplica exactamente el día de tu cumpleaños. No incluye bebidas ni aplica con otras promociones o días festivos.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial con fecha de nacimiento (con copia impresa)",
       "Comprar 3 buffets de adulto",
@@ -95,52 +89,50 @@
       "Bebidas no incluidas",
       "No aplica en días festivos ni con otras promociones"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Mes de tu cumpleaños de lunes a viernes; sábado/domingo solo el día exacto",
+    "minPurchase": null,
     "howToClaim": "Presenta tu identificación oficial (con copia impresa) al ordenar.",
     "sources": [
       "https://carvaodobrasil.com/promociones/promocion-cumpleanero/"
     ],
     "confidence": "alta",
+    "coverage": "estados",
     "states": [
       "CMX",
       "MEX"
     ],
-    "cities": [
-      "cdmx",
-      "naucalpan",
-      "tlalnepantla",
-      "ecatepec"
-    ]
+    "cities": [],
+    "locationNote": "Aplica en todas sus sucursales de CDMX y Estado de México",
+    "needsId": true,
+    "companions": 3
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "CDMX: Miyana, Vallejo, Tezontle, Toreo; también Cancún y Playa del Carmen",
-    "needsId": true,
-    "companions": null,
-    "coverage": "ciudades",
     "slug": "la-vicenta",
     "brand": "La Vicenta",
     "category": "restaurantes",
     "benefit": "Cuenta del cumpleañero gratis (martes y jueves)",
     "benefitType": "gratis",
     "details": "Durante todo el mes de tu cumpleaños, el festejado no paga su cuenta los días de la promoción: jueves en Miyana y Cancún/Playa del Carmen, y martes y jueves en Vallejo, Tezontle y Toreo. Se pide reservar con el coordinador de eventos de la sucursal; los acompañantes pagan normal.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Reservar con la sucursal (coordinador de eventos)",
       "Solo martes/jueves según sucursal",
       "Presentar identificación oficial"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños, solo en los días de la sucursal",
+    "minPurchase": null,
     "howToClaim": "Reserva en tu sucursal indicando que eres cumpleañero y presenta tu identificación al llegar.",
     "sources": [
       "https://lavicenta.com.mx/promociones/",
       "https://lavicenta.com.mx/blog/promocion-cumpleanero-come-gratis/"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX",
@@ -150,23 +142,20 @@
       "cdmx",
       "naucalpan",
       "cancun"
-    ]
+    ],
+    "locationNote": "CDMX: Miyana, Vallejo, Tezontle, Toreo; también Cancún y Playa del Carmen",
+    "needsId": true,
+    "companions": null
   },
   {
-    "program": "LoneStar Club (registro opcional con fecha de cumpleaños)",
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Todas las sucursales: Del Valle, Plaza Central, Buenavista, Atizapán, Satélite, Metepec, Acapulco, Pachuca",
-    "needsId": true,
-    "companions": 1,
-    "coverage": "ciudades",
     "slug": "texas-ribs",
     "brand": "Texas Ribs",
     "category": "restaurantes",
     "benefit": "$50 menos en la cuenta por cada invitado",
     "benefitType": "descuento",
     "details": "Durante tu mes de cumpleaños recibes $50 de descuento en la cuenta por cada invitado que coma contigo; cada invitado debe consumir plato fuerte. Solo consumo en restaurante, pagando con tarjeta de crédito o débito, y no acumulable con otras promociones.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Presentar identificación",
       "Cada invitado debe consumir plato fuerte",
@@ -174,13 +163,16 @@
       "Solo consumo en restaurante",
       "No acumulable con otras promociones"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
     "howToClaim": "Presenta tu identificación al pedir la cuenta y paga con tarjeta.",
     "sources": [
       "https://www.texasribs.com.mx/promociones"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX",
@@ -192,23 +184,20 @@
       "naucalpan",
       "toluca",
       "pachuca"
-    ]
+    ],
+    "locationNote": "Todas las sucursales: Del Valle, Plaza Central, Buenavista, Atizapán, Satélite, Metepec, Acapulco, Pachuca",
+    "needsId": true,
+    "companions": 1
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Sucursales Sumo All You Can Eat y Express en CDMX, Edomex y Cuernavaca",
-    "needsId": true,
-    "companions": 4,
-    "coverage": "ciudades",
     "slug": "sumo-all-you-can-eat",
     "brand": "Sumo All You Can Eat",
     "category": "restaurantes",
     "benefit": "Buffet, botella o postre gratis con 4 amigos",
     "benefitType": "gratis",
     "details": "En tu mes de cumpleaños eliges una cortesía: buffet gratis o botella de vodka, tequila o ron (con 4 acompañantes) o una copa brownie gratis (con tu pareja), según la promoción vigente. Un cumpleañero por mesa; solo consumo en restaurante en sucursales Sumo All You Can Eat y Express, no combinable con otras ofertas.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial vigente (menores: CURP impresa o digital)",
       "1 cumpleañero por mesa + mínimo 4 acompañantes",
@@ -216,14 +205,17 @@
       "Solo en restaurante, no para llevar",
       "No combinable con otras promociones"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
     "howToClaim": "Avisa al mesero al llegar y presenta tu identificación vigente.",
     "sources": [
       "https://sumo.com.mx/promociones/",
       "https://sumo.com.mx/sucursales/"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX",
@@ -237,35 +229,35 @@
       "nezahualcoyotl",
       "toluca",
       "cuernavaca"
-    ]
+    ],
+    "locationNote": "Sucursales Sumo All You Can Eat y Express en CDMX, Edomex y Cuernavaca",
+    "needsId": true,
+    "companions": 4
   },
   {
-    "program": "Gong Cha Rewards",
-    "signupUrl": "https://gongcha.mx/conoce-nuestro-programa-de-recompensas/",
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Sucursales en CDMX, Edomex (Metepec), Guadalajara, Puebla y Querétaro",
-    "needsId": false,
-    "companions": null,
-    "coverage": "ciudades",
     "slug": "gong-cha-mexico",
     "brand": "Gong Cha",
     "category": "cafe",
     "benefit": "Bebida de cumpleaños gratis",
     "benefitType": "gratis",
     "details": "Los miembros del programa Gong Cha Rewards (niveles White, Black y Red) reciben una bebida gratis válida durante todo el mes de su cumpleaños. El nivel White no exige visitas mínimas; Black requiere 3 visitas al mes y Red 5.",
+    "program": "Gong Cha Rewards",
+    "signupUrl": "https://gongcha.mx/conoce-nuestro-programa-de-recompensas/",
     "requirements": [
       "Inscribirte al programa Gong Cha Rewards con tu cumpleaños",
       "Mantener tu nivel (White, Black o Red)"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
     "howToClaim": "Canjea tu bebida de cumpleaños desde tu wallet de Gong Cha Rewards en sucursal.",
     "sources": [
       "https://gongcha.mx/recompensas/terminos-y-condiciones-programa-de-lealtad/",
       "https://gongcha.mx/"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX",
@@ -279,23 +271,20 @@
       "guadalajara",
       "puebla",
       "queretaro"
-    ]
+    ],
+    "locationNote": "Sucursales en CDMX, Edomex (Metepec), Guadalajara, Puebla y Querétaro",
+    "needsId": false,
+    "companions": null
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Antenas, Tepeyac, Las Américas (Ecatepec) y Satélite",
-    "needsId": true,
-    "companions": 4,
-    "coverage": "ciudades",
     "slug": "la-vaka",
     "brand": "La Vaka",
     "category": "restaurantes",
     "benefit": "Buffet del cumpleañero gratis con 4 buffets de adulto",
     "benefitType": "gratis",
     "details": "Al comprar 4 buffets de adulto (precio de lista $449), el del cumpleañero va gratis, cualquier día del mes de tu cumpleaños con identificación oficial. No incluye bebidas ni aplica en días festivos o con otras promociones; el sitio oficial indica que las promociones varían por sucursal, horario y vigencia.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial",
       "Comprar 4 buffets de adulto",
@@ -303,14 +292,17 @@
       "No aplica en días festivos ni con otras promociones",
       "Confirmar vigencia en tu sucursal"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños (promoción vista con vigencia al 31-dic-2026)",
+    "minPurchase": null,
     "howToClaim": "Presenta tu identificación oficial en caja al comprar los buffets.",
     "sources": [
       "https://lavaka.mx/",
       "https://dondeir.com/content/buffet-gratis-para-cumpleaneros-en-la-vaka/"
     ],
     "confidence": "media",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX"
@@ -319,37 +311,37 @@
       "cdmx",
       "naucalpan",
       "ecatepec"
-    ]
+    ],
+    "locationNote": "Antenas, Tepeyac, Las Américas (Ecatepec) y Satélite",
+    "needsId": true,
+    "companions": 4
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Patio Roma y Patio Mundo E",
-    "needsId": true,
-    "companions": 5,
-    "coverage": "ciudades",
     "slug": "club-del-patio",
     "brand": "Club del Patio",
     "category": "bares",
     "benefit": "Botella, pastel o shots de cortesía (con 5 personas)",
     "benefitType": "gratis",
     "details": "El festejado recibe una botella gratis, pastel o shots de cortesía si llega acompañado de al menos 5 personas; con menos acompañantes o menor consumo la cortesía se limita a shots o rebanada de pastel. El sitio oficial remite a sus redes para las promociones de cumpleaños vigentes.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial (INE)",
       "Ir con 5 o más acompañantes mayores de edad (para la botella)",
       "Consumo mínimo de 1 platillo por persona (para la botella)",
       "Confirmar la promo vigente en sus redes o WhatsApp"
     ],
-    "window": "dia",
-    "windowNote": "Día de tu cumpleaños o el día de tu festejo",
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifican fechas; confirma la promo vigente en sus redes o por WhatsApp",
+    "minPurchase": null,
     "howToClaim": "Reserva por WhatsApp (55 6894 0481) y presenta tu INE al llegar.",
     "sources": [
       "https://clubdelpatio.com/faq/",
       "https://thehappening.com/8-lugares-que-te-consienten-con-comida-gratis-en-tu-cumpleanos/"
     ],
     "confidence": "media",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX"
@@ -357,218 +349,218 @@
     "cities": [
       "cdmx",
       "tlalnepantla"
-    ]
+    ],
+    "locationNote": "Patio Roma y Patio Mundo E",
+    "needsId": true,
+    "companions": 5
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Atlixco 38-A, Condesa",
-    "needsId": true,
-    "companions": null,
-    "coverage": "ciudades",
     "slug": "los-uruguayos",
     "brand": "Los Uruguayos",
     "category": "restaurantes",
     "benefit": "Cena de cortes y parrilla gratis en tu mes",
     "benefitType": "gratis",
     "details": "Los festejados comen gratis (cortes de carne, ensalada de queso de cabra, empanadas y pizzas) los lunes, martes y miércoles del mes de su cumpleaños; las bebidas no se incluyen. Se recomienda reservar por teléfono.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial",
       "Lunes, martes o miércoles de tu mes",
       "Reservar por teléfono",
       "Bebidas no incluidas"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Lunes a miércoles durante el mes de tu cumpleaños",
+    "minPurchase": null,
     "howToClaim": "Reserva por teléfono (55 5553 7375) y presenta tu identificación.",
     "sources": [
       "https://www.rsvponline.mx/must/restaurantes-para-celebrar-tu-cumpleanos-gratis?amp=",
       "https://www.excelsior.com.mx/recetas/restaurantes-cdmx-donde-puedes-celebrar-cumpleanos-comiendo-gratis"
     ],
     "confidence": "baja",
+    "coverage": "ciudades",
     "states": [
       "CMX"
     ],
     "cities": [
       "cdmx"
-    ]
+    ],
+    "locationNote": "Atlixco 38-A, Condesa",
+    "needsId": true,
+    "companions": null
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Confirmar sucursal CDMX en lugardemax.com",
-    "needsId": true,
-    "companions": 3,
-    "coverage": "ciudades",
     "slug": "el-lugar-de-max",
     "brand": "El Lugar de Max",
     "category": "restaurantes",
     "benefit": "Acceso gratis a las estaciones del buffet",
     "benefitType": "gratis",
     "details": "El cumpleañero accede sin costo a todas las estaciones de comida durante el mes de su cumpleaños si lo acompañan 3 adultos que paguen buffet. Las bebidas no están incluidas.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial",
       "Ir con 3 adultos que consuman buffet",
       "Bebidas no incluidas",
       "Reservar con anticipación (fines de semana se llena)"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
     "howToClaim": "Reserva y presenta tu identificación al llegar.",
     "sources": [
       "https://www.excelsior.com.mx/recetas/restaurantes-cdmx-donde-puedes-celebrar-cumpleanos-comiendo-gratis",
       "https://www.tiktok.com/@lugardemax1987/video/7491328285532589317"
     ],
     "confidence": "media",
+    "coverage": "ciudades",
     "states": [
       "CMX"
     ],
     "cities": [
       "cdmx"
-    ]
+    ],
+    "locationNote": "Confirmar sucursal CDMX en lugardemax.com",
+    "needsId": true,
+    "companions": 3
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Sucursales en CDMX (Reforma, Condesa, Clavería, Prado Norte, Polanco, etc.); también Playa del Carmen",
-    "needsId": true,
-    "companions": 4,
-    "coverage": "ciudades",
     "slug": "el-diez-parrilla-argentina",
     "brand": "El Diez Parrilla Argentina",
     "category": "restaurantes",
     "benefit": "Entrada, plato fuerte, pastel y vino gratis",
     "benefitType": "gratis",
-    "details": "En la semana de tu cumpleaños, en mesas de 5 o más comensales, el cumpleañero es invitado por el restaurante: incluye entrada, plato principal, pastel, una botella de vino El Diez y una copa de espumoso para brindar. Solo con reservación.",
+    "details": "En la semana de tu cumpleaños, en mesas de 5 o más comensales, el cumpleañero es invitado por el restaurante: incluye entrada, plato principal, pastel, una botella de vino El Diez y una copa de espumoso para brindar. Solo con reservación. La promoción aparece en la página oficial de promociones sin fecha de vigencia.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Mesa de 5 o más comensales",
       "Solo con reservación",
       "Aplica solo en la semana de tu cumpleaños",
       "Identificación oficial para comprobar fecha"
     ],
+    "registerDaysBefore": null,
     "window": "semana",
     "windowNote": "Semana de tu cumpleaños",
+    "minPurchase": null,
     "howToClaim": "Reserva con anticipación indicando que festejas tu cumpleaños y presenta tu identificación oficial.",
     "sources": [
       "https://www.eldiez.com.mx/promociones/",
       "https://www.eldiez.com.mx/sucursales/"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "ROO"
     ],
     "cities": [
       "cdmx"
-    ]
+    ],
+    "locationNote": "Sucursales en CDMX (Reforma, Condesa, Clavería, Prado Norte, Polanco, etc.); también Playa del Carmen",
+    "needsId": true,
+    "companions": 4
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Av. Álvaro Obregón 291, Roma Norte",
-    "needsId": true,
-    "companions": null,
-    "coverage": "ciudades",
     "slug": "bombay-club-roma",
     "brand": "Bombay Club Roma",
     "category": "bares",
     "benefit": "Barra libre, botella de regalo y shots",
     "benefitType": "gratis",
     "details": "Si es tu cumpleaños el mes de tu visita, el sitio oficial (actualizado octubre 2026) anuncia barra libre para el festejado y sus amigas, botella de regalo, ronda de shots y 3x2 en botellas, además de paquetes de cumpleaños con espumoso, zona VIP, jarra de coctelería y shot flameado. Acceso únicamente con reservación; los beneficios exactos dependen del paquete.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Acceso solo con reservación",
       "Mayor de edad",
       "Que tu cumpleaños sea en el mes de tu visita",
       "Confirmar por WhatsApp qué paquete aplica"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "El mes de tu cumpleaños (promoción publicada para octubre 2026)",
+    "minPurchase": null,
     "howToClaim": "Reserva por WhatsApp (55 3577 2378) o en línea en bombayclubromaoficial.com e indica que es tu cumpleaños.",
     "sources": [
       "https://www.bombayclubromaoficial.com/cumplea%C3%B1os",
       "https://www.bombayclubromaoficial.com/"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX"
     ],
     "cities": [
       "cdmx"
-    ]
+    ],
+    "locationNote": "Av. Álvaro Obregón 291, Roma Norte",
+    "needsId": true,
+    "companions": null
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "La Marquesa, Ocoyoacac, Estado de México",
-    "needsId": true,
-    "companions": 8,
-    "coverage": "ciudades",
     "slug": "gotchalandia",
     "brand": "Gotchalandia",
     "category": "parques",
     "benefit": "Paquete Loco de gotcha gratis para el cumpleañero",
     "benefitType": "gratis",
     "details": "Al cumpleañero se le da de cortesía el Paquete Loco (precio de lista $250 por persona, con equipo y 230 paintballs) si llega con 8 acompañantes y presenta su credencial o CURP con fecha de nacimiento. No aplica con otras promociones; la página oficial muestra precios vigentes 2025.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Credencial o CURP con fecha de nacimiento",
       "Jugar con mínimo 8 acompañantes",
       "No aplica con otras promociones",
       "Reservar por WhatsApp"
     ],
+    "registerDaysBefore": null,
     "window": "dia",
     "windowNote": "Cuando reservas tu grupo; no se indica ventana de fechas",
+    "minPurchase": null,
     "howToClaim": "Reserva por WhatsApp (55 3497 4163) y presenta tu credencial o CURP al llegar.",
     "sources": [
       "https://gotchalandia.com/gotcha-precios-promos",
       "https://gotchalandia.com/fiesta-de-cumplea%C3%B1os-1"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "MEX"
     ],
     "cities": [
       "toluca"
-    ]
+    ],
+    "locationNote": "La Marquesa, Ocoyoacac, Estado de México",
+    "needsId": true,
+    "companions": 8
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Todas las sucursales (CDMX: Amores, Coyoacán, Miyana, Nápoles, Narvarte, Reforma, Coapa, Roma; Edomex: Mundo E)",
-    "needsId": false,
-    "companions": null,
-    "coverage": "ciudades",
     "slug": "sonora-grill",
     "brand": "Sonora Grill",
     "category": "restaurantes",
     "benefit": "Postre de cortesía en tu mes de cumpleaños",
     "benefitType": "gratis",
     "details": "Durante tu mes de cumpleaños recibes un postre de cortesía al solicitar el beneficio en cualquier sucursal Sonora Grill; limitado a una cortesía por cumpleañero y por reserva. Solo consumo de alimentos en sucursal (no delivery ni Pick and Go) y sujeto a disponibilidad.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Pedir el beneficio al mesero",
       "Una cortesía por cumpleañero y por reserva",
       "Solo consumo de alimentos en sucursal",
       "Sujeto a disponibilidad"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños, de lunes a domingo",
+    "minPurchase": null,
     "howToClaim": "Avisa al mesero que es tu cumpleaños al ordenar.",
     "sources": [
       "https://www.sonoragrill.com.mx/promociones",
       "https://www.sonoragrill.com.mx/sucursales"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX",
@@ -585,23 +577,20 @@
       "queretaro",
       "hermosillo",
       "merida"
-    ]
+    ],
+    "locationNote": "Todas las sucursales (CDMX: Amores, Coyoacán, Miyana, Nápoles, Narvarte, Reforma, Coapa, Roma; Edomex: Mundo E)",
+    "needsId": false,
+    "companions": null
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Confirmar sucursales participantes en México",
-    "needsId": true,
-    "companions": 2,
-    "coverage": "ciudades",
     "slug": "olive-garden-mexico",
     "brand": "Olive Garden",
     "category": "restaurantes",
     "benefit": "Lasagna o Fettuccine Alfredo gratis",
     "benefitType": "gratis",
     "details": "Durante tu mes de cumpleaños, el festejado recibe gratis una lasagna mediana o fettuccine alfredo con sopa o ensalada infinita, comprando 2 platos fuertes y 2 bebidas en un grupo de mínimo 3 personas. No aplica al menú infantil ni al Menú Infinito; avisa al mesero antes de ordenar.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "INE vigente",
       "Grupo de mínimo 3 personas",
@@ -609,36 +598,35 @@
       "No aplica en menú infantil ni Menú Infinito",
       "Avisar al mesero antes de ordenar"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños; vigencia reportada hasta diciembre 2026",
+    "minPurchase": null,
     "howToClaim": "Menciona al mesero que es tu cumpleaños antes de ordenar y presenta tu INE.",
     "sources": [
       "https://cazaofertas.com.mx/restaurantes/feliz-cumpleanos-en-olive-garden-lasagna-o-fettuccine-alfredo-gratis-en-el-mes-de-tu-cumpleanos/"
     ],
     "confidence": "media",
+    "coverage": "ciudades",
     "states": [
-      "CMX",
-      "MEX"
+      "CMX"
     ],
     "cities": [
       "cdmx"
-    ]
+    ],
+    "locationNote": "Confirma en tu sucursal si participa",
+    "needsId": true,
+    "companions": 2
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Carretera libre a Cuernavaca km 31.5, San Miguel Topilejo, Tlalpan",
-    "needsId": true,
-    "companions": 1,
-    "coverage": "ciudades",
     "slug": "rancho-magico",
     "brand": "Rancho Mágico",
     "category": "parques",
     "benefit": "Entrada gratis el mes de tu cumpleaños",
     "benefitType": "gratis",
     "details": "Los cumpleañeros del mes entran gratis al parque presentando copia del acta de nacimiento en taquilla (copia de INE en el caso de adultos). La cortesía es en el Ticket Mágico y exige comprar al menos un acompañante a precio de lista ($359); válida sábados, domingos y festivos de 10:00 a 18:00. No acumulable, no aplica en venta en línea, convenios, fiestas ni visitas escolares.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Acta de nacimiento (menores) o copia de INE (adultos)",
       "Comprar mínimo 1 acompañante a precio de lista",
@@ -646,50 +634,53 @@
       "Canje directo en taquilla (no en línea)",
       "No acumulable con otras promociones"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños, solo fines de semana y festivos",
+    "minPurchase": null,
     "howToClaim": "Presenta copia de tu acta de nacimiento o INE directo en taquilla.",
     "sources": [
       "https://www.ranchomagico.com.mx/promociones",
       "https://ranchomagico.com.mx/ubicacion/"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX"
     ],
     "cities": [
       "cdmx"
-    ]
+    ],
+    "locationNote": "Carretera libre a Cuernavaca km 31.5, San Miguel Topilejo, Tlalpan",
+    "needsId": true,
+    "companions": 1
   },
   {
-    "program": null,
-    "signupUrl": null,
-    "registerDaysBefore": null,
-    "minPurchase": null,
-    "locationNote": "Todas sus sucursales de CDMX y Edomex (Plaza Central, Tepeyac, Antenas, Fashion Mall, Las Américas, Metepec, etc.)",
-    "needsId": true,
-    "companions": null,
-    "coverage": "ciudades",
     "slug": "perros-y-burros",
     "brand": "Perros y Burros",
     "category": "bares",
     "benefit": "Shot SKYY de cumpleaños sin costo",
     "benefitType": "gratis",
     "details": "En el mes de tu cumpleaños recibes sin costo un SKYY dog shot, válido en todas las sucursales con consumo de alimentos, de 11:00 am a 1:30 am y solo para mayores de 18 años. Productos sujetos a disponibilidad por temporada o ley seca; vigencia al 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Identificación oficial con fotografía vigente",
       "Mayor de 18 años",
       "Consumo de alimentos",
       "Solo en restaurante, de 11:00 am a 1:30 am"
     ],
+    "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños; vigencia al 31-dic-2026",
+    "minPurchase": null,
     "howToClaim": "Pide tu shot de cumpleaños al mesero y muestra tu identificación oficial.",
     "sources": [
       "https://perrosyburros.com/portfolio/shots-de-cumpleanos/",
       "https://www.perrosyburros.com/"
     ],
     "confidence": "alta",
+    "coverage": "ciudades",
     "states": [
       "CMX",
       "MEX"
@@ -699,7 +690,670 @@
       "naucalpan",
       "tlalnepantla",
       "ecatepec",
+      "nezahualcoyotl",
       "toluca"
-    ]
+    ],
+    "locationNote": "Todas sus sucursales de CDMX y Edomex (Plaza Central, Tepeyac, Antenas, Fashion Mall, Las Américas, Metepec, etc.)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "brasa-do-brasilia",
+    "brand": "Brasa do Brasilia",
+    "category": "restaurantes",
+    "benefit": "Rodizio gratis para el cumpleañero (5ª persona gratis)",
+    "benefitType": "gratis",
+    "details": "De lunes a viernes durante tu mes de cumpleaños, el festejado no paga su rodizio al consumir cuatro rodizios de adulto adicionales. Requiere identificación oficial vigente con fecha de nacimiento, no aplica en días festivos ni se acumula con otras promociones; el sitio oficial la publica con vigencia al 31 de octubre de 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente con fecha de nacimiento",
+      "Consumir 4 rodizios de adulto adicionales",
+      "Solo de lunes a viernes; no aplica en días festivos",
+      "Avisar a la hostess al llegar o al reservar",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, lunes a viernes; vigencia vista al 31-oct-2026",
+    "minPurchase": null,
+    "howToClaim": "Avisa a la hostess al reservar o al llegar y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.brasadobrasilia.mx/promociones",
+      "https://www.brasadobrasilia.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Plaza Cuicuilco Inbursa y Plaza Carso Palmas",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "american-eagle-aerie",
+    "brand": "American Eagle y Aerie",
+    "category": "ropa",
+    "benefit": "$100 de descuento en tu mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Los miembros de Real Rewards by American Eagle & Aerie reciben cada año una oferta de $100 MXN de descuento en una sola compra dentro de su mes de cumpleaños. El cupón llega por correo o mensaje cerca del día 1 del mes, es de un solo uso y se canjea en tiendas participantes, en la app o en ae.com/mx.",
+    "program": "Real Rewards by American Eagle & Aerie",
+    "signupUrl": "https://www.ae.com/mx/es",
+    "requirements": [
+      "Ser miembro de Real Rewards (18 años o más)",
+      "Presentar el cupón recibido por correo, SMS o app",
+      "Un solo uso en una compra total",
+      "Válido en tiendas AEO participantes, app y ae.com/mx"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, una vez al año",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cupón de cumpleaños (correo, SMS o app) al pagar en tienda o aplícalo en línea.",
+    "sources": [
+      "https://s7d2.scene7.com/is/content/aeo/Help/Real_Rewards_Terms_MX_Final.pdf",
+      "https://www.ae.com/mx/es"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas American Eagle, Aerie y Factory participantes",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "hacienda-de-los-morales",
+    "brand": "Hacienda de los Morales",
+    "category": "restaurantes",
+    "benefit": "Menú de 3 tiempos gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El consumo de 3 tiempos del festejado es cortesía (sin bebidas) y puede usarse cuantas veces quieras durante tu mes de cumpleaños, de lunes a domingo, con reservación previa, INE y mínimo 3 personas más que consuman. No aplica en fechas especiales (14 de febrero, Día de las Madres, 15 de septiembre, Día de Muertos, 24 y 31 de diciembre) ni con otras promociones; la página oficial no muestra fecha de actualización.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE",
+      "Reservación previa; pide tu clave de promoción",
+      "Ir con mínimo 3 personas que consuman",
+      "Bebidas no incluidas; alimentos no compartidos",
+      "No aplica en fechas festivas ni eventos especiales"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, de lunes a domingo",
+    "minPurchase": null,
+    "howToClaim": "Reserva, solicita tu clave de promoción y menciónala al llegar a la mesa con tu INE.",
+    "sources": [
+      "https://www.haciendadelosmorales.com/restaurante.html"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Polanco (Juan Vázquez de Mella 525)",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "nisha-club-roma",
+    "brand": "Nisha Club Roma",
+    "category": "bares",
+    "benefit": "Espumoso y ronda de shots de regalo con tu paquete",
+    "benefitType": "regalo-con-compra",
+    "details": "Al comprar un paquete de botellas, el cumpleañero recibe una botella de vino espumoso de regalo y una ronda de shots para él y sus invitados; con reservación de más de 10 personas, el cumpleañero y un acompañante no pagan cover. Aplica viernes y sábado y solo con reservación; el sitio oficial no indica vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservación (promociones solo con reservación)",
+      "Comprar un paquete de botellas (desde $4,599)",
+      "Más de 10 personas para el no cover del cumpleañero y 1 acompañante",
+      "Mayor de edad"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Viernes y sábado de 10:00 pm a 3:00 am; sin vigencia indicada",
+    "minPurchase": 4599,
+    "howToClaim": "Reserva por el formulario o WhatsApp del sitio e indica que es tu cumpleaños.",
+    "sources": [
+      "https://www.nishaclubroma.site/promociones/",
+      "https://www.nishaclubroma.site/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Monterrey 47, Roma Norte",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "maison-kayser",
+    "brand": "Maison Kayser",
+    "category": "cafe",
+    "benefit": "Sorpresa de cumpleaños con Kayser Rewards",
+    "benefitType": "gratis",
+    "details": "Los miembros de la app Kayser Rewards reciben sorpresas especiales en su cumpleaños; el sitio oficial no detalla cuál es y el directorio ¡Qué Cumple! la reporta como una bebida gratis. Confirma en la app qué beneficio te corresponde.",
+    "program": "Kayser Rewards",
+    "signupUrl": "https://www.maison-kayser.com.mx/post/ya-descargaste-kayser-rewards-1",
+    "requirements": [
+      "Descargar la app Kayser Rewards y registrarte con tu fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica la ventana; revisa la app",
+    "minPurchase": null,
+    "howToClaim": "Revisa tu beneficio de cumpleaños en la app Kayser Rewards y muéstralo en caja.",
+    "sources": [
+      "https://www.maison-kayser.com.mx/post/ya-descargaste-kayser-rewards-1",
+      "https://quecumple.mx/directorio/maison-kaiser/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "PUE",
+      "QUE"
+    ],
+    "cities": [
+      "cdmx",
+      "puebla",
+      "queretaro"
+    ],
+    "locationNote": "Más de 40 sucursales en CDMX, Edomex, Puebla y Querétaro",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "piazolla",
+    "brand": "Piazolla",
+    "category": "restaurantes",
+    "benefit": "Comida o cena gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Según listados de medios, el festejado come gratis (comida o cena) si va con 3 acompañantes y presenta identificación. No encontré confirmación en sitio o redes oficiales del restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 3 acompañantes que consuman"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva e indica que es tu cumpleaños; presenta tu identificación.",
+    "sources": [
+      "https://www.trendmexico.com/25-restaurantes-de-cdmx-para-celebrar-gratis-tu-cumpleanos/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Pedregal (confirmar sucursal)",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "la-santi-cdmx",
+    "brand": "La Santí",
+    "category": "bares",
+    "benefit": "Litros ilimitados gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Según el directorio ¡Qué Cumple!, el cumpleañero recibe litros ilimitados gratis, ronda de shots para sus amigos, vaso coleccionable, pastelito y show; solo mayores de edad que lleguen con 4 amigos. El sitio oficial no publica los detalles.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mayor de edad",
+      "Ir con 4 amigos",
+      "Confirmar vigencia con el bar (WhatsApp 56 1298 0661)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con el bar",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp e indica que es tu cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/la-santi/",
+      "https://www.lasanti.com.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Cadereyta 16, Hipódromo Condesa",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "la-calle-de-las-sirenas",
+    "brand": "La Calle de las Sirenas",
+    "category": "bares",
+    "benefit": "Vino espumoso, avión de shots y covers gratis",
+    "benefitType": "gratis",
+    "details": "Según el directorio ¡Qué Cumple!, el cumpleañero recibe covers gratis para sus invitados, botella de vino espumoso, avión de shots, Lamborghini shot y una sorpresa. No pude confirmar condiciones ni vigencia en sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Condiciones no publicadas; confirma con el bar",
+      "Mayor de edad"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con el bar",
+    "minPurchase": null,
+    "howToClaim": "Reserva con el bar e indica que es tu cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/bar-la-calle-de-las-sirenas/",
+      "https://www.lacalledelassirenas.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Varias sucursales en CDMX (ej. San Ángel)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mambo-cafe",
+    "brand": "Mambo Café",
+    "category": "bares",
+    "benefit": "Botellas 2x1, covers y pastel individual de regalo",
+    "benefitType": "2x1",
+    "details": "Según el directorio ¡Qué Cumple!, el paquete cumpleañero incluye 5 covers de cortesía, pastel individual, botellas 2x1, bengalas, 4 refrescos y 1 Red Bull. No pude confirmar condiciones ni vigencia en sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Condiciones no publicadas; confirma con el bar",
+      "Mayor de edad"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con el bar",
+    "minPurchase": null,
+    "howToClaim": "Reserva con el bar e indica que es tu cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/mambo-cafe/",
+      "http://www.mambocafe.com.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Insurgentes Sur 644, Del Valle",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "karol-bb-bar",
+    "brand": "Karol BB Bar",
+    "category": "bares",
+    "benefit": "Sin cover para todos y botella extra de regalo",
+    "benefitType": "regalo-con-compra",
+    "details": "Según el directorio ¡Qué Cumple!, no pagas cover tú ni tus invitados, hay shots de bienvenida y flyer personalizado; al comprar cualquier botella te dan una botella extra y ronda de perlitas. No pude confirmar condiciones en sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Comprar una botella para recibir la botella extra",
+      "Mayor de edad",
+      "Confirmar condiciones con el bar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con el bar",
+    "minPurchase": null,
+    "howToClaim": "Reserva con el bar e indica que es tu cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/karol-bb-bar/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Pabellón Altavista, San Ángel",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "beamann-hobbs",
+    "brand": "Beamann Hobbs",
+    "category": "servicios",
+    "benefit": "Valoración y limpieza dental gratis",
+    "benefitType": "gratis",
+    "details": "Según el directorio ¡Qué Cumple!, en el mes de tu cumpleaños te regalan una valoración y una limpieza dental sin costo. No pude confirmar condiciones en el sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Cita previa",
+      "Identificación con fecha de nacimiento",
+      "Confirmar condiciones con la clínica"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Agenda cita con la clínica e indica que es tu mes de cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/beamann-hobbs/",
+      "https://beamannhobbs.mx"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Atlixco 94, Condesa",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "klik-fotografia",
+    "brand": "Klik Fotografía",
+    "category": "servicios",
+    "benefit": "50% en renta de estudio fotográfico y sesiones",
+    "benefitType": "descuento",
+    "details": "Según el directorio ¡Qué Cumple!, el cumpleañero obtiene 50% de descuento en renta de estudios de fotografía, sesiones ejecutivas y de pareja, durante todo el mes de su cumpleaños; aplica en una sola compra por cumpleañero y solo si la hace el propio festejado.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación del cumpleañero",
+      "Compra hecha por el propio cumpleañero",
+      "Una sola compra por cumpleañero"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación al contratar el servicio.",
+    "sources": [
+      "https://quecumple.mx/directorio/klik-fotografia/",
+      "https://klik.mx"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Río Becerra 168, San Pedro de los Pinos",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "hela-spa",
+    "brand": "Hela Spa",
+    "category": "belleza",
+    "benefit": "15% a 20% en paquete de fiesta de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Según el directorio ¡Qué Cumple!, 15% de descuento en servicios de 50 y 80 min para grupos de 5 a 7 personas y 20% para 8 o más, con 30 min en sala lounge VIP con champagne y snacks. El sitio oficial confirma que ofrece fiestas (Sparty) para cumpleaños, pero no publica el descuento.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo de 5 a 7 personas (15%) o de 8 o más (20%)",
+      "Servicios de 50 u 80 minutos",
+      "Reservar y confirmar la promo con la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con la sucursal",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu Sparty de cumpleaños con la sucursal y pide el descuento.",
+    "sources": [
+      "https://quecumple.mx/directorio/hela-spa-mexico/",
+      "https://helaspamexico.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Varias sucursales en CDMX",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "nailkery-nailbar",
+    "brand": "Nailkery Nailbar",
+    "category": "belleza",
+    "benefit": "Ritual spa de regalo con tu servicio",
+    "benefitType": "regalo-con-compra",
+    "details": "Según el directorio ¡Qué Cumple!, al contratar un servicio te obsequian un ritual spa (exfoliación o mascarilla en manos o pies) según el servicio que elijas. No pude confirmar condiciones en el sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar un servicio",
+      "Identificación con fecha de nacimiento",
+      "Confirmar vigencia con el salón"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con el salón",
+    "minPurchase": null,
+    "howToClaim": "Menciona que es tu cumpleaños al agendar o pagar tu servicio.",
+    "sources": [
+      "https://quecumple.mx/directorio/nailkery-nailbar/",
+      "https://www.nailkery.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Félix Parra 65, San José Insurgentes",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "i-dog-you-spa",
+    "brand": "I Dog You Spa",
+    "category": "mascotas",
+    "benefit": "Baño gratis para perros de pelo corto",
+    "benefitType": "gratis",
+    "details": "Según el directorio ¡Qué Cumple!, en el mes de tu cumpleaños te regalan un baño para tu mascota (perros de pelo corto). No pude confirmar condiciones en el sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Cita previa",
+      "Perro de pelo corto",
+      "Identificación con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Agenda la cita e indica que es tu mes de cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/i-dog-you-spa/",
+      "https://idogyouspa.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Av. Coyoacán 49, Del Valle",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "fournier-rousseau",
+    "brand": "Fournier Rousseau",
+    "category": "postres",
+    "benefit": "Pastel individual gratis con una bebida",
+    "benefitType": "regalo-con-compra",
+    "details": "Según el directorio ¡Qué Cumple!, el cumpleañero recibe un pastel individual gratis al consumir una bebida, o bien 10% de descuento en su cuenta. No pude confirmar condiciones en sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Consumir una bebida",
+      "Identificación con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con la panadería",
+    "minPurchase": null,
+    "howToClaim": "Menciona que es tu cumpleaños al ordenar.",
+    "sources": [
+      "https://quecumple.mx/directorio/fournier-rousseau/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Álvaro Obregón 84, Roma Norte",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "felicidad",
+    "brand": "Felicidad",
+    "category": "restaurantes",
+    "benefit": "Postre de temporada y decoración de mesa gratis",
+    "benefitType": "gratis",
+    "details": "Según el directorio ¡Qué Cumple!, el cumpleañero recibe un postre de temporada y decoración de mesa si reserva con mínimo 3 días de anticipación. No pude confirmar condiciones en sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con mínimo 3 días de anticipación",
+      "Identificación con fecha de nacimiento"
+    ],
+    "registerDaysBefore": 3,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con la sucursal",
+    "minPurchase": null,
+    "howToClaim": "Reserva con 3 días de anticipación indicando que festejas tu cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/felicidad/",
+      "https://felicidad.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Varias sucursales en CDMX",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "cassava-roots",
+    "brand": "Cassava Roots",
+    "category": "cafe",
+    "benefit": "Boba tea gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según el directorio ¡Qué Cumple!, los miembros registrados reciben un boba tea gratis el día de su cumpleaños; el cupón indica la vigencia de canje. No pude confirmar condiciones en el sitio oficial.",
+    "program": "Registro de miembros (cupón de cumpleaños)",
+    "signupUrl": null,
+    "requirements": [
+      "Estar registrado como miembro con tu fecha de nacimiento",
+      "Canjear dentro de la vigencia del cupón"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Día de tu cumpleaños (el cupón indica la vigencia de canje)",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cupón de cumpleaños en tienda.",
+    "sources": [
+      "https://quecumple.mx/directorio/cassava-roots/",
+      "https://www.cassavaroots.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Amsterdam 288, Hipódromo",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "arn-diagnostics-metepec",
+    "brand": "ARN+ Diagnostics",
+    "category": "servicios",
+    "benefit": "InBody y grupo sanguíneo gratis; 50% en check-ups",
+    "benefitType": "gratis",
+    "details": "Según el directorio ¡Qué Cumple!, el cumpleañero recibe InBody corporal y grupo sanguíneo gratis, 50% de descuento en Check Up Básico, Plus y Wellness Check y 10% en otros estudios. No pude confirmar condiciones en el sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación con fecha de nacimiento",
+      "Confirmar vigencia con el laboratorio"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirma con el laboratorio",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en sucursal y pide la promo de cumpleaños.",
+    "sources": [
+      "https://quecumple.mx/directorio/arn-diagnostics/",
+      "https://www.arnplus.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MEX"
+    ],
+    "cities": [
+      "toluca"
+    ],
+    "locationNote": "Plaza San Joaquín, Metepec",
+    "needsId": true,
+    "companions": null
   }
 ]

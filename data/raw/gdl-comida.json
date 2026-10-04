@@ -1,0 +1,787 @@
+[
+  {
+    "slug": "porfirios-guadalajara",
+    "brand": "Porfirio's Guadalajara",
+    "category": "restaurantes",
+    "benefit": "Menú completo y barra libre gratis los miércoles",
+    "benefitType": "gratis",
+    "details": "Todos los miércoles del mes de tu cumpleaños, el festejado recibe gratis 1 entrada, sopa o ensalada, 1 plato fuerte y postre (piñata), con barra libre (Bacardi, Smirnoff y más; sin energizantes). Aplica un cumpleañero por cada tres personas y cada invitado debe consumir entrada, plato fuerte y postre. Excluye platillos y cortes premium; horario de 2:00 pm a 12:00 am.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE, pasaporte oficial o licencia de conducir vigente",
+      "1 cumpleañero por cada 3 personas en la mesa",
+      "Cada invitado pide entrada, plato fuerte y postre",
+      "Solo los miércoles del mes de tu cumpleaños",
+      "Si compartes tu consumo, se anula la cortesía",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo los miércoles del mes de tu cumpleaños (2:00 pm a 12:00 am)",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Porfirio's Guadalajara y presenta tu identificación oficial vigente al llegar.",
+    "sources": [
+      "https://porfirios.com.mx/promociones",
+      "https://porfirios.com.mx/blog/porfirios-cumpleanos/",
+      "https://porfirios.com.mx/locaciones/restaurante-mexicano-en-guadalajara-old/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Porfirio's Punto Sao Paulo (Calle Sao Paulo 2334 A, Providencia, Guadalajara). La página de promociones también lista Mérida (jueves), que está en otra ficha",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "sushi-factory-guadalajara",
+    "brand": "Sushi Factory",
+    "category": "restaurantes",
+    "benefit": "1 rollo de 12 piezas y copa de nieve de cortesía",
+    "benefitType": "gratis",
+    "details": "El día de tu cumpleaños, si vas con 3 personas que consuman rollos o platillos, recibes de cortesía 1 rollo de 12 piezas y 1 copa de nieve (se bonifica el rollo de menor precio). Solo rollos naturales, empanizados, horneados y vegetarianos de 12 piezas; excluye rollos premium, aguachiles y petit. Solo mayores de 18 años y consumo en restaurante; vigente enero a diciembre de 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ser mayor de 18 años",
+      "Ir con 3 personas que pidan rollos o platillos",
+      "Solo el día exacto de tu cumpleaños",
+      "Solo consumo en restaurante (no para llevar ni delivery)",
+      "No incluye rollos premium, aguachiles ni petit",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños; vigente enero a diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Pide tus rollos con 3 acompañantes y presenta tu identificación oficial al mesero antes de pedir la cuenta.",
+    "sources": [
+      "https://www.sushifactory.com.mx/promociones",
+      "https://www.sushifactory.com.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL",
+      "SIN",
+      "BCN",
+      "MIC",
+      "BCS",
+      "NLE",
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "guadalajara",
+      "zapopan",
+      "culiacan",
+      "tijuana",
+      "morelia",
+      "la-paz",
+      "monterrey",
+      "cdmx",
+      "naucalpan",
+      "mazatlan"
+    ],
+    "locationNote": "Zona metropolitana de Guadalajara: Cititower, Galerías, San Ignacio, Distrito La Perla, Paseo Andares, Punto Sur y Midtown. También en Culiacán, Mazatlán, Tijuana, Morelia, La Paz, Monterrey y CDMX/Satélite; no aplica en Tepic",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "terraza-angelo-guadalajara",
+    "brand": "Terraza Angelo",
+    "category": "restaurantes",
+    "benefit": "Desayuno buffet gratis en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Si es tu cumpleaños desayunas gratis en el buffet de Terraza Angelo (el adulto normal cuesta $319). Según lo publicado en redes, debes ir con 2 o más adultos que consuman buffet y presentar INE; la promoción se anuncia válida todo el mes de tu cumpleaños. Buffet de 8:00 am a 1:00 pm.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Ir con 2 o más adultos que consuman buffet (según redes)",
+      "Reservar con anticipación (recomendado)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños (según redes); buffet de 8:00 am a 1:00 pm",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono o WhatsApp, llega con tus acompañantes y presenta tu INE al pagar.",
+    "sources": [
+      "https://terrazaangelo.com/desayunos/",
+      "https://www.tripadvisor.com/Restaurant_Review-g150798-d8557481-Reviews-Terraza_Angelo-Guadalajara_Guadalajara_Metropolitan_Area.html"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Calle Santa Mónica 1010, La Normal, Guadalajara. El sitio oficial confirma 'Desayunas gratis' en tu cumpleaños; los requisitos de acompañantes y mes completo salen de publicaciones en redes",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "holiday-inn-guadalajara-select-girasoles",
+    "brand": "Holiday Inn Guadalajara Select (Restaurante Girasoles)",
+    "category": "restaurantes",
+    "benefit": "Desayuno buffet gratis el mes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga el desayuno buffet del Restaurante Girasoles durante el mes de su cumpleaños, acompañado de 3 personas más y presentando INE. El buffet cuesta $450 por persona (precio regular) y la promoción aplica solo al desayuno buffet, no a room service. La página no indica fecha de vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente que compruebe el mes de nacimiento",
+      "Ir con 3 personas más que paguen desayuno buffet",
+      "Solo durante el mes de tu cumpleaños",
+      "Solo desayuno buffet (no room service)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva al (33) 3122 2020 y presenta tu INE en el restaurante del hotel.",
+    "sources": [
+      "https://hisguadalajara.com.mx/promociones-descripcion.php?lan=es&id=197",
+      "https://www.hisguadalajara.com.mx/promociones-descripcion.php?lan=es&id=169"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Av. Niños Héroes 3089 esq. López Mateos, Jardines de los Arcos, Guadalajara. Sitio oficial del hotel sin fecha de vigencia visible",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "holiday-inn-guadalajara-expo-la-fuente",
+    "brand": "Holiday Inn Guadalajara Expo (Restaurante La Fuente)",
+    "category": "restaurantes",
+    "benefit": "Desayuno buffet y rebanada de pastel gratis",
+    "benefitType": "gratis",
+    "details": "La cumpleañera no paga el desayuno buffet del Restaurante La Fuente durante el mes de su cumpleaños y recibe una rebanada de pastel de cortesía, acompañada de 3 personas más y con INE. Los acompañantes pagan $349 por persona (IVA incluido); disponible de lunes a sábado de 9:30 am a 12:00 pm. La página no indica fecha de vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Ir con 3 personas más que paguen buffet",
+      "Solo durante el mes de tu cumpleaños",
+      "Lunes a sábado, de 9:30 am a 12:00 pm"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, lunes a sábado de 9:30 am a 12:00 pm",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 33 3634 1034 y presenta tu INE al llegar al restaurante del hotel.",
+    "sources": [
+      "https://higuadalajaraexpo.com.mx/promociones-descripcion.php?lan=es&id=201"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan"
+    ],
+    "locationNote": "Av. López Mateos Sur 2500 esq. Mariano Otero, Ciudad del Sol, Zapopan. Sitio oficial del hotel sin fecha de vigencia visible",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "hyper-restaurante-guadalajara",
+    "brand": "Hyper Restaurante Espacial",
+    "category": "restaurantes",
+    "benefit": "Cumpleañeros del mes comen gratis",
+    "benefitType": "gratis",
+    "details": "El restaurante temático Hyper anuncia en sus redes que los cumpleañeros del mes comen gratis con reservación (por ejemplo 'TODOS los cumpleañeros de agosto'). Las condiciones exactas no son públicas: la publicación pide preguntar por términos y condiciones al reservar al 33 2963 2019.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservación previa",
+      "Identificación oficial (por confirmar)",
+      "Preguntar términos y condiciones al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños (se anuncia mes a mes en redes)",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 33 2963 2019 y pregunta por los términos de la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/@hypergdl/video/7534802998900313352",
+      "https://www.tiktok.com/@hypergdl/video/7488057716741508407"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Av. Ignacio L. Vallarta 1589, col. Americana, Guadalajara (frente a Sanborns). Información tomada de las publicaciones de TikTok del propio restaurante (@hypergdl)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "los-reyes-del-cafe-zapopan",
+    "brand": "Los Reyes del Café",
+    "category": "cafe",
+    "benefit": "Desayuno buffet gratis los viernes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Los viernes, el cumpleañero desayuna gratis en el buffet (8:30 am a 12:30 pm) si va con 3 adultos que consuman buffet. Solo aplica la semana de tu cumpleaños y un cumpleañero por cuenta. El buffet cuesta $229 por adulto y $169 por niño menor de 8 años.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 3 adultos que consuman buffet",
+      "Solo los viernes de la semana de tu cumpleaños",
+      "1 cumpleañero por cuenta"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Solo los viernes de la semana de tu cumpleaños (buffet de 8:30 am a 12:30 pm)",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (33 4921 7148), llega con 3 adultos y presenta tu identificación.",
+    "sources": [
+      "https://losreyesdelcafe.com/",
+      "https://www.tiktok.com/@losreyesdelcafe",
+      "https://www.facebook.com/losreyesdelcafe/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan",
+      "guadalajara"
+    ],
+    "locationNote": "Sucursales Av. Patria 1255 (Mirador del Sol, Zapopan) y Av. Morelos 1973 (Guadalajara); confirmar cuál ofrece el buffet. Condiciones tomadas de sus redes y listados, no del sitio web",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "mariscos-don-gau-tesistan",
+    "brand": "Mariscos Don Gau",
+    "category": "restaurantes",
+    "benefit": "Postre de la casa con vela de cortesía",
+    "benefitType": "gratis",
+    "details": "Presentando tu INE, el cumpleañero recibe de cortesía un postre de la casa con vela, siempre que lo acompañen al menos 3 personas que pidan alimentos y bebidas. Algunas publicaciones indican que la promoción también aplica un día antes o después de tu cumpleaños.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Ir con al menos 3 personas que consuman alimentos y bebidas",
+      "Aplica el día de tu cumpleaños (o 1 día antes/después, según redes)"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Día de tu cumpleaños, o un día antes o después según redes",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE con tus acompañantes al pedir y avisa al mesero que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/p/Mariscos-Don-Gau-Tesistan-61574620160007/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan"
+    ],
+    "locationNote": "Fray Elías 405, Tesistán (Zapopan). Condiciones tomadas del resumen de la página de Facebook del negocio",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "casa-bariachi-guadalajara",
+    "brand": "Casa Bariachi",
+    "category": "restaurantes",
+    "benefit": "Botella de regalo con el paquete Cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "La página de promociones del sitio oficial incluye el paquete 'Cumpleañero' de $3,480: botana para empezar para 4 personas (arrachera, cecina, guacamole, frijoles fritos, fajitas de pollo, quesadillas, chorizo y tortitas de adobada) con una botella de Don Julio 70 de 750 ml, más una botella Red Label de 750 ml de regalo para llevar. También ofrece pastel individual con bengala y bebida flameada en tu mesa por $250. La imagen no indica vigencia, identificación ni acompañantes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar el paquete Cumpleañero de $3,480",
+      "La botella Red Label de regalo (750 ml) es para llevar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se indica periodo; aparece en las promociones vigentes del sitio oficial",
+    "minPurchase": 3480,
+    "howToClaim": "Pregunta por el paquete Cumpleañero al reservar (tel. (33) 3615 0029) o al llegar.",
+    "sources": [
+      "https://www.casa-bariachi.com/promociones",
+      "https://www.casa-bariachi.com/images/promociones/casabariachi-promocion-637354.jpg"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Casa Bariachi, Av. Vallarta (Arcos Vallarta), Guadalajara. Promoción publicada como imagen en el sitio oficial, sin fecha de vigencia",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-churrasqueria-maneiro-guadalajara",
+    "brand": "La Churrasquería by Maneiro",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis al comprar 4 rodizios",
+    "benefitType": "gratis",
+    "details": "Un video promocional de redes (2024) anuncia que los cumpleañeros comen gratis con la compra de 4 rodizios en este restaurante brasileño de espadas. El sitio oficial no publica la promoción ni sus condiciones, así que conviene confirmar por teléfono antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Comprar 4 rodizios (según redes)",
+      "Identificación oficial (por confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica día ni periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono o WhatsApp (33 5093 1984) y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/@morenatripsmx/video/7382239313846619398",
+      "https://lachurrasqueria.com.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Sitio oficial: Calz. Revolución 2232, Guadalajara (el video menciona Av. México 2942)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "chololo-patria-guadalajara",
+    "brand": "Birriería Chololo Patria",
+    "category": "restaurantes",
+    "benefit": "Postre gratis y ronda de shots en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Listados y publicaciones en redes indican que el cumpleañero recibe postre gratis y una ronda de shots. Se recomienda reservar por WhatsApp (33 1531 2965). No encontramos las condiciones oficiales (acompañantes, días o vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservación previa por WhatsApp (recomendado)",
+      "Identificación oficial (por confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.facebook.com/p/Chololo-Patria-61560462372131/",
+      "https://www.instagram.com/chololo.patria/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Av. Patria 1100, Lomas del Nilo, Guadalajara",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "mariscos-zapopan-restaurante",
+    "brand": "Mariscos Zapopan",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis o 1 botella gratis",
+    "benefitType": "gratis",
+    "details": "Según listados y publicaciones en redes, el cumpleañero come gratis o elige 1 botella gratis cuando reserva y asiste con 5 acompañantes; aplican restricciones que se consultan al reservar. No hay sitio oficial con las condiciones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservación previa",
+      "Ir con 5 acompañantes",
+      "Aplican restricciones (consultar al reservar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 33 2021 0177 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurante-de-mariscos-en-gdl-con-promoci%C3%B3n-de-cumplea%C3%B1os-2025"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan",
+      "guadalajara"
+    ],
+    "locationNote": "Av. Juan Palomar y Arias 565, Zapopan",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "tres-generaciones-guadalajara",
+    "brand": "Tres Generaciones Restaurante y Cantina",
+    "category": "bares",
+    "benefit": "Botella gratis los viernes con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, los viernes los cumpleañeros que llegan con 4 acompañantes reciben una botella gratis y un kit cumpleañero. El sitio oficial mostraba una página en construcción al revisarlo, por lo que no pudimos verificar las condiciones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes",
+      "Solo los viernes (según redes)",
+      "Reservar con anticipación (recomendado)"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Viernes (según redes); confirmar si aplica solo el día o todo el mes",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono (33 1888 3817) y pregunta por la promoción de cumpleañeros.",
+    "sources": [
+      "https://tresgeneracionesgdl.com/",
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-cosas-el-d%C3%ADa-de-tu-cumplea%C3%B1os-en-guadalajara-jalisco"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Cantina tapatía en Guadalajara; dirección no confirmada",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "casa-maro-guadalajara",
+    "brand": "Casa MaRo",
+    "category": "restaurantes",
+    "benefit": "Pan francés gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Durante todo el mes de tu cumpleaños, el cumpleañero recibe de cortesía un pan francés en mesas de mínimo 6 personas. No es válido con otras promociones. Información tomada de listados y redes, sin sitio oficial que la confirme.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mesa de mínimo 6 personas",
+      "Solo en el mes de tu cumpleaños",
+      "No válido con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (33 3173 0456) para 6 o más personas y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://reservandonos.com/en/place/casa-maro-guadalajara/",
+      "https://www.facebook.com/casamaromx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Justo Sierra 2573, Arcos Vallarta, Guadalajara",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "punto-mazatlan-gdl",
+    "brand": "Punto Mazatlán GDL",
+    "category": "bares",
+    "benefit": "Segunda botella gratis para el cumpleañero",
+    "benefitType": "2x1",
+    "details": "Según su publicación en redes, al festejar tu cumpleaños 'al estilo Mazatlán' la segunda botella va de regalo y todas las botellas participan. No hay condiciones publicadas (mínimo de consumo, acompañantes o días), así que conviene confirmar al reservar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar y avisar que es tu cumpleaños",
+      "Aplica en todas las botellas (según redes)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva por Instagram o TikTok (@puntomazatlangdl / @puntomazatlan_gdl).",
+    "sources": [
+      "https://www.instagram.com/puntomazatlangdl/",
+      "https://www.tiktok.com/@puntomazatlan_gdl"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Restaurante-bar de mariscos estilo Mazatlán en Guadalajara; dirección no confirmada",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "isabella-club-guadalajara",
+    "brand": "Isabella Club",
+    "category": "bares",
+    "benefit": "Al comprar 1 botella, la 2ª gratis más shots",
+    "benefitType": "2x1",
+    "details": "Según listados, el cumpleañero que compra 1 botella recibe la siguiente gratis, una ronda de shots para toda la mesa y un pastelito. Es un club con shows de drag (jueves a domingo). No encontramos condiciones oficiales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Comprar 1 botella",
+      "Reservar con anticipación (recomendado)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva al (33) 1012 2044 y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/IsabellaclubGDL/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Prisciliano Sánchez 396, Centro, Guadalajara",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "korean-bbq-guadalajara-zapopan",
+    "brand": "Korean BBQ",
+    "category": "restaurantes",
+    "benefit": "Buffet coreano gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Listados y videos de redes indican que el cumpleañero come gratis en este buffet de carnes a la parrilla en mesa. El sitio oficial (koreanbbq.mx) solo publica sucursales y horarios, sin condiciones de la promoción.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial (por confirmar)",
+      "Condiciones no publicadas: consultar al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp o al 33 2496 1064 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://www.koreanbbq.mx/",
+      "https://www.tiktok.com/discover/lugares-donde-comes-gratis-por-tu-cumplea%C3%B1os-en-guadalajara"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan",
+      "guadalajara"
+    ],
+    "locationNote": "Sucursal Patria (Av. Patria 791, Zapopan) y sucursal Providencia (Av. Rubén Darío 425, Guadalajara); confirmar cuál participa",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-gorderon-tlaquepaque",
+    "brand": "El Gorderón Asador Libre",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con reservación",
+    "benefitType": "gratis",
+    "details": "Un listado en redes indica que el cumpleañero come gratis con reservación en este asador de cortes de Tlaquepaque. El sitio oficial tiene un artículo sobre celebrar cumpleaños pero no publica condiciones; confirmar por teléfono o WhatsApp.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservación previa",
+      "Condiciones no publicadas: consultar al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp o al 33 3926 0664 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://elgorderonasadorlibre.com/",
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-cosas-el-d%C3%ADa-de-tu-cumplea%C3%B1os-en-guadalajara-jalisco"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Contreras Medellín 167, centro de Tlaquepaque (zona metropolitana de Guadalajara)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-perla-de-jalisco-guadalajara",
+    "brand": "La Perla de Jalisco",
+    "category": "restaurantes",
+    "benefit": "Buffet y bebida gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según su publicación en redes, el cumpleañero que llega con 4 personas recibe el buffet de mariscos y birria (más de 80 platillos) y su bebida sin costo. No hay sitio oficial con condiciones ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 personas que consuman buffet",
+      "Identificación oficial (por confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 33 3622 0601 y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-comes-gratis-por-tu-cumplea%C3%B1os-en-guadalajara"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Mariano Otero 3000 (Plaza La Perla), Guadalajara",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "la-perla-del-pacifico-tonala",
+    "brand": "La Perla del Pacífico",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "El restaurante de mariscos publicó en su TikTok que el cumpleañero come gratis si llega con 4 personas y presenta INE o CURP. La publicación era temporal (abril y mayo), por lo que hay que confirmar si sigue vigente.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE o CURP",
+      "Ir con 4 personas",
+      "Publicación temporal: confirmar vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Promoción publicada por temporada; confirmar vigencia",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE o CURP con tus 4 acompañantes en el restaurante.",
+    "sources": [
+      "https://www.tiktok.com/@perlapacificocampestre/video/7405789592374349062"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Sucursal Campestre Tierra Linda (Tonalá); también hay una en Av. Patria 900, Tonalá",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "han-kang-sushi-buffet-guadalajara",
+    "brand": "Han Kang Sushi Buffet",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el festejado",
+    "benefitType": "gratis",
+    "details": "Un listado de 2026 sobre buffets de sushi en Guadalajara indica que el buffet del festejado es gratis en Han Kang. No hay condiciones publicadas (acompañantes, días o identificación); conviene llamar antes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Condiciones no publicadas: consultar al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica periodo; confirmar al reservar",
+    "minPurchase": null,
+    "howToClaim": "Llama al 33 1595 7461 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://restaurantes-mexico.com.mx/los-mejores-buffets-de-sushi-en-guadalajara/",
+      "https://www.facebook.com/hankang2plazabonita/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Plaza Bonita, Av. México 3370 B-11, Monraz, Guadalajara",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "fogon-de-cirilo-tonala",
+    "brand": "Fogón de Cirilo",
+    "category": "restaurantes",
+    "benefit": "Promoción 'Cumpleañero gratis' en el buffet",
+    "benefitType": "gratis",
+    "details": "Su lista de precios en redes incluye la promoción 'Cumpleañero gratis' en el buffet (viernes a domingo, de 9:00 am a 1:30 pm) y aclara que no se combina con la de niño gratis ni aplica en días festivos. No encontramos requisitos de acompañantes ni identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Buffet viernes, sábado y domingo",
+      "No se combina con la promoción de niño gratis",
+      "No aplica en días festivos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Fines de semana en horario de buffet; confirmar mes o día de aplicación",
+    "minPurchase": null,
+    "howToClaim": "Reserva por redes del restaurante y confirma los requisitos antes de ir.",
+    "sources": [
+      "https://www.facebook.com/fogondecirilo/",
+      "https://www.instagram.com/fogondecirilo/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Camino al Vado 2507, Tonalá",
+    "needsId": null,
+    "companions": null
+  }
+]
