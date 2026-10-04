@@ -432,6 +432,277 @@
     "companions": 3
   },
   {
+    "slug": "el-diez-parrilla-argentina",
+    "brand": "El Diez Parrilla Argentina",
+    "category": "restaurantes",
+    "benefit": "Entrada, plato fuerte, pastel y vino gratis",
+    "benefitType": "gratis",
+    "details": "En la semana de tu cumpleaños, en mesas de 5 o más comensales, el cumpleañero es invitado por el restaurante: incluye entrada, plato principal, pastel, una botella de vino El Diez y una copa de espumoso para brindar. Solo con reservación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mesa de 5 o más comensales",
+      "Solo con reservación",
+      "Aplica solo en la semana de tu cumpleaños",
+      "Identificación oficial para comprobar fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva con anticipación indicando que festejas tu cumpleaños y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.eldiez.com.mx/promociones/",
+      "https://www.eldiez.com.mx/sucursales/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "ROO"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Sucursales en CDMX (Reforma, Condesa, Clavería, Prado Norte, Polanco, etc.); también Playa del Carmen",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "bombay-club-roma",
+    "brand": "Bombay Club Roma",
+    "category": "bares",
+    "benefit": "Barra libre, botella de regalo y shots",
+    "benefitType": "gratis",
+    "details": "Si es tu cumpleaños el mes de tu visita, el sitio oficial (actualizado octubre 2026) anuncia barra libre para el festejado y sus amigas, botella de regalo, ronda de shots y 3x2 en botellas, además de paquetes de cumpleaños con espumoso, zona VIP, jarra de coctelería y shot flameado. Acceso únicamente con reservación; los beneficios exactos dependen del paquete.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Acceso solo con reservación",
+      "Mayor de edad",
+      "Que tu cumpleaños sea en el mes de tu visita",
+      "Confirmar por WhatsApp qué paquete aplica"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "El mes de tu cumpleaños (promoción publicada para octubre 2026)",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (55 3577 2378) o en línea en bombayclubromaoficial.com e indica que es tu cumpleaños.",
+    "sources": [
+      "https://www.bombayclubromaoficial.com/cumplea%C3%B1os",
+      "https://www.bombayclubromaoficial.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Av. Álvaro Obregón 291, Roma Norte",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "gotchalandia",
+    "brand": "Gotchalandia",
+    "category": "parques",
+    "benefit": "Paquete Loco de gotcha gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Al cumpleañero se le da de cortesía el Paquete Loco (precio de lista $250 por persona, con equipo y 230 paintballs) si llega con 8 acompañantes y presenta su credencial o CURP con fecha de nacimiento. No aplica con otras promociones; la página oficial muestra precios vigentes 2025.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial o CURP con fecha de nacimiento",
+      "Jugar con mínimo 8 acompañantes",
+      "No aplica con otras promociones",
+      "Reservar por WhatsApp"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Cuando reservas tu grupo; no se indica ventana de fechas",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (55 3497 4163) y presenta tu credencial o CURP al llegar.",
+    "sources": [
+      "https://gotchalandia.com/gotcha-precios-promos",
+      "https://gotchalandia.com/fiesta-de-cumplea%C3%B1os-1"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MEX"
+    ],
+    "cities": [
+      "toluca"
+    ],
+    "locationNote": "La Marquesa, Ocoyoacac, Estado de México",
+    "needsId": true,
+    "companions": 8
+  },
+  {
+    "slug": "sonora-grill",
+    "brand": "Sonora Grill",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Durante tu mes de cumpleaños recibes un postre de cortesía al solicitar el beneficio en cualquier sucursal Sonora Grill; limitado a una cortesía por cumpleañero y por reserva. Solo consumo de alimentos en sucursal (no delivery ni Pick and Go) y sujeto a disponibilidad.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Pedir el beneficio al mesero",
+      "Una cortesía por cumpleañero y por reserva",
+      "Solo consumo de alimentos en sucursal",
+      "Sujeto a disponibilidad"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, de lunes a domingo",
+    "minPurchase": null,
+    "howToClaim": "Avisa al mesero que es tu cumpleaños al ordenar.",
+    "sources": [
+      "https://www.sonoragrill.com.mx/promociones",
+      "https://www.sonoragrill.com.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SON",
+      "YUC"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla",
+      "puebla",
+      "queretaro",
+      "hermosillo",
+      "merida"
+    ],
+    "locationNote": "Todas las sucursales (CDMX: Amores, Coyoacán, Miyana, Nápoles, Narvarte, Reforma, Coapa, Roma; Edomex: Mundo E)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "olive-garden-mexico",
+    "brand": "Olive Garden",
+    "category": "restaurantes",
+    "benefit": "Lasagna o Fettuccine Alfredo gratis",
+    "benefitType": "gratis",
+    "details": "Durante tu mes de cumpleaños, el festejado recibe gratis una lasagna mediana o fettuccine alfredo con sopa o ensalada infinita, comprando 2 platos fuertes y 2 bebidas en un grupo de mínimo 3 personas. No aplica al menú infantil ni al Menú Infinito; avisa al mesero antes de ordenar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Grupo de mínimo 3 personas",
+      "Comprar 2 platos fuertes y 2 bebidas",
+      "No aplica en menú infantil ni Menú Infinito",
+      "Avisar al mesero antes de ordenar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; vigencia reportada hasta diciembre 2026",
+    "minPurchase": null,
+    "howToClaim": "Menciona al mesero que es tu cumpleaños antes de ordenar y presenta tu INE.",
+    "sources": [
+      "https://cazaofertas.com.mx/restaurantes/feliz-cumpleanos-en-olive-garden-lasagna-o-fettuccine-alfredo-gratis-en-el-mes-de-tu-cumpleanos/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Confirmar sucursales participantes en México",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "rancho-magico",
+    "brand": "Rancho Mágico",
+    "category": "parques",
+    "benefit": "Entrada gratis el mes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Los cumpleañeros del mes entran gratis al parque presentando copia del acta de nacimiento en taquilla (copia de INE en el caso de adultos). La cortesía es en el Ticket Mágico y exige comprar al menos un acompañante a precio de lista ($359); válida sábados, domingos y festivos de 10:00 a 18:00. No acumulable, no aplica en venta en línea, convenios, fiestas ni visitas escolares.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Acta de nacimiento (menores) o copia de INE (adultos)",
+      "Comprar mínimo 1 acompañante a precio de lista",
+      "Solo sábados, domingos y festivos de 10:00 a 18:00",
+      "Canje directo en taquilla (no en línea)",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, solo fines de semana y festivos",
+    "minPurchase": null,
+    "howToClaim": "Presenta copia de tu acta de nacimiento o INE directo en taquilla.",
+    "sources": [
+      "https://www.ranchomagico.com.mx/promociones",
+      "https://ranchomagico.com.mx/ubicacion/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Carretera libre a Cuernavaca km 31.5, San Miguel Topilejo, Tlalpan",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "perros-y-burros",
+    "brand": "Perros y Burros",
+    "category": "bares",
+    "benefit": "Shot SKYY de cumpleaños sin costo",
+    "benefitType": "gratis",
+    "details": "En el mes de tu cumpleaños recibes sin costo un SKYY dog shot, válido en todas las sucursales con consumo de alimentos, de 11:00 am a 1:30 am y solo para mayores de 18 años. Productos sujetos a disponibilidad por temporada o ley seca; vigencia al 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con fotografía vigente",
+      "Mayor de 18 años",
+      "Consumo de alimentos",
+      "Solo en restaurante, de 11:00 am a 1:30 am"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; vigencia al 31-dic-2026",
+    "minPurchase": null,
+    "howToClaim": "Pide tu shot de cumpleaños al mesero y muestra tu identificación oficial.",
+    "sources": [
+      "https://perrosyburros.com/portfolio/shots-de-cumpleanos/",
+      "https://www.perrosyburros.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla",
+      "ecatepec",
+      "toluca"
+    ],
+    "locationNote": "Todas sus sucursales de CDMX y Edomex (Plaza Central, Tepeyac, Antenas, Fashion Mall, Las Américas, Metepec, etc.)",
+    "needsId": true,
+    "companions": null
+  },
+  {
     "slug": "starbucks",
     "brand": "Starbucks",
     "category": "cafe",
@@ -2482,6 +2753,547 @@
     "companions": null
   },
   {
+    "slug": "zoologico-guadalajara",
+    "brand": "Zoológico Guadalajara",
+    "category": "parques",
+    "benefit": "Entrada gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Quien cumpla años en el mes de su visita entra gratis al zoológico al comprar el Paquete GuadaZoo en taquilla con identificación oficial en original y copia. Solo aplica al cumpleañero (los acompañantes pagan), una vez, y no se combina con otras promociones, grupos ni excursiones escolares.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE o identificación oficial con foto, original y copia",
+      "Menores: copia de acta de nacimiento e INE del adulto responsable",
+      "Comprar el Paquete GuadaZoo en taquilla física",
+      "Personal e intransferible; una vez en tu mes",
+      "No aplica con otras promos, grupos ni excursiones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Ve a las taquillas del zoológico en tu mes de cumpleaños, pide el Paquete GuadaZoo y presenta tu identificación (original y copia). No vale en plataformas digitales.",
+    "sources": [
+      "https://www.informador.mx/jalisco/zoologico-guadalajara-lanza-promociones-para-entrar-gratis-en-junio-conoce-quienes-y-como-participar-20260613-0055.html",
+      "https://www.informador.mx/jalisco/zoologico-guadalajara-estas-personas-pueden-entrar-gratis-con-este-requisito-20260126-0043.html",
+      "https://zooguadalajara.com.mx"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Zoológico Guadalajara, Paseo del Zoológico 600 (Huentitán, Guadalajara). Solo taquilla física",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "sealand-guadalajara",
+    "brand": "Sealand Guadalajara",
+    "category": "parques",
+    "benefit": "Pase de expedición general gratis (valor $269)",
+    "benefitType": "gratis",
+    "details": "El cumpleañero entra gratis a Sealand Guadalajara con el pase general (valor $269) durante su mes de cumpleaños, mostrando identificación oficial con foto. Solo en taquilla, una vez por mes de cumpleaños, no acumulable con otras promociones; los acompañantes pagan su entrada. Vigente hasta el 31 de octubre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.sealand.com.mx/guadalajara/promocion-de-cumpleanos/",
+    "requirements": [
+      "Identificación oficial con foto que compruebe tu mes de cumpleaños",
+      "Canje solo en taquilla (no en línea)",
+      "Una vez por mes de cumpleaños",
+      "No acumulable con otras promociones o descuentos",
+      "Confirmar disponibilidad al momento de la compra"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños, vigente hasta el 31 oct 2026",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial con foto en la taquilla de Sealand (Santa Anita), de lunes a domingo.",
+    "sources": [
+      "https://www.sealand.com.mx/guadalajara/promocion-de-cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Solo Sealand Guadalajara, Centro Comercial Santa Anita (zona Tlajomulco/Tlaquepaque). Tel. 33 1598 8270",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mr-e-cuartos-de-escape-guadalajara",
+    "brand": "Mr.E Cuartos de Escape",
+    "category": "experiencias",
+    "benefit": "Cumpleañero juega gratis con grupo de 4 o más",
+    "benefitType": "gratis",
+    "details": "Mr.E anuncia en su sitio: \"Festeja tu cumpleaños en Mr.E. El cumpleañero juega gratis a partir de 4 jugadores.\" La sala se cobra por grupo (de $780 por 2 a $1,980 por 6), así que el cumpleañero no suma al pago. El sitio no detalla si exige identificación ni qué fecha cubre; confirma por WhatsApp al reservar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo de mínimo 4 jugadores",
+      "Reservar en línea o por WhatsApp avisando que es cumpleaños",
+      "Confirmar si piden identificación al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especifican la fecha válida; consulta al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (33 3029 5054) o en mre.mx y menciona que festejas cumpleaños.",
+    "sources": [
+      "https://mre.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Calle José María Morelos 2288, Arcos Vallarta, Guadalajara. Cierra los martes",
+    "needsId": false,
+    "companions": 3
+  },
+  {
+    "slug": "acuario-michin-guadalajara",
+    "brand": "Acuario Michin Guadalajara",
+    "category": "parques",
+    "benefit": "Entrada gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según una guía, quien cumple años el día de su visita entra gratis al Acuario Michin Guadalajara. No encontré esta regla en el sitio oficial ni en sus términos y condiciones, así que confirma antes de ir (WhatsApp 33 2310 7937).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Cumplir años el día de la visita",
+      "Llevar identificación con fecha de nacimiento (sugerido)"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en taquilla o por WhatsApp con tu identificación; no está confirmado en el sitio oficial.",
+    "sources": [
+      "https://rankeamexico.com/acuario-michin-guadalajara/",
+      "https://www.acuariomichin.com/GDL/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Calle Mariano Bárcena 990, Guadalajara. Promo solo citada por un blog",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "wok-garden-monterrey",
+    "brand": "Wok Garden",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El cumpleañero come gratis en el buffet al reunir 6 o más adultos, durante la semana completa de su cumpleaños (lunes a domingo). No es combinable con otras promociones; en sus publicaciones aclaran que la promo aplica solo en el mes y año de publicación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 6 o más adultos en la mesa",
+      "Ir dentro de la semana de tu cumpleaños (lunes a domingo)",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Toda la semana de tu cumpleaños (lunes a domingo)",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llega con tu grupo de 6+ adultos y avisa que es tu cumpleaños; confirma la identificación requerida con la sucursal.",
+    "sources": [
+      "https://wokgarden.com.mx/",
+      "https://www.instagram.com/wokgarden.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MEX",
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Galerías Monterrey y Plaza Áuriga (San Pedro Garza García) en NL; también Galerías Metepec (Edomex). Nota: videos de terceros hablan de '3 acompañantes', pero el sitio oficial dice 6 o más adultos.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "oriental-wok",
+    "brand": "Oriental Wok",
+    "category": "restaurantes",
+    "benefit": "Platillo, bebida y helado tempura gratis",
+    "benefitType": "gratis",
+    "details": "Incluye un platillo chino de pollo o rollos (frío o caliente), cualquier bebida no alcohólica y helado tempura (sujeto a disponibilidad). Válido el día de tu cumpleaños y hasta 6 días después, con identificación oficial; el cumpleañero debe ir con mínimo 2 acompañantes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con mínimo 2 acompañantes",
+      "Postre sujeto a disponibilidad"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "El día de tu cumpleaños y hasta 6 días después",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en sucursal y avisa que vienes por la promo de cumpleaños con tus 2 acompañantes.",
+    "sources": [
+      "https://orientalwok.mx/promociones-2/",
+      "https://orientalwok.mx/nuevo-leon/",
+      "https://www.tiktok.com/@orientalwokmx/video/7337405733874453766"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "19 sucursales en el área metropolitana de Monterrey (la promo está publicada en su página de Nuevo León). También hay sucursales en Matamoros, Nuevo Laredo y Reynosa, pero no se confirmó que apliquen esta promo.",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "noreste-grill",
+    "brand": "Noreste Grill",
+    "category": "restaurantes",
+    "benefit": "Corte de arrachera (300 g) con guarnición gratis",
+    "benefitType": "gratis",
+    "details": "Durante la semana de tu cumpleaños (lunes a domingo) te dan un corte de arrachera de 300 g con guarnición gratis al presentar tu Tarjeta VIP y una identificación oficial. Solo consumo en restaurante, una tarjeta por cuenta; no se puede usar el mismo día que compras la tarjeta (aplica desde la segunda visita) y la tarjeta es intransferible.",
+    "program": "Tarjeta VIP Noreste Grill",
+    "signupUrl": "https://www.norestegrill.com.mx/tarjeta-vip/",
+    "requirements": [
+      "Tarjeta VIP ($99 MXN; renovación anual $99)",
+      "Identificación oficial",
+      "Tarjeta con tus datos y fecha completos",
+      "No válido el mismo día que compras la tarjeta",
+      "Solo consumo en restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Toda la semana de tu cumpleaños (lunes a domingo)",
+    "minPurchase": null,
+    "howToClaim": "Pide tu Tarjeta VIP con el mesero (formulario + cargo de $99), y en tu semana de cumpleaños preséntala con tu identificación al pedir.",
+    "sources": [
+      "https://www.norestegrill.com.mx/tarjeta-vip/",
+      "https://www.norestegrill.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "COA",
+      "NLE"
+    ],
+    "cities": [
+      "monterrey",
+      "saltillo",
+      "cdmx"
+    ],
+    "locationNote": "Cerca de 20 sucursales en el área metropolitana de Monterrey, además de Saltillo (donde nació en 2008) y Ciudad de México.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mr-pampas",
+    "brand": "Mr. Pampas",
+    "category": "restaurantes",
+    "benefit": "Rodizio gratis entre semana con 4 adultos",
+    "benefitType": "gratis",
+    "details": "Reportes indican que de lunes a viernes, en la semana de tu cumpleaños, el cumpleañero no paga su rodizio si va con 4 adultos que consuman rodizio y presenta identificación oficial (no aplica sábados, domingos ni festivos), además de un kit con mañanitas, rebanada de pastel y un shot (solo adultos). Su sitio oficial solo dice que tienen 'sorpresas preparadas' y que las promos varían por ciudad, con texto fechado en enero 2019.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 4 adultos que consuman rodizio",
+      "Solo de lunes a viernes; no aplica fines de semana ni festivos"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, de lunes a viernes",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero al llegar y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.mrpampas.com/promociones.php"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA",
+      "NLE"
+    ],
+    "cities": [
+      "monterrey",
+      "saltillo",
+      "torreon"
+    ],
+    "locationNote": "Sucursales en Monterrey (San Pedro y Garza Sada), Saltillo y Torreón entre otras; las promos de cumpleaños varían por ciudad. Su página de promociones está fechada en 2019 y las reglas de arriba no se pudieron confirmar en sitio oficial: confirma con la sucursal.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "the-food-box",
+    "brand": "The Food Box",
+    "category": "restaurantes",
+    "benefit": "Hamburguesa y Churro Bowl gratis",
+    "benefitType": "gratis",
+    "details": "Válida en comedor el día de tu cumpleaños presentando identificación oficial: te regalan una hamburguesa del menú y un Churro Bowl. No aplica King James ni Spurgeon Infit y no requiere consumo mínimo. Solo la vimos en un video oficial de TikTok de 2024; confirma que siga vigente.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Consumo en comedor",
+      "No aplica King James ni Spurgeon Infit"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en sucursal y pide tu hamburguesa y Churro Bowl de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/@thefoodbox/video/7364864904077069576",
+      "https://www.instagram.com/thefoodboxmx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "COA",
+      "NLE"
+    ],
+    "cities": [
+      "monterrey",
+      "saltillo",
+      "cdmx"
+    ],
+    "locationNote": "Sucursales en Monterrey/San Pedro, Saltillo y CDMX según su Instagram; no se pudo confirmar qué sucursales participan. Los términos salen de un video oficial de TikTok de 2024, no de su sitio.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "elotes-eddys-roasted-corn",
+    "brand": "Elotes Eddy's Roasted Corn",
+    "category": "comida-rapida",
+    "benefit": "Regalo de cumpleaños: elote, bebida, marranada o raspado",
+    "benefitType": "gratis",
+    "details": "Su Instagram indica que el cumpleañero recibe un regalo gratis (elote entero, bebida mediana, marranada o raspado) solo el día exacto de su cumpleaños en sus tres sucursales. Las reglas exactas las publican en su perfil, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día exacto de tu cumpleaños",
+      "Confirmar en su Instagram si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en caja que es tu cumpleaños y muestra tu identificación si te la piden.",
+    "sources": [
+      "https://www.instagram.com/eloteseddysroastedcorn/",
+      "https://www.tiktok.com/@quienes.son.mx/video/7501498071361047826"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "3 sucursales: Pablo Livas (Guadalupe), Bosques del Contry y Zertuche",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-gran-pastor",
+    "brand": "El Gran Pastor",
+    "category": "restaurantes",
+    "benefit": "Buffet de desayuno gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El cumpleañero come gratis el buffet de desayuno si va acompañado de al menos 4 amigos o familiares. Solo lo vimos en un directorio y videos de terceros; su sitio oficial no publica los términos, solo menciona promociones mensuales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 4 amigos o familiares",
+      "Buffet de desayuno (7 am a 12 pm)",
+      "Confirmar reglas con la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirmar con la sucursal",
+    "minPurchase": null,
+    "howToClaim": "Reserva o avisa al llegar que es tu cumpleaños; llama al (81) 8129-4453 para confirmar.",
+    "sources": [
+      "https://residente.mx/restaurantes/el-gran-pastor",
+      "https://elgranpastor.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Unas 8 sucursales en Monterrey, Guadalupe, San Nicolás y San Pedro",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "papalote-museo-del-nino-monterrey",
+    "brand": "Papalote Museo del Niño Monterrey",
+    "category": "parques",
+    "benefit": "Entrada gratis al museo e IMAX (menores de 15)",
+    "benefitType": "regalo-con-compra",
+    "details": "Durante la semana calendario del cumpleaños del menor, entrada gratis al Museo y al Documental IMAX para menores de 15 años al comprar al menos 1 Súper Paquete. Presenta acta de nacimiento o CURP (física o digital); solo en taquilla, no acumulable con otras promociones y sujeta a cambios sin previo aviso.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Menor de 15 años",
+      "Acta de nacimiento o CURP (física o digital)",
+      "Comprar al menos 1 Súper Paquete",
+      "Acompañar al menor con 1 adulto con boleto pagado",
+      "Solo en taquilla; no acumulable"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana calendario en la que cae el cumpleaños del menor",
+    "minPurchase": null,
+    "howToClaim": "En taquilla, presenta el acta o CURP del menor y compra al menos un Súper Paquete.",
+    "sources": [
+      "https://papalotemty.org.mx/terminos-y-condiciones-promociones/",
+      "https://papalotemty.org.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Papalote Museo del Niño Monterrey (único recinto en la zona)",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "la-santa-kitchen-bar",
+    "brand": "La Santa Kitchen Bar",
+    "category": "restaurantes",
+    "benefit": "Regalo de cumpleaños (por confirmar)",
+    "benefitType": "gratis",
+    "details": "Creadores locales reportan que 'te dan algo gratis por tu cumple' y una fuente menciona 2 bebidas y 1 platillo de regalo, pero las reglas cambian por sucursal y no se pudieron confirmar en su sitio ni redes oficiales. Revisa su Instagram o llama antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas por confirmar con la sucursal",
+      "Posible identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no confirmada",
+    "minPurchase": null,
+    "howToClaim": "Avisa al mesero que es tu cumpleaños y pregunta por la promo vigente; Paseo Tec 2: 81 2894 7924.",
+    "sources": [
+      "https://www.tiktok.com/@quienes.son.mx/video/7501498071361047826",
+      "https://www.instagram.com/lasantakitchenbar/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Sucursales como Paseo Tec 2, Nogalar, Plaza Sienna y Plaza Citadel",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-cipolla-saltillo",
+    "brand": "La Cipolla",
+    "category": "restaurantes",
+    "benefit": "Platillo gratis los martes de tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según reportes y su propia página de promos, el cumpleañero recibe su platillo gratis si va los martes durante el mes de su cumpleaños. No aplica con otras promociones y es válido solo en restaurante; las condiciones exactas no están publicadas, confirma al (844) 165-02-77.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en martes durante el mes de tu cumpleaños",
+      "Solo en restaurante; no aplica con otras promociones",
+      "Condiciones exactas por confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo los martes del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Visita el restaurante en martes y avisa que es tu cumpleaños; confirma por teléfono.",
+    "sources": [
+      "https://lacipolla.com/page10.html",
+      "https://www.tiktok.com/@dondeirsaltillo/video/7361583715471969537"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "saltillo"
+    ],
+    "locationNote": "Una sucursal en Plaza Casa Grande, Blvd. José Musa, Saltillo",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tgi-fridays-tampico",
+    "brand": "TGI Fridays Tampico",
+    "category": "restaurantes",
+    "benefit": "Tu edad = % de descuento (máx. 50%)",
+    "benefitType": "descuento",
+    "details": "Durante toda la semana de tu cumpleaños recibes un descuento igual a tu edad (máximo 50%) en tu consumo y tus acompañantes obtienen 10%. Requiere identificación oficial con foto; aplica solo en menú regular, no es combinable con otras promociones y excluye pedidos para llevar y a domicilio.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con foto",
+      "Solo menú regular, en restaurante",
+      "No aplica para llevar ni a domicilio",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Toda la semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial con foto al pedir tu cuenta en la sucursal de Tampico.",
+    "sources": [
+      "https://fridaystam.com/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "tampico"
+    ],
+    "locationNote": "Franquicia local TGI Fridays Tampico (variante regional de una marca ya registrada); las condiciones pueden diferir de otras franquicias.",
+    "needsId": true,
+    "companions": null
+  },
+  {
     "slug": "mr-pampas-baja-california",
     "brand": "Mr. Pampas Do Brasil (Tijuana y Ensenada)",
     "category": "restaurantes",
@@ -2802,6 +3614,839 @@
     "locationNote": null,
     "needsId": null,
     "companions": 5
+  },
+  {
+    "slug": "mr-pampas-guadalajara",
+    "brand": "Mr. Pampas Guadalajara",
+    "category": "restaurantes",
+    "benefit": "Rodizio gratis (solo pagas bebidas)",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga el rodizio (buffet de cortes) y solo paga sus bebidas si va con 4 personas más que consuman rodizio de adulto (precio de lista $449). Válido de lunes a viernes dentro de la semana de tu cumpleaños, presentando identificación oficial; no aplica en días festivos ni con otras promociones. El sitio indica vigencia del 6 de enero al 30 de noviembre de 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial mostrada al mesero",
+      "Ir con 4 personas más que consuman rodizio de adulto",
+      "Solo de lunes a viernes",
+      "Visitar dentro de la semana de tu cumpleaños",
+      "No aplica en días festivos ni con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, solo lunes a viernes (vigencia 6 ene a 30 nov 2026)",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero al llegar y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.mrpampasguadalajara.com/",
+      "https://www.instagram.com/mrpampasgdl/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Texto tomado del sitio oficial de Mr. Pampas Guadalajara (sucursal La Rioja, Urban Center, Tlajomulco). Mr. Pampas Gdl también tiene sucursales Urbania y Otero; en León, Querétaro y San Luis Potosí la marca tiene sucursales pero su sitio no publica la promo: confirma con ellas.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "pampas-steak-house-queretaro",
+    "brand": "Pampas Steak House & Sea Food",
+    "category": "restaurantes",
+    "benefit": "Buffet o botella gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "En la semana de tu cumpleaños eliges entre tu buffet o una botella gratis. El cumpleañero no paga si va con 3 adultos que paguen su buffet a precio regular. Válido de lunes a viernes de 1:00 a 6:30 pm; no aplica fines de semana ni festivos oficiales, la botella tiene restricciones (consulta las participantes) y no es acumulable. Vigente hasta el 30 de noviembre de 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 adultos que paguen su buffet a precio regular",
+      "Solo lunes a viernes de 1:00 a 6:30 pm",
+      "Visitar dentro de la semana de tu cumpleaños",
+      "Identificación oficial con tu fecha de nacimiento",
+      "Sin fines de semana ni festivos oficiales",
+      "Botella: aplican restricciones, consulta cuáles participan",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, de lunes a viernes (hasta el 30 nov 2026)",
+    "minPurchase": null,
+    "howToClaim": "Menciona que es tu cumpleaños al llegar y presenta tu identificación oficial.",
+    "sources": [
+      "https://restaurantepampas.com.mx/public/img/cumpleanos-enero-2026.jpg",
+      "https://restaurantepampas.com.mx/promociones.php"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Sucursales Centro Sur, Plaza de Toros y Paseo de la República en Querétaro; el flyer oficial no distingue sucursales.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "la-vaka-bajio",
+    "brand": "La Vaka",
+    "category": "restaurantes",
+    "benefit": "Buffet del cumpleañero gratis con 4 buffets de adulto",
+    "benefitType": "gratis",
+    "details": "Al comprar cuatro buffets de adulto ($449 de lista) el quinto, el del cumpleañero, no paga buffet. Aplica de lunes a domingo, solo asistiendo durante el mes de tu cumpleaños y presentando credencial oficial; no incluye bebidas ni aplica en días festivos o con otras promociones. Vigente del 28 de agosto al 31 de diciembre de 2026 según el catálogo oficial de promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial oficial",
+      "Comprar 4 buffets de adulto",
+      "Asistir en el mes de tu cumpleaños",
+      "Bebidas no incluidas",
+      "No aplica en días festivos ni con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, de lunes a domingo (vigencia al 31 dic 2026)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu credencial oficial al pagar los buffets y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://lavaka.mx/",
+      "https://dashboard.lavaka.mx/api/promociones",
+      "https://www.de-paseo.com/queretaro/event-pro/cumpleanero-buffet-gratis-en-la-vaka/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA",
+      "JAL",
+      "QUE"
+    ],
+    "cities": [
+      "queretaro",
+      "guadalajara",
+      "leon"
+    ],
+    "locationNote": "Sucursales participantes en la región: Juriquilla (Querétaro), La Perla (Guadalajara) y León Aeropuerto (Guanajuato). Complementa la ficha 'la-vaka' de CDMX/Edomex; la misma promo aplica en sus sucursales de CDMX y Edomex.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "domun-hotel-queretaro",
+    "brand": "Domun Hotel Querétaro (restaurante)",
+    "category": "restaurantes",
+    "benefit": "Desayuno buffet gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga el desayuno buffet del restaurante del hotel si va con al menos 3 acompañantes. Disponible de lunes a viernes en horario de desayuno buffet (6:30 am a 1:00 pm); no aplica fines de semana ni días festivos y no es acumulable. El sitio no precisa si la promo es el día, la semana o el mes de tu cumpleaños, ni la vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes (más el cumpleañero)",
+      "Solo de lunes a viernes",
+      "Horario de desayuno buffet: 6:30 am a 1:00 pm",
+      "No aplica fines de semana ni días festivos",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El sitio no especifica día, semana o mes; confirma al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llega al restaurante del hotel, avisa que es tu cumpleaños y confirma la ventana de la promo.",
+    "sources": [
+      "https://www.domunhotel.com/",
+      "https://www.domunhotel.com/assets/images/domun-hotel-promo-cumpleanos.webp"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Restaurante de Domun Hotel Comfort Business Class, Querétaro.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "los-muchachos-zapopan",
+    "brand": "Los Muchachos de Zapopan",
+    "category": "restaurantes",
+    "benefit": "Desayuno de cumpleaños gratis con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "El desayuno de cumpleaños va por cuenta de la casa cuando vienes en grupo: menudo chico, quesadilla sencilla, café y brownie con velita. Solo para comer en restaurante (no para llevar), canjeable de miércoles a sábado, con consumo en comedor de 3 o más acompañantes y presentando identificación oficial el día de tu cumpleaños; no válido con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial el día de tu cumpleaños",
+      "Ir con 3 o más acompañantes que consuman en comedor",
+      "Solo de miércoles a sábado",
+      "Solo para comer en restaurante, no para llevar",
+      "No válido con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños, de miércoles a sábado (7:30 a 14:00)",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el comedor que es tu cumpleaños y muestra tu identificación oficial.",
+    "sources": [
+      "https://www.losmuchachosdezapopan.com.mx/promociones",
+      "https://www.losmuchachosdezapopan.com.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan"
+    ],
+    "locationNote": "Sucursales Parque Metropolitano (Santa María del Pueblito), Valdepeñas y Tesistán, en Zapopan; abren miércoles a domingo.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "sirloin-aguascalientes",
+    "brand": "Sirloin Aguascalientes",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis al comprar bebida refill",
+    "benefitType": "gratis",
+    "details": "Buffet gratis en la compra de una bebida refill de adulto a precio regular, solo el día exacto de tu cumpleaños, presentando el cupón impreso (descargable del sitio) e INE o acta de nacimiento. No incluye refresco, no aplica con otras promociones ni descuentos. Es la sucursal independiente de Aguascalientes, distinta de las del cupón nacional de Sirloin Stockade.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE o acta de nacimiento",
+      "Imprimir el cupón de cumpleaños del sitio",
+      "Comprar una bebida refill de adulto a precio regular",
+      "Solo el día exacto de tu cumpleaños",
+      "No aplica con otras promociones ni descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Imprime el cupón del sitio y preséntalo con tu identificación antes de pagar.",
+    "sources": [
+      "https://sirloinaguascalientes.com/promociones/",
+      "https://sirloinaguascalientes.com/wp-content/uploads/2025/09/PROMOCIONES-CUMPLEANOS-1.pdf"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Solo sucursal Aguascalientes: Av. Héroe de Nacozari Sur 2101, Jardines de las Bugambilias.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "porfirios-merida",
+    "brand": "Porfirio's Mérida",
+    "category": "restaurantes",
+    "benefit": "Menú completo y barra libre gratis los jueves",
+    "benefitType": "gratis",
+    "details": "Todos los jueves del mes de tu cumpleaños, el festejado recibe gratis 1 entrada, sopa o ensalada, 1 plato fuerte y postre (piñata), con barra libre (ron, vodka, tequila, licores y carajillo; sin energizantes). Aplica un cumpleañero por cada tres personas; cada invitado debe consumir al menos entrada, plato fuerte y postre. Excluye platillos premium y para compartir (trompo al pastor, Rib Eye El Sancho, langosta, cortes de 1 kg, etc.).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE, pasaporte oficial o licencia de conducir vigente",
+      "1 cumpleañero por cada 3 personas en la mesa",
+      "Cada invitado pide entrada, plato fuerte y postre",
+      "Solo los jueves del mes de tu cumpleaños",
+      "Si compartes tu consumo, se anula la cortesía",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo los jueves del mes de tu cumpleaños (1:00 pm a 1:00 am)",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Porfirio's Mérida y presenta tu identificación oficial vigente al llegar.",
+    "sources": [
+      "https://porfirios.com.mx/promociones/",
+      "https://porfirios.com.mx/blog/porfirios-cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Solo Porfirio's Mérida: la página de promociones vigente (actualizada jul-2026) solo lista Mérida y Guadalajara; Puebla, Cancún, Playa del Carmen y Tulum no aparecen",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "habaneros-merida",
+    "brand": "Habaneros (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis + Queso Napolitano de regalo",
+    "benefitType": "gratis",
+    "details": "Durante todo el mes de tu cumpleaños, ve con 3 o más amigos (mesa de 4 con el festejado) y el cumpleañero come gratis y recibe de regalo un Queso Napolitano. Las cuatro personas deben consumir un platillo de la carta de platos fuertes; no aplica en platillos para compartir (Bomba Yucateca, Bacab, Longaniza, etc.). Una promoción por mesa.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 3 acompañantes o más",
+      "Los 4 piden un plato fuerte de la carta",
+      "No aplica en platillos para compartir",
+      "Una promoción por mesa"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en el restaurante al llegar con tu mesa.",
+    "sources": [
+      "https://habaneros.com.mx/cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Sucursales de Habaneros en Mérida (cocina yucateca)",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "las-estacas-morelos",
+    "brand": "Las Estacas (Morelos)",
+    "category": "parques",
+    "benefit": "Entrada o 1ª noche de camping gratis con 4 acompañantes",
+    "benefitType": "regalo-con-compra",
+    "details": "En el mes de tu cumpleaños, si vas con 4 acompañantes o más que paguen su entrada, tu entrada o tu primera noche de camping es gratis. Se pide y se valida solo en taquilla del parque, con pago de todos en una sola exhibición; no aplica en Semana Santa, Pascua ni durante el Carnaval de Bahidorá, y no es transferible ni acumulable.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial de elector, pasaporte o cédula profesional (original)",
+      "Ir con 4 acompañantes o más que paguen entrada completa",
+      "Solo en el mes de tu cumpleaños",
+      "Pago de todos en una sola exhibición en taquilla",
+      "No aplica en Semana Santa, Pascua ni Carnaval de Bahidorá"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños, sin excepción",
+    "minPurchase": null,
+    "howToClaim": "Pide la promo en las taquillas del parque con tu identificación oficial original; no se canjea en línea.",
+    "sources": [
+      "https://lasestacas.com/promo-cumpleanero/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "Parque Las Estacas, Morelos (no está en Cuernavaca ni Cuautla ciudad)",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "bubba-gump-cancun",
+    "brand": "Bubba Gump Cancún",
+    "category": "restaurantes",
+    "benefit": "Postre sorpresa de cortesía en viernes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Si celebras tu cumpleaños en viernes en Bubba Gump Cancún, eliges el postre que quieras y te llega como parte de una caja sorpresa cortesía de la casa. Válido para hasta dos cumpleañeros por mesa; si además eres residente de Quintana Roo (con INE) tienes 15% de descuento adicional en la cuenta.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo los viernes",
+      "Máximo 2 cumpleañeros por mesa",
+      "Para el 15% extra: INE de Quintana Roo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Solo viernes; el sitio no aclara si debe ser el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa que celebras tu cumpleaños al sentarte y reserva tu mesa en viernes.",
+    "sources": [
+      "https://bubbagump.mx/es/promociones-en-bubba-gump-cancun-que-no-te-puedes-perder/",
+      "https://bubbagump.mx/es/celebra-tu-cumpleanos-en-bubba-gump-cancun-una-vivencia-unica/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Bubba Gump Cancún (no aplica a las sucursales de aeropuerto ni Puerto Vallarta)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "ventura-park-cancun",
+    "brand": "Ventura Park Cancún",
+    "category": "parques",
+    "benefit": "2x1 en Ventura FUN o Platinum en tu mes",
+    "benefitType": "2x1",
+    "details": "Durante tu mes de cumpleaños pagas un boleto de adulto a precio regular y recibes otro igual (adulto o menor) en los pases Ventura FUN o Ventura Platinum. La entrada incluye alimentos, bebidas sin alcohol, toboganes y alberca de olas. No aplica con otras promociones, eventos privados ni eventos especiales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente con fecha de nacimiento",
+      "Solo en tu mes de cumpleaños",
+      "Pases Ventura FUN o Ventura Platinum",
+      "No acumulable con otras promociones o eventos privados/especiales"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en las taquillas del parque para acreditar tu fecha de nacimiento.",
+    "sources": [
+      "https://www.venturapark.com/promociones-para-cumpleaneros-en-ventura-park/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Ventura Park Cancún (parque acuático y de diversiones). Datos tomados del texto de la página oficial vía buscador; el sitio no abrió desde el entorno de investigación, confirma vigencia en taquilla",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "caribbean-juice-bar-cancun",
+    "brand": "The Caribbean Juice Bar (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 2 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según el directorio local VivoEnMX (2026), el cumpleañero come gratis si va acompañado de dos personas. El negocio no publica las reglas en su sitio; días, consumo mínimo y vigencia sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 2 acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al pedir y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://vivoen.mx/vivo-en-cancun/promocionescumpleaneroscancun/",
+      "https://www.tiktok.com/@vivoencancun/video/7609002128765504775"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Desayunos, jugos y licuados; enfrente de Plaza Las Américas, Cancún",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "birra-el-pariente-cancun",
+    "brand": "Birra El Pariente (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 2 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según el directorio local VivoEnMX (2026), en esta birriería estilo Tijuana el cumpleañero come gratis si va con dos personas. Reglas completas (días, consumo mínimo, vigencia) sin confirmar en fuente oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 2 acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al pedir y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://vivoen.mx/vivo-en-cancun/promocionescumpleaneroscancun/",
+      "https://www.instagram.com/birriaparientecancun/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Birria estilo Tijuana, Cancún",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "los-irresistibles-cancun",
+    "brand": "Los Irresistibles (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según el directorio local VivoEnMX (2026), en este restaurante de comida mexicana y guisados el cumpleañero come gratis si va con tres personas. Reglas completas (días, consumo mínimo, vigencia) sin confirmar en fuente oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al pedir y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://vivoen.mx/vivo-en-cancun/promocionescumpleaneroscancun/",
+      "https://www.instagram.com/tacosdeguisados_oficial/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Cerca de Av. Nichupté, Cancún",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "xb-restaurante-cancun",
+    "brand": "XB Restaurante (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Festejado no paga con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Cancún (no confirmado en sitio oficial), con 4 acompañantes el festejado no paga, siempre que su consumo sea igual o menor al de los acompañantes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes",
+      "Tu consumo igual o menor al de tus acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al llegar y confirma condiciones con el restaurante.",
+    "sources": [
+      "https://www.tiktok.com/discover/regalos-gratis-de-restaurantes-el-dia-de-tu-cumplea%C3%B1os-cancun"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Ubicación exacta sin confirmar",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "va-q-va-cancun",
+    "brand": "Va q' Va!! (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis presentando ID",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Cancún, el restaurante de mariscos Va q' Va!! da comida gratis al cumpleañero presentando identificación. Su sitio solo dice que las promociones se publican en redes; condiciones (acompañantes, consumo mínimo, vigencia) sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Presentar identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu ID al pedir y confirma condiciones con el restaurante por redes antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/regalos-gratis-de-restaurantes-el-dia-de-tu-cumplea%C3%B1os-cancun",
+      "https://vaqva.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Restaurante de mariscos, Cancún",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "pizza-ajedrez-merida",
+    "brand": "Pizza's Ajedrez (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Buffet de pizzas gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok (no confirmado en redes oficiales), el cumpleañero come gratis el buffet de pizzas, tacos y más en su mes de cumpleaños; el buffet cuesta $149 para los demás. Condiciones de acompañantes y documentos sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ser tu mes de cumpleaños",
+      "Confirmar documento requerido con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños (según TikTok)",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante y avisa que es tu cumpleaños al pagar.",
+    "sources": [
+      "https://www.tiktok.com/discover/pizza-ajedrez-merida-buffet",
+      "https://www.facebook.com/p/Pizzas-Ajedrez-100064825983328/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Reportado en Calle 36, col. Pensiones, Mérida",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "cafe-bar-500-noches-merida",
+    "brand": "Café Bar 500 Noches (Mérida)",
+    "category": "cafe",
+    "benefit": "Tu comida gratis con 4 amigos (esquema 4+1)",
+    "benefitType": "gratis",
+    "details": "Según nota de Yucatán Today del 19-mar-2024 (anterior a 2025, puede haber cambiado), en la semana de tu cumpleaños y de 8 am a 1 pm, si vas con 4 amigos la comida del cumpleañero va gratis. Confirma vigencia por Instagram antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 amigos",
+      "Solo en la semana de tu cumpleaños",
+      "Solo de 8 am a 1 pm"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, de 8 am a 1 pm",
+    "minPurchase": null,
+    "howToClaim": "Confirma vigencia por Instagram (@cafebar500noches_) y avisa que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://yucatantoday.com/en/blog/promotions-and-discounts-2"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Café Bar 500 Noches, Mérida",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "el-rey-elotero-merida",
+    "brand": "El Rey Elotero (Mérida)",
+    "category": "comida-rapida",
+    "benefit": "Tostito gratis en tu semana de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Mérida (no confirmado en sitio oficial), en tu semana de cumpleaños te dan un Tostito gratis presentando tu INE.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Ir en la semana de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños (según TikTok)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE al pedir y confirma condiciones con el negocio.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Sucursales sin confirmar",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "casa-yucatan-merida",
+    "brand": "Casa Yucatán (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Plato fuerte y bebida gratis al cumpleañero",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Mérida (no confirmado en sitio oficial), el cumpleañero recibe un plato fuerte y una bebida gratis con mesa mínima; el número mínimo de personas no está confirmado.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mesa mínima (cantidad sin confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma mesa mínima y días con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Ubicación exacta sin confirmar",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "antojito-mio-puebla",
+    "brand": "Antojito Mío (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 5 amigos o más",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla (no confirmado en sitio oficial), el cumpleañero come gratis si celebra con 5 amigos o más. Dirección reportada: Blvd. Luis Sánchez Pontón 602, col. Anzures, Puebla.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 amigos o más"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante y avisa que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Dirección según TikTok, sin verificar: Blvd. Luis Sánchez Pontón 602, col. Anzures",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "buffet-3-leguas-puebla",
+    "brand": "Buffet 3 Leguas (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Festejado come gratis con 5 que paguen buffet",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en sitio oficial), el festejado come gratis si va con 5 personas que paguen su buffet.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 personas que paguen buffet"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "pa-dentro-buffet-cantina-puebla",
+    "brand": "Pa' Dentro Buffet y Cantina (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis + bebida de la casa + ronda de shots",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en sitio oficial), el cumpleañero recibe buffet gratis, una bebida de la casa y una ronda de shots presentando INE con fecha de nacimiento.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "grilia-puebla",
+    "brand": "Grilia Puebla",
+    "category": "restaurantes",
+    "benefit": "Postre y decoración de cortesía al festejar",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla (no confirmado en sitio oficial), al festejar tu cumpleaños en Grilia Puebla te dan decoración y postre gratis. Reglas (acompañantes, consumo mínimo, reservación) sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Condiciones sin confirmar; consulta con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu festejo y confirma condiciones con el restaurante.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "needsId": null,
+    "companions": null
   },
   {
     "slug": "sephora",

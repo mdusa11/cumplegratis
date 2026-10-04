@@ -43,7 +43,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
   };
 
   return (
-    <motion.div style={{ rotateX, rotateY, transformPerspective: 900 }} className="h-full min-w-0">
+    <motion.div style={{ rotateX, rotateY, transformPerspective: 900 }} whileTap={{ scale: 0.97 }} className="h-full min-w-0">
       <Link
         href={`/promos/${promo.slug}`}
         data-cursor="Ver"

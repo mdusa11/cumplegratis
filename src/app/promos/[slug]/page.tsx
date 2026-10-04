@@ -86,7 +86,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
           <div className="mt-10 flex flex-wrap gap-3">
             {promo.signupUrl && (
               <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-ink max-w-full !whitespace-normal" data-cursor="Ir">
-                {promo.program ? `Registrarme en ${promo.program}` : "Sitio oficial"} ↗
+                {promo.program ? `Registrarme en ${promo.program}` : "Sitio oficial"} ↗︎
               </a>
             )}
             <Link href="/mi-cumple" className="btn btn-paper">

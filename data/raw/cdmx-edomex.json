@@ -430,5 +430,276 @@
     "cities": [
       "cdmx"
     ]
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "locationNote": "Sucursales en CDMX (Reforma, Condesa, Clavería, Prado Norte, Polanco, etc.); también Playa del Carmen",
+    "needsId": true,
+    "companions": 4,
+    "coverage": "ciudades",
+    "slug": "el-diez-parrilla-argentina",
+    "brand": "El Diez Parrilla Argentina",
+    "category": "restaurantes",
+    "benefit": "Entrada, plato fuerte, pastel y vino gratis",
+    "benefitType": "gratis",
+    "details": "En la semana de tu cumpleaños, en mesas de 5 o más comensales, el cumpleañero es invitado por el restaurante: incluye entrada, plato principal, pastel, una botella de vino El Diez y una copa de espumoso para brindar. Solo con reservación.",
+    "requirements": [
+      "Mesa de 5 o más comensales",
+      "Solo con reservación",
+      "Aplica solo en la semana de tu cumpleaños",
+      "Identificación oficial para comprobar fecha"
+    ],
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños",
+    "howToClaim": "Reserva con anticipación indicando que festejas tu cumpleaños y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.eldiez.com.mx/promociones/",
+      "https://www.eldiez.com.mx/sucursales/"
+    ],
+    "confidence": "alta",
+    "states": [
+      "CMX",
+      "ROO"
+    ],
+    "cities": [
+      "cdmx"
+    ]
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "locationNote": "Av. Álvaro Obregón 291, Roma Norte",
+    "needsId": true,
+    "companions": null,
+    "coverage": "ciudades",
+    "slug": "bombay-club-roma",
+    "brand": "Bombay Club Roma",
+    "category": "bares",
+    "benefit": "Barra libre, botella de regalo y shots",
+    "benefitType": "gratis",
+    "details": "Si es tu cumpleaños el mes de tu visita, el sitio oficial (actualizado octubre 2026) anuncia barra libre para el festejado y sus amigas, botella de regalo, ronda de shots y 3x2 en botellas, además de paquetes de cumpleaños con espumoso, zona VIP, jarra de coctelería y shot flameado. Acceso únicamente con reservación; los beneficios exactos dependen del paquete.",
+    "requirements": [
+      "Acceso solo con reservación",
+      "Mayor de edad",
+      "Que tu cumpleaños sea en el mes de tu visita",
+      "Confirmar por WhatsApp qué paquete aplica"
+    ],
+    "window": "mes",
+    "windowNote": "El mes de tu cumpleaños (promoción publicada para octubre 2026)",
+    "howToClaim": "Reserva por WhatsApp (55 3577 2378) o en línea en bombayclubromaoficial.com e indica que es tu cumpleaños.",
+    "sources": [
+      "https://www.bombayclubromaoficial.com/cumplea%C3%B1os",
+      "https://www.bombayclubromaoficial.com/"
+    ],
+    "confidence": "alta",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ]
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "locationNote": "La Marquesa, Ocoyoacac, Estado de México",
+    "needsId": true,
+    "companions": 8,
+    "coverage": "ciudades",
+    "slug": "gotchalandia",
+    "brand": "Gotchalandia",
+    "category": "parques",
+    "benefit": "Paquete Loco de gotcha gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Al cumpleañero se le da de cortesía el Paquete Loco (precio de lista $250 por persona, con equipo y 230 paintballs) si llega con 8 acompañantes y presenta su credencial o CURP con fecha de nacimiento. No aplica con otras promociones; la página oficial muestra precios vigentes 2025.",
+    "requirements": [
+      "Credencial o CURP con fecha de nacimiento",
+      "Jugar con mínimo 8 acompañantes",
+      "No aplica con otras promociones",
+      "Reservar por WhatsApp"
+    ],
+    "window": "dia",
+    "windowNote": "Cuando reservas tu grupo; no se indica ventana de fechas",
+    "howToClaim": "Reserva por WhatsApp (55 3497 4163) y presenta tu credencial o CURP al llegar.",
+    "sources": [
+      "https://gotchalandia.com/gotcha-precios-promos",
+      "https://gotchalandia.com/fiesta-de-cumplea%C3%B1os-1"
+    ],
+    "confidence": "alta",
+    "states": [
+      "MEX"
+    ],
+    "cities": [
+      "toluca"
+    ]
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "locationNote": "Todas las sucursales (CDMX: Amores, Coyoacán, Miyana, Nápoles, Narvarte, Reforma, Coapa, Roma; Edomex: Mundo E)",
+    "needsId": false,
+    "companions": null,
+    "coverage": "ciudades",
+    "slug": "sonora-grill",
+    "brand": "Sonora Grill",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Durante tu mes de cumpleaños recibes un postre de cortesía al solicitar el beneficio en cualquier sucursal Sonora Grill; limitado a una cortesía por cumpleañero y por reserva. Solo consumo de alimentos en sucursal (no delivery ni Pick and Go) y sujeto a disponibilidad.",
+    "requirements": [
+      "Pedir el beneficio al mesero",
+      "Una cortesía por cumpleañero y por reserva",
+      "Solo consumo de alimentos en sucursal",
+      "Sujeto a disponibilidad"
+    ],
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, de lunes a domingo",
+    "howToClaim": "Avisa al mesero que es tu cumpleaños al ordenar.",
+    "sources": [
+      "https://www.sonoragrill.com.mx/promociones",
+      "https://www.sonoragrill.com.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "states": [
+      "CMX",
+      "MEX",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SON",
+      "YUC"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla",
+      "puebla",
+      "queretaro",
+      "hermosillo",
+      "merida"
+    ]
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "locationNote": "Confirmar sucursales participantes en México",
+    "needsId": true,
+    "companions": 2,
+    "coverage": "ciudades",
+    "slug": "olive-garden-mexico",
+    "brand": "Olive Garden",
+    "category": "restaurantes",
+    "benefit": "Lasagna o Fettuccine Alfredo gratis",
+    "benefitType": "gratis",
+    "details": "Durante tu mes de cumpleaños, el festejado recibe gratis una lasagna mediana o fettuccine alfredo con sopa o ensalada infinita, comprando 2 platos fuertes y 2 bebidas en un grupo de mínimo 3 personas. No aplica al menú infantil ni al Menú Infinito; avisa al mesero antes de ordenar.",
+    "requirements": [
+      "INE vigente",
+      "Grupo de mínimo 3 personas",
+      "Comprar 2 platos fuertes y 2 bebidas",
+      "No aplica en menú infantil ni Menú Infinito",
+      "Avisar al mesero antes de ordenar"
+    ],
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; vigencia reportada hasta diciembre 2026",
+    "howToClaim": "Menciona al mesero que es tu cumpleaños antes de ordenar y presenta tu INE.",
+    "sources": [
+      "https://cazaofertas.com.mx/restaurantes/feliz-cumpleanos-en-olive-garden-lasagna-o-fettuccine-alfredo-gratis-en-el-mes-de-tu-cumpleanos/"
+    ],
+    "confidence": "media",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx"
+    ]
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "locationNote": "Carretera libre a Cuernavaca km 31.5, San Miguel Topilejo, Tlalpan",
+    "needsId": true,
+    "companions": 1,
+    "coverage": "ciudades",
+    "slug": "rancho-magico",
+    "brand": "Rancho Mágico",
+    "category": "parques",
+    "benefit": "Entrada gratis el mes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Los cumpleañeros del mes entran gratis al parque presentando copia del acta de nacimiento en taquilla (copia de INE en el caso de adultos). La cortesía es en el Ticket Mágico y exige comprar al menos un acompañante a precio de lista ($359); válida sábados, domingos y festivos de 10:00 a 18:00. No acumulable, no aplica en venta en línea, convenios, fiestas ni visitas escolares.",
+    "requirements": [
+      "Acta de nacimiento (menores) o copia de INE (adultos)",
+      "Comprar mínimo 1 acompañante a precio de lista",
+      "Solo sábados, domingos y festivos de 10:00 a 18:00",
+      "Canje directo en taquilla (no en línea)",
+      "No acumulable con otras promociones"
+    ],
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, solo fines de semana y festivos",
+    "howToClaim": "Presenta copia de tu acta de nacimiento o INE directo en taquilla.",
+    "sources": [
+      "https://www.ranchomagico.com.mx/promociones",
+      "https://ranchomagico.com.mx/ubicacion/"
+    ],
+    "confidence": "alta",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ]
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "locationNote": "Todas sus sucursales de CDMX y Edomex (Plaza Central, Tepeyac, Antenas, Fashion Mall, Las Américas, Metepec, etc.)",
+    "needsId": true,
+    "companions": null,
+    "coverage": "ciudades",
+    "slug": "perros-y-burros",
+    "brand": "Perros y Burros",
+    "category": "bares",
+    "benefit": "Shot SKYY de cumpleaños sin costo",
+    "benefitType": "gratis",
+    "details": "En el mes de tu cumpleaños recibes sin costo un SKYY dog shot, válido en todas las sucursales con consumo de alimentos, de 11:00 am a 1:30 am y solo para mayores de 18 años. Productos sujetos a disponibilidad por temporada o ley seca; vigencia al 31 de diciembre de 2026.",
+    "requirements": [
+      "Identificación oficial con fotografía vigente",
+      "Mayor de 18 años",
+      "Consumo de alimentos",
+      "Solo en restaurante, de 11:00 am a 1:30 am"
+    ],
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; vigencia al 31-dic-2026",
+    "howToClaim": "Pide tu shot de cumpleaños al mesero y muestra tu identificación oficial.",
+    "sources": [
+      "https://perrosyburros.com/portfolio/shots-de-cumpleanos/",
+      "https://www.perrosyburros.com/"
+    ],
+    "confidence": "alta",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla",
+      "ecatepec",
+      "toluca"
+    ]
   }
 ]

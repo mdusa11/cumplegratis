@@ -8,15 +8,30 @@ import { Faq, type QA } from "@/components/Faq";
 import { Reveal, ScrollWords } from "@/components/Reveal";
 import { jsonLd } from "@/lib/site";
 import { CITIES, type CitySlug } from "@/lib/places";
-import { CountUp, Magnetic, TitleReveal } from "@/components/fx";
+import { ClipReveal, CountUp, Magnetic, TitleReveal } from "@/components/fx";
+import { SwipeDeck } from "@/components/SwipeDeck";
 import { GROUPS, groupOf, promos, stats, type GroupId } from "@/lib/promos";
 
 const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence === "alta");
 const stickers = featured.filter((p) => p.brand.length <= 11);
 
 const TOP_CITIES: CitySlug[] = [
-  "cdmx", "guadalajara", "monterrey", "puebla", "queretaro", "merida", "tijuana", "leon",
-  "cancun", "toluca", "aguascalientes", "san-luis-potosi", "chihuahua", "hermosillo", "veracruz", "morelia",
+  "cdmx",
+  "guadalajara",
+  "monterrey",
+  "puebla",
+  "queretaro",
+  "merida",
+  "tijuana",
+  "leon",
+  "cancun",
+  "toluca",
+  "aguascalientes",
+  "san-luis-potosi",
+  "chihuahua",
+  "hermosillo",
+  "veracruz",
+  "morelia",
 ];
 
 const FAQ: QA[] = [
@@ -43,14 +58,16 @@ const FAQ: QA[] = [
 ];
 
 export default function Home() {
-  const counts = promos.reduce<Record<GroupId, number>>(
-    (acc, p) => ({ ...acc, [groupOf(p)]: acc[groupOf(p)] + 1 }),
-    { comida: 0, tiendas: 0, diversion: 0, servicios: 0 },
-  );
+  const counts = promos.reduce<Record<GroupId, number>>((acc, p) => ({ ...acc, [groupOf(p)]: acc[groupOf(p)] + 1 }), {
+    comida: 0,
+    tiendas: 0,
+    diversion: 0,
+    servicios: 0,
+  });
 
   return (
     <>
-      <Hero featured={stickers} total={stats.total} />
+      <Hero featured={stickers} total={stats.total} row={featured.slice(0, 12)} />
 
       <Marquee className="-rotate-2 border-y-[2.5px] border-ink bg-ink py-4 text-paper">
         {promos.slice(0, 14).map((p) => (
@@ -92,7 +109,7 @@ export default function Home() {
                   </span>
                 </div>
                 <div>
-                  <h3 className="display text-7xl sm:text-8xl">{GROUPS[id].label}</h3>
+                  <h3 className="display text-[clamp(3.2rem,9vw,6rem)] break-words">{GROUPS[id].label}</h3>
                   <p className="mt-2 text-lg font-medium">{GROUPS[id].blurb}</p>
                 </div>
                 <span className="absolute right-6 bottom-6 flex size-14 items-center justify-center rounded-full border-[2.5px] border-ink bg-paper text-2xl transition-transform duration-300 group-hover:rotate-[-45deg]">
@@ -119,7 +136,11 @@ export default function Home() {
         </div>
         <Marquee speed={2} className="mt-12 rotate-1 border-y-[2.5px] border-ink bg-lilac py-3">
           {TOP_CITIES.map((c) => (
-            <Link key={c} href={`/ciudades/${c}`} className="display flex items-center text-5xl transition-colors hover:text-paper sm:text-6xl">
+            <Link
+              key={c}
+              href={`/ciudades/${c}`}
+              className="display flex items-center text-5xl transition-colors hover:text-paper sm:text-6xl"
+            >
               <span className="px-5">📍 {CITIES[c].name}</span>
             </Link>
           ))}
@@ -149,7 +170,28 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-acid px-5 py-32 sm:px-8">
+      <section className="overflow-hidden px-5 py-24 sm:px-8 sm:py-32">
+        <div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-2">
+          <div>
+            <p className="mono-tag">Modo descubrir</p>
+            <TitleReveal text="¿No sabes por dónde *empezar?" className="mt-3 text-[clamp(3.2rem,8vw,7rem)]" />
+            <Reveal>
+              <p className="mt-5 max-w-md text-xl font-medium">
+                Desliza a la derecha lo que se te antoje y a la izquierda lo que no. Te mostramos solo lo que hay en tu zona.
+              </p>
+              <ul className="mt-6 space-y-2 text-lg font-semibold">
+                <li>👉 Derecha: ver la promo completa</li>
+                <li>👈 Izquierda: la siguiente</li>
+              </ul>
+            </Reveal>
+          </div>
+          <div data-no-fab>
+            <SwipeDeck promos={[...featured, ...promos.filter((p) => p.benefitType !== "gratis" && p.confidence !== "baja")]} />
+          </div>
+        </div>
+      </section>
+
+      <ClipReveal className="relative overflow-hidden bg-acid px-5 py-32 sm:px-8" noFab>
         <div className="mx-auto max-w-5xl text-center">
           <TitleReveal text="¿Cuándo cumples?" className="text-[clamp(4rem,13vw,12rem)]" />
           <Reveal>
@@ -159,7 +201,7 @@ export default function Home() {
             <BirthdayPicker size="lg" />
           </Reveal>
         </div>
-      </section>
+      </ClipReveal>
 
       <section id="faq" className="mx-auto max-w-5xl scroll-mt-28 px-5 py-28 sm:px-8">
         <p className="mono-tag">Preguntas</p>

@@ -1,0 +1,401 @@
+[
+  {
+    "slug": "wok-garden-monterrey",
+    "brand": "Wok Garden",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El cumpleañero come gratis en el buffet al reunir 6 o más adultos, durante la semana completa de su cumpleaños (lunes a domingo). No es combinable con otras promociones; en sus publicaciones aclaran que la promo aplica solo en el mes y año de publicación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 6 o más adultos en la mesa",
+      "Ir dentro de la semana de tu cumpleaños (lunes a domingo)",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Toda la semana de tu cumpleaños (lunes a domingo)",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llega con tu grupo de 6+ adultos y avisa que es tu cumpleaños; confirma la identificación requerida con la sucursal.",
+    "sources": [
+      "https://wokgarden.com.mx/",
+      "https://www.instagram.com/wokgarden.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE",
+      "MEX"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Galerías Monterrey y Plaza Áuriga (San Pedro Garza García) en NL; también Galerías Metepec (Edomex). Nota: videos de terceros hablan de '3 acompañantes', pero el sitio oficial dice 6 o más adultos.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "oriental-wok",
+    "brand": "Oriental Wok",
+    "category": "restaurantes",
+    "benefit": "Platillo, bebida y helado tempura gratis",
+    "benefitType": "gratis",
+    "details": "Incluye un platillo chino de pollo o rollos (frío o caliente), cualquier bebida no alcohólica y helado tempura (sujeto a disponibilidad). Válido el día de tu cumpleaños y hasta 6 días después, con identificación oficial; el cumpleañero debe ir con mínimo 2 acompañantes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con mínimo 2 acompañantes",
+      "Postre sujeto a disponibilidad"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "El día de tu cumpleaños y hasta 6 días después",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en sucursal y avisa que vienes por la promo de cumpleaños con tus 2 acompañantes.",
+    "sources": [
+      "https://orientalwok.mx/promociones-2/",
+      "https://orientalwok.mx/nuevo-leon/",
+      "https://www.tiktok.com/@orientalwokmx/video/7337405733874453766"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "19 sucursales en el área metropolitana de Monterrey (la promo está publicada en su página de Nuevo León). También hay sucursales en Matamoros, Nuevo Laredo y Reynosa, pero no se confirmó que apliquen esta promo.",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "noreste-grill",
+    "brand": "Noreste Grill",
+    "category": "restaurantes",
+    "benefit": "Corte de arrachera (300 g) con guarnición gratis",
+    "benefitType": "gratis",
+    "details": "Durante la semana de tu cumpleaños (lunes a domingo) te dan un corte de arrachera de 300 g con guarnición gratis al presentar tu Tarjeta VIP y una identificación oficial. Solo consumo en restaurante, una tarjeta por cuenta; no se puede usar el mismo día que compras la tarjeta (aplica desde la segunda visita) y la tarjeta es intransferible.",
+    "program": "Tarjeta VIP Noreste Grill",
+    "signupUrl": "https://www.norestegrill.com.mx/tarjeta-vip/",
+    "requirements": [
+      "Tarjeta VIP ($99 MXN; renovación anual $99)",
+      "Identificación oficial",
+      "Tarjeta con tus datos y fecha completos",
+      "No válido el mismo día que compras la tarjeta",
+      "Solo consumo en restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Toda la semana de tu cumpleaños (lunes a domingo)",
+    "minPurchase": null,
+    "howToClaim": "Pide tu Tarjeta VIP con el mesero (formulario + cargo de $99), y en tu semana de cumpleaños preséntala con tu identificación al pedir.",
+    "sources": [
+      "https://www.norestegrill.com.mx/tarjeta-vip/",
+      "https://www.norestegrill.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE",
+      "COA",
+      "CMX"
+    ],
+    "cities": [
+      "monterrey",
+      "saltillo",
+      "cdmx"
+    ],
+    "locationNote": "Cerca de 20 sucursales en el área metropolitana de Monterrey, además de Saltillo (donde nació en 2008) y Ciudad de México.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mr-pampas",
+    "brand": "Mr. Pampas",
+    "category": "restaurantes",
+    "benefit": "Rodizio gratis entre semana con 4 adultos",
+    "benefitType": "gratis",
+    "details": "Reportes indican que de lunes a viernes, en la semana de tu cumpleaños, el cumpleañero no paga su rodizio si va con 4 adultos que consuman rodizio y presenta identificación oficial (no aplica sábados, domingos ni festivos), además de un kit con mañanitas, rebanada de pastel y un shot (solo adultos). Su sitio oficial solo dice que tienen 'sorpresas preparadas' y que las promos varían por ciudad, con texto fechado en enero 2019.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 4 adultos que consuman rodizio",
+      "Solo de lunes a viernes; no aplica fines de semana ni festivos"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, de lunes a viernes",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero al llegar y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.mrpampas.com/promociones.php"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NLE",
+      "COA"
+    ],
+    "cities": [
+      "monterrey",
+      "saltillo",
+      "torreon"
+    ],
+    "locationNote": "Sucursales en Monterrey (San Pedro y Garza Sada), Saltillo y Torreón entre otras; las promos de cumpleaños varían por ciudad. Su página de promociones está fechada en 2019 y las reglas de arriba no se pudieron confirmar en sitio oficial: confirma con la sucursal.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "the-food-box",
+    "brand": "The Food Box",
+    "category": "restaurantes",
+    "benefit": "Hamburguesa y Churro Bowl gratis",
+    "benefitType": "gratis",
+    "details": "Válida en comedor el día de tu cumpleaños presentando identificación oficial: te regalan una hamburguesa del menú y un Churro Bowl. No aplica King James ni Spurgeon Infit y no requiere consumo mínimo. Solo la vimos en un video oficial de TikTok de 2024; confirma que siga vigente.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Consumo en comedor",
+      "No aplica King James ni Spurgeon Infit"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en sucursal y pide tu hamburguesa y Churro Bowl de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/@thefoodbox/video/7364864904077069576",
+      "https://www.instagram.com/thefoodboxmx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NLE",
+      "COA",
+      "CMX"
+    ],
+    "cities": [
+      "monterrey",
+      "saltillo",
+      "cdmx"
+    ],
+    "locationNote": "Sucursales en Monterrey/San Pedro, Saltillo y CDMX según su Instagram; no se pudo confirmar qué sucursales participan. Los términos salen de un video oficial de TikTok de 2024, no de su sitio.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "elotes-eddys-roasted-corn",
+    "brand": "Elotes Eddy's Roasted Corn",
+    "category": "comida-rapida",
+    "benefit": "Regalo de cumpleaños: elote, bebida, marranada o raspado",
+    "benefitType": "gratis",
+    "details": "Su Instagram indica que el cumpleañero recibe un regalo gratis (elote entero, bebida mediana, marranada o raspado) solo el día exacto de su cumpleaños en sus tres sucursales. Las reglas exactas las publican en su perfil, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día exacto de tu cumpleaños",
+      "Confirmar en su Instagram si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en caja que es tu cumpleaños y muestra tu identificación si te la piden.",
+    "sources": [
+      "https://www.instagram.com/eloteseddysroastedcorn/",
+      "https://www.tiktok.com/@quienes.son.mx/video/7501498071361047826"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "3 sucursales: Pablo Livas (Guadalupe), Bosques del Contry y Zertuche",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-gran-pastor",
+    "brand": "El Gran Pastor",
+    "category": "restaurantes",
+    "benefit": "Buffet de desayuno gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El cumpleañero come gratis el buffet de desayuno si va acompañado de al menos 4 amigos o familiares. Solo lo vimos en un directorio y videos de terceros; su sitio oficial no publica los términos, solo menciona promociones mensuales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 4 amigos o familiares",
+      "Buffet de desayuno (7 am a 12 pm)",
+      "Confirmar reglas con la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirmar con la sucursal",
+    "minPurchase": null,
+    "howToClaim": "Reserva o avisa al llegar que es tu cumpleaños; llama al (81) 8129-4453 para confirmar.",
+    "sources": [
+      "https://residente.mx/restaurantes/el-gran-pastor",
+      "https://elgranpastor.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Unas 8 sucursales en Monterrey, Guadalupe, San Nicolás y San Pedro",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "papalote-museo-del-nino-monterrey",
+    "brand": "Papalote Museo del Niño Monterrey",
+    "category": "parques",
+    "benefit": "Entrada gratis al museo e IMAX (menores de 15)",
+    "benefitType": "regalo-con-compra",
+    "details": "Durante la semana calendario del cumpleaños del menor, entrada gratis al Museo y al Documental IMAX para menores de 15 años al comprar al menos 1 Súper Paquete. Presenta acta de nacimiento o CURP (física o digital); solo en taquilla, no acumulable con otras promociones y sujeta a cambios sin previo aviso.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Menor de 15 años",
+      "Acta de nacimiento o CURP (física o digital)",
+      "Comprar al menos 1 Súper Paquete",
+      "Acompañar al menor con 1 adulto con boleto pagado",
+      "Solo en taquilla; no acumulable"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana calendario en la que cae el cumpleaños del menor",
+    "minPurchase": null,
+    "howToClaim": "En taquilla, presenta el acta o CURP del menor y compra al menos un Súper Paquete.",
+    "sources": [
+      "https://papalotemty.org.mx/terminos-y-condiciones-promociones/",
+      "https://papalotemty.org.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Papalote Museo del Niño Monterrey (único recinto en la zona)",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "la-santa-kitchen-bar",
+    "brand": "La Santa Kitchen Bar",
+    "category": "restaurantes",
+    "benefit": "Regalo de cumpleaños (por confirmar)",
+    "benefitType": "gratis",
+    "details": "Creadores locales reportan que 'te dan algo gratis por tu cumple' y una fuente menciona 2 bebidas y 1 platillo de regalo, pero las reglas cambian por sucursal y no se pudieron confirmar en su sitio ni redes oficiales. Revisa su Instagram o llama antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas por confirmar con la sucursal",
+      "Posible identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no confirmada",
+    "minPurchase": null,
+    "howToClaim": "Avisa al mesero que es tu cumpleaños y pregunta por la promo vigente; Paseo Tec 2: 81 2894 7924.",
+    "sources": [
+      "https://www.tiktok.com/@quienes.son.mx/video/7501498071361047826",
+      "https://www.instagram.com/lasantakitchenbar/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Sucursales como Paseo Tec 2, Nogalar, Plaza Sienna y Plaza Citadel",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-cipolla-saltillo",
+    "brand": "La Cipolla",
+    "category": "restaurantes",
+    "benefit": "Platillo gratis los martes de tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según reportes y su propia página de promos, el cumpleañero recibe su platillo gratis si va los martes durante el mes de su cumpleaños. No aplica con otras promociones y es válido solo en restaurante; las condiciones exactas no están publicadas, confirma al (844) 165-02-77.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en martes durante el mes de tu cumpleaños",
+      "Solo en restaurante; no aplica con otras promociones",
+      "Condiciones exactas por confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo los martes del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Visita el restaurante en martes y avisa que es tu cumpleaños; confirma por teléfono.",
+    "sources": [
+      "https://lacipolla.com/page10.html",
+      "https://www.tiktok.com/@dondeirsaltillo/video/7361583715471969537"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COA"
+    ],
+    "cities": [
+      "saltillo"
+    ],
+    "locationNote": "Una sucursal en Plaza Casa Grande, Blvd. José Musa, Saltillo",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tgi-fridays-tampico",
+    "brand": "TGI Fridays Tampico",
+    "category": "restaurantes",
+    "benefit": "Tu edad = % de descuento (máx. 50%)",
+    "benefitType": "descuento",
+    "details": "Durante toda la semana de tu cumpleaños recibes un descuento igual a tu edad (máximo 50%) en tu consumo y tus acompañantes obtienen 10%. Requiere identificación oficial con foto; aplica solo en menú regular, no es combinable con otras promociones y excluye pedidos para llevar y a domicilio.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con foto",
+      "Solo menú regular, en restaurante",
+      "No aplica para llevar ni a domicilio",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Toda la semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial con foto al pedir tu cuenta en la sucursal de Tampico.",
+    "sources": [
+      "https://fridaystam.com/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "TAM"
+    ],
+    "cities": [
+      "tampico"
+    ],
+    "locationNote": "Franquicia local TGI Fridays Tampico (variante regional de una marca ya registrada); las condiciones pueden diferir de otras franquicias.",
+    "needsId": true,
+    "companions": null
+  }
+]

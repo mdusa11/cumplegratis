@@ -10,10 +10,10 @@ import { CountUp } from "./fx";
 import { locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { availability, isAvailable } from "@/lib/availability";
-import { promos } from "@/lib/promos";
+import { days, promos } from "@/lib/promos";
 import { postJson } from "./SuggestForm";
 import { SplitText } from "./Reveal";
-import { buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
+import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
 import { API_ENABLED, MONTHS, cn } from "@/lib/site";
 import { toggleDone, useDone, useStoredBirthday } from "@/lib/storage";
 
@@ -116,6 +116,9 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
         )}
       </section>
 
+      <p className="card mb-4 bg-paper-2 p-4 text-base font-medium">
+        💡 Las fechas son <b>hasta cuándo registrarte</b> en cada programa (no cuándo cobrar). El regalo lo cobras en tu cumpleaños: el {birthday.d} de {MONTHS[birthday.m - 1]}.
+      </p>
       <Group
         title="🔥 Regístrate ya"
         hint="Su fecha límite ya está cerca (o ya pasó: regístrate igual por si alcanzas)."
@@ -196,6 +199,7 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
   const openPromo = useOpenPromo();
   const needsSignup = status !== "sin-registro";
   const toggle = (e: React.MouseEvent) => {
+    navigator.vibrate?.(checked ? 8 : [12, 40, 18]);
     if (!checked) burst({ x: e.clientX / window.innerWidth, y: e.clientY / window.innerHeight });
     toggleDone(promo.slug);
   };
@@ -244,14 +248,22 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
       </div>
       <div className="flex flex-wrap items-center gap-2">
         {registerBy && (
-          <span className={cn("chip", status === "tarde" ? "bg-hot" : status === "urgente" ? "bg-sun" : "bg-paper")}>
-            {status === "tarde" ? "Quizá ya no alcanzas" : `Antes del ${formatDate(registerBy)}`}
-            {estimated && status !== "tarde" && " *"}
+          <span className="flex flex-col gap-1">
+            <span className={cn("chip self-start", status === "tarde" ? "bg-hot" : status === "urgente" ? "bg-sun" : "bg-paper")}>
+              📝 {status === "tarde" ? "Quizá ya no alcanzas" : `Regístrate antes del ${formatDate(registerBy)}`}
+            </span>
+            {status !== "tarde" && (
+              <span className="pl-1 text-xs font-medium opacity-70">
+                {estimated
+                  ? `Sugerido: ${SAFE_DAYS} días antes. La marca no dice cuántos.`
+                  : `La marca pide ${days(promo.registerDaysBefore ?? 0)} de anticipación.`}
+              </span>
+            )}
           </span>
         )}
         {promo.signupUrl && needsSignup && !checked && (
           <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-ink !px-4 !py-2 !text-base">
-            Registrarme ↗
+            Registrarme ↗︎
           </a>
         )}
       </div>
@@ -298,7 +310,7 @@ function ReminderForm({ birthday }: { birthday: Birthday }) {
         )}
       </AnimatePresence>
       {state === "error" && <p className="mt-3 font-semibold">No se pudo guardar. Intenta en un rato.</p>}
-      <p className="mt-6 text-sm opacity-70">* Fecha estimada: la marca no publica la anticipación, así que calculamos 30 días por seguridad.</p>
+
     </section>
   );
 }

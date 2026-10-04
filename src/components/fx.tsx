@@ -1,8 +1,14 @@
 "use client";
 
 import { useEffect, useRef, type ReactNode } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 import {
+  AnimatePresence,
   animate,
+  useMotionTemplate,
+  useMotionValueEvent,
   motion,
   useInView,
   useMotionValue,
@@ -148,5 +154,62 @@ function Floater({ e, x, y, d, s, index, mx, my }: (typeof FLOATERS)[number] & {
         {e}
       </motion.span>
     </motion.span>
+  );
+}
+
+/** La sección se "abre" desde una tarjeta redondeada hasta ocupar todo el ancho conforme entra con el scroll. */
+export function ClipReveal({ children, className, id, noFab }: { children: ReactNode; className?: string; id?: string; noFab?: boolean }) {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "start 0.2"] });
+  const inset = useTransform(scrollYProgress, [0, 1], [10, 0]);
+  const radius = useTransform(scrollYProgress, [0, 1], [56, 0]);
+  const clipPath = useMotionTemplate`inset(0% ${inset}% 0% ${inset}% round ${radius}px)`;
+  return (
+    <motion.section ref={ref} id={id} style={{ clipPath }} className={className} data-no-fab={noFab || undefined}>
+      {children}
+    </motion.section>
+  );
+}
+
+/** Botón flotante en móvil: aparece después del hero y se esconde al llegar al final. */
+export function FloatingCTA() {
+  const pathname = usePathname();
+  const { scrollY, scrollYProgress } = useScroll();
+  const [past, setPast] = useState(false);
+  const [blocked, setBlocked] = useState(false);
+  useMotionValueEvent(scrollY, "change", (y) => setPast(y > 800 && scrollYProgress.get() < 0.9));
+
+  // Se esconde mientras haya en pantalla una sección interactiva marcada con data-no-fab (mazo, selector de fecha).
+  useEffect(() => {
+    const visible = new Set<Element>();
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => (e.isIntersecting ? visible.add(e.target) : visible.delete(e.target)));
+      setBlocked(visible.size > 0);
+    });
+    document.querySelectorAll("[data-no-fab]").forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, [pathname]);
+
+  const show = past && !blocked;
+  if (pathname !== "/") return null;
+  return (
+    <AnimatePresence>
+      {show && (
+        <motion.div
+          initial={{ y: 120, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: 120, opacity: 0 }}
+          transition={{ type: "spring", stiffness: 380, damping: 30 }}
+          className="fixed inset-x-4 bottom-4 z-40 lg:hidden"
+        >
+          <Link href="/mi-cumple" className="btn btn-acid w-full !py-4 !text-xl shadow-hard-lg">
+            <motion.span animate={{ rotate: [0, -12, 12, 0] }} transition={{ repeat: Infinity, duration: 2, repeatDelay: 1 }}>
+              🎂
+            </motion.span>
+            Armar mi plan
+          </Link>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }

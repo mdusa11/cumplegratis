@@ -5,7 +5,7 @@ import { Providers } from "@/components/Providers";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
-import { ScrollProgress } from "@/components/fx";
+import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { SITE } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
@@ -32,6 +32,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <Providers>
           <ScrollProgress />
+          <FloatingCTA />
           <Cursor />
           <Nav />
           {/* El recorte va aquí y no en <body>: en móvil, overflow en body se propaga al viewport y no evita que la página se ensanche. */}

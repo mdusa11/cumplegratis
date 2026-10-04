@@ -1,0 +1,606 @@
+[
+  {
+    "slug": "porfirios-merida",
+    "brand": "Porfirio's Mérida",
+    "category": "restaurantes",
+    "benefit": "Menú completo y barra libre gratis los jueves",
+    "benefitType": "gratis",
+    "details": "Todos los jueves del mes de tu cumpleaños, el festejado recibe gratis 1 entrada, sopa o ensalada, 1 plato fuerte y postre (piñata), con barra libre (ron, vodka, tequila, licores y carajillo; sin energizantes). Aplica un cumpleañero por cada tres personas; cada invitado debe consumir al menos entrada, plato fuerte y postre. Excluye platillos premium y para compartir (trompo al pastor, Rib Eye El Sancho, langosta, cortes de 1 kg, etc.).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE, pasaporte oficial o licencia de conducir vigente",
+      "1 cumpleañero por cada 3 personas en la mesa",
+      "Cada invitado pide entrada, plato fuerte y postre",
+      "Solo los jueves del mes de tu cumpleaños",
+      "Si compartes tu consumo, se anula la cortesía",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo los jueves del mes de tu cumpleaños (1:00 pm a 1:00 am)",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Porfirio's Mérida y presenta tu identificación oficial vigente al llegar.",
+    "sources": [
+      "https://porfirios.com.mx/promociones/",
+      "https://porfirios.com.mx/blog/porfirios-cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Solo Porfirio's Mérida: la página de promociones vigente (actualizada jul-2026) solo lista Mérida y Guadalajara; Puebla, Cancún, Playa del Carmen y Tulum no aparecen",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "habaneros-merida",
+    "brand": "Habaneros (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis + Queso Napolitano de regalo",
+    "benefitType": "gratis",
+    "details": "Durante todo el mes de tu cumpleaños, ve con 3 o más amigos (mesa de 4 con el festejado) y el cumpleañero come gratis y recibe de regalo un Queso Napolitano. Las cuatro personas deben consumir un platillo de la carta de platos fuertes; no aplica en platillos para compartir (Bomba Yucateca, Bacab, Longaniza, etc.). Una promoción por mesa.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 3 acompañantes o más",
+      "Los 4 piden un plato fuerte de la carta",
+      "No aplica en platillos para compartir",
+      "Una promoción por mesa"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en el restaurante al llegar con tu mesa.",
+    "sources": [
+      "https://habaneros.com.mx/cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Sucursales de Habaneros en Mérida (cocina yucateca)",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "las-estacas-morelos",
+    "brand": "Las Estacas (Morelos)",
+    "category": "parques",
+    "benefit": "Entrada o 1ª noche de camping gratis con 4 acompañantes",
+    "benefitType": "regalo-con-compra",
+    "details": "En el mes de tu cumpleaños, si vas con 4 acompañantes o más que paguen su entrada, tu entrada o tu primera noche de camping es gratis. Se pide y se valida solo en taquilla del parque, con pago de todos en una sola exhibición; no aplica en Semana Santa, Pascua ni durante el Carnaval de Bahidorá, y no es transferible ni acumulable.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial de elector, pasaporte o cédula profesional (original)",
+      "Ir con 4 acompañantes o más que paguen entrada completa",
+      "Solo en el mes de tu cumpleaños",
+      "Pago de todos en una sola exhibición en taquilla",
+      "No aplica en Semana Santa, Pascua ni Carnaval de Bahidorá"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños, sin excepción",
+    "minPurchase": null,
+    "howToClaim": "Pide la promo en las taquillas del parque con tu identificación oficial original; no se canjea en línea.",
+    "sources": [
+      "https://lasestacas.com/promo-cumpleanero/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "Parque Las Estacas, Morelos (no está en Cuernavaca ni Cuautla ciudad)",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "bubba-gump-cancun",
+    "brand": "Bubba Gump Cancún",
+    "category": "restaurantes",
+    "benefit": "Postre sorpresa de cortesía en viernes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Si celebras tu cumpleaños en viernes en Bubba Gump Cancún, eliges el postre que quieras y te llega como parte de una caja sorpresa cortesía de la casa. Válido para hasta dos cumpleañeros por mesa; si además eres residente de Quintana Roo (con INE) tienes 15% de descuento adicional en la cuenta.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo los viernes",
+      "Máximo 2 cumpleañeros por mesa",
+      "Para el 15% extra: INE de Quintana Roo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Solo viernes; el sitio no aclara si debe ser el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa que celebras tu cumpleaños al sentarte y reserva tu mesa en viernes.",
+    "sources": [
+      "https://bubbagump.mx/es/promociones-en-bubba-gump-cancun-que-no-te-puedes-perder/",
+      "https://bubbagump.mx/es/celebra-tu-cumpleanos-en-bubba-gump-cancun-una-vivencia-unica/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Bubba Gump Cancún (no aplica a las sucursales de aeropuerto ni Puerto Vallarta)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "ventura-park-cancun",
+    "brand": "Ventura Park Cancún",
+    "category": "parques",
+    "benefit": "2x1 en Ventura FUN o Platinum en tu mes",
+    "benefitType": "2x1",
+    "details": "Durante tu mes de cumpleaños pagas un boleto de adulto a precio regular y recibes otro igual (adulto o menor) en los pases Ventura FUN o Ventura Platinum. La entrada incluye alimentos, bebidas sin alcohol, toboganes y alberca de olas. No aplica con otras promociones, eventos privados ni eventos especiales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente con fecha de nacimiento",
+      "Solo en tu mes de cumpleaños",
+      "Pases Ventura FUN o Ventura Platinum",
+      "No acumulable con otras promociones o eventos privados/especiales"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en las taquillas del parque para acreditar tu fecha de nacimiento.",
+    "sources": [
+      "https://www.venturapark.com/promociones-para-cumpleaneros-en-ventura-park/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Ventura Park Cancún (parque acuático y de diversiones). Datos tomados del texto de la página oficial vía buscador; el sitio no abrió desde el entorno de investigación, confirma vigencia en taquilla",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "caribbean-juice-bar-cancun",
+    "brand": "The Caribbean Juice Bar (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 2 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según el directorio local VivoEnMX (2026), el cumpleañero come gratis si va acompañado de dos personas. El negocio no publica las reglas en su sitio; días, consumo mínimo y vigencia sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 2 acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al pedir y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://vivoen.mx/vivo-en-cancun/promocionescumpleaneroscancun/",
+      "https://www.tiktok.com/@vivoencancun/video/7609002128765504775"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Desayunos, jugos y licuados; enfrente de Plaza Las Américas, Cancún",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "birra-el-pariente-cancun",
+    "brand": "Birra El Pariente (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 2 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según el directorio local VivoEnMX (2026), en esta birriería estilo Tijuana el cumpleañero come gratis si va con dos personas. Reglas completas (días, consumo mínimo, vigencia) sin confirmar en fuente oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 2 acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al pedir y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://vivoen.mx/vivo-en-cancun/promocionescumpleaneroscancun/",
+      "https://www.instagram.com/birriaparientecancun/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Birria estilo Tijuana, Cancún",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "los-irresistibles-cancun",
+    "brand": "Los Irresistibles (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según el directorio local VivoEnMX (2026), en este restaurante de comida mexicana y guisados el cumpleañero come gratis si va con tres personas. Reglas completas (días, consumo mínimo, vigencia) sin confirmar en fuente oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al pedir y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://vivoen.mx/vivo-en-cancun/promocionescumpleaneroscancun/",
+      "https://www.instagram.com/tacosdeguisados_oficial/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Cerca de Av. Nichupté, Cancún",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "xb-restaurante-cancun",
+    "brand": "XB Restaurante (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Festejado no paga con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Cancún (no confirmado en sitio oficial), con 4 acompañantes el festejado no paga, siempre que su consumo sea igual o menor al de los acompañantes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes",
+      "Tu consumo igual o menor al de tus acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al llegar y confirma condiciones con el restaurante.",
+    "sources": [
+      "https://www.tiktok.com/discover/regalos-gratis-de-restaurantes-el-dia-de-tu-cumplea%C3%B1os-cancun"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Ubicación exacta sin confirmar",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "va-q-va-cancun",
+    "brand": "Va q' Va!! (Cancún)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis presentando ID",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Cancún, el restaurante de mariscos Va q' Va!! da comida gratis al cumpleañero presentando identificación. Su sitio solo dice que las promociones se publican en redes; condiciones (acompañantes, consumo mínimo, vigencia) sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Presentar identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu ID al pedir y confirma condiciones con el restaurante por redes antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/regalos-gratis-de-restaurantes-el-dia-de-tu-cumplea%C3%B1os-cancun",
+      "https://vaqva.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "cancun"
+    ],
+    "locationNote": "Restaurante de mariscos, Cancún",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "pizza-ajedrez-merida",
+    "brand": "Pizza's Ajedrez (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Buffet de pizzas gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok (no confirmado en redes oficiales), el cumpleañero come gratis el buffet de pizzas, tacos y más en su mes de cumpleaños; el buffet cuesta $149 para los demás. Condiciones de acompañantes y documentos sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ser tu mes de cumpleaños",
+      "Confirmar documento requerido con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños (según TikTok)",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante y avisa que es tu cumpleaños al pagar.",
+    "sources": [
+      "https://www.tiktok.com/discover/pizza-ajedrez-merida-buffet",
+      "https://www.facebook.com/p/Pizzas-Ajedrez-100064825983328/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Reportado en Calle 36, col. Pensiones, Mérida",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "cafe-bar-500-noches-merida",
+    "brand": "Café Bar 500 Noches (Mérida)",
+    "category": "cafe",
+    "benefit": "Tu comida gratis con 4 amigos (esquema 4+1)",
+    "benefitType": "gratis",
+    "details": "Según nota de Yucatán Today del 19-mar-2024 (anterior a 2025, puede haber cambiado), en la semana de tu cumpleaños y de 8 am a 1 pm, si vas con 4 amigos la comida del cumpleañero va gratis. Confirma vigencia por Instagram antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 amigos",
+      "Solo en la semana de tu cumpleaños",
+      "Solo de 8 am a 1 pm"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, de 8 am a 1 pm",
+    "minPurchase": null,
+    "howToClaim": "Confirma vigencia por Instagram (@cafebar500noches_) y avisa que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://yucatantoday.com/en/blog/promotions-and-discounts-2"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Café Bar 500 Noches, Mérida",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "el-rey-elotero-merida",
+    "brand": "El Rey Elotero (Mérida)",
+    "category": "comida-rapida",
+    "benefit": "Tostito gratis en tu semana de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Mérida (no confirmado en sitio oficial), en tu semana de cumpleaños te dan un Tostito gratis presentando tu INE.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Ir en la semana de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños (según TikTok)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE al pedir y confirma condiciones con el negocio.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Sucursales sin confirmar",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "casa-yucatan-merida",
+    "brand": "Casa Yucatán (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Plato fuerte y bebida gratis al cumpleañero",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Mérida (no confirmado en sitio oficial), el cumpleañero recibe un plato fuerte y una bebida gratis con mesa mínima; el número mínimo de personas no está confirmado.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mesa mínima (cantidad sin confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma mesa mínima y días con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Ubicación exacta sin confirmar",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "antojito-mio-puebla",
+    "brand": "Antojito Mío (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 5 amigos o más",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla (no confirmado en sitio oficial), el cumpleañero come gratis si celebra con 5 amigos o más. Dirección reportada: Blvd. Luis Sánchez Pontón 602, col. Anzures, Puebla.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 amigos o más"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante y avisa que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Dirección según TikTok, sin verificar: Blvd. Luis Sánchez Pontón 602, col. Anzures",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "buffet-3-leguas-puebla",
+    "brand": "Buffet 3 Leguas (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Festejado come gratis con 5 que paguen buffet",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en sitio oficial), el festejado come gratis si va con 5 personas que paguen su buffet.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 personas que paguen buffet"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "pa-dentro-buffet-cantina-puebla",
+    "brand": "Pa' Dentro Buffet y Cantina (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis + bebida de la casa + ronda de shots",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en sitio oficial), el cumpleañero recibe buffet gratis, una bebida de la casa y una ronda de shots presentando INE con fecha de nacimiento.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "grilia-puebla",
+    "brand": "Grilia Puebla",
+    "category": "restaurantes",
+    "benefit": "Postre y decoración de cortesía al festejar",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla (no confirmado en sitio oficial), al festejar tu cumpleaños en Grilia Puebla te dan decoración y postre gratis. Reglas (acompañantes, consumo mínimo, reservación) sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Condiciones sin confirmar; consulta con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu festejo y confirma condiciones con el restaurante.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "needsId": null,
+    "companions": null
+  }
+]

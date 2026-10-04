@@ -1,0 +1,144 @@
+[
+  {
+    "slug": "zoologico-guadalajara",
+    "brand": "Zoológico Guadalajara",
+    "category": "parques",
+    "benefit": "Entrada gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Quien cumpla años en el mes de su visita entra gratis al zoológico al comprar el Paquete GuadaZoo en taquilla con identificación oficial en original y copia. Solo aplica al cumpleañero (los acompañantes pagan), una vez, y no se combina con otras promociones, grupos ni excursiones escolares.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE o identificación oficial con foto, original y copia",
+      "Menores: copia de acta de nacimiento e INE del adulto responsable",
+      "Comprar el Paquete GuadaZoo en taquilla física",
+      "Personal e intransferible; una vez en tu mes",
+      "No aplica con otras promos, grupos ni excursiones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Ve a las taquillas del zoológico en tu mes de cumpleaños, pide el Paquete GuadaZoo y presenta tu identificación (original y copia). No vale en plataformas digitales.",
+    "sources": [
+      "https://www.informador.mx/jalisco/zoologico-guadalajara-lanza-promociones-para-entrar-gratis-en-junio-conoce-quienes-y-como-participar-20260613-0055.html",
+      "https://www.informador.mx/jalisco/zoologico-guadalajara-estas-personas-pueden-entrar-gratis-con-este-requisito-20260126-0043.html",
+      "https://zooguadalajara.com.mx"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Zoológico Guadalajara, Paseo del Zoológico 600 (Huentitán, Guadalajara). Solo taquilla física",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "sealand-guadalajara",
+    "brand": "Sealand Guadalajara",
+    "category": "parques",
+    "benefit": "Pase de expedición general gratis (valor $269)",
+    "benefitType": "gratis",
+    "details": "El cumpleañero entra gratis a Sealand Guadalajara con el pase general (valor $269) durante su mes de cumpleaños, mostrando identificación oficial con foto. Solo en taquilla, una vez por mes de cumpleaños, no acumulable con otras promociones; los acompañantes pagan su entrada. Vigente hasta el 31 de octubre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.sealand.com.mx/guadalajara/promocion-de-cumpleanos/",
+    "requirements": [
+      "Identificación oficial con foto que compruebe tu mes de cumpleaños",
+      "Canje solo en taquilla (no en línea)",
+      "Una vez por mes de cumpleaños",
+      "No acumulable con otras promociones o descuentos",
+      "Confirmar disponibilidad al momento de la compra"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños, vigente hasta el 31 oct 2026",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial con foto en la taquilla de Sealand (Santa Anita), de lunes a domingo.",
+    "sources": [
+      "https://www.sealand.com.mx/guadalajara/promocion-de-cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Solo Sealand Guadalajara, Centro Comercial Santa Anita (zona Tlajomulco/Tlaquepaque). Tel. 33 1598 8270",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mr-e-cuartos-de-escape-guadalajara",
+    "brand": "Mr.E Cuartos de Escape",
+    "category": "experiencias",
+    "benefit": "Cumpleañero juega gratis con grupo de 4 o más",
+    "benefitType": "gratis",
+    "details": "Mr.E anuncia en su sitio: \"Festeja tu cumpleaños en Mr.E. El cumpleañero juega gratis a partir de 4 jugadores.\" La sala se cobra por grupo (de $780 por 2 a $1,980 por 6), así que el cumpleañero no suma al pago. El sitio no detalla si exige identificación ni qué fecha cubre; confirma por WhatsApp al reservar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo de mínimo 4 jugadores",
+      "Reservar en línea o por WhatsApp avisando que es cumpleaños",
+      "Confirmar si piden identificación al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especifican la fecha válida; consulta al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (33 3029 5054) o en mre.mx y menciona que festejas cumpleaños.",
+    "sources": [
+      "https://mre.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Calle José María Morelos 2288, Arcos Vallarta, Guadalajara. Cierra los martes",
+    "needsId": false,
+    "companions": 3
+  },
+  {
+    "slug": "acuario-michin-guadalajara",
+    "brand": "Acuario Michin Guadalajara",
+    "category": "parques",
+    "benefit": "Entrada gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según una guía, quien cumple años el día de su visita entra gratis al Acuario Michin Guadalajara. No encontré esta regla en el sitio oficial ni en sus términos y condiciones, así que confirma antes de ir (WhatsApp 33 2310 7937).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Cumplir años el día de la visita",
+      "Llevar identificación con fecha de nacimiento (sugerido)"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en taquilla o por WhatsApp con tu identificación; no está confirmado en el sitio oficial.",
+    "sources": [
+      "https://rankeamexico.com/acuario-michin-guadalajara/",
+      "https://www.acuariomichin.com/GDL/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Calle Mariano Bárcena 990, Guadalajara. Promo solo citada por un blog",
+    "needsId": true,
+    "companions": null
+  }
+]

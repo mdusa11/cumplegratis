@@ -240,7 +240,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
         >
           {promo.signupUrl && (
             <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-ink flex-1 !px-4 !text-lg">
-              {promo.program ? "Registrarme" : "Sitio oficial"} ↗
+              {promo.program ? "Registrarme" : "Sitio oficial"} ↗︎
             </a>
           )}
           <Link href={`/promos/${promo.slug}`} onClick={onClose} className="btn btn-paper flex-1 !px-4 !text-lg">

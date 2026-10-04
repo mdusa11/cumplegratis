@@ -1,0 +1,231 @@
+[
+  {
+    "slug": "mr-pampas-guadalajara",
+    "brand": "Mr. Pampas Guadalajara",
+    "category": "restaurantes",
+    "benefit": "Rodizio gratis (solo pagas bebidas)",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga el rodizio (buffet de cortes) y solo paga sus bebidas si va con 4 personas más que consuman rodizio de adulto (precio de lista $449). Válido de lunes a viernes dentro de la semana de tu cumpleaños, presentando identificación oficial; no aplica en días festivos ni con otras promociones. El sitio indica vigencia del 6 de enero al 30 de noviembre de 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial mostrada al mesero",
+      "Ir con 4 personas más que consuman rodizio de adulto",
+      "Solo de lunes a viernes",
+      "Visitar dentro de la semana de tu cumpleaños",
+      "No aplica en días festivos ni con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, solo lunes a viernes (vigencia 6 ene a 30 nov 2026)",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero al llegar y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.mrpampasguadalajara.com/",
+      "https://www.instagram.com/mrpampasgdl/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Texto tomado del sitio oficial de Mr. Pampas Guadalajara (sucursal La Rioja, Urban Center, Tlajomulco). Mr. Pampas Gdl también tiene sucursales Urbania y Otero; en León, Querétaro y San Luis Potosí la marca tiene sucursales pero su sitio no publica la promo: confirma con ellas.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "pampas-steak-house-queretaro",
+    "brand": "Pampas Steak House & Sea Food",
+    "category": "restaurantes",
+    "benefit": "Buffet o botella gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "En la semana de tu cumpleaños eliges entre tu buffet o una botella gratis. El cumpleañero no paga si va con 3 adultos que paguen su buffet a precio regular. Válido de lunes a viernes de 1:00 a 6:30 pm; no aplica fines de semana ni festivos oficiales, la botella tiene restricciones (consulta las participantes) y no es acumulable. Vigente hasta el 30 de noviembre de 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 adultos que paguen su buffet a precio regular",
+      "Solo lunes a viernes de 1:00 a 6:30 pm",
+      "Visitar dentro de la semana de tu cumpleaños",
+      "Identificación oficial con tu fecha de nacimiento",
+      "Sin fines de semana ni festivos oficiales",
+      "Botella: aplican restricciones, consulta cuáles participan",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, de lunes a viernes (hasta el 30 nov 2026)",
+    "minPurchase": null,
+    "howToClaim": "Menciona que es tu cumpleaños al llegar y presenta tu identificación oficial.",
+    "sources": [
+      "https://restaurantepampas.com.mx/public/img/cumpleanos-enero-2026.jpg",
+      "https://restaurantepampas.com.mx/promociones.php"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Sucursales Centro Sur, Plaza de Toros y Paseo de la República en Querétaro; el flyer oficial no distingue sucursales.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "la-vaka-bajio",
+    "brand": "La Vaka",
+    "category": "restaurantes",
+    "benefit": "Buffet del cumpleañero gratis con 4 buffets de adulto",
+    "benefitType": "gratis",
+    "details": "Al comprar cuatro buffets de adulto ($449 de lista) el quinto, el del cumpleañero, no paga buffet. Aplica de lunes a domingo, solo asistiendo durante el mes de tu cumpleaños y presentando credencial oficial; no incluye bebidas ni aplica en días festivos o con otras promociones. Vigente del 28 de agosto al 31 de diciembre de 2026 según el catálogo oficial de promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial oficial",
+      "Comprar 4 buffets de adulto",
+      "Asistir en el mes de tu cumpleaños",
+      "Bebidas no incluidas",
+      "No aplica en días festivos ni con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, de lunes a domingo (vigencia al 31 dic 2026)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu credencial oficial al pagar los buffets y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://lavaka.mx/",
+      "https://dashboard.lavaka.mx/api/promociones",
+      "https://www.de-paseo.com/queretaro/event-pro/cumpleanero-buffet-gratis-en-la-vaka/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE",
+      "JAL",
+      "GUA"
+    ],
+    "cities": [
+      "queretaro",
+      "guadalajara",
+      "leon"
+    ],
+    "locationNote": "Sucursales participantes en la región: Juriquilla (Querétaro), La Perla (Guadalajara) y León Aeropuerto (Guanajuato). Complementa la ficha 'la-vaka' de CDMX/Edomex; la misma promo aplica en sus sucursales de CDMX y Edomex.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "domun-hotel-queretaro",
+    "brand": "Domun Hotel Querétaro (restaurante)",
+    "category": "restaurantes",
+    "benefit": "Desayuno buffet gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga el desayuno buffet del restaurante del hotel si va con al menos 3 acompañantes. Disponible de lunes a viernes en horario de desayuno buffet (6:30 am a 1:00 pm); no aplica fines de semana ni días festivos y no es acumulable. El sitio no precisa si la promo es el día, la semana o el mes de tu cumpleaños, ni la vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes (más el cumpleañero)",
+      "Solo de lunes a viernes",
+      "Horario de desayuno buffet: 6:30 am a 1:00 pm",
+      "No aplica fines de semana ni días festivos",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El sitio no especifica día, semana o mes; confirma al reservar",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llega al restaurante del hotel, avisa que es tu cumpleaños y confirma la ventana de la promo.",
+    "sources": [
+      "https://www.domunhotel.com/",
+      "https://www.domunhotel.com/assets/images/domun-hotel-promo-cumpleanos.webp"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Restaurante de Domun Hotel Comfort Business Class, Querétaro.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "los-muchachos-zapopan",
+    "brand": "Los Muchachos de Zapopan",
+    "category": "restaurantes",
+    "benefit": "Desayuno de cumpleaños gratis con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "El desayuno de cumpleaños va por cuenta de la casa cuando vienes en grupo: menudo chico, quesadilla sencilla, café y brownie con velita. Solo para comer en restaurante (no para llevar), canjeable de miércoles a sábado, con consumo en comedor de 3 o más acompañantes y presentando identificación oficial el día de tu cumpleaños; no válido con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial el día de tu cumpleaños",
+      "Ir con 3 o más acompañantes que consuman en comedor",
+      "Solo de miércoles a sábado",
+      "Solo para comer en restaurante, no para llevar",
+      "No válido con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños, de miércoles a sábado (7:30 a 14:00)",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el comedor que es tu cumpleaños y muestra tu identificación oficial.",
+    "sources": [
+      "https://www.losmuchachosdezapopan.com.mx/promociones",
+      "https://www.losmuchachosdezapopan.com.mx/sucursales"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan"
+    ],
+    "locationNote": "Sucursales Parque Metropolitano (Santa María del Pueblito), Valdepeñas y Tesistán, en Zapopan; abren miércoles a domingo.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "sirloin-aguascalientes",
+    "brand": "Sirloin Aguascalientes",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis al comprar bebida refill",
+    "benefitType": "gratis",
+    "details": "Buffet gratis en la compra de una bebida refill de adulto a precio regular, solo el día exacto de tu cumpleaños, presentando el cupón impreso (descargable del sitio) e INE o acta de nacimiento. No incluye refresco, no aplica con otras promociones ni descuentos. Es la sucursal independiente de Aguascalientes, distinta de las del cupón nacional de Sirloin Stockade.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE o acta de nacimiento",
+      "Imprimir el cupón de cumpleaños del sitio",
+      "Comprar una bebida refill de adulto a precio regular",
+      "Solo el día exacto de tu cumpleaños",
+      "No aplica con otras promociones ni descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Imprime el cupón del sitio y preséntalo con tu identificación antes de pagar.",
+    "sources": [
+      "https://sirloinaguascalientes.com/promociones/",
+      "https://sirloinaguascalientes.com/wp-content/uploads/2025/09/PROMOCIONES-CUMPLEANOS-1.pdf"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Solo sucursal Aguascalientes: Av. Héroe de Nacozari Sur 2101, Jardines de las Bugambilias.",
+    "needsId": true,
+    "companions": null
+  }
+]

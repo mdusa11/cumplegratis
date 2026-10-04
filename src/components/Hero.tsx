@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 import { BirthdayPicker } from "./BirthdayPicker";
 import { SplitText } from "./Reveal";
 import { Floaters } from "./fx";
+import { StickerRow } from "./StickerRow";
 import { locationName, useLocation } from "./LocationProvider";
 import { availability, isAvailable } from "@/lib/availability";
 import { BENEFIT, promos, type Promo } from "@/lib/promos";
@@ -17,7 +18,7 @@ const SPOTS = [
 ];
 const STICKER_COLORS = ["var(--color-lilac)", "var(--color-hot)", "var(--color-sky)", "var(--color-sun)", "var(--color-pink)", "var(--color-paper)"];
 
-export function Hero({ featured, total }: { featured: Promo[]; total: number }) {
+export function Hero({ featured, total, row }: { featured: Promo[]; total: number; row: Promo[] }) {
   const area = useRef<HTMLDivElement>(null);
   const { location, openPicker } = useLocation();
   const near = location ? promos.filter((p) => isAvailable(availability(p, location))).length : total;
@@ -75,17 +76,21 @@ export function Hero({ featured, total }: { featured: Promo[]; total: number }) 
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="lg:absolute lg:right-0 lg:bottom-2 lg:w-[38%]"
+          className="xl:absolute xl:right-0 xl:bottom-2 xl:w-[38%]"
         >
-          <p className="mt-10 max-w-xl text-xl leading-snug font-medium sm:text-2xl lg:mt-0">
+          <p className="mt-10 max-w-xl text-xl leading-snug font-medium sm:text-2xl xl:mt-0">
             Café, pastel, cine, descuentos y regalos. Pon tu fecha y te decimos <b>dónde registrarte</b> y <b>hasta cuándo</b> para cobrarlo todo.
           </p>
-          <BirthdayPicker className="mt-8 lg:mt-6 lg:flex-col" />
+          <BirthdayPicker className="mt-8 xl:mt-6 xl:flex-col" />
         </motion.div>
       </div>
 
+      <div className="relative z-10 mx-auto max-w-7xl">
+        <StickerRow promos={row} />
+      </div>
+
       {/* Stickers arrastrables: el "juguete" del hero. */}
-      <div className="pointer-events-none absolute inset-0 z-20 hidden lg:block">
+      <div className="pointer-events-none absolute inset-0 z-20 hidden xl:block">
         {featured.slice(0, SPOTS.length).map((p, i) => (
           <motion.div
             key={p.slug}

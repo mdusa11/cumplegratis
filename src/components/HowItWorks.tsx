@@ -92,7 +92,7 @@ export function HowItWorks() {
               <span className="text-6xl lg:text-8xl">{s.emoji}</span>
             </div>
             <div>
-              <h3 className="display text-6xl lg:text-8xl">{s.title}</h3>
+              <h3 className="display text-[clamp(2.6rem,11vw,3.75rem)] lg:text-[clamp(3.5rem,5.4vw,6rem)]">{s.title}</h3>
               <p className="mt-4 max-w-lg text-xl leading-snug font-medium lg:text-2xl">{s.body}</p>
             </div>
           </article>

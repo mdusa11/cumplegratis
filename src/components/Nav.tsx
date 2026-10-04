@@ -50,7 +50,7 @@ export function Nav() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-3 rounded-full border-[2.5px] border-ink bg-paper/90 py-2 pr-2 pl-5 shadow-hard backdrop-blur-md">
         <Logo onClick={close} />
 
-        <div className="hidden items-center gap-1 md:flex">
+        <div className="hidden items-center gap-1 lg:flex">
           {LINKS.map((l) => (
             <Link
               key={l.href}
@@ -79,7 +79,7 @@ export function Nav() {
           </Link>
         </div>
 
-        <div className="ml-auto md:hidden">
+        <div className="ml-auto lg:hidden">
           <LocationPill place={place} onClick={openPicker} compact />
         </div>
         <button
@@ -87,7 +87,7 @@ export function Nav() {
           onClick={() => setOpen((o) => !o)}
           aria-expanded={open}
           aria-label={open ? "Cerrar menú" : "Abrir menú"}
-          className="relative flex size-11 items-center justify-center rounded-full border-2 border-ink bg-acid md:hidden"
+          className="relative flex size-11 items-center justify-center rounded-full border-2 border-ink bg-acid lg:hidden"
         >
           <motion.span
             className="absolute h-0.5 w-5 bg-ink"
@@ -107,7 +107,7 @@ export function Nav() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -16, scale: 0.96 }}
             transition={{ type: "spring", stiffness: 420, damping: 32 }}
-            className="card mx-auto mt-3 flex max-w-7xl flex-col gap-2 bg-acid p-4 md:hidden"
+            className="card mx-auto mt-3 flex max-w-7xl flex-col gap-2 bg-acid p-4 lg:hidden"
           >
             <button
               type="button"
