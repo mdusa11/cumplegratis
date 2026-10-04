@@ -618,5 +618,178 @@
     "locationNote": "Av. Costera Miguel Alemán, Costa Azul, Acapulco",
     "needsId": null,
     "companions": 5
+  },
+  {
+    "slug": "la-casa-vieja-zihuatanejo",
+    "brand": "La Casa Vieja (Zihuatanejo)",
+    "category": "restaurantes",
+    "benefit": "Buffet de desayuno gratis con 5 acompañantes que consuman",
+    "benefitType": "gratis",
+    "details": "Si vienes a desayunar el día de tu cumpleaños y traes a 5 acompañantes que consuman, tu buffet de desayuno es completamente gratis (promo del sitio oficial). El buffet es todos los días de 8:30 a 12:30 hrs ($260 adultos, $160 niños menores de 10 años, según el sitio); el sitio no menciona identificación ni exclusiones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día de tu cumpleaños",
+      "Llegar con 5 acompañantes que consuman",
+      "Aplica al buffet de desayuno (8:30 a 12:30 hrs)",
+      "El sitio no pide identificación; llévala por si acaso"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños, en el horario del buffet de desayuno",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp o al 755 113 1533, avisa que es tu cumpleaños y ve con 5 acompañantes que consuman.",
+    "sources": [
+      "http://lacasavieja.mx/buffet-zihuatanejo"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "zihuatanejo"
+    ],
+    "locationNote": "Josefa Ortiz de Domínguez 7, col. La Madera, Zihuatanejo",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "africam-safari-explorer-passport-puebla",
+    "brand": "Africam Safari (Explorer Passport)",
+    "category": "parques",
+    "benefit": "Laser tag gratis el día de tu cumpleaños con pase anual",
+    "benefitType": "regalo-con-compra",
+    "details": "Entre los beneficios del pase anual Explorer Passport ($1,150, vigencia de 1 año) está laser tag gratis el día del cumpleaños del titular en Rescate Táctico. El pase es personal e intransferible y para usar los beneficios hay que presentar INE o credencial oficial; no aplica con otras promociones ni actividades de temporada.",
+    "program": "Explorer Passport",
+    "signupUrl": "https://africam.myshopify.com/products/explorer-passport",
+    "requirements": [
+      "Comprar el pase anual Explorer Passport",
+      "INE o credencial oficial para validar el beneficio",
+      "Pase personal e intransferible",
+      "Laser tag gratis solo el día de tu cumpleaños, en Rescate Táctico",
+      "No aplica con otras promociones o actividades de temporada"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños; el pase dura 1 año desde la compra",
+    "minPurchase": 1150,
+    "howToClaim": "Recoge tu pase en taquilla con INE y confirmación de compra (máximo 30 días tras comprarlo) y pide el laser tag gratis en Rescate Táctico el día de tu cumpleaños.",
+    "sources": [
+      "https://africam.myshopify.com/products/explorer-passport"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Africam Safari, Valsequillo, Puebla",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "kuro-casa-de-sushi-cholula",
+    "brand": "Kuro Casa de Sushi (Cholula)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga su comida con grupo de 5 o más",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla, el cumpleañero no paga su comida si va con un grupo de 5 o más personas. Se revisaron su Facebook e Instagram oficiales y no muestran la promoción, así que no está confirmada en canales propios.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en grupo de 5 personas o más",
+      "Reglas y vigencia sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma la promoción con el restaurante (228 845 4966) antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla",
+      "https://www.facebook.com/kurocasadesushi/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Av. 6 Oriente 13, Centro, San Pedro Cholula",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "villa-camaron-puebla-cholula",
+    "brand": "Villa Camarón (Puebla y Cholula)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga el buffet a la carta (sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Un blog de Mexiconoce (2021) y un listado de TikTok sobre buffets para cumpleaños en Puebla dicen que el cumpleañero no paga el buffet a la carta. Ni su sitio oficial (villacamaron.com) ni su Instagram (@villa.camaron) mencionan la promoción, por lo que puede no estar vigente.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Condiciones sin confirmar; consulta con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por WhatsApp (222 771 7486) antes de ir.",
+    "sources": [
+      "https://www.cuponerapp.com/mexiconoce/2021/02/19/5-lugares-en-puebla-donde-el-cumpleanero-no-paga/",
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla",
+      "https://www.villacamaron.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Sucursales en Plaza La Joya (San Andrés Cholula) y Av. Juárez (Puebla)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "bugambilias-buffet-chilpancingo",
+    "brand": "Bugambilias Buffet (Chilpancingo)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis todo el mes de su cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según resultados de búsqueda sobre su página de Facebook y un TikTok, el buffet regala la comida al cumpleañero durante todo el mes de su cumpleaños (el buffet opera diario de 8:30 a 14:00 hrs). No se pudo leer la publicación original, por lo que acompañantes, identificación y vigencia están sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas sin confirmar (identificación, acompañantes)",
+      "Solo en el mes de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños, según un listado; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Confirma por Facebook (Bugambilias buffet | Chilpancingo) antes de ir.",
+    "sources": [
+      "https://www.facebook.com/p/Bugambilias-buffet-61553309791273/",
+      "https://www.tiktok.com/discover/bugambilias-buffet-chilpancingo"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "chilpancingo"
+    ],
+    "locationNote": "Col. El Encanto, calle Privada Los Pinos, Chilpancingo (sin verificar)",
+    "needsId": null,
+    "companions": null
   }
 ]

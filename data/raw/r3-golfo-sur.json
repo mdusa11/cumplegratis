@@ -39,7 +39,7 @@
     "requirements": [
       "Ir con 6 acompañantes",
       "Solo jueves y viernes de 16:00 a 19:00 hrs",
-      "Acompañantes pagan $270 adulto / $140 niño",
+      "Paquete: $270 adulto / $140 niño (incluye bebidas)",
       "Reserva por WhatsApp 229 937 8089"
     ],
     "registerDaysBefore": null,
@@ -86,7 +86,7 @@
     "sources": [
       "https://restaurantevenacava.com/"
     ],
-    "confidence": "alta",
+    "confidence": "media",
     "coverage": "ciudades",
     "states": [
       "VER"
@@ -94,13 +94,13 @@
     "cities": [
       "xalapa"
     ],
-    "locationNote": "Av. Araucarias 139, Indeco Ánimas, Xalapa. La página marca el buffet con vigencia al 31-ago-2026; confirma que el buffet sigue vigente.",
+    "locationNote": "Av. Araucarias 139, Indeco Ánimas, Xalapa. La página aún muestra la promoción, pero el buffet lleva la leyenda 'vigencia al 31 de agosto de 2026' (ya pasada): confirma que sigue activo.",
     "needsId": true,
     "companions": 4,
     "slug": "vena-cava-xalapa",
     "brand": "Vena Cava",
     "category": "restaurantes",
-    "benefit": "Buffet italiano gratis la semana de tu cumpleaños con 4 personas",
+    "benefit": "Buffet gratis la semana de tu cumpleaños con 4 personas",
     "benefitType": "gratis",
     "details": "El cumpleañero come gratis el buffet italiano si va con otras 4 personas que paguen su buffet de adulto ($285). Además recibe rebanada de pastel, mañanitas con vela de bengala y una ronda de shots para todos. Válido solo en la semana del cumpleaños; el buffet es de jueves a domingo de 2:00 a 6:00 pm (vigencia del buffet al 31 de agosto de 2026 según la página)."
   },
@@ -170,7 +170,7 @@
     "cities": [
       "xalapa"
     ],
-    "locationNote": "Sucursales en Xalapa (Tepic 47, Col. Progreso; Atenas) y La Antigua (Veracruz). El dato viene del texto de un post de Facebook del negocio; no pude abrir el post original.",
+    "locationNote": "Sucursales: Tepic 47, Col. Progreso (Xalapa), Atenas y La Antigua (Veracruz); no verifiqué en qué ciudad está Atenas. El dato viene del texto de un post de Facebook del negocio; no pude abrir el post original.",
     "needsId": null,
     "companions": 3,
     "slug": "mariscos-boca-del-rio-xalapa",
@@ -178,6 +178,765 @@
     "category": "restaurantes",
     "benefit": "Comes gratis el mes de tu cumpleaños con 3 acompañantes",
     "benefitType": "gratis",
-    "details": "Promoción 'Si cumples años, comes gratis': el cumpleañero come gratis (buffet o a la carta) durante todo el mes de su cumpleaños si va con al menos 3 acompañantes; el restaurante pone la bebida del cumpleañero y el postre y el festejo. Aplica en sus sucursales de Xalapa (Tepic y Atenas) y La Antigua según el post publicado en su Facebook."
+    "details": "Promoción 'Si cumples años, comes gratis': el cumpleañero come gratis (buffet o a la carta) durante todo el mes de su cumpleaños si va con al menos 3 acompañantes; el restaurante pone la bebida del cumpleañero y el postre y el festejo. Según el post de su Facebook aplica en sus sucursales La Antigua, Tepic (Xalapa) y Atenas."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar cualquier tratamiento para celebrar tu cumpleaños",
+      "La página no especifica identificación ni vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La página no precisa si es el día, la semana o el mes del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva un tratamiento desde la página (botón 'Quiero reservar') o por teléfono/WhatsApp (+52 958 101 3543) e indica que es por tu cumpleaños.",
+    "sources": [
+      "https://gemaspahuatulco.com/promociones-en-gemaspa-huatulco"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "OAX"
+    ],
+    "cities": [
+      "huatulco"
+    ],
+    "locationNote": "Blvd. Benito Juárez, Sector A, Mz 9A Lote 2-2, Bahías de Huatulco. Abierto lunes a domingo 9:00 a 22:00.",
+    "needsId": null,
+    "companions": null,
+    "slug": "gema-spa-huatulco",
+    "brand": "Gema Spa Huatulco",
+    "category": "belleza",
+    "benefit": "Limpieza facial gratis al reservar un tratamiento en tu cumple",
+    "benefitType": "regalo-con-compra",
+    "details": "Si reservas cualquier tratamiento para celebrar tu cumpleaños en Gema Spa, te obsequian una limpieza facial gratuita. La página de promociones no detalla identificación, días ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas",
+      "La publicación no detalla identificación ni periodo de validez"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa; confirma con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva o ve con 3 personas y avisa que es tu cumpleaños; confirma con el restaurante qué identificación piden.",
+    "sources": [
+      "https://www.facebook.com/BarrioMexicanoRestaurante/videos/cumplea%C3%B1ero-come-gratis-/206346097962734/?extid=SEO----",
+      "https://www.facebook.com/BarrioMexicanoRestaurante/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CHP"
+    ],
+    "cities": [
+      "tuxtla-gutierrez"
+    ],
+    "locationNote": "Sucursal Oriente: Av. Presa Malpaso 525, Col. Los Electricistas (tel. 961 339 9485). También tiene sucursal Poniente (Libramiento Sur Poniente 245) y una en San Cristóbal; no confirmé si la promo aplica en todas.",
+    "needsId": null,
+    "companions": 3,
+    "slug": "barrio-mexicano-tuxtla-gutierrez",
+    "brand": "Barrio Mexicano Restaurant & Buffet",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis si va con 3 personas",
+    "benefitType": "gratis",
+    "details": "El Facebook oficial del restaurante publica el video 'Cumpleañero come GRATIS': el cumpleañero (o cumpleañera) come gratis si llega con 3 personas. Buffet mexicano de lunes a domingo de 8:00 am a 6:00 pm. No pude abrir el video, así que no hay reglas de identificación, mes o día."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mesa con 5 buffets de adulto (por confirmar si incluye al festejado)",
+      "Válido 4 días antes y 4 días después del cumpleaños",
+      "Confirma identificación con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "De 4 días antes a 4 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Estrela do Brasil Xalapa, avisa que es tu cumpleaños y confirma las reglas vigentes.",
+    "sources": [
+      "https://beacons.ai/estreladobrasil_xalapa",
+      "https://www.facebook.com/estrelaxalapa/",
+      "https://estreladobrasil.com/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Sucursal Xalapa; la marca también tiene sucursal en Orizaba (Facebook: estrelaorizaba), pero no confirmé que la promo aplique ahí.",
+    "needsId": null,
+    "companions": null,
+    "slug": "estrela-do-brasil-xalapa",
+    "brand": "Estrela do Brasil",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis, pastel y shots con 5 buffets de adulto",
+    "benefitType": "gratis",
+    "details": "Su 'Promoción Cumpleañeros' (rodizio): al consumir 5 buffets de adulto, el cumpleañero recibe su buffet gratis, una rebanada de pastel y shots de tequila; se menciona vigencia de 4 días antes a 4 días después del cumpleaños. Los datos salen de resúmenes de su página de enlaces y redes; no pude abrir el texto original."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir un viernes",
+      "Ser cumpleañero del mes",
+      "Confirma identificación con el bar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Viernes del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Ve un viernes de tu mes de cumpleaños y pide tu pomo de cortesía mostrando tu identificación.",
+    "sources": [
+      "https://www.facebook.com/black55.tux/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CHP"
+    ],
+    "cities": [
+      "tuxtla-gutierrez"
+    ],
+    "locationNote": "Dato tomado del texto de la página de Facebook del bar; no pude abrir la publicación original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "black-55-tuxtla-gutierrez",
+    "brand": "BLACK 55",
+    "category": "bares",
+    "benefit": "Pomo gratis a los cumpleañeros del mes los viernes",
+    "benefitType": "gratis",
+    "details": "Según su programación publicada en Facebook, los viernes regalan un pomo (bebida) al cumpleañero del mes. El mismo bar anuncia otras promos semanales (alitas, 2x1 en tragos, karaoke con shots). No encontré reglas de identificación ni acompañantes."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día de tu cumpleaños con 4 adultos (regla de otra sucursal)",
+      "Horario 13:00 a 18:00 (misma fuente)",
+      "Confirma las reglas con la sucursal de Xalapa"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños, de 13:00 a 18:00 hrs (regla publicada por la sucursal Guadalajara)",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Fogón Do Brasil Xalapa, pregunta por la promoción de cumpleaños y confirma la regla vigente.",
+    "sources": [
+      "https://www.facebook.com/fogondobrasil.xalapa/videos/s%C3%B3lo-en-fog%C3%B3n-do-brasil-tu-cumplea%C3%B1os-ser%C3%A1-una-deliciapregunta-por-nuestra-promo/471100236812111/",
+      "https://www.facebook.com/fogondobrasilguadalajara/videos/feliz-cumplea%C3%B1osven-el-d%C3%ADa-de-tu-cumplea%C3%B1os-a-fogondobrasil-acompa%C3%B1ado-de-4-adul/514522709098611/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Sucursal 2a Priv. Agua Santa 4, Col. Badillo, Xalapa. La marca tiene también sucursales en Lencero, Plaza Naucalli, Córdoba y Orizaba (Facebook), pero no verifiqué que la promo aplique ahí.",
+    "needsId": null,
+    "companions": 4,
+    "slug": "fogon-do-brasil-xalapa",
+    "brand": "Fogón Do Brasil",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero no paga si va con 4 adultos (13:00 a 18:00)",
+    "benefitType": "gratis",
+    "details": "El Facebook de Fogón Do Brasil Xalapa dice 'tu cumpleaños será una delicia, pregunta por nuestra promoción' (cortes en espadas) sin dar reglas. El post oficial de la sucursal Guadalajara de la misma marca precisa: el día de tu cumpleaños, con 4 adultos y de 13:00 a 18:00 hrs, el cumpleañero no paga. No pude confirmar que Xalapa aplique exactamente esa regla."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 o más personas",
+      "Horario 1:00 a 6:00 pm (según TikTok)",
+      "Confirma reglas con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llama al 228 367 1727 o ve con tu grupo y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-comer-gratis-cumplea%C3%B1os-en-xalapa",
+      "https://www.instagram.com/varaderoxalapa/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Dato tomado de resúmenes de TikTok; no pude abrir el post original. También se cita Plaza Andador Encanto local 10.",
+    "needsId": null,
+    "companions": 3,
+    "slug": "varadero-xalapa",
+    "brand": "Varadero Xalapa (buffet de mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 o más acompañantes",
+    "benefitType": "gratis",
+    "details": "Resúmenes de videos de TikTok sobre Xalapa dicen que el cumpleañero come gratis en el buffet de mariscos si va con 3 personas o más (sucursal Ánimas: Cristóbal Colón 29, Rubí Ánimas; 1:00 a 6:00 pm). El Instagram del negocio solo confirma buffet de mariscos de martes a domingo; no vi las reglas oficiales."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en el mes de tu cumpleaños",
+      "Avisar al mesero que es tu mes",
+      "Identificación oficial (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu rebanada diciendo al mesero que es tu mes de cumpleaños y muestra tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/@lachata_xalapa",
+      "https://www.tiktok.com/discover/lugares-para-comer-gratis-cumplea%C3%B1os-en-xalapa"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Av. Américas 189, junto al Colegio Villa de Cortés, Xalapa (reservas 228 347 2037). Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": true,
+    "companions": null,
+    "slug": "la-chata-xalapa",
+    "brand": "La Chata Restaurante",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel gratis en el mes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según resúmenes del TikTok del restaurante, en el mes de tu cumpleaños te dan una rebanada de pastel con tu comida, vayas solo o acompañado; hay que avisar al mesero y presentar identificación. Abre diario de 7:00 a 19:00."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el restaurante",
+      "Confirma reglas al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llama al 228 603 6464 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-comer-gratis-cumplea%C3%B1os-en-xalapa",
+      "https://www.facebook.com/people/Feng-sheng-comida-china-cantonesa/100083126472734/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Av. Cordillera local 11, Plaza Cima, Praderas, Xalapa. Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "feng-sheng-xalapa",
+    "brand": "Feng Sheng (comida china cantonesa)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis (reglas por confirmar)",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Xalapa dice que en Feng Sheng el cumpleañero come gratis, con buffet libre y sorpresas. No encontré acompañantes mínimos, días ni identificación requerida."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo en el desayuno buffet",
+      "Confirma reglas con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva el desayuno buffet y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://xalapa.infoisinfo.com.mx/ficha/santa_lupita_restaurant/2674336",
+      "https://www.tiktok.com/discover/lugares-para-comer-gratis-en-tu-cumplea%C3%B1os-veracruz"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Carretera Federal Xalapa-Veracruz Km 2.5 L3, Jardines de las Ánimas, Xalapa. Dato de directorio/TikTok; no lo vi en canal oficial.",
+    "needsId": null,
+    "companions": null,
+    "slug": "santa-lupita-xalapa",
+    "brand": "Santa Lupita Restaurant",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga el desayuno buffet",
+    "benefitType": "gratis",
+    "details": "Directorios y resúmenes de búsqueda indican que en Santa Lupita el cumpleañero no paga en el desayuno buffet. No encontré acompañantes mínimos, identificación ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ser cumpleañero",
+      "Posible identificación (INE o CURP), por confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa; un resumen menciona 3 días antes y 3 después (sin confirmar)",
+    "minPurchase": null,
+    "howToClaim": "Ve a la taquilla con tu identificación y pregunta por la entrada de cumpleañero; tel. 228 501 5246.",
+    "sources": [
+      "https://lasillarota.com/veracruz/estado/2026/8/2/vacaciones-de-verano-los-pocitos-inaugurara-nueva-atraccion-acuatica-en-emiliano-zapata-523084.html",
+      "https://www.facebook.com/lospocitosparque/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Km 35 de la carretera federal Xalapa-Veracruz, La Cumbre, Emiliano Zapata (a unos 40 minutos de Xalapa). Dato de nota periodística, no de canal oficial.",
+    "needsId": null,
+    "companions": null,
+    "slug": "los-pocitos-emiliano-zapata",
+    "brand": "Parque Acuático Los Pocitos",
+    "category": "parques",
+    "benefit": "Entrada gratis para cumpleañeros",
+    "benefitType": "gratis",
+    "details": "La Silla Rota (2-ago-2026) informa que los cumpleañeros entran gratis al parque acuático Los Pocitos (La Cumbre, Emiliano Zapata). Entrada general $150 e INAPAM $100, abierto diario de 9:00 a 19:00. La nota no da requisitos; un resumen de búsqueda sin fuente clara menciona INE o CURP y vigencia de 3 días antes y después."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "CURP o acta de nacimiento (dato de 2019)",
+      "Traje de baño obligatorio",
+      "Confirma si la entrada gratis sigue vigente"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "2019: durante el mes del cumpleaños; hoy no se precisa",
+    "minPurchase": null,
+    "howToClaim": "Llama al (229) 688 7302 o pregunta en taquilla si sigue la entrada gratis para cumpleañeros y qué comprobante piden.",
+    "sources": [
+      "https://aquaticoinbursa.com.mx/terminos-condiciones.html",
+      "https://www.lugaresturisticosdeveracruz.com/puerto/parque-aquatico-inbursa/",
+      "https://cazaofertas.com.mx/entretenimiento/promocion-aquatico-inbursa-cumpleaneros-entrada-gratis-el-mes-de-tu-cumpleanos/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "veracruz"
+    ],
+    "locationNote": "Parque acuático en Veracruz/Boca del Río, distinto del Acuario Inbursa de CDMX. Promoción de entrada gratis no confirmada en el sitio oficial 2026.",
+    "needsId": true,
+    "companions": null,
+    "slug": "aquatico-inbursa-veracruz",
+    "brand": "Aquático Inbursa (parque acuático)",
+    "category": "parques",
+    "benefit": "Entrada gratis al cumpleañero (vigencia por confirmar)",
+    "benefitType": "gratis",
+    "details": "Sitios de terceros listan 'Festeja tu cumpleaños: entrada libre solo al cumpleañero' como promo permanente (en 2019 se pedía CURP o acta, ingreso de 10:00 a 13:30 y traje de baño). Los Términos y Condiciones 2026 del sitio oficial solo muestran 'Festeja otra vez tu cumpleaños': en el segundo festejo regalan piñata y fotografía impresa, y no confirman la entrada gratis actual."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mostrar INE",
+      "Confirma reglas con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu INE en el restaurante y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-comer-gratis-en-tu-cumplea%C3%B1os-veracruz",
+      "https://www.facebook.com/lasdeliciasmarinas/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "veracruz"
+    ],
+    "locationNote": "Ubicado en La Antigua (a unos 25 km del puerto de Veracruz). Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": true,
+    "companions": null,
+    "slug": "las-delicias-marinas-la-antigua",
+    "brand": "Las Delicias Marinas",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel y mini festejo gratis con INE",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Veracruz indica que Las Delicias Marinas regala una rebanada de pastel y un mini festejo al cumpleañero que muestra su INE. Restaurante de mariscos en La Antigua, abierto de 11:00 a 19:00 y cerrado los martes. No encontré acompañantes mínimos ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 personas",
+      "Ir en el mes de tu cumpleaños",
+      "Confirma reglas con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños (según TikTok)",
+    "minPurchase": null,
+    "howToClaim": "Ve con tu grupo y avisa que es tu cumpleaños; tel. 272 245 7834.",
+    "sources": [
+      "https://www.tiktok.com/discover/los-mejores-restaurantes-para-celebrar-cumplea%C3%B1os-en-orizaba",
+      "https://www.instagram.com/pizzando_orizaba/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "cordoba"
+    ],
+    "locationNote": "Orizaba (zona Córdoba-Orizaba). Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": null,
+    "companions": 5,
+    "slug": "pizzando-orizaba",
+    "brand": "Pizzando Orizaba",
+    "category": "restaurantes",
+    "benefit": "Postre gratis en el mes de tu cumpleaños con 5 personas",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Orizaba dice que Pizzando da un postre gratis durante el mes de tu cumpleaños si vas con 5 personas. Es una pizzería con buffet de pizzas. No encontré identificación requerida ni más reglas."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el restaurante",
+      "Confirma reglas al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al reservar o al llegar.",
+    "sources": [
+      "https://www.tiktok.com/discover/los-mejores-restaurantes-para-celebrar-cumplea%C3%B1os-en-orizaba",
+      "https://www.instagram.com/tangoypasta/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "cordoba"
+    ],
+    "locationNote": "Orizaba. Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "tango-y-pasta-orizaba",
+    "brand": "Tango & Pasta",
+    "category": "restaurantes",
+    "benefit": "Postre gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Orizaba indica que en Tango & Pasta (cocina italiana y argentina) el cumpleañero recibe un postre gratis. No encontré acompañantes, identificación ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes por cada cumpleañero",
+      "Ir en el mes de tu cumpleaños",
+      "Reserva por teléfono"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños (según TikTok)",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 921 211 8500 y avisa que es tu cumpleaños; confirma las reglas vigentes.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-chidos-en-coatzacoalcos-para-festejar-tu-cumplea%C3%B1os",
+      "https://www.ihg.com/holidayinn/hotels/us/en/coatzacoalcos/mttco/hoteldetail/dining"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "coatzacoalcos"
+    ],
+    "locationNote": "Dato de resúmenes de TikTok; no confirmado en canal oficial del hotel.",
+    "needsId": null,
+    "companions": 3,
+    "slug": "holiday-inn-coatzacoalcos-las-ventanas",
+    "brand": "Holiday Inn Coatzacoalcos (restaurante Las Ventanas)",
+    "category": "restaurantes",
+    "benefit": "Por cada 3 acompañantes el cumpleañero no paga",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Coatzacoalcos dice que en el restaurante Las Ventanas del Holiday Inn, por cada 3 acompañantes el cumpleañero no paga, con vigencia todo el mes de su cumpleaños. Reservaciones al 921 211 8500. No lo encontré en el sitio de IHG ni en su menú en PDF."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el restaurante",
+      "Confirma reglas al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llama al +52 921 217 6250 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-chidos-en-coatzacoalcos-para-festejar-tu-cumplea%C3%B1os",
+      "https://www.facebook.com/latabernadelbohemiocoatza/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "coatzacoalcos"
+    ],
+    "locationNote": "Francisco I. Madero 2400, Puerto México, Coatzacoalcos. Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "la-taberna-del-bohemio-coatzacoalcos",
+    "brand": "La Taberna del Bohemio",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero no paga (reglas por confirmar)",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Coatzacoalcos dice que en La Taberna del Bohemio el cumpleañero no paga; abre de 1:00 a 10:00 pm. No encontré acompañantes mínimos, identificación ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el restaurante",
+      "Confirma reglas al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llama al 993 287 1695 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-villahermosa",
+      "https://www.facebook.com/p/Tino-Lee-61550201074297/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAB"
+    ],
+    "cities": [
+      "villahermosa"
+    ],
+    "locationNote": "Plaza Bugambilia, Villahermosa. Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "tino-lee-villahermosa",
+    "brand": "Tino Lee",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis (reglas por confirmar)",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Villahermosa indica que en Tino Lee (buffet y carta de comida asiática, Plaza Bugambilia) el cumpleañero come gratis. El buffet parte de $295. No encontré acompañantes mínimos, identificación ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ser cumpleañero",
+      "Descuento según edad (porcentaje por confirmar)",
+      "Confirma reglas con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por el descuento de cumpleañero al llegar y presenta tu identificación.",
+    "sources": [
+      "https://www.facebook.com/p/Buffet-Sampa-Grill-Cortes-Brasile%C3%B1os-100063273666572/",
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-villahermosa"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TAB"
+    ],
+    "cities": [
+      "villahermosa"
+    ],
+    "locationNote": "Sucursales Aeropuerto, Plaza Industrial y Río Viejo (993 319 3892, 993 412 2810, 993 380 0885). Dato de resúmenes de búsqueda; no pude abrir la fuente original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "sampa-grill-villahermosa",
+    "brand": "Sampa Grill (buffet cortes brasileños)",
+    "category": "restaurantes",
+    "benefit": "Descuento en el buffet según tu edad",
+    "benefitType": "descuento",
+    "details": "Resúmenes de búsqueda indican que el cumpleañero recibe un descuento en el buffet cuyo porcentaje depende de la edad que cumple. Buffet desde $269 en sus sucursales de Villahermosa. No encontré tope de descuento, identificación ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de 5 o más personas (web antigua)",
+      "No aplica miércoles ni domingos (web antigua)",
+      "Confirma reglas vigentes"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños (según reseña)",
+    "minPurchase": null,
+    "howToClaim": "Ve el día de tu cumpleaños con tu grupo (no en miércoles) y avisa al personal.",
+    "sources": [
+      "https://www.tripadvisor.com.mx/ShowUserReviews-g317142-d6680314-r678921273-La_Calabaza_Encantada-Tuxtla_Gutierrez_Southern_Mexico.html",
+      "https://www.facebook.com/p/La-Calabaza-Restaurant-100029707009392/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHP"
+    ],
+    "cities": [
+      "tuxtla-gutierrez"
+    ],
+    "locationNote": "Belisario Domínguez 4120 A, Jardines de Tuxtla. Información de reseña y de un sitio ya inactivo; confirma vigencia.",
+    "needsId": null,
+    "companions": 5,
+    "slug": "la-calabaza-tuxtla-gutierrez",
+    "brand": "La Calabaza Buffet",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero no paga el buffet (no aplica miércoles)",
+    "benefitType": "gratis",
+    "details": "Una reseña de Tripadvisor cuenta que el cumpleañero no paga, le ponen sombrero, le cantan y le dan un pan con betún; no aplica los miércoles. La web oficial antigua (lacalabazabuffet.com, hoy dominio en venta) decía que la cortesía aplica acompañado de 5 o más personas, excepto miércoles y domingos."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en la cafetería",
+      "Confirma reglas al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llama al 961 545 9549 y pregunta por la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-celebrar-cumplea%C3%B1os-en-tuxtla-guti%C3%A9rrez",
+      "https://www.facebook.com/p/Caffeirotux-61574838020735/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHP"
+    ],
+    "cities": [
+      "tuxtla-gutierrez"
+    ],
+    "locationNote": "Calle 11a Pte Sur 1172, La Lomita, Tuxtla Gutiérrez. Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "caffeiro-tuxtla-gutierrez",
+    "brand": "Caffeiro (cafetería buffet)",
+    "category": "cafe",
+    "benefit": "Si es tu cumpleaños, no pagas (reglas por confirmar)",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Tuxtla dice que en Caffeiro, si es tu cumpleaños, no pagas. No encontré acompañantes mínimos, identificación ni vigencia."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo en el horario de desayuno (8:00 a 13:00)",
+      "Confirma reglas con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 951 516 3285 y pregunta por la promoción de cumpleañero en desayunos.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-en-oaxaca",
+      "https://www.facebook.com/Restaurante.Catedral.Oaxaca/",
+      "https://www.restaurantecatedral.com.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "OAX"
+    ],
+    "cities": [
+      "oaxaca"
+    ],
+    "locationNote": "Calle Manuel García Vigil 105, Centro, Oaxaca de Juárez. Dato de resúmenes de TikTok; no pude abrir el post original.",
+    "needsId": null,
+    "companions": null,
+    "slug": "catedral-oaxaca",
+    "brand": "Restaurante Catedral",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga en desayunos (8:00 a 13:00)",
+    "benefitType": "gratis",
+    "details": "Un resumen de TikTok sobre Oaxaca dice que en Restaurante Catedral los cumpleañeros no pagan, solo en desayunos (8:00 am a 1:00 pm), con 2 horas de estacionamiento de cortesía. No encontré acompañantes mínimos, identificación ni vigencia, y el sitio oficial no lo menciona."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en la cantina",
+      "Confirma reglas al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al reservar o al llegar.",
+    "sources": [
+      "https://www.tiktok.com/@lugares.con.cuii/video/7282035682095205637",
+      "https://www.facebook.com/LaChicatana/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "OAX"
+    ],
+    "cities": [
+      "oaxaca"
+    ],
+    "locationNote": "Pabellón Violetas, Violetas 401, Col. Reforma, Oaxaca de Juárez. Dato de un TikTok de 2023; no pude abrir el video.",
+    "needsId": null,
+    "companions": null,
+    "slug": "la-chicatana-oaxaca",
+    "brand": "La Chicatana (cantina mezcalera)",
+    "category": "bares",
+    "benefit": "Shots de cortesía para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Un video de TikTok sobre festejar cumpleaños en Oaxaca dice que en La Chicatana (cantina en Pabellón Violetas, Violetas 401) dan shots de cortesía al cumpleañero y su grupo. No encontré reglas de reservación, identificación ni vigencia."
   }
 ]

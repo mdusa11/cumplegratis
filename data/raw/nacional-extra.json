@@ -585,11 +585,11 @@
     "category": "otras-tiendas",
     "benefit": "Obsequio especial en tu mes de cumpleaños (socios Premia)",
     "benefitType": "gratis",
-    "details": "Los socios vigentes del programa PREMIA de City Club reciben un obsequio especial de cumpleaños que se entrega durante su mes de cumpleaños en cualquier club de la república. Está limitado a un obsequio por socio y la selección del obsequio puede variar a consideración de City Club. Los beneficios Premia aplican solo en compras en club (no en línea) y la afiliación y renovación se hacen únicamente en clubes.",
+    "details": "Los socios vigentes del programa PREMIA de City Club (membresía de $600: titular, primer adicional gratis y garantía extendida sin costo) reciben un obsequio especial de cumpleaños que se entrega durante su mes de cumpleaños en cualquier club de la república. Está limitado a un obsequio por socio y la selección del obsequio puede variar a consideración de City Club. Los beneficios Premia aplican solo en compras en club (no en línea) y la afiliación y renovación se hacen únicamente en clubes.",
     "program": "Membresía PREMIA de City Club",
     "signupUrl": "https://www.cityclub.com.mx/membresia-city-club.html",
     "requirements": [
-      "Ser socio vigente del programa PREMIA (afiliación o renovación pagada)",
+      "Ser socio vigente del programa PREMIA (membresía de $600, afiliación o renovación al corriente)",
       "Solo durante tu mes de cumpleaños",
       "Un obsequio por socio",
       "El obsequio puede variar a consideración de City Club",
@@ -602,13 +602,45 @@
     "howToClaim": "Con tu membresía PREMIA vigente, acude durante tu mes de cumpleaños a cualquier club City Club; el obsequio se entrega ahí. Los términos no detallan la identificación ni el mostrador de entrega.",
     "sources": [
       "https://www.cityclub.com.mx/terminos-condiciones-premia.html",
-      "https://www.cityclub.com.mx/membresia-city-club.html"
+      "https://www.cityclub.com.mx/membresia-city-club.html",
+      "https://www.cityclub.com.mx/faq.html"
     ],
     "confidence": "alta",
     "coverage": "nacional",
     "states": [],
     "cities": [],
-    "locationNote": "Cualquier club City Club de México; requiere membresía de pago",
+    "locationNote": "Cualquier club City Club de México; requiere membresía Premia de pago ($600)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "spin-premia-oxxo",
+    "brand": "Spin Premia (OXXO)",
+    "category": "otras-tiendas",
+    "benefit": "Puntos de regalo por cumpleaños (monto no publicado)",
+    "benefitType": "regalo-con-compra",
+    "details": "El centro de ayuda oficial de Spin Premia, el programa de lealtad de OXXO, menciona 'puntos de regalo por cumpleaños' junto con los de bienvenida, completar información y referidos, pero no publica cuántos puntos son, cuándo se acreditan ni sus condiciones; los términos y condiciones del programa tampoco los detallan. Cada punto vale $0.10 y se puede usar para pagar en OXXO y marcas aliadas.",
+    "program": "Spin Premia",
+    "signupUrl": "https://spinpremia.com/",
+    "requirements": [
+      "Tener cuenta Spin Premia (tarjeta o app) con tu información completa",
+      "Registrar tu fecha de cumpleaños (probable; no detallado)",
+      "El monto, la fecha de acreditación y las condiciones no están publicados"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en las fuentes oficiales",
+    "minPurchase": null,
+    "howToClaim": "Parece acreditarse a tu cuenta Spin Premia; si no recibes tus puntos, el FAQ oficial indica llamar al Centro de Atención a Clientes al 55 5269 5000.",
+    "sources": [
+      "https://spinpremia.com/preguntas-frecuentes/",
+      "https://spinbyoxxo.com.mx/programa-de-lealtad"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas OXXO en México",
     "needsId": false,
     "companions": null
   }

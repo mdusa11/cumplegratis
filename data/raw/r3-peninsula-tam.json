@@ -1,0 +1,384 @@
+[
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Carretera Federal Cancún-Tulum km 266.8, Puerto Aventuras (Playa del Carmen)",
+  "companions": 3,
+  "needsId": true,
+  "slug": "kantun-chi-playa-del-carmen",
+  "brand": "Ecopark Kantun-Chi",
+  "category": "parques",
+  "benefit": "Cumpleañero gratis al comprar 3 pases de adulto",
+  "benefitType": "regalo-con-compra",
+  "details": "En tu mes de cumpleaños, si compras 3 pases de adulto la entrada del cumpleañero va gratis. Aplica en Grutaventura, Aguas Mágicas, Gruta Travesía y las 4 Travesías, con tarifa de extranjero, mexicano o quintanarroense, y pide identificación oficial física vigente según la tarifa. Solo se reserva por correo o teléfono; no aplica en taquilla.",
+  "requirements": [
+   "Comprar 3 pases de adulto (el cumpleañero entra gratis)",
+   "Solo en tu mes de cumpleaños",
+   "Identificación oficial física y vigente",
+   "Reservar por correo o teléfono; no aplica en taquilla"
+  ],
+  "window": "mes",
+  "windowNote": "Durante tu mes de cumpleaños; la página no indica fecha de vigencia de esta promo",
+  "howToClaim": "Reserva en reservaciones@kantunchi.com o al 984 271 0681 pidiendo la promoción de cumpleaños y lleva tu identificación oficial.",
+  "sources": [
+   "https://www.kantunchi.com/promociones"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "ROO"
+  ],
+  "cities": [
+   "playa-del-carmen"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Reforma 5038, Col. Tecnológico, Nuevo Laredo; el menú del sitio no muestra fecha de vigencia",
+  "companions": 5,
+  "needsId": true,
+  "slug": "tomatillos-nuevo-laredo",
+  "brand": "Tomatillos",
+  "category": "restaurantes",
+  "benefit": "Tu platillo gratis la semana de tu cumpleaños",
+  "benefitType": "gratis",
+  "details": "Con 'El Cumpleañero Nunca Paga', asistes la semana de tu cumpleaños acompañado de 5 amigos y tu platillo es gratis; piden identificación. El menú del sitio no detalla exclusiones, bebidas ni fecha de vigencia.",
+  "requirements": [
+   "Ir con 5 amigos",
+   "Solo la semana de tu cumpleaños",
+   "Identificación oficial (ID) requerida"
+  ],
+  "window": "semana",
+  "windowNote": "Semana de tu cumpleaños",
+  "howToClaim": "Llega con tus 5 acompañantes y presenta tu ID; para reservar llama al (867) 715 1130.",
+  "sources": [
+   "https://tomatillos.com.mx/menu/"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "TAM"
+  ],
+  "cities": [
+   "nuevo-laredo"
+  ]
+ },
+ {
+  "program": "The Gourmet Club (MVNGATA)",
+  "signupUrl": "https://mvngatahotel.com/thegourmetclub/",
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "MVNGATA Beach Hotel & Club, Av. Xcalacoco, Playa del Carmen; la página no muestra fecha de vigencia",
+  "companions": 3,
+  "needsId": true,
+  "slug": "mvngata-gourmet-club-playa-del-carmen",
+  "brand": "MVNGATA Beach Hotel (Gourmet Club)",
+  "category": "restaurantes",
+  "benefit": "15% de tu consumo en puntos el día de tu cumpleaños",
+  "benefitType": "regalo-con-compra",
+  "details": "Con la tarjeta gratuita The Gourmet Club, el día exacto de tu cumpleaños recibes 15% de tu consumo en puntos (en vez del 10% habitual) si consumes ese día y te acompañan al menos 3 personas. Cada punto vale $1 MXN, vence a los 180 días y para canjearlo debes gastar al menos 50% adicional.",
+  "requirements": [
+   "Tarjeta The Gourmet Club (gratis)",
+   "Haber consumido antes en los restaurantes del hotel",
+   "Consumir el día exacto de tu cumpleaños",
+   "Ir con al menos 3 personas más",
+   "Puntos válidos 180 días; canje con 50% de gasto adicional"
+  ],
+  "window": "dia",
+  "windowNote": "Solo el día exacto de tu cumpleaños",
+  "howToClaim": "Regístrate al Gourmet Club tras un primer consumo (nombre, correo, teléfono y foto de tu ID) y consume el día de tu cumpleaños con 3 acompañantes.",
+  "sources": [
+   "https://mvngatahotel.com/thegourmetclub/"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "ROO"
+  ],
+  "cities": [
+   "playa-del-carmen"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Texto de la página de reservaciones 'Playa del Carmen' del sitio oficial, que lista sucursales de Cancún (Av. Yaxchilán, Plaza La Isla, Las Américas, Cancún Mall, Gran Plaza, Plaza Outlet)",
+  "companions": null,
+  "needsId": false,
+  "slug": "la-parrilla-playa-del-carmen",
+  "brand": "La Parrilla",
+  "category": "restaurantes",
+  "benefit": "Rebanada de pastel o postre de la casa gratis",
+  "benefitType": "gratis",
+  "details": "Si celebras tu cumpleaños en La Parrilla, el cumpleañero recibe una rebanada de pastel o un postre de la casa mientras cantan las mañanitas al estilo del restaurante. El sitio no indica identificación, consumo mínimo ni vigencia, y la página tiene copyright 2021: confirma que siga vigente.",
+  "requirements": [
+   "Celebrar tu cumpleaños en el restaurante",
+   "El sitio no indica identificación ni consumo mínimo"
+  ],
+  "window": "dia",
+  "windowNote": "Día de tu cumpleaños (el sitio no precisa más)",
+  "howToClaim": "Avisa al mesero que es tu cumpleaños; reserva en laparrilla.com.mx o por WhatsApp 998 767 8898.",
+  "sources": [
+   "https://laparrilla.com.mx/ES/reservaciones/playa-del-carmen.php"
+  ],
+  "confidence": "media",
+  "coverage": "ciudades",
+  "states": [
+   "ROO"
+  ],
+  "cities": [
+   "playa-del-carmen",
+   "cancun"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Rosa Negra, Tantra, Tora, Chambao, Taboo y Confessions (Tulum). Tora también ofrece ronda de shots con bengalas y pastel individual si reservas por sus redes",
+  "companions": null,
+  "needsId": true,
+  "slug": "grupo-rosanegra-tulum",
+  "brand": "Grupo RosaNegra (Tulum)",
+  "category": "restaurantes",
+  "benefit": "Pastel con bengalas y ronda de shots al reservar",
+  "benefitType": "gratis",
+  "details": "Al reservar por OpenTable en uno de sus restaurantes de Tulum (Rosa Negra, Tantra, Tora, Chambao, Taboo o Confessions) y escribir el código promocional en peticiones especiales, la mesa recibe pastel personalizado con bengalas y una ronda de shots. La página oficial aún muestra el código HB2025, por lo que hay que confirmar si sigue vigente en 2026.",
+  "requirements": [
+   "Reservar en línea por OpenTable",
+   "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+   "Identificación oficial válida el día de la reserva"
+  ],
+  "window": "dia",
+  "windowNote": "El día de tu reservación (cumpleaños)",
+  "howToClaim": "Reserva en OpenTable, agrega el código en 'special requests' y presenta tu identificación.",
+  "sources": [
+   "https://www.gruporosanegra.restaurant/en/birthday-restaurant-tulum",
+   "https://www.torarestaurant.com.mx/en/restaurante-japones-tulum-japanese-restaurant"
+  ],
+  "confidence": "media",
+  "coverage": "ciudades",
+  "states": [
+   "ROO"
+  ],
+  "cities": [
+   "tulum"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Restaurantes de Grupo RosaNegra en la zona hotelera de Cancún (frente a la laguna)",
+  "companions": null,
+  "needsId": true,
+  "slug": "grupo-rosanegra-cancun",
+  "brand": "Grupo RosaNegra (Cancún)",
+  "category": "restaurantes",
+  "benefit": "Pastel individual con bengalas y ronda de shots",
+  "benefitType": "gratis",
+  "details": "Al reservar en OpenTable en uno de sus restaurantes de la zona hotelera de Cancún y escribir el código promocional de cumpleaños en peticiones especiales, la mesa recibe un pastel individual con bengalas y una ronda especial de shots. La página oficial aún muestra el código HB2025, por lo que hay que confirmar si sigue vigente en 2026.",
+  "requirements": [
+   "Reservar en línea por OpenTable",
+   "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+   "Identificación oficial válida el día de la reserva"
+  ],
+  "window": "dia",
+  "windowNote": "El día de tu reservación (cumpleaños)",
+  "howToClaim": "Reserva en OpenTable, agrega el código en 'special requests' y presenta tu identificación.",
+  "sources": [
+   "https://www.gruporosanegra.restaurant/en/birthday-restaurant-cancun"
+  ],
+  "confidence": "media",
+  "coverage": "ciudades",
+  "states": [
+   "ROO"
+  ],
+  "cities": [
+   "cancun"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Calle 62 #443, Parque Santa Lucía, Centro Histórico de Mérida",
+  "companions": null,
+  "needsId": false,
+  "slug": "la-bodeguita-de-parceros-merida",
+  "brand": "La Bodeguita de Parceros (Mérida)",
+  "category": "restaurantes",
+  "benefit": "Decoración, postre y cantada de cumpleaños gratis",
+  "benefitType": "gratis",
+  "details": "Al reservar tu cumpleaños con anticipación (WhatsApp con fecha, hora y número de personas), la decoración de la mesa, el postre con velita y la celebración con música y cantada van por cuenta del restaurante, sin costo extra. Piden avisar con tiempo (los fines de semana se llenan) y decir si el festejado tiene alergias.",
+  "requirements": [
+   "Reservar y avisar con anticipación",
+   "Dar fecha, hora y número de personas",
+   "Avisar si el festejado tiene alergias"
+  ],
+  "window": "otro",
+  "windowNote": "El día de tu celebración, con reservación previa; el sitio no indica vigencia",
+  "howToClaim": "Escribe por WhatsApp al 999 251 8262 o reserva en parceros.mx/celebraciones con fecha, hora y número de personas.",
+  "sources": [
+   "https://parceros.mx/celebraciones",
+   "https://parceros.mx/terminos"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Sucursales reportadas en Calle 36 (col. Pensiones, Av. Alfredo Barrera Vázquez 256) y Calle 31 (col. Madero), Mérida",
+  "companions": 3,
+  "needsId": true,
+  "slug": "pizza-ajedrez-merida",
+  "brand": "Pizza's Ajedrez (Mérida)",
+  "category": "restaurantes",
+  "benefit": "Pase gratis al buffet de pizzas en tu mes",
+  "benefitType": "gratis",
+  "details": "Según listados de TikTok (no confirmado en sitio ni redes oficiales), en tu mes de cumpleaños te regalan el pase al buffet de pizzas, pastas, tacos y más si presentas un documento que acredite tu cumpleaños y vas con 3 personas; el buffet cuesta $149 para los demás. La cuenta oficial de TikTok del negocio tiene un video sobre el buffet pero sin texto, así que no confirma las reglas.",
+  "requirements": [
+   "Ser tu mes de cumpleaños",
+   "Presentar documento con fecha de nacimiento",
+   "Ir con 3 personas (según TikTok)"
+  ],
+  "window": "mes",
+  "windowNote": "Mes de tu cumpleaños (según TikTok)",
+  "howToClaim": "Reserva por WhatsApp 999 906 2641 o llega con tu identificación y avisa que es tu cumpleaños; confirma condiciones antes de ir.",
+  "sources": [
+   "https://www.tiktok.com/discover/donde-comer-gratis-en-tu-cumplea%C3%B1os-en-merida",
+   "https://www.facebook.com/p/Pizzas-Ajedrez-100064825983328/"
+  ],
+  "confidence": "baja",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Sucursales: Santa Lucía (Calle 60 #471) y Norte (Av. Líbano 54); el 4+1 se reportó en el Norte",
+  "companions": 4,
+  "needsId": null,
+  "slug": "cafe-bar-500-noches-merida",
+  "brand": "Café Bar 500 Noches (Mérida)",
+  "category": "cafe",
+  "benefit": "Tu comida gratis con 4 amigos (esquema 4+1)",
+  "benefitType": "gratis",
+  "details": "Según nota de Yucatán Today del 19-mar-2024 (anterior a 2025, puede haber cambiado), en la semana de tu cumpleaños y de 8 am a 1 pm, si vas con 4 amigos la comida del cumpleañero va gratis. La ficha del negocio en el sitio turístico del Ayuntamiento (Visit Mérida) solo dice que los lunes celebran a los cumpleañeros de la semana, y su Instagram no menciona la promo: confirma antes de ir.",
+  "requirements": [
+   "Ir con 4 amigos",
+   "Solo en la semana de tu cumpleaños",
+   "Solo de 8 am a 1 pm"
+  ],
+  "window": "semana",
+  "windowNote": "Semana de tu cumpleaños, de 8 am a 1 pm (nota de 2024)",
+  "howToClaim": "Confirma vigencia por Instagram (@cafebar500noches_) o al 999 369 0282 y avisa que es tu cumpleaños al pedir.",
+  "sources": [
+   "https://yucatantoday.com/en/blog/promotions-and-discounts-2",
+   "https://visitmerida.mx/que-hacer/c358"
+  ],
+  "confidence": "baja",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Sucursales sin confirmar; Uber Eats y Rappi listan El Rey Elotero en Tixcacal (Calle 51 #821) y puestos de 'Elotes del Rey' en Los Pinos y Av. Acueducto",
+  "companions": null,
+  "needsId": true,
+  "slug": "el-rey-elotero-merida",
+  "brand": "El Rey Elotero (Mérida)",
+  "category": "comida-rapida",
+  "benefit": "Tostito gratis en tu semana de cumpleaños",
+  "benefitType": "gratis",
+  "details": "Según listados de TikTok sobre promos de cumpleaños en Mérida (no confirmado en sitio oficial), en tu semana de cumpleaños te dan un Tostito gratis presentando tu INE. No se encontró página propia del negocio con las reglas.",
+  "requirements": [
+   "INE vigente",
+   "Ir en la semana de tu cumpleaños"
+  ],
+  "window": "semana",
+  "windowNote": "Semana de tu cumpleaños (según TikTok)",
+  "howToClaim": "Presenta tu INE al pedir y confirma condiciones con el negocio.",
+  "sources": [
+   "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+  ],
+  "confidence": "baja",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ]
+ },
+ {
+  "program": null,
+  "signupUrl": null,
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Calle 60 #445 entre 49 y 51, Centro, Mérida",
+  "companions": 3,
+  "needsId": true,
+  "slug": "casa-yucatan-merida",
+  "brand": "Casa Yucatán (Mérida)",
+  "category": "restaurantes",
+  "benefit": "Plato fuerte y pastel gratis en tu mes",
+  "benefitType": "gratis",
+  "details": "Según listados de TikTok sobre promos de cumpleaños en Mérida (no confirmado en el sitio oficial, cuyo dominio parece secuestrado), en tu mes de cumpleaños el festejado recibe un plato fuerte y pastel gratis con una mesa de 4 personas, mostrando identificación y pidiendo todos un plato fuerte; una promoción por mesa. Otros listados mencionan bebida en lugar de pastel.",
+  "requirements": [
+   "Mesa de 4 personas (según TikTok)",
+   "Identificación oficial",
+   "Todos piden un plato fuerte",
+   "Una promoción por mesa"
+  ],
+  "window": "mes",
+  "windowNote": "Mes de tu cumpleaños (según TikTok)",
+  "howToClaim": "Confirma mesa mínima y condiciones con el restaurante (999 802 3122) antes de ir.",
+  "sources": [
+   "https://www.tiktok.com/discover/restaurantes-en-merida-yucatan-para-festejar-cumplea%C3%B1os",
+   "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+  ],
+  "confidence": "baja",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ]
+ }
+]

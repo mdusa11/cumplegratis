@@ -60,7 +60,8 @@
     "howToClaim": "Llega con 4 adultos que pidan el buffet y avisa en el restaurante que es tu cumpleaños; reserva por teléfono 444 818 4591.",
     "sources": [
       "https://www.brazzayfogoslp.com/",
-      "https://www.facebook.com/BrazzayfogoSLP/"
+      "https://www.facebook.com/BrazzayfogoSLP/",
+      "https://www.tiktok.com/@andreadealbacc/video/7405832561143975174"
     ],
     "confidence": "alta",
     "coverage": "ciudades",
@@ -132,7 +133,8 @@
     "howToClaim": "Reserva por WhatsApp o llama al 444 962 5016 / 444 523 7800 y avisa que festejas tu cumpleaños.",
     "sources": [
       "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
-      "https://www.instagram.com/hechoenbrazza/"
+      "https://www.instagram.com/hechoenbrazza/",
+      "https://www.tiktok.com/@danielzam_/video/7378241968159165701"
     ],
     "confidence": "baja",
     "coverage": "ciudades",
@@ -142,7 +144,7 @@
     "cities": [
       "san-luis-potosi"
     ],
-    "locationNote": "Julián de los Reyes 356C, Villa de Pozos (zona metropolitana de SLP); buffet en planta alta.",
+    "locationNote": "Julián de los Reyes 356C, Villa de Pozos (zona metropolitana de SLP), planta alta; horario anunciado: mar-jue 12:30-18:30, vie 12:30-19:30, sáb-dom 13:30-19:30. Existe otra sucursal de la marca en Monterrey.",
     "needsId": null,
     "companions": 4
   },
@@ -152,17 +154,17 @@
     "category": "restaurantes",
     "benefit": "Cumpleañero gratis en el buffet con 5 adultos más",
     "benefitType": "gratis",
-    "details": "Según publicaciones en redes, el festejado come gratis en el buffet de carnitas si va con 5 adultos que también consuman el buffet, presentando identificación y celebrando entre semana. El buffet se anuncia de viernes a domingo (9:00 a 16:00), así que confirma qué días aplica el beneficio.",
+    "details": "Según publicaciones en redes, el festejado come gratis en el buffet de carnitas durante la semana de su cumpleaños si va con 5 adultos que también consuman el buffet y presenta identificación (una publicación dice 'entre semana'). El buffet se anuncia de viernes a domingo (9:00 a 16:00), así que confirma qué días aplica el beneficio.",
     "program": null,
     "signupUrl": null,
     "requirements": [
       "5 adultos más que consuman el buffet",
       "Presentar identificación",
-      "Celebrar entre semana (confirmar días)"
+      "Válido en la semana de tu cumpleaños (confirmar días)"
     ],
     "registerDaysBefore": null,
     "window": "semana",
-    "windowNote": "Menciona celebrar 'entre semana'; el buffet abre viernes a domingo",
+    "windowNote": "Semana de tu cumpleaños; el buffet abre viernes a domingo",
     "minPurchase": null,
     "howToClaim": "Llega con 5 adultos, pide el buffet y presenta tu ID; confirma antes por teléfono 444 415 6838.",
     "sources": [
@@ -183,47 +185,12 @@
     "companions": 5
   },
   {
-    "slug": "finca-los-abuelos-san-luis-potosi",
-    "brand": "Finca Los Abuelos",
-    "category": "restaurantes",
-    "benefit": "Cumpleañero no paga su buffet y recibe pastelito",
-    "benefitType": "gratis",
-    "details": "Publicaciones en redes indican que en este buffet de comida mexicana el cumpleañero no paga su buffet y recibe un pastelito de obsequio. No se encontró aviso oficial con mínimo de acompañantes, días o vigencia; confirma por teléfono 444 845 5369.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Confirma mínimo de acompañantes",
-      "Confirma si piden identificación",
-      "Confirma días y vigencia"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "No se precisa vigencia ni día",
-    "minPurchase": null,
-    "howToClaim": "Reserva o llama al 444 845 5369 y avisa que es tu cumpleaños al llegar.",
-    "sources": [
-      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
-      "https://www.facebook.com/fincalosabuelosslp/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "SLP"
-    ],
-    "cities": [
-      "san-luis-potosi"
-    ],
-    "locationNote": "Buffet de comida mexicana en San Luis Potosí; la dirección exacta no se pudo confirmar.",
-    "needsId": null,
-    "companions": null
-  },
-  {
     "slug": "carranza-1573-san-luis-potosi",
     "brand": "Carranza 1573",
     "category": "restaurantes",
     "benefit": "Desayuno gratis al cumpleañero con 3 personas más",
     "benefitType": "gratis",
-    "details": "Según publicaciones en redes, el cumpleañero no paga (desayuno) si lo acompañan 3 personas más; solo aplica el día exacto del cumpleaños y presentando identificación. No hay aviso oficial con vigencia; confirma antes de ir.",
+    "details": "Según publicaciones en redes, el cumpleañero no paga su desayuno (buffet de desayunos de fin de semana de comida mexicana) si lo acompañan 3 personas más; solo aplica el día exacto del cumpleaños y presentando identificación. No hay aviso oficial con vigencia; confirma antes de ir.",
     "program": null,
     "signupUrl": null,
     "requirements": [
@@ -235,9 +202,10 @@
     "window": "dia",
     "windowNote": "Solo el día de tu cumpleaños",
     "minPurchase": null,
-    "howToClaim": "Llega con 3 personas, presenta tu identificación y avisa al pedir.",
+    "howToClaim": "Reserva al 444 215 4909, llega con 3 personas, presenta tu identificación y avisa al pedir.",
     "sources": [
       "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.tiktok.com/@dianamendiolad/video/7442811202352303416",
       "https://www.tripadvisor.com/Restaurant_Review-g153477-d33023215-Reviews-Carranza_1573-San_Luis_Potosi_Central_Mexico_and_Gulf_Coast.html"
     ],
     "confidence": "baja",
@@ -248,7 +216,7 @@
     "cities": [
       "san-luis-potosi"
     ],
-    "locationNote": "Av. Venustiano Carranza 1573, San Luis Potosí.",
+    "locationNote": "Av. Venustiano Carranza 1573 (col. Tequisquiapan), San Luis Potosí; buffet de desayunos los fines de semana.",
     "needsId": true,
     "companions": 3
   },
@@ -272,8 +240,7 @@
     "minPurchase": null,
     "howToClaim": "Avisa en el restaurante del hotel que es tu cumpleaños y muestra tu INE.",
     "sources": [
-      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
-      "https://www.hilton.com/es/hotels/slphhhh-hilton-san-luis-potosi/dining/"
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD"
     ],
     "confidence": "baja",
     "coverage": "ciudades",
@@ -570,42 +537,6 @@
     "companions": 4
   },
   {
-    "slug": "el-rincon-del-sabor-aguascalientes",
-    "brand": "Cenaduría El Rincón del Sabor",
-    "category": "restaurantes",
-    "benefit": "Cumpleañero come gratis (según redes, sin condiciones)",
-    "benefitType": "gratis",
-    "details": "Publicaciones en redes mencionan que el cumpleañero come gratis en esta cenaduría de pozole y antojitos con varias sucursales. No se encontraron condiciones (acompañantes, identificación, días) ni aviso oficial; su menú digital no menciona la promo.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Confirma acompañantes y consumo mínimo",
-      "Confirma si piden identificación",
-      "Confirma sucursales participantes"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "No se precisa vigencia ni día",
-    "minPurchase": null,
-    "howToClaim": "Pregunta en la sucursal o por teléfono 449 536 6427.",
-    "sources": [
-      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
-      "https://menus.prowit.app/rincondelsabor",
-      "https://www.facebook.com/cenaduriarincondelsabor/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "AGU"
-    ],
-    "cities": [
-      "aguascalientes"
-    ],
-    "locationNote": "Matriz en Av. Mariano Escobedo, Jardines de la Cruz; hay sucursales en Jardines del Parque (INEGI) y Juan Pablo II. Abre de 16:00 a 22:00.",
-    "needsId": null,
-    "companions": null
-  },
-  {
     "slug": "la-casa-del-centro-aguascalientes",
     "brand": "La Casa del Centro",
     "category": "restaurantes",
@@ -711,7 +642,7 @@
     ],
     "locationNote": "Juárez: Blvd. Manuel Gómez Morín 7640. Chihuahua: Periférico de la Juventud 6112, Haciendas del Valle. Confirma en cuál sucursal aplica.",
     "needsId": null,
-    "companions": 2
+    "companions": null
   },
   {
     "slug": "buffet-on-chihuahua",
@@ -991,5 +922,218 @@
     "locationNote": "The Park SLP, Blvd. Antonio Rocha Cordero 157, Lomas del Pedregal.",
     "needsId": null,
     "companions": null
+  },
+  {
+    "slug": "el-rincon-del-sabor-aguascalientes",
+    "brand": "Cenaduría El Rincón del Sabor",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis los martes con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "Un video de la cuenta oficial de TikTok de la cenaduría anuncia 'este martes festeja tu cumpleaños y come gratis' en su sucursal INEGI, y otras publicaciones mencionan que debes llevar tres acompañantes. El video es de 2023: confirma que la promo sigue vigente, qué platillos incluye y si piden identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes (según redes)",
+      "Promo de martes en sucursal INEGI",
+      "Confirma identificación y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Martes, según el video de la cenaduría (2023)",
+    "minPurchase": null,
+    "howToClaim": "Ve el martes a la sucursal INEGI con 3 acompañantes y avisa que es tu cumpleaños; tel. 449 536 6427.",
+    "sources": [
+      "https://www.tiktok.com/@el.rincon.del.sabor/video/7298804296991116549",
+      "https://www.tiktok.com/@el.rincon.del.sabor",
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Sucursal INEGI (Av. del Lago, Jardines del Parque); la cenaduría tiene 3 sucursales y abre de 16:00 a 22:00.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "chevalier-brunch-cafe-aguascalientes",
+    "brand": "Chevalier Brunch Café",
+    "category": "cafe",
+    "benefit": "Cumpleañero come gratis (1 platillo y 1 bebida) con 4 personas",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, el cumpleañero recibe 1 platillo y 1 bebida gratis presentando INE y llegando con un mínimo de 4 acompañantes. No hay aviso oficial con días ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Presentar INE",
+      "Mínimo 4 acompañantes",
+      "1 platillo y 1 bebida incluidos",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Llega con 4 acompañantes, muestra tu INE y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Café de brunch en Aguascalientes; dirección sin confirmar.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "madama-galeria-cafeteria-aguascalientes",
+    "brand": "MaDaMa Galería y Cafetería",
+    "category": "cafe",
+    "benefit": "Kit de pintura y una bebida gratis al celebrar tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Publicaciones en redes indican que al celebrar tu cumpleaños con amigos en esta galería-cafetería recibes un kit de pintura y una bebida gratis. Su sitio web y su perfil no publican condiciones (reservación, acompañantes, días); confirma por teléfono 449 395 6236.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar con amigos (según redes)",
+      "Reservar y confirmar condiciones",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva en MaDaMa (449 395 6236 o Instagram @madama_galeria) y menciona que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://madama.mx/",
+      "https://www.instagram.com/madama_galeria/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Nieto 403, centro histórico de Aguascalientes.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "escape-rooms-aguascalientes",
+    "brand": "Escape Rooms Aguascalientes",
+    "category": "experiencias",
+    "benefit": "Entras gratis en tu semana de cumpleaños con 3 amigos",
+    "benefitType": "gratis",
+    "details": "La cuenta de TikTok del negocio anuncia que durante la semana de tu cumpleaños entras gratis a un escape room si llevas 3 amigos o más. Su sitio oficial no publica la promo ni sus condiciones; confirma precio, horarios y vigencia por WhatsApp.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 amigos o más",
+      "Válido en la semana de tu cumpleaños",
+      "Reservar tu sala"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp 449 349 7100 y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://escaperoomsaguascalientes.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Escape Rooms Aguascalientes; dirección no confirmada.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "tony-romas-san-luis-potosi",
+    "brand": "Tony Roma's San Luis Potosí",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel gratis al festejado con tu consumo",
+    "benefitType": "regalo-con-compra",
+    "details": "El blog del Tony Roma's de San Luis Potosí dice '¡Gratis una rebanada de pastel al festejado!' presentando identificación y válido en el mes de tu cumpleaños, con consumo de alimentos. El blog parece desactualizado (publicaciones de hace años), así que confirma que la sucursal y la promo siguen vigentes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Consumir alimentos",
+      "Presentar identificación",
+      "Válido en el mes de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños (según el blog de la sucursal)",
+    "minPurchase": null,
+    "howToClaim": "Pide tus alimentos, presenta tu identificación y solicita la rebanada de pastel.",
+    "sources": [
+      "https://tonyromaslp-blog.tumblr.com/fiesta",
+      "https://agendasanluis.com/tony-romas/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Plaza El Dorado, Av. Nereo Rodríguez Barragán 450, local G-32 (según directorio).",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "finca-los-abuelos-san-luis-potosi",
+    "brand": "Finca Los Abuelos",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga buffet con 5 adultos y recibe pastelito",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en la semana de tu cumpleaños el buffet del cumpleañero va gratis si lo acompañan 5 adultos que consumen el buffet, y que además recibe un pastelito de obsequio. El buffet de comida mexicana (barbacoa, menudo y más) se anuncia sábados y domingos de 8:00 a 15:00; no hay aviso oficial con identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "5 adultos más que consuman el buffet",
+      "Válido en la semana de tu cumpleaños (según redes)",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, según redes; buffet sábados y domingos",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llama al 444 845 5369, llega con 5 adultos y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.facebook.com/fincalosabuelosslp/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Buffet camino a Cerro de San Pedro, San Luis Potosí; la dirección exacta no se pudo confirmar.",
+    "needsId": null,
+    "companions": 5
   }
 ]
