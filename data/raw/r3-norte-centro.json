@@ -1,0 +1,995 @@
+[
+  {
+    "slug": "las-espadas-chihuahua-juarez-aguascalientes",
+    "brand": "Las Espadas Brazilian Steakhouse",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero come gratis acompañado de 4 adultos",
+    "benefitType": "gratis",
+    "details": "Su sitio oficial publica la promo 'El cumpleañero come GRATIS acompañado de 4 adultos'. Válida de lunes a jueves durante el mes de tu cumpleaños; no aplica en días festivos ni durante diciembre (si cumples en diciembre, aplica en noviembre o enero). Aplican restricciones que el sitio no detalla.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de 4 adultos",
+      "Válido de lunes a jueves",
+      "No aplica en días festivos ni en diciembre",
+      "Cumpleaños en diciembre: usar noviembre o enero",
+      "Aplican restricciones (no detalladas)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Lunes a jueves del mes de tu cumpleaños; no aplica en diciembre ni festivos",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llega a la sucursal acompañado de 4 adultos y avisa que es tu cumpleaños; lleva identificación por si la piden.",
+    "sources": [
+      "https://lasespadas.mx/",
+      "https://lasespadas.mx/wp-content/uploads/2026/10/Las-Espadas-Promo-Cumpleanos-Web.jpg"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CHH",
+      "AGU"
+    ],
+    "cities": [
+      "chihuahua",
+      "ciudad-juarez",
+      "aguascalientes"
+    ],
+    "locationNote": "Sucursales listadas en su sitio: Chihuahua (Plaza Cumbres y Travessia), Ciudad Juárez (Ejército Nacional, Paseo Triunfo y 3 Torres) y Aguascalientes (Blvd. Colosio 221). La imagen de la promo es general; el sitio no aclara si aplica igual en todas.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "brazza-y-fogo-do-brasil-san-luis-potosi",
+    "brand": "Brazza y Fogo do Brasil",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 adultos que coman buffet",
+    "benefitType": "gratis",
+    "details": "Su sitio oficial anuncia '4 adultos + tú comes gratis' en la sección 'Tu cumpleaños se celebra en grande', con la nota 'aplican restricciones' sin detallarlas. Se entiende que el cumpleañero come gratis si lo acompañan 4 adultos que consumen el buffet de cortes brasileños; confirma condiciones con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "4 adultos que consuman el buffet",
+      "Aplican restricciones (no detalladas en el sitio)",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El sitio no precisa día ni vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llega con 4 adultos que pidan el buffet y avisa en el restaurante que es tu cumpleaños; reserva por teléfono 444 818 4591.",
+    "sources": [
+      "https://www.brazzayfogoslp.com/",
+      "https://www.facebook.com/BrazzayfogoSLP/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Según su sitio: lateral Carr. San Luis Potosí-México s/n, col. Central; tel. 444 818 4591. Buffet de cortes y espadas brasileñas.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "los-canarios-fiesta-americana-san-luis-potosi",
+    "brand": "Los Canarios (Fiesta Americana SLP)",
+    "category": "restaurantes",
+    "benefit": "Plato fuerte gratis (hasta $350) y rebanada de pastel",
+    "benefitType": "gratis",
+    "details": "En el restaurante Los Canarios del hotel Fiesta Americana San Luis Potosí, si comes con al menos 2 adultos más, tu plato fuerte va por la casa (tope de $350) y te dan una rebanada de pastel de cortesía. Válido durante el mes de tu cumpleaños con identificación oficial; no es transferible ni combinable con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mínimo 2 adultos acompañantes",
+      "Identificación oficial vigente",
+      "Válido durante el mes de tu cumpleaños",
+      "Plato fuerte gratis hasta $350",
+      "No transferible ni combinable con otras promos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, el sitio no marca fin de vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Los Canarios (+52 444 159 5751), llega con 2 adultos y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.fiestamericanatravelty.com/en/fiesta-americana/hotels/fiesta-americana-san-luis-potosi/dining/los-canarios",
+      "https://www.fiestamericanatravelty.com/en/fiesta-americana/hotels/fiesta-americana-san-luis-potosi/dining"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Av. Salvador Nava Martínez 3125, San Luis Potosí; abre 6:00-12:00 y 13:00-23:00.",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "hecho-en-brazza-san-luis-potosi",
+    "brand": "Hecho en Brazza",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis y pastel al reunir 4 personas",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del buffet churrasquería indican que si reúnes 4 personas, el cumpleañero come gratis el buffet de más de 20 cortes con barra de ensaladas e incluyen un pastel. No se encontró aviso oficial con días, identificación ni vigencia; confirma por WhatsApp o teléfono.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 4 personas (según redes)",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp o llama al 444 962 5016 / 444 523 7800 y avisa que festejas tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.instagram.com/hechoenbrazza/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Julián de los Reyes 356C, Villa de Pozos (zona metropolitana de SLP); buffet en planta alta.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "carnitas-la-huerta-san-luis-potosi",
+    "brand": "Carnitas La Huerta",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero gratis en el buffet con 5 adultos más",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, el festejado come gratis en el buffet de carnitas si va con 5 adultos que también consuman el buffet, presentando identificación y celebrando entre semana. El buffet se anuncia de viernes a domingo (9:00 a 16:00), así que confirma qué días aplica el beneficio.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "5 adultos más que consuman el buffet",
+      "Presentar identificación",
+      "Celebrar entre semana (confirmar días)"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Menciona celebrar 'entre semana'; el buffet abre viernes a domingo",
+    "minPurchase": null,
+    "howToClaim": "Llega con 5 adultos, pide el buffet y presenta tu ID; confirma antes por teléfono 444 415 6838.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.facebook.com/Carnitashuerta/",
+      "https://www.instagram.com/carnitaslahuerta/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Pedro Moreno 844, Barrio de Santiago; buffet de viernes a domingo de 9:00 a 16:00.",
+    "needsId": true,
+    "companions": 5
+  },
+  {
+    "slug": "finca-los-abuelos-san-luis-potosi",
+    "brand": "Finca Los Abuelos",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga su buffet y recibe pastelito",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este buffet de comida mexicana el cumpleañero no paga su buffet y recibe un pastelito de obsequio. No se encontró aviso oficial con mínimo de acompañantes, días o vigencia; confirma por teléfono 444 845 5369.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma mínimo de acompañantes",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llama al 444 845 5369 y avisa que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.facebook.com/fincalosabuelosslp/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Buffet de comida mexicana en San Luis Potosí; la dirección exacta no se pudo confirmar.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "carranza-1573-san-luis-potosi",
+    "brand": "Carranza 1573",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis al cumpleañero con 3 personas más",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, el cumpleañero no paga (desayuno) si lo acompañan 3 personas más; solo aplica el día exacto del cumpleaños y presentando identificación. No hay aviso oficial con vigencia; confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas más",
+      "Solo el día de tu cumpleaños",
+      "Presentar identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Llega con 3 personas, presenta tu identificación y avisa al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.tripadvisor.com/Restaurant_Review-g153477-d33023215-Reviews-Carranza_1573-San_Luis_Potosi_Central_Mexico_and_Gulf_Coast.html"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Av. Venustiano Carranza 1573, San Luis Potosí.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "hilton-san-luis-potosi-restaurante",
+    "brand": "Hilton San Luis Potosí (restaurantes)",
+    "category": "restaurantes",
+    "benefit": "Cóctel y rebanada de pastel de cortesía en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según una publicación de redes ('te consentimos'), el hotel regala un cóctel y una rebanada de pastel de cortesía al cumpleañero que consume en su restaurante y presenta INE. No se encontró la condición en el sitio oficial del hotel ni su vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Consumir en el restaurante del hotel",
+      "Presentar INE",
+      "Confirma vigencia y mínimo de consumo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante del hotel que es tu cumpleaños y muestra tu INE.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.hilton.com/es/hotels/slphhhh-hilton-san-luis-potosi/dining/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Hilton San Luis Potosí; restaurantes Las Golondrinas y La Bóveda. No está claro en cuál aplica.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "winepark-san-luis-potosi",
+    "brand": "Wine Park",
+    "category": "restaurantes",
+    "benefit": "Copa de vino gigante y pastel para el cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "Una publicación en redes afirma que Wine Park regala una copa de vino gigante y un pastel a quien festeja su cumpleaños. No se encontraron condiciones (consumo mínimo, acompañantes, días) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo y acompañantes",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa en el restaurante que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.opentable.com/r/wine-park-san-luis-potosi"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Salvador Nava Martínez 3125, San Luis Potosí (restaurante italiano con toque mexicano).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-chalupa-guadalupe-zacatecas",
+    "brand": "La Chalupa Cocina Tradicional",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis en el buffet (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del buffet de cocina tradicional afirman que el cumpleañero come gratis. No se encontraron condiciones (acompañantes, identificación, días) ni aviso oficial vigente; su perfil oficial muestra otras promos (20% a mayores de 50, 2x1 en buffet de desayuno en septiembre).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma mínimo de acompañantes",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños o reserva al 492 307 7488.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://lachalupa.gotoeat.net/",
+      "https://www.instagram.com/lachalupa.zac/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Av. Sevilla, Plaza Tahona 107 B, Tahona, Guadalupe (junto a Sam's Club); abre diario de 9:00 a 19:00.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-casa-de-los-abuelos-zacatecas",
+    "brand": "La Casa de los Abuelos (buffet)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis acompañado (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este buffet (menudo, birria y comida mexicana, de 8:00 a 14:00) los cumpleañeros comen gratis si van acompañados. No se encontró número de acompañantes, identificación ni vigencia, y la dirección exacta no se pudo confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado (número no confirmado)",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia; buffet de 8:00 a 14:00",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños; confirma condiciones por Facebook o teléfono.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Existen varios restaurantes 'La Casa de los Abuelos' en el país; este es el de Zacatecas, sin dirección confirmada.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-refugio-guadalupe-zacatecas",
+    "brand": "El Refugio Parrilla y Tacos",
+    "category": "restaurantes",
+    "benefit": "Postre gratis para el cumpleañero (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que este restaurante de parrilla y tacos regala un postre al cumpleañero. No se encontraron condiciones (consumo mínimo, acompañantes, identificación) ni aviso oficial; abre de miércoles a domingo y cierra los martes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que es tu cumpleaños al pedir la cuenta o el postre.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "García Salinas 105, Guadalupe; miércoles a domingo de 14:00 a 22:30 según listados.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "roza-cafe-zacatecas",
+    "brand": "Roza Café",
+    "category": "cafe",
+    "benefit": "Detalle de la casa para quien cumple años en tu mesa",
+    "benefitType": "regalo-con-compra",
+    "details": "Según publicaciones en redes, si vas a desayunar en grupo para festejar, la cafetería-birriería rosa del centro histórico regala un detalle a quien cumple años en la mesa; para picnics de cumpleaños de 5 o más personas se menciona un mini pastel de cortesía. Su Instagram oficial promociona 'cumples coquett' bajo reservación; las condiciones exactas no están publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Desayunar o celebrar en grupo",
+      "Para el mini pastel: grupos de 5 o más (según redes)",
+      "Reservar y preguntar condiciones por Instagram"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva por Instagram (@rozacafe.co) y menciona que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os",
+      "https://www.instagram.com/rozacafe.co/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Centro histórico de Zacatecas; la dirección exacta no se confirmó.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "mestizzo-cocina-tragos-zacatecas",
+    "brand": "Mestizzo Cocina & Tragos",
+    "category": "restaurantes",
+    "benefit": "Pastel o shots de cortesía para el festejado",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del restaurante-bar (dentro del Hotel Plaza) indican que al avisar a tu mesero quién cumple años puedes elegir entre un pastel de cortesía o shots de cortesía, que llegan en el 'Burrito de los Cumpleaños'. No se encontraron condiciones de consumo, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Avisar al mesero quién cumple años",
+      "Elegir pastel o shots",
+      "Confirma condiciones y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que festejas un cumpleaños y elige pastel o shots.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Dentro del Hotel Plaza (zona Zacatecas-Guadalupe); dirección exacta sin confirmar.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "dalecio-cantina-aguascalientes",
+    "brand": "Dalecio Cantina",
+    "category": "restaurantes",
+    "benefit": "Buffet de desayuno a $149 para cumpleañeros del día",
+    "benefitType": "descuento",
+    "details": "Un video de un creador gastronómico local lista el buffet de desayuno de lunes a miércoles (8:30 a 14:00) a $199 antes de las 9:30, $259 después, y $149 para 'cumpleañeros del día'. Es una publicación de terceros de principios de 2025; confirma que sigue vigente y si piden identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día de tu cumpleaños",
+      "Solo lunes a miércoles (8:30 a 14:00)",
+      "Confirma identificación y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día del cumpleaños, lunes a miércoles",
+    "minPurchase": 149,
+    "howToClaim": "Pide el buffet de desayuno y avisa que es tu cumpleaños para el precio de $149.",
+    "sources": [
+      "https://www.tiktok.com/@clubdelwateke/video/7467066398397746437",
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Blvd. Colosio Murrieta 511, Jardines de la Concepción II.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "amor-de-mis-sabores-aguascalientes",
+    "brand": "Amor de mis Sabores",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis acompañado (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este restaurante de cocina mexicana el cumpleañero come gratis si va acompañado de varias personas (se menciona 4 o más). No hay aviso oficial con identificación, días ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado (4 o más, según redes)",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llama al 449 829 6139 y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://www.facebook.com/amordemissabores/",
+      "https://www.instagram.com/amor.de_mis_sabores/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Eugenio Garza Sada 28 A, Pocitos (según listados).",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "el-rincon-del-sabor-aguascalientes",
+    "brand": "Cenaduría El Rincón del Sabor",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis (según redes, sin condiciones)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes mencionan que el cumpleañero come gratis en esta cenaduría de pozole y antojitos con varias sucursales. No se encontraron condiciones (acompañantes, identificación, días) ni aviso oficial; su menú digital no menciona la promo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma acompañantes y consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma sucursales participantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en la sucursal o por teléfono 449 536 6427.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://menus.prowit.app/rincondelsabor",
+      "https://www.facebook.com/cenaduriarincondelsabor/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Matriz en Av. Mariano Escobedo, Jardines de la Cruz; hay sucursales en Jardines del Parque (INEGI) y Juan Pablo II. Abre de 16:00 a 22:00.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-casa-del-centro-aguascalientes",
+    "brand": "La Casa del Centro",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis para el cumpleañero (con restricciones)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que este restaurante-café-bar del centro regala el desayuno al cumpleañero con ciertas restricciones. No se encontraron las condiciones exactas (acompañantes, días, identificación); sirve brunch de 9:00 a 13:30.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Aplican restricciones (no confirmadas)",
+      "Confirma acompañantes e identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia; brunch 9:00 a 13:30",
+    "minPurchase": null,
+    "howToClaim": "Reserva o pregunta por Instagram (@la_casadel_centro) o por teléfono 449 816 6019.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://www.instagram.com/la_casadel_centro/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Antonio Arias Bernal 320, Aguascalientes; martes a domingo.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "casa-matria-ciudad-juarez",
+    "brand": "Casa Matria",
+    "category": "restaurantes",
+    "benefit": "Los cumpleañeros comen gratis (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes y listados señalan que en este restaurante de cocina oaxaqueña los cumpleañeros comen gratis. No se encontraron condiciones (acompañantes, platillo incluido, identificación, reservación) ni un aviso oficial; su sitio web está en construcción y su Instagram solo muestra horarios y sucursales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma si es un platillo o todo el consumo",
+      "Confirma acompañantes y reservación",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar o reserva por WhatsApp/teléfono (656 308 9526 sucursal Faisán).",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cd-juarez",
+      "https://www.instagram.com/casamatriarestaurante/",
+      "https://www.casamatria.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Sucursal Faisán 3034, col. Del Márquez (8:00-17:00) y sucursal Plaza Cantabria (656 534 7543); no se aclara en cuál aplica.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-muchacho-alegre-ciudad-juarez-chihuahua",
+    "brand": "El Muchacho Alegre",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 personas (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este restaurante de mariscos sinaloenses el cumpleañero recibe su platillo gratis si llega con un mínimo de 3 personas, con reservación por WhatsApp y 'aplican restricciones'. No hay aviso oficial con identificación, días o vigencia; el dato apareció ligado a la sucursal de Periférico de la Juventud en Chihuahua y también se atribuye a Juárez.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mínimo 3 personas (según redes)",
+      "Reservar (se menciona WhatsApp)",
+      "Aplican restricciones no detalladas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp/teléfono y avisa que es tu cumpleaños; Juárez: 656 769 8153.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cd-juarez",
+      "https://www.instagram.com/elmuchachoalegrejrz/",
+      "https://restaurantguru.com/El-Muchacho-Alegre-Ciudad-Juarez"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez",
+      "chihuahua"
+    ],
+    "locationNote": "Juárez: Blvd. Manuel Gómez Morín 7640. Chihuahua: Periférico de la Juventud 6112, Haciendas del Valle. Confirma en cuál sucursal aplica.",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "buffet-on-chihuahua",
+    "brand": "Buffet On",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero con 4 personas",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que si vas el día de tu cumpleaños con 4 personas, el buffet del cumpleañero va gratis. El buffet incluye alitas, boneless y bebida refill. No hay aviso oficial con identificación, días o vigencia; su ficha en el sitio de turismo de la capital no menciona la promo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 personas",
+      "Ir el día de tu cumpleaños (según redes)",
+      "Confirma identificación y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Según redes, el día del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Llega con 4 personas, pide el buffet y avisa que es tu cumpleaños; tel. 614 420 7021.",
+    "sources": [
+      "https://www.tiktok.com/discover/buffet-alitas-chihuahua",
+      "https://visitachihuahuacapital.com/lugares-en-chihuahua/buffet-on/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Blvd. José Fuentes Mares 8003-B; abre diario de 12:00 a 20:00.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "santa-cuchara-chihuahua",
+    "brand": "Santa Cuchara",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 o más personas",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que el cumpleañero come gratis si va acompañado de 3 o más personas y 'aplican condiciones'. No se encontró aviso oficial con días, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas o más",
+      "Aplican condiciones no detalladas",
+      "Confirma identificación y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar o pregunta por redes de Santa Cuchara; confirma condiciones antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua",
+      "https://www.tiktok.com/discover/buffet-alitas-chihuahua"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Restaurante en Chihuahua capital; dirección y sucursales sin confirmar.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "nectar-restaurante-chihuahua",
+    "brand": "Néctar Restaurante",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis al cumpleañero acompañado de amigos",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del restaurante de desayunos indican que los cumpleañeros desayunan gratis si llegan acompañados de sus amigos y reciben pan de elote de bienvenida (los martes hay 2x1 en chilaquiles). No hay aviso oficial con número de acompañantes, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de amigos (número no confirmado)",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia; abre de 7:30 a 14:00",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños al pedir tu desayuno.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua",
+      "https://www.instagram.com/nectarrestaurante/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Sucursales Cafetales (Circuito Universitario 15508), Reliz y Lombardo; no se aclara en cuáles aplica.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-boneleria-chihuahua",
+    "brand": "La Bonelería",
+    "category": "bares",
+    "benefit": "Miércoles de cumpleaños y karaoke: el cumpleañero cena gratis",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes mencionan que los miércoles de cumpleaños y karaoke el cumpleañero cena gratis en este bar de boneless de Chihuahua. No se encontraron condiciones (acompañantes, consumo, identificación) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en miércoles de cumpleaños y karaoke",
+      "Confirma acompañantes y consumo mínimo",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Miércoles (según redes)",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en La Bonelería CUU por la dinámica del miércoles de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua",
+      "https://www.tiktok.com/discover/restaurante-que-canta-cumplea%C3%B1os-en-chihuahua"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "La Bonelería CUU, colonia Villa Juárez (Chihuahua capital); no confundir con la de Delicias.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "cotidiano-desayunos-y-cafe-chihuahua",
+    "brand": "Cotidiano Desayunos y Café",
+    "category": "cafe",
+    "benefit": "Postre gratis por cumpleaños o aniversario (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que esta cafetería de desayunos regala un postre para celebrar un cumpleaños o aniversario. No se encontraron condiciones (consumo mínimo, acompañantes, identificación) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa al mesero que celebras tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Cafetería de desayunos en Chihuahua capital; dirección sin confirmar.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "balneario-san-juan-durango",
+    "brand": "Balneario San Juan",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis con paquete de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Un medio local reporta que el balneario de aguas termales vende 4 paquetes de cumpleaños (10, 15, 20 o 30 invitados, desde $1,400) y el cumpleañero entra gratis; se contrata con reservación previa y área con sombra, mesas y sillas. Es un paquete de pago y no una entrada gratis a secas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Comprar un paquete de 10, 15, 20 o 30 invitados",
+      "Reservación previa obligatoria",
+      "Disponible todo el año (según el medio)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Todo el año, con reservación; abre de 9:00 a 18:00",
+    "minPurchase": 1400,
+    "howToClaim": "Reserva al 618 824 9117 o por la página de Facebook 'Balneario San Juan Mx'.",
+    "sources": [
+      "https://www.posta.com.mx/durango/tu-cumpleanos-en-aguas-termales-descuentos-en-este-balneario/vl2024716",
+      "https://www.facebook.com/Balneariosanjuan.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "DUR"
+    ],
+    "cities": [
+      "durango"
+    ],
+    "locationNote": "A unos 20 minutos del centro de Durango. Precios de paquetes según el medio; confirma tarifas vigentes.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "taqueria-arandas-san-luis-potosi",
+    "brand": "Taquería Arandas",
+    "category": "restaurantes",
+    "benefit": "Pastel gratis al reservar tu cumpleaños (según redes)",
+    "benefitType": "regalo-con-compra",
+    "details": "Una publicación en redes afirma que al reservar tu cumpleaños en la taquería recibes un pastel gratis. No se encontraron condiciones (número de personas, consumo, identificación) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar para tu cumpleaños",
+      "Confirma número de personas y consumo",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono (444 833 1114) y menciona que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://restaurantguru.com/Taqueria-Arandas-San-Luis-Potosi-2"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Taquería Arandas en Av. Nicolás Zapata 974 y otras ubicaciones de San Luis Potosí; no se aclara cuál aplica.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "menjurjeria-milagros-san-luis-potosi",
+    "brand": "Menjurjería Milagros",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis (según redes, sin condiciones)",
+    "benefitType": "gratis",
+    "details": "Una publicación en redes señala que en este restaurante de cocina mexicana contemporánea y mixología el cumpleañero come gratis; reseñas de clientes también mencionan un pastel de cortesía al festejar. No se encontraron condiciones ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma acompañantes y consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva (OpenTable o 444 714 0346) y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.opentable.com/r/menjurjeria-milagros-slp-san-luis-potosi"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "The Park SLP, Blvd. Antonio Rocha Cordero 157, Lomas del Pedregal.",
+    "needsId": null,
+    "companions": null
+  }
+]

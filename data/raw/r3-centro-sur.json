@@ -1,0 +1,622 @@
+[
+  {
+    "slug": "temixco-parque-acuatico-cuernavaca",
+    "brand": "Ex Hacienda de Temixco Parque Acuático",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis comprando 3 boletos",
+    "benefitType": "gratis",
+    "details": "Mostrando tu INE en el mes de tu cumpleaños y comprando 3 boletos, el cumpleañero entra gratis al parque acuático. Es la promoción \"Cumpleañero entra gratis\" de la sección de promociones del sitio oficial; el sitio no aclara si el boleto del festejado cuenta entre los 3 ni qué días o temporadas se excluyen.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (mostrarla)",
+      "Solo en el mes de tu cumpleaños",
+      "Comprar 3 boletos de entrada",
+      "Sin vigencia ni exclusiones publicadas: confirma en taquilla"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños (sin fecha de término publicada)",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu INE en taquilla al comprar tus 3 boletos durante tu mes de cumpleaños.",
+    "sources": [
+      "https://temixcoacuatico.com/index.php/site/page?view=promociones"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Temixco, Morelos (zona metropolitana de Cuernavaca)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "ojo-de-agua-temixco-cuernavaca",
+    "brand": "Parque Acuático Ojo de Agua (Temixco)",
+    "category": "parques",
+    "benefit": "Entrada completamente gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "\"Celebramos tu cumpleaños\": si el día que visitas el parque es tu cumpleaños, entras completamente gratis presentando en taquilla el comprobante de tu fecha de nacimiento (INE si eres mayor de edad, acta de nacimiento o CURP). El sitio no pide acompañantes ni compra mínima y remite a su Facebook para promociones nuevas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE (mayores de edad), acta de nacimiento o CURP",
+      "Tu cumpleaños debe ser el día de la visita",
+      "Presentar el comprobante en taquilla"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE, acta o CURP en la taquilla el mismo día de tu cumpleaños.",
+    "sources": [
+      "https://parqueacuaticoojodeagua.com/costos-y-promociones"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Temixco, Morelos (zona metropolitana de Cuernavaca)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "los-manantiales-morelos",
+    "brand": "Los Manantiales (Balneario Natural y Campamento)",
+    "category": "parques",
+    "benefit": "Entrada al balneario o 1ª noche de campamento gratis",
+    "benefitType": "gratis",
+    "details": "Cumpleañero gratis: presentando una identificación o documento que acredite tu fecha de nacimiento, tu entrada al balneario o tu primera noche de campamento es gratis. Debes ir acompañado de una persona que pague su entrada regular y visitar en la misma semana de tu cumpleaños; se pide en taquilla, aplican restricciones y no se acumula con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación o documento con fecha de nacimiento",
+      "Ir con 1 persona que pague entrada regular",
+      "Visitar en la misma semana de tu cumpleaños",
+      "Pedirlo en taquilla; no acumulable con otras promos",
+      "Aplican restricciones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños; promoción vigente todo el año",
+    "minPurchase": null,
+    "howToClaim": "Pide la promoción en taquilla con tu identificación y una persona que pague su entrada.",
+    "sources": [
+      "https://losmanantiales.com.mx/promociones/promociones-interna/",
+      "https://losmanantiales.com.mx/wp-content/uploads/2025/11/cumpleaneroGratisLM.jpg"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "Km 149 Autopista del Sol, Coaxitlán, Tlaquiltenango, Morelos (no está en Cuernavaca ni Cuautla ciudad)",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "finca-ensamble-cholula",
+    "brand": "Finca Ensamble (Cholula)",
+    "category": "restaurantes",
+    "benefit": "Postre cumpleañero gratis",
+    "benefitType": "gratis",
+    "details": "En la página oficial de Finca Ensamble, restaurante frente a la pirámide de Cholula: \"¿Es tu cumpleaños? Ven a Finca a celebrarlo con nosotros y pide tu postre cumpleañero GRATIS\". El sitio no publica condiciones (acompañantes, identificación, fechas ni vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Pedir el postre cumpleañero en el restaurante",
+      "El sitio no publica más condiciones: confirma al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin vigencia publicada; aparece como promo permanente en el sitio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños y pide el postre cumpleañero; reserva por teléfono al 222 456 4155 o 222 971 9298.",
+    "sources": [
+      "https://fincaensamble.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Av. 7 Ote. 418, San Pablo Tecamac, San Andrés Cholula",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "casa-reyna-spa-puebla",
+    "brand": "Casa Reyna Hotel y Spa (Puebla)",
+    "category": "belleza",
+    "benefit": "Masaje de 60 min gratis + postre y mimosa en tu mes",
+    "benefitType": "gratis",
+    "details": "\"Ritual de cumpleaños\": masaje descontracturante, regenerador o relajante de 60 minutos gratis para quien cumple años, más postre de cumpleaños y mimosa para el festejado. Debes ir con al menos 3 acompañantes que contraten cualquier masaje o facial del spa, reservar y contratar con anticipación, compartir identificación oficial para validar la fecha y usarlo dentro del mes de tu cumpleaños; no acumulable.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes o más que contraten masaje o facial",
+      "Reservación y contratación de servicios previas",
+      "Identificación oficial para validar tu fecha de cumpleaños",
+      "Válido todo el mes de tu cumpleaños",
+      "No acumulable con otras promociones o descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva el Ritual de cumpleaños con el spa (+52 2222 32 0032 o hotel@casareyna.com) y presenta tu identificación.",
+    "sources": [
+      "https://www.casareyna.com/es/hotel/spa.php"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "2 Oriente 1007, Centro Histórico de Puebla",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "los-alcatraces-villa-del-conquistador-cuernavaca",
+    "brand": "Los Alcatraces (Hotel Villa del Conquistador)",
+    "category": "restaurantes",
+    "benefit": "Platillo de mayor precio de cortesía con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "En el restaurante Los Alcatraces del Hotel Villa del Conquistador, el platillo de mayor precio consumido por el cumpleañero va de cortesía si llega con al menos 3 acompañantes (niños, adolescentes o adultos) y presenta copia de identificación oficial. Aplica todos los días en desayunos, comidas, cenas y buffet, 7 días antes y 7 días después de tu cumpleaños; hay que mencionar la promoción al mesero y firmar el cheque. La vigencia se renueva por mes y la última publicada (agosto 2026) ya venció.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Copia de identificación oficial",
+      "Ir con 3 acompañantes o más",
+      "7 días antes o 7 después de tu cumpleaños",
+      "Mencionar la promoción al mesero y a la hostess al llegar",
+      "Firmar el cheque de consumo; no aplica con otras promos",
+      "Confirma la vigencia del mes en curso"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Del día -7 al +7 de tu cumpleaños; vigencia mensual (última publicada: 1 al 31 de agosto de 2026)",
+    "minPurchase": null,
+    "howToClaim": "Menciona la promoción al llegar al restaurante, presenta copia de tu identificación y firma el cheque.",
+    "sources": [
+      "https://hotelvilladelconquistador.com/promocumpleanos/",
+      "https://hotelvilladelconquistador.com/restaurante"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Paseo del Conquistador 134, Lomas de Cortés, Cuernavaca",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "contender-go-karts-puebla-cuernavaca",
+    "brand": "Contender Go-Karts",
+    "category": "experiencias",
+    "benefit": "Piloto cumpleañero: 30% de descuento en una carrera",
+    "benefitType": "descuento",
+    "details": "Piloto Cumpleañero: una carrera con 30% de descuento (carrera light en Puebla; carrera light o pro en Cuernavaca) una vez en el mes de tu cumpleaños. Está en la página oficial de promociones; el sitio no detalla si se exige identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo en el mes de tu cumpleaños",
+      "Una sola vez al mes",
+      "Puebla: carrera light; Cuernavaca: light o pro",
+      "Lleva identificación por si piden validar tu fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una vez en el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva en el sitio o pide la promoción en la pista y valida tu fecha de nacimiento.",
+    "sources": [
+      "http://contendergokarts.com/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "PUE",
+      "MOR"
+    ],
+    "cities": [
+      "puebla",
+      "cuernavaca"
+    ],
+    "locationNote": "Pistas en San Pedro Cholula (Explanada Puebla) y Cuernavaca (Grand Outlet). También hay pistas en Querétaro, Pachuca, Riviera Maya y Culiacán.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "grilia-puebla",
+    "brand": "Grilia Puebla",
+    "category": "restaurantes",
+    "benefit": "Decoración y postre de cortesía al festejar",
+    "benefitType": "gratis",
+    "details": "La cuenta oficial de Grilia en TikTok (@grilia.puebla, publicación de enero 2025) dice: \"Grilia es el lugar perfecto para festejar tu cumpleaños. La decoración y el postre para el o la festejad@ es cortesía de la casa\". Su Instagram oficial sigue mostrando festejos con decoración y pastel (publicación de sep 2026), pero no publica reglas (acompañantes, consumo mínimo ni reservación).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Festejar tu cumpleaños en el restaurante",
+      "Reservar con anticipación (WhatsApp 221 210 0358)",
+      "Reglas no publicadas: confirma al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu festejo por teléfono (222 326 5295) o WhatsApp (221 210 0358) y pide la decoración y el postre de cortesía.",
+    "sources": [
+      "https://www.tiktok.com/@grilia.puebla/video/7459805433067474182",
+      "https://www.instagram.com/grilia.puebla/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "San Martín Texmelucan 73, Col. La Paz, Puebla",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "antojito-mio-puebla",
+    "brand": "Antojito Mío (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 5 amigos o más",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla, el cumpleañero come gratis si celebra con 5 amigos o más. Se revisó el Instagram oficial del restaurante (@antojitomio.puebla) y no menciona la promoción, así que sigue sin confirmarse en canales propios.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 amigos o más"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante y avisa que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla",
+      "https://www.instagram.com/antojitomio.puebla/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Blvd. Luis Sánchez Pontón 602, col. Anzures (dirección según el Instagram oficial del restaurante)",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "buffet-3-leguas-puebla",
+    "brand": "Buffet 3 Leguas (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Festejado come gratis con 5 que paguen buffet",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla, el festejado come gratis si va con 5 personas que paguen su buffet. No aparece en el Instagram ni en el Facebook oficiales del buffet, así que no se pudo confirmar en canales propios.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 personas que paguen buffet"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla",
+      "https://www.instagram.com/buffet3leguas.pue/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "C. 11 Sur 7714, San José Mayorazgo, Puebla",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "pa-dentro-buffet-cantina-puebla",
+    "brand": "Pa' Dentro Buffet y Cantina (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis + bebida de la casa + ronda de shots",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en canales oficiales), el cumpleañero recibe buffet gratis, una bebida de la casa y una ronda de shots presentando INE con fecha de nacimiento. Otro listado indica que se necesitan 5 acompañantes o más con consumo mínimo de $350 cada uno; el buffet de antojitos se activa con consumo mínimo de bebidas o postres.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE con fecha de nacimiento",
+      "Ir con 5 acompañantes o más (según un listado de TikTok)",
+      "Consumo mínimo de $350 por persona (según un listado de TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE y confirma condiciones con el restaurante antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "2 Oriente 811, Centro Histórico (Casona Patio Poblano, 5 de Mayo esq. 2 Oriente), sin verificar en canal propio",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "jump-in-cuernavaca",
+    "brand": "Jump-In Parque de Trampolines",
+    "category": "experiencias",
+    "benefit": "Acceso ilimitado gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Si cumples años, visita Jump-In el día de tu cumpleaños con una copia impresa de tu CURP o acta de nacimiento y recibes acceso ilimitado por ese día (según las preguntas frecuentes del sitio oficial). No incluye calcetines y solo se puede usar el día exacto de tu cumpleaños. El sitio tiene sucursal foránea en Cuernavaca, además de sucursales en CDMX y Estado de México.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Copia impresa de tu CURP o acta de nacimiento",
+      "Solo el día de tu cumpleaños",
+      "No incluye los calcetines antiderrapantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta la copia impresa de tu CURP o acta de nacimiento en la sucursal el día de tu cumpleaños.",
+    "sources": [
+      "https://www.jumpin.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Sucursal de Cuernavaca; también hay sucursales en CDMX y Estado de México. Confirma que aplique en la tuya.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "ozumo-buffet-fusion-bar-puebla",
+    "brand": "Ozumo Buffet Fusion Bar (Puebla y Cholula)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 amigos (según TikTok)",
+    "benefitType": "gratis",
+    "details": "El Instagram oficial de Ozumo tiene una historia destacada llamada \"Cumpleaños\", lo que confirma que existe una promo de festejo, pero sin reglas legibles. Listados de TikTok sobre buffets para cumpleaños en Puebla dicen que el cumpleañero come gratis si reserva con 3 amigos. El sitio oficial (ozumosushi.com) no menciona cumpleaños.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con 3 amigos (según listados de TikTok)",
+      "Confirma reglas, días y vigencia con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no publicada; confirma con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (221 264 9191 Puebla centro; 221 271 2619 Cholula) y pregunta por la promo de cumpleaños.",
+    "sources": [
+      "https://www.instagram.com/ozumobuffetfusionbar/",
+      "https://www.ozumosushi.com/",
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Sucursales en Centro Histórico de Puebla (Puebla de Antaño, Rooftop, 3 Patios) y San Andrés Cholula",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "altamar-restaurante-cuautla",
+    "brand": "Altamar Restaurante (Cuautla)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis su platillo favorito + pastel",
+    "benefitType": "gratis",
+    "details": "Según un listado de TikTok sobre restaurantes para celebrar cumpleaños en Cuautla, el cumpleañero come gratis su platillo favorito y recibe pastel de cortesía. No se encontró en el Facebook oficial del restaurante, así que no está confirmado; reglas (acompañantes, ID, vigencia) sin dato.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas no publicadas: confirma con el restaurante antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Llama al +52 735 215 8233 y confirma la promoción antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cuautla",
+      "https://www.facebook.com/altamarcuautla/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuautla"
+    ],
+    "locationNote": "Cuautla-El Hospital 1, col. 10 de Abril, Cuautla (dirección según su Facebook)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "dos-mil-uno-restaurante-cuautla",
+    "brand": "Dos Mil Uno Restaurante (Cuautla)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga buffet (reglas sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según un listado de TikTok sobre restaurantes para cumpleaños en Cuautla, en este buffet mexicano con música en vivo el cumpleañero no paga. Se revisaron su Instagram y Facebook oficiales y no aparece la promoción; acompañantes, identificación y vigencia sin dato.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas no publicadas: confirma con el restaurante antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma la promoción con el restaurante (Facebook/Instagram @dosmiluno.restaurante) antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cuautla",
+      "https://www.instagram.com/dosmiluno.restaurante/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuautla"
+    ],
+    "locationNote": "Blvd. Libertadores 317, col. Morelos, Cuautla",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "helados-azteca-tehuacan",
+    "brand": "Helados Azteca (Tehuacán)",
+    "category": "postres",
+    "benefit": "Medio litro de helado gratis en tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Según un listado de TikTok sobre helados que regalan cosas por tu cumpleaños, Helados Azteca Tehuacán da medio litro de helado gratis en tu cumpleaños con una compra mínima de $100. Su Instagram oficial (@heladosaztecatehuacan) no menciona la promoción, así que no está confirmada.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Compra mínima de $100 (según TikTok)",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": 100,
+    "howToClaim": "Pregunta en la heladería y confirma condiciones antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/helados-azteca-que-te-dan-cosas-gratis-en-tu-cumplea%C3%B1os",
+      "https://www.instagram.com/heladosaztecatehuacan/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "tehuacan"
+    ],
+    "locationNote": "Blvd. Héroe de Nacozari 1601A, Tehuacán (dirección según su Instagram/Facebook)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "buffet-del-barrio-cuernavaca",
+    "brand": "Buffet del Barrio (Cuernavaca)",
+    "category": "restaurantes",
+    "benefit": "Buffet para el cumpleañero a $269 con 3 acompañantes",
+    "benefitType": "descuento",
+    "details": "Según resultados de búsqueda sobre su Facebook, el cumpleañero paga $269 por el buffet si va acompañado de 3 personas que consuman buffet de adulto (precio regular reportado: $469 adultos). Su Instagram oficial tiene una historia destacada \"Promos\", pero las reglas no se pudieron leer en un canal propio.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas que consuman buffet de adulto",
+      "Vigencia y días sin confirmar: pregunta antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Llama al 777 688 7518 y confirma la promoción de cumpleañero antes de ir.",
+    "sources": [
+      "https://www.facebook.com/p/Buffet-del-Barrio-Cuernavaca-61557913814923/",
+      "https://www.instagram.com/buffetdelbarrio/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Jacarandas 103, col. Flores Magón (Forum Cuernavaca)",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "jule-do-brasil-acapulco",
+    "brand": "Jule Do Brasil Churrascaría (Acapulco)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero con 5 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según la ficha del restaurante en la plataforma de reservaciones Reservándonos (no es canal propio), el cumpleañero recibe buffet gratis si asiste con 5 acompañantes. Su sitio oficial (juleacapulco.com) no cargó al revisarlo, por lo que no se pudo confirmar. Reglas (ID, días, vigencia) sin dato.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 acompañantes",
+      "Reglas no publicadas: confirma con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llama al 744 222 6440 y confirma la promoción de cumpleaños.",
+    "sources": [
+      "https://reservandonos.com/en/place/restaurante-jule-acapulco/",
+      "https://reservandonos.com/blog/mejores-restaurantes-para-celebrar-cumpleanos-acapulco/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Av. Costera Miguel Alemán, Costa Azul, Acapulco",
+    "needsId": null,
+    "companions": 5
+  }
+]

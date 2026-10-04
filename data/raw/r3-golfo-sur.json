@@ -1,0 +1,183 @@
+[
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 amigos el día de tu cumpleaños",
+      "Lunes a domingo, 8:00 am a 6:00 pm",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños (8:00 am a 6:00 pm)",
+    "minPurchase": null,
+    "howToClaim": "Ve con 5 amigos a la sucursal el día de tu cumpleaños y avisa que es tu cumple; si quieres asegurar mesa, llama para reservar (la página no especifica qué identificación piden).",
+    "sources": [
+      "https://restaurantelostulipanes.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "TAB"
+    ],
+    "cities": [
+      "villahermosa"
+    ],
+    "locationNote": "Sucursales Zona CICOM (Perif. Carlos Pellicer Cámara 511) y Parque Tomás Garrido (Blvd. Adolfo Ruiz Cortines). La página no aclara si aplica en ambas; pregunta al reservar.",
+    "needsId": null,
+    "companions": 5,
+    "slug": "los-tulipanes-villahermosa",
+    "brand": "Restaurante Los Tulipanes",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis el día de tu cumpleaños con 5 amigos",
+    "benefitType": "gratis",
+    "details": "Buffet típico tabasqueño gratis para el cumpleañero el día de su cumpleaños si va con 5 amigos; aplica de lunes a domingo de 8:00 am a 6:00 pm. No aplica con otras promociones y los precios pueden cambiar sin previo aviso."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 6 acompañantes",
+      "Solo jueves y viernes de 16:00 a 19:00 hrs",
+      "Acompañantes pagan $270 adulto / $140 niño",
+      "Reserva por WhatsApp 229 937 8089"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Jueves y viernes de 16:00 a 19:00 hrs; la página no precisa si es el día o el mes del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (229 937 8089) o al 229 910 0166 indicando que es un cumpleaños; confirma qué identificación piden y el periodo de validez.",
+    "sources": [
+      "https://www.hotellois.mx/",
+      "https://www.hotellois.mx/promos.html"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "veracruz"
+    ],
+    "locationNote": "Bv. Adolfo Ruiz Cortines 10, Costa Verde, Boca del Río. Página de promociones vigente al 4-oct-2026.",
+    "needsId": null,
+    "companions": 6,
+    "slug": "hotel-lois-veracruz",
+    "brand": "Hotel Lois Veracruz (Tardes Pasteleras)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga en Tardes Pasteleras con 6 acompañantes",
+    "benefitType": "gratis",
+    "details": "En las 'Tardes Pasteleras' del Hotel Lois (jueves y viernes de 16:00 a 19:00 hrs) el cumpleañero no paga si celebra con 6 acompañantes. El paquete cuesta $270 adultos y $140 niños e incluye bebidas y música en vivo."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con otras 4 personas que paguen buffet de adulto",
+      "Identificación oficial con fotografía",
+      "Solo la semana de tu cumpleaños",
+      "Buffet jueves a domingo, 2:00 a 6:00 pm"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños, jueves a domingo de 2:00 a 6:00 pm (horario del buffet)",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (228 116 3124), ve con 4 personas que paguen buffet y presenta tu identificación oficial con foto.",
+    "sources": [
+      "https://restaurantevenacava.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Av. Araucarias 139, Indeco Ánimas, Xalapa. La página marca el buffet con vigencia al 31-ago-2026; confirma que el buffet sigue vigente.",
+    "needsId": true,
+    "companions": 4,
+    "slug": "vena-cava-xalapa",
+    "brand": "Vena Cava",
+    "category": "restaurantes",
+    "benefit": "Buffet italiano gratis la semana de tu cumpleaños con 4 personas",
+    "benefitType": "gratis",
+    "details": "El cumpleañero come gratis el buffet italiano si va con otras 4 personas que paguen su buffet de adulto ($285). Además recibe rebanada de pastel, mañanitas con vela de bengala y una ronda de shots para todos. Válido solo en la semana del cumpleaños; el buffet es de jueves a domingo de 2:00 a 6:00 pm (vigencia del buffet al 31 de agosto de 2026 según la página)."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Solo la semana de tu cumpleaños (lunes a domingo)",
+      "Consulta términos y condiciones en la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños, de lunes a domingo (dato de la sucursal Puebla)",
+    "minPurchase": null,
+    "howToClaim": "Pide tu postre de cumpleañero en la sucursal y presenta tu identificación oficial; confirma los términos con el restaurante.",
+    "sources": [
+      "https://www.madisongrill.mx/menuxalapa",
+      "https://www.madisongrill.mx/menuview",
+      "https://beneficios.udlap.mx/producto/madison-grill/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "VER",
+      "TAB"
+    ],
+    "cities": [
+      "veracruz",
+      "xalapa",
+      "cordoba",
+      "coatzacoalcos",
+      "villahermosa"
+    ],
+    "locationNote": "Sucursales: Veracruz/Boca del Río (Ruiz Cortines y Plaza View), Xalapa (Plaza Ankara), Córdoba (Plaza San José), Orizaba (Concordia y Poliforum), Coatzacoalcos (Plaza Teatro) y Villahermosa (Plaza Usuma). También hay sucursal en Puebla. Los términos escritos solo los vi en la ficha de Puebla.",
+    "needsId": true,
+    "companions": null,
+    "slug": "madison-grill-veracruz-tabasco",
+    "brand": "Madison Grill",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía en la semana de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "La carta de Madison Grill anuncia 'Postre de cumpleañero' (consulta términos y condiciones). Un convenio universitario publicado para la sucursal de Puebla describe el beneficio como 1 postre de cortesía a elegir presentando identificación oficial, válido de lunes a domingo de la semana del cumpleaños. No encontré los términos completos para las sucursales de Veracruz y Tabasco."
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 3 acompañantes",
+      "Solo el mes de tu cumpleaños",
+      "Reserva por WhatsApp 228 241 2500"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (228 241 2500) y avisa que es tu cumpleaños; confirma con el restaurante la identificación que piden.",
+    "sources": [
+      "https://www.facebook.com/Mariscosbocadelriolaantigua/",
+      "https://www.facebook.com/Mariscosbocadelrio/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Sucursales en Xalapa (Tepic 47, Col. Progreso; Atenas) y La Antigua (Veracruz). El dato viene del texto de un post de Facebook del negocio; no pude abrir el post original.",
+    "needsId": null,
+    "companions": 3,
+    "slug": "mariscos-boca-del-rio-xalapa",
+    "brand": "Mariscos Boca del Río",
+    "category": "restaurantes",
+    "benefit": "Comes gratis el mes de tu cumpleaños con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "Promoción 'Si cumples años, comes gratis': el cumpleañero come gratis (buffet o a la carta) durante todo el mes de su cumpleaños si va con al menos 3 acompañantes; el restaurante pone la bebida del cumpleañero y el postre y el festejo. Aplica en sus sucursales de Xalapa (Tepic y Atenas) y La Antigua según el post publicado en su Facebook."
+  }
+]

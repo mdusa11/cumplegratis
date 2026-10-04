@@ -1,0 +1,571 @@
+[
+  {
+    "slug": "parque-de-aventura-san-miguel-san-miguel-de-allende",
+    "brand": "Parque de Aventura San Miguel",
+    "category": "parques",
+    "benefit": "20% en tirolesas o cuatrimoto en tu mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Durante el mes de tu cumpleaños tienes 20% de descuento en el circuito de siete tirolesas y puente colgante o en el recorrido de 2 horas en cuatrimoto, y 15% en los paquetes combinados (cuatrimoto + tirolesas). También ofrecen un paquete cumpleañero con pastel, taquiza y tirolesa que se consulta por WhatsApp. No aplica con otras promociones, requiere reservación previa y la promoción está vigente todo el año.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial (INE) con tu fecha de cumpleaños",
+      "Menores: credencial con foto, CURP o acta de nacimiento",
+      "Reservación previa",
+      "Solo durante el mes de tu cumpleaños",
+      "No aplica con otras promociones",
+      "Paquete con pastel y taquiza: se cotiza por WhatsApp"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; el sitio dice que la promoción es válida todo el año",
+    "minPurchase": null,
+    "howToClaim": "Reserva en línea o por WhatsApp (415 167 0073) y muestra tu identificación el día de la visita.",
+    "sources": [
+      "https://www.parquedeaventurasanmiguel.com/promociones-2/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Libramiento José Manuel Zavala Zavala, San Miguel de Allende",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "diego-restaurante-celaya",
+    "brand": "Diego Restaurante (DoubleTree by Hilton Celaya)",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis o cortesía de hasta $470 en comida o cena",
+    "benefitType": "gratis",
+    "details": "Durante el mes de tu cumpleaños, en desayunos tu consumo es sin costo si vas acompañado de tres personas; en comida y cena recibes una cortesía de hasta $470 en consumo bajo la misma condición de acompañamiento. La promoción aparece como 'Birthday Courtesy' en el sitio oficial del restaurante (imagen publicada en 2026); el sitio no indica días ni exclusiones, así que confirma al reservar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de tres personas",
+      "Solo durante el mes de tu cumpleaños",
+      "Desayuno: consumo del cumpleañero sin costo",
+      "Comida y cena: cortesía de hasta $470 en consumo",
+      "El sitio no detalla la identificación: lleva una para comprobar la fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños (el sitio no indica días ni exclusiones)",
+    "minPurchase": null,
+    "howToClaim": "Reserva con el restaurante (461 249 1001) y avisa que es tu mes de cumpleaños.",
+    "sources": [
+      "https://diegorestaurante.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Restaurante del hotel DoubleTree by Hilton Celaya, Blvd. Adolfo López Mateos Ote. 1260",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "coffee-park-pachuca",
+    "brand": "Coffee Park",
+    "category": "cafe",
+    "benefit": "Rebanada de pastel con topper y vela de bengala a $77",
+    "benefitType": "regalo-con-compra",
+    "details": "El menú de repostería del sitio oficial incluye el 'Pastel de Cumpleaños': eliges una rebanada (rompope, cheesecake o brownie) con cake topper y vela de bengala por $77, válido presentando una identificación oficial con tu fecha de cumpleaños. El sitio no aclara si aplica solo el día o todo el mes, ni si hace falta ir acompañado; otras tartas de la carta cuestan $102.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con tu fecha de cumpleaños",
+      "Sujeto a disponibilidad (el menú dice 'pregunta por disponibilidad')",
+      "El sitio no indica día o mes de validez ni acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en el sitio",
+    "minPurchase": 77,
+    "howToClaim": "Pide el 'Pastel de Cumpleaños' en la sucursal y muestra tu identificación.",
+    "sources": [
+      "https://www.coffeeparkcentro.com/menu-bakery.html"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Sucursal Centro: Ignacio Allende 612, Pachuca",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "termas-del-rey-tequisquiapan",
+    "brand": "Termas del Rey",
+    "category": "parques",
+    "benefit": "Entrada gratis al parque acuático todo tu mes de cumple",
+    "benefitType": "gratis",
+    "details": "Según el cartel de cumpleañeros en la página de promociones del parque, durante el mes de tu cumpleaños entras gratis al parque acuático las veces que quieras, y en campamento pagas solo el 50%. El sitio no detalla documento de identidad ni acompañantes, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo durante el mes de tu cumpleaños",
+      "Entradas ilimitadas durante ese mes",
+      "Campamento: pagas solo el 50%",
+      "El sitio no detalla identificación: lleva una para comprobar tu fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, las veces que quieras",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en taquilla durante tu mes de cumpleaños; dudas: (442) 277 1525.",
+    "sources": [
+      "https://www.termasdelrey.com/promociones"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "san-juan-del-rio"
+    ],
+    "locationNote": "Está en Tequisquiapan (Carretera Tequisquiapan–Ezequiel Montes km 10), a unos 30 minutos de San Juan del Río",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "maria-palapa-buffet-pachuca",
+    "brand": "María Palapa Buffet",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga su buffet si va acompañado de tres personas que paguen buffet de adulto, de lunes a viernes y presentando identificación oficial; las publicaciones del restaurante hablan de la semana del cumpleaños. Nota de Chic Magazine de noviembre de 2023 y publicaciones del buffet; una nota de mayo de 2026 no repite la condición, así que confirma que sigue vigente.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas que consuman buffet de adulto",
+      "Solo de lunes a viernes",
+      "Identificación oficial",
+      "Semana de tu cumpleaños (confirma si es día o semana)"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, solo lunes a viernes (confirmar)",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (771 842 9980) y presenta tu identificación al llegar.",
+    "sources": [
+      "https://www.facebook.com/mariapalapabuffet/",
+      "https://www.chicmagazine.com.mx/foodies-y-viajes/buscas-buffet-mar-tierra-pachuca-conoce-maria-palapa"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Blvd. Felipe Ángeles 1400, Col. Santa Julia, Pachuca",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "tacos-el-chato-sanchez-celaya",
+    "brand": "Tacos El Chato Sánchez",
+    "category": "restaurantes",
+    "benefit": "5 tacos y un agua de sabor gratis en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "La página oficial de Facebook de la taquería anuncia una promoción de cumpleaños con 5 tacos y un agua de sabor gratis en todas sus sucursales de Celaya. No pude ver en el anuncio las condiciones (identificación, día o acompañantes), así que confirma con la sucursal.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Válido en todas las sucursales de Celaya",
+      "Condiciones no visibles en el anuncio: confirma identificación y día"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en el anuncio",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños y pregunta por la promoción.",
+    "sources": [
+      "https://www.facebook.com/elchatocelaya/",
+      "https://www.instagram.com/chatosanchezcelaya/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Sucursales como Eje Nor-Poniente Manuel J. Clouthier 510 y Av. Francisco Juárez 1201",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "madero-restaurante-bajio-hidalgo",
+    "brand": "Madero Restaurante",
+    "category": "restaurantes",
+    "benefit": "Pastelito de cortesía el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "El día de tu cumpleaños, al comer en el restaurante y avisar a tu mesero, te dan un pastelito de cortesía sin costo; aplica una sola vez al año por cliente, solo para el cumpleañero (si un acompañante lo quiere, lo paga a $25) y está sujeto a disponibilidad. Además, si estás registrado en Recompensas Madero acumulas puntos dobles durante 15 días desde tu cumpleaños. Los términos y condiciones oficiales (abril 2026) indican que la promoción vale en cualquier Madero Restaurante, los 365 días del año, desde el 28 de julio de 2025.",
+    "program": "Recompensas Madero (solo para los puntos dobles)",
+    "signupUrl": "https://maderorestaurante.mx/lealtad/",
+    "requirements": [
+      "INE para mayores de edad (menores: cualquier identificación)",
+      "Avisa a tu mesero el día de tu cumpleaños",
+      "Solo consumo en restaurante: no para llevar ni a domicilio",
+      "Una vez al año por cliente",
+      "Sujeto a disponibilidad de pastel",
+      "Puntos dobles 15 días: requiere cuenta en Recompensas Madero"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños, de lunes a domingo (puntos dobles: 15 días contando tu cumpleaños como día 1)",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero al llegar y muestra tu INE; los puntos dobles se acreditan si tu fecha de cumpleaños está actualizada en Recompensas Madero.",
+    "sources": [
+      "https://maderorestaurante.mx/wp-content/uploads/2026/04/TYC_version-01_04_2026.pdf",
+      "https://maderorestaurante.mx/lealtad/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "HID",
+      "GUA",
+      "QUE"
+    ],
+    "cities": [
+      "pachuca",
+      "celaya",
+      "irapuato",
+      "queretaro"
+    ],
+    "locationNote": "Según listados de restaurantes tiene sucursales en Pachuca (San Javier), Celaya (Patio Madero), Irapuato y Querétaro; confirma la sucursal más cercana",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "don-triton-tlaxcala",
+    "brand": "Don Tritón (buffet de mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con el consumo de 6 personas",
+    "benefitType": "gratis",
+    "details": "Restaurante de mariscos con buffet que, según publicaciones en redes, regala la comida del cumpleañero cuando el grupo suma el consumo de seis personas. No pude abrir la publicación original, así que no hay reglas confirmadas sobre identificación, días ni si el cumpleañero cuenta dentro de las seis personas: confirma con el restaurante antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo con el consumo de seis personas",
+      "Confirma si el cumpleañero cuenta dentro de las seis",
+      "Identificación, días y exclusiones: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Avisa al hacer tu pedido que es tu cumpleaños y pregunta por la promoción.",
+    "sources": [
+      "https://www.instagram.com/don_tritonxela/",
+      "https://www.instagram.com/don_triton_buffet/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Santa María Acuitlapilco, Tlaxcala; el buffet abre desde las 11:30 am (según reseñas, cierra alrededor de las 6 pm)",
+    "needsId": true,
+    "companions": 6
+  },
+  {
+    "slug": "buffa-wings-apizaco",
+    "brand": "Buffa Wings",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga con 1 adulto acompañante",
+    "benefitType": "gratis",
+    "details": "Restaurante de alitas y hamburguesas que, según publicaciones en redes, no cobra al cumpleañero si va acompañado de al menos un adulto y solo el día exacto de su cumpleaños; los acompañantes pagan precio normal. La promoción no se acumula con otras (por ejemplo, la de niños gratis de los domingos) ni aplica en festivos. No pude abrir la publicación original: confirma las reglas por teléfono (241 417 5798).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos un adulto",
+      "Solo el día exacto de tu cumpleaños",
+      "Los acompañantes pagan precio normal",
+      "No acumulable con otras promociones (ej. niños gratis)",
+      "No aplica en festivos"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños y muestra tu identificación.",
+    "sources": [
+      "https://www.facebook.com/BuffaWingsGrill",
+      "https://www.tripadvisor.com/Restaurant_Review-g3181075-d14159508-Reviews-Buffa_Wings-Apizaco_Central_Mexico_and_Gulf_Coast.html"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Apizaco, Tlaxcala: Av. Juárez 1115, Centro",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "el-payo-cocina-de-mar-apizaco",
+    "brand": "El Payo Cocina de Mar",
+    "category": "restaurantes",
+    "benefit": "$250 de consumo de regalo si llegas con 5 acompañantes",
+    "benefitType": "descuento",
+    "details": "Una publicación de El Imparcial de Tlaxcala en Facebook anuncia que, si celebras tu cumpleaños en este restaurante de mariscos y llegas con 5 acompañantes, te regalan $250 pesos para tu consumo personal. No pude ver el texto completo del anuncio, así que no hay datos de identificación, días ni vigencia: confirma con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 acompañantes",
+      "$250 de crédito para tu consumo personal",
+      "Identificación, días y vigencia: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en el anuncio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al llegar y pregunta cómo se aplica el crédito.",
+    "sources": [
+      "https://www.facebook.com/El.Imparcial.de.Tlaxcala/posts/-el-cumplea%C3%B1ero-come-con-regalo-incluidoen-el-payo-cocina-de-mar-celebran-tu-d%C3%ADa/1535571948575936/",
+      "https://www.facebook.com/ElPayoCocinaDeMar/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Apizaco, Tlaxcala: Prol. 16 de Septiembre 311, Col. San Isidro; abre de 12 a 19 h todos los días",
+    "needsId": true,
+    "companions": 5
+  },
+  {
+    "slug": "la-carika-restaurante-pachuca",
+    "brand": "La Carika Restaurante",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis el día de tu cumpleaños con 5 personas",
+    "benefitType": "gratis",
+    "details": "Restaurante con buffet de comida mexicana y pizzas donde, según publicaciones en redes, el cumpleañero no paga su buffet si va el día exacto de su cumpleaños, muestra su INE original y llega con un mínimo de 5 personas. No pude abrir la publicación original, así que confirma vigencia, días y si las 5 personas incluyen al cumpleañero.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día exacto de tu cumpleaños",
+      "INE original",
+      "Mínimo 5 personas",
+      "Confirma si el cumpleañero cuenta dentro de las 5"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva (771 229 8023) y presenta tu INE original al llegar.",
+    "sources": [
+      "https://www.instagram.com/restaurantelacarika/",
+      "https://www.tiktok.com/@lacarikarestaurante"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Autopista México-Pachuca km 73, Zapotlán de Juárez, a unos 5 minutos de Pachuca",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "supremos-tacos-drinks-pachuca",
+    "brand": "Supremos Tacos & Drinks",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come y bebe gratis con 3 adultos",
+    "benefitType": "gratis",
+    "details": "Según una publicación de la taquería en redes, el cumpleañero come y bebe gratis durante el mes de su cumpleaños si va acompañado de tres o más adultos. No pude abrir la publicación original: no hay datos de identificación, días ni límites del consumo gratis, así que confirma con el local.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 o más adultos",
+      "Solo durante el mes de tu cumpleaños",
+      "Identificación y límites del consumo gratis: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el local que es tu mes de cumpleaños y lleva identificación.",
+    "sources": [
+      "https://www.facebook.com/tacos.supremos.pachuca/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Hacienda San Lunes, Río de la Soledad (zona Pachuca / Mineral de la Reforma)",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "doblecero-horno-y-parrilla-celaya",
+    "brand": "DOBLECERO Horno y Parrilla",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis en tu cumpleaños con 3 adultos",
+    "benefitType": "gratis",
+    "details": "Según publicaciones del restaurante, en tu cumpleaños no pagas el buffet si vas acompañado de al menos 3 adultos (contándote a ti) y muestras tu identificación. No pude abrir la publicación original: confirma si aplica el día o el mes, los horarios y las exclusiones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 3 adultos (incluyéndote)",
+      "Mostrar identificación para comprobar la fecha",
+      "Día o mes de validez: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 461 231 7667 y presenta tu identificación.",
+    "sources": [
+      "https://www.instagram.com/doblecerocelaya/",
+      "https://www.facebook.com/doblecerocelaya/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Morelos 308 esq. 2 de Abril, Plaza Laureto, Celaya",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "santo-pollo-celaya",
+    "brand": "Santo Pollo",
+    "category": "restaurantes",
+    "benefit": "Cumpleañeros no pagan en el buffet con karaoke",
+    "benefitType": "gratis",
+    "details": "Restaurante de pollo, arrachera y alitas al aire libre que, según publicaciones en redes, no cobra a los cumpleañeros en su buffet con karaoke. Abre solo viernes, sábado y domingo de 12 a 18 h. No hay reglas publicadas que pude confirmar (acompañantes, identificación, vigencia): pregunta antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Abre viernes a domingo de 12 a 18 h",
+      "Acompañantes, identificación y vigencia: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; solo fines de semana",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu cumpleaños y pregunta por las condiciones.",
+    "sources": [
+      "https://www.tiktok.com/@santopollocelaya",
+      "https://www.facebook.com/people/Santo-Pollo-celaya/100054479620330/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Av. del Monte 161 A, Ex Hacienda de Trojes, Celaya",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "picanteria-mariscos-pachuca",
+    "brand": "Picantería (mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero: entrada, fuerte, cerveza y postre (confirmar)",
+    "benefitType": "gratis",
+    "details": "La marca de mariscos con origen en Nayarit promociona en sus sucursales (Pachuca, CDMX Lindavista y otras) que el cumpleañero recibe entrada, plato fuerte, cerveza de barril y postre mostrando su credencial de elector, y en el mes de cumpleaños un bono de $400 en la cuenta. Esos datos vienen de una nota de 2019 y de listados recientes sobre la marca; la página de Facebook de la sucursal Pachuca menciona una promoción de cumpleaños pero no pude ver sus condiciones, así que confirma vigencia y reglas en Pachuca.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial de elector (INE)",
+      "Condiciones de la sucursal Pachuca: sin confirmar",
+      "Bono de $400 en el mes de cumpleaños: dato de listados, sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que es tu cumpleaños y muestra tu INE.",
+    "sources": [
+      "https://www.facebook.com/pachucapicanteria/",
+      "https://www.maspormas.com/especiales/restaurante-picanteria/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Sucursal Pachuca: Blvd. Nuevo Hidalgo 203",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "parque-acuatico-tlaco-chilcuautla",
+    "brand": "Parque Acuático Ecológico Tlaco",
+    "category": "parques",
+    "benefit": "Entrada gratis si cumples años la semana de tu visita",
+    "benefitType": "gratis",
+    "details": "Medios de Hidalgo (Posta, julio de 2025; El Cronista, enero de 2024) reportan que quien cumple años la semana en que visita el parque acuático entra gratis presentando copia de su INE; también hay 50% de descuento a adultos mayores con INAPAM. El sitio oficial del parque no menciona la promoción, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Cumplir años la semana de tu visita",
+      "Copia de identificación oficial (INE)",
+      "El sitio oficial no publica la promoción: confirma"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana en que visitas el parque",
+    "minPurchase": null,
+    "howToClaim": "Lleva copia de tu INE a la taquilla.",
+    "sources": [
+      "https://www.posta.com.mx/share/hidalgo-en-este-parque-acuatico-si-cumples-anos-te-diviertes-gratis/vl2067322",
+      "https://www.tlacoac.com/costos.html"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [],
+    "locationNote": "Tlacotlapilco, Chilcuautla, Hidalgo (valle del Mezquital); no está en Pachuca",
+    "needsId": true,
+    "companions": null
+  }
+]

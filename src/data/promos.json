@@ -4130,13 +4130,9 @@
       "https://cazaofertas.com.mx/otros/promo-mi-chedraui-obten-100-de-saldo-al-actualizar-tu-fecha-de-cumpleanos/"
     ],
     "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "CMX"
-    ],
-    "cities": [
-      "cdmx"
-    ],
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
     "locationNote": "Publicado como oferta local en CDMX; no confirmado en otras ciudades",
     "needsId": false,
     "companions": null
@@ -4249,7 +4245,7 @@
     "slug": "calvin-klein-mexico",
     "brand": "Calvin Klein México",
     "category": "ropa",
-    "benefit": "Cupón de cumpleaños en calvinklein.mx y app (monto no publicado)",
+    "benefit": "Cupón de cumpleaños en calvinklein.mx y app",
     "benefitType": "descuento",
     "details": "La página de promociones de Calvin Klein México incluye un cupón de cumpleaños entre sus cupones (con bienvenida, lealtad y primera compra en app). Aplica solo en calvinklein.mx y en la app Calvin Klein MX (no tiendas físicas ni outlets), solo sobre el descuento base y no en licencias (fragancias, lentes, relojes); es personal, intransferible y de un solo uso, con vigencia del 1 ene al 31 dic 2026. Se acumula con otras promociones salvo en Hot Sale, Buen Fin, Black Friday, Cyber Monday, flash sales, rebajas, colecciones especiales, lanzamientos y productos CKJK. La marca no publica el monto ni cuándo lo envía.",
     "program": null,
@@ -4346,6 +4342,204 @@
     "states": [],
     "cities": [],
     "locationNote": "Válido en línea en todo México; no aplica en tiendas físicas",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "coppel-max-bancoppel",
+    "brand": "Coppel Max (Tarjeta BanCoppel)",
+    "category": "departamentales",
+    "benefit": "Dinero Electrónico extra en tu mes de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Con la Tarjeta de Crédito BanCoppel, Oro o Infinite, en tu mes de cumpleaños recibes Dinero Electrónico adicional por tus compras: +0.2% (tarjeta clásica, una vez que acumules $500 en compras en ese mes), +0.4% (Oro) o +0.6% (Infinite) por cada compra, además del 1%, 2% o 3% base del programa Coppel Max. El Dinero Electrónico vence a un año de generado; no lo generan tarjetas adicionales ni disposiciones en efectivo, y debes estar al corriente en tus pagos.",
+    "program": "Coppel Max",
+    "signupUrl": "https://www.bancoppel.com/descubre-mas/tarjeta-de-credito-bancoppel/",
+    "requirements": [
+      "Tener Tarjeta de Crédito BanCoppel, Oro o Infinite (titular, no adicional)",
+      "Estar al corriente en los pagos de la tarjeta",
+      "Tarjeta clásica: acumular $500 en compras en el mes de tu cumpleaños",
+      "No aplica en disposiciones en efectivo ni en compras sin adquisición de bienes o servicios",
+      "El Dinero Electrónico generado vence a 1 año"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Es automático: paga con tu tarjeta BanCoppel durante tu mes de cumpleaños; el Dinero Electrónico se asigna un día después de la compra (clásica: tras llegar a $500 acumulados). Consulta tu saldo en la App BanCoppel.",
+    "sources": [
+      "https://www.bancoppel.com/pdf/Terminos_y_Condiciones_de_CoppelMax2023.pdf",
+      "https://coppel.com/celebra-tu-cumpleanos-coppel-max"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Aplica en compras con la tarjeta BanCoppel en México y el extranjero; el T&C consultado es la versión de enero 2024",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "mac-cosmetics-mexico",
+    "brand": "M·A·C Cosmetics México",
+    "category": "belleza",
+    "benefit": "15% en línea con código de cumpleaños BDAYMAC",
+    "benefitType": "descuento",
+    "details": "Varias notas de medios mexicanos (2024-2026) reportan que M·A·C da 15% de descuento en maccosmetics.com.mx con el código BDAYMAC si tienes cuenta creada en el sitio; una nota indica que excluye colecciones especiales. No encontramos una página oficial de M·A·C México que confirme la mecánica, la vigencia ni el tope, así que verifica en el sitio antes de ir.",
+    "program": "Cuenta en maccosmetics.com.mx",
+    "signupUrl": "https://www.maccosmetics.com.mx/",
+    "requirements": [
+      "Crear una cuenta en maccosmetics.com.mx",
+      "Solo compras en línea",
+      "Usar el código BDAYMAC en el campo de código de oferta",
+      "Posible exclusión de colecciones especiales (según una nota)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia del código no especificada en las fuentes",
+    "minPurchase": null,
+    "howToClaim": "Crea tu cuenta en maccosmetics.com.mx y escribe BDAYMAC en el campo de código de oferta al pagar; confirma que el descuento aparezca en el total.",
+    "sources": [
+      "https://www.posta.com.mx/mexico/celebrando-tu-cumpleanos-conoce-las-promociones-que-empresas-tienen-para-ti/vl1592568",
+      "https://revistaflow.com/se-viene-tu-cumpleanos-checa-estos-lugares/",
+      "https://guiauniversitaria.mx/comercios-en-los-que-te-dan-regalos-por-tu-cumpleanos/"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo tienda en línea de México (maccosmetics.com.mx)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "the-body-shop-mexico",
+    "brand": "The Body Shop México",
+    "category": "belleza",
+    "benefit": "Descuento de cumpleaños en la tienda en línea",
+    "benefitType": "descuento",
+    "details": "El sitio thebodyshop.mx incluye en sus legales de promociones una promoción 'Cumpleaños' exclusiva de la tienda en línea: el descuento aplica sobre el monto final del pedido, no aplica en sets de regalo, Outlet ni Rebajas, y no se combina con otras promociones. Creadoras de contenido reportan 20% durante cualquier día del mes de cumpleaños (otras notas mencionan 15%); el porcentaje exacto no pudo confirmarse, y el sitio indica que el programa Love Your Body Club está en reconstrucción.",
+    "program": "Love Your Body Club",
+    "signupUrl": "https://www.thebodyshop.mx/",
+    "requirements": [
+      "Solo tienda en línea thebodyshop.mx",
+      "Registrarse con tu fecha de cumpleaños (cuenta o Love Your Body Club)",
+      "No aplica en sets de regalo, Outlet ni Rebajas",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Según creadoras de contenido, cualquier día del mes de cumpleaños; no confirmado en el sitio",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en thebodyshop.mx con tu fecha de cumpleaños y revisa tu correo o cuenta en tu mes; el sitio oficial no detalla cómo se entrega el descuento.",
+    "sources": [
+      "https://www.thebodyshop.mx/pages/legales-promociones-y-o-descuentos",
+      "https://www.thebodyshop.mx/pages/preguntas-frecuentes",
+      "https://www.tiktok.com/@altaciamx/video/7250908460139760902"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo compras en línea en México",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "kiko-milano-mexico",
+    "brand": "KIKO Milano México",
+    "category": "belleza",
+    "benefit": "Regalo de cumpleaños de $125-$250 MXN en producto",
+    "benefitType": "regalo-con-compra",
+    "details": "Los miembros de KIKO ME (gratis, 18+ años) reciben un regalo de cumpleaños en productos de tamaño completo, a elegir de una lista (sujeto a disponibilidad): valor indicativo de $125 MXN en nivel Bronze (0-50 puntos) y $250 MXN en Silver, Gold y Diamond. Es válido 30 días a partir de la fecha de cumpleaños capturada al crear la cuenta; en Bronze y Silver se canjea en una compra de al menos $375, en Gold y Diamond en una compra de cualquier monto. Programa vigente desde el 28 de septiembre de 2026; no aplica en puntos de venta de socios ni en departamentales.",
+    "program": "KIKO ME",
+    "signupUrl": "https://www.kikocosmetics.com/es-mx/ayuda/programa-de-fidelidad-kiko-me/",
+    "requirements": [
+      "Crear cuenta KIKO ME con correo y fecha de nacimiento (18 años o más)",
+      "Identificarte como miembro al comprar (tarjeta virtual, QR, correo o nombre)",
+      "Canjear dentro de los 30 días posteriores a tu fecha de cumpleaños",
+      "Bronze y Silver: compra mínima de $375 MXN; Gold y Diamond: cualquier monto",
+      "Regalo a elegir de una lista de productos, sujeto a disponibilidad",
+      "Solo en tiendas KIKO propias y sitio oficial (no en departamentales ni tiendas de socios)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "30 días a partir de tu fecha de cumpleaños",
+    "minPurchase": 375,
+    "howToClaim": "Crea tu cuenta KIKO ME en una tienda KIKO o en kikocosmetics.com y descarga tu tarjeta virtual; en los 30 días desde tu cumpleaños elige tu regalo de la lista oficial al comprar e identifícate como miembro.",
+    "sources": [
+      "https://assets.ctfassets.net/dkx8la84unft/2WWXHCybFMGCpOrttFQUDY/0e7ae96f38a1ad11a7bfd850fbad77a4/KIKO_ME_Loyalty_Program_T_Cs_Mexico_ES.pdf",
+      "https://www.kikocosmetics.com/es-mx/ayuda/programa-de-fidelidad-kiko-me/"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas KIKO operadas directamente por el grupo y sitio oficial; el T&C menciona que el sitio estará 'cuando esté disponible'",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "chuck-e-cheeses-mexico",
+    "brand": "Chuck E. Cheese's México",
+    "category": "parques",
+    "benefit": "Regalo exclusivo para tu peque en su cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Al suscribirte al newsletter de Chuck E. Cheese's México y marcar la opción de regalo, indicando el nombre y la fecha de cumpleaños de tu hijo, recibes un regalo exclusivo para tu peque en su cumpleaños. El sitio no detalla en qué consiste el regalo, su vigencia ni sus condiciones. Los paquetes de fiesta son un servicio de pago aparte; los cumpleañeros que festejan ahí pueden usar la cabina Ticket Blaster para ganar hasta 1,000 tickets.",
+    "program": "Newsletter Chuck E. Cheese's",
+    "signupUrl": "https://chuckecheeses.com.mx/newsletter.html",
+    "requirements": [
+      "Suscribirte al newsletter en chuckecheeses.com.mx",
+      "Marcar la casilla de regalo de cumpleaños para tu peque",
+      "Capturar nombre del niño, fecha de cumpleaños, ciudad y sucursal",
+      "El sitio no detalla edad máxima, vigencia ni cómo se entrega el regalo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en el sitio",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete en chuckecheeses.com.mx/newsletter.html con los datos de tu peque; el sitio no explica cómo se entrega el regalo, confirma en tu sucursal.",
+    "sources": [
+      "https://chuckecheeses.com.mx/newsletter.html",
+      "https://chuckecheeses.com.mx/fiestas.html"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sucursales Chuck E. Cheese's en México; el formulario pide elegir ciudad y sucursal",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "city-club-premia",
+    "brand": "City Club",
+    "category": "otras-tiendas",
+    "benefit": "Obsequio especial en tu mes de cumpleaños (socios Premia)",
+    "benefitType": "gratis",
+    "details": "Los socios vigentes del programa PREMIA de City Club reciben un obsequio especial de cumpleaños que se entrega durante su mes de cumpleaños en cualquier club de la república. Está limitado a un obsequio por socio y la selección del obsequio puede variar a consideración de City Club. Los beneficios Premia aplican solo en compras en club (no en línea) y la afiliación y renovación se hacen únicamente en clubes.",
+    "program": "Membresía PREMIA de City Club",
+    "signupUrl": "https://www.cityclub.com.mx/membresia-city-club.html",
+    "requirements": [
+      "Ser socio vigente del programa PREMIA (afiliación o renovación pagada)",
+      "Solo durante tu mes de cumpleaños",
+      "Un obsequio por socio",
+      "El obsequio puede variar a consideración de City Club",
+      "Afiliación y renovación solo en clubes City Club"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Con tu membresía PREMIA vigente, acude durante tu mes de cumpleaños a cualquier club City Club; el obsequio se entrega ahí. Los términos no detallan la identificación ni el mostrador de entrega.",
+    "sources": [
+      "https://www.cityclub.com.mx/terminos-condiciones-premia.html",
+      "https://www.cityclub.com.mx/membresia-city-club.html"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cualquier club City Club de México; requiere membresía de pago",
     "needsId": false,
     "companions": null
   },
@@ -6783,6 +6977,3062 @@
     "companions": null
   },
   {
+    "slug": "parque-de-aventura-san-miguel-san-miguel-de-allende",
+    "brand": "Parque de Aventura San Miguel",
+    "category": "parques",
+    "benefit": "20% en tirolesas o cuatrimoto en tu mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Durante el mes de tu cumpleaños tienes 20% de descuento en el circuito de siete tirolesas y puente colgante o en el recorrido de 2 horas en cuatrimoto, y 15% en los paquetes combinados (cuatrimoto + tirolesas). También ofrecen un paquete cumpleañero con pastel, taquiza y tirolesa que se consulta por WhatsApp. No aplica con otras promociones, requiere reservación previa y la promoción está vigente todo el año.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial (INE) con tu fecha de cumpleaños",
+      "Menores: credencial con foto, CURP o acta de nacimiento",
+      "Reservación previa",
+      "Solo durante el mes de tu cumpleaños",
+      "No aplica con otras promociones",
+      "Paquete con pastel y taquiza: se cotiza por WhatsApp"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; el sitio dice que la promoción es válida todo el año",
+    "minPurchase": null,
+    "howToClaim": "Reserva en línea o por WhatsApp (415 167 0073) y muestra tu identificación el día de la visita.",
+    "sources": [
+      "https://www.parquedeaventurasanmiguel.com/promociones-2/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Libramiento José Manuel Zavala Zavala, San Miguel de Allende",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "diego-restaurante-celaya",
+    "brand": "Diego Restaurante (DoubleTree by Hilton Celaya)",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis o cortesía de hasta $470 en comida o cena",
+    "benefitType": "gratis",
+    "details": "Durante el mes de tu cumpleaños, en desayunos tu consumo es sin costo si vas acompañado de tres personas; en comida y cena recibes una cortesía de hasta $470 en consumo bajo la misma condición de acompañamiento. La promoción aparece como 'Birthday Courtesy' en el sitio oficial del restaurante (imagen publicada en 2026); el sitio no indica días ni exclusiones, así que confirma al reservar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de tres personas",
+      "Solo durante el mes de tu cumpleaños",
+      "Desayuno: consumo del cumpleañero sin costo",
+      "Comida y cena: cortesía de hasta $470 en consumo",
+      "El sitio no detalla la identificación: lleva una para comprobar la fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños (el sitio no indica días ni exclusiones)",
+    "minPurchase": null,
+    "howToClaim": "Reserva con el restaurante (461 249 1001) y avisa que es tu mes de cumpleaños.",
+    "sources": [
+      "https://diegorestaurante.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Restaurante del hotel DoubleTree by Hilton Celaya, Blvd. Adolfo López Mateos Ote. 1260",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "coffee-park-pachuca",
+    "brand": "Coffee Park",
+    "category": "cafe",
+    "benefit": "Rebanada de pastel con topper y vela de bengala a $77",
+    "benefitType": "regalo-con-compra",
+    "details": "El menú de repostería del sitio oficial incluye el 'Pastel de Cumpleaños': eliges una rebanada (rompope, cheesecake o brownie) con cake topper y vela de bengala por $77, válido presentando una identificación oficial con tu fecha de cumpleaños. El sitio no aclara si aplica solo el día o todo el mes, ni si hace falta ir acompañado; otras tartas de la carta cuestan $102.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con tu fecha de cumpleaños",
+      "Sujeto a disponibilidad (el menú dice 'pregunta por disponibilidad')",
+      "El sitio no indica día o mes de validez ni acompañantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en el sitio",
+    "minPurchase": 77,
+    "howToClaim": "Pide el 'Pastel de Cumpleaños' en la sucursal y muestra tu identificación.",
+    "sources": [
+      "https://www.coffeeparkcentro.com/menu-bakery.html"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Sucursal Centro: Ignacio Allende 612, Pachuca",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "termas-del-rey-tequisquiapan",
+    "brand": "Termas del Rey",
+    "category": "parques",
+    "benefit": "Entrada gratis al parque acuático todo tu mes de cumple",
+    "benefitType": "gratis",
+    "details": "Según el cartel de cumpleañeros en la página de promociones del parque, durante el mes de tu cumpleaños entras gratis al parque acuático las veces que quieras, y en campamento pagas solo el 50%. El sitio no detalla documento de identidad ni acompañantes, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo durante el mes de tu cumpleaños",
+      "Entradas ilimitadas durante ese mes",
+      "Campamento: pagas solo el 50%",
+      "El sitio no detalla identificación: lleva una para comprobar tu fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, las veces que quieras",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en taquilla durante tu mes de cumpleaños; dudas: (442) 277 1525.",
+    "sources": [
+      "https://www.termasdelrey.com/promociones"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "san-juan-del-rio"
+    ],
+    "locationNote": "Está en Tequisquiapan (Carretera Tequisquiapan–Ezequiel Montes km 10), a unos 30 minutos de San Juan del Río",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "maria-palapa-buffet-pachuca",
+    "brand": "María Palapa Buffet",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga su buffet si va acompañado de tres personas que paguen buffet de adulto, de lunes a viernes y presentando identificación oficial; las publicaciones del restaurante hablan de la semana del cumpleaños. Nota de Chic Magazine de noviembre de 2023 y publicaciones del buffet; una nota de mayo de 2026 no repite la condición, así que confirma que sigue vigente.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas que consuman buffet de adulto",
+      "Solo de lunes a viernes",
+      "Identificación oficial",
+      "Semana de tu cumpleaños (confirma si es día o semana)"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños, solo lunes a viernes (confirmar)",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (771 842 9980) y presenta tu identificación al llegar.",
+    "sources": [
+      "https://www.facebook.com/mariapalapabuffet/",
+      "https://www.chicmagazine.com.mx/foodies-y-viajes/buscas-buffet-mar-tierra-pachuca-conoce-maria-palapa"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Blvd. Felipe Ángeles 1400, Col. Santa Julia, Pachuca",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "tacos-el-chato-sanchez-celaya",
+    "brand": "Tacos El Chato Sánchez",
+    "category": "restaurantes",
+    "benefit": "5 tacos y un agua de sabor gratis en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "La página oficial de Facebook de la taquería anuncia una promoción de cumpleaños con 5 tacos y un agua de sabor gratis en todas sus sucursales de Celaya. No pude ver en el anuncio las condiciones (identificación, día o acompañantes), así que confirma con la sucursal.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Válido en todas las sucursales de Celaya",
+      "Condiciones no visibles en el anuncio: confirma identificación y día"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en el anuncio",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños y pregunta por la promoción.",
+    "sources": [
+      "https://www.facebook.com/elchatocelaya/",
+      "https://www.instagram.com/chatosanchezcelaya/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Sucursales como Eje Nor-Poniente Manuel J. Clouthier 510 y Av. Francisco Juárez 1201",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "madero-restaurante-bajio-hidalgo",
+    "brand": "Madero Restaurante",
+    "category": "restaurantes",
+    "benefit": "Pastelito de cortesía el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "El día de tu cumpleaños, al comer en el restaurante y avisar a tu mesero, te dan un pastelito de cortesía sin costo; aplica una sola vez al año por cliente, solo para el cumpleañero (si un acompañante lo quiere, lo paga a $25) y está sujeto a disponibilidad. Además, si estás registrado en Recompensas Madero acumulas puntos dobles durante 15 días desde tu cumpleaños. Los términos y condiciones oficiales (abril 2026) indican que la promoción vale en cualquier Madero Restaurante, los 365 días del año, desde el 28 de julio de 2025.",
+    "program": "Recompensas Madero (solo para los puntos dobles)",
+    "signupUrl": "https://maderorestaurante.mx/lealtad/",
+    "requirements": [
+      "INE para mayores de edad (menores: cualquier identificación)",
+      "Avisa a tu mesero el día de tu cumpleaños",
+      "Solo consumo en restaurante: no para llevar ni a domicilio",
+      "Una vez al año por cliente",
+      "Sujeto a disponibilidad de pastel",
+      "Puntos dobles 15 días: requiere cuenta en Recompensas Madero"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños, de lunes a domingo (puntos dobles: 15 días contando tu cumpleaños como día 1)",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero al llegar y muestra tu INE; los puntos dobles se acreditan si tu fecha de cumpleaños está actualizada en Recompensas Madero.",
+    "sources": [
+      "https://maderorestaurante.mx/wp-content/uploads/2026/04/TYC_version-01_04_2026.pdf",
+      "https://maderorestaurante.mx/lealtad/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "GUA",
+      "HID",
+      "QUE"
+    ],
+    "cities": [],
+    "locationNote": "Según listados de restaurantes tiene sucursales en Pachuca (San Javier), Celaya (Patio Madero), Irapuato y Querétaro; confirma la sucursal más cercana",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "don-triton-tlaxcala",
+    "brand": "Don Tritón (buffet de mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con el consumo de 6 personas",
+    "benefitType": "gratis",
+    "details": "Restaurante de mariscos con buffet que, según publicaciones en redes, regala la comida del cumpleañero cuando el grupo suma el consumo de seis personas. No pude abrir la publicación original, así que no hay reglas confirmadas sobre identificación, días ni si el cumpleañero cuenta dentro de las seis personas: confirma con el restaurante antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo con el consumo de seis personas",
+      "Confirma si el cumpleañero cuenta dentro de las seis",
+      "Identificación, días y exclusiones: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Avisa al hacer tu pedido que es tu cumpleaños y pregunta por la promoción.",
+    "sources": [
+      "https://www.instagram.com/don_tritonxela/",
+      "https://www.instagram.com/don_triton_buffet/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Santa María Acuitlapilco, Tlaxcala; el buffet abre desde las 11:30 am (según reseñas, cierra alrededor de las 6 pm)",
+    "needsId": true,
+    "companions": 6
+  },
+  {
+    "slug": "buffa-wings-apizaco",
+    "brand": "Buffa Wings",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga con 1 adulto acompañante",
+    "benefitType": "gratis",
+    "details": "Restaurante de alitas y hamburguesas que, según publicaciones en redes, no cobra al cumpleañero si va acompañado de al menos un adulto y solo el día exacto de su cumpleaños; los acompañantes pagan precio normal. La promoción no se acumula con otras (por ejemplo, la de niños gratis de los domingos) ni aplica en festivos. No pude abrir la publicación original: confirma las reglas por teléfono (241 417 5798).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos un adulto",
+      "Solo el día exacto de tu cumpleaños",
+      "Los acompañantes pagan precio normal",
+      "No acumulable con otras promociones (ej. niños gratis)",
+      "No aplica en festivos"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños y muestra tu identificación.",
+    "sources": [
+      "https://www.facebook.com/BuffaWingsGrill",
+      "https://www.tripadvisor.com/Restaurant_Review-g3181075-d14159508-Reviews-Buffa_Wings-Apizaco_Central_Mexico_and_Gulf_Coast.html"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Apizaco, Tlaxcala: Av. Juárez 1115, Centro",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "el-payo-cocina-de-mar-apizaco",
+    "brand": "El Payo Cocina de Mar",
+    "category": "restaurantes",
+    "benefit": "$250 de consumo de regalo si llegas con 5 acompañantes",
+    "benefitType": "descuento",
+    "details": "Una publicación de El Imparcial de Tlaxcala en Facebook anuncia que, si celebras tu cumpleaños en este restaurante de mariscos y llegas con 5 acompañantes, te regalan $250 pesos para tu consumo personal. No pude ver el texto completo del anuncio, así que no hay datos de identificación, días ni vigencia: confirma con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 acompañantes",
+      "$250 de crédito para tu consumo personal",
+      "Identificación, días y vigencia: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado en el anuncio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al llegar y pregunta cómo se aplica el crédito.",
+    "sources": [
+      "https://www.facebook.com/El.Imparcial.de.Tlaxcala/posts/-el-cumplea%C3%B1ero-come-con-regalo-incluidoen-el-payo-cocina-de-mar-celebran-tu-d%C3%ADa/1535571948575936/",
+      "https://www.facebook.com/ElPayoCocinaDeMar/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Apizaco, Tlaxcala: Prol. 16 de Septiembre 311, Col. San Isidro; abre de 12 a 19 h todos los días",
+    "needsId": true,
+    "companions": 5
+  },
+  {
+    "slug": "la-carika-restaurante-pachuca",
+    "brand": "La Carika Restaurante",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis el día de tu cumpleaños con 5 personas",
+    "benefitType": "gratis",
+    "details": "Restaurante con buffet de comida mexicana y pizzas donde, según publicaciones en redes, el cumpleañero no paga su buffet si va el día exacto de su cumpleaños, muestra su INE original y llega con un mínimo de 5 personas. No pude abrir la publicación original, así que confirma vigencia, días y si las 5 personas incluyen al cumpleañero.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día exacto de tu cumpleaños",
+      "INE original",
+      "Mínimo 5 personas",
+      "Confirma si el cumpleañero cuenta dentro de las 5"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva (771 229 8023) y presenta tu INE original al llegar.",
+    "sources": [
+      "https://www.instagram.com/restaurantelacarika/",
+      "https://www.tiktok.com/@lacarikarestaurante"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Autopista México-Pachuca km 73, Zapotlán de Juárez, a unos 5 minutos de Pachuca",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "supremos-tacos-drinks-pachuca",
+    "brand": "Supremos Tacos & Drinks",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come y bebe gratis con 3 adultos",
+    "benefitType": "gratis",
+    "details": "Según una publicación de la taquería en redes, el cumpleañero come y bebe gratis durante el mes de su cumpleaños si va acompañado de tres o más adultos. No pude abrir la publicación original: no hay datos de identificación, días ni límites del consumo gratis, así que confirma con el local.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 o más adultos",
+      "Solo durante el mes de tu cumpleaños",
+      "Identificación y límites del consumo gratis: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el local que es tu mes de cumpleaños y lleva identificación.",
+    "sources": [
+      "https://www.facebook.com/tacos.supremos.pachuca/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Hacienda San Lunes, Río de la Soledad (zona Pachuca / Mineral de la Reforma)",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "doblecero-horno-y-parrilla-celaya",
+    "brand": "DOBLECERO Horno y Parrilla",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis en tu cumpleaños con 3 adultos",
+    "benefitType": "gratis",
+    "details": "Según publicaciones del restaurante, en tu cumpleaños no pagas el buffet si vas acompañado de al menos 3 adultos (contándote a ti) y muestras tu identificación. No pude abrir la publicación original: confirma si aplica el día o el mes, los horarios y las exclusiones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 3 adultos (incluyéndote)",
+      "Mostrar identificación para comprobar la fecha",
+      "Día o mes de validez: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 461 231 7667 y presenta tu identificación.",
+    "sources": [
+      "https://www.instagram.com/doblecerocelaya/",
+      "https://www.facebook.com/doblecerocelaya/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Morelos 308 esq. 2 de Abril, Plaza Laureto, Celaya",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "santo-pollo-celaya",
+    "brand": "Santo Pollo",
+    "category": "restaurantes",
+    "benefit": "Cumpleañeros no pagan en el buffet con karaoke",
+    "benefitType": "gratis",
+    "details": "Restaurante de pollo, arrachera y alitas al aire libre que, según publicaciones en redes, no cobra a los cumpleañeros en su buffet con karaoke. Abre solo viernes, sábado y domingo de 12 a 18 h. No hay reglas publicadas que pude confirmar (acompañantes, identificación, vigencia): pregunta antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Abre viernes a domingo de 12 a 18 h",
+      "Acompañantes, identificación y vigencia: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; solo fines de semana",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu cumpleaños y pregunta por las condiciones.",
+    "sources": [
+      "https://www.tiktok.com/@santopollocelaya",
+      "https://www.facebook.com/people/Santo-Pollo-celaya/100054479620330/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Av. del Monte 161 A, Ex Hacienda de Trojes, Celaya",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "picanteria-mariscos-pachuca",
+    "brand": "Picantería (mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero: entrada, fuerte, cerveza y postre (confirmar)",
+    "benefitType": "gratis",
+    "details": "La marca de mariscos con origen en Nayarit promociona en sus sucursales (Pachuca, CDMX Lindavista y otras) que el cumpleañero recibe entrada, plato fuerte, cerveza de barril y postre mostrando su credencial de elector, y en el mes de cumpleaños un bono de $400 en la cuenta. Esos datos vienen de una nota de 2019 y de listados recientes sobre la marca; la página de Facebook de la sucursal Pachuca menciona una promoción de cumpleaños pero no pude ver sus condiciones, así que confirma vigencia y reglas en Pachuca.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial de elector (INE)",
+      "Condiciones de la sucursal Pachuca: sin confirmar",
+      "Bono de $400 en el mes de cumpleaños: dato de listados, sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que es tu cumpleaños y muestra tu INE.",
+    "sources": [
+      "https://www.facebook.com/pachucapicanteria/",
+      "https://www.maspormas.com/especiales/restaurante-picanteria/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "HID"
+    ],
+    "cities": [
+      "pachuca"
+    ],
+    "locationNote": "Sucursal Pachuca: Blvd. Nuevo Hidalgo 203",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "parque-acuatico-tlaco-chilcuautla",
+    "brand": "Parque Acuático Ecológico Tlaco",
+    "category": "parques",
+    "benefit": "Entrada gratis si cumples años la semana de tu visita",
+    "benefitType": "gratis",
+    "details": "Medios de Hidalgo (Posta, julio de 2025; El Cronista, enero de 2024) reportan que quien cumple años la semana en que visita el parque acuático entra gratis presentando copia de su INE; también hay 50% de descuento a adultos mayores con INAPAM. El sitio oficial del parque no menciona la promoción, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Cumplir años la semana de tu visita",
+      "Copia de identificación oficial (INE)",
+      "El sitio oficial no publica la promoción: confirma"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana en que visitas el parque",
+    "minPurchase": null,
+    "howToClaim": "Lleva copia de tu INE a la taquilla.",
+    "sources": [
+      "https://www.posta.com.mx/share/hidalgo-en-este-parque-acuatico-si-cumples-anos-te-diviertes-gratis/vl2067322",
+      "https://www.tlacoac.com/costos.html"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "HID"
+    ],
+    "cities": [],
+    "locationNote": "Tlacotlapilco, Chilcuautla, Hidalgo (valle del Mezquital); no está en Pachuca",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "temixco-parque-acuatico-cuernavaca",
+    "brand": "Ex Hacienda de Temixco Parque Acuático",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis comprando 3 boletos",
+    "benefitType": "gratis",
+    "details": "Mostrando tu INE en el mes de tu cumpleaños y comprando 3 boletos, el cumpleañero entra gratis al parque acuático. Es la promoción \"Cumpleañero entra gratis\" de la sección de promociones del sitio oficial; el sitio no aclara si el boleto del festejado cuenta entre los 3 ni qué días o temporadas se excluyen.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (mostrarla)",
+      "Solo en el mes de tu cumpleaños",
+      "Comprar 3 boletos de entrada",
+      "Sin vigencia ni exclusiones publicadas: confirma en taquilla"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños (sin fecha de término publicada)",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu INE en taquilla al comprar tus 3 boletos durante tu mes de cumpleaños.",
+    "sources": [
+      "https://temixcoacuatico.com/index.php/site/page?view=promociones"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Temixco, Morelos (zona metropolitana de Cuernavaca)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "ojo-de-agua-temixco-cuernavaca",
+    "brand": "Parque Acuático Ojo de Agua (Temixco)",
+    "category": "parques",
+    "benefit": "Entrada completamente gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "\"Celebramos tu cumpleaños\": si el día que visitas el parque es tu cumpleaños, entras completamente gratis presentando en taquilla el comprobante de tu fecha de nacimiento (INE si eres mayor de edad, acta de nacimiento o CURP). El sitio no pide acompañantes ni compra mínima y remite a su Facebook para promociones nuevas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE (mayores de edad), acta de nacimiento o CURP",
+      "Tu cumpleaños debe ser el día de la visita",
+      "Presentar el comprobante en taquilla"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE, acta o CURP en la taquilla el mismo día de tu cumpleaños.",
+    "sources": [
+      "https://parqueacuaticoojodeagua.com/costos-y-promociones"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Temixco, Morelos (zona metropolitana de Cuernavaca)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "los-manantiales-morelos",
+    "brand": "Los Manantiales (Balneario Natural y Campamento)",
+    "category": "parques",
+    "benefit": "Entrada al balneario o 1ª noche de campamento gratis",
+    "benefitType": "gratis",
+    "details": "Cumpleañero gratis: presentando una identificación o documento que acredite tu fecha de nacimiento, tu entrada al balneario o tu primera noche de campamento es gratis. Debes ir acompañado de una persona que pague su entrada regular y visitar en la misma semana de tu cumpleaños; se pide en taquilla, aplican restricciones y no se acumula con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación o documento con fecha de nacimiento",
+      "Ir con 1 persona que pague entrada regular",
+      "Visitar en la misma semana de tu cumpleaños",
+      "Pedirlo en taquilla; no acumulable con otras promos",
+      "Aplican restricciones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños; promoción vigente todo el año",
+    "minPurchase": null,
+    "howToClaim": "Pide la promoción en taquilla con tu identificación y una persona que pague su entrada.",
+    "sources": [
+      "https://losmanantiales.com.mx/promociones/promociones-interna/",
+      "https://losmanantiales.com.mx/wp-content/uploads/2025/11/cumpleaneroGratisLM.jpg"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "Km 149 Autopista del Sol, Coaxitlán, Tlaquiltenango, Morelos (no está en Cuernavaca ni Cuautla ciudad)",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "finca-ensamble-cholula",
+    "brand": "Finca Ensamble (Cholula)",
+    "category": "restaurantes",
+    "benefit": "Postre cumpleañero gratis",
+    "benefitType": "gratis",
+    "details": "En la página oficial de Finca Ensamble, restaurante frente a la pirámide de Cholula: \"¿Es tu cumpleaños? Ven a Finca a celebrarlo con nosotros y pide tu postre cumpleañero GRATIS\". El sitio no publica condiciones (acompañantes, identificación, fechas ni vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Pedir el postre cumpleañero en el restaurante",
+      "El sitio no publica más condiciones: confirma al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin vigencia publicada; aparece como promo permanente en el sitio",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños y pide el postre cumpleañero; reserva por teléfono al 222 456 4155 o 222 971 9298.",
+    "sources": [
+      "https://fincaensamble.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Av. 7 Ote. 418, San Pablo Tecamac, San Andrés Cholula",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "casa-reyna-spa-puebla",
+    "brand": "Casa Reyna Hotel y Spa (Puebla)",
+    "category": "belleza",
+    "benefit": "Masaje de 60 min gratis + postre y mimosa en tu mes",
+    "benefitType": "gratis",
+    "details": "\"Ritual de cumpleaños\": masaje descontracturante, regenerador o relajante de 60 minutos gratis para quien cumple años, más postre de cumpleaños y mimosa para el festejado. Debes ir con al menos 3 acompañantes que contraten cualquier masaje o facial del spa, reservar y contratar con anticipación, compartir identificación oficial para validar la fecha y usarlo dentro del mes de tu cumpleaños; no acumulable.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 acompañantes o más que contraten masaje o facial",
+      "Reservación y contratación de servicios previas",
+      "Identificación oficial para validar tu fecha de cumpleaños",
+      "Válido todo el mes de tu cumpleaños",
+      "No acumulable con otras promociones o descuentos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva el Ritual de cumpleaños con el spa (+52 2222 32 0032 o hotel@casareyna.com) y presenta tu identificación.",
+    "sources": [
+      "https://www.casareyna.com/es/hotel/spa.php"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "2 Oriente 1007, Centro Histórico de Puebla",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "los-alcatraces-villa-del-conquistador-cuernavaca",
+    "brand": "Los Alcatraces (Hotel Villa del Conquistador)",
+    "category": "restaurantes",
+    "benefit": "Platillo de mayor precio de cortesía con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "En el restaurante Los Alcatraces del Hotel Villa del Conquistador, el platillo de mayor precio consumido por el cumpleañero va de cortesía si llega con al menos 3 acompañantes (niños, adolescentes o adultos) y presenta copia de identificación oficial. Aplica todos los días en desayunos, comidas, cenas y buffet, 7 días antes y 7 días después de tu cumpleaños; hay que mencionar la promoción al mesero y firmar el cheque. La vigencia se renueva por mes y la última publicada (agosto 2026) ya venció.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Copia de identificación oficial",
+      "Ir con 3 acompañantes o más",
+      "7 días antes o 7 después de tu cumpleaños",
+      "Mencionar la promoción al mesero y a la hostess al llegar",
+      "Firmar el cheque de consumo; no aplica con otras promos",
+      "Confirma la vigencia del mes en curso"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Del día -7 al +7 de tu cumpleaños; vigencia mensual (última publicada: 1 al 31 de agosto de 2026)",
+    "minPurchase": null,
+    "howToClaim": "Menciona la promoción al llegar al restaurante, presenta copia de tu identificación y firma el cheque.",
+    "sources": [
+      "https://hotelvilladelconquistador.com/promocumpleanos/",
+      "https://hotelvilladelconquistador.com/restaurante"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Paseo del Conquistador 134, Lomas de Cortés, Cuernavaca",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "contender-go-karts-puebla-cuernavaca",
+    "brand": "Contender Go-Karts",
+    "category": "experiencias",
+    "benefit": "Piloto cumpleañero: 30% de descuento en una carrera",
+    "benefitType": "descuento",
+    "details": "Piloto Cumpleañero: una carrera con 30% de descuento (carrera light en Puebla; carrera light o pro en Cuernavaca) una vez en el mes de tu cumpleaños. Está en la página oficial de promociones; el sitio no detalla si se exige identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo en el mes de tu cumpleaños",
+      "Una sola vez al mes",
+      "Puebla: carrera light; Cuernavaca: light o pro",
+      "Lleva identificación por si piden validar tu fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una vez en el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva en el sitio o pide la promoción en la pista y valida tu fecha de nacimiento.",
+    "sources": [
+      "http://contendergokarts.com/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR",
+      "PUE"
+    ],
+    "cities": [
+      "puebla",
+      "cuernavaca"
+    ],
+    "locationNote": "Pistas en San Pedro Cholula (Explanada Puebla) y Cuernavaca (Grand Outlet). También hay pistas en Querétaro, Pachuca, Riviera Maya y Culiacán.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "jump-in-cuernavaca",
+    "brand": "Jump-In Parque de Trampolines",
+    "category": "experiencias",
+    "benefit": "Acceso ilimitado gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Si cumples años, visita Jump-In el día de tu cumpleaños con una copia impresa de tu CURP o acta de nacimiento y recibes acceso ilimitado por ese día (según las preguntas frecuentes del sitio oficial). No incluye calcetines y solo se puede usar el día exacto de tu cumpleaños. El sitio tiene sucursal foránea en Cuernavaca, además de sucursales en CDMX y Estado de México.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Copia impresa de tu CURP o acta de nacimiento",
+      "Solo el día de tu cumpleaños",
+      "No incluye los calcetines antiderrapantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta la copia impresa de tu CURP o acta de nacimiento en la sucursal el día de tu cumpleaños.",
+    "sources": [
+      "https://www.jumpin.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Sucursal de Cuernavaca; también hay sucursales en CDMX y Estado de México. Confirma que aplique en la tuya.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "ozumo-buffet-fusion-bar-puebla",
+    "brand": "Ozumo Buffet Fusion Bar (Puebla y Cholula)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 amigos (según TikTok)",
+    "benefitType": "gratis",
+    "details": "El Instagram oficial de Ozumo tiene una historia destacada llamada \"Cumpleaños\", lo que confirma que existe una promo de festejo, pero sin reglas legibles. Listados de TikTok sobre buffets para cumpleaños en Puebla dicen que el cumpleañero come gratis si reserva con 3 amigos. El sitio oficial (ozumosushi.com) no menciona cumpleaños.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con 3 amigos (según listados de TikTok)",
+      "Confirma reglas, días y vigencia con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no publicada; confirma con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (221 264 9191 Puebla centro; 221 271 2619 Cholula) y pregunta por la promo de cumpleaños.",
+    "sources": [
+      "https://www.instagram.com/ozumobuffetfusionbar/",
+      "https://www.ozumosushi.com/",
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Sucursales en Centro Histórico de Puebla (Puebla de Antaño, Rooftop, 3 Patios) y San Andrés Cholula",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "altamar-restaurante-cuautla",
+    "brand": "Altamar Restaurante (Cuautla)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis su platillo favorito + pastel",
+    "benefitType": "gratis",
+    "details": "Según un listado de TikTok sobre restaurantes para celebrar cumpleaños en Cuautla, el cumpleañero come gratis su platillo favorito y recibe pastel de cortesía. No se encontró en el Facebook oficial del restaurante, así que no está confirmado; reglas (acompañantes, ID, vigencia) sin dato.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas no publicadas: confirma con el restaurante antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Llama al +52 735 215 8233 y confirma la promoción antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cuautla",
+      "https://www.facebook.com/altamarcuautla/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuautla"
+    ],
+    "locationNote": "Cuautla-El Hospital 1, col. 10 de Abril, Cuautla (dirección según su Facebook)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "dos-mil-uno-restaurante-cuautla",
+    "brand": "Dos Mil Uno Restaurante (Cuautla)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga buffet (reglas sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según un listado de TikTok sobre restaurantes para cumpleaños en Cuautla, en este buffet mexicano con música en vivo el cumpleañero no paga. Se revisaron su Instagram y Facebook oficiales y no aparece la promoción; acompañantes, identificación y vigencia sin dato.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas no publicadas: confirma con el restaurante antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Confirma la promoción con el restaurante (Facebook/Instagram @dosmiluno.restaurante) antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cuautla",
+      "https://www.instagram.com/dosmiluno.restaurante/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuautla"
+    ],
+    "locationNote": "Blvd. Libertadores 317, col. Morelos, Cuautla",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "helados-azteca-tehuacan",
+    "brand": "Helados Azteca (Tehuacán)",
+    "category": "postres",
+    "benefit": "Medio litro de helado gratis en tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Según un listado de TikTok sobre helados que regalan cosas por tu cumpleaños, Helados Azteca Tehuacán da medio litro de helado gratis en tu cumpleaños con una compra mínima de $100. Su Instagram oficial (@heladosaztecatehuacan) no menciona la promoción, así que no está confirmada.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Compra mínima de $100 (según TikTok)",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": 100,
+    "howToClaim": "Pregunta en la heladería y confirma condiciones antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/helados-azteca-que-te-dan-cosas-gratis-en-tu-cumplea%C3%B1os",
+      "https://www.instagram.com/heladosaztecatehuacan/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "tehuacan"
+    ],
+    "locationNote": "Blvd. Héroe de Nacozari 1601A, Tehuacán (dirección según su Instagram/Facebook)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "buffet-del-barrio-cuernavaca",
+    "brand": "Buffet del Barrio (Cuernavaca)",
+    "category": "restaurantes",
+    "benefit": "Buffet para el cumpleañero a $269 con 3 acompañantes",
+    "benefitType": "descuento",
+    "details": "Según resultados de búsqueda sobre su Facebook, el cumpleañero paga $269 por el buffet si va acompañado de 3 personas que consuman buffet de adulto (precio regular reportado: $469 adultos). Su Instagram oficial tiene una historia destacada \"Promos\", pero las reglas no se pudieron leer en un canal propio.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas que consuman buffet de adulto",
+      "Vigencia y días sin confirmar: pregunta antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Llama al 777 688 7518 y confirma la promoción de cumpleañero antes de ir.",
+    "sources": [
+      "https://www.facebook.com/p/Buffet-del-Barrio-Cuernavaca-61557913814923/",
+      "https://www.instagram.com/buffetdelbarrio/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Jacarandas 103, col. Flores Magón (Forum Cuernavaca)",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "jule-do-brasil-acapulco",
+    "brand": "Jule Do Brasil Churrascaría (Acapulco)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero con 5 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según la ficha del restaurante en la plataforma de reservaciones Reservándonos (no es canal propio), el cumpleañero recibe buffet gratis si asiste con 5 acompañantes. Su sitio oficial (juleacapulco.com) no cargó al revisarlo, por lo que no se pudo confirmar. Reglas (ID, días, vigencia) sin dato.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 acompañantes",
+      "Reglas no publicadas: confirma con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llama al 744 222 6440 y confirma la promoción de cumpleaños.",
+    "sources": [
+      "https://reservandonos.com/en/place/restaurante-jule-acapulco/",
+      "https://reservandonos.com/blog/mejores-restaurantes-para-celebrar-cumpleanos-acapulco/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Av. Costera Miguel Alemán, Costa Azul, Acapulco",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "los-tulipanes-villahermosa",
+    "brand": "Restaurante Los Tulipanes",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis el día de tu cumpleaños con 5 amigos",
+    "benefitType": "gratis",
+    "details": "Buffet típico tabasqueño gratis para el cumpleañero el día de su cumpleaños si va con 5 amigos; aplica de lunes a domingo de 8:00 am a 6:00 pm. No aplica con otras promociones y los precios pueden cambiar sin previo aviso.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 amigos el día de tu cumpleaños",
+      "Lunes a domingo, 8:00 am a 6:00 pm",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños (8:00 am a 6:00 pm)",
+    "minPurchase": null,
+    "howToClaim": "Ve con 5 amigos a la sucursal el día de tu cumpleaños y avisa que es tu cumple; si quieres asegurar mesa, llama para reservar (la página no especifica qué identificación piden).",
+    "sources": [
+      "https://restaurantelostulipanes.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "TAB"
+    ],
+    "cities": [
+      "villahermosa"
+    ],
+    "locationNote": "Sucursales Zona CICOM (Perif. Carlos Pellicer Cámara 511) y Parque Tomás Garrido (Blvd. Adolfo Ruiz Cortines). La página no aclara si aplica en ambas; pregunta al reservar.",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "hotel-lois-veracruz",
+    "brand": "Hotel Lois Veracruz (Tardes Pasteleras)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga en Tardes Pasteleras con 6 acompañantes",
+    "benefitType": "gratis",
+    "details": "En las 'Tardes Pasteleras' del Hotel Lois (jueves y viernes de 16:00 a 19:00 hrs) el cumpleañero no paga si celebra con 6 acompañantes. El paquete cuesta $270 adultos y $140 niños e incluye bebidas y música en vivo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 6 acompañantes",
+      "Solo jueves y viernes de 16:00 a 19:00 hrs",
+      "Acompañantes pagan $270 adulto / $140 niño",
+      "Reserva por WhatsApp 229 937 8089"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Jueves y viernes de 16:00 a 19:00 hrs; la página no precisa si es el día o el mes del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (229 937 8089) o al 229 910 0166 indicando que es un cumpleaños; confirma qué identificación piden y el periodo de validez.",
+    "sources": [
+      "https://www.hotellois.mx/",
+      "https://www.hotellois.mx/promos.html"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "veracruz"
+    ],
+    "locationNote": "Bv. Adolfo Ruiz Cortines 10, Costa Verde, Boca del Río. Página de promociones vigente al 4-oct-2026.",
+    "needsId": null,
+    "companions": 6
+  },
+  {
+    "slug": "vena-cava-xalapa",
+    "brand": "Vena Cava",
+    "category": "restaurantes",
+    "benefit": "Buffet italiano gratis la semana de tu cumpleaños con 4 personas",
+    "benefitType": "gratis",
+    "details": "El cumpleañero come gratis el buffet italiano si va con otras 4 personas que paguen su buffet de adulto ($285). Además recibe rebanada de pastel, mañanitas con vela de bengala y una ronda de shots para todos. Válido solo en la semana del cumpleaños; el buffet es de jueves a domingo de 2:00 a 6:00 pm (vigencia del buffet al 31 de agosto de 2026 según la página).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con otras 4 personas que paguen buffet de adulto",
+      "Identificación oficial con fotografía",
+      "Solo la semana de tu cumpleaños",
+      "Buffet jueves a domingo, 2:00 a 6:00 pm"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños, jueves a domingo de 2:00 a 6:00 pm (horario del buffet)",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (228 116 3124), ve con 4 personas que paguen buffet y presenta tu identificación oficial con foto.",
+    "sources": [
+      "https://restaurantevenacava.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Av. Araucarias 139, Indeco Ánimas, Xalapa. La página marca el buffet con vigencia al 31-ago-2026; confirma que el buffet sigue vigente.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "madison-grill-veracruz-tabasco",
+    "brand": "Madison Grill",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía en la semana de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "La carta de Madison Grill anuncia 'Postre de cumpleañero' (consulta términos y condiciones). Un convenio universitario publicado para la sucursal de Puebla describe el beneficio como 1 postre de cortesía a elegir presentando identificación oficial, válido de lunes a domingo de la semana del cumpleaños. No encontré los términos completos para las sucursales de Veracruz y Tabasco.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Solo la semana de tu cumpleaños (lunes a domingo)",
+      "Consulta términos y condiciones en la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños, de lunes a domingo (dato de la sucursal Puebla)",
+    "minPurchase": null,
+    "howToClaim": "Pide tu postre de cumpleañero en la sucursal y presenta tu identificación oficial; confirma los términos con el restaurante.",
+    "sources": [
+      "https://www.madisongrill.mx/menuxalapa",
+      "https://www.madisongrill.mx/menuview",
+      "https://beneficios.udlap.mx/producto/madison-grill/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "TAB",
+      "VER"
+    ],
+    "cities": [
+      "veracruz",
+      "xalapa",
+      "cordoba",
+      "coatzacoalcos",
+      "villahermosa"
+    ],
+    "locationNote": "Sucursales: Veracruz/Boca del Río (Ruiz Cortines y Plaza View), Xalapa (Plaza Ankara), Córdoba (Plaza San José), Orizaba (Concordia y Poliforum), Coatzacoalcos (Plaza Teatro) y Villahermosa (Plaza Usuma). También hay sucursal en Puebla. Los términos escritos solo los vi en la ficha de Puebla.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mariscos-boca-del-rio-xalapa",
+    "brand": "Mariscos Boca del Río",
+    "category": "restaurantes",
+    "benefit": "Comes gratis el mes de tu cumpleaños con 3 acompañantes",
+    "benefitType": "gratis",
+    "details": "Promoción 'Si cumples años, comes gratis': el cumpleañero come gratis (buffet o a la carta) durante todo el mes de su cumpleaños si va con al menos 3 acompañantes; el restaurante pone la bebida del cumpleañero y el postre y el festejo. Aplica en sus sucursales de Xalapa (Tepic y Atenas) y La Antigua según el post publicado en su Facebook.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 3 acompañantes",
+      "Solo el mes de tu cumpleaños",
+      "Reserva por WhatsApp 228 241 2500"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (228 241 2500) y avisa que es tu cumpleaños; confirma con el restaurante la identificación que piden.",
+    "sources": [
+      "https://www.facebook.com/Mariscosbocadelriolaantigua/",
+      "https://www.facebook.com/Mariscosbocadelrio/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "xalapa"
+    ],
+    "locationNote": "Sucursales en Xalapa (Tepic 47, Col. Progreso; Atenas) y La Antigua (Veracruz). El dato viene del texto de un post de Facebook del negocio; no pude abrir el post original.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "las-espadas-chihuahua-juarez-aguascalientes",
+    "brand": "Las Espadas Brazilian Steakhouse",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero come gratis acompañado de 4 adultos",
+    "benefitType": "gratis",
+    "details": "Su sitio oficial publica la promo 'El cumpleañero come GRATIS acompañado de 4 adultos'. Válida de lunes a jueves durante el mes de tu cumpleaños; no aplica en días festivos ni durante diciembre (si cumples en diciembre, aplica en noviembre o enero). Aplican restricciones que el sitio no detalla.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de 4 adultos",
+      "Válido de lunes a jueves",
+      "No aplica en días festivos ni en diciembre",
+      "Cumpleaños en diciembre: usar noviembre o enero",
+      "Aplican restricciones (no detalladas)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Lunes a jueves del mes de tu cumpleaños; no aplica en diciembre ni festivos",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llega a la sucursal acompañado de 4 adultos y avisa que es tu cumpleaños; lleva identificación por si la piden.",
+    "sources": [
+      "https://lasespadas.mx/",
+      "https://lasespadas.mx/wp-content/uploads/2026/10/Las-Espadas-Promo-Cumpleanos-Web.jpg"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "AGU",
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua",
+      "ciudad-juarez",
+      "aguascalientes"
+    ],
+    "locationNote": "Sucursales listadas en su sitio: Chihuahua (Plaza Cumbres y Travessia), Ciudad Juárez (Ejército Nacional, Paseo Triunfo y 3 Torres) y Aguascalientes (Blvd. Colosio 221). La imagen de la promo es general; el sitio no aclara si aplica igual en todas.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "brazza-y-fogo-do-brasil-san-luis-potosi",
+    "brand": "Brazza y Fogo do Brasil",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 adultos que coman buffet",
+    "benefitType": "gratis",
+    "details": "Su sitio oficial anuncia '4 adultos + tú comes gratis' en la sección 'Tu cumpleaños se celebra en grande', con la nota 'aplican restricciones' sin detallarlas. Se entiende que el cumpleañero come gratis si lo acompañan 4 adultos que consumen el buffet de cortes brasileños; confirma condiciones con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "4 adultos que consuman el buffet",
+      "Aplican restricciones (no detalladas en el sitio)",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El sitio no precisa día ni vigencia",
+    "minPurchase": null,
+    "howToClaim": "Llega con 4 adultos que pidan el buffet y avisa en el restaurante que es tu cumpleaños; reserva por teléfono 444 818 4591.",
+    "sources": [
+      "https://www.brazzayfogoslp.com/",
+      "https://www.facebook.com/BrazzayfogoSLP/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Según su sitio: lateral Carr. San Luis Potosí-México s/n, col. Central; tel. 444 818 4591. Buffet de cortes y espadas brasileñas.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "los-canarios-fiesta-americana-san-luis-potosi",
+    "brand": "Los Canarios (Fiesta Americana SLP)",
+    "category": "restaurantes",
+    "benefit": "Plato fuerte gratis (hasta $350) y rebanada de pastel",
+    "benefitType": "gratis",
+    "details": "En el restaurante Los Canarios del hotel Fiesta Americana San Luis Potosí, si comes con al menos 2 adultos más, tu plato fuerte va por la casa (tope de $350) y te dan una rebanada de pastel de cortesía. Válido durante el mes de tu cumpleaños con identificación oficial; no es transferible ni combinable con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mínimo 2 adultos acompañantes",
+      "Identificación oficial vigente",
+      "Válido durante el mes de tu cumpleaños",
+      "Plato fuerte gratis hasta $350",
+      "No transferible ni combinable con otras promos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, el sitio no marca fin de vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Los Canarios (+52 444 159 5751), llega con 2 adultos y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.fiestamericanatravelty.com/en/fiesta-americana/hotels/fiesta-americana-san-luis-potosi/dining/los-canarios",
+      "https://www.fiestamericanatravelty.com/en/fiesta-americana/hotels/fiesta-americana-san-luis-potosi/dining"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Av. Salvador Nava Martínez 3125, San Luis Potosí; abre 6:00-12:00 y 13:00-23:00.",
+    "needsId": true,
+    "companions": 2
+  },
+  {
+    "slug": "hecho-en-brazza-san-luis-potosi",
+    "brand": "Hecho en Brazza",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis y pastel al reunir 4 personas",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del buffet churrasquería indican que si reúnes 4 personas, el cumpleañero come gratis el buffet de más de 20 cortes con barra de ensaladas e incluyen un pastel. No se encontró aviso oficial con días, identificación ni vigencia; confirma por WhatsApp o teléfono.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 4 personas (según redes)",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp o llama al 444 962 5016 / 444 523 7800 y avisa que festejas tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.instagram.com/hechoenbrazza/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Julián de los Reyes 356C, Villa de Pozos (zona metropolitana de SLP); buffet en planta alta.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "carnitas-la-huerta-san-luis-potosi",
+    "brand": "Carnitas La Huerta",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero gratis en el buffet con 5 adultos más",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, el festejado come gratis en el buffet de carnitas si va con 5 adultos que también consuman el buffet, presentando identificación y celebrando entre semana. El buffet se anuncia de viernes a domingo (9:00 a 16:00), así que confirma qué días aplica el beneficio.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "5 adultos más que consuman el buffet",
+      "Presentar identificación",
+      "Celebrar entre semana (confirmar días)"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Menciona celebrar 'entre semana'; el buffet abre viernes a domingo",
+    "minPurchase": null,
+    "howToClaim": "Llega con 5 adultos, pide el buffet y presenta tu ID; confirma antes por teléfono 444 415 6838.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.facebook.com/Carnitashuerta/",
+      "https://www.instagram.com/carnitaslahuerta/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Pedro Moreno 844, Barrio de Santiago; buffet de viernes a domingo de 9:00 a 16:00.",
+    "needsId": true,
+    "companions": 5
+  },
+  {
+    "slug": "finca-los-abuelos-san-luis-potosi",
+    "brand": "Finca Los Abuelos",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga su buffet y recibe pastelito",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este buffet de comida mexicana el cumpleañero no paga su buffet y recibe un pastelito de obsequio. No se encontró aviso oficial con mínimo de acompañantes, días o vigencia; confirma por teléfono 444 845 5369.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma mínimo de acompañantes",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llama al 444 845 5369 y avisa que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.facebook.com/fincalosabuelosslp/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Buffet de comida mexicana en San Luis Potosí; la dirección exacta no se pudo confirmar.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "carranza-1573-san-luis-potosi",
+    "brand": "Carranza 1573",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis al cumpleañero con 3 personas más",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, el cumpleañero no paga (desayuno) si lo acompañan 3 personas más; solo aplica el día exacto del cumpleaños y presentando identificación. No hay aviso oficial con vigencia; confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas más",
+      "Solo el día de tu cumpleaños",
+      "Presentar identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Llega con 3 personas, presenta tu identificación y avisa al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.tripadvisor.com/Restaurant_Review-g153477-d33023215-Reviews-Carranza_1573-San_Luis_Potosi_Central_Mexico_and_Gulf_Coast.html"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Av. Venustiano Carranza 1573, San Luis Potosí.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "hilton-san-luis-potosi-restaurante",
+    "brand": "Hilton San Luis Potosí (restaurantes)",
+    "category": "restaurantes",
+    "benefit": "Cóctel y rebanada de pastel de cortesía en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según una publicación de redes ('te consentimos'), el hotel regala un cóctel y una rebanada de pastel de cortesía al cumpleañero que consume en su restaurante y presenta INE. No se encontró la condición en el sitio oficial del hotel ni su vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Consumir en el restaurante del hotel",
+      "Presentar INE",
+      "Confirma vigencia y mínimo de consumo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante del hotel que es tu cumpleaños y muestra tu INE.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.hilton.com/es/hotels/slphhhh-hilton-san-luis-potosi/dining/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Hilton San Luis Potosí; restaurantes Las Golondrinas y La Bóveda. No está claro en cuál aplica.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "winepark-san-luis-potosi",
+    "brand": "Wine Park",
+    "category": "restaurantes",
+    "benefit": "Copa de vino gigante y pastel para el cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "Una publicación en redes afirma que Wine Park regala una copa de vino gigante y un pastel a quien festeja su cumpleaños. No se encontraron condiciones (consumo mínimo, acompañantes, días) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo y acompañantes",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa en el restaurante que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.opentable.com/r/wine-park-san-luis-potosi"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Salvador Nava Martínez 3125, San Luis Potosí (restaurante italiano con toque mexicano).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-chalupa-guadalupe-zacatecas",
+    "brand": "La Chalupa Cocina Tradicional",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis en el buffet (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del buffet de cocina tradicional afirman que el cumpleañero come gratis. No se encontraron condiciones (acompañantes, identificación, días) ni aviso oficial vigente; su perfil oficial muestra otras promos (20% a mayores de 50, 2x1 en buffet de desayuno en septiembre).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma mínimo de acompañantes",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños o reserva al 492 307 7488.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://lachalupa.gotoeat.net/",
+      "https://www.instagram.com/lachalupa.zac/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Av. Sevilla, Plaza Tahona 107 B, Tahona, Guadalupe (junto a Sam's Club); abre diario de 9:00 a 19:00.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-casa-de-los-abuelos-zacatecas",
+    "brand": "La Casa de los Abuelos (buffet)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis acompañado (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este buffet (menudo, birria y comida mexicana, de 8:00 a 14:00) los cumpleañeros comen gratis si van acompañados. No se encontró número de acompañantes, identificación ni vigencia, y la dirección exacta no se pudo confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado (número no confirmado)",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia; buffet de 8:00 a 14:00",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños; confirma condiciones por Facebook o teléfono.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Existen varios restaurantes 'La Casa de los Abuelos' en el país; este es el de Zacatecas, sin dirección confirmada.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-refugio-guadalupe-zacatecas",
+    "brand": "El Refugio Parrilla y Tacos",
+    "category": "restaurantes",
+    "benefit": "Postre gratis para el cumpleañero (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que este restaurante de parrilla y tacos regala un postre al cumpleañero. No se encontraron condiciones (consumo mínimo, acompañantes, identificación) ni aviso oficial; abre de miércoles a domingo y cierra los martes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que es tu cumpleaños al pedir la cuenta o el postre.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "García Salinas 105, Guadalupe; miércoles a domingo de 14:00 a 22:30 según listados.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "roza-cafe-zacatecas",
+    "brand": "Roza Café",
+    "category": "cafe",
+    "benefit": "Detalle de la casa para quien cumple años en tu mesa",
+    "benefitType": "regalo-con-compra",
+    "details": "Según publicaciones en redes, si vas a desayunar en grupo para festejar, la cafetería-birriería rosa del centro histórico regala un detalle a quien cumple años en la mesa; para picnics de cumpleaños de 5 o más personas se menciona un mini pastel de cortesía. Su Instagram oficial promociona 'cumples coquett' bajo reservación; las condiciones exactas no están publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Desayunar o celebrar en grupo",
+      "Para el mini pastel: grupos de 5 o más (según redes)",
+      "Reservar y preguntar condiciones por Instagram"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva por Instagram (@rozacafe.co) y menciona que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os",
+      "https://www.instagram.com/rozacafe.co/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Centro histórico de Zacatecas; la dirección exacta no se confirmó.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "mestizzo-cocina-tragos-zacatecas",
+    "brand": "Mestizzo Cocina & Tragos",
+    "category": "restaurantes",
+    "benefit": "Pastel o shots de cortesía para el festejado",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del restaurante-bar (dentro del Hotel Plaza) indican que al avisar a tu mesero quién cumple años puedes elegir entre un pastel de cortesía o shots de cortesía, que llegan en el 'Burrito de los Cumpleaños'. No se encontraron condiciones de consumo, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Avisar al mesero quién cumple años",
+      "Elegir pastel o shots",
+      "Confirma condiciones y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que festejas un cumpleaños y elige pastel o shots.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-zacatecas",
+      "https://www.tiktok.com/discover/restaurantes-en-zacatecas-para-festejar-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Dentro del Hotel Plaza (zona Zacatecas-Guadalupe); dirección exacta sin confirmar.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "dalecio-cantina-aguascalientes",
+    "brand": "Dalecio Cantina",
+    "category": "restaurantes",
+    "benefit": "Buffet de desayuno a $149 para cumpleañeros del día",
+    "benefitType": "descuento",
+    "details": "Un video de un creador gastronómico local lista el buffet de desayuno de lunes a miércoles (8:30 a 14:00) a $199 antes de las 9:30, $259 después, y $149 para 'cumpleañeros del día'. Es una publicación de terceros de principios de 2025; confirma que sigue vigente y si piden identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir el día de tu cumpleaños",
+      "Solo lunes a miércoles (8:30 a 14:00)",
+      "Confirma identificación y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día del cumpleaños, lunes a miércoles",
+    "minPurchase": 149,
+    "howToClaim": "Pide el buffet de desayuno y avisa que es tu cumpleaños para el precio de $149.",
+    "sources": [
+      "https://www.tiktok.com/@clubdelwateke/video/7467066398397746437",
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Blvd. Colosio Murrieta 511, Jardines de la Concepción II.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "amor-de-mis-sabores-aguascalientes",
+    "brand": "Amor de mis Sabores",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis acompañado (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este restaurante de cocina mexicana el cumpleañero come gratis si va acompañado de varias personas (se menciona 4 o más). No hay aviso oficial con identificación, días ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado (4 o más, según redes)",
+      "Confirma si piden identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva o llama al 449 829 6139 y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://www.facebook.com/amordemissabores/",
+      "https://www.instagram.com/amor.de_mis_sabores/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Eugenio Garza Sada 28 A, Pocitos (según listados).",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "el-rincon-del-sabor-aguascalientes",
+    "brand": "Cenaduría El Rincón del Sabor",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis (según redes, sin condiciones)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes mencionan que el cumpleañero come gratis en esta cenaduría de pozole y antojitos con varias sucursales. No se encontraron condiciones (acompañantes, identificación, días) ni aviso oficial; su menú digital no menciona la promo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma acompañantes y consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma sucursales participantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en la sucursal o por teléfono 449 536 6427.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://menus.prowit.app/rincondelsabor",
+      "https://www.facebook.com/cenaduriarincondelsabor/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Matriz en Av. Mariano Escobedo, Jardines de la Cruz; hay sucursales en Jardines del Parque (INEGI) y Juan Pablo II. Abre de 16:00 a 22:00.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-casa-del-centro-aguascalientes",
+    "brand": "La Casa del Centro",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis para el cumpleañero (con restricciones)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que este restaurante-café-bar del centro regala el desayuno al cumpleañero con ciertas restricciones. No se encontraron las condiciones exactas (acompañantes, días, identificación); sirve brunch de 9:00 a 13:30.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Aplican restricciones (no confirmadas)",
+      "Confirma acompañantes e identificación",
+      "Confirma días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia; brunch 9:00 a 13:30",
+    "minPurchase": null,
+    "howToClaim": "Reserva o pregunta por Instagram (@la_casadel_centro) o por teléfono 449 816 6019.",
+    "sources": [
+      "https://www.tiktok.com/discover/mejores-restaurantes-para-ir-en-tu-cumplea%C3%B1os-aguascalientes",
+      "https://www.instagram.com/la_casadel_centro/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Antonio Arias Bernal 320, Aguascalientes; martes a domingo.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "casa-matria-ciudad-juarez",
+    "brand": "Casa Matria",
+    "category": "restaurantes",
+    "benefit": "Los cumpleañeros comen gratis (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes y listados señalan que en este restaurante de cocina oaxaqueña los cumpleañeros comen gratis. No se encontraron condiciones (acompañantes, platillo incluido, identificación, reservación) ni un aviso oficial; su sitio web está en construcción y su Instagram solo muestra horarios y sucursales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma si es un platillo o todo el consumo",
+      "Confirma acompañantes y reservación",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar o reserva por WhatsApp/teléfono (656 308 9526 sucursal Faisán).",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cd-juarez",
+      "https://www.instagram.com/casamatriarestaurante/",
+      "https://www.casamatria.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Sucursal Faisán 3034, col. Del Márquez (8:00-17:00) y sucursal Plaza Cantabria (656 534 7543); no se aclara en cuál aplica.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-muchacho-alegre-ciudad-juarez-chihuahua",
+    "brand": "El Muchacho Alegre",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 personas (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que en este restaurante de mariscos sinaloenses el cumpleañero recibe su platillo gratis si llega con un mínimo de 3 personas, con reservación por WhatsApp y 'aplican restricciones'. No hay aviso oficial con identificación, días o vigencia; el dato apareció ligado a la sucursal de Periférico de la Juventud en Chihuahua y también se atribuye a Juárez.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mínimo 3 personas (según redes)",
+      "Reservar (se menciona WhatsApp)",
+      "Aplican restricciones no detalladas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp/teléfono y avisa que es tu cumpleaños; Juárez: 656 769 8153.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-cd-juarez",
+      "https://www.instagram.com/elmuchachoalegrejrz/",
+      "https://restaurantguru.com/El-Muchacho-Alegre-Ciudad-Juarez"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez",
+      "chihuahua"
+    ],
+    "locationNote": "Juárez: Blvd. Manuel Gómez Morín 7640. Chihuahua: Periférico de la Juventud 6112, Haciendas del Valle. Confirma en cuál sucursal aplica.",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "buffet-on-chihuahua",
+    "brand": "Buffet On",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero con 4 personas",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que si vas el día de tu cumpleaños con 4 personas, el buffet del cumpleañero va gratis. El buffet incluye alitas, boneless y bebida refill. No hay aviso oficial con identificación, días o vigencia; su ficha en el sitio de turismo de la capital no menciona la promo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 personas",
+      "Ir el día de tu cumpleaños (según redes)",
+      "Confirma identificación y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Según redes, el día del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Llega con 4 personas, pide el buffet y avisa que es tu cumpleaños; tel. 614 420 7021.",
+    "sources": [
+      "https://www.tiktok.com/discover/buffet-alitas-chihuahua",
+      "https://visitachihuahuacapital.com/lugares-en-chihuahua/buffet-on/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Blvd. José Fuentes Mares 8003-B; abre diario de 12:00 a 20:00.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "santa-cuchara-chihuahua",
+    "brand": "Santa Cuchara",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 3 o más personas",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que el cumpleañero come gratis si va acompañado de 3 o más personas y 'aplican condiciones'. No se encontró aviso oficial con días, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas o más",
+      "Aplican condiciones no detalladas",
+      "Confirma identificación y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar o pregunta por redes de Santa Cuchara; confirma condiciones antes de ir.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua",
+      "https://www.tiktok.com/discover/buffet-alitas-chihuahua"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Restaurante en Chihuahua capital; dirección y sucursales sin confirmar.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "nectar-restaurante-chihuahua",
+    "brand": "Néctar Restaurante",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis al cumpleañero acompañado de amigos",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes del restaurante de desayunos indican que los cumpleañeros desayunan gratis si llegan acompañados de sus amigos y reciben pan de elote de bienvenida (los martes hay 2x1 en chilaquiles). No hay aviso oficial con número de acompañantes, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de amigos (número no confirmado)",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia; abre de 7:30 a 14:00",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños al pedir tu desayuno.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua",
+      "https://www.instagram.com/nectarrestaurante/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Sucursales Cafetales (Circuito Universitario 15508), Reliz y Lombardo; no se aclara en cuáles aplica.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-boneleria-chihuahua",
+    "brand": "La Bonelería",
+    "category": "bares",
+    "benefit": "Miércoles de cumpleaños y karaoke: el cumpleañero cena gratis",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes mencionan que los miércoles de cumpleaños y karaoke el cumpleañero cena gratis en este bar de boneless de Chihuahua. No se encontraron condiciones (acompañantes, consumo, identificación) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en miércoles de cumpleaños y karaoke",
+      "Confirma acompañantes y consumo mínimo",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Miércoles (según redes)",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en La Bonelería CUU por la dinámica del miércoles de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua",
+      "https://www.tiktok.com/discover/restaurante-que-canta-cumplea%C3%B1os-en-chihuahua"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "La Bonelería CUU, colonia Villa Juárez (Chihuahua capital); no confundir con la de Delicias.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "cotidiano-desayunos-y-cafe-chihuahua",
+    "brand": "Cotidiano Desayunos y Café",
+    "category": "cafe",
+    "benefit": "Postre gratis por cumpleaños o aniversario (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que esta cafetería de desayunos regala un postre para celebrar un cumpleaños o aniversario. No se encontraron condiciones (consumo mínimo, acompañantes, identificación) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Avisa al mesero que celebras tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-tu-cumplea%C3%B1os-en-chihuahua"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Cafetería de desayunos en Chihuahua capital; dirección sin confirmar.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "balneario-san-juan-durango",
+    "brand": "Balneario San Juan",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis con paquete de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Un medio local reporta que el balneario de aguas termales vende 4 paquetes de cumpleaños (10, 15, 20 o 30 invitados, desde $1,400) y el cumpleañero entra gratis; se contrata con reservación previa y área con sombra, mesas y sillas. Es un paquete de pago y no una entrada gratis a secas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Comprar un paquete de 10, 15, 20 o 30 invitados",
+      "Reservación previa obligatoria",
+      "Disponible todo el año (según el medio)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Todo el año, con reservación; abre de 9:00 a 18:00",
+    "minPurchase": 1400,
+    "howToClaim": "Reserva al 618 824 9117 o por la página de Facebook 'Balneario San Juan Mx'.",
+    "sources": [
+      "https://www.posta.com.mx/durango/tu-cumpleanos-en-aguas-termales-descuentos-en-este-balneario/vl2024716",
+      "https://www.facebook.com/Balneariosanjuan.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "DUR"
+    ],
+    "cities": [
+      "durango"
+    ],
+    "locationNote": "A unos 20 minutos del centro de Durango. Precios de paquetes según el medio; confirma tarifas vigentes.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "taqueria-arandas-san-luis-potosi",
+    "brand": "Taquería Arandas",
+    "category": "restaurantes",
+    "benefit": "Pastel gratis al reservar tu cumpleaños (según redes)",
+    "benefitType": "regalo-con-compra",
+    "details": "Una publicación en redes afirma que al reservar tu cumpleaños en la taquería recibes un pastel gratis. No se encontraron condiciones (número de personas, consumo, identificación) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar para tu cumpleaños",
+      "Confirma número de personas y consumo",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono (444 833 1114) y menciona que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://restaurantguru.com/Taqueria-Arandas-San-Luis-Potosi-2"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "Taquería Arandas en Av. Nicolás Zapata 974 y otras ubicaciones de San Luis Potosí; no se aclara cuál aplica.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "menjurjeria-milagros-san-luis-potosi",
+    "brand": "Menjurjería Milagros",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis (según redes, sin condiciones)",
+    "benefitType": "gratis",
+    "details": "Una publicación en redes señala que en este restaurante de cocina mexicana contemporánea y mixología el cumpleañero come gratis; reseñas de clientes también mencionan un pastel de cortesía al festejar. No se encontraron condiciones ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma acompañantes y consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia",
+    "minPurchase": null,
+    "howToClaim": "Reserva (OpenTable o 444 714 0346) y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-restaurantes-san-luis-potos%C3%AD",
+      "https://www.opentable.com/r/menjurjeria-milagros-slp-san-luis-potosi"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SLP"
+    ],
+    "cities": [
+      "san-luis-potosi"
+    ],
+    "locationNote": "The Park SLP, Blvd. Antonio Rocha Cordero 157, Lomas del Pedregal.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tepetongo-parque-acuatico-contepec",
+    "brand": "Parque Acuático Tepetongo",
+    "category": "parques",
+    "benefit": "Entrada gratis en el mes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "En el mes de tu cumpleaños la entrada al parque acuático es gratis presentando tu INE (según directorios; el sitio oficial muestra el banner de cumpleañero pero no publica el texto de las reglas). Confirma horarios, días de operación y restricciones antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Solo durante tu mes de cumpleaños",
+      "Confirmar reglas y días de operación en el sitio oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE en taquilla durante tu mes de cumpleaños.",
+    "sources": [
+      "https://tepetongo.com.mx/",
+      "https://mexicouniversal.com/parque-acuatico-tepetongo/",
+      "https://www.balneariosmexico.com/balneario-parque-acuatico-tepetongo/"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "MIC"
+    ],
+    "cities": [],
+    "locationNote": "Ex-Hacienda Tepetongo, Contepec, Mich. (autopista México-Guadalajara, límite con Edomex); no está en Morelia.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "asador-rustico-buffet-uruapan",
+    "brand": "Asador Rústico Buffet",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 adultos",
+    "benefitType": "gratis",
+    "details": "El perfil oficial de Instagram del restaurante dice \"El cumpleañero come gratis, aplican restricciones\" y tiene una historia \"Promo cumple\". Según TikTok, el cumpleañero no paga su buffet de asador (adulto $349) si va con 4 adultos; las restricciones exactas no se publican, confirma con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 adultos que paguen buffet",
+      "Aplican restricciones (no publicadas)",
+      "Reservar al 452 200 1233"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono y avisa que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.instagram.com/asador_rustico_buffet/",
+      "https://www.tiktok.com/discover/lugares-de-uruapan-para-festejar-tu-cumplea%C3%B1os"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "uruapan"
+    ],
+    "locationNote": "Calle Cóbano #5, Col. Jardines del Bosque.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "mi-lindo-michoacan-uruapan",
+    "brand": "Mi Lindo Michoacán",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis al cumpleañero los viernes con 4 personas",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Los viernes, si cumples años esa semana y llegas con mínimo 4 personas, tu consumo del buffet de mariscos es gratis; las bebidas no están incluidas. No se encontraron más reglas ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo viernes",
+      "Cumplir años en esa semana",
+      "Mínimo 4 personas",
+      "Bebidas no incluidas"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Viernes de la semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Llega con tu grupo un viernes y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/milindomichoacan2026/",
+      "https://www.tiktok.com/discover/lugares-de-uruapan-para-festejar-tu-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "uruapan"
+    ],
+    "locationNote": "Pátzcuaro 2507 (según directorios).",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "hacienda-uruapan-restaurante",
+    "brand": "Hacienda Uruapan",
+    "category": "restaurantes",
+    "benefit": "Botella de mezcal o shots de cortesía con 6 acompañantes",
+    "benefitType": "regalo-con-compra",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Si vas a celebrar tu cumpleaños con 6 acompañantes, el restaurante de mariscos regala una botella de mezcal o una rueda de shots. No se encontraron más reglas (días, consumo mínimo, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 6 acompañantes",
+      "Confirmar reglas y vigencia con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al reservar o al llegar.",
+    "sources": [
+      "https://www.facebook.com/p/Hacienda-Uruapan-61571079956016/",
+      "https://www.tiktok.com/discover/lugares-de-uruapan-para-festejar-tu-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "uruapan"
+    ],
+    "locationNote": null,
+    "needsId": null,
+    "companions": 6
+  },
+  {
+    "slug": "senor-mazatlan-uruapan",
+    "brand": "Señor Mazatlán Restaurante",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis (condiciones en el restaurante)",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El cumpleañero come gratis; las condiciones exactas se piden al mesero. No se encontraron reglas publicadas (acompañantes, días, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Preguntar condiciones al mesero",
+      "Confirmar reglas y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por la promoción de cumpleaños al mesero.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-de-uruapan-para-festejar-tu-cumplea%C3%B1os",
+      "https://www.instagram.com/sr.mazatlanrestaurante/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "uruapan"
+    ],
+    "locationNote": "Camino a La Fundición s/n, La Pinera (restaurante de mariscos).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "mr-sliders-morelia",
+    "brand": "Mr. Slider's Morelia",
+    "category": "restaurantes",
+    "benefit": "Malteada gratis en tu mes de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Una malteada gratis para el cumpleañero con consumo, válida una vez por visita y solo durante el mes de tu cumpleaños. No se encontraron más reglas ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Con consumo",
+      "Solo durante tu mes de cumpleaños",
+      "Confirmar reglas con la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al pedir y presenta identificación.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-morelia",
+      "https://www.facebook.com/MrSlidersMexico/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "Varias sucursales en Morelia (p. ej. Batalla de Casa Mata 1445, Melchor Ocampo 178).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "el-paraiso-de-la-mojarra-morelia",
+    "brand": "El Paraíso de la Mojarra",
+    "category": "restaurantes",
+    "benefit": "Platillo y bebida gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El día exacto de tu cumpleaños recibes un platillo y una bebida gratis presentando identificación oficial física vigente con tu fecha de nacimiento. Otro resumen de TikTok habla de buffet gratis si vas con 5 adultos; las condiciones no coinciden, confirma con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial física vigente",
+      "Solo el día de tu cumpleaños",
+      "Condiciones distintas según la fuente: confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial al ordenar.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-morelia",
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-morelia",
+      "https://www.instagram.com/elparaisodelamojarra/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "Circuito Praderas de la Loma 45 (Loma Bonita) y Av. La Joya 363 (según directorios).",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "fresasaurios-morelia",
+    "brand": "FresaSaurios",
+    "category": "postres",
+    "benefit": "Fresas gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Fresas gratis para el cumpleañero mostrando identificación que compruebe su cumpleaños; aplican términos y condiciones no publicados.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación con fecha de nacimiento",
+      "Aplican términos y condiciones (no publicados)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación en el local.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-morelia",
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-morelia"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "Periférico Paseo de la República 95, Santiaguito (según directorios).",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "miel-y-canela-morelia",
+    "brand": "Miel y Canela (roles de canela)",
+    "category": "postres",
+    "benefit": "Jueves cumpleañero: rol gratis al comprar 2",
+    "benefitType": "regalo-con-compra",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Los jueves, al comprar 2 roles de canela te dan un rol de cumpleañero gratis comprobando tu fecha de cumpleaños. No se encontraron más reglas (mes o día exacto, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo jueves",
+      "Comprar 2 roles",
+      "Comprobar tu cumpleaños con identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Todos los jueves; no se especifica si es solo tu mes",
+    "minPurchase": null,
+    "howToClaim": "Pide 2 roles un jueves y muestra tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-morelia",
+      "https://www.instagram.com/mielycanela28/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "Av. Torreón Nuevo, junto a Farmacia Guadalajara; abre miércoles a domingo desde las 6:30 pm (según su Instagram).",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "el-vacio-parrilla-argentina-morelia",
+    "brand": "El Vacío Parrilla Argentina",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga su platillo con 4 amigos",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El festejado no paga su platillo si lleva 4 o más amigos; aplican restricciones no publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 o más amigos",
+      "Aplican restricciones (no publicadas)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al reservar o al llegar.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-te-regalan-en-tu-cumplea%C3%B1os-en-morelia",
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-morelia"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "Av. Paraguay 175 (según directorios).",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "funky-monkey-morelia",
+    "brand": "Funky Monkey Morelia",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis al cumpleañero los martes",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Los martes, desde las 9 am, el cumpleañero desayuna gratis si va con 3 o más acompañantes. Reservaciones por WhatsApp 443 794 3264 o al 443 427 8050.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo martes, desde las 9 am",
+      "Mínimo 3 acompañantes",
+      "Reservar por WhatsApp o teléfono"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Martes (no se especifica si es solo tu mes)",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-dan-comida-gratis-en-tu-cumplea%C3%B1os-morelia",
+      "https://www.facebook.com/monkeymorelia/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "Blvd. García de León 1187, Chapultepec Sur (según directorios); su página de Facebook aparece como Monkey Family Bowl.",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "moscu-restaurante-colima",
+    "brand": "Moscú Restaurante",
+    "category": "restaurantes",
+    "benefit": "Postre gratis para el cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El restaurante ofrece postre gratis al cumpleañero en sus cenas familiares; reservaciones al 312 113 0654. No se publican condiciones (acompañantes, días, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar al 312 113 0654",
+      "Confirmar condiciones con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-comida-gratis-en-tu-cumplea%C3%B1os-en-colima",
+      "https://www.facebook.com/churreriamoscu/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COL"
+    ],
+    "cities": [
+      "colima"
+    ],
+    "locationNote": "Av. Ignacio Sandoval 1971, La Cantera (según directorios).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "roof-colimote-colima",
+    "brand": "Roof Colimote",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 6 invitados (miércoles)",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Los miércoles el cumpleañero come gratis si lleva 6 invitados. No se encontraron más reglas (exclusiones, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo miércoles",
+      "Ir con 6 invitados",
+      "Confirmar reglas y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Miércoles; no se especifica si es solo tu mes",
+    "minPurchase": null,
+    "howToClaim": "Reserva para un miércoles y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-comida-gratis-en-tu-cumplea%C3%B1os-en-colima",
+      "https://www.facebook.com/p/Roof-Colimote-61575318489931/",
+      "https://www.tiktok.com/@roof_colimote"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COL"
+    ],
+    "cities": [
+      "colima"
+    ],
+    "locationNote": "Av. de los Diamantes 95, Residencial Esmeralda Norte (martes a domingo de 1 a 10:30 pm).",
+    "needsId": null,
+    "companions": 6
+  },
+  {
+    "slug": "cruderia-de-esquina-colima",
+    "brand": "Crudería de Esquina",
+    "category": "restaurantes",
+    "benefit": "Cumpleañeros comen gratis con 4 o más acompañantes",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El cumpleañero come gratis si va con 4 o más acompañantes y presenta identificación. Abre de viernes a domingo de 1 a 7 pm (música en vivo los domingos). No se encontraron más reglas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mínimo 4 acompañantes",
+      "Identificación",
+      "Solo viernes a domingo (horario del local)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el local",
+    "minPurchase": null,
+    "howToClaim": "Llega con tu grupo y presenta tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-comida-gratis-en-tu-cumplea%C3%B1os-en-colima"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COL"
+    ],
+    "cities": [
+      "colima"
+    ],
+    "locationNote": "Alpuyequito, rumbo a las albercas de Cahuite (Colima).",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "el-quelite-tepic",
+    "brand": "El Quelite Tepic",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 personas",
+    "benefitType": "gratis",
+    "details": "Publicación de su Facebook oficial: \"Promo Cumpleañero: el cumpleañero come gratis (acompañado de 4 personas)\" con camarones de 200 g o filete de pescado con arroz y ensalada. La publicación no tiene fecha visible; confirma vigencia y días con el restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de 4 personas",
+      "Platillo: camarones 200 g o filete de pescado con arroz y ensalada",
+      "Confirmar vigencia y días"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Llega con 4 acompañantes y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/elqueliterestaurant/videos/conoces-la-promo-cumplea%C3%B1eroel-cumplea%C3%B1ero-come-gratis-acompa%C3%B1ado-de-4-personas-/2936521886626053/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "locationNote": "Blvd. Tepic-Xalisco #86, en la curva entrando a Xalisco.",
+    "needsId": null,
+    "companions": 4
+  },
+  {
+    "slug": "lungaretta-tepic",
+    "brand": "Lungaretta Tepic",
+    "category": "restaurantes",
+    "benefit": "2x1 para celebraciones de cumpleaños",
+    "benefitType": "2x1",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El restaurante italiano publica una promoción 2x1 para cenas de cumpleaños (pizza de mariscos, calamares fritos y otros platillos). No se encontraron reglas (platillos válidos, días, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirmar platillos válidos, días y vigencia con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva y menciona la promoción de cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-festejar-cumplea%C3%B1os-en-tepic",
+      "https://www.instagram.com/lungarettatepic/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "locationNote": "Av. del Valle esquina con Florencia, Ciudad del Valle.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-birrioteca-nuevo-vallarta",
+    "brand": "La Birrioteca",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero no paga su birria",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Promoción \"¡El cumpleañero no paga!\": birria gratis para el festejado; aplican términos y condiciones no publicados (acompañantes, días). Informes: 33 4184 3151.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Aplican términos y condiciones (no publicados)",
+      "Confirmar acompañantes y días"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al llegar o reserva por teléfono.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-te-regalan-cosas-en-tu-cumplea%C3%B1os-puerto-vallarta"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL",
+      "NAY"
+    ],
+    "cities": [
+      "puerto-vallarta"
+    ],
+    "locationNote": "Plaza Le Curve, entrada a Nuevo Vallarta (Nayarit).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "artepil-spa-vallarta-tepic",
+    "brand": "Artepil Spa",
+    "category": "belleza",
+    "benefit": "20% de descuento en todos los servicios",
+    "benefitType": "descuento",
+    "details": "Descuento del 20% en todos los servicios (a precio regular) para clientes frecuentes registrados en la base de datos de Artepil, desde 3 días antes de tu cumpleaños y hasta 15 días después; puedes usarlo varias veces en ese periodo, de lunes a sábado. Requiere identificación oficial; no aplica en paquetes ni en primera visita, no se combina con Artepuntos y no es acumulable con otras promociones.",
+    "program": "Clientes frecuentes registrados en Artepil",
+    "signupUrl": null,
+    "requirements": [
+      "Ser cliente frecuente registrado en su base de datos",
+      "Identificación oficial",
+      "De 3 días antes a 15 días después de tu cumpleaños",
+      "Lunes a sábado; se puede usar varias veces",
+      "No aplica en paquetes ni primera visita",
+      "No acumulable con otras promociones ni Artepuntos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Desde 3 días antes hasta 15 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva en una sucursal, presenta tu identificación oficial y elige tu servicio.",
+    "sources": [
+      "https://artepil.com/promos/cumpleanos/",
+      "https://artepil.com/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL",
+      "NAY"
+    ],
+    "cities": [
+      "puerto-vallarta",
+      "tepic"
+    ],
+    "locationNote": "Siete sucursales: Puerto Vallarta (Fluvial, Marina, Zona Romántica), Nuevo Vallarta, Tepic (Ciudad del Valle, San Juan) y Sayulita.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "brazilia-buffet-de-espadas-morelia",
+    "brand": "Brazilia Buffet de Espadas",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis al cumpleañero con 5 adultos",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El buffet de espadas brasileñas del cumpleañero es gratis si va con 5 adultos, y durante todo el mes de tu cumpleaños puedes cortar tu propia rebanada de la espada. El buffet de adulto cuesta cerca de $395. No se encontraron más reglas (identificación, días, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 adultos",
+      "Mes de cumpleaños: cortas tu propio corte de la espada",
+      "Confirmar identificación, días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños (corte de espada); la gratuidad no especifica periodo",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-morelia",
+      "https://www.facebook.com/Brazilia.Restaurante.Morelia",
+      "https://www.instagram.com/brazilia.morelia/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "J. J. Tablada 408, Santa María de Guido; abierto diario de 12 a 8 pm (según directorios).",
+    "needsId": null,
+    "companions": 5
+  },
+  {
+    "slug": "terraza-la-huerta-morelia",
+    "brand": "Terraza La Huerta Morelia",
+    "category": "restaurantes",
+    "benefit": "Buffet del cumpleañero gratis con 3 que pidan buffet",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Si llevas a 3 personas que pidan buffet, tu buffet de cumpleañero es gratis mostrando identificación oficial. Su Instagram oficial tiene una historia destacada llamada \"cumpleaños TLH\", pero no publica el texto de las reglas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas que pidan buffet",
+      "Identificación oficial",
+      "Confirmar días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva y presenta tu identificación oficial.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-dan-comida-gratis-en-tu-cumplea%C3%B1os-morelia",
+      "https://www.tiktok.com/discover/promociones-de-cumplea%C3%B1os-en-morelia",
+      "https://www.instagram.com/terraza_la_huerta_morelia/",
+      "https://www.facebook.com/p/Terraza-La-Huerta-Morelia-61570417028624/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "MIC"
+    ],
+    "cities": [
+      "morelia"
+    ],
+    "locationNote": "Restaurante de buffet (mariscos); no se verificó la dirección.",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "gran-tariacuri-patzcuaro",
+    "brand": "Gran Tariácuri Restaurante",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El restaurante campestre regala un desayuno el día de tu cumpleaños; varios usuarios reportan haberlo recibido. No se encontraron reglas (acompañantes, identificación, vigencia): confirma por teléfono al 434 117 2668.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirmar acompañantes, identificación y vigencia con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Día de tu cumpleaños (según reportes)",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al llegar a desayunar.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-dan-comida-gratis-en-tu-cumplea%C3%B1os-morelia",
+      "https://www.facebook.com/tatapanchorestaurante/"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "MIC"
+    ],
+    "cities": [],
+    "locationNote": "Entronque Tzurumútaro, carretera Pátzcuaro-Morelia (municipio de Pátzcuaro); no está dentro de Morelia.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "los-poblanos-colima-panamericana",
+    "brand": "Los Poblanos (sucursal Panamericana)",
+    "category": "restaurantes",
+    "benefit": "Un platillo gratis en tu semana de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). En la sucursal Panamericana, durante tu semana de cumpleaños recibes un platillo gratis presentando identificación y yendo con mínimo 4 invitados además de ti. No se pudo verificar la dirección del restaurante.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación",
+      "Mínimo 4 invitados además del cumpleañero",
+      "Solo la sucursal Panamericana",
+      "Un platillo del menú"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-comida-gratis-en-tu-cumplea%C3%B1os-en-colima"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "COL"
+    ],
+    "cities": [
+      "colima"
+    ],
+    "locationNote": "Solo la sucursal Panamericana; ubicación no verificada.",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "carlota-brunch-bistro-comala",
+    "brand": "Carlota Brunch & Bistro",
+    "category": "restaurantes",
+    "benefit": "Pastelito de cortesía y mañanitas en tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). Al celebrar tu cumpleaños en el restaurante te cantan las mañanitas y te dan un pastelito de cortesía; piden reservar al 312 102 2100. Su Instagram oficial no menciona la promoción. Abre de martes a domingo (brunch 8 am a 2 pm, bistró 5:30 a 11:30 pm).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar al 312 102 2100",
+      "Confirmar condiciones con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa que celebras tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-comida-gratis-en-tu-cumplea%C3%B1os-en-colima",
+      "https://www.instagram.com/carlota.comala/"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "COL"
+    ],
+    "cities": [],
+    "locationNote": "Capitán A. Llerenas 22, Comala centro (Colima); no está en la ciudad de Colima.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "campo-real-tepic",
+    "brand": "Restaurante Campo Real",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 o más personas",
+    "benefitType": "gratis",
+    "details": "Según TikTok (no confirmado en sitio ni redes oficiales). El restaurante campestre de mariscos y carnes da gratis la comida al cumpleañero que llega con 4 o más personas y presenta identificación. No se encontraron más reglas (días, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 o más personas",
+      "Identificación",
+      "Confirmar días y vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado; confirmar con el restaurante",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-para-festejar-cumplea%C3%B1os-en-tepic",
+      "https://www.facebook.com/RestauranteCampoRealTepic/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "locationNote": "Av. Insurgentes 1171-B Oriente, Centro (según directorios).",
+    "needsId": true,
+    "companions": 4
+  },
+  {
     "slug": "porfirios-merida",
     "brand": "Porfirio's Mérida",
     "category": "restaurantes",
@@ -7264,7 +10514,7 @@
     "category": "restaurantes",
     "benefit": "Cumpleañero come gratis con 5 amigos o más",
     "benefitType": "gratis",
-    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla (no confirmado en sitio oficial), el cumpleañero come gratis si celebra con 5 amigos o más. Dirección reportada: Blvd. Luis Sánchez Pontón 602, col. Anzures, Puebla.",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla, el cumpleañero come gratis si celebra con 5 amigos o más. Se revisó el Instagram oficial del restaurante (@antojitomio.puebla) y no menciona la promoción, así que sigue sin confirmarse en canales propios.",
     "program": null,
     "signupUrl": null,
     "requirements": [
@@ -7276,7 +10526,8 @@
     "minPurchase": null,
     "howToClaim": "Confirma condiciones con el restaurante y avisa que es tu cumpleaños al pedir.",
     "sources": [
-      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla"
+      "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla",
+      "https://www.instagram.com/antojitomio.puebla/"
     ],
     "confidence": "baja",
     "coverage": "ciudades",
@@ -7286,7 +10537,7 @@
     "cities": [
       "puebla"
     ],
-    "locationNote": "Dirección según TikTok, sin verificar: Blvd. Luis Sánchez Pontón 602, col. Anzures",
+    "locationNote": "Blvd. Luis Sánchez Pontón 602, col. Anzures (dirección según el Instagram oficial del restaurante)",
     "needsId": null,
     "companions": 5
   },
@@ -7296,7 +10547,7 @@
     "category": "restaurantes",
     "benefit": "Festejado come gratis con 5 que paguen buffet",
     "benefitType": "gratis",
-    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en sitio oficial), el festejado come gratis si va con 5 personas que paguen su buffet.",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla, el festejado come gratis si va con 5 personas que paguen su buffet. No aparece en el Instagram ni en el Facebook oficiales del buffet, así que no se pudo confirmar en canales propios.",
     "program": null,
     "signupUrl": null,
     "requirements": [
@@ -7308,7 +10559,8 @@
     "minPurchase": null,
     "howToClaim": "Confirma condiciones con el restaurante antes de ir.",
     "sources": [
-      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla"
+      "https://www.tiktok.com/discover/restaurantes-buffet-para-celebrar-tu-cumplea%C3%B1os-en-puebla",
+      "https://www.instagram.com/buffet3leguas.pue/"
     ],
     "confidence": "baja",
     "coverage": "ciudades",
@@ -7318,7 +10570,7 @@
     "cities": [
       "puebla"
     ],
-    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "locationNote": "C. 11 Sur 7714, San José Mayorazgo, Puebla",
     "needsId": null,
     "companions": 5
   },
@@ -7328,11 +10580,13 @@
     "category": "restaurantes",
     "benefit": "Buffet gratis + bebida de la casa + ronda de shots",
     "benefitType": "gratis",
-    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en sitio oficial), el cumpleañero recibe buffet gratis, una bebida de la casa y una ronda de shots presentando INE con fecha de nacimiento.",
+    "details": "Según listados de TikTok sobre buffets para cumpleaños en Puebla (no confirmado en canales oficiales), el cumpleañero recibe buffet gratis, una bebida de la casa y una ronda de shots presentando INE con fecha de nacimiento. Otro listado indica que se necesitan 5 acompañantes o más con consumo mínimo de $350 cada uno; el buffet de antojitos se activa con consumo mínimo de bebidas o postres.",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "INE con fecha de nacimiento"
+      "INE con fecha de nacimiento",
+      "Ir con 5 acompañantes o más (según un listado de TikTok)",
+      "Consumo mínimo de $350 por persona (según un listado de TikTok)"
     ],
     "registerDaysBefore": null,
     "window": "otro",
@@ -7350,7 +10604,7 @@
     "cities": [
       "puebla"
     ],
-    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "locationNote": "2 Oriente 811, Centro Histórico (Casona Patio Poblano, 5 de Mayo esq. 2 Oriente), sin verificar en canal propio",
     "needsId": true,
     "companions": null
   },
@@ -7358,23 +10612,27 @@
     "slug": "grilia-puebla",
     "brand": "Grilia Puebla",
     "category": "restaurantes",
-    "benefit": "Postre y decoración de cortesía al festejar",
+    "benefit": "Decoración y postre de cortesía al festejar",
     "benefitType": "gratis",
-    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla (no confirmado en sitio oficial), al festejar tu cumpleaños en Grilia Puebla te dan decoración y postre gratis. Reglas (acompañantes, consumo mínimo, reservación) sin confirmar.",
+    "details": "La cuenta oficial de Grilia en TikTok (@grilia.puebla, publicación de enero 2025) dice: \"Grilia es el lugar perfecto para festejar tu cumpleaños. La decoración y el postre para el o la festejad@ es cortesía de la casa\". Su Instagram oficial sigue mostrando festejos con decoración y pastel (publicación de sep 2026), pero no publica reglas (acompañantes, consumo mínimo ni reservación).",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Condiciones sin confirmar; consulta con el restaurante"
+      "Festejar tu cumpleaños en el restaurante",
+      "Reservar con anticipación (WhatsApp 221 210 0358)",
+      "Reglas no publicadas: confirma al reservar"
     ],
     "registerDaysBefore": null,
     "window": "otro",
-    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "windowNote": "Sin vigencia publicada",
     "minPurchase": null,
-    "howToClaim": "Reserva tu festejo y confirma condiciones con el restaurante.",
+    "howToClaim": "Reserva tu festejo por teléfono (222 326 5295) o WhatsApp (221 210 0358) y pide la decoración y el postre de cortesía.",
     "sources": [
+      "https://www.tiktok.com/@grilia.puebla/video/7459805433067474182",
+      "https://www.instagram.com/grilia.puebla/",
       "https://www.tiktok.com/discover/restaurantes-para-celebrar-cumplea%C3%B1os-puebla"
     ],
-    "confidence": "baja",
+    "confidence": "media",
     "coverage": "ciudades",
     "states": [
       "PUE"
@@ -7382,7 +10640,7 @@
     "cities": [
       "puebla"
     ],
-    "locationNote": "Ubicación dentro de Puebla sin verificar",
+    "locationNote": "San Martín Texmelucan 73, Col. La Paz, Puebla",
     "needsId": null,
     "companions": null
   },

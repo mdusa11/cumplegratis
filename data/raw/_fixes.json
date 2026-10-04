@@ -39,5 +39,14 @@
       ]
     },
     "reason": "Sucursales confirmadas en sushifactory.com.mx/sucursales; la promo no aplica en Tepic"
+  },
+  {
+    "slug": "chedraui",
+    "patch": {
+      "coverage": "nacional",
+      "states": [],
+      "cities": []
+    },
+    "reason": "Cadena con tiendas en todo el país; el beneficio vive en la app MiChedraui"
   }
 ]
