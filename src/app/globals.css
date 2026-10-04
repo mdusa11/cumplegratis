@@ -1,26 +1,140 @@
 @import "tailwindcss";
+@import "lenis/dist/lenis.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-ink: #0b0b0b;
+  --color-ink-2: #1d1d1b;
+  --color-paper: #f3f0e8;
+  --color-paper-2: #e7e1d3;
+  --color-acid: #c6ff00;
+  --color-lilac: #b9a6ff;
+  --color-hot: #ff5a36;
+  --color-pink: #ff9bd9;
+  --color-sky: #7cd6ff;
+  --color-sun: #ffd23f;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-display: var(--font-big-shoulders), Impact, sans-serif;
+  --font-sans: var(--font-bricolage), system-ui, sans-serif;
+  --font-mono: var(--font-space-mono), ui-monospace, monospace;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --shadow-hard-sm: 2px 2px 0 0 var(--color-ink);
+  --shadow-hard: 4px 4px 0 0 var(--color-ink);
+  --shadow-hard-lg: 8px 8px 0 0 var(--color-ink);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-spin-slow: spin 16s linear infinite;
+  --animate-wiggle: wiggle 2.4s ease-in-out infinite;
+
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-4deg); }
+    50% { transform: rotate(4deg); }
   }
 }
 
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-acid);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Grano de papel sobre todo el sitio: le quita lo "plano" al color sólido. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.84;
+    letter-spacing: -0.01em;
+  }
+
+  .mono-tag {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-[2.5px] border-ink px-6 py-3 text-xl leading-none shadow-hard transition-[translate,box-shadow,background-color] duration-200 select-none whitespace-nowrap;
+    font-family: var(--font-display);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .btn:hover {
+    @apply -translate-x-0.5 -translate-y-0.5 shadow-hard-lg;
+  }
+  .btn:active {
+    @apply translate-x-1 translate-y-1 shadow-none;
+  }
+  .btn-acid { @apply bg-acid text-ink; }
+  .btn-ink { @apply bg-ink text-paper; }
+  .btn-paper { @apply bg-paper text-ink; }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border-2 border-ink px-3 py-1 text-sm font-semibold leading-none whitespace-nowrap;
+  }
+
+  .card {
+    @apply rounded-3xl border-[2.5px] border-ink shadow-hard;
+  }
+
+  .outline-text {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--color-ink);
+  }
+
+  .field {
+    @apply w-full appearance-none rounded-full border-[2.5px] border-ink bg-paper px-5 py-3 text-lg font-semibold text-ink shadow-hard outline-none transition-shadow focus:shadow-hard-lg;
+  }
+}
+
+.curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  pointer-events: none;
+  background: var(--color-acid);
+  transform-origin: top;
+  animation: curtain 0.65s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+@keyframes curtain {
+  from { transform: scaleY(1); }
+  to { transform: scaleY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

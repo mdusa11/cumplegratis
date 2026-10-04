@@ -1,0 +1,102 @@
+import raw from "@/data/promos.json";
+
+export type BenefitType = "gratis" | "descuento" | "2x1" | "regalo-con-compra";
+export type ClaimWindow = "mes" | "semana" | "dia" | "otro";
+export type Confidence = "alta" | "media" | "baja";
+export type GroupId = "comida" | "tiendas" | "diversion" | "servicios";
+
+export const CATEGORIES = {
+  cafe: { label: "Café", group: "comida", emoji: "☕" },
+  postres: { label: "Postres", group: "comida", emoji: "🍩" },
+  restaurantes: { label: "Restaurantes", group: "comida", emoji: "🍽️" },
+  "comida-rapida": { label: "Comida rápida", group: "comida", emoji: "🍔" },
+  belleza: { label: "Belleza", group: "tiendas", emoji: "💄" },
+  ropa: { label: "Ropa", group: "tiendas", emoji: "👟" },
+  departamentales: { label: "Departamentales", group: "tiendas", emoji: "🛍️" },
+  tecnologia: { label: "Tecnología", group: "tiendas", emoji: "📱" },
+  mascotas: { label: "Mascotas", group: "tiendas", emoji: "🐶" },
+  "otras-tiendas": { label: "Tiendas", group: "tiendas", emoji: "🎁" },
+  cine: { label: "Cine", group: "diversion", emoji: "🍿" },
+  parques: { label: "Parques", group: "diversion", emoji: "🎢" },
+  experiencias: { label: "Experiencias", group: "diversion", emoji: "🎟️" },
+  bares: { label: "Bares", group: "diversion", emoji: "🍻" },
+  servicios: { label: "Servicios", group: "servicios", emoji: "💳" },
+  viajes: { label: "Viajes", group: "servicios", emoji: "✈️" },
+} as const satisfies Record<string, { label: string; group: GroupId; emoji: string }>;
+
+export type CategoryId = keyof typeof CATEGORIES;
+
+export const GROUPS: Record<GroupId, { label: string; color: string; emoji: string; blurb: string }> = {
+  comida: { label: "Comida", color: "var(--color-hot)", emoji: "🍰", blurb: "Café, pastel, helado y hasta comida completa." },
+  tiendas: { label: "Tiendas", color: "var(--color-lilac)", emoji: "🛍️", blurb: "Belleza, ropa, tecnología y cupones de regalo." },
+  diversion: { label: "Diversión", color: "var(--color-sky)", emoji: "🎢", blurb: "Cine, parques y planes para celebrar." },
+  servicios: { label: "Servicios", color: "var(--color-sun)", emoji: "💳", blurb: "Bancos, apps, viajes y otros beneficios." },
+};
+
+export const BENEFIT: Record<BenefitType, { label: string; color: string }> = {
+  gratis: { label: "Gratis", color: "var(--color-acid)" },
+  "2x1": { label: "2x1", color: "var(--color-sky)" },
+  descuento: { label: "Descuento", color: "var(--color-sun)" },
+  "regalo-con-compra": { label: "Con compra", color: "var(--color-pink)" },
+};
+
+export const WINDOW_LABEL: Record<ClaimWindow, string> = {
+  mes: "Todo tu mes",
+  semana: "Tu semana",
+  dia: "Solo el día",
+  otro: "Fechas especiales",
+};
+
+export const CONFIDENCE: Record<Confidence, { label: string; hint: string }> = {
+  alta: { label: "Verificada", hint: "Confirmada en el sitio o términos oficiales de la marca." },
+  media: { label: "Reportada", hint: "Publicada por medios recientes; la marca no la detalla en su sitio." },
+  baja: { label: "Sin confirmar", hint: "No encontramos una fuente reciente. Pregunta antes de ir." },
+};
+
+export type Promo = {
+  slug: string;
+  brand: string;
+  category: CategoryId;
+  benefit: string;
+  benefitType: BenefitType;
+  details: string;
+  program: string | null;
+  signupUrl: string | null;
+  requirements: string[];
+  registerDaysBefore: number | null;
+  window: ClaimWindow;
+  windowNote: string;
+  minPurchase: number | null;
+  howToClaim: string;
+  sources: string[];
+  confidence: Confidence;
+};
+
+const CONFIDENCE_RANK: Record<Confidence, number> = { alta: 0, media: 1, baja: 2 };
+
+export const promos: Promo[] = (raw as Promo[])
+  .filter((p) => p.category in CATEGORIES)
+  .sort((a, b) => CONFIDENCE_RANK[a.confidence] - CONFIDENCE_RANK[b.confidence] || a.brand.localeCompare(b.brand, "es"));
+
+export const groupOf = (p: Promo): GroupId => CATEGORIES[p.category].group;
+
+export const getPromo = (slug: string) => promos.find((p) => p.slug === slug);
+
+export const relatedPromos = (promo: Promo, count = 3) =>
+  promos.filter((p) => p.slug !== promo.slug && groupOf(p) === groupOf(promo)).slice(0, count);
+
+export const stats = {
+  total: promos.length,
+  free: promos.filter((p) => p.benefitType === "gratis").length,
+  noSignup: promos.filter((p) => !p.program).length,
+};
+
+export const days = (n: number) => (n === 1 ? "1 día" : `${n} días`);
+
+export const normalize = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+
+export function signupLabel(p: Promo) {
+  if (!p.program) return "Sin registro";
+  if (p.registerDaysBefore != null && p.registerDaysBefore > 0) return `Regístrate ${days(p.registerDaysBefore)} antes`;
+  return "Requiere registro";
+}

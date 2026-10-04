@@ -1,69 +1,145 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Hero } from "@/components/Hero";
+import { Marquee } from "@/components/Marquee";
+import { HowItWorks } from "@/components/HowItWorks";
+import { PromoCard } from "@/components/PromoCard";
+import { BirthdayPicker } from "@/components/BirthdayPicker";
+import { Faq, type QA } from "@/components/Faq";
+import { Reveal, ScrollWords } from "@/components/Reveal";
+import { jsonLd } from "@/lib/site";
+import { GROUPS, groupOf, promos, stats, type GroupId } from "@/lib/promos";
+
+const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence !== "baja");
+
+const FAQ: QA[] = [
+  {
+    q: "¿Qué marcas regalan algo en tu cumpleaños en México?",
+    a: `Tenemos ${stats.total} marcas: cafeterías como Starbucks, cines como Cinépolis y Cinemex, restaurantes, tiendas de belleza, ropa, tecnología y más. ${stats.free} regalan algo totalmente gratis.`,
+  },
+  {
+    q: "¿Por qué hay que registrarse antes?",
+    a: "La mayoría de las promos de cumpleaños vienen de programas de lealtad. Si te registras el mismo día, el sistema todavía no sabe que es tu cumpleaños. Por eso te decimos con cuánta anticipación entrar a cada uno.",
+  },
+  {
+    q: "¿Cómo sé que una promo sigue vigente?",
+    a: "Cada promo trae su fuente y un sello: Verificada (sitio oficial), Reportada (medios recientes) o Sin confirmar. Además, quien la cobra nos dice si le funcionó.",
+  },
+  {
+    q: "¿Cumplegratis cuesta algo?",
+    a: "No. Es gratis y no necesitas cuenta. Tu fecha se guarda solo en tu navegador.",
+  },
+];
 
 export default function Home() {
+  const counts = promos.reduce<Record<GroupId, number>>(
+    (acc, p) => ({ ...acc, [groupOf(p)]: acc[groupOf(p)] + 1 }),
+    { comida: 0, tiendas: 0, diversion: 0, servicios: 0 },
+  );
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      <Hero featured={featured} total={stats.total} />
+
+      <Marquee className="-rotate-2 border-y-[2.5px] border-ink bg-ink py-4 text-paper">
+        {promos.slice(0, 14).map((p) => (
+          <span key={p.slug} className="display flex items-center text-5xl sm:text-6xl">
+            <span className="px-6">{p.brand}</span>
+            <span className="text-acid">{p.benefit}</span>
+            <span className="px-6 text-4xl text-lilac">✺</span>
+          </span>
+        ))}
+      </Marquee>
+
+      <section className="mx-auto max-w-6xl px-5 py-32 sm:px-8 sm:py-44">
+        <ScrollWords
+          className="display text-[clamp(2.6rem,6.5vw,6rem)] leading-[0.95]"
+          text="Cada año las marcas regalan miles de cafés, pasteles, boletos y descuentos a quien cumple. La mayoría se *pierden porque nadie sabe que existen. *Ya *no."
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+      </section>
+
+      <HowItWorks />
+
+      <section className="mx-auto max-w-7xl px-5 py-28 sm:px-8">
+        <Reveal>
+          <p className="mono-tag">Explora</p>
+          <h2 className="display mt-3 text-[clamp(3.5rem,9vw,8rem)]">¿Qué se te antoja?</h2>
+        </Reveal>
+        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+          {(Object.keys(GROUPS) as GroupId[]).map((id, i) => (
+            <Reveal key={id} delay={i * 0.08}>
+              <Link
+                href={`/promos?g=${id}`}
+                data-cursor="Ver"
+                className="card group relative flex min-h-64 flex-col justify-between overflow-hidden p-7 transition-[translate,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-hard-lg"
+                style={{ background: GROUPS[id].color }}
+              >
+                <div className="flex items-start justify-between">
+                  <span className="mono-tag rounded-full border-2 border-ink bg-paper px-3 py-1">{counts[id]} promos</span>
+                  <span className="text-7xl transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:scale-125 group-hover:-rotate-12">
+                    {GROUPS[id].emoji}
+                  </span>
+                </div>
+                <div>
+                  <h3 className="display text-7xl sm:text-8xl">{GROUPS[id].label}</h3>
+                  <p className="mt-2 text-lg font-medium">{GROUPS[id].blurb}</p>
+                </div>
+                <span className="absolute right-6 bottom-6 flex size-14 items-center justify-center rounded-full border-[2.5px] border-ink bg-paper text-2xl transition-transform duration-300 group-hover:rotate-[-45deg]">
+                  →
+                </span>
+              </Link>
+            </Reveal>
+          ))}
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <section className="border-y-[2.5px] border-ink bg-paper-2 py-28">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8">
+          <Reveal className="flex flex-wrap items-end justify-between gap-6">
+            <div>
+              <p className="mono-tag">100% gratis</p>
+              <h2 className="display mt-3 text-[clamp(3.5rem,9vw,8rem)]">Lo más regalado</h2>
+            </div>
+            <Link href="/promos" className="btn btn-paper">
+              Ver las {stats.total} →
+            </Link>
+          </Reveal>
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {featured.slice(0, 6).map((p, i) => (
+              <Reveal key={p.slug} delay={(i % 3) * 0.08}>
+                <PromoCard promo={p} />
+              </Reveal>
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      <section className="relative overflow-hidden bg-acid px-5 py-32 sm:px-8">
+        <div className="mx-auto max-w-5xl text-center">
+          <Reveal>
+            <h2 className="display text-[clamp(4rem,13vw,12rem)]">¿Cuándo cumples?</h2>
+            <p className="mx-auto mt-6 max-w-xl text-xl font-medium">Te armamos tu calendario de regalos en dos segundos.</p>
+          </Reveal>
+          <Reveal delay={0.15} className="mt-10 flex justify-center">
+            <BirthdayPicker size="lg" />
+          </Reveal>
+        </div>
+      </section>
+
+      <section id="faq" className="mx-auto max-w-5xl scroll-mt-28 px-5 py-28 sm:px-8">
+        <Reveal>
+          <p className="mono-tag">Preguntas</p>
+          <h2 className="display mt-3 mb-12 text-[clamp(3.5rem,9vw,8rem)]">Lo que todos preguntan</h2>
+        </Reveal>
+        <Faq items={FAQ} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={jsonLd({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+          })}
+        />
+      </section>
+    </>
   );
 }
