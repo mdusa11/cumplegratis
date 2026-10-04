@@ -9,7 +9,7 @@ import { BenefitBadge } from "./BenefitBadge";
 import { postJson } from "./SuggestForm";
 import { SplitText } from "./Reveal";
 import { buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
-import { MONTHS, cn } from "@/lib/site";
+import { API_ENABLED, MONTHS, cn } from "@/lib/site";
 import { toggleDone, useDone, useStoredBirthday } from "@/lib/storage";
 
 function useBirthday(): Birthday | null {
@@ -248,8 +248,9 @@ function ReminderForm({ birthday }: { birthday: Birthday }) {
       <p className="mono-tag">Recordatorios</p>
       <h2 className="display mt-2 text-5xl sm:text-7xl">Te avisamos a tiempo</h2>
       <p className="mt-3 max-w-xl text-lg font-medium">Un correo cuando toque registrarte y otro cuando arranque tu mes. Nada de spam.</p>
+      {!API_ENABLED && <p className="display mt-6 text-4xl">Muy pronto 📬</p>}
       <AnimatePresence mode="wait">
-        {state === "ok" ? (
+        {!API_ENABLED ? null : state === "ok" ? (
           <motion.p key="ok" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="display mt-6 text-4xl">
             ¡Listo! Nos vemos en tu bandeja 📬
           </motion.p>

@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { PromoCard } from "./PromoCard";
 import { BENEFIT, GROUPS, groupOf, normalize, promos, type BenefitType, type GroupId } from "@/lib/promos";
-import { cn } from "@/lib/site";
+import { BASE_PATH, cn } from "@/lib/site";
 
 type GroupFilter = GroupId | "todos";
 
@@ -19,7 +19,7 @@ export function Catalog() {
 
   const pickGroup = (g: GroupFilter) => {
     setGroup(g);
-    const url = g === "todos" ? "/promos" : `/promos?g=${g}`;
+    const url = `${BASE_PATH}/promos${BASE_PATH ? "/" : ""}${g === "todos" ? "" : `?g=${g}`}`;
     window.history.replaceState(null, "", url);
   };
 

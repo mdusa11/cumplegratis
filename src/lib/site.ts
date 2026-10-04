@@ -16,3 +16,7 @@ export const MONTHS = [
 
 /** JSON-LD seguro para <script>: escapa "<" para que ningún texto pueda cerrar la etiqueta. */
 export const jsonLd = (data: unknown) => ({ __html: JSON.stringify(data).replace(/</g, "\\u003c") });
+
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+/** En GitHub Pages no hay servidor: los formularios que escriben en Supabase se ocultan. */
+export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";

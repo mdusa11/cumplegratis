@@ -6,7 +6,7 @@ import { PromoCard } from "@/components/PromoCard";
 import { ReportButtons } from "@/components/ReportButtons";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, type Promo } from "@/lib/promos";
-import { SITE, jsonLd } from "@/lib/site";
+import { API_ENABLED, SITE, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -152,11 +152,13 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             )}
             <p className="mono-tag mt-4 opacity-60">Revisada: {SITE.lastReview}</p>
           </Reveal>
+          {API_ENABLED && (
           <Reveal delay={0.1} className="card bg-acid p-6">
             <p className="mono-tag">¿Ya la cobraste?</p>
             <p className="display mt-2 mb-5 text-4xl">¿Te funcionó?</p>
             <ReportButtons slug={promo.slug} />
           </Reveal>
+          )}
         </aside>
       </div>
 

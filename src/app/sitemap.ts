@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
 import { promos } from "@/lib/promos";
 import { SITE } from "@/lib/site";
 
