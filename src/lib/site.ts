@@ -31,3 +31,26 @@ export const LEGAL = {
   email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "privacidad@cumplegratis.com",
   updated: "4 de octubre de 2026",
 };
+
+/** URL absoluta de una página; en GitHub Pages lleva diagonal final (trailingSlash) para coincidir con la canónica. */
+export const pageUrl = (path: string) => `${SITE.url}${path === "/" ? "" : path}${BASE_PATH ? "/" : ""}`;
+
+/** BreadcrumbList para Google: [["Promos", "/promos"], ["Café", "/categorias/cafe"]] */
+export const breadcrumbs = (items: [string, string][]) => ({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [["Inicio", "/"] as [string, string], ...items].map(([name, path], i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name,
+    item: pageUrl(path),
+  })),
+});
+
+export const itemList = (name: string, paths: [string, string][]) => ({
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name,
+  numberOfItems: paths.length,
+  itemListElement: paths.map(([n, path], i) => ({ "@type": "ListItem", position: i + 1, name: n, url: pageUrl(path) })),
+});

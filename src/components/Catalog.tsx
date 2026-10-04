@@ -5,8 +5,8 @@ import { useSearchParams } from "next/navigation";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { PromoCard } from "./PromoCard";
 import { Pin, locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
-import { AVAILABILITY_RANK, availability, isAvailable } from "@/lib/availability";
-import { BENEFIT, CATEGORIES, GROUPS, groupOf, normalize, promos, type BenefitType, type CategoryId, type GroupId } from "@/lib/promos";
+import { availability, isAvailable } from "@/lib/availability";
+import { BENEFIT, CATEGORIES, GROUPS, byProminence, groupOf, normalize, promos, type BenefitType, type CategoryId, type GroupId } from "@/lib/promos";
 import { BASE_PATH, cn } from "@/lib/site";
 
 type GroupFilter = GroupId | "todos";
@@ -64,9 +64,9 @@ export function Catalog() {
 
   const results = useMemo(() => {
     const list = base.filter((p) => !cat || p.category === cat);
-    if (!location) return list;
-    // Lo local primero (lo que menos gente conoce), luego cadenas nacionales; lo de otras zonas al final.
-    return [...list].sort((a, b) => AVAILABILITY_RANK[availability(a, location)] - AVAILABILITY_RANK[availability(b, location)]);
+    // Famosas verificadas arriba, luego locales verificadas, luego lo sin confirmar; lo de otras zonas siempre al final.
+    const away = (p: (typeof list)[number]) => (location && !isAvailable(availability(p, location)) ? 1 : 0);
+    return [...list].sort((a, b) => away(a) - away(b) || byProminence(a, b));
   }, [base, cat, location]);
 
 

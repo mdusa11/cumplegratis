@@ -9,7 +9,7 @@ import { ParallaxEmoji } from "@/components/ParallaxEmoji";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
 import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, quickRules, validityText, type Promo } from "@/lib/promos";
-import { API_ENABLED, SITE, jsonLd } from "@/lib/site";
+import { API_ENABLED, SITE, breadcrumbs, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -68,7 +68,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
               Promos
             </Link>
             <span>/</span>
-            <Link href={`/promos?g=${groupOf(promo)}`} className="underline-offset-4 hover:underline">
+            <Link href={`/categorias/${promo.category}`} className="underline-offset-4 hover:underline">
               {cat.emoji} {cat.label}
             </Link>
           </nav>
@@ -189,6 +189,16 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
         </section>
       )}
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={jsonLd(
+          breadcrumbs([
+            ["Promos", "/promos"],
+            [cat.label, `/categorias/${promo.category}`],
+            [promo.brand, `/promos/${promo.slug}`],
+          ]),
+        )}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={jsonLd({

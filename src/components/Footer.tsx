@@ -19,7 +19,17 @@ export function Footer() {
           <p className="display text-4xl text-acid sm:text-5xl">Que ningún regalo se te escape.</p>
           <p className="mt-4 max-w-sm text-paper/70">{SITE.description}</p>
         </div>
-        <FooterCol title="Explora" links={[["/promos", "Todas las promos"], ["/ciudades", "Promos por ciudad"], ["/mi-cumple", "Mi plan de cumpleaños"], ["/promos?g=comida", "Comida gratis"]]} />
+        <FooterCol
+          title="Explora"
+          links={[
+            ["/promos", "Todas las promos"],
+            ["/ciudades", "Promos por ciudad"],
+            ["/categorias/restaurantes", "Comida gratis"],
+            ["/categorias/belleza", "Belleza"],
+            ["/categorias/cine", "Cine"],
+            ["/mi-cumple", "Mi plan de cumpleaños"],
+          ]}
+        />
         <div>
           <FooterCol title="Ayuda" links={[["/promos#sugerir", "Sugerir una promo"], ["/#faq", "Preguntas frecuentes"]]} />
           <button type="button" onClick={openInstall} className="mt-5 inline-flex items-center gap-2 rounded-full border-2 border-acid px-4 py-2 font-semibold text-acid transition-colors hover:bg-acid hover:text-ink">

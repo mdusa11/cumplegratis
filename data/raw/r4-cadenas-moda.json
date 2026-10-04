@@ -1,0 +1,247 @@
+[
+  {
+    "slug": "c-and-a-mexico",
+    "brand": "C&A México",
+    "category": "ropa",
+    "benefit": "10% de descuento con cupón del mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "C&A envía por correo un cupón de 10% de descuento válido únicamente durante tu mes de cumpleaños, solo en ropa, accesorios y calzado de marca exclusiva C&A. Se envía a clientes registrados con fecha de cumpleaños y con compras en los últimos 12 meses; es de un cupón por cliente, no acumulable y no aplica en la app de C&A ni para pagos de tarjetas C&A Bradescard.",
+    "program": null,
+    "signupUrl": "https://www.cyamoda.com/",
+    "requirements": [
+      "Estar registrado en C&A con tu fecha de cumpleaños",
+      "Haber comprado en C&A México en los últimos 12 meses",
+      "Un cupón por cliente, no acumulable con otras promociones",
+      "Solo producto de marca exclusiva C&A",
+      "No válido en la app de C&A"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante tu mes de cumpleaños; el cupón llega a tu correo registrado",
+    "minPurchase": null,
+    "howToClaim": "Presenta o aplica el cupón que recibes por correo al pagar en una tienda C&A o en cyamoda.com durante tu mes de cumpleaños.",
+    "sources": [
+      "https://www.cyamoda.com/condiciones.html"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Todas las tiendas físicas C&A de México y cyamoda.com (no en la app)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "dportenis-club-dp-rewards",
+    "brand": "Dportenis / dpstreet (Club dp rewards)",
+    "category": "ropa",
+    "benefit": "10% extra en puntos en tu semana de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Los socios de Club dp rewards con perfil completo reciben una bonificación de 10% en puntos sobre el monto total de sus compras en la semana de su cumpleaños (comprando 4 días antes y 4 días después de la fecha). Aplica en todos los niveles (Fan, Elite, VIP) y con todas las formas de pago; cada dp punto equivale a $1 MXN de crédito para futuras compras y los puntos vencen (6 o 12 meses según la fecha de alta).",
+    "program": "Club dp rewards",
+    "signupUrl": "https://www.clubdp.mx/",
+    "requirements": [
+      "Ser socio Club dp rewards con perfil completo",
+      "Comprar entre 4 días antes y 4 días después de tu cumpleaños",
+      "Compra en tiendas físicas dportenis/dpstreet participantes",
+      "Los puntos se canjean solo en tiendas físicas de las ciudades listadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Ventana de 9 días: 4 días antes, el día y 4 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en clubdp.mx, la app Blue Wallet o en tienda, completa tu perfil y compra en la semana de tu cumpleaños; los puntos extra se abonan a tu cuenta.",
+    "sources": [
+      "https://www.dportenis.mx/terminos-promocionesdp"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "AGU",
+      "BCS",
+      "COA",
+      "COL",
+      "GUA",
+      "JAL",
+      "QUE",
+      "VER",
+      "YUC",
+      "ZAC"
+    ],
+    "cities": [
+      "aguascalientes",
+      "guadalajara",
+      "irapuato",
+      "leon",
+      "los-cabos",
+      "la-paz",
+      "merida",
+      "queretaro",
+      "san-juan-del-rio",
+      "san-miguel-de-allende",
+      "torreon",
+      "xalapa"
+    ],
+    "locationNote": "Según los T&C, canje en tiendas físicas de Aguascalientes, Fresnillo, Guadalajara, Irapuato, León, Los Cabos, La Paz, Mérida, Manzanillo, San Juan del Río, San Miguel de Allende, Poza Rica, Querétaro, Torreón y Xalapa",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "bimba-y-lola-mexico",
+    "brand": "Bimba y Lola México",
+    "category": "ropa",
+    "benefit": "Código de 10% de descuento por tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "Si te registras y te suscribes al newsletter antes de tu cumpleaños y capturas tu fecha de nacimiento en tu cuenta, Bimba y Lola te envía un código promocional de 10% válido 1 mes desde que recibes el correo. Aplica a todos los productos (con y sin descuento) excepto Outlet y campañas especiales, no se combina con otros códigos y solo es válido en bimbaylola.mx y en la app.",
+    "program": "Newsletter Bimba y Lola",
+    "signupUrl": "https://www.bimbaylola.mx/",
+    "requirements": [
+      "Registrarte y suscribirte al newsletter antes de tu cumpleaños",
+      "Capturar tu fecha de nacimiento en tu cuenta",
+      "Solo en bimbaylola.mx y en la app",
+      "No aplica en Outlet ni campañas especiales",
+      "No se combina con otros códigos promocionales"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El código llega por correo cerca de tu cumpleaños y vale 1 mes desde su recepción",
+    "minPurchase": null,
+    "howToClaim": "Aplica el código recibido por correo al pagar en bimbaylola.mx o en la app de Bimba y Lola dentro del mes de vigencia.",
+    "sources": [
+      "https://www.bimbaylola.mx/mx_es/info?aid=faqs_online"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo compras en línea (bimbaylola.mx y app), con envío a México",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "singular-collective-springfield-womensecret",
+    "brand": "Singular Collective (Springfield, Women'secret, Hoss Intropia, Cortefiel)",
+    "category": "ropa",
+    "benefit": "4 vales de $250 (uno por marca) el día de tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Los socios del club Singular Collective México reciben el día de su cumpleaños 4 vales de $250 MXN, uno para Springfield, otro para Women'secret, otro para Hoss Intropia y otro para Cortefiel. Cada vale sirve para una sola compra de mínimo $500 MXN en tienda física o en línea y vence un mes después de su emisión; es un solo regalo al año y no se acumula con otros programas de lealtad de Modafiel. Los T&C piden al menos una compra en los últimos 3 años, aunque las preguntas frecuentes dicen que no se necesita compra previa.",
+    "program": "Singular Collective",
+    "signupUrl": "https://singularcollective.com/mx/es/unete/",
+    "requirements": [
+      "Ser socio gratuito de Singular Collective (mayor de 18, residente en México)",
+      "Tener tu fecha de cumpleaños y celular registrados",
+      "Compra mínima de $500 MXN por vale",
+      "Un solo uso por vale; vigencia de un mes desde su emisión",
+      "Identificarte como socio con tu celular al pagar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Los vales se generan el día de tu cumpleaños y duran un mes",
+    "minPurchase": 500,
+    "howToClaim": "Regístrate gratis en tienda, en línea o en la app de cualquiera de las 4 marcas; el día de tu cumpleaños llegan los vales y los usas identificándote con tu celular.",
+    "sources": [
+      "https://singularcollective.com/mx/es/condiciones-generales/",
+      "https://singularcollective.com/mx/es/faqs/",
+      "https://singularcollective.com/mx/es/ventajas/"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Springfield, Women'secret, Hoss Intropia y Cortefiel en México, y sus tiendas en línea (myspringfield.mx, womensecret.mx, hossintropia.mx, cortefiel.mx)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "bershka-mmbrs",
+    "brand": "Bershka (MMBRS)",
+    "category": "ropa",
+    "benefit": "$100 MXN de regalo para tus compras en tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "Los miembros de la comunidad MMBRS de Bershka México reciben un regalo de $100 MXN para usar en sus compras durante su cumpleaños. Los términos particulares de MMBRS para México no se pudieron consultar en línea; en los de EE.UU. el descuento se aplica automático al carrito el día del cumpleaños si te registraste al menos 30 días antes y no se genera de nuevo si devuelves lo comprado con él.",
+    "program": "MMBRS",
+    "signupUrl": "https://www.bershka.com/mx/",
+    "requirements": [
+      "Tener cuenta Bershka (MMBRS) con fecha de cumpleaños",
+      "Registrarte con anticipación (30 días en los términos de EE.UU.)",
+      "El saldo MMBRS no es transferible ni combinable con otros códigos"
+    ],
+    "registerDaysBefore": 30,
+    "window": "otro",
+    "windowNote": "Durante tu cumpleaños; confirmar en tu cuenta cuántos días dura el saldo",
+    "minPurchase": null,
+    "howToClaim": "Inicia sesión en la app o en bershka.com/mx con tu cuenta MMBRS; el regalo aparece como saldo para tus compras.",
+    "sources": [
+      "https://www.bershka.com/mx/company.html",
+      "https://static.bershka.net/4/static/itxwebstandard/docs/termsandconditions/terms_and_conditions_es_MX.pdf"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Bershka en México (salvo puntos no permanentes y fábricas), web y app; la regla de 30 días viene de los T&C de EE.UU.",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "guess-mexico",
+    "brand": "Guess México",
+    "category": "ropa",
+    "benefit": "Descuento adicional en tu cumpleaños (suscriptores)",
+    "benefitType": "descuento",
+    "details": "Guess México lista como beneficio del newsletter un 'descuento adicional en tu cumpleaños', junto con 15% en la primera compra. La marca no publica el monto, la vigencia ni las reglas del descuento de cumpleaños en su sitio.",
+    "program": "Newsletter Guess México",
+    "signupUrl": "https://www.guess.mx/suscripcion",
+    "requirements": [
+      "Suscribirte al newsletter de Guess México",
+      "Registrar tu fecha de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Condiciones y vigencia no publicadas; revisa el correo que recibas",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete en guess.mx/suscripcion con tu fecha de cumpleaños y usa el beneficio que te llegue por correo.",
+    "sources": [
+      "https://www.guess.mx/suscripcion"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Boutiques Guess, Liverpool, guess.mx y app; el sitio no indica dónde se canjea el beneficio de cumpleaños",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "tommy-hilfiger-mexico",
+    "brand": "Tommy Hilfiger México",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños (monto no publicado)",
+    "benefitType": "descuento",
+    "details": "Al suscribirte al newsletter de Tommy Hilfiger México recibes además un descuento adicional en tu cumpleaños. El cupón de cumpleaños es de un solo uso, intransferible, válido dentro del mes de tu cumpleaños en tommy.com, app, boutiques y outlets, y se combina con otras promociones solo en tommy.com y app (no en tiendas físicas). No aplica en fragancias, lentes, relojes, maletas ni cápsulas especiales; el monto no aparece en las fuentes consultadas y la página del cupón se llama 'hbd2024'.",
+    "program": "Newsletter / Tommy Together",
+    "signupUrl": "https://mx.tommy.com/suscripcion",
+    "requirements": [
+      "Suscribirte al newsletter de Tommy Hilfiger México",
+      "Registrar tu fecha de cumpleaños",
+      "Un solo uso, intransferible",
+      "No aplica en fragancias, lentes, relojes, maletas ni cápsulas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Dentro del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Usa el cupón que llega a tu correo en tommy.com, la app, boutiques u outlets durante el mes de tu cumpleaños.",
+    "sources": [
+      "https://mx.tommy.com/promociones/hbd2024",
+      "https://mx.tommy.com/suscripcion"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "mx.tommy.com, app, boutiques y outlets Tommy Hilfiger en México; páginas oficiales bloquean consulta automática, datos vía buscador",
+    "needsId": false,
+    "companions": null
+  }
+]

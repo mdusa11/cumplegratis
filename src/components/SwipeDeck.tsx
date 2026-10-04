@@ -6,7 +6,7 @@ import { useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { BenefitBadge } from "./BenefitBadge";
 import { availability, isAvailable } from "@/lib/availability";
-import { CATEGORIES, GROUPS, coverageLabel, groupOf, quickRules, type Promo } from "@/lib/promos";
+import { CATEGORIES, GROUPS, byProminence, coverageLabel, groupOf, quickRules, type Promo } from "@/lib/promos";
 
 const THRESHOLD = 110;
 export const buzz = () => navigator.vibrate?.(12);
@@ -15,7 +15,10 @@ export const buzz = () => navigator.vibrate?.(12);
 export function SwipeDeck({ promos }: { promos: Promo[] }) {
   const { location } = useLocation();
   const openPromo = useOpenPromo();
-  const list = useMemo(() => (location ? promos.filter((p) => isAvailable(availability(p, location))) : promos), [promos, location]);
+  const list = useMemo(
+    () => (location ? promos.filter((p) => isAvailable(availability(p, location))) : promos).toSorted(byProminence),
+    [promos, location],
+  );
   const [index, setIndex] = useState(0);
   const [dir, setDir] = useState(0);
 

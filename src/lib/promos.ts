@@ -169,3 +169,27 @@ export function expiryLabel(p: Promo, soonDays = 60) {
 
 export const validityText = (p: Promo) =>
   p.validUntil ? `Vigente hasta el ${new Date(`${p.validUntil}T12:00:00`).toLocaleDateString("es-MX", { day: "numeric", month: "long", year: "numeric" })}` : null;
+
+// Marcas que casi todo mundo conoce, en orden de reconocimiento: van hasta arriba dentro de su grupo.
+const FAMOUS = [
+  "mcdonalds", "mcdonalds-mexico", "starbucks", "cinepolis", "cinemex", "liverpool", "sephora", "el-palacio-de-hierro", "palacio-de-hierro",
+  "krispy-kreme", "dairy-queen", "nutrisa", "vips", "toks", "italiannis", "chilis", "sanborns", "kidzania", "six-flags-mexico",
+  "nike", "adidas", "xiaomi", "victorias-secret", "bath-and-body-works", "pandora", "miniso", "petco", "dominos", "carls-jr",
+  "el-globo", "cielito-querido", "benavides", "farmacias-del-ahorro", "kfc", "subway", "little-caesars", "burger-king",
+];
+const FAMOUS_RANK = new Map(FAMOUS.map((slug, i) => [slug, i]));
+
+const isChain = (p: Promo) => p.coverage === "nacional" || p.states.length >= 3 || p.cities.length >= 4;
+
+/**
+ * Orden de prominencia (menor = más arriba): cadenas famosas verificadas → locales verificadas →
+ * cadenas sin confirmar → locales sin confirmar. Dentro: marcas conocidas primero y luego la mejor verificada.
+ */
+export function prominence(p: Promo) {
+  const verified = p.confidence !== "baja";
+  const tier = isChain(p) ? (verified ? 0 : 2) : verified ? 1 : 3;
+  const famous = FAMOUS_RANK.get(p.slug) ?? FAMOUS.length;
+  return tier * 1000 + famous * 10 + CONFIDENCE_RANK[p.confidence];
+}
+
+export const byProminence = (a: Promo, b: Promo) => prominence(a) - prominence(b) || a.brand.localeCompare(b.brand, "es");
