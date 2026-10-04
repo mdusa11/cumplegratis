@@ -147,5 +147,57 @@
       ]
     },
     "reason": "Términos oficiales Wow+ citan el cupón de cumpleaños (leídos vía buscador)"
+  },
+  {
+    "slug": "ventura-park-cancun",
+    "remove": true,
+    "reason": "Cerró indefinidamente el 28-ene-2025"
+  },
+  {
+    "slug": "jump-in-cuernavaca",
+    "patch": {
+      "brand": "Jump-In",
+      "coverage": "ciudades",
+      "states": [
+        "CMX",
+        "MEX",
+        "MOR",
+        "SIN"
+      ],
+      "cities": [
+        "cdmx",
+        "ecatepec",
+        "naucalpan",
+        "cuernavaca",
+        "culiacan"
+      ],
+      "locationNote": "9 sucursales: Churubusco, Miramontes, Vallejo (CDMX), Coacalco, Ecatepec, Interlomas, La Cúspide (Edomex), Culiacán y Cuernavaca"
+    },
+    "reason": "La promo oficial aplica en todas sus sucursales"
+  },
+  {
+    "slug": "cinepolis",
+    "patch": {
+      "requirements": [
+        "Ser socio Club Cinépolis (gratis)",
+        "Fecha de nacimiento registrada",
+        "Identificación oficial",
+        "No aplica en salas VIP, 4DX ni IMAX"
+      ],
+      "details": "Durante tu mes de cumpleaños se cargan a tu cuenta: entrada 2x1 (misma función), 2x1 en productos participantes de dulcería, cono gigante Spyral a $19 y combo crepa a $110. Válido una vez al día; no aplica en premieres, preventas ni festivales. No aplica en salas VIP, 4DX ni IMAX. Vigente hasta el 31 de diciembre de 2026."
+    },
+    "reason": "T&C actualizados el 20-ago-2026"
+  },
+  {
+    "slug": "aztlan-parque-urbano",
+    "patch": {
+      "confidence": "alta"
+    },
+    "reason": "Confirmado en su cuenta oficial"
+  },
+  {
+    "slug": "santander-fiesta-rewards-oro",
+    "remove": true,
+    "reason": "Mismo beneficio que fiesta-rewards-fine-dining-club (40% Fine Dining Club), que es más completo"
   }
 ]
