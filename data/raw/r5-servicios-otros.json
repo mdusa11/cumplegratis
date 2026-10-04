@@ -1,0 +1,158 @@
+[
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla"
+    ],
+    "locationNote": "Unas 17 sucursales en CDMX y Edomex (Alameda, Cibeles, Condesa, Coyoacán, Santa Fe, Universidad, Viaducto, Mundo E, Toreo, Perinorte, etc.); el sitio oficial dice que aplica en todas",
+    "needsId": true,
+    "companions": null,
+    "slug": "la-cerveceria-de-barrio",
+    "brand": "La Cervecería de Barrio",
+    "category": "bares",
+    "benefit": "Perro Tamaringo (bebida) de regalo en tu mes",
+    "benefitType": "gratis",
+    "details": "La página oficial de promos muestra la promoción de cumpleaños con el texto \"Aplica durante el mes de tu cumpleaños. Debes presentar tu identificación oficial\" (el sitio la publica solo como imagen, sin nombrar el beneficio). El beneficio concreto, 1 Perro Tamaringo de regalo, aparece en el mismo texto promocional citado por Trend México. Es una bebida con alcohol: solo mayores de edad.",
+    "requirements": [
+      "Identificación oficial vigente con fecha de nacimiento",
+      "Visitar durante el mes de tu cumpleaños",
+      "Mayor de edad (bebida con alcohol)"
+    ],
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "howToClaim": "Pide tu Perro Tamaringo en la sucursal mostrando tu identificación oficial; confirma con el mesero que la promo siga vigente, porque el sitio oficial no detalla el beneficio.",
+    "sources": [
+      "https://lacerveceriadebarrio.mx/promos",
+      "https://lacerveceriadebarrio.mx/sucursales",
+      "https://www.trendmexico.com/cdmx/los-mejores-bares-en-coyoacan/la-cerveceria-de-barrio-coyoacan/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades"
+  },
+  {
+    "program": "Vinoclub Rewards ($150 MXN)",
+    "signupUrl": "https://www.vinoteca.com/vinoclub-rewards",
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "states": [
+      "NLE",
+      "CMX",
+      "QUE",
+      "BCS",
+      "SIN",
+      "COA",
+      "ROO",
+      "JAL",
+      "GRO"
+    ],
+    "cities": [
+      "monterrey",
+      "cdmx",
+      "queretaro",
+      "cancun"
+    ],
+    "locationNote": "Tiendas físicas de Vinoteca (directorios listan ~11 ciudades: Monterrey y área, CDMX, Querétaro, Cancún, Los Cabos, Puerto Vallarta, Culiacán, Saltillo, Torreón, Acapulco); confirma la tienda más cercana",
+    "needsId": false,
+    "companions": null,
+    "slug": "vinoteca-vinoclub",
+    "brand": "Vinoteca",
+    "category": "otras-tiendas",
+    "benefit": "Bono de 100-300 Vinopuntos en tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Los miembros de Vinoclub Rewards (membresía de $150 MXN) reciben un bono de Vinopuntos por cumpleaños: 100 en nivel Blue, 200 en Gold y 300 en Platinum (1 punto = $1). Se otorga en el primer ticket de compra del día de tu cumpleaños, 3 días antes o 3 días después, y los T&C indican que el bono solo vale en el mes de nacimiento registrado; los puntos se pueden usar al día siguiente de acreditarse y vencen el 31 de marzo.",
+    "requirements": [
+      "Membresía Vinoclub Rewards activa (pago único de $150 MXN)",
+      "Fecha de nacimiento registrada en la membresía",
+      "Compra en tienda Vinoteca dentro de la ventana de cumpleaños",
+      "Si te afilias en tu mes de cumpleaños, avisa a un asesor en 3 días hábiles para registrar el bono"
+    ],
+    "window": "otro",
+    "windowNote": "Día de tu cumpleaños, 3 días antes o 3 días después (primer ticket); solo dentro del mes de nacimiento registrado",
+    "howToClaim": "Compra en una tienda Vinoteca identificándote con tu membresía Vinoclub; el bono de Vinopuntos se acredita y puedes canjearlo al día siguiente.",
+    "sources": [
+      "https://www.vinoteca.com/vinoclub-rewards",
+      "https://www.vinoteca.com/terminos-y-condiciones",
+      "https://www.vinoteca.com/pages/tarjeta-vinoclub"
+    ],
+    "confidence": "media",
+    "coverage": "estados"
+  },
+  {
+    "slug": "la-autentica-barberia",
+    "brand": "La Auténtica Barbería",
+    "category": "belleza",
+    "benefit": "Paquete premium de regalo en tu cumpleaños (Socio)",
+    "benefitType": "regalo-con-compra",
+    "details": "El sitio oficial indica que los miembros del club Socio Auténtico reciben en su cumpleaños un paquete premium de regalo (\"en tu cumpleaños, te obsequiaremos un paquete premium para que vengas y te consientas como mereces\"). El sitio no detalla qué incluye el paquete, la ventana de canje, el costo de la membresía ni las sucursales participantes; consúltalo por WhatsApp antes de ir.",
+    "program": "Socio Auténtico",
+    "signupUrl": "https://autenticabarberia.com/",
+    "requirements": [
+      "Ser Socio Auténtico (membresía del club)",
+      "Consultar por WhatsApp contenido y fecha de canje del paquete"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No publicada; confirma con la barbería",
+    "minPurchase": null,
+    "howToClaim": "Hazte Socio Auténtico y pregunta por WhatsApp (wa.link/j5niit) o al 56 2020 3272 cómo y cuándo canjear tu paquete de cumpleaños.",
+    "sources": [
+      "https://autenticabarberia.com/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "MEX"
+    ],
+    "cities": [
+      "naucalpan"
+    ],
+    "locationNote": "El sitio solo muestra una barbería (Circuito Circunvalación Pte., Cd. Satélite, Naucalpan, según directorios); no publica otras sucursales",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "raices-mexico-glamping-cumpleanos-2x1",
+    "brand": "Raíces México (glamping)",
+    "category": "servicios",
+    "benefit": "Estancia 2x1: tu parte de la tarifa en cortesía",
+    "benefitType": "2x1",
+    "details": "Promoción oficial de cumpleaños 2x1: el cumpleañero recibe su estancia en cortesía (100% de descuento sobre su parte de la tarifa) si viaja con una persona que paga la tarifa completa. Aplica solo de domingo a jueves, mínimo 2 noches consecutivas, en los domos 360° y 180°, para cumpleaños dentro del mes de la estancia, máximo 6 personas por reserva y sujeto a disponibilidad. No acumulable ni transferible. Es un solo hotel (no cadena).",
+    "program": null,
+    "signupUrl": "https://hotels.cloudbeds.com/reservation/RHnFQ0",
+    "requirements": [
+      "Mayor de 18 años",
+      "Cumpleaños dentro del mes de la estancia",
+      "Identificación oficial vigente (INE o pasaporte), foto enviada para validar la fecha",
+      "Contactar con al menos 12 horas de anticipación",
+      "Acompañante que pague tarifa completa",
+      "Estancia de domingo a jueves, mínimo 2 noches consecutivas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier estancia dentro del mes de tu cumpleaños (domingo a jueves)",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp (56 6586 4094) o al cotizar en su sitio, pide la promoción de cumpleaños y envía foto de tu identificación oficial con al menos 12 horas de anticipación.",
+    "sources": [
+      "https://raicesmexico.mx/terminos-y-condiciones-cumpleanos-2/",
+      "https://raicesmexico.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "MEX"
+    ],
+    "cities": [],
+    "locationNote": "Un solo sitio: San Agustín Buenavista, Soyaniquilpan, Estado de México (a ~50 min de CDMX)",
+    "needsId": true,
+    "companions": 1
+  }
+]

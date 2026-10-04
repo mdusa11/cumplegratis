@@ -1,3 +1,4 @@
+import type { IconName } from "@/components/Icon";
 import { GROUPS, byProminence, coverageLabel, groupOf, money, promos, type GroupId, type Promo } from "./promos";
 
 export type Guide = {
@@ -5,9 +6,9 @@ export type Guide = {
   title: string;
   short: string;
   description: string;
-  emoji: string;
+  icon: IconName;
   intro: string;
-  sections: { title: string; text?: string; promos?: Promo[]; tips?: string[] }[];
+  sections: { title: string; icon?: IconName; text?: string; promos?: Promo[]; tips?: string[] }[];
   faq: { q: string; a: string }[];
 };
 
@@ -36,14 +37,14 @@ export const GUIDES: Guide[] = [
     slug: "que-te-regalan-en-tu-cumpleanos",
     title: `Qué te regalan en tu cumpleaños en México (${year})`,
     short: "Qué te regalan en tu cumpleaños",
-    emoji: "🎁",
+    icon: "gift",
     description: `Lista actualizada de marcas que te regalan algo en tu cumpleaños en México: ${verified.length} promociones verificadas de comida, tiendas, cine y más, con requisitos y cómo cobrarlas.`,
     intro: `Cada año cientos de marcas en México regalan algo a quien cumple: un café, un postre, una comida completa, boletos de cine o cupones de descuento. Revisamos ${promos.length} promociones y aquí están las ${verified.length} que pudimos confirmar con la marca o con medios recientes, empezando por las más conocidas.`,
     sections: [
-      { title: `${GROUPS.comida.emoji} Comida y bebida gratis`, promos: top(byGroup("comida"), 12) },
-      { title: `${GROUPS.tiendas.emoji} Tiendas, belleza y ropa`, promos: top(byGroup("tiendas"), 12) },
-      { title: `${GROUPS.diversion.emoji} Cine, parques y planes`, promos: top(byGroup("diversion"), 10) },
-      { title: `${GROUPS.servicios.emoji} Hoteles, tarjetas y servicios`, promos: top(byGroup("servicios"), 8) },
+      { icon: GROUPS.comida.icon, title: `Comida y bebida gratis`, promos: top(byGroup("comida"), 12) },
+      { icon: GROUPS.tiendas.icon, title: `Tiendas, belleza y ropa`, promos: top(byGroup("tiendas"), 12) },
+      { icon: GROUPS.diversion.icon, title: `Cine, parques y planes`, promos: top(byGroup("diversion"), 10) },
+      { icon: GROUPS.servicios.icon, title: `Hoteles, tarjetas y servicios`, promos: top(byGroup("servicios"), 8) },
       {
         title: "Cómo aprovecharlas",
         tips: [
@@ -64,12 +65,12 @@ export const GUIDES: Guide[] = [
     slug: "comida-gratis-en-tu-cumpleanos",
     title: `Dónde comer gratis en tu cumpleaños en México (${year})`,
     short: "Comida gratis en tu cumpleaños",
-    emoji: "🍽️",
+    icon: "plate",
     description: `${freeFood.length} restaurantes, cafeterías y postres que te regalan comida en tu cumpleaños: con cuántos acompañantes, qué días aplica y dónde hay sucursales.`,
     intro: `"El cumpleañero no paga" es la promoción más buscada. Casi siempre tiene letra chiquita: ir con cierto número de acompañantes que consuman, presentar INE o ir solo ciertos días. Aquí están las ${freeFood.length} que verificamos, con sus condiciones claras.`,
     sections: [
-      { title: "☕ Cafés y postres", promos: freeFood.filter((p) => ["cafe", "postres"].includes(p.category)) },
-      { title: "🍽️ Restaurantes y buffets", promos: freeFood.filter((p) => ["restaurantes", "comida-rapida"].includes(p.category)) },
+      { icon: "coffee", title: "Cafés y postres", promos: freeFood.filter((p) => ["cafe", "postres"].includes(p.category)) },
+      { icon: "plate", title: "Restaurantes y buffets", promos: freeFood.filter((p) => ["restaurantes", "comida-rapida"].includes(p.category)) },
       {
         title: "Antes de ir",
         tips: [
@@ -88,7 +89,7 @@ export const GUIDES: Guide[] = [
     slug: "regalos-de-cumpleanos-sin-registro",
     title: `Regalos de cumpleaños sin registrarte: solo con tu INE (${year})`,
     short: "Regalos sin registro, solo con INE",
-    emoji: "🪪",
+    icon: "id",
     description: `${walkIn.length} lugares donde te dan algo en tu cumpleaños sin registrarte en ninguna app: solo llegas con tu INE.`,
     intro: `Si se te olvidó registrarte con tiempo, no todo está perdido. Estas ${walkIn.length} promociones verificadas no piden cuenta, app ni tarjeta: basta con presentar tu identificación oficial en tu fecha.`,
     sections: [
@@ -107,7 +108,7 @@ export const GUIDES: Guide[] = [
     slug: "como-cobrar-regalos-de-cumpleanos",
     title: "Cómo cobrar todos tus regalos de cumpleaños: guía paso a paso",
     short: "Cómo cobrar todos tus regalos",
-    emoji: "📝",
+    icon: "register",
     description: "La guía para no perder ningún regalo de cumpleaños: qué programas registrar, con cuánta anticipación, qué llevar y cómo organizar tu mes.",
     intro: "La mayoría de los regalos de cumpleaños se pierden por una razón: registrarse tarde. El sistema de la marca necesita conocer tu fecha antes de que empiece tu mes. Así se organiza todo para no perder ninguno.",
     sections: [

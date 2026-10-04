@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState, useSyncExternalStore } from "react";
+import { Icon } from "./Icon";
 import { AnimatePresence, motion } from "motion/react";
 import { burst } from "./BirthdayPicker";
 import { lockScroll } from "@/lib/scroll";
-import { BASE_PATH, cn } from "@/lib/site";
+import { ACCENT, BASE_PATH, cn } from "@/lib/site";
 import { useMediaQuery } from "@/lib/storage";
 
 type InstallPrompt = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: "accepted" | "dismissed" }> };
@@ -114,7 +115,7 @@ export function PwaInstall() {
                 </div>
               </div>
               <button type="button" onClick={install} className="btn btn-acid mt-3 w-full !py-2.5 !text-lg">
-                📲 Instalar gratis
+                <Icon name="install" tone="var(--color-paper)" /> Instalar gratis
               </button>
               <button
                 type="button"
@@ -200,14 +201,14 @@ function InstallGuide({ ios, canPrompt, onInstall, onClose }: { ios: boolean; ca
 
         {canPrompt ? (
           <button type="button" onClick={onInstall} className="btn btn-acid mt-6 w-full !py-4 !text-2xl">
-            📲 Instalar ahora
+            <Icon name="install" tone="var(--color-paper)" /> Instalar ahora
           </button>
         ) : (
           <ol className="mt-6 space-y-3">
             {steps.map((s, i) => (
               <motion.li
                 key={s.title}
-                animate={{ scale: active === i ? 1.03 : 1, backgroundColor: active === i ? "#c6ff00" : "#f3f0e8" }}
+                animate={{ scale: active === i ? 1.03 : 1, backgroundColor: active === i ? ACCENT : "#f3f0e8" }}
                 transition={{ type: "spring", stiffness: 300, damping: 22 }}
                 className="flex items-center gap-4 rounded-2xl border-[2.5px] border-ink p-3"
               >

@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { PwaInstall } from "@/components/PwaInstall";
-import { SITE, jsonLd } from "@/lib/site";
+import { ACCENT, SITE, jsonLd } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-export const viewport: Viewport = { themeColor: "#c6ff00" };
+export const viewport: Viewport = { themeColor: ACCENT };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

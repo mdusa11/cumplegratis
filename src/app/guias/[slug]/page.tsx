@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Icon } from "@/components/Icon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SplitText } from "@/components/Reveal";
@@ -29,7 +30,7 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
           Guías
         </Link>
       </nav>
-      <p className="mt-6 text-6xl">{g.emoji}</p>
+      <Icon name={g.icon} shadow className="mt-6 !size-16" />
       <h1 className="display mt-3 text-[clamp(3rem,8vw,6.5rem)]">
         <SplitText text={g.title} stagger={0.012} />
       </h1>
@@ -38,7 +39,10 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
 
       {g.sections.map((s) => (
         <section key={s.title} className="mt-14">
-          <TitleReveal text={s.title} as="h2" className="text-4xl sm:text-5xl" />
+          <div className="flex items-center gap-3">
+            {s.icon && <Icon name={s.icon} shadow className="!size-10 sm:!size-12" />}
+            <TitleReveal text={s.title} as="h2" className="text-4xl sm:text-5xl" />
+          </div>
           {s.text && <p className="mt-4 text-lg leading-relaxed">{s.text}</p>}
           {s.promos && s.promos.length > 0 && (
             <ol className="mt-6 space-y-3">
@@ -53,8 +57,8 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
                       <BenefitBadge type={p.benefitType} className="!text-sm" />
                     </div>
                     <p className="mt-1 text-lg font-semibold">{p.benefit}</p>
-                    <p className="mt-1 text-sm opacity-80">
-                      {CATEGORIES[p.category].emoji} {promoLine(p)}
+                    <p className="mt-1 text-sm">
+                      <Icon name={CATEGORIES[p.category].icon} className="mr-1" /> <span className="opacity-80">{promoLine(p)}</span>
                     </p>
                   </div>
                 </li>
@@ -90,7 +94,7 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
         <p className="display text-4xl">Arma tu plan en 2 segundos</p>
         <p className="mt-2 text-lg font-medium">Pon tu fecha y tu ciudad y te decimos qué registrar y hasta cuándo.</p>
         <Link href="/mi-cumple" className="btn btn-ink mt-5">
-          Armar mi plan 🎉
+          Armar mi plan <Icon name="party" />
         </Link>
       </div>
 
@@ -100,7 +104,7 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
           {others.map((o) => (
             <li key={o.slug}>
               <Link href={`/guias/${o.slug}`} className="chip bg-paper transition-colors hover:bg-acid">
-                {o.emoji} {o.short}
+                <Icon name={o.icon} /> {o.short}
               </Link>
             </li>
           ))}

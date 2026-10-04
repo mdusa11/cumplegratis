@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type ReactNode } from "react";
+import { Icon } from "./Icon";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -86,7 +87,7 @@ export function TitleReveal({ text, className, as: Tag = "h2" }: { text: string;
       {words.map((w, i) => {
         const hl = w.startsWith("*");
         return (
-          <span key={i} aria-hidden className="inline-block overflow-hidden pb-[0.06em] align-bottom">
+          <span key={i} aria-hidden className="-mt-[0.18em] inline-block overflow-hidden pt-[0.18em] pb-[0.06em] align-bottom">
             <motion.span
               className={cn("inline-block", hl && "rounded-[0.1em] bg-acid px-[0.08em]")}
               initial={{ y: "105%", rotate: 6 }}
@@ -105,15 +106,15 @@ export function TitleReveal({ text, className, as: Tag = "h2" }: { text: string;
 }
 
 const FLOATERS = [
-  { e: "🎂", x: "8%", y: "70%", d: 0.9, s: "3.2rem" },
-  { e: "🎈", x: "46%", y: "12%", d: 1.4, s: "2.6rem" },
-  { e: "🎁", x: "92%", y: "82%", d: 0.6, s: "3rem" },
-  { e: "🍩", x: "40%", y: "88%", d: 1.1, s: "2.4rem" },
-  { e: "🎉", x: "97%", y: "8%", d: 1.6, s: "2.4rem" },
-  { e: "☕", x: "3%", y: "22%", d: 0.7, s: "2.2rem" },
-];
+  { e: "cake", x: "8%", y: "70%", d: 0.9, s: "3.2rem" },
+  { e: "balloon", x: "46%", y: "12%", d: 1.4, s: "2.6rem" },
+  { e: "gift", x: "92%", y: "82%", d: 0.6, s: "3rem" },
+  { e: "donut", x: "40%", y: "88%", d: 1.1, s: "2.4rem" },
+  { e: "party", x: "97%", y: "8%", d: 1.6, s: "2.4rem" },
+  { e: "coffee", x: "3%", y: "22%", d: 0.7, s: "2.2rem" },
+] as const;
 
-/** Emojis que flotan y se mueven en sentido contrario al mouse (profundidad). */
+/** Íconos que flotan y se mueven en sentido contrario al mouse (profundidad). */
 export function Floaters() {
   const mx = useMotionValue(0);
   const my = useMotionValue(0);
@@ -153,7 +154,7 @@ function Floater({ e, x, y, d, s, index, mx, my }: (typeof FLOATERS)[number] & {
       >
         {/* El vaivén continuo va en CSS (compositor), no en JS. */}
         <span className="bob block" style={{ animationDuration: `${3.5 + index * 0.4}s`, animationDelay: `${index * 0.3}s` }}>
-          {e}
+          <Icon name={e} shadow className="!size-[1em]" />
         </span>
       </motion.span>
     </motion.span>
@@ -207,7 +208,7 @@ export function FloatingCTA() {
         >
           <Link href="/mi-cumple" className="btn btn-acid w-full !py-4 !text-xl shadow-hard-lg">
             <motion.span animate={{ rotate: [0, -12, 12, 0] }} transition={{ repeat: Infinity, duration: 2, repeatDelay: 1 }}>
-              🎂
+              <Icon name="cake" tone="var(--color-paper)" />
             </motion.span>
             Armar mi plan
           </Link>

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { Icon } from "@/components/Icon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BenefitBadge } from "@/components/BenefitBadge";
 import { PromoCard } from "@/components/PromoCard";
 import { ReportButtons } from "@/components/ReportButtons";
 import { WhereCard } from "@/components/WhereCard";
-import { ParallaxEmoji } from "@/components/ParallaxEmoji";
+import { ParallaxIcon } from "@/components/ParallaxIcon";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
 import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, quickRules, validityText, type Promo } from "@/lib/promos";
@@ -71,7 +72,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             </Link>
             <span>/</span>
             <Link href={`/categorias/${promo.category}`} className="underline-offset-4 hover:underline">
-              {cat.emoji} {cat.label}
+              <Icon name={cat.icon} /> {cat.label}
             </Link>
           </nav>
           <h1 className="mt-6">
@@ -97,7 +98,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             </Link>
           </div>
         </div>
-        <ParallaxEmoji emoji={cat.emoji} />
+        <ParallaxIcon name={cat.icon} />
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-16 px-5 py-20 sm:px-8 lg:grid-cols-[1.5fr_1fr]">
@@ -107,7 +108,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             {quickRules(promo).map((r, i) => (
               <Reveal key={r.label} delay={i * 0.06} y={24}>
                 <div className="card flex h-full flex-col gap-2 bg-paper p-4">
-                  <span className="text-4xl">{r.icon}</span>
+                  <Icon name={r.icon} shadow className="!size-10" />
                   <span className="leading-tight font-bold">{r.label}</span>
                 </div>
               </Reveal>

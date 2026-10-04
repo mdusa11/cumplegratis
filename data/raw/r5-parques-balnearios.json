@@ -193,5 +193,70 @@
     "locationNote": "El Llano 2da Sección, Tula de Allende, Hidalgo; abre 24 h según el directorio",
     "needsId": true,
     "companions": null
+  },
+  {
+    "slug": "mexico-verde-expediciones-jalcomulco",
+    "brand": "Expediciones México Verde",
+    "category": "experiencias",
+    "benefit": "Hospedaje gratis para el cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "Paquete \"Cumpleañero\": vive una aventura (rafting, tirolesa, senderismo) en el glamping de Jalcomulco y el cumpleañero disfruta de hospedaje gratis. La página oficial dice \"temporalidad: todo el año\" y que aplican restricciones en la contratación de más personas; no precisa cuántos paquetes hay que comprar ni qué identificación piden, así que cotiza antes por teléfono. Un resumen de buscador menciona que el cumpleañero va gratis al comprar 4 paquetes, pero no lo pude confirmar en el sitio.",
+    "program": null,
+    "signupUrl": "https://mexicoverde.com/tours/cumpleanero/",
+    "requirements": [
+      "Reservar el paquete Cumpleañero por teléfono o formulario",
+      "Aplican restricciones según el número de personas",
+      "Confirmar identificación y mínimo de paquetes al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Todo el año; reserva con anticipación (sin fecha de fin publicada)",
+    "minPurchase": null,
+    "howToClaim": "Reserva el paquete Cumpleañero al (279) 832 3730 al 35 o por WhatsApp 228 124 7880 y avisa la fecha de tu cumpleaños.",
+    "sources": [
+      "https://mexicoverde.com/tours/cumpleanero/",
+      "https://mexicoverde.com/trip-search-result/?trip_types=experiencias-mexico-verde"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "VER"
+    ],
+    "cities": [],
+    "locationNote": "Expediciones México Verde, Jalcomulco, Veracruz (rafting, tirolesa y glamping); el beneficio es hospedaje, no entrada",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "dinoax-parque-museo-tematico-oaxaca",
+    "brand": "DinOax Parque - Museo Temático",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis (credencial o CURP)",
+    "benefitType": "gratis",
+    "details": "Parque-museo temático de dinosaurios en Oaxaca. Según información de redes y fichas del parque, el cumpleañero no paga entrada (boleto general $100 para mayores de 3 años) al presentar su credencial de elector o una imagen de su CURP en taquilla. Se reportan además descuentos de 30% en la entrada general si cumples años en el mes de la visita y 50% si cumples en la semana de la visita. Términos exactos no publicados en sitio oficial; confirmar por teléfono o WhatsApp.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial de elector (INE) o imagen de CURP en taquilla"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Gratis el día del cumpleaños; 30% en el mes y 50% en la semana de cumpleaños según reportes; sin fecha de fin publicada",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu credencial de elector o CURP en la taquilla del parque. Tel. 951 242 9853.",
+    "sources": [
+      "https://www.facebook.com/dinoaxaca/",
+      "https://www.tiktok.com/@dinoaxaca",
+      "https://sites.google.com/view/dinoax/inicio"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "OAX"
+    ],
+    "cities": [],
+    "locationNote": "Atenas 18, Col. Odisea, Santa María Atzompa / Oaxaca de Juárez, Oaxaca",
+    "needsId": true,
+    "companions": null
   }
 ]

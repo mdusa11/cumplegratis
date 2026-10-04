@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Icon } from "@/components/Icon";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { HowItWorks } from "@/components/HowItWorks";
@@ -105,9 +106,7 @@ export default function Home() {
                   <span className="mono-tag rounded-full border-2 border-ink bg-paper px-3 py-1">
                     <CountUp value={counts[id]} /> promos
                   </span>
-                  <span className="text-7xl transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:scale-125 group-hover:-rotate-12">
-                    {GROUPS[id].emoji}
-                  </span>
+                  <Icon name={GROUPS[id].icon} tone="var(--color-paper)" shadow className="!size-20 transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:scale-125 group-hover:-rotate-12" />
                 </div>
                 <div>
                   <h3 className="display text-[clamp(3.2rem,9vw,6rem)] break-words">{GROUPS[id].label}</h3>
@@ -142,7 +141,9 @@ export default function Home() {
               href={`/ciudades/${c}`}
               className="display flex items-center text-5xl transition-colors hover:text-paper sm:text-6xl"
             >
-              <span className="px-5">📍 {CITIES[c].name}</span>
+              <span className="flex items-center gap-3 px-5">
+                <Icon name="pin" className="!size-[0.8em]" /> {CITIES[c].name}
+              </span>
             </Link>
           ))}
         </Marquee>
@@ -181,8 +182,8 @@ export default function Home() {
                 Desliza a la derecha lo que se te antoje y a la izquierda lo que no. Te mostramos solo lo que hay en tu zona.
               </p>
               <ul className="mt-6 space-y-2 text-lg font-semibold">
-                <li>👉 Derecha: ver la promo completa</li>
-                <li>👈 Izquierda: la siguiente</li>
+                <li className="flex items-center gap-2"><Icon name="arrowRight" /> Derecha: ver la promo completa</li>
+                <li className="flex items-center gap-2"><Icon name="arrowRight" className="rotate-180" /> Izquierda: la siguiente</li>
               </ul>
             </Reveal>
           </div>
@@ -211,7 +212,7 @@ export default function Home() {
           {GUIDES.map((g, i) => (
             <Reveal key={g.slug} delay={(i % 2) * 0.06} y={20}>
               <Link href={`/guias/${g.slug}`} className="card group flex items-center gap-4 bg-paper p-4 transition-[translate,box-shadow] hover:-translate-y-0.5 hover:shadow-hard-lg">
-                <span className="text-4xl transition-transform duration-300 group-hover:scale-125">{g.emoji}</span>
+                <Icon name={g.icon} shadow className="!size-10 transition-transform duration-300 group-hover:scale-125" />
                 <span className="display text-2xl sm:text-3xl">{g.short}</span>
                 <span className="ml-auto text-2xl transition-transform group-hover:translate-x-1">→</span>
               </Link>

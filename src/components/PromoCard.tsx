@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Icon } from "./Icon";
 import { motion, useMotionValue, useSpring } from "motion/react";
 import type { MouseEvent, PointerEvent } from "react";
 import { BenefitBadge } from "./BenefitBadge";
@@ -63,7 +64,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
         />
         <div className="relative flex items-start justify-between gap-3">
           <span className="mono-tag pt-1">
-            {cat.emoji} {cat.label}
+            <Icon name={cat.icon} /> {cat.label}
           </span>
           <BenefitBadge type={promo.benefitType} />
         </div>
@@ -80,7 +81,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
                   className="flex gap-2 text-sm leading-snug transition-transform duration-300 group-hover:translate-x-1"
                   style={{ transitionDelay: `${i * 40}ms` }}
                 >
-                  <span className="w-5 shrink-0 text-center">{ruleIcon(b)}</span>
+                  <Icon name={ruleIcon(b)} className="!size-5" />
                   <span>{b}</span>
                 </li>
               ))}
@@ -90,13 +91,19 @@ export function PromoCard({ promo }: { promo: Promo }) {
         )}
 
         <div className="relative mt-auto flex flex-wrap gap-2 pt-5">
-          <span className="chip bg-paper">📅 {WINDOW_LABEL[promo.window]}</span>
+          <span className="chip bg-paper">
+            <Icon name="calendar" /> {WINDOW_LABEL[promo.window]}
+          </span>
           <span className={cn("chip max-w-full !whitespace-normal leading-tight", local ? "bg-sun" : "bg-paper")}>
-            {promo.coverage === "nacional" ? "🇲🇽" : "📍"} {coverageLabel(promo)}
+            <Icon name={promo.coverage === "nacional" ? "mexico" : "pin"} /> {coverageLabel(promo)}
           </span>
           {avail === "fuera" && <span className="chip bg-hot">Fuera de tu zona</span>}
           {(avail === "tu-ciudad" || avail === "cerca") && <span className="chip bg-acid">✓ Cerca de ti</span>}
-          {expiry && <span className="chip animate-pulse bg-hot">⏳ {expiry}</span>}
+          {expiry && (
+            <span className="chip animate-pulse bg-hot">
+              <Icon name="hourglass" /> {expiry}
+            </span>
+          )}
           {promo.confidence === "baja" && <span className="chip border-dashed bg-paper">Sin confirmar</span>}
         </div>
       </Link>

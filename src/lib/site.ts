@@ -7,6 +7,8 @@ export const SITE = {
   lastReview: "octubre 2026",
 };
 
+export const ACCENT = "#5b7cff";
+
 export const cn = (...classes: (string | false | null | undefined)[]) => classes.filter(Boolean).join(" ");
 
 export const MONTHS = [

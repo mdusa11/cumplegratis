@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { Icon } from "./Icon";
 import { burst } from "./BirthdayPicker";
 import { motion } from "motion/react";
 import { BirthdayPicker } from "./BirthdayPicker";
@@ -140,7 +141,7 @@ function SpinBadge({ total }: { total: number }) {
       onClick={party}
       transition={{ delay: spins ? 0 : 0.9, type: "spring", stiffness: 200, damping: 12 }}
       className="relative inline-flex size-[0.85em] shrink-0 cursor-pointer items-center justify-center rounded-full border-[3px] border-ink bg-lilac"
-      data-cursor="🎉"
+      data-cursor="¡Fiesta!"
       aria-hidden
     >
       <svg viewBox="0 0 100 100" className="absolute inset-0 animate-spin-slow">
@@ -153,7 +154,7 @@ function SpinBadge({ total }: { total: number }) {
           </textPath>
         </text>
       </svg>
-      <span className="animate-wiggle text-[0.32em]">🎂</span>
+      <Icon name="cake" className="animate-wiggle !size-[0.36em]" />
     </motion.span>
   );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Icon } from "@/components/Icon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PromoCard } from "@/components/PromoCard";
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: PageProps<"/categorias/[slug]
 export default async function CategoryPage({ params }: PageProps<"/categorias/[slug]">) {
   const c = category((await params).slug);
   if (!c) notFound();
-  const { label, emoji, group } = CATEGORIES[c];
+  const { label, icon, group } = CATEGORIES[c];
   const list = inCategory(c);
   const free = list.filter((p) => p.benefitType === "gratis").length;
   const siblings = (Object.keys(CATEGORIES) as CategoryId[]).filter((k) => k !== c && CATEGORIES[k].group === group);
@@ -49,7 +50,10 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
       </nav>
       <h1 className="display mt-4 text-[clamp(3.6rem,11vw,10rem)]">
         <SplitText text="Cumpleaños con" className="block text-[0.45em]" />
-        <SplitText text={`${emoji} ${label}`} delay={0.25} className="block text-hot" />
+        <span className="flex items-center gap-[0.18em]">
+          <Icon name={icon} shadow className="!size-[0.85em] !align-baseline" />
+          <SplitText text={label} delay={0.25} className="block text-hot" />
+        </span>
       </h1>
       <p className="mt-8 max-w-2xl text-xl font-medium">
         <b className="display text-4xl">
@@ -61,7 +65,7 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
       <div className="mt-6 flex flex-wrap gap-2">
         {siblings.map((s) => (
           <Link key={s} href={`/categorias/${s}`} className="chip bg-paper transition-colors hover:bg-acid">
-            {CATEGORIES[s].emoji} {CATEGORIES[s].label}
+            <Icon name={CATEGORIES[s].icon} /> {CATEGORIES[s].label}
           </Link>
         ))}
       </div>

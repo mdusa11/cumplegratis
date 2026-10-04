@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { Icon } from "./Icon";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -14,21 +15,21 @@ const STEPS = [
     n: "01",
     title: "Pon tu fecha",
     body: "Tu día y tu mes. Nada más. Sin cuenta, sin contraseñas, sin rollos.",
-    emoji: "📅",
+    icon: "calendar" as const,
     color: "var(--color-acid)",
   },
   {
     n: "02",
     title: "Regístrate a tiempo",
     body: "Casi todas las marcas te piden estar en su programa de lealtad días o semanas antes. Te decimos cuáles y hasta cuándo.",
-    emoji: "⏰",
+    icon: "alarm" as const,
     color: "var(--color-lilac)",
   },
   {
     n: "03",
     title: "Cobra todo tu mes",
     body: "Café, pastel, cine, descuentos. Llegas, enseñas la app o tu INE y listo. Así de fácil.",
-    emoji: "🎁",
+    icon: "gift" as const,
     color: "var(--color-hot)",
   },
 ];
@@ -111,8 +112,8 @@ function StepCard({ step: s, index, animate }: { step: (typeof STEPS)[number]; i
     >
       <div className="flex items-start justify-between">
         <span className="display outline-text text-[8rem] desk:text-[12rem]">{s.n}</span>
-        <span className="bob text-6xl desk:text-8xl" style={{ animationDelay: `${index * 0.4}s` }}>
-          {s.emoji}
+        <span className="bob size-16 desk:size-24" style={{ animationDelay: `${index * 0.4}s` }}>
+          <Icon name={s.icon} tone="var(--color-paper)" className="!size-full drop-shadow-[4px_4px_0_var(--color-ink)]" />
         </span>
       </div>
       <div>

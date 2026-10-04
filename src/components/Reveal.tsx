@@ -51,7 +51,7 @@ function Word({ children, progress, range }: { children: string; progress: Motio
 /** Titular que entra letra por letra desde abajo. */
 export function SplitText({ text, className, delay = 0, stagger = 0.03 }: { text: string; className?: string; delay?: number; stagger?: number }) {
   return (
-    <span className={cn("inline-block overflow-hidden pb-[0.06em]", className)} aria-label={text}>
+    <span className={cn("-mt-[0.18em] inline-block overflow-hidden pt-[0.18em] pb-[0.06em]", className)} aria-label={text}>
       {Array.from(text).map((ch, i) => (
         <motion.span
           key={i}

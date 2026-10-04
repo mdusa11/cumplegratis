@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Icon } from "./Icon";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
@@ -119,7 +120,9 @@ export function Nav() {
               }}
               className="mb-1 flex items-center justify-between rounded-2xl border-2 border-ink bg-paper px-4 py-3 text-left font-semibold"
             >
-              <span>📍 {place ?? "Elige tu ciudad"}</span>
+              <span>
+                <Icon name="pin" /> {place ?? "Elige tu ciudad"}
+              </span>
               <span className="mono-tag">{place ? "cambiar" : "→"}</span>
             </button>
             {[{ href: "/", label: "Inicio" }, ...LINKS].map((l, i) => (
@@ -150,7 +153,7 @@ export function Nav() {
                 }}
                 className="mt-2 flex items-center gap-3 rounded-2xl border-2 border-ink bg-ink px-4 py-3 text-left font-semibold text-paper"
               >
-                <span className="text-2xl">📲</span>
+                <Icon name="install" className="!size-8" />
                 <span>
                   Instalar la app
                   <span className="block text-sm font-medium opacity-70">Gratis, sin tienda de apps</span>
@@ -191,7 +194,7 @@ function LocationPill({
         animate={place ? { y: 0 } : { y: [0, -3, 0] }}
         transition={place ? {} : { repeat: Infinity, duration: 1.2 }}
       >
-        📍
+        <Icon name="pin" />
       </motion.span>
       {compact && place && (
         <span className="absolute -top-0.5 -right-0.5 size-3.5 rounded-full border-2 border-ink bg-acid" />

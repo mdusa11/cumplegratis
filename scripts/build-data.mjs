@@ -5,6 +5,8 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { CITIES, STATES } from "../src/lib/places.ts";
 
+// Abreviaturas comunes que los agentes usan en lugar del código ISO.
+const STATE_ALIASES = { QRO: "QUE", BC: "BCN", CDMX: "CMX", QROO: "ROO", EDOMEX: "MEX", GTO: "GUA", NL: "NLE", CHIH: "CHH", COAH: "COA" };
 const RAW = "data/raw";
 const OUT = "src/data/promos.json";
 
@@ -49,7 +51,7 @@ function location(raw, slug) {
     return false;
   });
   const states = new Set(
-    (Array.isArray(raw.states) ? raw.states : []).filter((s) => {
+    (Array.isArray(raw.states) ? raw.states : []).map((s) => STATE_ALIASES[s] ?? s).filter((s) => {
       if (s in STATES) return true;
       warnings.push(`${slug}: estado desconocido "${s}"`);
       return false;

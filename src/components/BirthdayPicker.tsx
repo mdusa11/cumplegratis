@@ -1,13 +1,14 @@
 "use client";
 
 import { useRef, useState, type FormEvent } from "react";
+import { Icon } from "./Icon";
 import { useRouter } from "next/navigation";
 import { motion } from "motion/react";
-import { MONTHS, cn } from "@/lib/site";
+import { ACCENT, MONTHS, cn } from "@/lib/site";
 import { saveBirthday, useStoredBirthday } from "@/lib/storage";
 
 const DAYS_IN_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-export const CONFETTI_COLORS = ["#c6ff00", "#b9a6ff", "#ff5a36", "#7cd6ff", "#ffd23f", "#ff9bd9"];
+export const CONFETTI_COLORS = [ACCENT, "#b9a6ff", "#ff5a36", "#7cd6ff", "#ffd23f", "#ff9bd9"];
 
 export async function burst(origin?: { x: number; y: number }) {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -72,7 +73,7 @@ export function BirthdayPicker({ className, size = "md", onDone }: { className?:
         transition={{ duration: 0.4 }}
         className={cn("btn btn-ink disabled:cursor-not-allowed disabled:opacity-50", big && "!px-8 !py-4 !text-2xl")}
       >
-        Armar mi plan 🎉
+        Armar mi plan <Icon name="party" />
       </motion.button>
     </form>
   );

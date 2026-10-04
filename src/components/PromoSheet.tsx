@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Icon, type IconName } from "./Icon";
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
 import { AnimatePresence, motion, useDragControls, type PanInfo } from "motion/react";
 import { BenefitBadge } from "./BenefitBadge";
@@ -40,13 +41,13 @@ export function PromoSheetProvider({ children }: { children: ReactNode }) {
 const STAGGER = { hidden: {}, show: { transition: { staggerChildren: 0.05, delayChildren: 0.15 } } };
 const ITEM = { hidden: { opacity: 0, y: 14 }, show: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 320, damping: 28 } } };
 
-const BANNER: Record<Availability, { bg: string; icon: string }> = {
-  nacional: { bg: "bg-sky", icon: "🇲🇽" },
-  "tu-ciudad": { bg: "bg-acid", icon: "✅" },
-  cerca: { bg: "bg-acid", icon: "✅" },
-  "tu-estado": { bg: "bg-acid", icon: "✅" },
-  fuera: { bg: "bg-hot", icon: "⚠️" },
-  "sin-dato": { bg: "bg-paper-2", icon: "❔" },
+const BANNER: Record<Availability, { bg: string; icon: IconName }> = {
+  nacional: { bg: "bg-sky", icon: "mexico" },
+  "tu-ciudad": { bg: "bg-acid", icon: "check" },
+  cerca: { bg: "bg-acid", icon: "check" },
+  "tu-estado": { bg: "bg-acid", icon: "check" },
+  fuera: { bg: "bg-hot", icon: "warning" },
+  "sin-dato": { bg: "bg-paper-2", icon: "question" },
 };
 
 function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
@@ -109,7 +110,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
             ✕
           </button>
           <p className="mono-tag md:pt-4">
-            {cat.emoji} {cat.label}
+            <Icon name={cat.icon} /> {cat.label}
           </p>
           <motion.h2
             initial={{ y: 30, opacity: 0 }}
@@ -122,7 +123,9 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
           <p className="mt-3 text-2xl leading-tight font-bold">{promo.benefit}</p>
           <div className="mt-4 flex flex-wrap gap-2">
             <BenefitBadge type={promo.benefitType} />
-            <span className="chip bg-paper">📅 {WINDOW_LABEL[promo.window]}</span>
+            <span className="chip bg-paper">
+              <Icon name="calendar" /> {WINDOW_LABEL[promo.window]}
+            </span>
             <span className="chip bg-paper">{CONFIDENCE[promo.confidence].label}</span>
           </div>
         </header>
@@ -130,7 +133,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
         <motion.div data-lenis-prevent className="flex-1 overflow-y-auto overscroll-contain px-6 pb-36 sm:px-8" variants={STAGGER} initial="hidden" animate="show">
           {avail ? (
             <motion.div variants={ITEM} className={cn("card mt-6 flex items-start gap-3 p-4", BANNER[avail].bg)}>
-              <span className="text-2xl">{BANNER[avail].icon}</span>
+              <Icon name={BANNER[avail].icon} tone={BANNER[avail].bg === "bg-acid" ? "var(--color-paper)" : undefined} className="!size-7" />
               <div className="flex-1">
                 <p className="display text-2xl">{avail === "fuera" ? "No está en tu zona" : AVAILABILITY_LABEL[avail]}</p>
                 <p className="text-sm font-medium">
@@ -143,7 +146,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
             </motion.div>
           ) : (
             <motion.button variants={ITEM} type="button" onClick={openPicker} className="card mt-6 flex w-full items-center gap-3 bg-paper-2 p-4 text-left">
-              <span className="text-2xl">📍</span>
+              <Icon name="pin" className="!size-7" />
               <span className="font-semibold">¿Está en tu ciudad? Dinos dónde estás →</span>
             </motion.button>
           )}
@@ -152,7 +155,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
             <div className="grid grid-cols-2 gap-2">
               {rules.map((r) => (
                 <motion.div key={r.label} variants={ITEM} className="flex items-center gap-2 rounded-2xl border-2 border-ink bg-paper p-3">
-                  <span className="text-2xl">{r.icon}</span>
+                  <Icon name={r.icon} className="!size-7" />
                   <span className="text-sm leading-tight font-bold">{r.label}</span>
                 </motion.div>
               ))}
@@ -161,7 +164,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
               <ul className="mt-4 space-y-2">
                 {promo.requirements.map((req) => (
                   <motion.li key={req} variants={ITEM} className="flex gap-3 text-lg leading-snug">
-                    <span className="w-6 shrink-0 text-center">{ruleIcon(req)}</span>
+                    <Icon name={ruleIcon(req)} className="mt-0.5 !size-6" />
                     {req}
                   </motion.li>
                 ))}
@@ -171,11 +174,11 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
 
           <Section title="Cuándo">
             <motion.p variants={ITEM} className="text-lg">
-              📅 {promo.windowNote}
+              <Icon name="calendar" /> {promo.windowNote}
             </motion.p>
             {validityText(promo) && (
               <motion.p variants={ITEM} className="mt-1 text-base font-semibold">
-                ⏳ {validityText(promo)}
+                <Icon name="hourglass" /> {validityText(promo)}
               </motion.p>
             )}
           </Section>
@@ -188,7 +191,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
 
           <Section title="Dónde">
             <motion.p variants={ITEM} className="text-lg font-semibold">
-              📍 {coverageLabel(promo)}
+              <Icon name="pin" /> {coverageLabel(promo)}
             </motion.p>
             {promo.locationNote && (
               <motion.p variants={ITEM} className="mt-1 text-base">

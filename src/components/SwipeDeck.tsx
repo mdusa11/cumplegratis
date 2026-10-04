@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { Icon } from "./Icon";
 import { AnimatePresence, motion, useMotionValue, useTransform, type PanInfo } from "motion/react";
 import { useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
@@ -50,7 +51,7 @@ export function SwipeDeck({ promos }: { promos: Promo[] }) {
           aria-label="Pasar"
           className="flex size-16 items-center justify-center rounded-full border-[2.5px] border-ink bg-paper text-2xl shadow-hard"
         >
-          ✕
+          <Icon name="close" className="!size-7" />
         </motion.button>
         <p className="mono-tag w-20 text-center">
           {(index % list.length) + 1} / {list.length}
@@ -62,7 +63,7 @@ export function SwipeDeck({ promos }: { promos: Promo[] }) {
           aria-label="Ver promo"
           className="flex size-16 items-center justify-center rounded-full border-[2.5px] border-ink bg-acid text-2xl shadow-hard"
         >
-          ♥
+          <Icon name="heart" tone="var(--color-paper)" className="!size-8" />
         </motion.button>
       </div>
     </div>
@@ -110,21 +111,23 @@ function DeckCard({ promo, depth, onDecide }: { promo: Promo; depth: number; onD
         </motion.span>
         <div className="flex items-start justify-between">
           <span className="mono-tag rounded-full border-2 border-ink bg-paper px-2.5 py-1">
-            {cat.emoji} {cat.label}
+            <Icon name={cat.icon} /> {cat.label}
           </span>
           <BenefitBadge type={promo.benefitType} />
         </div>
         <div className="mt-auto">
-          <span className="text-7xl">{cat.emoji}</span>
+          <Icon name={cat.icon} tone="var(--color-paper)" shadow className="!size-20" />
           <h3 className="display mt-3 text-[clamp(3rem,13vw,4.5rem)] break-words">{promo.brand}</h3>
           <p className="mt-2 text-xl leading-tight font-bold">{promo.benefit}</p>
           <div className="mt-4 flex flex-wrap gap-1.5">
             {quickRules(promo).map((r) => (
               <span key={r.label} className="chip bg-paper !text-xs">
-                {r.icon} {r.label}
+                <Icon name={r.icon} /> {r.label}
               </span>
             ))}
-            <span className="chip bg-paper !text-xs">📍 {coverageLabel(promo)}</span>
+            <span className="chip bg-paper !text-xs">
+              <Icon name="pin" /> {coverageLabel(promo)}
+            </span>
           </div>
         </div>
       </motion.article>

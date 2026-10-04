@@ -1,5 +1,6 @@
 import raw from "@/data/promos.json";
 import { CITIES, STATES, type CitySlug, type StateCode } from "./places";
+import type { IconName } from "@/components/Icon";
 
 export type BenefitType = "gratis" | "descuento" | "2x1" | "regalo-con-compra";
 export type ClaimWindow = "mes" | "semana" | "dia" | "otro";
@@ -8,31 +9,31 @@ export type GroupId = "comida" | "tiendas" | "diversion" | "servicios";
 export type Coverage = "nacional" | "estados" | "ciudades";
 
 export const CATEGORIES = {
-  cafe: { label: "Café", group: "comida", emoji: "☕" },
-  postres: { label: "Postres", group: "comida", emoji: "🍩" },
-  restaurantes: { label: "Restaurantes", group: "comida", emoji: "🍽️" },
-  "comida-rapida": { label: "Comida rápida", group: "comida", emoji: "🍔" },
-  belleza: { label: "Belleza", group: "tiendas", emoji: "💄" },
-  ropa: { label: "Ropa", group: "tiendas", emoji: "👟" },
-  departamentales: { label: "Departamentales", group: "tiendas", emoji: "🛍️" },
-  tecnologia: { label: "Tecnología", group: "tiendas", emoji: "📱" },
-  mascotas: { label: "Mascotas", group: "tiendas", emoji: "🐶" },
-  "otras-tiendas": { label: "Tiendas", group: "tiendas", emoji: "🎁" },
-  cine: { label: "Cine", group: "diversion", emoji: "🍿" },
-  parques: { label: "Parques", group: "diversion", emoji: "🎢" },
-  experiencias: { label: "Experiencias", group: "diversion", emoji: "🎟️" },
-  bares: { label: "Bares", group: "diversion", emoji: "🍻" },
-  servicios: { label: "Servicios", group: "servicios", emoji: "💳" },
-  viajes: { label: "Viajes", group: "servicios", emoji: "✈️" },
-} as const satisfies Record<string, { label: string; group: GroupId; emoji: string }>;
+  cafe: { label: "Café", group: "comida", icon: "coffee" },
+  postres: { label: "Postres", group: "comida", icon: "donut" },
+  restaurantes: { label: "Restaurantes", group: "comida", icon: "plate" },
+  "comida-rapida": { label: "Comida rápida", group: "comida", icon: "burger" },
+  belleza: { label: "Belleza", group: "tiendas", icon: "lipstick" },
+  ropa: { label: "Ropa", group: "tiendas", icon: "sneaker" },
+  departamentales: { label: "Departamentales", group: "tiendas", icon: "bag" },
+  tecnologia: { label: "Tecnología", group: "tiendas", icon: "phone" },
+  mascotas: { label: "Mascotas", group: "tiendas", icon: "paw" },
+  "otras-tiendas": { label: "Tiendas", group: "tiendas", icon: "gift" },
+  cine: { label: "Cine", group: "diversion", icon: "popcorn" },
+  parques: { label: "Parques", group: "diversion", icon: "ferris" },
+  experiencias: { label: "Experiencias", group: "diversion", icon: "ticket" },
+  bares: { label: "Bares", group: "diversion", icon: "beer" },
+  servicios: { label: "Servicios", group: "servicios", icon: "card" },
+  viajes: { label: "Viajes", group: "servicios", icon: "plane" },
+} as const satisfies Record<string, { label: string; group: GroupId; icon: IconName }>;
 
 export type CategoryId = keyof typeof CATEGORIES;
 
-export const GROUPS: Record<GroupId, { label: string; color: string; emoji: string; blurb: string }> = {
-  comida: { label: "Comida", color: "var(--color-hot)", emoji: "🍰", blurb: "Café, pastel, helado y hasta comida completa." },
-  tiendas: { label: "Tiendas", color: "var(--color-lilac)", emoji: "🛍️", blurb: "Belleza, ropa, tecnología y cupones de regalo." },
-  diversion: { label: "Diversión", color: "var(--color-sky)", emoji: "🎢", blurb: "Cine, parques y planes para celebrar." },
-  servicios: { label: "Servicios", color: "var(--color-sun)", emoji: "💳", blurb: "Bancos, apps, viajes y otros beneficios." },
+export const GROUPS: Record<GroupId, { label: string; color: string; icon: IconName; blurb: string }> = {
+  comida: { label: "Comida", color: "var(--color-hot)", icon: "cakeSlice", blurb: "Café, pastel, helado y hasta comida completa." },
+  tiendas: { label: "Tiendas", color: "var(--color-lilac)", icon: "bag", blurb: "Belleza, ropa, tecnología y cupones de regalo." },
+  diversion: { label: "Diversión", color: "var(--color-sky)", icon: "ferris", blurb: "Cine, parques y planes para celebrar." },
+  servicios: { label: "Servicios", color: "var(--color-sun)", icon: "card", blurb: "Bancos, apps, viajes y otros beneficios." },
 };
 
 export const BENEFIT: Record<BenefitType, { label: string; color: string }> = {
@@ -118,24 +119,24 @@ export function signupLabel(p: Promo) {
 export const money = (n: number) => `$${n.toLocaleString("es-MX")}`;
 
 /** Ícono para una viñeta de requisito según de qué habla. */
-export function ruleIcon(text: string) {
+export function ruleIcon(text: string): IconName {
   const t = normalize(text);
-  if (/\b(ine|identificacion|credencial|pasaporte)\b/.test(t)) return "🪪";
-  if (/acompanante|personas|amigos|invitados/.test(t)) return "👥";
-  if (/\$|compra|consumo|ticket|minimo/.test(t)) return "💳";
-  if (/registr|app|cuenta|club|miembro|socio|tarjeta|membresia|rewards|perfil/.test(t)) return "📝";
-  if (/dia|mes|semana|fecha|vigen/.test(t)) return "📅";
-  return "✦";
+  if (/\b(ine|identificacion|credencial|pasaporte)\b/.test(t)) return "id";
+  if (/acompanante|personas|amigos|invitados/.test(t)) return "people";
+  if (/\$|compra|consumo|ticket|minimo/.test(t)) return "card";
+  if (/registr|app|cuenta|club|miembro|socio|tarjeta|membresia|rewards|perfil/.test(t)) return "register";
+  if (/dia|mes|semana|fecha|vigen/.test(t)) return "calendar";
+  return "sparkle";
 }
 
 /** Reglas rápidas estructuradas (para los íconos grandes del panel). */
 export function quickRules(p: Promo) {
-  const rules: { icon: string; label: string }[] = [];
-  if (p.program) rules.push({ icon: "📝", label: p.registerDaysBefore ? `Regístrate ${days(p.registerDaysBefore)} antes` : `Registro en ${p.program}` });
-  else rules.push({ icon: "🚶", label: "Sin registro previo" });
-  if (p.needsId) rules.push({ icon: "🪪", label: "Lleva tu INE" });
-  if (p.companions) rules.push({ icon: "👥", label: `Ve con ${p.companions} ${p.companions === 1 ? "acompañante" : "acompañantes"}` });
-  if (p.minPurchase) rules.push({ icon: "💳", label: `Compra mínima ${money(p.minPurchase)}` });
+  const rules: { icon: IconName; label: string }[] = [];
+  if (p.program) rules.push({ icon: "register", label: p.registerDaysBefore ? `Regístrate ${days(p.registerDaysBefore)} antes` : `Registro en ${p.program}` });
+  else rules.push({ icon: "walk", label: "Sin registro previo" });
+  if (p.needsId) rules.push({ icon: "id", label: "Lleva tu INE" });
+  if (p.companions) rules.push({ icon: "people", label: `Ve con ${p.companions} ${p.companions === 1 ? "acompañante" : "acompañantes"}` });
+  if (p.minPurchase) rules.push({ icon: "card", label: `Compra mínima ${money(p.minPurchase)}` });
   return rules;
 }
 

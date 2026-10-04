@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { Icon } from "./Icon";
 import { locationName, useLocation } from "./LocationProvider";
 import { availability } from "@/lib/availability";
 import { CITIES, STATES } from "@/lib/places";
@@ -17,7 +18,7 @@ export function WhereCard({ promo }: { promo: Promo }) {
     <div className={cn("card p-6", avail === "fuera" ? "bg-hot" : ok ? "bg-acid" : "bg-paper")}>
       <p className="mono-tag">Dónde aplica</p>
       <p className="display mt-2 text-4xl">
-        {promo.coverage === "nacional" ? "🇲🇽" : "📍"} {coverageLabel(promo)}
+        <Icon name={promo.coverage === "nacional" ? "mexico" : "pin"} className="!size-[0.85em]" /> {coverageLabel(promo)}
       </p>
       {promo.locationNote && <p className="mt-2">{promo.locationNote}</p>}
       {(promo.cities.length > 0 || promo.states.length > 0) && (
@@ -32,14 +33,26 @@ export function WhereCard({ promo }: { promo: Promo }) {
       <motion.div key={avail ?? "none"} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mt-4 border-t-2 border-ink/20 pt-4">
         {location ? (
           <p className="font-semibold">
-            {avail === "fuera" ? "⚠️ No está en tu zona" : avail === "sin-dato" ? "❔ Aún no confirmamos sus sucursales" : "✅ Disponible para ti"} ({locationName(location)}).{" "}
+            {avail === "fuera" ? (
+              <>
+                <Icon name="warning" /> No está en tu zona
+              </>
+            ) : avail === "sin-dato" ? (
+              <>
+                <Icon name="question" /> Aún no confirmamos sus sucursales
+              </>
+            ) : (
+              <>
+                <Icon name="check" tone="var(--color-paper)" /> Disponible para ti
+              </>
+            )} ({locationName(location)}).{" "}
             <button type="button" onClick={openPicker} className="underline underline-offset-2">
               Cambiar
             </button>
           </p>
         ) : (
           <button type="button" onClick={openPicker} className="font-semibold underline underline-offset-4">
-            📍 ¿Está en tu ciudad? Dinos dónde estás
+            <Icon name="pin" /> ¿Está en tu ciudad? Dinos dónde estás
           </button>
         )}
       </motion.div>

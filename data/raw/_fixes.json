@@ -204,5 +204,35 @@
     "slug": "borgatta-bops",
     "remove": true,
     "reason": "Vende insumos de ortodoncia/dentales, no es una tienda para el público general"
+  },
+  {
+    "slug": "happyland-mexico-paquete-fiesta-regalo",
+    "remove": true,
+    "reason": "Es un paquete de fiesta de pago, no un regalo de cumpleaños"
+  },
+  {
+    "slug": "gotcha-paint-battles-texcoco-cumpleanero-no-paga",
+    "remove": true,
+    "reason": "Es un paquete de fiesta de pago, no un regalo de cumpleaños"
+  },
+  {
+    "slug": "maxfun-queretaro-festejado-gratis",
+    "remove": true,
+    "reason": "Es un paquete de fiesta de pago, no un regalo de cumpleaños"
+  },
+  {
+    "slug": "piccolo-mondo-xtremo-cdmx-festejado-juegos-ilimitados",
+    "remove": true,
+    "reason": "Es un paquete de fiesta de pago, no un regalo de cumpleaños"
+  },
+  {
+    "slug": "ruta-66-parque-foodtruck-oaxaca-cumpleanero-gratis",
+    "remove": true,
+    "reason": "Es un paquete de fiesta de pago, no un regalo de cumpleaños"
+  },
+  {
+    "slug": "fiesta-rewards-apreciare-certificado-cumpleanos",
+    "remove": true,
+    "reason": "Solo para quien contrata eventos/banquetes en hoteles Posadas, no es para el público general"
   }
 ]

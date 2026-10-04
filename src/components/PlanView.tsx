@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Icon, type IconName } from "./Icon";
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
@@ -70,7 +71,7 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
           <button type="button" onClick={onEdit} className="underline underline-offset-4 hover:text-hot">
             cambiar
           </button>{" "}
-          · 📍 {location ? locationName(location) : "Todo México"} ·{" "}
+          · <Icon name="pin" /> {location ? locationName(location) : "Todo México"} ·{" "}
           <button type="button" onClick={openPicker} className="underline underline-offset-4 hover:text-hot">
             {location ? "cambiar zona" : "elegir mi ciudad"}
           </button>
@@ -118,16 +119,17 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
       </section>
 
       <p className="card mb-4 bg-paper-2 p-4 text-base font-medium">
-        💡 Las fechas son <b>hasta cuándo registrarte</b> en cada programa (no cuándo cobrar). El regalo lo cobras en tu cumpleaños: el {birthday.d} de {MONTHS[birthday.m - 1]}.
+        <Icon name="bulb" className="mr-1" /> Las fechas son <b>hasta cuándo registrarte</b> en cada programa (no cuándo cobrar). El regalo lo cobras en tu cumpleaños: el {birthday.d} de {MONTHS[birthday.m - 1]}.
       </p>
       <Group
-        title="🔥 Regístrate ya"
+        icon="fire"
+        title="Regístrate ya"
         hint="Su fecha límite ya está cerca (o ya pasó: regístrate igual por si alcanzas)."
         items={plan.now}
         done={done}
       />
-      <Group title="📅 Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={plan.later} done={done} />
-      <Group title="🪪 Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={plan.walkIn} done={done} />
+      <Group icon="calendar" title="Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={plan.later} done={done} />
+      <Group icon="id" title="Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={plan.walkIn} done={done} />
 
       <InstallCard />
       <ReminderForm birthday={birthday} />
@@ -173,11 +175,14 @@ function Stat({ value, label, color }: { value: number; label: string; color: st
   );
 }
 
-function Group({ title, hint, items, done }: { title: string; hint: string; items: PlanItem[]; done: string[] }) {
+function Group({ icon, title, hint, items, done }: { icon: IconName; title: string; hint: string; items: PlanItem[]; done: string[] }) {
   if (items.length === 0) return null;
   return (
     <section className="py-10">
-      <h2 className="display text-5xl sm:text-7xl">{title}</h2>
+      <h2 className="display flex items-center gap-3 text-5xl sm:text-7xl">
+        <Icon name={icon} shadow className="!size-[0.8em]" />
+        {title}
+      </h2>
       <p className="mt-2 text-lg font-medium">{hint}</p>
       <ul className="mt-6 space-y-3">
         {items.map((item, i) => (
@@ -252,7 +257,7 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
         {registerBy && (
           <span className="flex flex-col gap-1">
             <span className={cn("chip self-start", status === "tarde" ? "bg-hot" : status === "urgente" ? "bg-sun" : "bg-paper")}>
-              📝 {status === "tarde" ? "Quizá ya no alcanzas" : `Regístrate antes del ${formatDate(registerBy)}`}
+              <Icon name="register" /> {status === "tarde" ? "Quizá ya no alcanzas" : `Regístrate antes del ${formatDate(registerBy)}`}
             </span>
             {status !== "tarde" && (
               <span className="pl-1 text-xs font-medium opacity-70">
@@ -293,11 +298,11 @@ function ReminderForm({ birthday }: { birthday: Birthday }) {
       <p className="mono-tag">Recordatorios</p>
       <h2 className="display mt-2 text-5xl sm:text-7xl">Te avisamos a tiempo</h2>
       <p className="mt-3 max-w-xl text-lg font-medium">Un correo cuando toque registrarte y otro cuando arranque tu mes. Nada de spam.</p>
-      {!API_ENABLED && <p className="display mt-6 text-4xl">Muy pronto 📬</p>}
+      {!API_ENABLED && <p className="display mt-6 text-4xl">Muy pronto <Icon name="mail" shadow /></p>}
       <AnimatePresence mode="wait">
         {!API_ENABLED ? null : state === "ok" ? (
           <motion.p key="ok" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="display mt-6 text-4xl">
-            ¡Listo! Nos vemos en tu bandeja 📬
+            ¡Listo! Nos vemos en tu bandeja <Icon name="mail" shadow />
           </motion.p>
         ) : (
           <motion.form key="form" exit={{ opacity: 0 }} onSubmit={submit} className="mt-6 flex flex-col gap-3 sm:flex-row">

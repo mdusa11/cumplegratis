@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { ACCENT } from "./site";
 
 export const OG_SIZE = { width: 1200, height: 630 };
 
@@ -18,7 +19,7 @@ export async function ogImage({ kicker, title, subtitle, color }: { kicker: stri
           </div>
           <div style={{ display: "flex", alignItems: "center", fontFamily: "BigShoulders", fontSize: 54, textTransform: "uppercase" }}>
             Cumple
-            <span style={{ marginLeft: 8, background: "#c6ff00", border: "4px solid #0b0b0b", borderRadius: 12, padding: "0 10px", transform: "rotate(-4deg)" }}>gratis</span>
+            <span style={{ marginLeft: 8, background: ACCENT, border: "4px solid #0b0b0b", borderRadius: 12, padding: "0 10px", transform: "rotate(-4deg)" }}>gratis</span>
           </div>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>

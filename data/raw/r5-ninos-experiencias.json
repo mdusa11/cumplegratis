@@ -240,5 +240,353 @@
     "locationNote": "UPA Antea, Querétaro (operado por Recórcholis).",
     "needsId": false,
     "companions": null
+  },
+  {
+    "slug": "la-chula-parque-deportes-extremos-merida",
+    "brand": "La Chula (Parque de Deportes Extremos, Mérida)",
+    "category": "parques",
+    "benefit": "Salón gratis para la fiesta infantil de cumpleaños",
+    "benefitType": "gratis",
+    "details": "El Ayuntamiento de Mérida presta sin costo la sala de fiestas \"La Chula\" dentro del Parque de Deportes Extremos para festejos infantiles; incluye mesas, sillas y acceso a los juegos del parque. Se reserva por WhatsApp/teléfono y hay que llevar INE para entrar; el parque abre de jueves a domingo de 3:00 a 9:00 p.m. La demanda es alta: en agosto de 2025 ya había eventos agendados hasta diciembre.",
+    "program": null,
+    "signupUrl": "https://www.merida.gob.mx/parquextremo/",
+    "requirements": [
+      "Reservar por WhatsApp al 999 329 09 66",
+      "Llevar INE para acceder al parque",
+      "Fiestas infantiles, de jueves a domingo",
+      "Reservar con mucha anticipación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Se separa fecha por reservación; el parque opera jueves a domingo",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp al 999 329 09 66 (Ayuntamiento de Mérida) para separar tu fecha y lleva tu INE.",
+    "sources": [
+      "https://www.merida.gob.mx/parquextremo/",
+      "https://www.posta.com.mx/yucatan/gratis-asi-puedes-celebrar-tu-cumpleanos-en-la-chula-en-merida/vl2187317",
+      "https://yucatan.quadratin.com.mx/merida/la-chula-y-parque-de-deportes-extremos-seguiran-siendo-gratuitos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Parque de Deportes Extremos, Mérida, Yuc. Servicio municipal; la fuente oficial no precisa capacidad ni duración.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "coryland-mty-monterrey",
+    "brand": "Coryland Mty (DIF Monterrey)",
+    "category": "parques",
+    "benefit": "Salón de fiestas infantiles gratis (DIF Monterrey)",
+    "benefitType": "gratis",
+    "details": "El municipio y el DIF de Monterrey prestan gratis el salón Coryland para fiestas infantiles: capacidad para 200 personas, climatizado, con mesas, cocina, sonido, juegos, inflables y brincolines. Se usa en bloques de 3 horas, todos los días incluidos fines de semana, y para separar fecha hay que registrarse con el municipio (WhatsApp de Cory 812 860 4733). Inaugurado el 30 de abril de 2026; las notas no precisan requisitos de residencia, edad ni identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Registrarte con el municipio y separar fecha por WhatsApp (812 860 4733)",
+      "Eventos de 3 horas",
+      "Confirmar si piden comprobante de residencia o edad del festejado"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Se separa fecha por reservación; operación diaria desde abril de 2026",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp a Cory (812 860 4733) para registrarte y apartar tu fecha.",
+    "sources": [
+      "https://www.elhorizonte.mx/nuevoleon/abre-monterrey-salon-de-fiestas-infantiles-es-gratis/2513874181",
+      "https://www.conexionnl.com/2026/04/30/inaugura-dif-monterrey-coryland-mty-salon-de-fiestas-infantiles-gratuito-en-la-ciudad/",
+      "https://lasillarota.com/estados/2026/4/30/inaugura-dif-monterrey-coryland-mty-salon-de-fiestas-infantiles-gratuito-507993.html"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Av. Rodrigo Gómez y calle Las Selvas, col. Carmen Serdán, norte de Monterrey.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "sky-balloons-vuelo-cumpleanos-teotihuacan",
+    "brand": "Sky Balloons (vuelo de cumpleaños, Teotihuacán)",
+    "category": "experiencias",
+    "benefit": "Vuelo en globo de cumpleaños con precio especial",
+    "benefitType": "descuento",
+    "details": "El sitio oficial publica el Vuelo Cumpleaños con precio de $2,599 para el festejado (regular $2,999) e incluye café de bienvenida, brindis, manta de feliz cumpleaños, pastel, regalo, diploma y desayuno; acompañantes adultos $2,899 y niños de 4 a 12 años $1,990. Una nota de México Desconocido (feb. 2025) habla de 50% de descuento los domingos del mes de cumpleaños con un acompañante que pague precio regular, y un directorio dice martes y miércoles: las condiciones no coinciden, confirma por WhatsApp. Niños menores de 4 años o de menos de 1.20 m no vuelan.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Acreditar con identificación que naciste en el mes del vuelo (según nota de prensa)",
+      "Un acompañante que pague precio regular (según nota de prensa)",
+      "Confirmar día válido y precio vigente con la empresa",
+      "Mínimo 4 años y 1.20 m de estatura"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños según nota de prensa; el sitio oficial solo muestra el precio especial sin fechas",
+    "minPurchase": null,
+    "howToClaim": "Reserva el Vuelo Cumpleaños en skyballoons.mx o por WhatsApp y confirma el descuento de cumpleaños.",
+    "sources": [
+      "https://www.skyballoons.mx/vuelos/vuelo-cumpleanos",
+      "https://escapadas.mexicodesconocido.com.mx/celebra-tu-cumpleanos-en-un-globo-aerostatico/",
+      "https://quecumple.mx/directorio/skyballoons/"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "MEX"
+    ],
+    "cities": [],
+    "locationNote": "Salidas desde San Martín de las Pirámides / San Juan Teotihuacán, Edomex (carretera México-Tulancingo km 28).",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "avex-tirolesas-cumpleanero-gratis",
+    "brand": "AVEX Tirolesas",
+    "category": "parques",
+    "benefit": "Entrada gratis en tu mes de cumpleaños (con 2 personas)",
+    "benefitType": "gratis",
+    "details": "El sitio oficial de AVEX anuncia la promoción \"Cumpleañero gratis\": válida en el mes de tu cumpleaños y si vas acompañado de mínimo 2 personas, con la leyenda \"aplican restricciones\" sin detallarlas. Se publica para todos los parques AVEX (Micos y Xilitla en S.L.P., Bernal en Qro. y Ensenada en B.C.), con tirolesas, skybike, skyboard, puentes colgantes y senderos según el parque. El sitio no da fecha de fin; las restricciones se confirman por WhatsApp (55 7982 5144).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en el mes de tu cumpleaños",
+      "Ir acompañado de mínimo 2 personas",
+      "Aplican restricciones no detalladas en el sitio",
+      "Confirmar con AVEX qué identificación piden"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp a AVEX (55 7982 5144) para confirmar restricciones y reservar; llega con tu grupo de al menos 3 personas en tu mes de cumpleaños.",
+    "sources": [
+      "https://avex.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "SLP",
+      "QUE",
+      "BCN"
+    ],
+    "cities": [],
+    "locationNote": "Parques AVEX en Micos y Xilitla (S.L.P.), Bernal (Qro.) y Ensenada (B.C.)",
+    "needsId": null,
+    "companions": 2
+  },
+  {
+    "slug": "happyland-mexico-paquete-fiesta-regalo",
+    "brand": "Happyland México",
+    "category": "parques",
+    "benefit": "Regalo de $350 y tickets para el festejado en tu fiesta",
+    "benefitType": "regalo-con-compra",
+    "details": "Al contratar un paquete de fiesta en Happyland (Básico $3,690, Oro $4,690 o Happy Plus $5,690, mínimo 10 invitados), el festejado recibe 1,000, 1,500 o 2,000 tickets más $350 de regalo según el paquete. Además hay 15% de descuento en cualquier paquete de lunes a jueves. El juego excluye máquinas premium (grúas, VR, trampolines, escalada, laser tag, Gellyball). Se pide anticipo mínimo de $1,000. El sitio no indica fecha de fin ni qué sucursales participan.",
+    "program": null,
+    "signupUrl": "https://www.happyland.com.mx/fiestas",
+    "requirements": [
+      "Contratar un paquete de fiesta (mínimo 10 invitados)",
+      "Anticipo mínimo de $1,000",
+      "El regalo de $350 y los tickets son para el festejado",
+      "15% de descuento solo en fiestas de lunes a jueves"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Se aplica al reservar tu fiesta; sin fecha de fin publicada",
+    "minPurchase": "Paquete de fiesta desde $3,690 MXN (10 invitados)",
+    "howToClaim": "Reserva tu paquete por WhatsApp (+52 33 1574 9104) o en contacto@happyland.com.mx e indica que es el cumpleaños.",
+    "sources": [
+      "https://www.happyland.com.mx/fiestas",
+      "https://www.happyland.com.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Centros Happyland en México (oficinas en Zapopan, Jal.); verifica en el sitio qué sucursal te queda cerca",
+    "needsId": false,
+    "companions": 9
+  },
+  {
+    "slug": "gotcha-paint-battles-texcoco-cumpleanero-no-paga",
+    "brand": "Gotcha Paint Battles Texcoco",
+    "category": "experiencias",
+    "benefit": "Paquete fiesta: el cumpleañero no paga (10 personas)",
+    "benefitType": "regalo-con-compra",
+    "details": "El sitio del campo ofrece el paquete cumpleañero: invitas a 10 amigos, compras el paquete-fiesta y el cumpleañero juega sin pagar (acceso al campo, equipo de protección y cápsulas incluidos). Un listado de terceros ubica el paquete de 10 personas desde unos $1,200 totales. El campo está en Texcoco, Edomex. No se encontró vigencia ni condiciones de identificación; la agenda se hace desde el botón Cita del sitio.",
+    "program": null,
+    "signupUrl": "https://rhonphoto.wixsite.com/gotcha/paquetes",
+    "requirements": [
+      "Invitar a 10 amigos y comprar el paquete-fiesta",
+      "Agendar con anticipación desde la opción Cita del sitio",
+      "Sujeto a las condiciones del establecimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Al reservar el paquete; sin fecha de fin publicada",
+    "minPurchase": "Paquete de fiesta para 10 personas (desde ~$1,200 según listado de terceros)",
+    "howToClaim": "Agenda desde la opción Cita del sitio oficial y pide el paquete cumpleañero con 10 personas.",
+    "sources": [
+      "https://rhonphoto.wixsite.com/gotcha/paquetes",
+      "https://www.yumping.com/en/paintball/estado-mexico/texcoco"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "MEX"
+    ],
+    "cities": [],
+    "locationNote": "Texcoco, Estado de México (Parque Los Establos); confirma que el sitio wix corresponda a esta sucursal",
+    "needsId": null,
+    "companions": 9
+  },
+  {
+    "slug": "cineteca-nacional-entrada-cumpleanos",
+    "brand": "Cineteca Nacional",
+    "category": "cine",
+    "benefit": "Entrada gratis a una función el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Guías de promociones de cumpleaños en CDMX señalan que la Cineteca Nacional da una entrada sin costo el día exacto de tu cumpleaños, presentando una identificación con fecha de nacimiento, solo en taquilla física (no en línea). El sitio oficial de la Cineteca no publica esta promoción, por lo que debe confirmarse antes de ir. Sin fecha de fin conocida.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación con fecha de nacimiento vigente",
+      "Solo en taquilla física, no en compra en línea",
+      "Solo el día exacto del cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Ve a la taquilla de la Cineteca el día de tu cumpleaños con tu identificación y pide tu entrada de cortesía; confirma antes por su correo ventasweb@cinetecanacional.net.",
+    "sources": [
+      "https://kuiyibo.com/2026/03/ofertas-de-cumpleanos-en-cdmx/",
+      "https://www.cinetecanacional.net"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Cineteca Nacional, Xoco, Coyoacán, CDMX",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "maxfun-queretaro-festejado-gratis",
+    "brand": "MaxFun Querétaro",
+    "category": "parques",
+    "benefit": "Festejado gratis en tu paquete de fiesta (10 niños)",
+    "benefitType": "regalo-con-compra",
+    "details": "El sitio oficial de MaxFun (centro de entretenimiento familiar en Juriquilla con trampolines, paredes de escalada, tirolesa, laser tag, mini golf y mini boliche) indica que en sus tres paquetes de fiesta (Max Fiesta, Max Plus y Max Premium) \"el festejado es gratis\", con un mínimo de 10 niños. Max Plus incluye además 500 tickets de regalo para el festejado. Los precios no se publican y el sitio avisa que pueden estar desactualizados; se validan por teléfono o WhatsApp. No hay fecha de fin publicada.",
+    "program": null,
+    "signupUrl": "https://maxfun.com.mx/fiestas/",
+    "requirements": [
+      "Contratar un paquete de fiesta (Max Fiesta, Max Plus o Max Premium)",
+      "Mínimo 10 niños en cualquier paquete",
+      "Validar precios y disponibilidad por teléfono o WhatsApp"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Al reservar la fiesta; sin fecha de fin publicada",
+    "minPurchase": "Paquete de fiesta (mínimo 10 niños; precio a confirmar con el parque)",
+    "howToClaim": "Cotiza tu paquete en maxfun.com.mx/fiestas o llama al (442) 260-9037 / (442) 629-9000 y confirma que el festejado no paga.",
+    "sources": [
+      "https://maxfun.com.mx/fiestas/",
+      "https://maxfun.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Paseo de la República 12883-9, Juriquilla, Querétaro, Qro.",
+    "needsId": false,
+    "companions": 9
+  },
+  {
+    "slug": "piccolo-mondo-xtremo-cdmx-festejado-juegos-ilimitados",
+    "brand": "Piccolo Mondo Xtremo",
+    "category": "parques",
+    "benefit": "Festejado con tiempo ilimitado en juegos (paquete fiesta)",
+    "benefitType": "regalo-con-compra",
+    "details": "Time Out México lista a Piccolo Mondo Xtremo entre los lugares de fiestas infantiles y señala que el cumpleañero juega gratis con tiempo ilimitado en los juegos; el paquete básico (desde $8,200, mínimo 15 niños) incluye 1 hora de salón, pastel personalizado, botanas, piñata, agua y comida. El sitio oficial solo invita a cotizar por WhatsApp y no publica el beneficio ni los precios, y no se pudo confirmar la fecha de la nota ni cuál sede aplica (San Fernando, Tlalpan, o Parque Tepeyac, GAM).",
+    "program": null,
+    "signupUrl": "https://piccolomondo.com.mx/piccolo-mondo-xtremo/",
+    "requirements": [
+      "Contratar un paquete de fiesta (mínimo 15 niños según Time Out)",
+      "Cotizar y confirmar el beneficio por WhatsApp (+52 1 55 2791 2921)",
+      "Confirmar sede y precios vigentes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Al reservar la fiesta; sin fecha de fin publicada",
+    "minPurchase": "Paquete de fiesta desde $8,200 MXN (15 niños) según Time Out",
+    "howToClaim": "Cotiza tu fiesta por WhatsApp en piccolomondo.com.mx y pregunta si el festejado tiene juegos ilimitados sin costo.",
+    "sources": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/ninos/donde-festejar-el-cumpleanos-de-ninos-lugares-en-cdmx",
+      "https://piccolomondo.com.mx/piccolo-mondo-xtremo/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "CDMX: Av. San Fernando 649 local 31 (Tlalpan) o Parque Tepeyac (GAM); confirmar sede",
+    "needsId": null,
+    "companions": 14
+  },
+  {
+    "slug": "ruta-66-parque-foodtruck-oaxaca-cumpleanero-gratis",
+    "brand": "Ruta 66 Parque FoodTruck (Oaxaca)",
+    "category": "parques",
+    "benefit": "Cumpleañero disfruta las atracciones gratis con paquete",
+    "benefitType": "regalo-con-compra",
+    "details": "Directorios y la página de Facebook del parque indican que, al contratar un paquete de cumpleaños, el cumpleañero disfruta las atracciones totalmente gratis. El parque (Santa Cruz Xoxocotlán) tiene go-karts, gotcha, alberca con tobogán, toro mecánico, inflables y food trucks, y abre de jueves a domingo de 12:00 a 19:00. No se encontró sitio oficial con condiciones, precios ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar un paquete de cumpleaños",
+      "Reservar por teléfono (951 588 7049 o 951 463 3119)",
+      "Confirmar condiciones y vigencia con el parque"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Al reservar tu paquete; parque abierto jueves a domingo",
+    "minPurchase": "Paquete de cumpleaños (precio no publicado)",
+    "howToClaim": "Reserva tu paquete llamando al 951 588 7049 o 951 463 3119 y confirma que el cumpleañero entra sin costo a las atracciones.",
+    "sources": [
+      "https://www.facebook.com/Ruta66ParqueFoodtruck/",
+      "https://www.glartent.com/MX/Santa-Cruz-Xoxocotl%C3%A1n/541395649385558/Ruta-66-Parque-FoodTruck"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "OAX"
+    ],
+    "cities": [
+      "oaxaca"
+    ],
+    "locationNote": "Blvd. Guadalupe Hinojosa de Murat, Santa Cruz Xoxocotlán, Oax. (zona conurbada de Oaxaca)",
+    "needsId": null,
+    "companions": null
   }
 ]

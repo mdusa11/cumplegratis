@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Icon } from "./Icon";
 import { useState, type FormEvent } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
@@ -33,7 +34,7 @@ export function SuggestForm() {
     <AnimatePresence mode="wait">
       {state === "ok" ? (
         <motion.p key="ok" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="display text-5xl">
-          ¡Gracias! La revisamos y la subimos 🙌
+          ¡Gracias! La revisamos y la subimos <Icon name="heart" shadow />
         </motion.p>
       ) : (
         <motion.form key="form" exit={{ opacity: 0, y: -10 }} onSubmit={submit} className="flex flex-col gap-3">

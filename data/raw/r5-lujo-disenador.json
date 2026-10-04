@@ -153,5 +153,64 @@
     "locationNote": "Tiendas propias y franquicias Desigual en México y desigual.com/es_MX",
     "needsId": false,
     "companions": null
+  },
+  {
+    "slug": "brooks-brothers-mexico",
+    "brand": "Brooks Brothers México",
+    "category": "ropa",
+    "benefit": "Descuento adicional en tu mes de cumpleaños (solo online)",
+    "benefitType": "descuento",
+    "details": "La comunidad de Brooks Brothers México (suscripción al newsletter) ofrece 10% de descuento en la primera compra y un 'descuento adicional en tu cumpleaños'. Los T&C indican que el código llega por correo, es válido en el mes de tu cumpleaños, es exclusivo online y no se combina con otras promociones. La página no publica el porcentaje del descuento de cumpleaños ni compra mínima.",
+    "program": "Comunidad / newsletter Brooks Brothers México",
+    "signupUrl": "https://www.brooksbrothers.mx/suscripcion",
+    "requirements": [
+      "Suscribirte al newsletter en brooksbrothers.mx",
+      "Capturar tu fecha de cumpleaños (campo opcional al registrarte)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Válido durante el mes de tu cumpleaños; no se combina con otras promociones",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete en brooksbrothers.mx/suscripcion con tu fecha de cumpleaños; la marca te envía el código personalizado por correo y lo aplicas en la tienda en línea.",
+    "sources": [
+      "https://www.brooksbrothers.mx/suscripcion",
+      "https://www.brooksbrothers.mx/terminos-y-condiciones"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo compras en la tienda en línea brooksbrothers.mx (envío a México)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "columbia-club-mexico",
+    "brand": "Columbia Sportswear México (Columbia Club)",
+    "category": "ropa",
+    "benefit": "Descuento en tu cumpleaños para miembros del Columbia Club",
+    "benefitType": "descuento",
+    "details": "La página oficial del Columbia Club de columbia.mx lista entre los beneficios para miembros descuento en tu primera compra, descuento durante tu cumpleaños, preventas exclusivas, envío gratis y un plan de canje de puntos. La página carga su contenido dinámicamente y no se pudo confirmar el porcentaje, la vigencia ni los T&C del beneficio de cumpleaños.",
+    "program": "Columbia Club",
+    "signupUrl": "https://www.columbia.mx/pages/joy-loyalty-page",
+    "requirements": [
+      "Crear cuenta y unirte al Columbia Club en columbia.mx",
+      "Tener tu fecha de cumpleaños en tu perfil (por confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La marca no publica la ventana de uso ni el porcentaje del beneficio de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Únete al Columbia Club en columbia.mx; los detalles del beneficio de cumpleaños se consultan en tu cuenta o con atención a clientes (columbiainfo@sportmex.com, WhatsApp 55 3493 7616).",
+    "sources": [
+      "https://www.columbia.mx/pages/joy-loyalty-page"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea columbia.mx; no confirmado si aplica en boutiques físicas",
+    "needsId": false,
+    "companions": null
   }
 ]

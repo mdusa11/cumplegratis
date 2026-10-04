@@ -4401,38 +4401,6 @@
     "validUntil": null
   },
   {
-    "slug": "brooks-brothers-mexico",
-    "brand": "Brooks Brothers México",
-    "category": "ropa",
-    "benefit": "Cupón de cumpleaños en brooksbrothers.mx (monto no publicado)",
-    "benefitType": "descuento",
-    "details": "Al registrarte en el newsletter de Brooks Brothers México, la marca te envía por correo un código personal de cumpleaños válido en el mes de tu cumpleaños. Es exclusivo de la tienda en línea brooksbrothers.mx y no se combina con otras promociones ni descuentos. Los términos y condiciones no publican el monto del cupón.",
-    "program": "Newsletter Brooks Brothers",
-    "signupUrl": "https://www.brooksbrothers.mx/",
-    "requirements": [
-      "Registrarte al newsletter de Brooks Brothers México",
-      "Solo en el mes de tu cumpleaños",
-      "Exclusivo online (brooksbrothers.mx)",
-      "No acumulable con otras promociones o descuentos"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Durante el mes de tu cumpleaños",
-    "minPurchase": null,
-    "howToClaim": "Suscríbete al newsletter en brooksbrothers.mx; recibirás tu código por correo y lo aplicas al pagar en línea.",
-    "sources": [
-      "https://www.brooksbrothers.mx/terminos-y-condiciones"
-    ],
-    "confidence": "media",
-    "coverage": "nacional",
-    "states": [],
-    "cities": [],
-    "locationNote": "Válido en línea en todo México; no aplica en tiendas físicas",
-    "needsId": false,
-    "companions": null,
-    "validUntil": null
-  },
-  {
     "slug": "coppel-max-bancoppel",
     "brand": "Coppel Max (Tarjeta BanCoppel)",
     "category": "departamentales",
@@ -7677,44 +7645,6 @@
     ],
     "cities": [],
     "locationNote": "Tlacotlapilco, Chilcuautla, Hidalgo (valle del Mezquital); no está en Pachuca",
-    "needsId": true,
-    "companions": null,
-    "validUntil": null
-  },
-  {
-    "slug": "zibu-allende-live-aqua-san-miguel-de-allende",
-    "brand": "Zibu Allende (Live Aqua San Miguel de Allende)",
-    "category": "restaurantes",
-    "benefit": "Pastel de cortesía y noche para dos con 10 o más invitados",
-    "benefitType": "regalo-con-compra",
-    "details": "En la página oficial del restaurante del hotel Live Aqua San Miguel de Allende, si reúnes 10 invitados o más recibes un pastel de cumpleaños de cortesía y una noche de hospedaje para dos durante tu mes de cumpleaños, siempre que se cubra el consumo mínimo. Los términos indican que solo es válido en el mes de cumpleaños del titular, exige identificación oficial con fotografía, tiene consumo mínimo (no publicado), es intransferible, sujeto a disponibilidad y no se combina con otras promociones.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Reunir 10 invitados o más",
-      "Identificación oficial con fotografía",
-      "Solo durante tu mes de cumpleaños",
-      "Aplica un consumo mínimo (monto no publicado)",
-      "Intransferible, sujeto a disponibilidad",
-      "No combinable con otras promociones"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Solo durante el mes de cumpleaños del titular",
-    "minPurchase": null,
-    "howToClaim": "Reserva por correo (asistaybaqsm@posadas.com), teléfono (+52 415 150 2300) o WhatsApp y avisa que es tu mes de cumpleaños.",
-    "sources": [
-      "https://www.fiestamericanatravelty.com/en/live-aqua/hotels/live-aqua-san-miguel-de-allende/dining/zibu-allende"
-    ],
-    "confidence": "alta",
-    "coverage": "ciudades",
-    "states": [
-      "GUA"
-    ],
-    "cities": [
-      "san-miguel-de-allende"
-    ],
-    "locationNote": "Restaurante del hotel Live Aqua San Miguel de Allende; el sitio habla del 'titular' (posible tarjeta del programa de lealtad), confirma si necesitas membresía",
     "needsId": true,
     "companions": null,
     "validUntil": null
@@ -14258,42 +14188,6 @@
     "validUntil": null
   },
   {
-    "slug": "real-inn-tijuana-brunch",
-    "brand": "Real Inn Tijuana (Stock Café)",
-    "category": "restaurantes",
-    "benefit": "Rebanada de pastel de cortesía en el brunch dominical",
-    "benefitType": "regalo-con-compra",
-    "details": "En el Sunday Brunch del Stock Café de Real Inn Tijuana (domingos de 10 a 16 h; adultos $549, niños de 6 a 11 años $285, incluye mimosas), durante tu mes de cumpleaños recibes una rebanada de pastel de cortesía presentando identificación oficial vigente. Vigente hasta el 7 de diciembre de 2026. Real Inn Perinorte (CDMX) también tiene brunch dominical, pero su página no menciona el pastel.",
-    "program": null,
-    "signupUrl": "https://www.grupocaminoreal.com/en/real-inn-tijuana/special-offers",
-    "requirements": [
-      "Identificación oficial vigente",
-      "Ir al Sunday Brunch (domingos de 10 a 16 h) en tu mes de cumpleaños",
-      "Reservaciones al 664 633 4000"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Durante tu mes de cumpleaños, solo en el brunch dominical; vigente hasta el 7 de diciembre de 2026",
-    "minPurchase": null,
-    "howToClaim": "Reserva tu lugar en el Sunday Brunch del Stock Café y presenta tu identificación oficial para recibir el pastel de cortesía.",
-    "sources": [
-      "https://www.grupocaminoreal.com/en/real-inn-tijuana/special-offers",
-      "https://www.grupocaminoreal.com/en/real-inn/special-offers"
-    ],
-    "confidence": "alta",
-    "coverage": "ciudades",
-    "states": [
-      "BCN"
-    ],
-    "cities": [
-      "tijuana"
-    ],
-    "locationNote": "Solo el Stock Café de Real Inn Tijuana; no aplica en los demás hoteles Real Inn",
-    "needsId": true,
-    "companions": null,
-    "validUntil": "2026-12-07"
-  },
-  {
     "slug": "camino-real-huatulco-acapulco-cumpleanos",
     "brand": "Camino Real y Quinta Real (Huatulco y Acapulco)",
     "category": "viajes",
@@ -15776,11 +15670,13 @@
       "https://www.hotsson.com/hoteles/silao-libramiento/servicios/232"
     ],
     "confidence": "alta",
-    "coverage": "estados",
+    "coverage": "ciudades",
     "states": [
       "GUA"
     ],
-    "cities": [],
+    "cities": [
+      "silao"
+    ],
     "locationNote": "Restaurante Los Vitrales del hotel HS HOTSSON Silao, Carretera Libramiento Norte 1335, Sopeña. El programa también existe en HS HOTSSON Irapuato (ya registrado)",
     "needsId": null,
     "companions": null,
@@ -15898,6 +15794,7 @@
       "monterrey",
       "torreon",
       "guanajuato",
+      "silao",
       "tijuana",
       "ciudad-victoria",
       "ciudad-juarez"
@@ -15952,6 +15849,115 @@
     "needsId": true,
     "companions": null,
     "validUntil": null
+  },
+  {
+    "slug": "zibu-allende-live-aqua-san-miguel-de-allende",
+    "brand": "Zibu Allende (Live Aqua San Miguel de Allende)",
+    "category": "restaurantes",
+    "benefit": "Pastel de cortesía y noche para dos con 10 o más invitados",
+    "benefitType": "regalo-con-compra",
+    "details": "En la página oficial del restaurante del hotel Live Aqua San Miguel de Allende, si reúnes 10 invitados o más recibes un pastel de cumpleaños de cortesía y una noche de hospedaje para dos durante tu mes de cumpleaños, siempre que se cubra el consumo mínimo. Los términos indican que solo es válido en el mes de cumpleaños del titular, exige identificación oficial con fotografía, tiene consumo mínimo (no publicado), es intransferible, sujeto a disponibilidad y no se combina con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 10 invitados o más",
+      "Identificación oficial con fotografía",
+      "Solo durante tu mes de cumpleaños",
+      "Aplica un consumo mínimo (monto no publicado)",
+      "Intransferible, sujeto a disponibilidad",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de cumpleaños del titular",
+    "minPurchase": null,
+    "howToClaim": "Reserva por correo (asistaybaqsm@posadas.com), teléfono (+52 415 150 2300) o WhatsApp y avisa que es tu mes de cumpleaños.",
+    "sources": [
+      "https://www.fiestamericanatravelty.com/en/live-aqua/hotels/live-aqua-san-miguel-de-allende/dining/zibu-allende"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Restaurante del hotel Live Aqua San Miguel de Allende; el sitio habla del 'titular' (posible tarjeta del programa de lealtad), confirma si necesitas membresía",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "plaza-camelinas-queretaro-buffet-cumpleanero",
+    "brand": "Hotel Plaza Camelinas (buffet Acuarelas)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis del cumpleañero con 3 comensales",
+    "benefitType": "gratis",
+    "details": "Promoción \"Buffet Cumpleañero\" del hotel Plaza Camelinas: llegas con 3 personas al buffet del restaurante Acuarelas y el cumpleañero no paga. Válido una semana antes o después de tu cumpleaños, con identificación oficial. La página no publica fecha de fin de vigencia ni aclara si los 3 acompañantes incluyen al festejado.",
+    "program": null,
+    "signupUrl": "https://www.plazacamelinas.com.mx/experiencias",
+    "requirements": [
+      "Ir con 3 personas más al buffet (el sitio dice 'ven con 3 personas'; no aclara si cuenta al festejado)",
+      "Identificación oficial vigente que compruebe tu fecha de nacimiento",
+      "Visitar entre 7 días antes y 7 días después de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Una semana antes o después de tu cumpleaños; la página no marca fecha de fin",
+    "minPurchase": null,
+    "howToClaim": "Reserva en el hotel (tel. +52 442 192 3900, WhatsApp 442 559 0722), llega con 3 personas y muestra tu identificación oficial en el buffet.",
+    "sources": [
+      "https://www.plazacamelinas.com.mx/experiencias"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Hotel Plaza Camelinas, P. de los Virreyes 92, Col. Los Virreyes, Querétaro",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": null
+  },
+  {
+    "slug": "real-inn-tijuana-brunch",
+    "brand": "Real Inn Tijuana (Stock Café)",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel de cortesía en el brunch dominical",
+    "benefitType": "regalo-con-compra",
+    "details": "En el Sunday Brunch del Stock Café de Real Inn Tijuana (domingos de 10 a 16 h; adultos $549, niños de 6 a 11 años $285, incluye mimosas), durante tu mes de cumpleaños recibes una rebanada de pastel de cortesía presentando identificación oficial vigente. Vigente hasta el 7 de diciembre de 2026. Real Inn Perinorte (CDMX) también tiene brunch dominical, pero su página no menciona el pastel.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/real-inn-tijuana/special-offers",
+    "requirements": [
+      "Identificación oficial vigente",
+      "Ir al Sunday Brunch (domingos de 10 a 16 h) en tu mes de cumpleaños",
+      "Reservaciones al 664 633 4000"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños, solo en el brunch dominical; vigente hasta el 7 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu lugar en el Sunday Brunch del Stock Café y presenta tu identificación oficial para recibir el pastel de cortesía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/real-inn-tijuana/special-offers",
+      "https://www.grupocaminoreal.com/en/real-inn/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Solo el Stock Café de Real Inn Tijuana; no aplica en los demás hoteles Real Inn",
+    "needsId": true,
+    "companions": null,
+    "validUntil": "2026-12-07"
   },
   {
     "slug": "carolina-herrera-mexico",
@@ -16114,6 +16120,67 @@
     "validUntil": null
   },
   {
+    "slug": "brooks-brothers-mexico",
+    "brand": "Brooks Brothers México",
+    "category": "ropa",
+    "benefit": "Descuento adicional en tu mes de cumpleaños (solo online)",
+    "benefitType": "descuento",
+    "details": "La comunidad de Brooks Brothers México (suscripción al newsletter) ofrece 10% de descuento en la primera compra y un 'descuento adicional en tu cumpleaños'. Los T&C indican que el código llega por correo, es válido en el mes de tu cumpleaños, es exclusivo online y no se combina con otras promociones. La página no publica el porcentaje del descuento de cumpleaños ni compra mínima.",
+    "program": "Comunidad / newsletter Brooks Brothers México",
+    "signupUrl": "https://www.brooksbrothers.mx/suscripcion",
+    "requirements": [
+      "Suscribirte al newsletter en brooksbrothers.mx",
+      "Capturar tu fecha de cumpleaños (campo opcional al registrarte)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Válido durante el mes de tu cumpleaños; no se combina con otras promociones",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete en brooksbrothers.mx/suscripcion con tu fecha de cumpleaños; la marca te envía el código personalizado por correo y lo aplicas en la tienda en línea.",
+    "sources": [
+      "https://www.brooksbrothers.mx/suscripcion",
+      "https://www.brooksbrothers.mx/terminos-y-condiciones"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo compras en la tienda en línea brooksbrothers.mx (envío a México)",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "columbia-club-mexico",
+    "brand": "Columbia Sportswear México (Columbia Club)",
+    "category": "ropa",
+    "benefit": "Descuento en tu cumpleaños para miembros del Columbia Club",
+    "benefitType": "descuento",
+    "details": "La página oficial del Columbia Club de columbia.mx lista entre los beneficios para miembros descuento en tu primera compra, descuento durante tu cumpleaños, preventas exclusivas, envío gratis y un plan de canje de puntos. La página carga su contenido dinámicamente y no se pudo confirmar el porcentaje, la vigencia ni los T&C del beneficio de cumpleaños.",
+    "program": "Columbia Club",
+    "signupUrl": "https://www.columbia.mx/pages/joy-loyalty-page",
+    "requirements": [
+      "Crear cuenta y unirte al Columbia Club en columbia.mx",
+      "Tener tu fecha de cumpleaños en tu perfil (por confirmar)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La marca no publica la ventana de uso ni el porcentaje del beneficio de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Únete al Columbia Club en columbia.mx; los detalles del beneficio de cumpleaños se consultan en tu cuenta o con atención a clientes (columbiainfo@sportmex.com, WhatsApp 55 3493 7616).",
+    "sources": [
+      "https://www.columbia.mx/pages/joy-loyalty-page"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea columbia.mx; no confirmado si aplica en boutiques físicas",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
     "slug": "autodromo-de-leon",
     "brand": "Autódromo de León (go karts)",
     "category": "experiencias",
@@ -16182,38 +16249,6 @@
     "locationNote": "Turismo de aventura en Morelos (río Amacuzac, Tepoztlán y alrededores).",
     "needsId": null,
     "companions": 3,
-    "validUntil": null
-  },
-  {
-    "slug": "mexico-verde-jalcomulco",
-    "brand": "Expediciones México Verde",
-    "category": "experiencias",
-    "benefit": "Hospedaje gratis para el cumpleañero",
-    "benefitType": "regalo-con-compra",
-    "details": "El paquete \"Cumpleañero\" de Expediciones México Verde (rafting y aventura en Jalcomulco) es una aventura en grupo y, como regalo especial, el cumpleañero disfruta de hospedaje gratis. La página dice que está disponible todo el año; no detalla mínimo de personas, actividades incluidas, precio ni identificación.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Contratar el paquete Cumpleañero en grupo",
-      "Confirmar mínimo de personas y actividades con la empresa"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "Disponible todo el año según el sitio; no precisa si es el día o el mes",
-    "minPurchase": null,
-    "howToClaim": "Pide cotización del paquete Cumpleañero en el sitio o por teléfono (279) 832 3730.",
-    "sources": [
-      "https://mexicoverde.com/tours/cumpleanero/"
-    ],
-    "confidence": "media",
-    "coverage": "estados",
-    "states": [
-      "VER"
-    ],
-    "cities": [],
-    "locationNote": "Jalcomulco, Veracruz (carretera Jalcomulco-Coatepec km 4).",
-    "needsId": null,
-    "companions": null,
     "validUntil": null
   },
   {
@@ -16358,6 +16393,188 @@
     ],
     "locationNote": "UPA Antea, Querétaro (operado por Recórcholis).",
     "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "la-chula-parque-deportes-extremos-merida",
+    "brand": "La Chula (Parque de Deportes Extremos, Mérida)",
+    "category": "parques",
+    "benefit": "Salón gratis para la fiesta infantil de cumpleaños",
+    "benefitType": "gratis",
+    "details": "El Ayuntamiento de Mérida presta sin costo la sala de fiestas \"La Chula\" dentro del Parque de Deportes Extremos para festejos infantiles; incluye mesas, sillas y acceso a los juegos del parque. Se reserva por WhatsApp/teléfono y hay que llevar INE para entrar; el parque abre de jueves a domingo de 3:00 a 9:00 p.m. La demanda es alta: en agosto de 2025 ya había eventos agendados hasta diciembre.",
+    "program": null,
+    "signupUrl": "https://www.merida.gob.mx/parquextremo/",
+    "requirements": [
+      "Reservar por WhatsApp al 999 329 09 66",
+      "Llevar INE para acceder al parque",
+      "Fiestas infantiles, de jueves a domingo",
+      "Reservar con mucha anticipación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Se separa fecha por reservación; el parque opera jueves a domingo",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp al 999 329 09 66 (Ayuntamiento de Mérida) para separar tu fecha y lleva tu INE.",
+    "sources": [
+      "https://www.merida.gob.mx/parquextremo/",
+      "https://www.posta.com.mx/yucatan/gratis-asi-puedes-celebrar-tu-cumpleanos-en-la-chula-en-merida/vl2187317",
+      "https://yucatan.quadratin.com.mx/merida/la-chula-y-parque-de-deportes-extremos-seguiran-siendo-gratuitos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Parque de Deportes Extremos, Mérida, Yuc. Servicio municipal; la fuente oficial no precisa capacidad ni duración.",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "coryland-mty-monterrey",
+    "brand": "Coryland Mty (DIF Monterrey)",
+    "category": "parques",
+    "benefit": "Salón de fiestas infantiles gratis (DIF Monterrey)",
+    "benefitType": "gratis",
+    "details": "El municipio y el DIF de Monterrey prestan gratis el salón Coryland para fiestas infantiles: capacidad para 200 personas, climatizado, con mesas, cocina, sonido, juegos, inflables y brincolines. Se usa en bloques de 3 horas, todos los días incluidos fines de semana, y para separar fecha hay que registrarse con el municipio (WhatsApp de Cory 812 860 4733). Inaugurado el 30 de abril de 2026; las notas no precisan requisitos de residencia, edad ni identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Registrarte con el municipio y separar fecha por WhatsApp (812 860 4733)",
+      "Eventos de 3 horas",
+      "Confirmar si piden comprobante de residencia o edad del festejado"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Se separa fecha por reservación; operación diaria desde abril de 2026",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp a Cory (812 860 4733) para registrarte y apartar tu fecha.",
+    "sources": [
+      "https://www.elhorizonte.mx/nuevoleon/abre-monterrey-salon-de-fiestas-infantiles-es-gratis/2513874181",
+      "https://www.conexionnl.com/2026/04/30/inaugura-dif-monterrey-coryland-mty-salon-de-fiestas-infantiles-gratuito-en-la-ciudad/",
+      "https://lasillarota.com/estados/2026/4/30/inaugura-dif-monterrey-coryland-mty-salon-de-fiestas-infantiles-gratuito-507993.html"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Av. Rodrigo Gómez y calle Las Selvas, col. Carmen Serdán, norte de Monterrey.",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "sky-balloons-vuelo-cumpleanos-teotihuacan",
+    "brand": "Sky Balloons (vuelo de cumpleaños, Teotihuacán)",
+    "category": "experiencias",
+    "benefit": "Vuelo en globo de cumpleaños con precio especial",
+    "benefitType": "descuento",
+    "details": "El sitio oficial publica el Vuelo Cumpleaños con precio de $2,599 para el festejado (regular $2,999) e incluye café de bienvenida, brindis, manta de feliz cumpleaños, pastel, regalo, diploma y desayuno; acompañantes adultos $2,899 y niños de 4 a 12 años $1,990. Una nota de México Desconocido (feb. 2025) habla de 50% de descuento los domingos del mes de cumpleaños con un acompañante que pague precio regular, y un directorio dice martes y miércoles: las condiciones no coinciden, confirma por WhatsApp. Niños menores de 4 años o de menos de 1.20 m no vuelan.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Acreditar con identificación que naciste en el mes del vuelo (según nota de prensa)",
+      "Un acompañante que pague precio regular (según nota de prensa)",
+      "Confirmar día válido y precio vigente con la empresa",
+      "Mínimo 4 años y 1.20 m de estatura"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños según nota de prensa; el sitio oficial solo muestra el precio especial sin fechas",
+    "minPurchase": null,
+    "howToClaim": "Reserva el Vuelo Cumpleaños en skyballoons.mx o por WhatsApp y confirma el descuento de cumpleaños.",
+    "sources": [
+      "https://www.skyballoons.mx/vuelos/vuelo-cumpleanos",
+      "https://escapadas.mexicodesconocido.com.mx/celebra-tu-cumpleanos-en-un-globo-aerostatico/"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "MEX"
+    ],
+    "cities": [],
+    "locationNote": "Salidas desde San Martín de las Pirámides / San Juan Teotihuacán, Edomex (carretera México-Tulancingo km 28).",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "avex-tirolesas-cumpleanero-gratis",
+    "brand": "AVEX Tirolesas",
+    "category": "parques",
+    "benefit": "Entrada gratis en tu mes de cumpleaños (con 2 personas)",
+    "benefitType": "gratis",
+    "details": "El sitio oficial de AVEX anuncia la promoción \"Cumpleañero gratis\": válida en el mes de tu cumpleaños y si vas acompañado de mínimo 2 personas, con la leyenda \"aplican restricciones\" sin detallarlas. Se publica para todos los parques AVEX (Micos y Xilitla en S.L.P., Bernal en Qro. y Ensenada en B.C.), con tirolesas, skybike, skyboard, puentes colgantes y senderos según el parque. El sitio no da fecha de fin; las restricciones se confirman por WhatsApp (55 7982 5144).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en el mes de tu cumpleaños",
+      "Ir acompañado de mínimo 2 personas",
+      "Aplican restricciones no detalladas en el sitio",
+      "Confirmar con AVEX qué identificación piden"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp a AVEX (55 7982 5144) para confirmar restricciones y reservar; llega con tu grupo de al menos 3 personas en tu mes de cumpleaños.",
+    "sources": [
+      "https://avex.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "BCN",
+      "QUE",
+      "SLP"
+    ],
+    "cities": [],
+    "locationNote": "Parques AVEX en Micos y Xilitla (S.L.P.), Bernal (Qro.) y Ensenada (B.C.)",
+    "needsId": null,
+    "companions": 2,
+    "validUntil": null
+  },
+  {
+    "slug": "cineteca-nacional-entrada-cumpleanos",
+    "brand": "Cineteca Nacional",
+    "category": "cine",
+    "benefit": "Entrada gratis a una función el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Guías de promociones de cumpleaños en CDMX señalan que la Cineteca Nacional da una entrada sin costo el día exacto de tu cumpleaños, presentando una identificación con fecha de nacimiento, solo en taquilla física (no en línea). El sitio oficial de la Cineteca no publica esta promoción, por lo que debe confirmarse antes de ir. Sin fecha de fin conocida.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación con fecha de nacimiento vigente",
+      "Solo en taquilla física, no en compra en línea",
+      "Solo el día exacto del cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día exacto de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Ve a la taquilla de la Cineteca el día de tu cumpleaños con tu identificación y pide tu entrada de cortesía; confirma antes por su correo ventasweb@cinetecanacional.net.",
+    "sources": [
+      "https://kuiyibo.com/2026/03/ofertas-de-cumpleanos-en-cdmx/",
+      "https://www.cinetecanacional.net"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Cineteca Nacional, Xoco, Coyoacán, CDMX",
+    "needsId": true,
     "companions": null,
     "validUntil": null
   },
@@ -16560,6 +16777,183 @@
     "locationNote": "El Llano 2da Sección, Tula de Allende, Hidalgo; abre 24 h según el directorio",
     "needsId": true,
     "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "mexico-verde-jalcomulco",
+    "brand": "Expediciones México Verde",
+    "category": "experiencias",
+    "benefit": "Hospedaje gratis para el cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "El paquete \"Cumpleañero\" de Expediciones México Verde (rafting y aventura en Jalcomulco) es una aventura en grupo y, como regalo especial, el cumpleañero disfruta de hospedaje gratis. La página dice que está disponible todo el año; no detalla mínimo de personas, actividades incluidas, precio ni identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar el paquete Cumpleañero en grupo",
+      "Confirmar mínimo de personas y actividades con la empresa"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Disponible todo el año según el sitio; no precisa si es el día o el mes",
+    "minPurchase": null,
+    "howToClaim": "Pide cotización del paquete Cumpleañero en el sitio o por teléfono (279) 832 3730.",
+    "sources": [
+      "https://mexicoverde.com/tours/cumpleanero/",
+      "https://mexicoverde.com/trip-search-result/?trip_types=experiencias-mexico-verde"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "VER"
+    ],
+    "cities": [],
+    "locationNote": "Jalcomulco, Veracruz (carretera Jalcomulco-Coatepec km 4).",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "dinoax-parque-museo-tematico-oaxaca",
+    "brand": "DinOax Parque - Museo Temático",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis (credencial o CURP)",
+    "benefitType": "gratis",
+    "details": "Parque-museo temático de dinosaurios en Oaxaca. Según información de redes y fichas del parque, el cumpleañero no paga entrada (boleto general $100 para mayores de 3 años) al presentar su credencial de elector o una imagen de su CURP en taquilla. Se reportan además descuentos de 30% en la entrada general si cumples años en el mes de la visita y 50% si cumples en la semana de la visita. Términos exactos no publicados en sitio oficial; confirmar por teléfono o WhatsApp.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Credencial de elector (INE) o imagen de CURP en taquilla"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Gratis el día del cumpleaños; 30% en el mes y 50% en la semana de cumpleaños según reportes; sin fecha de fin publicada",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu credencial de elector o CURP en la taquilla del parque. Tel. 951 242 9853.",
+    "sources": [
+      "https://www.facebook.com/dinoaxaca/",
+      "https://www.tiktok.com/@dinoaxaca",
+      "https://sites.google.com/view/dinoax/inicio"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "OAX"
+    ],
+    "cities": [],
+    "locationNote": "Atenas 18, Col. Odisea, Santa María Atzompa / Oaxaca de Juárez, Oaxaca",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "la-cerveceria-de-barrio",
+    "brand": "La Cervecería de Barrio",
+    "category": "bares",
+    "benefit": "Perro Tamaringo (bebida) de regalo en tu mes",
+    "benefitType": "gratis",
+    "details": "La página oficial de promos muestra la promoción de cumpleaños con el texto \"Aplica durante el mes de tu cumpleaños. Debes presentar tu identificación oficial\" (el sitio la publica solo como imagen, sin nombrar el beneficio). El beneficio concreto, 1 Perro Tamaringo de regalo, aparece en el mismo texto promocional citado por Trend México. Es una bebida con alcohol: solo mayores de edad.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente con fecha de nacimiento",
+      "Visitar durante el mes de tu cumpleaños",
+      "Mayor de edad (bebida con alcohol)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu Perro Tamaringo en la sucursal mostrando tu identificación oficial; confirma con el mesero que la promo siga vigente, porque el sitio oficial no detalla el beneficio.",
+    "sources": [
+      "https://lacerveceriadebarrio.mx/promos",
+      "https://lacerveceriadebarrio.mx/sucursales",
+      "https://www.trendmexico.com/cdmx/los-mejores-bares-en-coyoacan/la-cerveceria-de-barrio-coyoacan/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla"
+    ],
+    "locationNote": "Unas 17 sucursales en CDMX y Edomex (Alameda, Cibeles, Condesa, Coyoacán, Santa Fe, Universidad, Viaducto, Mundo E, Toreo, Perinorte, etc.); el sitio oficial dice que aplica en todas",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "la-autentica-barberia",
+    "brand": "La Auténtica Barbería",
+    "category": "belleza",
+    "benefit": "Paquete premium de regalo en tu cumpleaños (Socio)",
+    "benefitType": "regalo-con-compra",
+    "details": "El sitio oficial indica que los miembros del club Socio Auténtico reciben en su cumpleaños un paquete premium de regalo (\"en tu cumpleaños, te obsequiaremos un paquete premium para que vengas y te consientas como mereces\"). El sitio no detalla qué incluye el paquete, la ventana de canje, el costo de la membresía ni las sucursales participantes; consúltalo por WhatsApp antes de ir.",
+    "program": "Socio Auténtico",
+    "signupUrl": "https://autenticabarberia.com/",
+    "requirements": [
+      "Ser Socio Auténtico (membresía del club)",
+      "Consultar por WhatsApp contenido y fecha de canje del paquete"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No publicada; confirma con la barbería",
+    "minPurchase": null,
+    "howToClaim": "Hazte Socio Auténtico y pregunta por WhatsApp (wa.link/j5niit) o al 56 2020 3272 cómo y cuándo canjear tu paquete de cumpleaños.",
+    "sources": [
+      "https://autenticabarberia.com/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "MEX"
+    ],
+    "cities": [
+      "naucalpan"
+    ],
+    "locationNote": "El sitio solo muestra una barbería (Circuito Circunvalación Pte., Cd. Satélite, Naucalpan, según directorios); no publica otras sucursales",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "raices-mexico-glamping-cumpleanos-2x1",
+    "brand": "Raíces México (glamping)",
+    "category": "servicios",
+    "benefit": "Estancia 2x1: tu parte de la tarifa en cortesía",
+    "benefitType": "2x1",
+    "details": "Promoción oficial de cumpleaños 2x1: el cumpleañero recibe su estancia en cortesía (100% de descuento sobre su parte de la tarifa) si viaja con una persona que paga la tarifa completa. Aplica solo de domingo a jueves, mínimo 2 noches consecutivas, en los domos 360° y 180°, para cumpleaños dentro del mes de la estancia, máximo 6 personas por reserva y sujeto a disponibilidad. No acumulable ni transferible. Es un solo hotel (no cadena).",
+    "program": null,
+    "signupUrl": "https://hotels.cloudbeds.com/reservation/RHnFQ0",
+    "requirements": [
+      "Mayor de 18 años",
+      "Cumpleaños dentro del mes de la estancia",
+      "Identificación oficial vigente (INE o pasaporte), foto enviada para validar la fecha",
+      "Contactar con al menos 12 horas de anticipación",
+      "Acompañante que pague tarifa completa",
+      "Estancia de domingo a jueves, mínimo 2 noches consecutivas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier estancia dentro del mes de tu cumpleaños (domingo a jueves)",
+    "minPurchase": null,
+    "howToClaim": "Escribe por WhatsApp (56 6586 4094) o al cotizar en su sitio, pide la promoción de cumpleaños y envía foto de tu identificación oficial con al menos 12 horas de anticipación.",
+    "sources": [
+      "https://raicesmexico.mx/terminos-y-condiciones-cumpleanos-2/",
+      "https://raicesmexico.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "MEX"
+    ],
+    "cities": [],
+    "locationNote": "Un solo sitio: San Agustín Buenavista, Soyaniquilpan, Estado de México (a ~50 min de CDMX)",
+    "needsId": true,
+    "companions": 1,
     "validUntil": null
   },
   {

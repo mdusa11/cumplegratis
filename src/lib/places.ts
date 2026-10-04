@@ -62,6 +62,7 @@ export const CITIES = {
   manzanillo: { name: "Manzanillo", state: "COL", lat: 19.114, lng: -104.339 },
   durango: { name: "Durango", state: "DUR", lat: 24.028, lng: -104.653 },
   leon: { name: "León", state: "GUA", lat: 21.125, lng: -101.686 },
+  silao: { name: "Silao", state: "GUA", lat: 20.944, lng: -101.428 },
   guanajuato: { name: "Guanajuato", state: "GUA", lat: 21.019, lng: -101.257 },
   irapuato: { name: "Irapuato", state: "GUA", lat: 20.677, lng: -101.356 },
   celaya: { name: "Celaya", state: "GUA", lat: 20.524, lng: -100.816 },

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { Icon } from "./Icon";
 import { motion } from "motion/react";
 import { useOpenPromo } from "./PromoSheet";
 import { BENEFIT, type Promo } from "@/lib/promos";
@@ -16,7 +17,7 @@ export function StickerRow({ promos }: { promos: Promo[] }) {
     <div className="mt-12 xl:hidden">
       <p className="mono-tag mb-3 flex items-center gap-2">
         <motion.span animate={{ x: [0, 6, 0] }} transition={{ repeat: Infinity, duration: 1.4 }}>
-          👉
+          <Icon name="arrowRight" />
         </motion.span>
         Desliza y toca uno
       </p>

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { Icon } from "./Icon";
 import { useLocation } from "./LocationProvider";
 import { burst } from "./BirthdayPicker";
 import { CITIES, type CitySlug } from "@/lib/places";
@@ -20,7 +21,13 @@ export function SetCityButton({ city }: { city: CitySlug }) {
       }}
       className="btn btn-ink disabled:bg-acid disabled:text-ink"
     >
-      {mine ? "✓ Es tu ciudad" : `📍 Vivo en ${CITIES[city].name}`}
+      {mine ? (
+        "✓ Es tu ciudad"
+      ) : (
+        <>
+          <Icon name="pin" /> Vivo en {CITIES[city].name}
+        </>
+      )}
     </motion.button>
   );
 }

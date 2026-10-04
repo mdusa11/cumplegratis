@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { Icon } from "./Icon";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { PromoCard } from "./PromoCard";
@@ -92,7 +93,14 @@ export function Catalog() {
             <div className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1" role="tablist" aria-label="Categoría">
               {(["todos", ...Object.keys(GROUPS)] as GroupFilter[]).map((g) => (
                 <Pill key={g} active={group === g} onClick={() => pickGroup(g)} layoutId="group-pill">
-                  {g === "todos" ? "Todas" : `${GROUPS[g].emoji} ${GROUPS[g].label}`}
+                  {g === "todos" ? (
+                    "Todas"
+                  ) : (
+                    <>
+                      <Icon name={GROUPS[g].icon} className="mr-1" />
+                      {GROUPS[g].label}
+                    </>
+                  )}
                 </Pill>
               ))}
             </div>
@@ -125,7 +133,14 @@ export function Catalog() {
                     return (
                       <motion.div key={c} initial={{ opacity: 0, y: 10, scale: 0.9 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ delay: i * 0.04, type: "spring", stiffness: 400, damping: 26 }}>
                         <Pill small active={active} onClick={() => pickCat(c === "todas" ? null : c)} layoutId="cat-pill" disabled={count === 0 && !active}>
-                          {c === "todas" ? `Todo ${GROUPS[group].label.toLowerCase()}` : `${CATEGORIES[c].emoji} ${CATEGORIES[c].label}`}
+                          {c === "todas" ? (
+                            `Todo ${GROUPS[group].label.toLowerCase()}`
+                          ) : (
+                            <>
+                              <Icon name={CATEGORIES[c].icon} className="mr-1" />
+                              {CATEGORIES[c].label}
+                            </>
+                          )}
                           <span className={cn("ml-1.5 rounded-full px-1.5 text-xs", active ? "bg-acid text-ink" : "bg-paper-2")}>{count}</span>
                         </Pill>
                       </motion.div>
@@ -197,7 +212,7 @@ export function Catalog() {
             exit={{ opacity: 0, y: -8 }}
             className="mt-3 inline-flex items-center gap-2 font-semibold underline-offset-4 hover:underline"
           >
-            📍 {locationName(location, true)} · cambiar
+            <Icon name="pin" /> {locationName(location, true)} · cambiar
           </motion.button>
         ) : (
           <motion.button
@@ -240,7 +255,7 @@ export function Catalog() {
       <AnimatePresence>
         {results.length === 0 && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="card mt-6 bg-paper-2 p-10 text-center">
-            <p className="text-6xl">😵‍💫</p>
+            <Icon name="search" shadow className="!size-16" />
             <p className="display mt-4 text-5xl">Nada por aquí</p>
             <button type="button" onClick={reset} className="btn btn-acid mt-6">
               Quitar filtros

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Icon } from "@/components/Icon";
 import Link from "next/link";
 
 export const metadata: Metadata = { title: "Sin conexión", robots: { index: false } };
@@ -6,7 +7,7 @@ export const metadata: Metadata = { title: "Sin conexión", robots: { index: fal
 export default function Offline() {
   return (
     <section className="mx-auto flex min-h-[90svh] max-w-3xl flex-col items-start justify-center px-5 pt-28 sm:px-8">
-      <p className="text-7xl">📡</p>
+      <Icon name="offline" className="!size-20" />
       <h1 className="display mt-4 text-[clamp(4rem,14vw,9rem)]">
         Sin <span className="text-hot">señal</span>
       </h1>

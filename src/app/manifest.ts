@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { BASE_PATH, SITE } from "@/lib/site";
+import { ACCENT, BASE_PATH, SITE } from "@/lib/site";
 
 export const dynamic = "force-static";
 
@@ -18,7 +18,7 @@ export default function manifest(): MetadataRoute.Manifest {
     display: "standalone",
     orientation: "any",
     background_color: "#f3f0e8",
-    theme_color: "#c6ff00",
+    theme_color: ACCENT,
     categories: ["lifestyle", "shopping", "food"],
     icons: [
       { src: at("/icons/icon-192.png"), sizes: "192x192", type: "image/png", purpose: "any" },

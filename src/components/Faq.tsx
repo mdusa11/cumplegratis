@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { ACCENT } from "@/lib/site";
 
 export type QA = { q: string; a: string };
 
@@ -21,7 +22,7 @@ export function Faq({ items }: { items: QA[] }) {
             >
               <span className="display text-3xl sm:text-5xl">{item.q}</span>
               <motion.span
-                animate={{ rotate: isOpen ? 45 : 0, backgroundColor: isOpen ? "#c6ff00" : "#f3f0e8" }}
+                animate={{ rotate: isOpen ? 45 : 0, backgroundColor: isOpen ? ACCENT : "#f3f0e8" }}
                 className="flex size-12 shrink-0 items-center justify-center rounded-full border-[2.5px] border-ink text-3xl leading-none"
                 aria-hidden
               >

@@ -545,5 +545,182 @@
     "needsId": true,
     "companions": null,
     "validUntil": null
+  },
+  {
+    "slug": "live-aqua-san-miguel-zibu-allende-cumpleanos",
+    "brand": "Zibu Allende (Live Aqua San Miguel de Allende)",
+    "category": "restaurantes",
+    "benefit": "Pastel + una noche de cortesía para dos en festejo de 10+",
+    "benefitType": "regalo-con-compra",
+    "details": "En el restaurante Zibu Allende de Live Aqua San Miguel de Allende, al reunir 10 comensales o más y cumplir el consumo mínimo, el festejado recibe un pastel de cumpleaños de cortesía y una noche de cortesía para dos. Válido solo en el mes de cumpleaños del titular de la tarjeta, con identificación oficial; intransferible, sujeto a disponibilidad y no combinable con otras promociones. El sitio no define qué tarjeta aplica, no publica el consumo mínimo ni el procedimiento para canjear la noche.",
+    "program": null,
+    "signupUrl": "https://www.fiestamericanatravelty.com/en/live-aqua/hotels/live-aqua-san-miguel-de-allende/dining/zibu-allende",
+    "requirements": [
+      "Reunir 10 comensales o más",
+      "Cumplir el consumo mínimo (monto no publicado)",
+      "Solo en el mes de cumpleaños del titular de la tarjeta (el sitio no dice qué tarjeta)",
+      "Identificación oficial vigente",
+      "Sujeto a disponibilidad, intransferible y no combinable"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de cumpleaños del titular de la tarjeta",
+    "minPurchase": null,
+    "howToClaim": "Reserva con Posadas (tel. +52 415 150 2300, WhatsApp +52 415 117 0482 o asistaybaqsm@posadas.com) indicando que es un festejo de cumpleaños y confirma qué tarjeta aplica.",
+    "sources": [
+      "https://www.fiestamericanatravelty.com/en/live-aqua/hotels/live-aqua-san-miguel-de-allende/dining/zibu-allende"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Restaurante Zibu Allende del hotel Live Aqua San Miguel de Allende (Guanajuato)",
+    "needsId": true,
+    "companions": 9,
+    "validUntil": null
+  },
+  {
+    "slug": "plaza-camelinas-queretaro-buffet-cumpleanero",
+    "brand": "Hotel Plaza Camelinas (buffet Acuarelas)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis del cumpleañero con 3 comensales",
+    "benefitType": "gratis",
+    "details": "Promoción \"Buffet Cumpleañero\" del hotel Plaza Camelinas: llegas con 3 personas al buffet del restaurante Acuarelas y el cumpleañero no paga. Válido una semana antes o después de tu cumpleaños, con identificación oficial. La página no publica fecha de fin de vigencia ni aclara si los 3 acompañantes incluyen al festejado.",
+    "program": null,
+    "signupUrl": "https://www.plazacamelinas.com.mx/experiencias",
+    "requirements": [
+      "Ir con 3 personas más al buffet (el sitio dice 'ven con 3 personas'; no aclara si cuenta al festejado)",
+      "Identificación oficial vigente que compruebe tu fecha de nacimiento",
+      "Visitar entre 7 días antes y 7 días después de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Una semana antes o después de tu cumpleaños; la página no marca fecha de fin",
+    "minPurchase": null,
+    "howToClaim": "Reserva en el hotel (tel. +52 442 192 3900, WhatsApp 442 559 0722), llega con 3 personas y muestra tu identificación oficial en el buffet.",
+    "sources": [
+      "https://www.plazacamelinas.com.mx/experiencias"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QRO"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Hotel Plaza Camelinas, P. de los Virreyes 92, Col. Los Virreyes, Querétaro",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": null
+  },
+  {
+    "slug": "real-inn-tijuana-brunch-pastel-cumpleanos",
+    "brand": "Real Inn Tijuana (Stock Café)",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel gratis en el brunch dominical",
+    "benefitType": "gratis",
+    "details": "En el Brunch Dominical de Stock Café (Real Inn Tijuana), domingos de 10:00 a 16:00 h, en tu mes de cumpleaños recibes una rebanada de pastel de cortesía presentando identificación válida. Brunch adultos $549, niños $285 (incluye mimosas). Vigencia publicada hasta el 7 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/real-inn/special-offers",
+    "requirements": [
+      "Identificación oficial válida",
+      "Brunch dominical de 10:00 a 16:00 h",
+      "Beneficio en tu mes de cumpleaños",
+      "Reservaciones al 664 633 4000"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños (domingos); vigente hasta el 7 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 664 633 4000 o ritij-capitanstockcafe@hotelesrealinn.com y presenta tu identificación en el brunch dominical.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/real-inn/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BC"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Stock Café, hotel Real Inn Tijuana (Baja California)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": "2026-12-07"
+  },
+  {
+    "slug": "estrella-roja-punto-abordo-bono-cumpleanos",
+    "brand": "Estrella Roja (Punto Abordo)",
+    "category": "viajes",
+    "benefit": "Bono de cumpleaños de 20 puntos ($20) para boletos",
+    "benefitType": "regalo",
+    "details": "El programa de beneficios Punto Abordo de Grupo Estrella Roja (rutas Puebla-CDMX y Puebla interior: Aeropuerto, Primera Clase, Directo, EBUS, Súper Rápidos e Intermedios) da un bono de cumpleaños de 20 puntos; cada punto equivale a $1 MN y se canjea por viajes redondos (no por efectivo). Registro gratuito, en taquilla (con huella digital) y en el sitio. Los puntos vencen a los 365 días de obtenidos. Los T&C dicen que la vigencia del programa es indefinida y puede cambiar.",
+    "program": "Punto Abordo (Grupo Estrella Roja)",
+    "signupUrl": "https://www.puntoabordo.com.mx/",
+    "requirements": [
+      "Afiliarse gratis a Punto Abordo y completar el registro al 100% en taquilla (huella digital) y en puntoabordo.com.mx",
+      "Puntos personales e intransferibles; vigencia de 365 días",
+      "Canje solo por viajes redondos en servicios participantes de Grupo Estrella Roja"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El sitio no aclara si el bono se acredita el día o el mes del cumpleaños; vigencia del programa indefinida según T&C",
+    "minPurchase": null,
+    "howToClaim": "Afíliate en taquilla de Estrella Roja y en puntoabordo.com.mx; consulta tus puntos en tu cuenta y canjéalos por un viaje redondo.",
+    "sources": [
+      "https://www.puntoabordo.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "PUE",
+      "CMX"
+    ],
+    "cities": [
+      "puebla",
+      "cdmx"
+    ],
+    "locationNote": "Servicios de Grupo Estrella Roja entre Puebla, CDMX (incluye aeropuerto) y el interior de Puebla",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "fiesta-rewards-apreciare-certificado-cumpleanos",
+    "brand": "Fiesta Rewards Apreciare (Posadas)",
+    "category": "restaurantes",
+    "benefit": "Certificado de $300 en alimentos y bebidas en tu cumpleaños",
+    "benefitType": "regalo",
+    "details": "Los términos de Fiesta Rewards Apreciare (programa para quienes contratan eventos sociales y banquetes en hoteles Posadas) dicen que en su cumpleaños el socio recibe un certificado de regalo de $300 pesos en alimentos y bebidas, válido en restaurantes y bares de Grand Fiesta Americana, Fiesta Americana, Fiesta Inn y Gamma. Solo aplica a socios Apreciare con puntos acreditados en los últimos 12 meses. Los T&C no publican vigencia ni cómo se entrega el certificado.",
+    "program": "Fiesta Rewards Apreciare",
+    "signupUrl": "https://www.fiestarewards.com/en/info-ap",
+    "requirements": [
+      "Ser socio Fiesta Rewards Apreciare (programa de contratación de eventos y banquetes)",
+      "Haber tenido puntos acreditados en los últimos 12 meses",
+      "Canje en restaurantes y bares de Grand Fiesta Americana, Fiesta Americana, Fiesta Inn y Gamma"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Los T&C dicen 'en su cumpleaños'; no publican fecha de fin ni si es el día o el mes",
+    "minPurchase": null,
+    "howToClaim": "Como socio Apreciare, consulta con Fiesta Rewards cómo recibir y canjear tu certificado en un hotel participante.",
+    "sources": [
+      "https://www.fiestarewards.com/en/tyc-ap",
+      "https://www.fiestarewards.com/en/info-ap"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Restaurantes y bares de hoteles Grand Fiesta Americana, Fiesta Americana, Fiesta Inn y Gamma en México",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
   }
 ]

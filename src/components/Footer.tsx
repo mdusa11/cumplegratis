@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Icon } from "./Icon";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import { SITE } from "@/lib/site";
@@ -42,7 +43,7 @@ export function Footer() {
             ]}
           />
           <button type="button" onClick={openInstall} className="mt-5 inline-flex items-center gap-2 rounded-full border-2 border-acid px-4 py-2 font-semibold text-acid transition-colors hover:bg-acid hover:text-ink">
-            📲 Instalar la app
+            <Icon name="install" /> Instalar la app
           </button>
         </div>
       </div>
