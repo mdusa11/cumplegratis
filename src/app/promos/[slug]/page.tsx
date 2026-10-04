@@ -8,7 +8,7 @@ import { WhereCard } from "@/components/WhereCard";
 import { ParallaxEmoji } from "@/components/ParallaxEmoji";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
-import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, quickRules, type Promo } from "@/lib/promos";
+import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, quickRules, validityText, type Promo } from "@/lib/promos";
 import { API_ENABLED, SITE, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -37,7 +37,7 @@ function steps(p: Promo) {
   } else {
     list.push({ title: "No necesitas registrarte", body: "Basta con una identificación oficial que muestre tu fecha de nacimiento." });
   }
-  list.push({ title: WINDOW_LABEL[p.window], body: p.windowNote });
+  list.push({ title: WINDOW_LABEL[p.window], body: [p.windowNote, validityText(p)].filter(Boolean).join(". ") });
   list.push({ title: "Cóbralo", body: p.howToClaim });
   return list;
 }

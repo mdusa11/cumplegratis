@@ -7,7 +7,7 @@ import { BenefitBadge } from "./BenefitBadge";
 import { useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { availability } from "@/lib/availability";
-import { CATEGORIES, GROUPS, WINDOW_LABEL, coverageLabel, groupOf, quickRules, ruleIcon, type Promo } from "@/lib/promos";
+import { CATEGORIES, GROUPS, WINDOW_LABEL, coverageLabel, expiryLabel, groupOf, quickRules, ruleIcon, type Promo } from "@/lib/promos";
 import { cn } from "@/lib/site";
 
 const MAX_BULLETS = 3;
@@ -25,6 +25,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
   const avail = location ? availability(promo, location) : null;
   const bullets = promo.requirements.length ? promo.requirements : quickRules(promo).map((r) => r.label);
   const local = promo.coverage === "ciudades" || promo.coverage === "estados";
+  const expiry = expiryLabel(promo);
 
   const tilt = (e: PointerEvent<HTMLElement>) => {
     if (e.pointerType !== "mouse") return;
@@ -95,6 +96,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
           </span>
           {avail === "fuera" && <span className="chip bg-hot">Fuera de tu zona</span>}
           {(avail === "tu-ciudad" || avail === "cerca") && <span className="chip bg-acid">✓ Cerca de ti</span>}
+          {expiry && <span className="chip animate-pulse bg-hot">⏳ {expiry}</span>}
           {promo.confidence === "baja" && <span className="chip border-dashed bg-paper">Sin confirmar</span>}
         </div>
       </Link>

@@ -16,6 +16,7 @@ import {
   groupOf,
   quickRules,
   ruleIcon,
+  validityText,
   type Promo,
 } from "@/lib/promos";
 import { lockScroll } from "@/lib/scroll";
@@ -172,6 +173,11 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
             <motion.p variants={ITEM} className="text-lg">
               📅 {promo.windowNote}
             </motion.p>
+            {validityText(promo) && (
+              <motion.p variants={ITEM} className="mt-1 text-base font-semibold">
+                ⏳ {validityText(promo)}
+              </motion.p>
+            )}
           </Section>
 
           <Section title="Cómo cobrarlo">

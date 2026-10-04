@@ -71,6 +71,31 @@ function extras(raw, slug) {
   };
 }
 
+// Vigencia: solo fechas ancladas a "vigente al", "hasta el", "válido hasta", "vence el" o "vigencia 5 ene–31 dic 2026"
+// (así no confundimos días de exclusión como "no válido del 15 al 18 dic").
+const MONTHS = { ene: 0, feb: 1, mar: 2, abr: 3, may: 4, jun: 5, jul: 6, ago: 7, sep: 8, oct: 9, nov: 10, dic: 11 };
+const DATE = String.raw`(\d{1,2})(?:\s+de)?[\s-]+(ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic)[a-z]*\.?(?:[\s-]+(?:de\s+)?(\d{4}))?`;
+const VALIDITY = [
+  new RegExp(String.raw`(?:vigen\w*|v[aá]lid\w*|vence\w*)(?:\s+(?:del?|desde)\s+[^.;]{0,30}?)?\s+(?:al|hasta(?:\s+el)?|el)\s+${DATE}`, "gi"),
+  new RegExp(String.raw`hasta\s+el\s+${DATE}`, "gi"),
+  new RegExp(String.raw`vigencia\s+[^.;]{0,25}?[–-]\s*${DATE}`, "gi"),
+];
+const BUILD_YEAR = new Date().getFullYear();
+
+function validUntil(p) {
+  const text = [p.details, p.windowNote, p.locationNote].filter(Boolean).join(" ");
+  let best = null;
+  for (const re of VALIDITY) {
+    for (const m of text.matchAll(re)) {
+      const [day, mon, year] = [Number(m[1]), MONTHS[m[2].toLowerCase()], m[3] ? Number(m[3]) : BUILD_YEAR];
+      if (!(day >= 1 && day <= 31)) continue;
+      const iso = new Date(Date.UTC(year, mon, day)).toISOString().slice(0, 10);
+      if (!best || iso > best) best = iso;
+    }
+  }
+  return best;
+}
+
 function mergeLocation(a, b) {
   if (a.coverage === "nacional" || b.coverage === "nacional") return { coverage: "nacional", states: [], cities: [] };
   if (!a.coverage || !b.coverage) return a.coverage ? {} : { coverage: b.coverage, states: b.states, cities: b.cities };
@@ -179,6 +204,17 @@ for (const f of fixes) {
   else if (f.patch) Object.assign(bySlug.get(f.slug), f.patch);
 }
 
+const today = new Date().toISOString().slice(0, 10);
+let expired = 0;
+for (const p of bySlug.values()) {
+  p.validUntil = validUntil(p);
+  if (p.validUntil && p.validUntil < today) {
+    expired++;
+    warnings.push(`${p.slug}: vencida el ${p.validUntil}, se quita`);
+    bySlug.delete(p.slug);
+  }
+}
+
 const promos = [...bySlug.values()];
 await writeFile(OUT, JSON.stringify(promos, null, 2) + "\n");
 warnings.forEach((w) => console.warn(`⚠ ${w}`));
@@ -187,6 +223,7 @@ console.log(
   `✓ ${promos.length} promos (alta ${count("confidence", "alta")}, media ${count("confidence", "media")}, baja ${count("confidence", "baja")}), ` +
     `${rejected} rechazadas, ${applied} con ubicación verificada aparte → ${OUT}`,
 );
+console.log(`  vigencia: ${promos.filter((p) => p.validUntil).length} con fecha de fin, ${expired} vencidas quitadas`);
 console.log(
   `  cobertura: nacional ${count("coverage", "nacional")}, estados ${count("coverage", "estados")}, ciudades ${count("coverage", "ciudades")}, sin dato ${count("coverage", null)}`,
 );

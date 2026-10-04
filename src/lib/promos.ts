@@ -79,12 +79,17 @@ export type Promo = {
   locationNote: string | null;
   needsId: boolean | null;
   companions: number | null;
+  /** Último día de vigencia publicado por la marca (ISO), o null si no lo dice. */
+  validUntil: string | null;
 };
 
 const CONFIDENCE_RANK: Record<Confidence, number> = { alta: 0, media: 1, baja: 2 };
 
+// Se evalúa al construir el sitio (diario en CI) y otra vez en el navegador: lo vencido no se muestra.
+const today = new Date().toISOString().slice(0, 10);
+
 export const promos: Promo[] = (raw as Promo[])
-  .filter((p) => p.category in CATEGORIES)
+  .filter((p) => p.category in CATEGORIES && !(p.validUntil && p.validUntil < today))
   .sort((a, b) => CONFIDENCE_RANK[a.confidence] - CONFIDENCE_RANK[b.confidence] || a.brand.localeCompare(b.brand, "es"));
 
 export const groupOf = (p: Promo): GroupId => CATEGORIES[p.category].group;
@@ -150,3 +155,17 @@ export function coverageLabel(p: Promo) {
   }
   return "Ubicación por confirmar";
 }
+
+const DAY_MS = 86_400_000;
+
+/** "Vence el 31 oct" si a la promo le quedan menos de `soonDays` días; null si no tiene fecha o falta mucho. */
+export function expiryLabel(p: Promo, soonDays = 60) {
+  if (!p.validUntil) return null;
+  const end = new Date(`${p.validUntil}T23:59:59`);
+  const left = Math.ceil((end.getTime() - Date.now()) / DAY_MS);
+  if (left > soonDays) return null;
+  return left <= 1 ? "Vence hoy" : `Vence el ${end.toLocaleDateString("es-MX", { day: "numeric", month: "short" }).replace(".", "")}`;
+}
+
+export const validityText = (p: Promo) =>
+  p.validUntil ? `Vigente hasta el ${new Date(`${p.validUntil}T12:00:00`).toLocaleDateString("es-MX", { day: "numeric", month: "long", year: "numeric" })}` : null;

@@ -1242,5 +1242,41 @@
     "locationNote": "Cártamo 9132, Granjero, Ciudad Juárez.",
     "needsId": null,
     "companions": null
+  },
+  {
+    "slug": "costa-dorada-jesus-maria-aguascalientes",
+    "brand": "Restaurante Costa Dorada",
+    "category": "restaurantes",
+    "benefit": "Por cada 5 personas, el cumpleañero no paga su buffet",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, en el buffet de comida mexicana e internacional el cumpleañero no paga por cada 5 personas, con la promo mencionada para sábados y domingos del mes. El buffet se anuncia diario de 8:00 a 14:00 (con barbacoa y menudo en fin de semana); no hay aviso oficial con identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 5 personas",
+      "Se menciona sábados y domingos (confirmar)",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Fines de semana, según redes; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Llega con tu grupo de 5 personas al buffet y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurante-costa-dorada-aguascalientes",
+      "https://www.facebook.com/p/Restaurante-Costa-Dorada-100054514328787/",
+      "https://restaurantguru.com/Costa-Dorada-Jesus-Maria-Aguascalientes"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Blvd. Lic. Miguel de la Madrid, Corral de Barrancos, Jesús María (zona metropolitana de Aguascalientes).",
+    "needsId": null,
+    "companions": 4
   }
 ]

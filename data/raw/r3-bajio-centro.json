@@ -467,40 +467,6 @@
     "companions": 2
   },
   {
-    "slug": "santo-pollo-celaya",
-    "brand": "Santo Pollo",
-    "category": "restaurantes",
-    "benefit": "Cumpleañeros no pagan en el buffet con karaoke",
-    "benefitType": "gratis",
-    "details": "Restaurante de pollo, arrachera y alitas al aire libre que, según publicaciones en redes, no cobra a los cumpleañeros en su buffet con karaoke. Abre solo viernes, sábado y domingo de 12 a 18 h. No hay reglas publicadas que pude confirmar (acompañantes, identificación, vigencia): pregunta antes de ir.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Abre viernes a domingo de 12 a 18 h",
-      "Acompañantes, identificación y vigencia: sin confirmar"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "No especificado; solo fines de semana",
-    "minPurchase": null,
-    "howToClaim": "Avisa en el restaurante que es tu cumpleaños y pregunta por las condiciones.",
-    "sources": [
-      "https://www.tiktok.com/@santopollocelaya",
-      "https://www.facebook.com/people/Santo-Pollo-celaya/100054479620330/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "GUA"
-    ],
-    "cities": [
-      "celaya"
-    ],
-    "locationNote": "Av. del Monte 161 A, Ex Hacienda de Trojes, Celaya",
-    "needsId": true,
-    "companions": null
-  },
-  {
     "slug": "picanteria-mariscos-pachuca",
     "brand": "Picantería (mariscos)",
     "category": "restaurantes",
@@ -567,5 +533,144 @@
     "locationNote": "Tlacotlapilco, Chilcuautla, Hidalgo (valle del Mezquital); no está en Pachuca",
     "needsId": true,
     "companions": null
+  },
+  {
+    "slug": "zibu-allende-live-aqua-san-miguel-de-allende",
+    "brand": "Zibu Allende (Live Aqua San Miguel de Allende)",
+    "category": "restaurantes",
+    "benefit": "Pastel de cortesía y noche para dos con 10 o más invitados",
+    "benefitType": "regalo-con-compra",
+    "details": "En la página oficial del restaurante del hotel Live Aqua San Miguel de Allende, si reúnes 10 invitados o más recibes un pastel de cumpleaños de cortesía y una noche de hospedaje para dos durante tu mes de cumpleaños, siempre que se cubra el consumo mínimo. Los términos indican que solo es válido en el mes de cumpleaños del titular, exige identificación oficial con fotografía, tiene consumo mínimo (no publicado), es intransferible, sujeto a disponibilidad y no se combina con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 10 invitados o más",
+      "Identificación oficial con fotografía",
+      "Solo durante tu mes de cumpleaños",
+      "Aplica un consumo mínimo (monto no publicado)",
+      "Intransferible, sujeto a disponibilidad",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de cumpleaños del titular",
+    "minPurchase": null,
+    "howToClaim": "Reserva por correo (asistaybaqsm@posadas.com), teléfono (+52 415 150 2300) o WhatsApp y avisa que es tu mes de cumpleaños.",
+    "sources": [
+      "https://www.fiestamericanatravelty.com/en/live-aqua/hotels/live-aqua-san-miguel-de-allende/dining/zibu-allende"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Restaurante del hotel Live Aqua San Miguel de Allende; el sitio habla del 'titular' (posible tarjeta del programa de lealtad), confirma si necesitas membresía",
+    "needsId": true,
+    "companions": 9
+  },
+  {
+    "slug": "el-timon-mariscos-apizaco",
+    "brand": "El Timón (buffet de mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis en su mes con 3 o más personas",
+    "benefitType": "gratis",
+    "details": "Buffet de mariscos en Apizaco que, según publicaciones en redes, regala el buffet del cumpleañero si va durante el mes de su cumpleaños con tres personas o más y presenta su INE. No pude abrir la publicación original: confirma días, horarios y si las tres personas incluyen al cumpleañero.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir durante el mes de tu cumpleaños",
+      "Ir con 3 personas o más",
+      "Presentar INE",
+      "Días y exclusiones: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu mes de cumpleaños y muestra tu INE.",
+    "sources": [
+      "https://www.facebook.com/restaurantedemariscoseltimon/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Apizaco, Tlaxcala: Blvd. La Libertad 1110",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "mariscos-el-oceano-celaya",
+    "brand": "Mariscos El Océano",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis en el buffet (confirmar reglas)",
+    "benefitType": "gratis",
+    "details": "Restaurante familiar de carnes y mariscos con buffet que, según publicaciones en redes, no cobra el buffet al cumpleañero. No pude ver las condiciones (acompañantes, identificación, días): confirma por teléfono antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Acompañantes, identificación y días: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y pregunta por las condiciones.",
+    "sources": [
+      "https://www.facebook.com/p/Mariscos-El-Oc%C3%A9ano-100046319576246/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Av. Constituyentes 409, local 2, Col. Bosques del Sol, Celaya",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "agridulce-restaurante-san-miguel-de-allende",
+    "brand": "Agridulce Restaurante",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 1 adulto (día exacto)",
+    "benefitType": "gratis",
+    "details": "Según un resumen de TikTok sobre este restaurante familiar, el cumpleañero come gratis el día exacto de su cumpleaños si va acompañado de al menos un adulto (los menores deben ir con un adulto) y los acompañantes pagan precio normal. No encontré el anuncio original del restaurante, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos un adulto",
+      "Solo el día exacto del cumpleaños",
+      "Los acompañantes pagan precio normal",
+      "Fuente no oficial: confirma con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y muestra tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/discover/original-agridulce-restaurante"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Calle Allende 211-B, Centro, San Miguel de Allende",
+    "needsId": true,
+    "companions": 1
   }
 ]

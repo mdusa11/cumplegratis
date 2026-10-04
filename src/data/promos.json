@@ -34,7 +34,8 @@
     ],
     "locationNote": "Encuentro Oceanía, Parque Delta, Parque Tepeyac y Mundo E",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": "2026-10-31"
   },
   {
     "slug": "asador-city-wok",
@@ -71,7 +72,8 @@
     ],
     "locationNote": "Parque Tepeyac, Encuentro Fortuna, Mundo E y Free Wok Perinorte",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "carvao-do-brasil",
@@ -106,7 +108,8 @@
     "cities": [],
     "locationNote": "Aplica en todas sus sucursales de CDMX y Estado de México",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "la-vicenta",
@@ -145,7 +148,8 @@
     ],
     "locationNote": "CDMX: Miyana, Vallejo, Tezontle, Toreo; también Cancún y Playa del Carmen",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "texas-ribs",
@@ -187,7 +191,8 @@
     ],
     "locationNote": "Todas las sucursales: Del Valle, Plaza Central, Buenavista, Atizapán, Satélite, Metepec, Acapulco, Pachuca",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "sumo-all-you-can-eat",
@@ -232,7 +237,8 @@
     ],
     "locationNote": "Sucursales Sumo All You Can Eat y Express en CDMX, Edomex y Cuernavaca",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "gong-cha-mexico",
@@ -274,7 +280,8 @@
     ],
     "locationNote": "Sucursales en CDMX, Edomex (Metepec), Guadalajara, Puebla y Querétaro",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "club-del-patio",
@@ -312,7 +319,8 @@
     ],
     "locationNote": "Patio Roma y Patio Mundo E",
     "needsId": true,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "los-uruguayos",
@@ -348,7 +356,8 @@
     ],
     "locationNote": "Atlixco 38-A, Condesa",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-lugar-de-max",
@@ -384,7 +393,8 @@
     ],
     "locationNote": "Confirmar sucursal CDMX en lugardemax.com",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "el-diez-parrilla-argentina",
@@ -421,7 +431,8 @@
     ],
     "locationNote": "Sucursales en CDMX (Reforma, Condesa, Clavería, Prado Norte, Polanco, etc.); también Playa del Carmen",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "bombay-club-roma",
@@ -457,7 +468,8 @@
     ],
     "locationNote": "Av. Álvaro Obregón 291, Roma Norte",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "gotchalandia",
@@ -493,7 +505,8 @@
     ],
     "locationNote": "La Marquesa, Ocoyoacac, Estado de México",
     "needsId": true,
-    "companions": 8
+    "companions": 8,
+    "validUntil": null
   },
   {
     "slug": "olive-garden-mexico",
@@ -529,7 +542,8 @@
     ],
     "locationNote": "Confirma en tu sucursal si participa",
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "rancho-magico",
@@ -566,7 +580,8 @@
     ],
     "locationNote": "Carretera libre a Cuernavaca km 31.5, San Miguel Topilejo, Tlalpan",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "perros-y-burros",
@@ -608,7 +623,8 @@
     ],
     "locationNote": "Todas sus sucursales de CDMX y Edomex (Plaza Central, Tepeyac, Antenas, Fashion Mall, Las Américas, Metepec, etc.)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "brasa-do-brasilia",
@@ -645,7 +661,8 @@
     ],
     "locationNote": "Plaza Cuicuilco Inbursa y Plaza Carso Palmas",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": "2026-10-31"
   },
   {
     "slug": "american-eagle-aerie",
@@ -677,7 +694,8 @@
     "cities": [],
     "locationNote": "Tiendas American Eagle, Aerie y Factory participantes",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "hacienda-de-los-morales",
@@ -713,7 +731,8 @@
     ],
     "locationNote": "Polanco (Juan Vázquez de Mella 525)",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "nisha-club-roma",
@@ -749,7 +768,8 @@
     ],
     "locationNote": "Monterrey 47, Roma Norte",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "maison-kayser",
@@ -786,7 +806,8 @@
     ],
     "locationNote": "Más de 40 sucursales en CDMX, Edomex, Puebla y Querétaro",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "piazolla",
@@ -819,7 +840,8 @@
     ],
     "locationNote": "Pedregal (confirmar sucursal)",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "starbucks",
@@ -851,7 +873,8 @@
     "cities": [],
     "locationNote": "Más de 900 tiendas en todo el país",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "krispy-kreme",
@@ -901,7 +924,8 @@
     "cities": [],
     "locationNote": "Tiendas físicas en 18 estados; no aplica en Liverpool, Walmart ni OXXO",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "nutrisa",
@@ -933,7 +957,8 @@
     "cities": [],
     "locationNote": "Más de 20 estados; no aplica en Liverpool, Fábricas de Francia, museos ni parques",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "toks",
@@ -963,7 +988,8 @@
     "cities": [],
     "locationNote": "Presencia en unos 23 estados; solo consumo en restaurante",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "panda-express",
@@ -1005,7 +1031,8 @@
     ],
     "locationNote": "Solo sucursales participantes; directorios reportan otras ciudades sin verificar",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "dairy-queen",
@@ -1036,7 +1063,8 @@
     "cities": [],
     "locationNote": "Sucursales en más de 25 estados; solo sucursales participantes",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-globo",
@@ -1085,7 +1113,8 @@
     "cities": [],
     "locationNote": "Solo sucursales e islas; estados según directorios (no verificado en sitio oficial)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "vips",
@@ -1116,7 +1145,8 @@
     "cities": [],
     "locationNote": "Más de 230 restaurantes en la mayoría de los estados",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "italiannis",
@@ -1167,7 +1197,8 @@
     "cities": [],
     "locationNote": "Más de 90 restaurantes en 19 estados",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "cielito-querido",
@@ -1208,7 +1239,8 @@
     "cities": [],
     "locationNote": "Sucursales en 9 estados; no aplica en sucursal IBERO",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tgi-fridays",
@@ -1249,7 +1281,8 @@
     ],
     "locationNote": "Solo 4 restaurantes; condiciones varían por franquicia",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "wingstop",
@@ -1297,7 +1330,8 @@
     "cities": [],
     "locationNote": "Más de 110 sucursales; estados según directorios (no verificado en sitio oficial)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sirloin-stockade",
@@ -1337,7 +1371,8 @@
     ],
     "locationNote": "6 sucursales participantes: Guadalajara (Centro, Conchitas, Sanzio), León Plaza Mayor, Morelia y Querétaro",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "la-vid-argentina",
@@ -1376,7 +1411,8 @@
     ],
     "locationNote": "7 sucursales en CDMX y Edomex; Interlomas -> naucalpan, Metepec -> toluca",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "chilis",
@@ -1429,7 +1465,8 @@
     "cities": [],
     "locationNote": "Presencia en 21 estados; beneficio varía por sucursal ($200 en CDMX, pastel en otros)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-mansion",
@@ -1468,7 +1505,8 @@
     ],
     "locationNote": "8 sucursales; Bosque Real y Esmeralda -> naucalpan; promo según medios, el sitio solo ofrece pastel",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "carls-jr",
@@ -1498,7 +1536,8 @@
     "cities": [],
     "locationNote": "Más de 300 restaurantes; lista de estados no verificada en sitio oficial",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "applebees",
@@ -1543,7 +1582,8 @@
     ],
     "locationNote": "Operadores regionales distintos; directorios reportan otras ciudades sin verificar; Rewards sin confirmar",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "falafelito",
@@ -1578,7 +1618,8 @@
     ],
     "locationNote": "Sucursales en CDMX (Condesa, Coyoacán, Narvarte); algunas reportadas cerradas; no verificado en sitio oficial",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-btk",
@@ -1619,7 +1660,8 @@
     ],
     "locationNote": "CDMX y Edomex; Coacalco -> ecatepec; Pachuca reportada por directorios sin confirmar",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "ihop",
@@ -1672,7 +1714,8 @@
     "cities": [],
     "locationNote": "49 sucursales en ~20 estados; cada franquicia maneja su propia promo",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "el-farolito",
@@ -1707,7 +1750,8 @@
     ],
     "locationNote": "13 sucursales (12 CDMX y 1 Edomex, Forbes 2020); otras ubicaciones sin verificar",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "dennys",
@@ -1752,7 +1796,8 @@
     ],
     "locationNote": "15 sucursales; El Salto/Tlajomulco -> guadalajara, Silao -> leon; promo sin confirmación oficial",
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "las-alitas",
@@ -1789,7 +1834,8 @@
     ],
     "locationNote": "Promo válida solo en Nuevo León, Edomex y CDMX; Metepec -> toluca",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "potzollcalli",
@@ -1833,7 +1879,8 @@
     ],
     "locationNote": "Mayoría en CDMX y Edomex, más Villahermosa y Mérida; Izcalli -> tlalnepantla, Ixtapaluca -> nezahualcoyotl",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "wingo",
@@ -1870,7 +1917,8 @@
     ],
     "locationNote": "Solo Veracruz; Orizaba y Río Blanco -> cordoba",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "caffenio",
@@ -1913,7 +1961,8 @@
     "cities": [],
     "locationNote": "Sin sucursales en CDMX; expansión reciente a Jalisco y Veracruz; la lista puede crecer",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "dominos",
@@ -1944,7 +1993,8 @@
     "cities": [],
     "locationNote": "Tiendas en casi todo el país",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "moyo",
@@ -1985,7 +2035,8 @@
     "cities": [],
     "locationNote": "Ubicaciones no verificadas: directorios dispares, app sin actualizar desde jul 2024",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "cinepolis",
@@ -2017,7 +2068,8 @@
     "cities": [],
     "locationNote": "Complejos en casi todos los estados; no aplica en premieres, preventas ni festivales",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "cinemex",
@@ -2048,7 +2100,8 @@
     "cities": [],
     "locationNote": "301 complejos en 100+ ciudades; combo y nivel varían por Loop",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "kidzania",
@@ -2084,7 +2137,8 @@
     ],
     "locationNote": "Sedes: Santa Fe y Cuicuilco (CDMX) y Monterrey; Guadalajara aparece en Wikipedia pero no en el programa",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "recorcholis",
@@ -2131,7 +2185,8 @@
     ],
     "locationNote": "Solo 12 sucursales participantes; Lerma -> toluca, Interlomas -> naucalpan, Salamanca -> irapuato",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sport-bowl-merida",
@@ -2164,7 +2219,8 @@
     ],
     "locationNote": "Única sucursal: Periférico Norte, Mérida",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "strike-39",
@@ -2197,7 +2253,8 @@
     ],
     "locationNote": "Solo Galerías Coapa (Tlalpan), CDMX",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "grupo-xcaret-quintanarroenses",
@@ -2234,7 +2291,8 @@
     ],
     "locationNote": "Solo residentes de Quintana Roo; Xcaret/Xenses (Playa), Xoximilco (Cancún), Xel-Há (Tulum)",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "viva-aerobus",
@@ -2262,7 +2320,8 @@
     "cities": [],
     "locationNote": "Cupón por correo válido en vuelos de la aerolínea; promo no oficial",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "aztlan-parque-urbano",
@@ -2296,7 +2355,8 @@
     ],
     "locationNote": "Solo Bosque de Chapultepec, CDMX",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "el-rollo",
@@ -2331,7 +2391,8 @@
     ],
     "locationNote": "Parque en Tlaquiltenango, Morelos (ciudad más cercana de la lista: Cuautla)",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "six-flags-mexico",
@@ -2364,7 +2425,8 @@
     ],
     "locationNote": "Parque en Tlalpan, CDMX (Hurricane Harbor Oaxtepec es aparte)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "hooters-mexico",
@@ -2411,7 +2473,8 @@
     ],
     "locationNote": "Solo sucursales participantes de hooters.com.mx: CDMX, Edomex (Satélite, Atizapán, Coacalco, Las Américas, Metepec), Querétaro, Guadalajara, Monterrey y Puebla. Atizapán -> naucalpan; Cosmopol (Coacalco) -> ecatepec; Metepec -> toluca. Las sucursales de Cancún son de otro operador y no figuran en el sitio oficial.",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "hsbc-mexico",
@@ -2439,7 +2502,8 @@
     "cities": [],
     "locationNote": "Beneficio de tarjeta de crédito HSBC Easy Points, aplica en compras en cualquier lugar",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "santander-fiesta-rewards-oro",
@@ -2468,7 +2532,8 @@
     "cities": [],
     "locationNote": "Solo restaurantes participantes Casual Dining e Invitta (en hoteles Grupo Posadas); consumo máximo $12,000",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "kataplum",
@@ -2501,7 +2566,8 @@
     ],
     "locationNote": "Único parque: Parque Las Antenas, Iztapalapa (CDMX). La ficha menciona Parque Toreo/Naucalpan, pero los T&C oficiales solo listan Las Antenas",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "turibus",
@@ -2534,7 +2600,8 @@
     ],
     "locationNote": "Solo recorrido Turi Cervecero en CDMX",
     "needsId": true,
-    "companions": 5
+    "companions": 5,
+    "validUntil": "2026-10-31"
   },
   {
     "slug": "didi-club",
@@ -2564,7 +2631,8 @@
     "cities": [],
     "locationNote": "Válido en las ciudades de México donde opera DiDi (viajes y DiDi Food)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "pricetravel",
@@ -2593,7 +2661,8 @@
     "cities": [],
     "locationNote": "Reserva en línea en todo México; solo hoteles y paquetes a destinos mexicanos",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "selva-magica",
@@ -2628,7 +2697,8 @@
     ],
     "locationNote": "Único parque: Paseo del Zoológico 600, Guadalajara",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "greenspa",
@@ -2661,7 +2731,8 @@
     ],
     "locationNote": "Única sucursal listada: Sebastian Bach 4759, Zapopan (zona metropolitana de Guadalajara)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "space-jump",
@@ -2693,7 +2764,8 @@
     "cities": [],
     "locationNote": "Sucursales en Edomex (Santín, Zumpango, Tepozán, Atlacomulco, Ixtlahuaca, Santiago Tianguistenco), CDMX (Centenario) y Querétaro",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "alboa",
@@ -2728,7 +2800,8 @@
     ],
     "locationNote": "Solo Alboa Santa Fe, Artz Pedregal y Patriotismo (CDMX) y Mundo E (Tlalnepantla)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "laboratorios-lapi",
@@ -2762,7 +2835,8 @@
     "cities": [],
     "locationNote": "Sucursales Lapi en CDMX, Edomex (Satélite, Lomas Verdes, Cuautitlán, Interlomas, Metepec), Mérida y Querétaro",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "porfirios-guadalajara",
@@ -2801,7 +2875,8 @@
     ],
     "locationNote": "Porfirio's Punto Sao Paulo (Calle Sao Paulo 2334 A, Providencia, Guadalajara). La página de promociones también lista Mérida (jueves), que está en otra ficha",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "terraza-angelo-guadalajara",
@@ -2837,7 +2912,8 @@
     ],
     "locationNote": "Calle Santa Mónica 1010, La Normal, Guadalajara. Cartel oficial sin fecha de vigencia (el sitio lo publica desde 2022)",
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "hyper-restaurante-guadalajara",
@@ -2872,7 +2948,8 @@
     ],
     "locationNote": "Av. Ignacio L. Vallarta 1589, col. Americana, Guadalajara (frente a Sanborns). Información tomada de las publicaciones de TikTok del propio restaurante (@hypergdl)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "los-reyes-del-cafe-zapopan",
@@ -2910,7 +2987,8 @@
     ],
     "locationNote": "Sucursales Av. Patria 1255 (Mirador del Sol, Zapopan) y Av. Morelos 1973 (Guadalajara); confirmar cuál ofrece el buffet. Condiciones tomadas de sus redes y listados, no del sitio web",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "mariscos-don-gau-tesistan",
@@ -2944,7 +3022,8 @@
     ],
     "locationNote": "Fray Elías 405, Tesistán (Zapopan). Condiciones tomadas del resumen de la página de Facebook del negocio",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "casa-bariachi-guadalajara",
@@ -2978,7 +3057,8 @@
     ],
     "locationNote": "Casa Bariachi, Av. Vallarta (Arcos Vallarta), Guadalajara. Promoción publicada como imagen en el sitio oficial, sin fecha de vigencia",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-churrasqueria-maneiro-guadalajara",
@@ -3012,7 +3092,8 @@
     ],
     "locationNote": "Sitio oficial: Calz. Revolución 2232, Guadalajara (el video menciona Av. México 2942)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "chololo-patria-guadalajara",
@@ -3046,7 +3127,8 @@
     ],
     "locationNote": "Av. Patria 1100, Lomas del Nilo, Guadalajara",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mariscos-zapopan-restaurante",
@@ -3081,7 +3163,8 @@
     ],
     "locationNote": "Av. Juan Palomar y Arias 565, Zapopan",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "tres-generaciones-guadalajara",
@@ -3116,7 +3199,8 @@
     ],
     "locationNote": "Cantina tapatía en Guadalajara; dirección no confirmada",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "casa-maro-guadalajara",
@@ -3151,7 +3235,8 @@
     ],
     "locationNote": "Justo Sierra 2573, Arcos Vallarta, Guadalajara",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "punto-mazatlan-gdl",
@@ -3185,7 +3270,8 @@
     ],
     "locationNote": "Restaurante-bar de mariscos estilo Mazatlán en Guadalajara; dirección no confirmada",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "isabella-club-guadalajara",
@@ -3218,7 +3304,8 @@
     ],
     "locationNote": "Prisciliano Sánchez 396, Centro, Guadalajara",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "korean-bbq-guadalajara-zapopan",
@@ -3253,7 +3340,8 @@
     ],
     "locationNote": "Sucursal Patria (Av. Patria 791, Zapopan) y sucursal Providencia (Av. Rubén Darío 425, Guadalajara); confirmar cuál participa",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-gorderon-tlaquepaque",
@@ -3288,7 +3376,8 @@
     ],
     "locationNote": "Contreras Medellín 167, centro de Tlaquepaque (zona metropolitana de Guadalajara)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-perla-de-jalisco-guadalajara",
@@ -3321,7 +3410,8 @@
     ],
     "locationNote": "Mariano Otero 3000 (Plaza La Perla), Guadalajara",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "la-perla-del-pacifico-tonala",
@@ -3355,7 +3445,8 @@
     ],
     "locationNote": "Sucursal Campestre Tierra Linda (Tonalá); también hay una en Av. Patria 900, Tonalá",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "han-kang-sushi-buffet-guadalajara",
@@ -3388,7 +3479,8 @@
     ],
     "locationNote": "Plaza Bonita, Av. México 3370 B-11, Monraz, Guadalajara",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "fogon-de-cirilo-tonala",
@@ -3423,7 +3515,8 @@
     ],
     "locationNote": "Camino al Vado 2507, Tonalá",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "the-urban-live-guadalajara",
@@ -3458,7 +3551,8 @@
     ],
     "locationNote": "Av. Chapultepec Sur 177, 2.º piso, col. Americana, Guadalajara",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-trrincheraa-guadalajara",
@@ -3495,7 +3589,8 @@
     ],
     "locationNote": "Sucursal Moderna (Av. Francia 1400, Guadalajara) y Lienzo Charro Las Cañadas (San Isidro Sur 2, Zapopan); el sitio no aclara si cambia algo por sucursal",
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "la-nona-lola-guadalajara",
@@ -3537,7 +3632,8 @@
     ],
     "locationNote": "Sucursal Guadalajara en Avanti Plaza (Morelos 1739 int. 7, col. Americana); también hay sucursales en León, Aguascalientes y Guanajuato. Confirmar que la promoción aplica en tu sucursal",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "zoologico-guadalajara",
@@ -3574,7 +3670,8 @@
     ],
     "locationNote": "Zoológico Guadalajara, Paseo del Zoológico 600 (Huentitán, Guadalajara). Solo taquilla física",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sealand-guadalajara",
@@ -3610,7 +3707,8 @@
     ],
     "locationNote": "Solo Sealand Guadalajara, Centro Comercial Santa Anita (zona Tlajomulco/Tlaquepaque). Tel. 33 1598 8270",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-10-31"
   },
   {
     "slug": "mr-e-cuartos-de-escape-guadalajara",
@@ -3644,7 +3742,8 @@
     ],
     "locationNote": "Calle José María Morelos 2288, Arcos Vallarta, Guadalajara. Cierra los martes",
     "needsId": false,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "acuario-michin-guadalajara",
@@ -3678,7 +3777,8 @@
     ],
     "locationNote": "Calle Mariano Bárcena 990, Guadalajara. Promo solo citada por un blog",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "canon-de-las-flores-zapopan",
@@ -3714,7 +3814,8 @@
     ],
     "locationNote": "Av. Cañón de las Flores 100, La Primavera, Zapopan (a unos 30-45 min de Guadalajara)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "la-santa-dance-night-club-guadalajara",
@@ -3749,7 +3850,8 @@
     ],
     "locationNote": "Av. Real de Acueducto 371, Puerta de Hierro, Zapopan",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "lola-lolita-bar-guadalajara",
@@ -3783,7 +3885,8 @@
     ],
     "locationNote": "Av. Vallarta 1110, Col. Americana, Guadalajara",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "julio-boutique-guadalajara",
@@ -3816,7 +3919,8 @@
     "cities": [],
     "locationNote": "Cadena nacional. En la zona GDL: Galerías, Plaza del Sol, La Gran Plaza, Plaza Patria y Midtown (Guadalajara/Zapopan) y Outlet Las Plazas (Tlajomulco)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "joyerias-bizzarro",
@@ -3849,7 +3953,8 @@
     "cities": [],
     "locationNote": "Cadena nacional. En GDL: Galerías Guadalajara, Plaza Patria, La Gran Plaza y La Perla (Plaza del Sol)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "holiday-inn-guadalajara-select",
@@ -3885,7 +3990,8 @@
     ],
     "locationNote": "Av. Niños Héroes 3089 (esq. López Mateos), Jardines de los Arcos, Guadalajara",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "holiday-inn-guadalajara-expo",
@@ -3921,7 +4027,8 @@
     ],
     "locationNote": "Av. López Mateos Sur 2500 (esq. Mariano Otero), Ciudad del Sol, Zapopan",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "farmacias-del-ahorro",
@@ -3951,7 +4058,8 @@
     "cities": [],
     "locationNote": "Farmacias del Ahorro en México; la página no aclara si aplica en sucursal, en línea o ambos",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sushi-factory",
@@ -4006,7 +4114,8 @@
     ],
     "locationNote": "Sucursales en Culiacán y Mazatlán (SIN), Guadalajara/Zapopan (JAL), Tijuana (BCN), Morelia (MIC), La Paz (BCS), Monterrey (NLE) y CDMX/Naucalpan; la promo no aplica en la sucursal de Tepic",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "justo",
@@ -4042,7 +4151,8 @@
     ],
     "locationNote": "Súper 100% en línea; solo entrega en CDMX y algunas zonas del área metropolitana",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "pf-changs",
@@ -4073,7 +4183,8 @@
     "cities": [],
     "locationNote": "Sucursales P.F. Chang's participantes en Wow Rewards; no confirmado oficialmente por la marca",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "the-cheesecake-factory",
@@ -4104,7 +4215,8 @@
     "cities": [],
     "locationNote": "Sucursales participantes en Wow Rewards; no confirmado oficialmente por la marca",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "chedraui",
@@ -4135,7 +4247,8 @@
     "cities": [],
     "locationNote": "Publicado como oferta local en CDMX; no confirmado en otras ciudades",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "fiesta-americana-acapulco-villas",
@@ -4171,7 +4284,8 @@
     ],
     "locationNote": "Solo Fiesta Americana Acapulco Villas (Acapulco, Guerrero)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-18"
   },
   {
     "slug": "fiesta-americana-cancun-villas",
@@ -4207,7 +4321,8 @@
     ],
     "locationNote": "Solo Fiesta Americana Cancún Villas (Cancún, Quintana Roo)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-18"
   },
   {
     "slug": "cuadra",
@@ -4239,7 +4354,8 @@
     "cities": [],
     "locationNote": "Válido en línea en todo México; no se puede usar en tiendas físicas",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "calvin-klein-mexico",
@@ -4270,7 +4386,8 @@
     "cities": [],
     "locationNote": "Válido en línea en todo México; no aplica en tiendas físicas ni outlets",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "100-natural",
@@ -4312,7 +4429,8 @@
     "cities": [],
     "locationNote": "Sucursales participantes en Puntos 100: Cancún, Playa del Carmen, Acapulco, Chilpancingo, Iguala, Cuernavaca, Puebla, Metepec, Oaxaca, Querétaro, Villahermosa y Mérida",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "brooks-brothers-mexico",
@@ -4343,7 +4461,8 @@
     "cities": [],
     "locationNote": "Válido en línea en todo México; no aplica en tiendas físicas",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "coppel-max-bancoppel",
@@ -4376,7 +4495,8 @@
     "cities": [],
     "locationNote": "Aplica en compras con la tarjeta BanCoppel en México y el extranjero; el T&C consultado es la versión de enero 2024",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mac-cosmetics-mexico",
@@ -4409,7 +4529,8 @@
     "cities": [],
     "locationNote": "Solo tienda en línea de México (maccosmetics.com.mx)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "the-body-shop-mexico",
@@ -4442,7 +4563,8 @@
     "cities": [],
     "locationNote": "Solo compras en línea en México",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "kiko-milano-mexico",
@@ -4476,7 +4598,8 @@
     "cities": [],
     "locationNote": "Tiendas KIKO operadas directamente por el grupo y sitio oficial; el T&C menciona que el sitio estará 'cuando esté disponible'",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "chuck-e-cheeses-mexico",
@@ -4508,7 +4631,8 @@
     "cities": [],
     "locationNote": "Sucursales Chuck E. Cheese's en México; el formulario pide elegir ciudad y sucursal",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "city-club-premia",
@@ -4542,7 +4666,8 @@
     "cities": [],
     "locationNote": "Cualquier club City Club de México; requiere membresía Premia de pago ($600)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "spin-premia-oxxo",
@@ -4573,7 +4698,8 @@
     "cities": [],
     "locationNote": "Tiendas OXXO en México",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "wok-garden-monterrey",
@@ -4609,7 +4735,8 @@
     ],
     "locationNote": "Galerías Monterrey y Plaza Áuriga (San Pedro Garza García) en NL; también Galerías Metepec (Edomex). Nota: videos de terceros hablan de '3 acompañantes', pero el sitio oficial dice 6 o más adultos.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "oriental-wok",
@@ -4645,7 +4772,8 @@
     ],
     "locationNote": "19 sucursales en el área metropolitana de Monterrey (la promo está publicada en su página de Nuevo León). También hay sucursales en Matamoros, Nuevo Laredo y Reynosa, pero no se confirmó que apliquen esta promo.",
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "noreste-grill",
@@ -4686,7 +4814,8 @@
     ],
     "locationNote": "Cerca de 20 sucursales en el área metropolitana de Monterrey, además de Saltillo (donde nació en 2008) y Ciudad de México.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mr-pampas",
@@ -4723,7 +4852,8 @@
     ],
     "locationNote": "Sucursales en Monterrey (San Pedro y Garza Sada), Saltillo y Torreón entre otras; las promos de cumpleaños varían por ciudad. Su página de promociones está fechada en 2019 y las reglas de arriba no se pudieron confirmar en sitio oficial: confirma con la sucursal.",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "the-food-box",
@@ -4762,7 +4892,8 @@
     ],
     "locationNote": "Sucursales en Monterrey/San Pedro, Saltillo y CDMX según su Instagram; no se pudo confirmar qué sucursales participan. Los términos salen de un video oficial de TikTok de 2024, no de su sitio.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "elotes-eddys-roasted-corn",
@@ -4796,7 +4927,8 @@
     ],
     "locationNote": "3 sucursales: Pablo Livas (Guadalupe), Bosques del Contry y Zertuche",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-gran-pastor",
@@ -4831,7 +4963,8 @@
     ],
     "locationNote": "Unas 8 sucursales en Monterrey, Guadalupe, San Nicolás y San Pedro",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "papalote-museo-del-nino-monterrey",
@@ -4868,7 +5001,8 @@
     ],
     "locationNote": "Papalote Museo del Niño Monterrey (único recinto en la zona)",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "la-santa-kitchen-bar",
@@ -4902,7 +5036,8 @@
     ],
     "locationNote": "Sucursales como Paseo Tec 2, Nogalar, Plaza Sienna y Plaza Citadel",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-cipolla-saltillo",
@@ -4937,7 +5072,8 @@
     ],
     "locationNote": "Una sucursal en Plaza Casa Grande, Blvd. José Musa, Saltillo",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tgi-fridays-tampico",
@@ -4972,7 +5108,8 @@
     ],
     "locationNote": "Franquicia local TGI Fridays Tampico (variante regional de una marca ya registrada); las condiciones pueden diferir de otras franquicias.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mr-pampas-baja-california",
@@ -5010,7 +5147,8 @@
     ],
     "locationNote": "Términos oficiales de la marca; la promo de Ensenada aparece en su flyer propio. Condiciones pueden variar por sucursal (Tijuana: Otay y Blvd. Sánchez Taboada).",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "sonora-grill",
@@ -5051,7 +5189,8 @@
     "cities": [],
     "locationNote": "Todas las sucursales (CDMX: Amores, Coyoacán, Miyana, Nápoles, Narvarte, Reforma, Coapa, Roma; Edomex: Mundo E)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "incredible-pizza-chihuahua",
@@ -5087,7 +5226,8 @@
     ],
     "locationNote": "Periférico de la Juventud 6506, Col. Mezquites",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "wings-army-chihuahua-juarez",
@@ -5124,7 +5264,8 @@
     ],
     "locationNote": "Cuarteles en Chihuahua y Ciudad Juárez (Galerías Tec, Av. Tecnológico 1770)",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "grupo-rosanegra-los-cabos",
@@ -5158,7 +5299,8 @@
     ],
     "locationNote": "Rosa Negra, Funky Geisha, Craft San José, Amante, Chambao, Tamara Beach Club y Taboo (Cabo)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "260-grados-baja-california",
@@ -5194,7 +5336,8 @@
     ],
     "locationNote": "Sucursales Ensenada (Plaza Marina), Tijuana (Plaza Minarete / Blvd. Sánchez Taboada) y Mexicali (Plaza Gran Vía)",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "kitsilano-mazatlan",
@@ -5228,7 +5371,8 @@
     ],
     "locationNote": "Claussen, Olas Altas",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "moira-mazatlan",
@@ -5262,7 +5406,8 @@
     ],
     "locationNote": null,
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "31-sushi-bar-mazatlan",
@@ -5296,7 +5441,8 @@
     ],
     "locationNote": null,
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "mr-pampas-guadalajara",
@@ -5333,7 +5479,8 @@
     ],
     "locationNote": "Texto tomado del sitio oficial de Mr. Pampas Guadalajara (sucursal La Rioja, Urban Center, Tlajomulco). Mr. Pampas Gdl también tiene sucursales Urbania y Otero; en León, Querétaro y San Luis Potosí la marca tiene sucursales pero su sitio no publica la promo: confirma con ellas.",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": "2026-11-30"
   },
   {
     "slug": "pampas-steak-house-queretaro",
@@ -5372,7 +5519,8 @@
     ],
     "locationNote": "Sucursales Centro Sur, Plaza de Toros y Paseo de la República en Querétaro; el flyer oficial no distingue sucursales.",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": "2026-11-30"
   },
   {
     "slug": "la-vaka-bajio",
@@ -5420,7 +5568,8 @@
     ],
     "locationNote": "Sucursales participantes en la región: Juriquilla (Querétaro), La Perla (Guadalajara) y León Aeropuerto (Guanajuato). Complementa la ficha 'la-vaka' de CDMX/Edomex; la misma promo aplica en sus sucursales de CDMX y Edomex.",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "domun-hotel-queretaro",
@@ -5457,7 +5606,8 @@
     ],
     "locationNote": "Restaurante de Domun Hotel Comfort Business Class, Querétaro.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "los-muchachos-zapopan",
@@ -5494,7 +5644,8 @@
     ],
     "locationNote": "Sucursales Parque Metropolitano (Santa María del Pueblito), Valdepeñas y Tesistán, en Zapopan; abren miércoles a domingo.",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "sirloin-aguascalientes",
@@ -5531,7 +5682,8 @@
     ],
     "locationNote": "Solo sucursal Aguascalientes: Av. Héroe de Nacozari Sur 2101, Jardines de las Bugambilias.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "fishers-queretaro-morelia",
@@ -5576,7 +5728,8 @@
     ],
     "locationNote": "Válido en todas las sucursales Fisher's. En la región: Querétaro (Blvd. Bernardo Quintana 22) y Morelia (Paseo Altozano); también CDMX, Edomex y Guerrero.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "cafe-sabina-guadalajara",
@@ -5609,7 +5762,8 @@
     ],
     "locationNote": "Calle General San Martín 171, Guadalajara.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "pozole-la-morenita-leon",
@@ -5641,7 +5795,8 @@
     ],
     "locationNote": null,
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "buffet-sabor-a-mexico-leon",
@@ -5674,7 +5829,8 @@
     ],
     "locationNote": "Blvd. Vicente Valtierra 6969, León.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mexican-tacos-bar-leon",
@@ -5706,7 +5862,8 @@
     ],
     "locationNote": null,
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "restaurante-el-cielo-leon",
@@ -5738,7 +5895,8 @@
     ],
     "locationNote": null,
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-esquina-del-waffle-leon",
@@ -5771,7 +5929,8 @@
     ],
     "locationNote": null,
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "lucky-wings-queretaro-slp",
@@ -5806,7 +5965,8 @@
     ],
     "locationNote": "Dato de directorio para Blvd. Bernardo Quintana (Querétaro); Lucky también tiene sucursales en San Luis Potosí.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "cabo-grill-queretaro",
@@ -5840,7 +6000,8 @@
     ],
     "locationNote": "Plaza Esfera, Autopista Querétaro-Celaya 5501.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "don-carbon-queretaro",
@@ -5874,7 +6035,8 @@
     ],
     "locationNote": "Plaza Esfera, Querétaro.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mama-fish-queretaro",
@@ -5906,7 +6068,8 @@
     ],
     "locationNote": "Carretera San Luis Potosí-Querétaro.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "restaurante-hakuna-queretaro",
@@ -5939,7 +6102,8 @@
     ],
     "locationNote": "Blvd. Bernardo Quintana.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "pepe-el-toro-queretaro",
@@ -5973,7 +6137,8 @@
     ],
     "locationNote": "Urban Center Jurica.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "selva-taurina-queretaro",
@@ -6007,7 +6172,8 @@
     ],
     "locationNote": "Calle Ezequiel Montes 55, Centro.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "comida-callejera-xl-queretaro",
@@ -6042,7 +6208,8 @@
     ],
     "locationNote": null,
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "taquinos-queretaro",
@@ -6075,7 +6242,8 @@
     ],
     "locationNote": null,
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "artemisia-san-luis-potosi",
@@ -6107,7 +6275,8 @@
     ],
     "locationNote": "Venustiano Carranza 1190, San Luis Potosí.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mendocinos-tampico",
@@ -6142,7 +6311,8 @@
     ],
     "locationNote": "Mendocinos Premium, Av. Hidalgo 5107, Fracc. Flamboyanes, Tampico; tel. (833) 116-5031. Es la única sucursal que lista su sitio, que no muestra fecha de vigencia.",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "tampiquissimo-fish-grill-tampico",
@@ -6177,7 +6347,8 @@
     ],
     "locationNote": "Av. Hidalgo 3801, col. Guadalupe, Tampico. El sitio oficial aún muestra precios de feb-mar 2019, así que confirma por teléfono que la promo siga vigente.",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "sensacao-churrascaria-saltillo",
@@ -6215,7 +6386,8 @@
     ],
     "locationNote": "Sensação Saltillo, Blvd. Venustiano Carranza km 5.5 (tel. 844 432 1257); la promo se reporta válida en Saltillo y Monterrey. Algunas publicaciones dicen \"con 4 personas\", que puede incluirte a ti: confirma la regla.",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "mariscos-de-la-rosa-matamoros",
@@ -6250,7 +6422,8 @@
     ],
     "locationNote": "Sucursal Arboledas, Matamoros (página de Facebook \"Mariscos de la Rosa Suc. Arboledas\"). No pude abrir el post original: confirma por redes o teléfono.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "chuy-yen-tampico",
@@ -6284,7 +6457,8 @@
     ],
     "locationNote": "Blvd. Emilio Portes Gil 1608, col. Guadalupe Mainero, Tampico; cocina china desde 1978. La promo aparece solo en resúmenes de sus redes, que no pude abrir.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "el-huachinango-reynosa",
@@ -6318,7 +6492,8 @@
     ],
     "locationNote": "Sucursal en Paseo Reynosa (hay otra Suc. Morelos). Buffet reportado en $299 por persona; confirma precio y promo.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "rafitas-restaurant-bar-matamoros",
@@ -6351,7 +6526,8 @@
     ],
     "locationNote": "Marina Nacional y Manuel de la Cruz, detrás de Plaza San Patricio, Matamoros.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "la-botanita-reynosa",
@@ -6384,7 +6560,8 @@
     ],
     "locationNote": "Sucursales Cumbres (Blvd. Mil Cumbres) y Petrolera (Blvd. Poza Rica), Reynosa.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "cimaco-cumpleanos",
@@ -6420,7 +6597,8 @@
     ],
     "locationNote": "Tiendas Cimaco en Torreón, Saltillo y Monclova (también Ciudad Juárez, Mazatlán y Culiacán). Los datos salen de su página de preguntas frecuentes, que mi navegador no pudo abrir: confirma el detalle del certificado.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tipioka-tampico",
@@ -6453,7 +6631,8 @@
     ],
     "locationNote": "Sucursal Galerías Altama en Tampico (el sitio oficial también lista San Luis Potosí y Ciudad Valles).",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "nikkori-sushi-saltillo",
@@ -6492,7 +6671,8 @@
     ],
     "locationNote": "Sucursales en Saltillo, Ramos Arizpe y Nuevo León. La nota de Cazaofertas es de 2019 y el sitio oficial está suspendido: confirma en su Facebook.",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "paneamore-saltillo",
@@ -6527,7 +6707,8 @@
     ],
     "locationNote": "Sucursal en Blvd. Moctezuma 2156, Saltillo (tienen 3 sucursales en Saltillo y una en Querétaro). Solo la vimos en un video de TikTok.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "meson-de-la-acequia-saltillo",
@@ -6561,7 +6742,8 @@
     ],
     "locationNote": "Allende Sur 135, Centro Histórico de Saltillo. Datos de resúmenes de redes y TikTok.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "kimchee-saltillo",
@@ -6594,7 +6776,8 @@
     ],
     "locationNote": "Plaza Arcada, segundo piso, Calle Cuauhtémoc, Saltillo. Dato tomado de resúmenes de sus redes (TikTok); no pude abrir el post original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "rustic-buffet-durango",
@@ -6627,7 +6810,8 @@
     ],
     "locationNote": "Cerrada Gabino Barreda, frente al Jardín Hidalgo (Santa Ana), centro de Durango; tel. 618 103 0621. Buffet de desayuno, comida y cena.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "picanha-y-carvao-saltillo",
@@ -6662,7 +6846,8 @@
     ],
     "locationNote": "Blvd. José Musa de León 2621, Valle Real 2do Sector, Saltillo. El sitio picanha.com.mx que aparece en su bio corresponde a la sucursal de Puebla y no trae la promo.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "stars-and-cream-tampico",
@@ -6697,7 +6882,8 @@
     ],
     "locationNote": "Sucursales en Tampico, Madero y Altamira (tel. matriz 833 124 3333). No sé en cuáles aplica: confirma antes de ir.",
     "needsId": null,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "pampas-do-brasil-torreon",
@@ -6732,7 +6918,8 @@
     ],
     "locationNote": "Paseo de la Rosita 421, Torreón. Es un restaurante distinto de Mr. Pampas (Blvd. Independencia 2727, que ya está en el catálogo). El sitio pampasdobrasil.com no abrió; las reglas salen de su Facebook y no tienen fecha.",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "el-costenito-saltillo",
@@ -6767,7 +6954,8 @@
     ],
     "locationNote": "Costeñito Saltillo Norte (Blvd. Venustiano Carranza 2302) y Costeñito República. La nota de POSTA tiene más de un año; confirma con la sucursal.",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "don-arturo-mariscos-matamoros",
@@ -6802,7 +6990,8 @@
     ],
     "locationNote": "Calle Sexta y Marina Nacional, frente a Plaza San Patricio, Matamoros; abierto todos los días de 11:00 a 19:00 según la reseña (buffet de unos $300 por adulto). La marca también tiene sucursal en Monterrey.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "reginas-reynosa",
@@ -6834,7 +7023,8 @@
     ],
     "locationNote": "Col. Longoria, Reynosa (por la zona de la Ministerial). Solo la vi en una página de resultados de TikTok.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-makarena-reynosa",
@@ -6866,7 +7056,8 @@
     ],
     "locationNote": "Reynosa; abre de miércoles a domingo de 4:00 pm a 12:00 am según sus redes.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "las-shulas-cevicheria-reynosa",
@@ -6899,7 +7090,8 @@
     ],
     "locationNote": "Reynosa. Dato tomado de resúmenes de sus publicaciones.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "songui-mariscos-torreon",
@@ -6932,7 +7124,8 @@
     ],
     "locationNote": "Sucursales en Francisco Sarabia 137 (ex Hacienda La Merced) y Av. Juárez 2899 y Calle 29, Torreón.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "jardin-jhorros-lerdo",
@@ -6969,7 +7162,8 @@
     ],
     "locationNote": "Col. Castilagua, Lerdo, Durango (zona metropolitana de La Laguna). Datos de resúmenes de sus redes; su sitio no abrió.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "baldoria-torreon",
@@ -7006,7 +7200,8 @@
     ],
     "locationNote": "Sucursales en Torreón y Gómez Palacio (también hay una en Chihuahua). La promo está en un banner de imagen: el sitio no da fecha ni condiciones.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "parque-de-aventura-san-miguel-san-miguel-de-allende",
@@ -7043,7 +7238,8 @@
     ],
     "locationNote": "Libramiento José Manuel Zavala Zavala, San Miguel de Allende",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "diego-restaurante-celaya",
@@ -7079,7 +7275,8 @@
     ],
     "locationNote": "Restaurante del hotel DoubleTree by Hilton Celaya, Blvd. Adolfo López Mateos Ote. 1260",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "coffee-park-pachuca",
@@ -7113,7 +7310,8 @@
     ],
     "locationNote": "Sucursal Centro: Ignacio Allende 612, Pachuca",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "termas-del-rey-tequisquiapan",
@@ -7148,7 +7346,8 @@
     ],
     "locationNote": "Está en Tequisquiapan (Carretera Tequisquiapan–Ezequiel Montes km 10), a unos 30 minutos de San Juan del Río",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "maria-palapa-buffet-pachuca",
@@ -7184,7 +7383,8 @@
     ],
     "locationNote": "Blvd. Felipe Ángeles 1400, Col. Santa Julia, Pachuca",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "tacos-el-chato-sanchez-celaya",
@@ -7218,7 +7418,8 @@
     ],
     "locationNote": "Sucursales como Eje Nor-Poniente Manuel J. Clouthier 510 y Av. Francisco Juárez 1201",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "madero-restaurante-bajio-hidalgo",
@@ -7256,7 +7457,8 @@
     "cities": [],
     "locationNote": "Según listados de restaurantes tiene sucursales en Pachuca (San Javier), Celaya (Patio Madero), Irapuato y Querétaro; confirma la sucursal más cercana",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "don-triton-tlaxcala",
@@ -7291,7 +7493,8 @@
     ],
     "locationNote": "Santa María Acuitlapilco, Tlaxcala; el buffet abre desde las 11:30 am (según reseñas, cierra alrededor de las 6 pm)",
     "needsId": true,
-    "companions": 6
+    "companions": 6,
+    "validUntil": null
   },
   {
     "slug": "buffa-wings-apizaco",
@@ -7328,7 +7531,8 @@
     ],
     "locationNote": "Apizaco, Tlaxcala: Av. Juárez 1115, Centro",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "el-payo-cocina-de-mar-apizaco",
@@ -7363,7 +7567,8 @@
     ],
     "locationNote": "Apizaco, Tlaxcala: Prol. 16 de Septiembre 311, Col. San Isidro; abre de 12 a 19 h todos los días",
     "needsId": true,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "la-carika-restaurante-pachuca",
@@ -7399,7 +7604,8 @@
     ],
     "locationNote": "Autopista México-Pachuca km 73, Zapotlán de Juárez, a unos 5 minutos de Pachuca",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "supremos-tacos-drinks-pachuca",
@@ -7433,7 +7639,8 @@
     ],
     "locationNote": "Hacienda San Lunes, Río de la Soledad (zona Pachuca / Mineral de la Reforma)",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "doblecero-horno-y-parrilla-celaya",
@@ -7468,41 +7675,8 @@
     ],
     "locationNote": "Morelos 308 esq. 2 de Abril, Plaza Laureto, Celaya",
     "needsId": true,
-    "companions": 2
-  },
-  {
-    "slug": "santo-pollo-celaya",
-    "brand": "Santo Pollo",
-    "category": "restaurantes",
-    "benefit": "Cumpleañeros no pagan en el buffet con karaoke",
-    "benefitType": "gratis",
-    "details": "Restaurante de pollo, arrachera y alitas al aire libre que, según publicaciones en redes, no cobra a los cumpleañeros en su buffet con karaoke. Abre solo viernes, sábado y domingo de 12 a 18 h. No hay reglas publicadas que pude confirmar (acompañantes, identificación, vigencia): pregunta antes de ir.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Abre viernes a domingo de 12 a 18 h",
-      "Acompañantes, identificación y vigencia: sin confirmar"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "No especificado; solo fines de semana",
-    "minPurchase": null,
-    "howToClaim": "Avisa en el restaurante que es tu cumpleaños y pregunta por las condiciones.",
-    "sources": [
-      "https://www.tiktok.com/@santopollocelaya",
-      "https://www.facebook.com/people/Santo-Pollo-celaya/100054479620330/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "GUA"
-    ],
-    "cities": [
-      "celaya"
-    ],
-    "locationNote": "Av. del Monte 161 A, Ex Hacienda de Trojes, Celaya",
-    "needsId": true,
-    "companions": null
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "picanteria-mariscos-pachuca",
@@ -7537,7 +7711,8 @@
     ],
     "locationNote": "Sucursal Pachuca: Blvd. Nuevo Hidalgo 203",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "parque-acuatico-tlaco-chilcuautla",
@@ -7570,7 +7745,151 @@
     "cities": [],
     "locationNote": "Tlacotlapilco, Chilcuautla, Hidalgo (valle del Mezquital); no está en Pachuca",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "zibu-allende-live-aqua-san-miguel-de-allende",
+    "brand": "Zibu Allende (Live Aqua San Miguel de Allende)",
+    "category": "restaurantes",
+    "benefit": "Pastel de cortesía y noche para dos con 10 o más invitados",
+    "benefitType": "regalo-con-compra",
+    "details": "En la página oficial del restaurante del hotel Live Aqua San Miguel de Allende, si reúnes 10 invitados o más recibes un pastel de cumpleaños de cortesía y una noche de hospedaje para dos durante tu mes de cumpleaños, siempre que se cubra el consumo mínimo. Los términos indican que solo es válido en el mes de cumpleaños del titular, exige identificación oficial con fotografía, tiene consumo mínimo (no publicado), es intransferible, sujeto a disponibilidad y no se combina con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 10 invitados o más",
+      "Identificación oficial con fotografía",
+      "Solo durante tu mes de cumpleaños",
+      "Aplica un consumo mínimo (monto no publicado)",
+      "Intransferible, sujeto a disponibilidad",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante el mes de cumpleaños del titular",
+    "minPurchase": null,
+    "howToClaim": "Reserva por correo (asistaybaqsm@posadas.com), teléfono (+52 415 150 2300) o WhatsApp y avisa que es tu mes de cumpleaños.",
+    "sources": [
+      "https://www.fiestamericanatravelty.com/en/live-aqua/hotels/live-aqua-san-miguel-de-allende/dining/zibu-allende"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Restaurante del hotel Live Aqua San Miguel de Allende; el sitio habla del 'titular' (posible tarjeta del programa de lealtad), confirma si necesitas membresía",
+    "needsId": true,
+    "companions": 9,
+    "validUntil": null
+  },
+  {
+    "slug": "el-timon-mariscos-apizaco",
+    "brand": "El Timón (buffet de mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis en su mes con 3 o más personas",
+    "benefitType": "gratis",
+    "details": "Buffet de mariscos en Apizaco que, según publicaciones en redes, regala el buffet del cumpleañero si va durante el mes de su cumpleaños con tres personas o más y presenta su INE. No pude abrir la publicación original: confirma días, horarios y si las tres personas incluyen al cumpleañero.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir durante el mes de tu cumpleaños",
+      "Ir con 3 personas o más",
+      "Presentar INE",
+      "Días y exclusiones: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante que es tu mes de cumpleaños y muestra tu INE.",
+    "sources": [
+      "https://www.facebook.com/restaurantedemariscoseltimon/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "TLA"
+    ],
+    "cities": [
+      "tlaxcala"
+    ],
+    "locationNote": "Apizaco, Tlaxcala: Blvd. La Libertad 1110",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": null
+  },
+  {
+    "slug": "mariscos-el-oceano-celaya",
+    "brand": "Mariscos El Océano",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis en el buffet (confirmar reglas)",
+    "benefitType": "gratis",
+    "details": "Restaurante familiar de carnes y mariscos con buffet que, según publicaciones en redes, no cobra el buffet al cumpleañero. No pude ver las condiciones (acompañantes, identificación, días): confirma por teléfono antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Acompañantes, identificación y días: sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y pregunta por las condiciones.",
+    "sources": [
+      "https://www.facebook.com/p/Mariscos-El-Oc%C3%A9ano-100046319576246/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "celaya"
+    ],
+    "locationNote": "Av. Constituyentes 409, local 2, Col. Bosques del Sol, Celaya",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "agridulce-restaurante-san-miguel-de-allende",
+    "brand": "Agridulce Restaurante",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 1 adulto (día exacto)",
+    "benefitType": "gratis",
+    "details": "Según un resumen de TikTok sobre este restaurante familiar, el cumpleañero come gratis el día exacto de su cumpleaños si va acompañado de al menos un adulto (los menores deben ir con un adulto) y los acompañantes pagan precio normal. No encontré el anuncio original del restaurante, así que confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos un adulto",
+      "Solo el día exacto del cumpleaños",
+      "Los acompañantes pagan precio normal",
+      "Fuente no oficial: confirma con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y muestra tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/discover/original-agridulce-restaurante"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "san-miguel-de-allende"
+    ],
+    "locationNote": "Calle Allende 211-B, Centro, San Miguel de Allende",
+    "needsId": true,
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "temixco-parque-acuatico-cuernavaca",
@@ -7605,7 +7924,8 @@
     ],
     "locationNote": "Temixco, Morelos (zona metropolitana de Cuernavaca)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "ojo-de-agua-temixco-cuernavaca",
@@ -7639,7 +7959,8 @@
     ],
     "locationNote": "Temixco, Morelos (zona metropolitana de Cuernavaca)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "los-manantiales-morelos",
@@ -7674,7 +7995,8 @@
     "cities": [],
     "locationNote": "Km 149 Autopista del Sol, Coaxitlán, Tlaquiltenango, Morelos (no está en Cuernavaca ni Cuautla ciudad)",
     "needsId": true,
-    "companions": 1
+    "companions": 1,
+    "validUntil": null
   },
   {
     "slug": "finca-ensamble-cholula",
@@ -7707,7 +8029,8 @@
     ],
     "locationNote": "Av. 7 Ote. 418, San Pablo Tecamac, San Andrés Cholula",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "casa-reyna-spa-puebla",
@@ -7743,7 +8066,8 @@
     ],
     "locationNote": "2 Oriente 1007, Centro Histórico de Puebla",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "los-alcatraces-villa-del-conquistador-cuernavaca",
@@ -7781,7 +8105,8 @@
     ],
     "locationNote": "Paseo del Conquistador 134, Lomas de Cortés, Cuernavaca",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "contender-go-karts-puebla-cuernavaca",
@@ -7818,7 +8143,8 @@
     ],
     "locationNote": "Pistas en San Pedro Cholula (Explanada Puebla) y Cuernavaca (Grand Outlet). También hay pistas en Querétaro, Pachuca, Riviera Maya y Culiacán.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "jump-in-cuernavaca",
@@ -7852,7 +8178,8 @@
     ],
     "locationNote": "Sucursal de Cuernavaca; también hay sucursales en CDMX y Estado de México. Confirma que aplique en la tuya.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "ozumo-buffet-fusion-bar-puebla",
@@ -7887,7 +8214,8 @@
     ],
     "locationNote": "Sucursales en Centro Histórico de Puebla (Puebla de Antaño, Rooftop, 3 Patios) y San Andrés Cholula",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "altamar-restaurante-cuautla",
@@ -7920,7 +8248,8 @@
     ],
     "locationNote": "Cuautla-El Hospital 1, col. 10 de Abril, Cuautla (dirección según su Facebook)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "dos-mil-uno-restaurante-cuautla",
@@ -7953,7 +8282,8 @@
     ],
     "locationNote": "Blvd. Libertadores 317, col. Morelos, Cuautla",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "helados-azteca-tehuacan",
@@ -7987,7 +8317,8 @@
     ],
     "locationNote": "Blvd. Héroe de Nacozari 1601A, Tehuacán (dirección según su Instagram/Facebook)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "buffet-del-barrio-cuernavaca",
@@ -8021,7 +8352,8 @@
     ],
     "locationNote": "Jacarandas 103, col. Flores Magón (Forum Cuernavaca)",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "jule-do-brasil-acapulco",
@@ -8055,7 +8387,8 @@
     ],
     "locationNote": "Av. Costera Miguel Alemán, Costa Azul, Acapulco",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "la-casa-vieja-zihuatanejo",
@@ -8090,7 +8423,8 @@
     ],
     "locationNote": "Josefa Ortiz de Domínguez 7, col. La Madera, Zihuatanejo",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "africam-safari-explorer-passport-puebla",
@@ -8126,7 +8460,8 @@
     ],
     "locationNote": "Africam Safari, Valsequillo, Puebla",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "kuro-casa-de-sushi-cholula",
@@ -8160,7 +8495,8 @@
     ],
     "locationNote": "Av. 6 Oriente 13, Centro, San Pedro Cholula",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "villa-camaron-puebla-cholula",
@@ -8194,7 +8530,8 @@
     ],
     "locationNote": "Sucursales en Plaza La Joya (San Andrés Cholula) y Av. Juárez (Puebla)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "bugambilias-buffet-chilpancingo",
@@ -8228,7 +8565,8 @@
     ],
     "locationNote": "Col. El Encanto, calle Privada Los Pinos, Chilpancingo (sin verificar)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "healthy-vibes-bistro-cuernavaca",
@@ -8262,7 +8600,8 @@
     ],
     "locationNote": "Cuernavaca, Morelos",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tres-cumbres-cuernavaca",
@@ -8296,7 +8635,8 @@
     ],
     "locationNote": "Av. San Diego 105, Vista Hermosa, Cuernavaca",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "buffet-w-acapulco",
@@ -8330,7 +8670,8 @@
     ],
     "locationNote": "Av. Costera Miguel Alemán, Acapulco",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tacos-de-la-1-tehuacan",
@@ -8363,7 +8704,8 @@
     ],
     "locationNote": "Tehuacán, Puebla (dirección exacta sin verificar)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "flamingos-tropical-sushi-acapulco",
@@ -8397,7 +8739,8 @@
     ],
     "locationNote": "Plaza Las Pérgolas, Carr. Escénica esq. Ejército Nacional, Joyas de Brisamar, Acapulco",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "clandestino-acapulco",
@@ -8431,7 +8774,8 @@
     ],
     "locationNote": "Costa Azul, Acapulco",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "los-tulipanes-villahermosa",
@@ -8465,7 +8809,8 @@
     ],
     "locationNote": "Sucursales Zona CICOM (Perif. Carlos Pellicer Cámara 511) y Parque Tomás Garrido (Blvd. Adolfo Ruiz Cortines). La página no aclara si aplica en ambas; pregunta al reservar.",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "hotel-lois-veracruz",
@@ -8501,7 +8846,8 @@
     ],
     "locationNote": "Bv. Adolfo Ruiz Cortines 10, Costa Verde, Boca del Río. Página de promociones vigente al 4-oct-2026.",
     "needsId": null,
-    "companions": 6
+    "companions": 6,
+    "validUntil": "2026-10-04"
   },
   {
     "slug": "madison-grill-veracruz-tabasco",
@@ -8542,7 +8888,8 @@
     ],
     "locationNote": "Sucursales: Veracruz/Boca del Río (Ruiz Cortines y Plaza View), Xalapa (Plaza Ankara), Córdoba (Plaza San José), Orizaba (Concordia y Poliforum), Coatzacoalcos (Plaza Teatro) y Villahermosa (Plaza Usuma). También hay sucursal en Puebla. Los términos escritos solo los vi en la ficha de Puebla.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mariscos-boca-del-rio-xalapa",
@@ -8577,7 +8924,8 @@
     ],
     "locationNote": "Sucursales: Tepic 47, Col. Progreso (Xalapa), Atenas y La Antigua (Veracruz); no verifiqué en qué ciudad está Atenas. El dato viene del texto de un post de Facebook del negocio; no pude abrir el post original.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "gema-spa-huatulco",
@@ -8610,7 +8958,8 @@
     ],
     "locationNote": "Blvd. Benito Juárez, Sector A, Mz 9A Lote 2-2, Bahías de Huatulco. Abierto lunes a domingo 9:00 a 22:00.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "barrio-mexicano-tuxtla-gutierrez",
@@ -8644,7 +8993,8 @@
     ],
     "locationNote": "Sucursal Oriente: Av. Presa Malpaso 525, Col. Los Electricistas (tel. 961 339 9485). También tiene sucursal Poniente (Libramiento Sur Poniente 245) y una en San Cristóbal; no confirmé si la promo aplica en todas.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "estrela-do-brasil-xalapa",
@@ -8680,7 +9030,8 @@
     ],
     "locationNote": "Sucursal Xalapa; la marca también tiene sucursal en Orizaba (Facebook: estrelaorizaba), pero no confirmé que la promo aplique ahí.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "black-55-tuxtla-gutierrez",
@@ -8714,7 +9065,8 @@
     ],
     "locationNote": "Dato tomado del texto de la página de Facebook del bar; no pude abrir la publicación original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "fogon-do-brasil-xalapa",
@@ -8749,7 +9101,8 @@
     ],
     "locationNote": "Sucursal 2a Priv. Agua Santa 4, Col. Badillo, Xalapa. La marca tiene también sucursales en Lencero, Plaza Naucalli, Córdoba y Orizaba (Facebook), pero no verifiqué que la promo aplique ahí.",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "varadero-xalapa",
@@ -8784,7 +9137,8 @@
     ],
     "locationNote": "Dato tomado de resúmenes de TikTok; no pude abrir el post original. También se cita Plaza Andador Encanto local 10.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "la-chata-xalapa",
@@ -8819,7 +9173,8 @@
     ],
     "locationNote": "Av. Américas 189, junto al Colegio Villa de Cortés, Xalapa (reservas 228 347 2037). Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "feng-sheng-xalapa",
@@ -8853,7 +9208,8 @@
     ],
     "locationNote": "Av. Cordillera local 11, Plaza Cima, Praderas, Xalapa. Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "santa-lupita-xalapa",
@@ -8887,7 +9243,8 @@
     ],
     "locationNote": "Carretera Federal Xalapa-Veracruz Km 2.5 L3, Jardines de las Ánimas, Xalapa. Dato de directorio/TikTok; no lo vi en canal oficial.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "los-pocitos-emiliano-zapata",
@@ -8921,7 +9278,8 @@
     ],
     "locationNote": "Km 35 de la carretera federal Xalapa-Veracruz, La Cumbre, Emiliano Zapata (a unos 40 minutos de Xalapa). Dato de nota periodística, no de canal oficial.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "aquatico-inbursa-veracruz",
@@ -8957,7 +9315,8 @@
     ],
     "locationNote": "Parque acuático en Veracruz/Boca del Río, distinto del Acuario Inbursa de CDMX. Promoción de entrada gratis no confirmada en el sitio oficial 2026.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "las-delicias-marinas-la-antigua",
@@ -8991,7 +9350,8 @@
     ],
     "locationNote": "Ubicado en La Antigua (a unos 25 km del puerto de Veracruz). Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "pizzando-orizaba",
@@ -9026,7 +9386,8 @@
     ],
     "locationNote": "Orizaba (zona Córdoba-Orizaba). Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "tango-y-pasta-orizaba",
@@ -9060,7 +9421,8 @@
     ],
     "locationNote": "Orizaba. Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "holiday-inn-coatzacoalcos-las-ventanas",
@@ -9095,7 +9457,8 @@
     ],
     "locationNote": "Dato de resúmenes de TikTok; no confirmado en canal oficial del hotel.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "la-taberna-del-bohemio-coatzacoalcos",
@@ -9129,7 +9492,8 @@
     ],
     "locationNote": "Francisco I. Madero 2400, Puerto México, Coatzacoalcos. Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tino-lee-villahermosa",
@@ -9163,7 +9527,8 @@
     ],
     "locationNote": "Plaza Bugambilia, Villahermosa. Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sampa-grill-villahermosa",
@@ -9198,7 +9563,8 @@
     ],
     "locationNote": "Sucursales Aeropuerto, Plaza Industrial y Río Viejo (993 319 3892, 993 412 2810, 993 380 0885). Dato de resúmenes de búsqueda; no pude abrir la fuente original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-calabaza-tuxtla-gutierrez",
@@ -9233,7 +9599,8 @@
     ],
     "locationNote": "Belisario Domínguez 4120 A, Jardines de Tuxtla. Información de reseña y de un sitio ya inactivo; confirma vigencia.",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "caffeiro-tuxtla-gutierrez",
@@ -9267,7 +9634,8 @@
     ],
     "locationNote": "Calle 11a Pte Sur 1172, La Lomita, Tuxtla Gutiérrez. Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "catedral-oaxaca",
@@ -9302,7 +9670,8 @@
     ],
     "locationNote": "Calle Manuel García Vigil 105, Centro, Oaxaca de Juárez. Dato de resúmenes de TikTok; no pude abrir el post original.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-chicatana-oaxaca",
@@ -9336,7 +9705,8 @@
     ],
     "locationNote": "Pabellón Violetas, Violetas 401, Col. Reforma, Oaxaca de Juárez. Dato de un TikTok de 2023; no pude abrir el video.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "las-espadas-chihuahua-juarez-aguascalientes",
@@ -9376,7 +9746,8 @@
     ],
     "locationNote": "Sucursales listadas en su sitio: Chihuahua (Plaza Cumbres y Travessia), Ciudad Juárez (Ejército Nacional, Paseo Triunfo y 3 Torres) y Aguascalientes (Blvd. Colosio 221). La imagen de la promo es general; el sitio no aclara si aplica igual en todas.",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "brazza-y-fogo-do-brasil-san-luis-potosi",
@@ -9412,7 +9783,8 @@
     ],
     "locationNote": "Según su sitio: lateral Carr. San Luis Potosí-México s/n, col. Central; tel. 444 818 4591. Buffet de cortes y espadas brasileñas.",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "los-canarios-fiesta-americana-san-luis-potosi",
@@ -9449,7 +9821,8 @@
     ],
     "locationNote": "Av. Salvador Nava Martínez 3125, San Luis Potosí; abre 6:00-12:00 y 13:00-23:00.",
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "hecho-en-brazza-san-luis-potosi",
@@ -9485,7 +9858,8 @@
     ],
     "locationNote": "Julián de los Reyes 356C, Villa de Pozos (zona metropolitana de SLP), planta alta; horario anunciado: mar-jue 12:30-18:30, vie 12:30-19:30, sáb-dom 13:30-19:30. Existe otra sucursal de la marca en Monterrey.",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "carnitas-la-huerta-san-luis-potosi",
@@ -9521,7 +9895,8 @@
     ],
     "locationNote": "Pedro Moreno 844, Barrio de Santiago; buffet de viernes a domingo de 9:00 a 16:00.",
     "needsId": true,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "carranza-1573-san-luis-potosi",
@@ -9557,7 +9932,8 @@
     ],
     "locationNote": "Av. Venustiano Carranza 1573 (col. Tequisquiapan), San Luis Potosí; buffet de desayunos los fines de semana.",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "hilton-san-luis-potosi-restaurante",
@@ -9591,7 +9967,8 @@
     ],
     "locationNote": "Hilton San Luis Potosí; restaurantes Las Golondrinas y La Bóveda. No está claro en cuál aplica.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "winepark-san-luis-potosi",
@@ -9625,7 +10002,8 @@
     ],
     "locationNote": "Salvador Nava Martínez 3125, San Luis Potosí (restaurante italiano con toque mexicano).",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-chalupa-guadalupe-zacatecas",
@@ -9661,7 +10039,8 @@
     ],
     "locationNote": "Av. Sevilla, Plaza Tahona 107 B, Tahona, Guadalupe (junto a Sam's Club); abre diario de 9:00 a 19:00.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-casa-de-los-abuelos-zacatecas",
@@ -9696,7 +10075,8 @@
     ],
     "locationNote": "Existen varios restaurantes 'La Casa de los Abuelos' en el país; este es el de Zacatecas, sin dirección confirmada.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-refugio-guadalupe-zacatecas",
@@ -9731,7 +10111,8 @@
     ],
     "locationNote": "García Salinas 105, Guadalupe; miércoles a domingo de 14:00 a 22:30 según listados.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "roza-cafe-zacatecas",
@@ -9767,7 +10148,8 @@
     ],
     "locationNote": "Centro histórico de Zacatecas; la dirección exacta no se confirmó.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mestizzo-cocina-tragos-zacatecas",
@@ -9802,7 +10184,8 @@
     ],
     "locationNote": "Dentro del Hotel Plaza (zona Zacatecas-Guadalupe); dirección exacta sin confirmar.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "dalecio-cantina-aguascalientes",
@@ -9837,7 +10220,8 @@
     ],
     "locationNote": "Blvd. Colosio Murrieta 511, Jardines de la Concepción II.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "amor-de-mis-sabores-aguascalientes",
@@ -9873,7 +10257,8 @@
     ],
     "locationNote": "Eugenio Garza Sada 28 A, Pocitos (según listados).",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "la-casa-del-centro-aguascalientes",
@@ -9908,7 +10293,8 @@
     ],
     "locationNote": "Antonio Arias Bernal 320, Aguascalientes; martes a domingo.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "casa-matria-ciudad-juarez",
@@ -9944,7 +10330,8 @@
     ],
     "locationNote": "Sucursal Faisán 3034, col. Del Márquez (8:00-17:00) y sucursal Plaza Cantabria (656 534 7543); no se aclara en cuál aplica.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-muchacho-alegre-ciudad-juarez-chihuahua",
@@ -9981,7 +10368,8 @@
     ],
     "locationNote": "Juárez: Blvd. Manuel Gómez Morín 7640. Chihuahua: Periférico de la Juventud 6112, Haciendas del Valle. Confirma en cuál sucursal aplica.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "buffet-on-chihuahua",
@@ -10016,7 +10404,8 @@
     ],
     "locationNote": "Blvd. José Fuentes Mares 8003-B; abre diario de 12:00 a 20:00.",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "santa-cuchara-chihuahua",
@@ -10051,7 +10440,8 @@
     ],
     "locationNote": "Restaurante en Chihuahua capital; dirección y sucursales sin confirmar.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "nectar-restaurante-chihuahua",
@@ -10086,7 +10476,8 @@
     ],
     "locationNote": "Sucursales Cafetales (Circuito Universitario 15508), Reliz y Lombardo; no se aclara en cuáles aplica.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-boneleria-chihuahua",
@@ -10121,7 +10512,8 @@
     ],
     "locationNote": "La Bonelería CUU, colonia Villa Juárez (Chihuahua capital); no confundir con la de Delicias.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "cotidiano-desayunos-y-cafe-chihuahua",
@@ -10155,7 +10547,8 @@
     ],
     "locationNote": "Cafetería de desayunos en Chihuahua capital; dirección sin confirmar.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "balneario-san-juan-durango",
@@ -10190,7 +10583,8 @@
     ],
     "locationNote": "A unos 20 minutos del centro de Durango. Precios de paquetes según el medio; confirma tarifas vigentes.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "taqueria-arandas-san-luis-potosi",
@@ -10225,7 +10619,8 @@
     ],
     "locationNote": "Taquería Arandas en Av. Nicolás Zapata 974 y otras ubicaciones de San Luis Potosí; no se aclara cuál aplica.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "menjurjeria-milagros-san-luis-potosi",
@@ -10260,7 +10655,8 @@
     ],
     "locationNote": "The Park SLP, Blvd. Antonio Rocha Cordero 157, Lomas del Pedregal.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-rincon-del-sabor-aguascalientes",
@@ -10296,7 +10692,8 @@
     ],
     "locationNote": "Sucursal INEGI (Av. del Lago, Jardines del Parque); la cenaduría tiene 3 sucursales y abre de 16:00 a 22:00.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "chevalier-brunch-cafe-aguascalientes",
@@ -10331,7 +10728,8 @@
     ],
     "locationNote": "Café de brunch en Aguascalientes; dirección sin confirmar.",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "madama-galeria-cafeteria-aguascalientes",
@@ -10367,7 +10765,8 @@
     ],
     "locationNote": "Nieto 403, centro histórico de Aguascalientes.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "escape-rooms-aguascalientes",
@@ -10402,7 +10801,8 @@
     ],
     "locationNote": "Escape Rooms Aguascalientes; dirección no confirmada.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "tony-romas-san-luis-potosi",
@@ -10437,7 +10837,8 @@
     ],
     "locationNote": "Plaza El Dorado, Av. Nereo Rodríguez Barragán 450, local G-32 (según directorio).",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "finca-los-abuelos-san-luis-potosi",
@@ -10473,7 +10874,8 @@
     ],
     "locationNote": "Buffet camino a Cerro de San Pedro, San Luis Potosí; la dirección exacta no se pudo confirmar.",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "la-trinchera-ciudad-juarez",
@@ -10510,7 +10912,8 @@
     ],
     "locationNote": "Restaurante de alitas, boneless y hamburguesas con varias sucursales en Ciudad Juárez; no confundir con La Trrincheraa de Guadalajara.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "crepa-station-ciudad-juarez",
@@ -10545,7 +10948,8 @@
     ],
     "locationNote": "Codorniz 3659, Ciudad Juárez; abre de 9:00 a 21:00 según listados.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "bravos-food-ciudad-juarez",
@@ -10580,7 +10984,45 @@
     ],
     "locationNote": "Cártamo 9132, Granjero, Ciudad Juárez.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "costa-dorada-jesus-maria-aguascalientes",
+    "brand": "Restaurante Costa Dorada",
+    "category": "restaurantes",
+    "benefit": "Por cada 5 personas, el cumpleañero no paga su buffet",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, en el buffet de comida mexicana e internacional el cumpleañero no paga por cada 5 personas, con la promo mencionada para sábados y domingos del mes. El buffet se anuncia diario de 8:00 a 14:00 (con barbacoa y menudo en fin de semana); no hay aviso oficial con identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reunir 5 personas",
+      "Se menciona sábados y domingos (confirmar)",
+      "Confirma si piden identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Fines de semana, según redes; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Llega con tu grupo de 5 personas al buffet y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurante-costa-dorada-aguascalientes",
+      "https://www.facebook.com/p/Restaurante-Costa-Dorada-100054514328787/",
+      "https://restaurantguru.com/Costa-Dorada-Jesus-Maria-Aguascalientes"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Blvd. Lic. Miguel de la Madrid, Corral de Barrancos, Jesús María (zona metropolitana de Aguascalientes).",
+    "needsId": null,
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "tepetongo-parque-acuatico-contepec",
@@ -10614,7 +11056,8 @@
     "cities": [],
     "locationNote": "Ex-Hacienda Tepetongo, Contepec, Mich. (autopista México-Guadalajara, límite con Edomex); no está en Morelia.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "asador-rustico-buffet-uruapan",
@@ -10649,7 +11092,8 @@
     ],
     "locationNote": "Calle Cóbano #5, Col. Jardines del Bosque.",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "mi-lindo-michoacan-uruapan",
@@ -10685,7 +11129,8 @@
     ],
     "locationNote": "Pátzcuaro 2507 (según directorios).",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "hacienda-uruapan-restaurante",
@@ -10719,7 +11164,8 @@
     ],
     "locationNote": null,
     "needsId": null,
-    "companions": 6
+    "companions": 6,
+    "validUntil": null
   },
   {
     "slug": "senor-mazatlan-uruapan",
@@ -10753,7 +11199,8 @@
     ],
     "locationNote": "Camino a La Fundición s/n, La Pinera (restaurante de mariscos).",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "mr-sliders-morelia",
@@ -10788,7 +11235,8 @@
     ],
     "locationNote": "Varias sucursales en Morelia (p. ej. Batalla de Casa Mata 1445, Melchor Ocampo 178).",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-paraiso-de-la-mojarra-morelia",
@@ -10824,7 +11272,8 @@
     ],
     "locationNote": "Circuito Praderas de la Loma 45 (Loma Bonita) y Av. La Joya 363 (según directorios).",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "fresasaurios-morelia",
@@ -10858,7 +11307,8 @@
     ],
     "locationNote": "Periférico Paseo de la República 95, Santiaguito (según directorios).",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "miel-y-canela-morelia",
@@ -10893,7 +11343,8 @@
     ],
     "locationNote": "Av. Torreón Nuevo, junto a Farmacia Guadalajara; abre miércoles a domingo desde las 6:30 pm (según su Instagram).",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "el-vacio-parrilla-argentina-morelia",
@@ -10927,7 +11378,8 @@
     ],
     "locationNote": "Av. Paraguay 175 (según directorios).",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "funky-monkey-morelia",
@@ -10962,7 +11414,8 @@
     ],
     "locationNote": "Blvd. García de León 1187, Chapultepec Sur (según directorios); su página de Facebook aparece como Monkey Family Bowl.",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "moscu-restaurante-colima",
@@ -10996,7 +11449,8 @@
     ],
     "locationNote": "Av. Ignacio Sandoval 1971, La Cantera (según directorios).",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "roof-colimote-colima",
@@ -11032,7 +11486,8 @@
     ],
     "locationNote": "Av. de los Diamantes 95, Residencial Esmeralda Norte (martes a domingo de 1 a 10:30 pm).",
     "needsId": null,
-    "companions": 6
+    "companions": 6,
+    "validUntil": null
   },
   {
     "slug": "cruderia-de-esquina-colima",
@@ -11066,7 +11521,8 @@
     ],
     "locationNote": "Alpuyequito, rumbo a las albercas de Cahuite (Colima).",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "el-quelite-tepic",
@@ -11100,7 +11556,8 @@
     ],
     "locationNote": "Blvd. Tepic-Xalisco #86, en la curva entrando a Xalisco.",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "lungaretta-tepic",
@@ -11133,7 +11590,8 @@
     ],
     "locationNote": "Av. del Valle esquina con Florencia, Ciudad del Valle.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-birrioteca-nuevo-vallarta",
@@ -11167,7 +11625,8 @@
     ],
     "locationNote": "Plaza Le Curve, entrada a Nuevo Vallarta (Nayarit).",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "artepil-spa-vallarta-tepic",
@@ -11207,7 +11666,8 @@
     ],
     "locationNote": "Siete sucursales: Puerto Vallarta (Fluvial, Marina, Zona Romántica), Nuevo Vallarta, Tepic (Ciudad del Valle, San Juan) y Sayulita.",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "brazilia-buffet-de-espadas-morelia",
@@ -11243,7 +11703,8 @@
     ],
     "locationNote": "J. J. Tablada 408, Santa María de Guido; abierto diario de 12 a 8 pm (según directorios).",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "terraza-la-huerta-morelia",
@@ -11280,7 +11741,8 @@
     ],
     "locationNote": "Restaurante de buffet (mariscos); no se verificó la dirección.",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "gran-tariacuri-patzcuaro",
@@ -11311,7 +11773,8 @@
     "cities": [],
     "locationNote": "Entronque Tzurumútaro, carretera Pátzcuaro-Morelia (municipio de Pátzcuaro); no está dentro de Morelia.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "los-poblanos-colima-panamericana",
@@ -11346,7 +11809,8 @@
     ],
     "locationNote": "Solo la sucursal Panamericana; ubicación no verificada.",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "carlota-brunch-bistro-comala",
@@ -11378,7 +11842,8 @@
     "cities": [],
     "locationNote": "Capitán A. Llerenas 22, Comala centro (Colima); no está en la ciudad de Colima.",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "campo-real-tepic",
@@ -11413,7 +11878,8 @@
     ],
     "locationNote": "Av. Insurgentes 1171-B Oriente, Centro (según directorios).",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "kantun-chi-playa-del-carmen",
@@ -11448,7 +11914,8 @@
     ],
     "locationNote": "Carretera Federal Cancún-Tulum km 266.8, Puerto Aventuras (Playa del Carmen)",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "tomatillos-nuevo-laredo",
@@ -11482,7 +11949,8 @@
     ],
     "locationNote": "Reforma 5038, Col. Tecnológico, Nuevo Laredo; el menú del sitio no muestra fecha de vigencia",
     "needsId": true,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "mvngata-gourmet-club-playa-del-carmen",
@@ -11518,7 +11986,8 @@
     ],
     "locationNote": "MVNGATA Beach Hotel & Club, Av. Xcalacoco, Playa del Carmen; la página no muestra fecha de vigencia",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "la-parrilla-playa-del-carmen",
@@ -11552,7 +12021,8 @@
     ],
     "locationNote": "Texto de la página de reservaciones 'Playa del Carmen' del sitio oficial, que lista sucursales de Cancún (Av. Yaxchilán, Plaza La Isla, Las Américas, Cancún Mall, Gran Plaza, Plaza Outlet)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "grupo-rosanegra-tulum",
@@ -11565,7 +12035,7 @@
     "signupUrl": null,
     "requirements": [
       "Reservar en línea por OpenTable",
-      "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+      "Escribir el código (en el sitio: HB2025) en peticiones especiales",
       "Identificación oficial válida el día de la reserva"
     ],
     "registerDaysBefore": null,
@@ -11587,7 +12057,8 @@
     ],
     "locationNote": "Rosa Negra, Tantra, Tora, Chambao, Taboo y Confessions (Tulum). Tora también ofrece ronda de shots con bengalas y pastel individual si reservas por sus redes",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "grupo-rosanegra-cancun",
@@ -11600,7 +12071,7 @@
     "signupUrl": null,
     "requirements": [
       "Reservar en línea por OpenTable",
-      "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+      "Escribir el código (en el sitio: HB2025) en peticiones especiales",
       "Identificación oficial válida el día de la reserva"
     ],
     "registerDaysBefore": null,
@@ -11621,7 +12092,8 @@
     ],
     "locationNote": "Restaurantes de Grupo RosaNegra en la zona hotelera de Cancún (frente a la laguna)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "la-bodeguita-de-parceros-merida",
@@ -11656,7 +12128,8 @@
     ],
     "locationNote": "Calle 62 #443, Parque Santa Lucía, Centro Histórico de Mérida",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "floe-merida",
@@ -11688,9 +12161,10 @@
     "cities": [
       "merida"
     ],
-    "locationNote": "Plaza San Ángelo, Mérida (según su Instagram)",
+    "locationNote": "Calle 39 #208, Montes de Amé, Mérida (según Rappi); su Instagram indica Plaza San Angelo",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "corniche-merida",
@@ -11724,7 +12198,8 @@
     ],
     "locationNote": "Av. Cámara de Comercio 299-B, Mérida",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "fomo-bakery-merida",
@@ -11758,7 +12233,8 @@
     ],
     "locationNote": "Calle 39 #230 x 34 y 36, Plaza Verona, Mérida (la sucursal de Cancún es solo entrega)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "dr-galletas-merida",
@@ -11791,7 +12267,8 @@
     ],
     "locationNote": "Sucursales en Mérida (una en col. Montecristo); sin confirmar cuáles participan",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "chunkies-merida",
@@ -11825,7 +12302,8 @@
     ],
     "locationNote": "Sucursales en Mérida (una en García Lavín); sin confirmar cuáles participan",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "cafe-dicha-de-verte-merida",
@@ -11859,7 +12337,8 @@
     ],
     "locationNote": "Plaza Roble, Av. José Díaz Bolio 185, Mérida",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tremendos-roles-merida",
@@ -11893,7 +12372,8 @@
     ],
     "locationNote": "Mérida (Calle 24 x 23 y 23A, col. Miguel Alemán, según directorios)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "rooli-rolls-merida",
@@ -11927,7 +12407,8 @@
     ],
     "locationNote": "Sucursales Caucel, García Lavín y Siglo XXI, Mérida",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "hilide-helados-merida",
@@ -11960,7 +12441,8 @@
     ],
     "locationNote": "Calle 20 x 19 y 19A, col. Dzitya, Mérida (según directorios de entrega)",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "kraken-merida",
@@ -11995,7 +12477,8 @@
     ],
     "locationNote": "Plaza Boulevard, Cd. Caucel (Av. 23 locales 15-17), Mérida; un listado menciona también Plaza Malak (Norte)",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "bbt-merida",
@@ -12029,7 +12512,8 @@
     ],
     "locationNote": "BBT Centro, Calle 65 entre 62 y 64, Centro, Mérida",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "bom-dia-costelao-playa-del-carmen",
@@ -12064,7 +12548,8 @@
     ],
     "locationNote": "Costelão, Plaza Midtown, Av. 10 con Calle 34, Playa del Carmen",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "bovinos-steakhouse-playa-del-carmen",
@@ -12099,7 +12584,8 @@
     ],
     "locationNote": "Av. 10 con Calle 12 Norte, Playa del Carmen, y Av. Yaxchilán 17, Cancún",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "porfirios-merida",
@@ -12137,7 +12623,8 @@
     ],
     "locationNote": "Solo Porfirio's Mérida: la página de promociones vigente (actualizada jul-2026) solo lista Mérida y Guadalajara; Puebla, Cancún, Playa del Carmen y Tulum no aparecen",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "habaneros-merida",
@@ -12173,7 +12660,8 @@
     ],
     "locationNote": "Sucursales de Habaneros en Mérida (cocina yucateca)",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "las-estacas-morelos",
@@ -12207,7 +12695,8 @@
     "cities": [],
     "locationNote": "Parque Las Estacas, Morelos (no está en Cuernavaca ni Cuautla ciudad)",
     "needsId": true,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "bubba-gump-cancun",
@@ -12242,7 +12731,8 @@
     ],
     "locationNote": "Bubba Gump Cancún (no aplica a las sucursales de aeropuerto ni Puerto Vallarta)",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "ventura-park-cancun",
@@ -12277,7 +12767,8 @@
     ],
     "locationNote": "Ventura Park Cancún (parque acuático y de diversiones). Datos tomados del texto de la página oficial vía buscador; el sitio no abrió desde el entorno de investigación, confirma vigencia en taquilla",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "caribbean-juice-bar-cancun",
@@ -12310,7 +12801,8 @@
     ],
     "locationNote": "Desayunos, jugos y licuados; enfrente de Plaza Las Américas, Cancún",
     "needsId": null,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "birra-el-pariente-cancun",
@@ -12343,7 +12835,8 @@
     ],
     "locationNote": "Birria estilo Tijuana, Cancún",
     "needsId": null,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "los-irresistibles-cancun",
@@ -12376,7 +12869,8 @@
     ],
     "locationNote": "Cerca de Av. Nichupté, Cancún",
     "needsId": null,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "xb-restaurante-cancun",
@@ -12409,7 +12903,8 @@
     ],
     "locationNote": "Ubicación exacta sin confirmar",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "va-q-va-cancun",
@@ -12442,7 +12937,8 @@
     ],
     "locationNote": "Restaurante de mariscos, Cancún",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "pizza-ajedrez-merida",
@@ -12478,7 +12974,8 @@
     ],
     "locationNote": "Sucursales reportadas en Calle 36 (col. Pensiones, Av. Alfredo Barrera Vázquez 256) y Calle 31 (col. Madero), Mérida",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "cafe-bar-500-noches-merida",
@@ -12513,7 +13010,8 @@
     ],
     "locationNote": "Sucursales: Santa Lucía (Calle 60 #471) y Norte (Av. Líbano 54); el 4+1 se reportó en el Norte",
     "needsId": null,
-    "companions": 4
+    "companions": 4,
+    "validUntil": null
   },
   {
     "slug": "el-rey-elotero-merida",
@@ -12546,7 +13044,8 @@
     ],
     "locationNote": "Sucursales sin confirmar; Uber Eats y Rappi listan El Rey Elotero en Tixcacal (Calle 51 #821) y puestos de 'Elotes del Rey' en Los Pinos y Av. Acueducto",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "casa-yucatan-merida",
@@ -12582,7 +13081,8 @@
     ],
     "locationNote": "Calle 60 #445 entre 49 y 51, Centro, Mérida",
     "needsId": true,
-    "companions": 3
+    "companions": 3,
+    "validUntil": null
   },
   {
     "slug": "antojito-mio-puebla",
@@ -12615,7 +13115,8 @@
     ],
     "locationNote": "Blvd. Luis Sánchez Pontón 602, col. Anzures (dirección según el Instagram oficial del restaurante)",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "buffet-3-leguas-puebla",
@@ -12648,7 +13149,8 @@
     ],
     "locationNote": "C. 11 Sur 7714, San José Mayorazgo, Puebla",
     "needsId": null,
-    "companions": 5
+    "companions": 5,
+    "validUntil": null
   },
   {
     "slug": "pa-dentro-buffet-cantina-puebla",
@@ -12682,7 +13184,8 @@
     ],
     "locationNote": "2 Oriente 811, Centro Histórico (Casona Patio Poblano, 5 de Mayo esq. 2 Oriente), sin verificar en canal propio",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "grilia-puebla",
@@ -12718,7 +13221,8 @@
     ],
     "locationNote": "San Martín Texmelucan 73, Col. La Paz, Puebla",
     "needsId": null,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sephora",
@@ -12747,7 +13251,8 @@
     "cities": [],
     "locationNote": "Tiendas Sephora en gran parte del país (unas 37) y en línea; regalo solo en tienda física participante",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "xiaomi",
@@ -12777,7 +13282,8 @@
     "cities": [],
     "locationNote": "Cupón válido solo en línea en mi.com/mx, en todo México",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "victorias-secret",
@@ -12805,7 +13311,8 @@
     "cities": [],
     "locationNote": "Solo en línea en victoriassecret.mx (válido en todo México); T&C oficiales aún citan 2023",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "bath-and-body-works",
@@ -12833,7 +13340,8 @@
     "cities": [],
     "locationNote": "Cupón para bathandbodyworks.mx y app (todo México); uso en tiendas físicas no especificado en T&C",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "palacio-de-hierro",
@@ -12889,7 +13397,8 @@
     ],
     "locationNote": "Solo tiendas y restaurantes Palacio participantes. Interlomas/Satélite -> naucalpan; Lerma -> toluca; Boca del Río -> veracruz",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "liverpool",
@@ -12917,7 +13426,8 @@
     "cities": [],
     "locationNote": "Solo en sucursales con Restaurante Liverpool; consumo individual del cumpleañero",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "tous",
@@ -12978,7 +13488,8 @@
     ],
     "locationNote": "Solo tiendas TOUS participantes (no en línea). Interlomas/Satélite -> naucalpan; Metepec -> toluca; Boca del Río -> veracruz. Directorios mencionan más puntos de venta (130+) no verificados",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "nike",
@@ -13008,7 +13519,8 @@
     "cities": [],
     "locationNote": "20% en nike.com/mx y app (todo México); 10% solo en tiendas Nike NVS/UNITE participantes con INE",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "adidas",
@@ -13038,7 +13550,8 @@
     "cities": [],
     "locationNote": "Cupón por correo/app para adidas.mx; aplicación en tiendas físicas no verificada",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "h-and-m",
@@ -13066,7 +13579,8 @@
     "cities": [],
     "locationNote": "Cupón en línea (hm.com/mx) o en tienda H&M; ubicaciones de tiendas no verificadas",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "innovasport",
@@ -13095,7 +13609,8 @@
     "cities": [],
     "locationNote": "Tiendas Innovasport en la mayor parte del país y en línea; Innvictus solo en algunas ciudades",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "petco",
@@ -13124,7 +13639,8 @@
     "cities": [],
     "locationNote": "Tiendas Petco en la mayor parte del país; solo tiendas participantes",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sanborns",
@@ -13155,7 +13671,8 @@
     "cities": [],
     "locationNote": "Solo tiendas Sanborns participantes; excluye restaurante y varias categorías",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "pandora",
@@ -13185,7 +13702,8 @@
     "cities": [],
     "locationNote": "Cupón válido solo en línea en mx.pandora.net (todo México)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sears",
@@ -13217,7 +13735,8 @@
     "cities": [],
     "locationNote": "Solo tiendas Sears participantes; vigencia actual no confirmada",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "benavides",
@@ -13246,7 +13765,8 @@
     "cities": [],
     "locationNote": "Farmacias Benavides en la mayor parte del país (más presencia en norte y centro); puntos abonados a la cuenta",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "miniso",
@@ -13275,7 +13795,8 @@
     "cities": [],
     "locationNote": "Cupón válido solo en miniso.com.mx y app (todo México), no en tiendas físicas",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "clinique",
@@ -13305,7 +13826,8 @@
     "cities": [],
     "locationNote": "Código válido solo en línea en clinique.com.mx (todo México)",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "levis",
@@ -13333,7 +13855,8 @@
     "cities": [],
     "locationNote": "Programa Red Tab en línea y en tiendas Levi's; sorpresa no detallada",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "sally-beauty",
@@ -13362,7 +13885,8 @@
     "cities": [],
     "locationNote": "Válido en tiendas Sally Beauty de todo el país y en línea",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "crocs",
@@ -13390,7 +13914,8 @@
     "cities": [],
     "locationNote": "Descuento a través de crocs.com.mx (todo México); condiciones no publicadas",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "price-shoes",
@@ -13418,7 +13943,8 @@
     "cities": [],
     "locationNote": "Cupón en app/web de Price Shoes (todo México); ubicaciones de tiendas físicas no verificadas",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "flexi",
@@ -13447,7 +13973,8 @@
     "cities": [],
     "locationNote": "Tiendas Flexi en la mayor parte del país; solo sucursales participantes. Promo no confirmada en fuente oficial",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "xiaomi-store",
@@ -13476,7 +14003,8 @@
     "cities": [],
     "locationNote": "Solo tiendas Xiaomi propias. Ubicaciones no verificadas; promo no confirmada como vigente",
     "needsId": true,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   },
   {
     "slug": "suburbia",
@@ -13507,7 +14035,8 @@
     "cities": [],
     "locationNote": "Solo restaurantes participantes; la comida gratis aplica en miércoles. Promo no confirmada en fuente oficial vigente",
     "needsId": true,
-    "companions": 2
+    "companions": 2,
+    "validUntil": null
   },
   {
     "slug": "gandhi",
@@ -13537,6 +14066,7 @@
     "cities": [],
     "locationNote": "Librerías Gandhi en unos 25 estados; beneficio de cumpleaños sin detalle publicado",
     "needsId": false,
-    "companions": null
+    "companions": null,
+    "validUntil": null
   }
 ]

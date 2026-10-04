@@ -154,7 +154,7 @@
   "details": "Al reservar por OpenTable en uno de sus restaurantes de Tulum (Rosa Negra, Tantra, Tora, Chambao, Taboo o Confessions) y escribir el código promocional en peticiones especiales, la mesa recibe pastel personalizado con bengalas y una ronda de shots. La página oficial aún muestra el código HB2025, por lo que hay que confirmar si sigue vigente en 2026.",
   "requirements": [
    "Reservar en línea por OpenTable",
-   "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+   "Escribir el código (en el sitio: HB2025) en peticiones especiales",
    "Identificación oficial válida el día de la reserva"
   ],
   "window": "dia",
@@ -189,7 +189,7 @@
   "details": "Al reservar en OpenTable en uno de sus restaurantes de la zona hotelera de Cancún y escribir el código promocional de cumpleaños en peticiones especiales, la mesa recibe un pastel individual con bengalas y una ronda especial de shots. La página oficial aún muestra el código HB2025, por lo que hay que confirmar si sigue vigente en 2026.",
   "requirements": [
    "Reservar en línea por OpenTable",
-   "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+   "Escribir el código (en el sitio: HB2025) en peticiones especiales",
    "Identificación oficial válida el día de la reserva"
   ],
   "window": "dia",
@@ -386,7 +386,7 @@
   "signupUrl": null,
   "registerDaysBefore": null,
   "minPurchase": null,
-  "locationNote": "Plaza San Ángelo, Mérida (según su Instagram)",
+  "locationNote": "Calle 39 #208, Montes de Amé, Mérida (según Rappi); su Instagram indica Plaza San Angelo",
   "companions": null,
   "needsId": true,
   "slug": "floe-merida",
