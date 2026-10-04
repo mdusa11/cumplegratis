@@ -292,7 +292,7 @@
     "registerDaysBefore": null,
     "window": "otro",
     "windowNote": "No especificada en la fuente",
-    "minPurchase": 7500,
+    "minPurchase": null,
     "howToClaim": "Se te inscribe al alcanzar $7,500 de compras en lamer.com.mx o en punto de venta; confirma con La Mer cómo se entrega la sorpresa de cumpleaños.",
     "sources": [
       "https://www.lamer.com.mx/loyalty-program/waves-de-la-mer"

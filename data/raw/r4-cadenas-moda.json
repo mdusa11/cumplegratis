@@ -159,7 +159,7 @@
     "category": "ropa",
     "benefit": "$100 MXN de regalo para tus compras en tu cumpleaños",
     "benefitType": "descuento",
-    "details": "Los miembros de la comunidad MMBRS de Bershka México reciben un regalo de $100 MXN para usar en sus compras durante su cumpleaños. Los términos particulares de MMBRS para México no se pudieron consultar en línea; en los de EE.UU. el descuento se aplica automático al carrito el día del cumpleaños si te registraste al menos 30 días antes y no se genera de nuevo si devuelves lo comprado con él.",
+    "details": "Sitios de cupones reportan que los miembros de la comunidad MMBRS de Bershka México reciben un regalo de $100 MXN para usar en sus compras durante su cumpleaños; los T&C oficiales de México solo confirman que MMBRS da descuentos, premios o promociones, y la página oficial bloquea la consulta automática. En los términos MMBRS de EE.UU. el descuento se aplica automático al carrito el día del cumpleaños si te registraste al menos 30 días antes.",
     "program": "MMBRS",
     "signupUrl": "https://www.bershka.com/mx/",
     "requirements": [
@@ -167,20 +167,21 @@
       "Registrarte con anticipación (30 días en los términos de EE.UU.)",
       "El saldo MMBRS no es transferible ni combinable con otros códigos"
     ],
-    "registerDaysBefore": 30,
+    "registerDaysBefore": null,
     "window": "otro",
     "windowNote": "Durante tu cumpleaños; confirmar en tu cuenta cuántos días dura el saldo",
     "minPurchase": null,
     "howToClaim": "Inicia sesión en la app o en bershka.com/mx con tu cuenta MMBRS; el regalo aparece como saldo para tus compras.",
     "sources": [
-      "https://www.bershka.com/mx/company.html",
-      "https://static.bershka.net/4/static/itxwebstandard/docs/termsandconditions/terms_and_conditions_es_MX.pdf"
+      "https://www.cuponesmexico.com.mx/tienda/bershka/",
+      "https://static.bershka.net/4/static/itxwebstandard/docs/termsandconditions/terms_and_conditions_es_MX.pdf",
+      "https://static.bershka.net/4/static/itxwebstandard/docs/termsandconditions/terms_and_conditions_es_US.pdf"
     ],
-    "confidence": "media",
+    "confidence": "baja",
     "coverage": "nacional",
     "states": [],
     "cities": [],
-    "locationNote": "Tiendas Bershka en México (salvo puntos no permanentes y fábricas), web y app; la regla de 30 días viene de los T&C de EE.UU.",
+    "locationNote": "Tiendas Bershka en México (salvo puntos no permanentes y fábricas), web y app; monto de fuente no oficial y regla de 30 días de los T&C de EE.UU.",
     "needsId": false,
     "companions": null
   },

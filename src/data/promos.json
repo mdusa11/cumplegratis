@@ -13920,7 +13920,7 @@
     "registerDaysBefore": null,
     "window": "otro",
     "windowNote": "No especificada en la fuente",
-    "minPurchase": 7500,
+    "minPurchase": null,
     "howToClaim": "Se te inscribe al alcanzar $7,500 de compras en lamer.com.mx o en punto de venta; confirma con La Mer cómo se entrega la sorpresa de cumpleaños.",
     "sources": [
       "https://www.lamer.com.mx/loyalty-program/waves-de-la-mer"
@@ -14621,6 +14621,75 @@
     "validUntil": null
   },
   {
+    "slug": "amelie-joyas",
+    "brand": "Amelie Joyas",
+    "category": "otras-tiendas",
+    "benefit": "Bono de puntos en tu cumpleaños (1,000 pts = $25 MXN)",
+    "benefitType": "descuento",
+    "details": "Amelie Rewards da un bono de cumpleaños en puntos según tu nivel (Clásica, Gold o Platino); se acredita solo, una vez por año calendario, y los puntos no vencen. 1,000 puntos equivalen a $25 MXN en cupones de descuento que se usan en la tienda en línea o en sucursales. Las políticas no publican cuántos puntos da cada nivel.",
+    "program": "Amelie Rewards",
+    "signupUrl": "https://ameliejoyas.mx/pages/amelie-rewards",
+    "requirements": [
+      "Tener 18 años o más y ser residente legal de México",
+      "Inscribirte gratis a Amelie Rewards (no pide compra)",
+      "Una cuenta por persona",
+      "Canjear los puntos por cupones; no valen en efectivo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Puntos acreditados automáticamente en tu cumpleaños, una vez por año calendario; el monto por nivel no está publicado",
+    "minPurchase": null,
+    "howToClaim": "Inscríbete en Amelie Rewards en la web o en una sucursal con tu fecha de cumpleaños y canjea los puntos por un cupón de descuento.",
+    "sources": [
+      "https://ameliejoyas.mx/pages/amelie-rewards",
+      "https://ameliejoyas.mx/pages/sucursales"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea con envíos a todo México; sucursales en Guadalajara (matriz, Galería Joyera), CDMX (Av. Madero) y Monterrey (Interplaza Shoptown)",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "gamer-score-cdmx",
+    "brand": "Gamer Score",
+    "category": "bares",
+    "benefit": "Bebida y postre, o ronda de shots, en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "El bar-restaurante de videojuegos y maquinitas regala una bebida y un postre individual a elegir, o una ronda de Shots del Infinito, a quien festeje su cumpleaños en el mes de su cumpleaños. Aplica todos los días del mes, con reservación y asistencia mínima de 6 personas; prestan gorros de Mario Bros para las fotos.",
+    "program": null,
+    "signupUrl": "https://gamerscore.mx/haz-tu-reservacion/",
+    "requirements": [
+      "Hacer reservación",
+      "Asistir mínimo 6 personas (contando al festejado)",
+      "Válido todos los días del mes de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todos los días del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu mesa con el grupo de al menos 6 personas y pide la promoción de cumpleaños al llegar.",
+    "sources": [
+      "https://gamerscore.mx/promociones/",
+      "https://gamerscore.mx/contacto/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Sucursal Insurgentes: Insurgentes Sur 1862, Col. Florida, CDMX",
+    "needsId": false,
+    "companions": 5,
+    "validUntil": null
+  },
+  {
     "slug": "c-and-a-mexico",
     "brand": "C&A México",
     "category": "ropa",
@@ -14784,7 +14853,7 @@
     "category": "ropa",
     "benefit": "$100 MXN de regalo para tus compras en tu cumpleaños",
     "benefitType": "descuento",
-    "details": "Los miembros de la comunidad MMBRS de Bershka México reciben un regalo de $100 MXN para usar en sus compras durante su cumpleaños. Los términos particulares de MMBRS para México no se pudieron consultar en línea; en los de EE.UU. el descuento se aplica automático al carrito el día del cumpleaños si te registraste al menos 30 días antes y no se genera de nuevo si devuelves lo comprado con él.",
+    "details": "Sitios de cupones reportan que los miembros de la comunidad MMBRS de Bershka México reciben un regalo de $100 MXN para usar en sus compras durante su cumpleaños; los T&C oficiales de México solo confirman que MMBRS da descuentos, premios o promociones, y la página oficial bloquea la consulta automática. En los términos MMBRS de EE.UU. el descuento se aplica automático al carrito el día del cumpleaños si te registraste al menos 30 días antes.",
     "program": "MMBRS",
     "signupUrl": "https://www.bershka.com/mx/",
     "requirements": [
@@ -14792,20 +14861,21 @@
       "Registrarte con anticipación (30 días en los términos de EE.UU.)",
       "El saldo MMBRS no es transferible ni combinable con otros códigos"
     ],
-    "registerDaysBefore": 30,
+    "registerDaysBefore": null,
     "window": "otro",
     "windowNote": "Durante tu cumpleaños; confirmar en tu cuenta cuántos días dura el saldo",
     "minPurchase": null,
     "howToClaim": "Inicia sesión en la app o en bershka.com/mx con tu cuenta MMBRS; el regalo aparece como saldo para tus compras.",
     "sources": [
-      "https://www.bershka.com/mx/company.html",
-      "https://static.bershka.net/4/static/itxwebstandard/docs/termsandconditions/terms_and_conditions_es_MX.pdf"
+      "https://www.cuponesmexico.com.mx/tienda/bershka/",
+      "https://static.bershka.net/4/static/itxwebstandard/docs/termsandconditions/terms_and_conditions_es_MX.pdf",
+      "https://static.bershka.net/4/static/itxwebstandard/docs/termsandconditions/terms_and_conditions_es_US.pdf"
     ],
-    "confidence": "media",
+    "confidence": "baja",
     "coverage": "nacional",
     "states": [],
     "cities": [],
-    "locationNote": "Tiendas Bershka en México (salvo puntos no permanentes y fábricas), web y app; la regla de 30 días viene de los T&C de EE.UU.",
+    "locationNote": "Tiendas Bershka en México (salvo puntos no permanentes y fábricas), web y app; monto de fuente no oficial y regla de 30 días de los T&C de EE.UU.",
     "needsId": false,
     "companions": null,
     "validUntil": null
