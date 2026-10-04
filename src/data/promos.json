@@ -15416,6 +15416,1219 @@
     "validUntil": null
   },
   {
+    "slug": "camino-real-polanco-buffet-cumpleanos",
+    "brand": "Camino Real Polanco (buffet La Huerta)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis del cumpleañero con 5 comensales",
+    "benefitType": "gratis",
+    "details": "\"Tu mejor cumpleaños está aquí\": en tu mes de cumpleaños, con el consumo de 5 comensales (mayores de 18 años) el festejado no paga el buffet de desayuno (8:00 a 13:00) o de comida (13:30 a 17:30) en La Huerta, de lunes a sábado. Incluye 6 horas de estacionamiento y Wi-Fi sin costo. El sitio no aclara si los 5 comensales incluyen al festejado. Vigente hasta el 20 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-polanco-mexico/special-offers",
+    "requirements": [
+      "Ir con 5 comensales mayores de 18 años (el sitio no aclara si cuenta al festejado)",
+      "Identificación oficial vigente que compruebe el mes de cumpleaños",
+      "Lunes a sábado, 8:00 a 17:30 h (desayuno 8:00-13:00, comida 13:30-17:30)",
+      "Reservar al 55 5263 8821"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños, lunes a sábado; vigente hasta el 20 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 55 5263 8821 y presenta tu identificación oficial al llegar a La Huerta.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-polanco-mexico/special-offers",
+      "https://www.grupocaminoreal.com/en/camino-real/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Restaurante La Huerta del hotel Camino Real Polanco México (Ciudad de México)",
+    "needsId": true,
+    "companions": 5,
+    "validUntil": "2026-12-20"
+  },
+  {
+    "slug": "camino-real-guadalajara-cumpleanos",
+    "brand": "Camino Real Guadalajara (María Bonita y La Huerta)",
+    "category": "restaurantes",
+    "benefit": "Comida gratis del cumpleañero con 3 comensales",
+    "benefitType": "gratis",
+    "details": "\"Tu mejor celebración está aquí\": durante tu mes de cumpleaños, con la compra de 3 comidas de invitados, el festejado no paga en los restaurantes María Bonita o La Huerta, todos los días de 9:00 a 22:00 h. Requiere identificación oficial vigente y no es combinable con otras promociones. El sitio dice vigente hasta diciembre de 2026 sin precisar el día.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-guadalajara/special-offers",
+    "requirements": [
+      "Comprar 3 comidas de invitados",
+      "Identificación oficial vigente",
+      "Solo durante tu mes de cumpleaños",
+      "Todos los días de 9:00 a 22:00 h",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños, de 9:00 a 22:00 h; vigente hasta diciembre de 2026 (el sitio no da el día exacto)",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 33 3134 2424 ext. 8100 y presenta tu identificación oficial en María Bonita o La Huerta.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-guadalajara/special-offers",
+      "https://www.grupocaminoreal.com/en/camino-real/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara",
+      "zapopan"
+    ],
+    "locationNote": "Restaurantes María Bonita y La Huerta del hotel Camino Real Guadalajara",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": null
+  },
+  {
+    "slug": "camino-real-pedregal-bistro-cumpleanos",
+    "brand": "Camino Real Pedregal (Bistro)",
+    "category": "restaurantes",
+    "benefit": "Consumo gratis del cumpleañero con 5 acompañantes",
+    "benefitType": "gratis",
+    "details": "\"Tu cumpleaños sabe bien en Bistro\": durante tu mes de cumpleaños, con mínimo 5 acompañantes el consumo del festejado es cortesía del restaurante Bistro del hotel. La promoción no aplica a menores de edad. Vigente hasta diciembre de 2026 (el sitio no da el día exacto); el sitio no detalla horarios ni si pide identificación.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-pedregal-mexico/special-offers",
+    "requirements": [
+      "Ir con mínimo 5 acompañantes",
+      "Solo durante tu mes de cumpleaños",
+      "No aplica a menores",
+      "Reservar al 55 5449 3650 ext. 8857",
+      "El sitio no detalla la identificación: lleva una para comprobar la fecha"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños; vigente hasta diciembre de 2026 (el sitio no da el día exacto)",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 55 5449 3650 ext. 8857 (bistro.pedregal@caminoreal.com.mx) e indica que es tu cumpleaños.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-pedregal-mexico/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Restaurante Bistro del hotel Camino Real Pedregal México (Ciudad de México)",
+    "needsId": null,
+    "companions": 5,
+    "validUntil": null
+  },
+  {
+    "slug": "camino-real-monterrey-brunch-cumpleanos",
+    "brand": "Camino Real Fashion Drive Monterrey (Distrito Regio)",
+    "category": "restaurantes",
+    "benefit": "Brunch gratis del cumpleañero por cada 4 comensales",
+    "benefitType": "gratis",
+    "details": "Brunch dominical de Distrito Regio (domingos de 11:00 a 15:00, $630 por adulto): en tu mes de cumpleaños, por cada 4 comensales el consumo del festejado va por cuenta del hotel. Requiere identificación oficial vigente; no aplica en días festivos. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers",
+    "requirements": [
+      "Ir por cada 4 comensales (el festejado no paga)",
+      "Identificación oficial vigente que muestre el mes de cumpleaños",
+      "Solo domingos de 11:00 a 15:00 h",
+      "No aplica en días festivos",
+      "Reservar al 811 223 3200 ext. 8861 u 8865"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Domingos de tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026, no aplica en festivos",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 811 223 3200 ext. 8861/8865 y presenta tu identificación oficial en Distrito Regio.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Restaurante Distrito Regio del hotel Camino Real Fashion Drive Monterrey",
+    "needsId": true,
+    "companions": 4,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "camino-real-monterrey-desayuno-chicas-cumpleanos",
+    "brand": "Camino Real Fashion Drive Monterrey (desayuno entre chicas)",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis para la cumpleañera con 4 comensales",
+    "benefitType": "gratis",
+    "details": "\"Un plan de sabor especial con las chicas\": buffet de desayuno en la terraza de Distrito Regio (lunes a sábado de 9:00 a 12:00, $395 por persona). En tu mes de cumpleaños, con 4 comensales el consumo de la cumpleañera es cortesía. La promoción es válida solo para mujeres, con identificación oficial vigente; no aplica en días festivos. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers",
+    "requirements": [
+      "Solo para mujeres",
+      "Ir con 4 comensales",
+      "Identificación oficial vigente que muestre el mes de cumpleaños",
+      "Lunes a sábado de 9:00 a 12:00 h",
+      "No aplica en días festivos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Lunes a sábado en tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026, no aplica en festivos",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 811 223 3200 ext. 8865 y presenta tu identificación oficial en Distrito Regio.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/camino-real-fashion-drive-monterrey/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Terraza de Distrito Regio del hotel Camino Real Fashion Drive Monterrey",
+    "needsId": true,
+    "companions": 4,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "quinta-real-aguascalientes-cumpleanos",
+    "brand": "Quinta Real Aguascalientes (Tierra Mía)",
+    "category": "restaurantes",
+    "benefit": "Brunch gratis + pastel y mimosa con 3 invitados",
+    "benefitType": "gratis",
+    "details": "\"Un cumpleaños inolvidable\": en el brunch dominical de Tierra Mía (domingos de 9:00 a 13:00, $475 por persona), durante tu mes de cumpleaños, con la compra de 3 invitados extra el festejado come gratis y recibe un pastel individual y una mimosa o copa de espumoso de la casa. Requiere identificación oficial vigente y no se combina con otras promociones. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/quinta-real-aguascalientes/special-offers",
+    "requirements": [
+      "Comprar 3 invitados extra",
+      "Identificación oficial vigente",
+      "Solo domingos de 9:00 a 13:00 h",
+      "Solo durante tu mes de cumpleaños",
+      "No combinable con otras promociones",
+      "Reservar al 449 978 5818 ext. 170"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Domingos de tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 449 978 5818 ext. 170 y presenta tu identificación oficial en Tierra Mía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/quinta-real-aguascalientes/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "AGU"
+    ],
+    "cities": [
+      "aguascalientes"
+    ],
+    "locationNote": "Restaurante Tierra Mía del hotel Quinta Real Aguascalientes",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "quinta-real-zacatecas-cumpleanos",
+    "brand": "Quinta Real Zacatecas (Tierra Mía)",
+    "category": "restaurantes",
+    "benefit": "Brunch gratis + pastel y mimosa con 4 adultos",
+    "benefitType": "gratis",
+    "details": "\"Un cumpleaños inolvidable\": en los brunch de sábado y domingo de Tierra Mía (de 7:00 a 13:00), durante tu mes de cumpleaños, si celebras con cuatro adultos que pagan, el festejado come por cuenta del hotel y recibe un pastel individual y una mimosa o copa de espumoso de la casa. Requiere identificación oficial vigente y no se combina con otras promociones. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/quinta-real-zacatecas/special-offers",
+    "requirements": [
+      "Ir con 4 adultos que pagan",
+      "Identificación oficial vigente",
+      "Solo sábados y domingos de 7:00 a 13:00 h",
+      "Solo durante tu mes de cumpleaños",
+      "No combinable con otras promociones",
+      "Reservar al 492 922 9104 ext. 610"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Sábados y domingos de tu mes de cumpleaños; vigente hasta el 31 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 492 922 9104 ext. 610 (qrzac-capitanes@quintareal.com) y presenta tu identificación oficial en Tierra Mía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/quinta-real-zacatecas/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "ZAC"
+    ],
+    "cities": [
+      "zacatecas"
+    ],
+    "locationNote": "Restaurante Tierra Mía del hotel Quinta Real Zacatecas",
+    "needsId": true,
+    "companions": 4,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "quinta-real-huatulco-cumpleanos",
+    "brand": "Quinta Real Huatulco (Tierra Mía)",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis + pastel individual con 3 invitados",
+    "benefitType": "gratis",
+    "details": "\"Un cumpleaños inolvidable\": festeja con un desayuno en Tierra Mía; con la compra de 3 invitados extra el consumo del festejado es cortesía y recibes un pastel individual. Válido en tu mes de cumpleaños con identificación oficial vigente; excluye bebidas alcohólicas, grupos de 10 o más requieren reservación previa y no se combina con otras promociones. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.grupocaminoreal.com/en/quinta-real-huatulco/special-offers",
+    "requirements": [
+      "Comprar 3 invitados extra",
+      "Identificación oficial vigente",
+      "Solo durante tu mes de cumpleaños",
+      "No incluye bebidas alcohólicas",
+      "Grupos de 10 o más: reservación previa",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños (desayuno); vigente hasta el 31 de diciembre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 958 136 8286 (gmartinez@quintareal.com) y presenta tu identificación oficial en Tierra Mía.",
+    "sources": [
+      "https://www.grupocaminoreal.com/en/quinta-real-huatulco/special-offers"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "OAX"
+    ],
+    "cities": [
+      "huatulco"
+    ],
+    "locationNote": "Restaurante Tierra Mía del hotel Quinta Real Huatulco (distinto de la amenidad de cuarto ya registrada para Camino Real/Quinta Real Huatulco)",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": "2026-12-31"
+  },
+  {
+    "slug": "hs-hotsson-leon-los-vitrales-lady-gourmet-club",
+    "brand": "HS HOTSSON León: Los Vitrales (Lady Gourmet Club)",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía en tu cena de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "La página oficial del restaurante Los Vitrales del hotel HS HOTSSON León lista, entre los beneficios del programa Lady Gourmet Club (dirigido a comensales mujeres frecuentes), una botella de vino de cortesía en la cena de cumpleaños; el mismo programa da 40% en el desayuno buffet (lunes a viernes de 10 a 12 h) y 20% en comidas y cenas (todos los días de 13 a 24 h). El sitio pide consultar condiciones y restricciones con el personal y no publica requisitos de consumo ni si aplica el día o el mes.",
+    "program": "Lady Gourmet Club (HS HOTSSON)",
+    "signupUrl": "https://www.hotsson.com/hoteles/leon-poliforum/servicios/146",
+    "requirements": [
+      "Ser socia del Lady Gourmet Club",
+      "Registro: pide tu tarjeta provisional al personal de Los Vitrales en tu próxima visita",
+      "Aplica en la cena de cumpleaños",
+      "Condiciones y restricciones: consultar con el personal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: confirma si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu tarjeta provisional en Los Vitrales, regístrate y avisa al reservar tu cena de cumpleaños.",
+    "sources": [
+      "https://www.hotsson.com/hoteles/leon-poliforum/servicios/146"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "leon"
+    ],
+    "locationNote": "Restaurante Los Vitrales del hotel HS HOTSSON León, Blvd. Adolfo López Mateos 1102 Oriente, Los Gavilanes. El programa también existe en HS HOTSSON Irapuato (ya registrado)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "hs-hotsson-silao-los-vitrales-lady-gourmet-club",
+    "brand": "HS HOTSSON Silao: Los Vitrales (Lady Gourmet Club)",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía en tu cena de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "La página oficial del restaurante Los Vitrales del hotel HS HOTSSON Silao lista, entre los beneficios del programa Lady Gourmet Club (dirigido a comensales mujeres frecuentes), una botella de vino de cortesía en la cena de cumpleaños; el mismo programa da 40% en el desayuno buffet (lunes a viernes de 10 a 12 h) y 20% en comidas y cenas (todos los días de 13 a 24 h). El sitio pide consultar condiciones y restricciones con el personal y no publica requisitos de consumo ni si aplica el día o el mes.",
+    "program": "Lady Gourmet Club (HS HOTSSON)",
+    "signupUrl": "https://www.hotsson.com/hoteles/silao-libramiento/servicios/232",
+    "requirements": [
+      "Ser socia del Lady Gourmet Club",
+      "Registro: pide tu tarjeta provisional al personal de Los Vitrales en tu próxima visita",
+      "Aplica en la cena de cumpleaños",
+      "Condiciones y restricciones: consultar con el personal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: confirma si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu tarjeta provisional en Los Vitrales, regístrate y avisa al reservar tu cena de cumpleaños.",
+    "sources": [
+      "https://www.hotsson.com/hoteles/silao-libramiento/servicios/232"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "GUA"
+    ],
+    "cities": [],
+    "locationNote": "Restaurante Los Vitrales del hotel HS HOTSSON Silao, Carretera Libramiento Norte 1335, Sopeña. El programa también existe en HS HOTSSON Irapuato (ya registrado)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "hs-hotsson-queretaro-los-vitrales-lady-gourmet-club",
+    "brand": "HS HOTSSON Querétaro: Los Vitrales (Lady Gourmet Club)",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía en tu cena de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "La página oficial del restaurante Los Vitrales del hotel HS HOTSSON Querétaro lista, entre los beneficios del programa Lady Gourmet Club (dirigido a comensales mujeres frecuentes), una botella de vino de cortesía en la cena de cumpleaños; el mismo programa da 40% en el desayuno buffet (lunes a viernes de 10 a 12 h) y 20% en comidas y cenas (todos los días de 13 a 24 h). El sitio pide consultar condiciones y restricciones con el personal y no publica requisitos de consumo ni si aplica el día o el mes.",
+    "program": "Lady Gourmet Club (HS HOTSSON)",
+    "signupUrl": "https://www.hotsson.com/hoteles/queretaro-centro/servicios/241",
+    "requirements": [
+      "Ser socia del Lady Gourmet Club",
+      "Registro: pide tu tarjeta provisional al personal de Los Vitrales en tu próxima visita",
+      "Aplica en la cena de cumpleaños",
+      "Condiciones y restricciones: consultar con el personal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: confirma si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu tarjeta provisional en Los Vitrales, regístrate y avisa al reservar tu cena de cumpleaños.",
+    "sources": [
+      "https://www.hotsson.com/hoteles/queretaro-centro/servicios/241"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "Restaurante Los Vitrales del hotel HS HOTSSON Querétaro, Blvd. Bernardo Quintana Sur 8300, Centro Sur. El programa también existe en HS HOTSSON Irapuato (ya registrado)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "riu-class-cumpleanos",
+    "brand": "RIU Class (hoteles RIU en México)",
+    "category": "viajes",
+    "benefit": "Sorpresa de cumpleaños para socios del programa RIU Class",
+    "benefitType": "gratis",
+    "details": "La página oficial de beneficios de RIU Class (membresía gratuita de RIU Hotels & Resorts) lista \"una sorpresa en tu cumpleaños\" entre los beneficios de los socios. RIU no publica en qué consiste el regalo, si hay que estar hospedado ese día ni condiciones; solo remite a un enlace de más información. RIU tiene hoteles en Cancún, Playa del Carmen, Riviera Nayarit, Los Cabos, Mazatlán y Guadalajara.",
+    "program": "RIU Class",
+    "signupUrl": "https://www.riu.com/es/riu-class/beneficios",
+    "requirements": [
+      "Ser socio de RIU Class (registro gratuito)",
+      "El sitio no publica condiciones del regalo: confirma con el hotel o en tu cuenta"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado: RIU no indica si es el día, el mes o durante una estancia",
+    "minPurchase": null,
+    "howToClaim": "Regístrate gratis en riu.com como socio RIU Class con tu fecha de nacimiento y consulta el regalo en tu cuenta o con el hotel.",
+    "sources": [
+      "https://www.riu.com/es/riu-class/beneficios"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "BCS",
+      "JAL",
+      "NAY",
+      "ROO",
+      "SIN"
+    ],
+    "cities": [],
+    "locationNote": "Programa global; en México aplica a hoteles RIU en Cancún, Playa del Carmen, Riviera Nayarit, Los Cabos, Mazatlán y Guadalajara",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "amigo-milenium-cumpleanos",
+    "brand": "Amigo Milenium (restaurantes y hoteles Milenium)",
+    "category": "restaurantes",
+    "benefit": "Postre gratis + descuento igual a tu edad (máx. 50%)",
+    "benefitType": "descuento",
+    "details": "Los socios del programa gratuito Amigo Milenium reciben en restaurantes y bares participantes un postre exclusivo de cumpleaños y un descuento sobre el total de la cuenta igual a sus años cumplidos, con tope de 50%. Aplica desde 15 días antes hasta 15 días después de tu cumpleaños, todos los días en desayuno, comida o cena, solo 1 beneficio por visita y máximo 15 personas por mesa. Hay que presentar la Tarjeta Milenium y una identificación oficial; el beneficio de edad es solo en restaurantes (no en hospedaje).",
+    "program": "Amigo Milenium",
+    "signupUrl": "https://www.tarjetamilenium.com/digital/Registro.aspx?IdB=lkKEYpHX4Gg=",
+    "requirements": [
+      "Registro gratuito en Amigo Milenium (tarjeta digital)",
+      "Presentar la Tarjeta Milenium y una identificación oficial",
+      "Válido desde 15 días antes hasta 15 días después de tu cumpleaños",
+      "Solo 1 beneficio por visita (no se combina con el 15% ni el 2x1)",
+      "Máximo 15 personas por mesa",
+      "Solo en restaurantes y bares participantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Desde 15 días antes hasta 15 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en tarjetamilenium.com y presenta tu tarjeta digital con identificación oficial en un restaurante participante.",
+    "sources": [
+      "https://www.amigomilenium.com/",
+      "https://www.amigomilenium.com/terminos"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN",
+      "CHH",
+      "COA",
+      "GUA",
+      "NLE",
+      "TAM"
+    ],
+    "cities": [
+      "monterrey",
+      "torreon",
+      "guanajuato",
+      "tijuana",
+      "ciudad-victoria",
+      "ciudad-juarez"
+    ],
+    "locationNote": "Restaurantes de MS Milenium Curio, Crowne Plaza y Holiday Inn (Monterrey, Torreón, Silao, Tijuana), iStay, La Montaña, La Cava, Arowana, Continentes y La Faraona; la lista completa está en el sitio. También hay un Wyndham Garden en McAllen, Texas (fuera de México)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "brisas-rewards-galeria-plaza-cumpleanos",
+    "brand": "Brisas Rewards Siente+ (Galería Plaza y Las Brisas)",
+    "category": "viajes",
+    "benefit": "Tarifa de cumpleaños y sorpresas en tu mes (Brisas Rewards)",
+    "benefitType": "descuento",
+    "details": "Los socios del programa gratuito Brisas Rewards Siente+ reciben \"sorpresas y ventajas especiales\" en su mes de cumpleaños. Según los términos del programa, la Tarifa de Cumpleaños es una tarifa exclusiva para socios registrados, válida para una sola estancia en el mes de cumpleaños (una habitación), con identificación oficial; no aplica a estancias largas y hay fechas bloqueadas. No se publica el porcentaje de descuento.",
+    "program": "Brisas Rewards Siente+",
+    "signupUrl": "https://reservas.brisas.com.mx/account/register",
+    "requirements": [
+      "Registrarte gratis como socio Brisas Rewards Siente+",
+      "Una sola estancia y una habitación en tu mes de cumpleaños",
+      "Identificación oficial",
+      "No aplica a estancias largas; hay fechas bloqueadas",
+      "Reservar por los canales de Grupo Brisas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Estancia dentro de tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en brisas.com.mx, reserva con tu cuenta de socio la Tarifa de Cumpleaños y presenta tu identificación oficial al hospedarte.",
+    "sources": [
+      "https://www.galeriaplazahotels.com.mx/es/brisas-rewards/",
+      "https://www.brisas.com.mx/en/brisas-rewards/",
+      "https://reserve.brisas.com.mx/terminos-y-condiciones-brisas-siente"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "GUA",
+      "NLE",
+      "VER"
+    ],
+    "cities": [
+      "cdmx",
+      "veracruz",
+      "irapuato",
+      "monterrey",
+      "leon"
+    ],
+    "locationNote": "Hoteles Galería Plaza (Reforma y San Jerónimo en CDMX, Veracruz, Irapuato, Monterrey, León) y hoteles Las Brisas del mismo grupo; no pude abrir directo los términos, así que confirma qué hoteles y tarifas aplican",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "carolina-herrera-mexico",
+    "brand": "Carolina Herrera México",
+    "category": "belleza",
+    "benefit": "Vela exclusiva de regalo el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "En el sitio oficial de Carolina Herrera México, al introducir tu fecha de cumpleaños en tu cuenta y suscribirte al newsletter, recibes una vela exclusiva de regalo en tu día. La página no publica compra mínima, vigencia, forma de entrega ni si aplica en boutiques, y no incluye enlace a T&C del beneficio.",
+    "program": "Cuenta + newsletter Carolina Herrera",
+    "signupUrl": "https://www.carolinaherrera.com/mx/es/editorial/shopping-with-benefits",
+    "requirements": [
+      "Crear cuenta en carolinaherrera.com/mx",
+      "Capturar tu fecha de cumpleaños en la cuenta",
+      "Suscribirte al newsletter para canjear la oferta"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños; la marca no publica vigencia ni cómo se entrega",
+    "minPurchase": null,
+    "howToClaim": "Registra tu fecha de cumpleaños en tu cuenta, suscríbete al newsletter y usa el botón 'Registrarse ahora' de la página de beneficios; la marca no detalla cómo se canjea el regalo.",
+    "sources": [
+      "https://www.carolinaherrera.com/mx/es/editorial/shopping-with-benefits"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tienda en línea carolinaherrera.com/mx; no se confirma si aplica en boutiques",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "diesel-house-of-diesel-mexico",
+    "brand": "Diesel México (House of Diesel)",
+    "category": "ropa",
+    "benefit": "Regalos y sorpresas de cumpleaños (House of Diesel)",
+    "benefitType": "gratis",
+    "details": "El programa de lealtad gratuito House of Diesel opera en México e incluye 'regalos y sorpresas de cumpleaños' en sus tres niveles (Lobby, Lounge y Penthouse). El sitio y el reglamento no publican en qué consiste el regalo, su monto ni su vigencia. Al registrarte recibes además 10% de descuento en tu primer pedido online.",
+    "program": "House of Diesel",
+    "signupUrl": "https://diesel.com/es-mx/house-of-diesel/",
+    "requirements": [
+      "Registrarte en House of Diesel (sitio, tiendas participantes o atención a clientes)",
+      "Tener tu fecha de cumpleaños en tu perfil"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El reglamento no precisa cuándo ni cómo se entrega el regalo",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en House of Diesel en diesel.com/es-mx o en una tienda participante; la marca comunica por sus canales el regalo de cumpleaños de tu nivel.",
+    "sources": [
+      "https://diesel.com/es-mx/house-of-diesel/",
+      "https://video.diesel.com/Content/HOUSE-OF-DIESEL-Regulation-ES.pdf"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sitio diesel.com/es-mx y tiendas participantes; el reglamento no lista las boutiques de México",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "intimissimi-mexico",
+    "brand": "Intimissimi México (My Intimissimi)",
+    "category": "ropa",
+    "benefit": "20% (Gold) o 25% (Platinum) de descuento en tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "Con la tarjeta digital gratuita My Intimissimi, los miembros Gold (desde 200 puntos) tienen 20% de descuento en una sola compra y los Platinum un cupón de 25%, válidos desde 7 días antes hasta 21 días después de su cumpleaños, combinables con otras promociones excepto rebajas. Los miembros Silver (nivel inicial) reciben puntos dobles en ese periodo. Se acumula 1 punto por cada $15 MXN.",
+    "program": "My Intimissimi",
+    "signupUrl": "https://www.intimissimi.com/mx/loyaltylanding/",
+    "requirements": [
+      "Ser mayor de edad y registrar la tarjeta My Intimissimi (gratis)",
+      "Descuento solo con estatus Gold (200 puntos) o Platinum",
+      "Silver solo recibe puntos dobles",
+      "No aplica en rebajas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Desde 7 días antes hasta 21 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en intimissimi.com/mx/loyaltylanding o en tienda y compra durante la ventana de cumpleaños con tu tarjeta My Intimissimi.",
+    "sources": [
+      "https://www.intimissimi.com/mx/loyaltylanding/",
+      "https://www.intimissimi.com/mx/myintimissimi-regulation.html",
+      "https://www.intimissimi.com/on/demandware.static/-/Library-Sites-IntimissimiContentLibrary/es_MX/v1791076852136/images/legalArea/INT_Loyalty_T&C_MX.pdf"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Intimissimi participantes (propias y franquicias) y intimissimi.com/mx en la República Mexicana",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "calzedonia-mexico",
+    "brand": "Calzedonia México (Calzedonia Lover)",
+    "category": "ropa",
+    "benefit": "Cupón de 20% de descuento por tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "La página del programa Calzedonia Lover en México anuncia 'un cupón de 20% de descuento por tu cumpleaños' (además de envío gratis desde $1,945 MXN para miembros). El reglamento publicado en el sitio MX es la versión de España y Andorra (nivel Friend o Fan, uso único, 7 días antes a 7 días después, no acumulable), por lo que las reglas exactas para México no están confirmadas.",
+    "program": "Calzedonia Lover",
+    "signupUrl": "https://www.calzedonia.com/mx/loyaltylanding/",
+    "requirements": [
+      "Registrarte gratis en Calzedonia Lover",
+      "Tener tu fecha de cumpleaños en el perfil",
+      "Reglamento (versión España): nivel Friend o Fan, uso único, no acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Reglamento del sitio (versión España): 7 días antes a 7 días después del cumpleaños; no confirmado para México",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en calzedonia.com/mx/loyaltylanding con tu fecha de nacimiento y usa el cupón que recibas por tu cumpleaños.",
+    "sources": [
+      "https://www.calzedonia.com/mx/loyaltylanding/",
+      "https://www.calzedonia.com/mx/calzedonialover-regulation.html"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sitio calzedonia.com/mx; el sitio no aclara si el cupón aplica en tiendas físicas",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "desigual-club-mexico",
+    "brand": "Desigual México (Desigual Club)",
+    "category": "ropa",
+    "benefit": "Descuento de cumpleaños 'auto-regalo' con Desigual Club",
+    "benefitType": "descuento",
+    "details": "Los miembros del programa gratuito Desigual Club en México (niveles Silver y Gold) reciben en su cumpleaños 'un descuento para un auto-regalo'. La página del club no publica el porcentaje ni la vigencia del descuento, y los T&C (válidos desde el 11 feb 2025) remiten a la lista de ventajas del sitio; las ventajas pueden cambiar sin aviso.",
+    "program": "Desigual Club",
+    "signupUrl": "https://www.desigual.com/es_MX/desigual-club-1/",
+    "requirements": [
+      "Registrarte gratis en Desigual Club (online o en tienda)",
+      "Ser mayor de edad",
+      "Tener tu fecha de cumpleaños registrada"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La marca no publica la vigencia del descuento de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en desigual.com/es_MX/register o en una tienda Desigual; el descuento aparece en tu monedero electrónico/cuenta.",
+    "sources": [
+      "https://www.desigual.com/es_MX/desigual-club-1/",
+      "https://www.desigual.com/on/demandware.static/-/Library-Sites-DsglSharedLibrary/default/dw4528320e/docs/legal/Desigual_Club/Desigual_Club_TC_ES_MX_230125.pdf"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas propias y franquicias Desigual en México y desigual.com/es_MX",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "autodromo-de-leon",
+    "brand": "Autódromo de León (go karts)",
+    "category": "experiencias",
+    "benefit": "Renta de kart gratis para el cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "Promo Cumpleañero: el cumpleañero recibe su renta de kart gratis si presenta identificación oficial, va con mínimo 4 personas, se toma una foto en el marco de cumpleañero y la publica en redes etiquetando al autódromo. Válida de miércoles a viernes y sujeta a confirmar disponibilidad. El sitio actual lista la promo en su menú pero el detalle completo está en su página anterior de promociones; no publica fecha de fin.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con mínimo 4 personas",
+      "Foto en el marco de cumpleañero, publicarla y etiquetar al autódromo",
+      "Solo de miércoles a viernes",
+      "Confirmar disponibilidad antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Miércoles a viernes; el sitio no precisa si es el día o el mes del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa por WhatsApp (477 449 8673) o en la pista, presenta tu identificación y llega con al menos 4 personas.",
+    "sources": [
+      "https://www.autodromodeleon.com/festeja-tu-cumple",
+      "http://www.autodromodeleon.com/index.php/gokarts-promos/362-promo-cumpleanos"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GUA"
+    ],
+    "cities": [
+      "leon"
+    ],
+    "locationNote": "Autódromo de León, León, Gto.",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": null
+  },
+  {
+    "slug": "raft-mexico-morelos",
+    "brand": "Raft México (rafting y aventura)",
+    "category": "experiencias",
+    "benefit": "Cumpleañero va gratis en grupos de 4 a 8",
+    "benefitType": "regalo-con-compra",
+    "details": "Promoción de Cumpleaños de Raft México: en grupos de 4 a 8 personas el cumpleañero va gratis; en grupos de 10 personas el cumpleañero va gratis y el resto recibe 5% de descuento. La página no indica identificación, vigencia ni en qué actividades aplica (rafting, kayak, cañonismo, rappel, etc.).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo de 4 a 8 personas (o de 10 para sumar 5% al resto)",
+      "Confirmar con la empresa qué identificación piden",
+      "Confirmar actividades participantes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La página no precisa día o mes ni fecha de fin",
+    "minPurchase": null,
+    "howToClaim": "Reserva en el sitio o por teléfono indicando que es cumpleaños de alguien del grupo: (044) 777 127 71 65.",
+    "sources": [
+      "https://www.raftmexico.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "Turismo de aventura en Morelos (río Amacuzac, Tepoztlán y alrededores).",
+    "needsId": null,
+    "companions": 3,
+    "validUntil": null
+  },
+  {
+    "slug": "mexico-verde-jalcomulco",
+    "brand": "Expediciones México Verde",
+    "category": "experiencias",
+    "benefit": "Hospedaje gratis para el cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "El paquete \"Cumpleañero\" de Expediciones México Verde (rafting y aventura en Jalcomulco) es una aventura en grupo y, como regalo especial, el cumpleañero disfruta de hospedaje gratis. La página dice que está disponible todo el año; no detalla mínimo de personas, actividades incluidas, precio ni identificación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar el paquete Cumpleañero en grupo",
+      "Confirmar mínimo de personas y actividades con la empresa"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Disponible todo el año según el sitio; no precisa si es el día o el mes",
+    "minPurchase": null,
+    "howToClaim": "Pide cotización del paquete Cumpleañero en el sitio o por teléfono (279) 832 3730.",
+    "sources": [
+      "https://mexicoverde.com/tours/cumpleanero/"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "VER"
+    ],
+    "cities": [],
+    "locationNote": "Jalcomulco, Veracruz (carretera Jalcomulco-Coatepec km 4).",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "cinedot-connect-pink",
+    "brand": "Cinedot",
+    "category": "cine",
+    "benefit": "Combo de cumpleaños con tarjeta Connect Pink",
+    "benefitType": "regalo-con-compra",
+    "details": "Con la tarjeta Cinedot Connect Pink recibes en tu mes de cumpleaños, una sola vez, una entrada a precio de niño de fin de semana, palomitas medianas de mantequilla y un refresco mediano. Se canjea solo en sucursal con la tarjeta e identificación; no aplica en 3D ni eventos especiales. La tarjeta Black tiene beneficios distintos. No se encontró un documento oficial vigente con fecha de fin.",
+    "program": "Cinedot Connect",
+    "signupUrl": null,
+    "requirements": [
+      "Tarjeta Cinedot Connect (Pink o Black)",
+      "Identificación",
+      "Canje presencial en sucursal",
+      "No aplica en funciones 3D ni eventos especiales",
+      "Una sola vez en el mes"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños, una vez",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu tarjeta Connect e identificación en taquilla o dulcería de Cinedot durante tu mes de cumpleaños.",
+    "sources": [
+      "https://www.tusbuenasnoticias.com/noticias/actualidad/2025/05/27/45727-combos-de-cinedot-que-incluyen-y-cuanto-cuestan-en-2025"
+    ],
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "CMX",
+      "MEX",
+      "MOR",
+      "QUE"
+    ],
+    "cities": [],
+    "locationNote": "Sucursales en CDMX (p. ej. Azcapotzalco), Edomex (Toluca, Metepec, Ecatepec, Tlalnepantla, Naucalpan, Coacalco), Querétaro y Cuernavaca; confirma que tu sucursal participe.",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "desafio-escape-rooms-satelite",
+    "brand": "Desafío Escape Rooms (Satélite)",
+    "category": "experiencias",
+    "benefit": "Festeja tu cumple gratis (grupo de 6+)",
+    "benefitType": "regalo-con-compra",
+    "details": "Desafío Escape Rooms Satélite ofrece que festejes tu cumpleaños gratis: el cumpleañero juega sin costo si el grupo es de mínimo 6 personas. Hay que avisar por llamada o WhatsApp que es un cumpleaños; no aplica con otras promociones. El sitio no indica identificación ni fecha de fin.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo de mínimo 6 personas",
+      "Avisar por llamada o WhatsApp que es cumpleaños",
+      "No aplica con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Al reservar tu grupo; el sitio no precisa día o mes",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa por teléfono/WhatsApp (55 64 55 31 85) que es cumpleaños.",
+    "sources": [
+      "https://desafioroomsoficial.com/promociones.php"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MEX"
+    ],
+    "cities": [
+      "naucalpan"
+    ],
+    "locationNote": "Manuel E. Izaguirre 13, piso 1, a un lado de Plaza Satélite, Naucalpan. Cerrado los lunes.",
+    "needsId": null,
+    "companions": 5,
+    "validUntil": null
+  },
+  {
+    "slug": "jumpster-paquete-neon",
+    "brand": "Jumpster Trampoline Park",
+    "category": "experiencias",
+    "benefit": "Pase de 5 visitas y termo de café con fiesta Neón",
+    "benefitType": "regalo-con-compra",
+    "details": "Al reservar el Paquete Neón (mínimo 15 saltadores) puedes pedir regalos extra para el cumpleañero: pase de 5 visitas con 2 horas de salto cada una, termo de café gratis y botarga cantando las mañanitas. El paquete Clan Attack es para festejar con 5 amigos en el mes del cumpleaños (3 horas de salto, pizza y palomitas). Los paquetes no aplican con otra promoción; el menú no incluye refresco ni pastel. Publicado en agosto de 2025, sin fecha de fin.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar el Paquete Neón (mínimo 15 saltadores)",
+      "Reservar el salón con $100 de anticipo",
+      "No aplica con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Al contratar la fiesta; Clan Attack aplica en el mes del cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu fecha en jumpster.mx o en la sucursal con $100 de anticipo y pide los regalos del cumpleañero.",
+    "sources": [
+      "https://jumpster.mx/blog/promociones-cumpleanos/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GUA",
+      "NLE"
+    ],
+    "cities": [
+      "monterrey",
+      "leon"
+    ],
+    "locationNote": "Sucursales Esfera y Park Point (Monterrey) y City Center León.",
+    "needsId": false,
+    "companions": 14,
+    "validUntil": null
+  },
+  {
+    "slug": "upa-trampolines-antea-queretaro",
+    "brand": "UPA Trampoline Park (Antea)",
+    "category": "experiencias",
+    "benefit": "Fiesta entre semana incluye cupón de salto para cumpleañero",
+    "benefitType": "regalo-con-compra",
+    "details": "Las fiestas de cumpleaños desde $680 por persona incluyen acceso a trampolines, Recorcard con 300 puntos, comida, bebida y pastel, y un regalo para el festejado. Si reservas de lunes a jueves recibes una hora extra en el salón y un cupón gratis para que el cumpleañero y un invitado vuelvan a saltar (vale 30 días, una sola visita). Es una promoción de paquete de fiesta, no de visita individual.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar fiesta de cumpleaños (desde $680 por persona)",
+      "Reservar de lunes a jueves para la hora extra y el cupón",
+      "Cupón válido 30 días y una sola visita"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Al contratar la fiesta entre semana; cupón vale 30 días",
+    "minPurchase": null,
+    "howToClaim": "Cotiza tu fiesta en upa.com.mx o por WhatsApp de la sucursal.",
+    "sources": [
+      "https://upa.com.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "QUE"
+    ],
+    "cities": [
+      "queretaro"
+    ],
+    "locationNote": "UPA Antea, Querétaro (operado por Recórcholis).",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "balneario-vito-atotonilco-de-tula",
+    "brand": "Balneario Vito",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis una semana antes y después",
+    "benefitType": "regalo-con-compra",
+    "details": "El cumpleañero entra gratis al balneario de aguas termales desde una semana antes hasta una semana después de su cumpleaños con identificación oficial vigente (INE, copia del acta de nacimiento o CURP). Para validar la promoción hay que comprar mínimo 2 entradas más por cada cumpleañero y pedir que se haga válida antes de adquirir las entradas. No aplica en tarifas de hotel; aplican términos y condiciones.",
+    "program": null,
+    "signupUrl": "http://balneariovito.com/services/cumpleanos-en-vito/",
+    "requirements": [
+      "INE vigente, copia del acta de nacimiento o CURP",
+      "Comprar mínimo 2 entradas más por cada cumpleañero",
+      "Pedir que validen la promoción antes de comprar las entradas",
+      "No aplica en tarifas de hotel"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Una semana antes y una semana después de tu cumpleaños; sin fecha de fin publicada (sitio con © 2026)",
+    "minPurchase": null,
+    "howToClaim": "En taquilla pide que validen tu promoción de cumpleañero y presenta tu identificación antes de comprar las entradas de tus acompañantes.",
+    "sources": [
+      "http://balneariovito.com/services/cumpleanos-en-vito/",
+      "http://balneariovito.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "HID"
+    ],
+    "cities": [],
+    "locationNote": "Balneario Vito, El Refugio km 1.5, Atotonilco de Tula, Hidalgo (a 1 hora de CDMX); abre de 7:00 a 20:00",
+    "needsId": true,
+    "companions": 2,
+    "validUntil": null
+  },
+  {
+    "slug": "parque-acuatico-santa-rita-ayotlan",
+    "brand": "Parque Acuático Santa Rita",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis 7 días antes o después",
+    "benefitType": "gratis",
+    "details": "Promoción \"CumpleañeRit@ entra gratis\": el cumpleañero entra gratis a entrada general durante los 7 días previos o posteriores a su cumpleaños, con CURP o acta de nacimiento si es menor o INE si es mayor de edad, y llenando el registro de taquilla. No válido en Semana Santa y Pascua, excursiones ni con otras promociones.",
+    "program": null,
+    "signupUrl": "https://www.parqueacuaticosantarita.com.mx/tarifasypromociones",
+    "requirements": [
+      "CURP o acta de nacimiento (menores) o INE (adultos)",
+      "Llenar el registro de taquilla",
+      "Solo entrada general",
+      "No válido en Semana Santa y Pascua, excursiones ni otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Los 7 días previos o los 7 días posteriores a tu cumpleaños; no válido en Semana Santa y Pascua",
+    "minPurchase": null,
+    "howToClaim": "Presenta CURP/acta (menores) o INE (adultos) en la taquilla y llena el registro de cumpleañeros.",
+    "sources": [
+      "https://www.parqueacuaticosantarita.com.mx/tarifasypromociones",
+      "https://www.parqueacuaticosantarita.com.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "JAL"
+    ],
+    "cities": [],
+    "locationNote": "Camino Vecinal Ayotlán-La Rivera s/n, Santa Rita, Ayotlán, Jalisco (zona Ciénega, ~1.5 h de Guadalajara); abre los 365 días de 9:00 a 18:00",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "mundo-granjero-tepetongo",
+    "brand": "Mundo Granjero",
+    "category": "parques",
+    "benefit": "Entrada gratis todo el mes de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Cumpleañero gratis: entra gratis durante todo el mes de su cumpleaños presentando original y copia de su INE o acta de nacimiento en las taquillas del parque. Promoción válida todo el año; no aplica en grupos ni es acumulable; aplican restricciones.",
+    "program": null,
+    "signupUrl": "https://mundogranjero.com.mx/promociones/",
+    "requirements": [
+      "Original y copia de INE o acta de nacimiento",
+      "Presentarlos en las taquillas del parque",
+      "No aplica en grupos ni es acumulable"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; la promoción es válida todo el año",
+    "minPurchase": null,
+    "howToClaim": "Ve a taquilla en tu mes de cumpleaños y entrega original y copia de tu INE o acta de nacimiento.",
+    "sources": [
+      "https://mundogranjero.com.mx/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "MIC"
+    ],
+    "cities": [],
+    "locationNote": "Carretera México-Morelia km 129, Tepetongo (Contepec), Michoacán; a 20 min de Atlacomulco (Edomex) y ~90 min de CDMX",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "balneario-la-onda-oacalco-morelos",
+    "brand": "Balneario La Onda",
+    "category": "parques",
+    "benefit": "Cumpleañero del mes no paga entrada",
+    "benefitType": "gratis",
+    "details": "Según el directorio Balnearios en Morelos (precios actualizados 2026), el cumpleañero no paga entrada durante todo el mes presentando su INE; los menores de edad, acta de nacimiento o CURP. Entrada general de $130. No encontré la promoción en un sitio propio del balneario, así que confirma por teléfono antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE (adultos) o acta de nacimiento/CURP (menores)",
+      "Cumplir años en el mes de la visita"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE (o acta/CURP si eres menor) en taquilla; confirma al 735 161 2982 o 735 197 4741.",
+    "sources": [
+      "https://www.balneariosenmorelos.com.mx/index.php?q=la_onda"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "MOR"
+    ],
+    "cities": [],
+    "locationNote": "A un costado de la caseta de Oacalco, Yautepec, Morelos; en temporada baja abre de jueves a domingo",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "careva-centro-ecoturistico-actopan",
+    "brand": "Careva Centro Ecoturístico",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis",
+    "benefitType": "gratis",
+    "details": "El directorio Balnearios en Veracruz (precios actualizados 2026) lista \"Cumpleañero entra gratis\" en el centro ecoturístico con albercas, cabañas y áreas verdes junto al río de Actopan. No precisa mes, día ni requisitos y el sitio oficial solo remite a Facebook para promociones; confirma por teléfono (279 822 5164) antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación con fecha de nacimiento (sugerido)",
+      "Confirmar condiciones por teléfono o Facebook"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El directorio no precisa el periodo del beneficio",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en la entrada de Careva o por teléfono con tu identificación; confirma cuándo aplica.",
+    "sources": [
+      "https://www.balneariosenveracruz.com/index.php?q=careva",
+      "https://carevaenactopan.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "VER"
+    ],
+    "cities": [],
+    "locationNote": "Calle 16 de Septiembre 49A, Santa Cruz, Actopan, Veracruz (a ~30 min de Xalapa)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "balneario-la-cantera-tula-de-allende",
+    "brand": "Balneario La Cantera",
+    "category": "parques",
+    "benefit": "Cumpleañeros entran gratis con identificación",
+    "benefitType": "gratis",
+    "details": "El directorio Balnearios de Aguas Termales (cuya fuente declarada es el propio balneario) lista que los cumpleañeros entran gratis con algún documento o credencial que acredite su fecha de nacimiento. No aplica en excursiones ni en temporada de Semana Santa. El directorio no precisa si es el día o el mes, no tiene fecha de actualización y el sitio oficial del parque no abre, así que confirma por teléfono.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Documento o credencial que acredite la fecha de nacimiento",
+      "No aplica en excursiones",
+      "No aplica en Semana Santa"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El directorio no precisa el periodo; no aplica en Semana Santa",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en taquilla y pregunta si aplica hoy; informes al (773) 732 6406 o 103 3625.",
+    "sources": [
+      "https://www.balneariosdeaguastermales.com.mx/ajacuba-tula/balneario_la_cantera.html"
+    ],
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "HID"
+    ],
+    "cities": [],
+    "locationNote": "El Llano 2da Sección, Tula de Allende, Hidalgo; abre 24 h según el directorio",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "bp-bpme-rewards",
+    "brand": "BP (BPme Rewards)",
+    "category": "servicios",
+    "benefit": "150 puntos BPme ($15) en tu primera carga del mes",
+    "benefitType": "regalo-con-compra",
+    "details": "Con cuenta activa en BPme Rewards, tu primera carga de combustible bp durante tu mes de cumpleaños te da un bono de 150 Puntos BPme Rewards. Debes dar tu número de teléfono registrado al pagar; cada punto equivale a $0.10 (150 puntos = $15) y se canjea por más combustible en bp. La página oficial no detalla tope, vigencia ni cuándo se abonan los puntos.",
+    "program": "BPme Rewards",
+    "signupUrl": "https://www.bpmerewards.com.mx/",
+    "requirements": [
+      "Cuenta activa en BPme Rewards (registro gratis con tu celular)",
+      "Primera carga de combustible bp dentro de tu mes de cumpleaños",
+      "Dar tu número de teléfono registrado en la terminal al pagar",
+      "Solo estaciones bp participantes en el programa"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Primera carga de combustible bp durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en bpmerewards.com.mx con tu celular (confirma que tu fecha de nacimiento esté capturada). En tu mes de cumpleaños haz tu primera carga de combustible en una estación bp participante y da tu número de teléfono al pagar; el bono de 150 puntos se acredita conforme a los tiempos del programa y lo canjeas por más combustible.",
+    "sources": [
+      "https://www.bp.com/es_mx/mexico/home/products-and-services/bpme_rewards/promociones-.html",
+      "https://www.bp.com/es_mx/mexico/home/products-and-services/bpme_rewards.html",
+      "https://www.bp.com/content/dam/bp/country-sites/es_mx/mexico/home/PROMO%20CON%20BP%20ME%20LLEVA%20A%20LAS%20VEGAS.pdf"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo estaciones bp participantes en BPme Rewards; el listado de estados varía, confirma tu estación en bp.com/es_mx",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "sears-tarjeta-magica-ninos",
+    "brand": "Sears Tarjeta Mágica (niños)",
+    "category": "departamentales",
+    "benefit": "Cupón de 10% de descuento por el cumpleaños del niño",
+    "benefitType": "descuento",
+    "details": "La Tarjeta Mágica Sears (para niños de 0 a 16 años; los papás le abonan saldo) incluye un cupón de 10% de descuento por su cumpleaños, válido solo al presentarlo junto con la tarjeta vigente. Además, manda una carta de felicitación en el mes del cumpleaños si el niño resulta sorteado. Beneficio exclusivo de tienda física en los departamentos participantes (Niños, Niñas, Bebés, Calzado infantil, Juguetería, Dulcería, Deportes, Decoración, Equipaje, Blancos, entre otros). La página oficial no publica vigencia del cupón ni cómo se entrega.",
+    "program": "Tarjeta Mágica Sears",
+    "signupUrl": "https://www.sears.com.mx/c/tarjeta-magica/",
+    "requirements": [
+      "Tarjeta Mágica Sears vigente (niños de 0 a 16 años)",
+      "Presentar el cupón de cumpleaños junto con la tarjeta",
+      "Solo tienda física y departamentos participantes",
+      "La carta de felicitación del mes de cumpleaños es por sorteo"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El cupón es por su cumpleaños (vigencia no publicada); la carta de felicitación llega en el mes del cumpleaños si resulta sorteado",
+    "minPurchase": null,
+    "howToClaim": "Solicita la tarjeta en el área de cajas de un departamento participante, llena la solicitud y recibe la Tarjeta Mágica en esa misma tienda; los papás abonan saldo en cajas. Para el cumpleaños, presenta el cupón de 10% junto con la tarjeta vigente (la página no explica cómo llega el cupón; pregunta en cajas o servicio al cliente).",
+    "sources": [
+      "https://www.sears.com.mx/c/tarjeta-magica/"
+    ],
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo en tiendas físicas Sears (no en línea)",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
     "slug": "porfirios-merida",
     "brand": "Porfirio's Mérida",
     "category": "restaurantes",
