@@ -144,7 +144,8 @@
     "cities": [
       "cdmx",
       "naucalpan",
-      "cancun"
+      "cancun",
+      "playa-del-carmen"
     ],
     "locationNote": "CDMX: Miyana, Vallejo, Tezontle, Toreo; también Cancún y Playa del Carmen",
     "needsId": true,
@@ -9964,6 +9965,910 @@
     "validUntil": null
   },
   {
+    "slug": "rakun-caffe-tijuana",
+    "brand": "Rakún Caffe",
+    "category": "cafe",
+    "benefit": "Bebida gratis el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según reportes en redes (TikTok), si es tu cumpleaños tu bebida va por la casa al presentar tu INE en caja: una bebida por persona y solo ese día. El perfil de Instagram del café no publica la promoción en su biografía, así que conviene confirmarla por teléfono (664 609 2831) antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE presentado en caja",
+      "Una bebida por persona",
+      "Solo el día de tu cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide en caja, avisa que es tu cumpleaños y muestra tu INE.",
+    "sources": [
+      "https://www.instagram.com/rakuncaffe/",
+      "https://www.tiktok.com/discover/lugares-en-tijuana-donde-entras-gratis-el-cumplea%C3%B1ero"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Rakún Café, segundo piso de Verde Vida, colonia Cacho (entre Calle 11 y Blvd. Agua Caliente), Tijuana",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "bribon-hermosillo",
+    "brand": "Bribón",
+    "category": "restaurantes",
+    "benefit": "Platillo gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, Bribón regala un platillo al cumpleañero. El sitio oficial (bribonmx.com) y su Facebook no publican la promoción ni sus reglas (acompañantes, día o vigencia), por lo que hay que confirmarla al reservar (662 404 2143).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas no publicadas: confirma acompañantes y días al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si es el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono, menciona que es tu cumpleaños y pregunta las condiciones vigentes.",
+    "sources": [
+      "https://bribonmx.com/",
+      "https://www.tiktok.com/discover/restaurantes-que-regalan-en-cumplea%C3%B1os-hermosillo"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SON"
+    ],
+    "cities": [
+      "hermosillo"
+    ],
+    "locationNote": "Bribón, Blvd. Eusebio Kino 183, Country Club, Hermosillo",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "arbol-de-vida-hermosillo",
+    "brand": "Árbol de Vida",
+    "category": "restaurantes",
+    "benefit": "Desayuno o comida gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, el cumpleañero recibe desayuno o comida gratis (el platillo) si llega con 4 acompañantes que consuman. No se publica vigencia ni si aplica solo el día exacto, así que confirma al reservar (662 124 5180).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes que consuman",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva, llega con tus 4 acompañantes y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/p/Arbol-de-Vida-Hermosillo-100038850021177/",
+      "https://www.tiktok.com/discover/restaurantes-que-regalan-en-cumplea%C3%B1os-hermosillo"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SON"
+    ],
+    "cities": [
+      "hermosillo"
+    ],
+    "locationNote": "Árbol de Vida, Plaza Hidalgo, Centro de Hermosillo",
+    "needsId": null,
+    "companions": 4,
+    "validUntil": null
+  },
+  {
+    "slug": "mariscos-la-jaibita-hermosillo",
+    "brand": "Mariscos La Jaibita (Hermosillo)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con consumo mínimo de $400",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, el cumpleañero come gratis si el consumo de la mesa llega a $400 o a 8 medias (medias órdenes), con reservación. La publicación no precisa días, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Consumo mínimo de $400 o 8 medias",
+      "Reservación",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": 400,
+    "howToClaim": "Reserva en la sucursal de Hermosillo y avisa que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://www.facebook.com/LaJaibitaHMO/",
+      "https://www.tiktok.com/discover/restaurantes-que-regalan-en-cumplea%C3%B1os-hermosillo"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SON"
+    ],
+    "cities": [
+      "hermosillo"
+    ],
+    "locationNote": "Sucursal Hermosillo (Las Placitas de Abajo)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "las-herraduras-hermosillo",
+    "brand": "Las Herraduras (buffet)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga su buffet",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, en el buffet Las Herraduras el cumpleañero no paga. No se publican acompañantes mínimos, días ni vigencia; confirma por teléfono (662 210 0101) antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reglas no publicadas: confirma acompañantes e identificación"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Llama o escribe por redes para confirmar condiciones y avisa que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.instagram.com/lasherraduras/",
+      "https://www.tiktok.com/discover/restaurantes-que-regalan-en-cumplea%C3%B1os-hermosillo"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SON"
+    ],
+    "cities": [
+      "hermosillo"
+    ],
+    "locationNote": "Las Herraduras, Blvd. Morelos, Hermosillo",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "cinnabon-hermosillo",
+    "brand": "Cinnabon Hermosillo",
+    "category": "postres",
+    "benefit": "Rol clásico + bebida de 12 oz en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, en las sucursales de Cinnabon Hermosillo (Galerías Mall Sonora y Plaza Catalunya) te regalan un rol clásico y una bebida de 12 oz el día de tu cumpleaños presentando identificación. No es el programa nacional de Cinnabon; no se publican mínimo de compra ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Presentar identificación oficial",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños (según reportes)",
+    "minPurchase": null,
+    "howToClaim": "Avisa en mostrador que es tu cumpleaños y presenta tu identificación.",
+    "sources": [
+      "https://cinnabon.mx/bakery-locations/",
+      "https://www.tiktok.com/discover/restaurantes-que-regalan-en-cumplea%C3%B1os-hermosillo"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SON"
+    ],
+    "cities": [
+      "hermosillo"
+    ],
+    "locationNote": "Sucursales Galerías Mall Sonora y Plaza Catalunya (Hermosillo)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "mariscos-la-baja-culiacan",
+    "brand": "Mariscos La Baja (Culiacán)",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok y datos de contacto del restaurante, el cumpleañero recibe un postre de cortesía al presentar su INE. Reservaciones al 667 329 4114 o 667 502 2303; no se publican acompañantes mínimos, días ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono, avisa que es tu cumpleaños y presenta tu INE al pedir.",
+    "sources": [
+      "https://www.facebook.com/799221963442463/",
+      "https://www.instagram.com/labajaseafood_cuisine/",
+      "https://www.tiktok.com/discover/cosas-gratis-en-tu-cumplea%C3%B1os-culiac%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "culiacan"
+    ],
+    "locationNote": "La Baja Seafood Cuisine, Blvd. República de Brasil 2560, Culiacán",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "bonara-culiacan",
+    "brand": "Bonara Restaurante",
+    "category": "restaurantes",
+    "benefit": "Consumo gratis para el cumpleañero con 2 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según publicaciones de la propia cuenta de TikTok del restaurante, el consumo del cumpleañero es gratis si llega acompañado de dos personas y presenta su INE. No se publican límites de monto, días ni vigencia; reservaciones al 667 329 4114 o 667 502 2303.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 2 acompañantes",
+      "INE vigente",
+      "Límites de monto y vigencia no publicados"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono, llega con tus 2 acompañantes y presenta tu INE.",
+    "sources": [
+      "https://www.instagram.com/bonararestaurante/",
+      "https://www.facebook.com/bonararestaurante/",
+      "https://www.tiktok.com/discover/cosas-gratis-en-tu-cumplea%C3%B1os-culiac%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "culiacan"
+    ],
+    "locationNote": "Restaurante Bonara, Culiacán",
+    "needsId": true,
+    "companions": 2,
+    "validUntil": null
+  },
+  {
+    "slug": "chinalin-roll-culiacan",
+    "brand": "Chinalin Roll",
+    "category": "restaurantes",
+    "benefit": "Sushi gratis para el cumpleañero con reservación",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, al reservar para celebrar tu cumpleaños en Chinalin Roll (fusión de sushi y comida china) el cumpleañero come sushi gratis. No se publican acompañantes mínimos, identificación ni vigencia; teléfono 667 578 0339.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar para tu festejo",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono o redes mencionando que festejas tu cumpleaños.",
+    "sources": [
+      "https://www.instagram.com/chinalinroll/",
+      "https://www.tiktok.com/discover/cosas-gratis-en-tu-cumplea%C3%B1os-culiac%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "culiacan"
+    ],
+    "locationNote": "Blvd. Las Torres 2452, Prados del Sol, Culiacán",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "lazy-tea-boba-shop-noroeste",
+    "brand": "Lazy Tea Boba Shop",
+    "category": "cafe",
+    "benefit": "Bebida gratis o regalo (postre/llavero) en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según reportes (TikTok e Instagram de la sucursal), Lazy Tea Culiacán regala una bebida a quien celebra su cumpleaños con amigos o familia, y el programa Lazy Club indicaba un regalo de cumpleaños (postre o llavero) para miembros. La página oficial del club ya no abre, así que reglas, mínimos y vigencia no están confirmados.",
+    "program": "Lazy Club",
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en la sucursal",
+      "Lazy Club: ser miembro",
+      "Reglas y vigencia no confirmadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en caja que es tu cumpleaños y pregunta por el regalo vigente; si eres miembro de Lazy Club, muestra tu tarjeta.",
+    "sources": [
+      "https://www.instagram.com/lazytea_cln/",
+      "https://www.instagram.com/lazytea.mx/",
+      "https://www.tiktok.com/discover/cosas-gratis-en-tu-cumplea%C3%B1os-culiac%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN",
+      "SIN"
+    ],
+    "cities": [
+      "culiacan",
+      "mexicali",
+      "tijuana",
+      "los-mochis"
+    ],
+    "locationNote": "Sucursales en Culiacán, Mexicali, Tijuana y Los Mochis; el reporte del regalo viene de la sucursal Culiacán (Juan de Dios Bátiz 317)",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "el-tenampa-campestre-mazatlan",
+    "brand": "El Tenampa Restaurante Campestre",
+    "category": "restaurantes",
+    "benefit": "Platillo gratis con más de 6 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, el platillo del cumpleañero es gratis si llega acompañado de más de 6 personas, de lunes a sábado. No se publican identificación ni vigencia; reservaciones al 669 941 5341.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con más de 6 personas",
+      "Solo de lunes a sábado",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "De lunes a sábado; no se publica si aplica el día exacto o el mes",
+    "minPurchase": null,
+    "howToClaim": "Reserva para tu grupo y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.instagram.com/el_tenampa_restaurante/",
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-cosas-gratis-por-tu-cumplea%C3%B1os-en-mazatlan"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": "Calle Ejido Agua Verde 12000, Mazatlán",
+    "needsId": null,
+    "companions": 6,
+    "validUntil": null
+  },
+  {
+    "slug": "la-tostaderia-del-mar-mazatlan",
+    "brand": "La Tostadería del Mar",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 5 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok (incluida la cuenta del restaurante), el cumpleañero come gratis si llega con 5 personas. No se publican días, identificación ni vigencia; reservaciones al 669 160 2708.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 acompañantes",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu mesa y avisa que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.tiktok.com/@latostaderiadelmar",
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-cosas-gratis-por-tu-cumplea%C3%B1os-en-mazatlan"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": "Paseo de la Isla 66 (frente a la Marina), Mazatlán",
+    "needsId": null,
+    "companions": 5,
+    "validUntil": null
+  },
+  {
+    "slug": "roys-mazatlan",
+    "brand": "Roy's Mazatlán",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis los viernes con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según reportes en redes, los viernes de 7:00 a 11:00 pm el cumpleañero come gratis si llega con 4 personas; con reservación anticipada hay además segunda ronda de bebidas y mixología a $89, con música en vivo. Aplican restricciones no publicadas; teléfonos 669 990 6225 / 669 990 6228.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes",
+      "Solo viernes de 7:00 a 11:00 pm",
+      "Reservar con anticipación",
+      "Restricciones no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Todos los viernes de 7:00 pm a 11:00 pm",
+    "minPurchase": null,
+    "howToClaim": "Reserva para un viernes en el horario de la promo y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.facebook.com/restauranteroys/",
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-cosas-gratis-por-tu-cumplea%C3%B1os-en-mazatlan"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": "Roy's Mazatlán, Av. Carlos Canseco 6085",
+    "needsId": null,
+    "companions": 4,
+    "validUntil": null
+  },
+  {
+    "slug": "mi-chulo-mazatlan",
+    "brand": "Mi Chulo Mazatlán",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según un video promocional del restaurante, el cumpleañero come gratis si llega con 4 acompañantes; aplican restricciones que se consultan en el local. Reportes mencionan las sucursales de Plaza Cintrón El Toreo, Plaza Andanza y Plaza Santa Lucía Marina.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes",
+      "Restricciones no publicadas: consúltalas en el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y confirma las condiciones con el personal.",
+    "sources": [
+      "https://www.instagram.com/michulomazatlan/",
+      "https://www.tiktok.com/discover/lugares-donde-te-dan-cosas-gratis-por-tu-cumplea%C3%B1os-en-mazatlan"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": "Sucursales Plaza Cintrón (Av. El Toreo 311), Plaza Andanza y Plaza Santa Lucía Marina, Mazatlán",
+    "needsId": null,
+    "companions": 4,
+    "validUntil": null
+  },
+  {
+    "slug": "churrascaria-do-brasil-noroeste",
+    "brand": "Churrascaria Do Brasil",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero con 4 adultos",
+    "benefitType": "gratis",
+    "details": "Según reportes, si es tu cumpleaños y llegas con 4 adultos el buffet de espadas brasileñas es gratis (solo pagas bebidas); reportes de Culiacán y Mazatlán lo mencionan, y en Tijuana se publicó en 2020 con identificación oficial y de lunes a miércoles de la semana del cumpleaños. La página oficial no publica las reglas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 adultos",
+      "Identificación oficial",
+      "Tijuana (reporte 2020): lunes a miércoles de la semana de tu cumpleaños",
+      "Reglas vigentes no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Tijuana: lunes a miércoles de la semana de tu cumpleaños (reporte 2020); en Culiacán/Mazatlán no se precisa",
+    "minPurchase": null,
+    "howToClaim": "Reserva, llega con tus 4 acompañantes y presenta tu identificación; pregunta por las condiciones vigentes.",
+    "sources": [
+      "https://churrascariadobrasil.com.mx/",
+      "https://www.facebook.com/churrascariadobrasilmx/",
+      "https://www.facebook.com/lachurrascariadobrasil.cln/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN",
+      "SIN"
+    ],
+    "cities": [
+      "tijuana",
+      "culiacan",
+      "mazatlan"
+    ],
+    "locationNote": "Tijuana (Zona Río, Hipódromo, Macroplaza), Culiacán (Tres Ríos) y Mazatlán (Av. Camarón Sábalo 1200)",
+    "needsId": true,
+    "companions": 4,
+    "validUntil": null
+  },
+  {
+    "slug": "el-muchacho-alegre-tijuana",
+    "brand": "El Muchacho Alegre (Tijuana)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis con 4 adultos y reservación",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, con reservación y 4 adultos acompañantes el cumpleañero come gratis y puede festejar con la tradicional silla voladora; algunos reportes indican que aplica durante todo el mes de cumpleaños. Sucursales Zona Río (664 310 8379) y Plaza Alameda Otay. No hay reglas oficiales publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con anticipación",
+      "Ir con 4 adultos acompañantes",
+      "Reglas oficiales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Según reportes, durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono e indica que festejas tu cumpleaños.",
+    "sources": [
+      "https://www.instagram.com/elmuchachoalegretj/",
+      "https://www.tiktok.com/discover/lugares-en-tijuana-donde-entras-gratis-el-cumplea%C3%B1ero"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Zona Río (Antonio Caso 1981) y Plaza Alameda Otay, Tijuana",
+    "needsId": null,
+    "companions": 4,
+    "validUntil": null
+  },
+  {
+    "slug": "la-macha-tijuana",
+    "brand": "La Macha Restaurante",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis presentando identificación",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, en La Macha (comida mexicana) la comida del cumpleañero es gratis al presentar identificación, citado para la sucursal Plaza Alameda Otay. El sitio oficial solo menciona que atienden cumpleaños y no publica la promoción ni sus reglas (acompañantes, días o vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Presentar identificación",
+      "Acompañantes, días y vigencia no publicados"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y confirma condiciones con el personal.",
+    "sources": [
+      "https://www.lamacharestaurante.com/",
+      "https://www.facebook.com/lamachamx/",
+      "https://www.tiktok.com/discover/lugares-en-tijuana-donde-entras-gratis-el-cumplea%C3%B1ero"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Sucursales Zona Río, Playas de Tijuana, Plaza Alameda Otay y Galerías Hipódromo; el reporte es de Otay",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "mi-tierra-culichi-baja-california",
+    "brand": "Mi Tierra Culichi",
+    "category": "restaurantes",
+    "benefit": "Consumo gratis para el cumpleañero con 1 invitado",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, el consumo del cumpleañero es gratis con mínimo un invitado, una vez por día y sin necesidad de reservar, en las sucursales de Plaza Marina (Ensenada), Plaza Minarete 2 (Tijuana) y Plaza Gran Vía (Mexicali), los mismos plazas donde opera 260 Grados con una promo de condiciones idénticas. No hay reglas oficiales publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 1 invitado",
+      "Una vez por día",
+      "Reglas oficiales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños (según reportes)",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños; no necesitas reservar.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-en-tijuana-donde-entras-gratis-el-cumplea%C3%B1ero",
+      "https://www.tiktok.com/discover/lugares-para-celebrar-tu-cumple-en-mexicali"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "ensenada",
+      "tijuana",
+      "mexicali"
+    ],
+    "locationNote": "Plaza Marina (Ensenada), Plaza Minarete 2 y Paseo Ensenada 1480 (Tijuana), Plaza Gran Vía (Mexicali)",
+    "needsId": null,
+    "companions": 1,
+    "validUntil": null
+  },
+  {
+    "slug": "china-king-buffet-tijuana",
+    "brand": "China King Buffet",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga su buffet",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok y opiniones de clientes, en China King Buffet (Plaza China, Tijuana) el cumpleañero no paga si va en grupo; los reportes varían entre un mínimo de 3 personas y 4 adultos que paguen buffet. No hay reglas oficiales publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en grupo (reportan de 3 a 4 adultos que paguen buffet)",
+      "Reglas oficiales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Llama antes para confirmar el mínimo de personas y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://web.didiglobal.com/mx/food/tijuana-bcn/china-king-buffet-plaza-china/5764607787431362795/",
+      "https://www.tiktok.com/discover/lugares-en-tijuana-donde-entras-gratis-el-cumplea%C3%B1ero"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "China King Buffet, Plaza China, Blvd. Cochimíes 16210, Río Tijuana",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "teasty-tijuana",
+    "brand": "Teasty Bobba Tea",
+    "category": "cafe",
+    "benefit": "Postre gratis si festejas tu cumpleaños con un amigo",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, si vas con un amigo a festejar tu cumpleaños en Teasty te dan un postre gratis. El sitio oficial (teasty.mx) no publica la promoción; no hay reglas de identificación, días ni vigencia confirmadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de 1 amigo",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al pedir que festejas tu cumpleaños y confirma las condiciones.",
+    "sources": [
+      "https://www.instagram.com/teasty.mx/",
+      "https://teasty.mx/",
+      "https://www.tiktok.com/discover/lugares-en-tijuana-donde-entras-gratis-el-cumplea%C3%B1ero"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Teasty Bobba Tea, Brasil 9030, colonia Madero (Cacho), Tijuana",
+    "needsId": null,
+    "companions": 1,
+    "validUntil": null
+  },
+  {
+    "slug": "quiriego-mexicali",
+    "brand": "Quiriego",
+    "category": "restaurantes",
+    "benefit": "Vale de consumo de $300 para el cumpleañero",
+    "benefitType": "descuento",
+    "details": "Según reportes en TikTok, Quiriego Mexicali da al cumpleañero un vale de consumo de $300 aplicable a cualquier producto del menú y en cualquier horario, con grupo mínimo de 4 personas, INE el día del cumpleaños y sin validez en días festivos; solo en la sucursal Mexicali. El sitio oficial (quiriego.mx) no publica la promoción.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Grupo de mínimo 4 personas (tú + 3)",
+      "INE vigente el día de tu cumpleaños",
+      "No aplica en días festivos",
+      "Solo sucursal Mexicali"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños; no aplica en festivos",
+    "minPurchase": null,
+    "howToClaim": "Reserva en Quiriego Mexicali (686 113 5230), llega con tu grupo y presenta tu INE.",
+    "sources": [
+      "https://www.quiriego.mx/",
+      "https://www.facebook.com/quiriegomexicali/",
+      "https://www.tiktok.com/discover/lugares-para-celebrar-tu-cumple-en-mexicali"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "mexicali"
+    ],
+    "locationNote": "Plaza Punta Este, Calz. Cetys y Blvd. Carranza 2600, Mexicali",
+    "needsId": true,
+    "companions": 3,
+    "validUntil": null
+  },
+  {
+    "slug": "pez-gallo-mexicali",
+    "brand": "Pez Gallo Sushi & Cevichería",
+    "category": "restaurantes",
+    "benefit": "Vale de consumo de $500 para el cumpleañero",
+    "benefitType": "descuento",
+    "details": "Según reportes en TikTok, Pez Gallo Mexicali da al cumpleañero un vale de consumo de $500 aplicable a cualquier producto del menú y en cualquier horario, con INE el día del cumpleaños y sin validez en días festivos; también se menciona 7% de cashback en los restaurantes del grupo. El sitio oficial (pezgallo.mx) no publica estas condiciones, y para Quiriego (mismo grupo) el reporte habla de $300, así que confirma el monto.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente el día de tu cumpleaños",
+      "No aplica en días festivos",
+      "Monto y mínimos no confirmados oficialmente"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños; no aplica en festivos",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE al pedir y pregunta por el vale de cumpleaños vigente.",
+    "sources": [
+      "https://pezgallo.mx/",
+      "https://www.facebook.com/pezgallomexicali/",
+      "https://www.tiktok.com/discover/lugares-para-celebrar-tu-cumple-en-mexicali"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "mexicali"
+    ],
+    "locationNote": "Pez Gallo Justo Sierra 1100, Mexicali (el grupo también opera en Tijuana)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "mariscos-el-sonorense-mexicali",
+    "brand": "Mariscos El Sonorense",
+    "category": "restaurantes",
+    "benefit": "Cumpleañeros comen gratis en sucursal Novena",
+    "benefitType": "gratis",
+    "details": "Según un video de la propia cuenta de TikTok del restaurante, los cumpleañeros comen gratis en la sucursal Novena de Mexicali. No se publican acompañantes mínimos, identificación, días ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solo sucursal Novena (Mexicali)",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Visita la sucursal Novena, avisa que es tu cumpleaños y confirma las condiciones.",
+    "sources": [
+      "https://www.tiktok.com/@mariscos.elsonorensemxli/video/7429870837974486278",
+      "https://www.facebook.com/mariscossonorensemx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "mexicali"
+    ],
+    "locationNote": "Sucursal Novena, Mexicali",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "restaurante-lucia-ensenada",
+    "brand": "Restaurante Lucía",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según reportes en redes, si cumples años en Restaurante Lucía te regalan un desayuno; basta con mencionar la promoción. Los miércoles hay además 2x1 en chilaquiles. No se publican acompañantes, identificación ni vigencia; teléfono 646 487 0345.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Mencionar la promoción al pedir",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Al llegar menciona que es tu cumpleaños y que quieres la promo de desayuno.",
+    "sources": [
+      "https://www.facebook.com/p/Lucia-Restaurante-100076073235276/",
+      "https://www.tiktok.com/discover/restaurantes-en-ensenada-donde-te-dan-cosas-por-tu-cumplea%C3%B1os"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "ensenada"
+    ],
+    "locationNote": "Plaza Contenedores (Av. Castillo 62), Zona Centro, Ensenada",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "la-paz-foodtruck-la-paz",
+    "brand": "La Paz Foodtruck Restaurante Bar",
+    "category": "restaurantes",
+    "benefit": "Cena gratis para el cumpleañero con 4 amigos",
+    "benefitType": "gratis",
+    "details": "Según reportes en TikTok, el cumpleañero cena gratis si llega con mínimo 4 amigos durante su mes de cumpleaños; se debe reservar enviando mensaje. Abre de 5:00 a 11:00 pm (hamburguesas, tacos, alitas, boneless, costillas y malteadas). No hay reglas oficiales publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con mínimo 4 amigos",
+      "Reservar enviando mensaje",
+      "Reglas oficiales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños (según reportes)",
+    "minPurchase": null,
+    "howToClaim": "Escribe por mensaje para reservar y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-para-festejar-cumplea%C3%B1os-la-paz"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCS"
+    ],
+    "cities": [
+      "la-paz"
+    ],
+    "locationNote": "La Paz Foodtruck Restaurante Bar, La Paz",
+    "needsId": null,
+    "companions": 4,
+    "validUntil": null
+  },
+  {
     "slug": "las-espadas-chihuahua-juarez-aguascalientes",
     "brand": "Las Espadas Brazilian Steakhouse",
     "category": "restaurantes",
@@ -12383,6 +13288,40 @@
       "merida"
     ],
     "locationNote": "Calle 62 #443, Parque Santa Lucía, Centro Histórico de Mérida",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "eladios-bar-merida",
+    "brand": "Eladio's Bar (Mérida)",
+    "category": "bares",
+    "benefit": "Regalos especiales de cumpleaños para miembros",
+    "benefitType": "gratis",
+    "details": "Su sitio oficial invita a suscribirte al boletín (nombre, correo y fecha de cumpleaños) y dice que, al ser miembro, recibes regalos especiales en tu cumpleaños, además de ofertas y concursos. No especifica cuál es el regalo, si hay consumo mínimo ni la vigencia.",
+    "program": "Boletín de miembros de Eladio's Bar",
+    "signupUrl": "https://eladios.com.mx/",
+    "requirements": [
+      "Suscribirte al boletín con tu fecha de cumpleaños (dd/mm)",
+      "El sitio no detalla el regalo ni condiciones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificada; el sitio no indica cuándo se entrega el regalo",
+    "minPurchase": null,
+    "howToClaim": "Suscríbete en eladios.com.mx con tu nombre, correo y fecha de cumpleaños y pregunta en el bar cómo canjear el regalo.",
+    "sources": [
+      "https://eladios.com.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Eladio's Bar (operado por Luheva del Sureste, Mérida); el sitio no lista sucursales en texto, Tripadvisor ubica Eladio's Bar Centro en Mérida",
     "needsId": false,
     "companions": null,
     "validUntil": null

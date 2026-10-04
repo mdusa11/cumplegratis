@@ -244,6 +244,39 @@
   ]
  },
  {
+  "program": "Boletín de miembros de Eladio's Bar",
+  "signupUrl": "https://eladios.com.mx/",
+  "registerDaysBefore": null,
+  "minPurchase": null,
+  "locationNote": "Eladio's Bar (operado por Luheva del Sureste, Mérida); el sitio no lista sucursales en texto, Tripadvisor ubica Eladio's Bar Centro en Mérida",
+  "companions": null,
+  "needsId": false,
+  "slug": "eladios-bar-merida",
+  "brand": "Eladio's Bar (Mérida)",
+  "category": "bares",
+  "benefit": "Regalos especiales de cumpleaños para miembros",
+  "benefitType": "gratis",
+  "details": "Su sitio oficial invita a suscribirte al boletín (nombre, correo y fecha de cumpleaños) y dice que, al ser miembro, recibes regalos especiales en tu cumpleaños, además de ofertas y concursos. No especifica cuál es el regalo, si hay consumo mínimo ni la vigencia.",
+  "requirements": [
+   "Suscribirte al boletín con tu fecha de cumpleaños (dd/mm)",
+   "El sitio no detalla el regalo ni condiciones"
+  ],
+  "window": "otro",
+  "windowNote": "No especificada; el sitio no indica cuándo se entrega el regalo",
+  "howToClaim": "Suscríbete en eladios.com.mx con tu nombre, correo y fecha de cumpleaños y pregunta en el bar cómo canjear el regalo.",
+  "sources": [
+   "https://eladios.com.mx/"
+  ],
+  "confidence": "media",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ]
+ },
+ {
   "program": null,
   "signupUrl": null,
   "registerDaysBefore": null,

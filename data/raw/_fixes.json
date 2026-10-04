@@ -58,5 +58,23 @@
     "slug": "los-alcatraces-villa-del-conquistador-cuernavaca",
     "remove": true,
     "reason": "Promo mensual; la última vigencia publicada (agosto 2026) ya venció"
+  },
+  {
+    "slug": "la-vicenta",
+    "patch": {
+      "coverage": "ciudades",
+      "states": [
+        "CMX",
+        "MEX",
+        "ROO"
+      ],
+      "cities": [
+        "cdmx",
+        "naucalpan",
+        "cancun",
+        "playa-del-carmen"
+      ]
+    },
+    "reason": "Su sitio oficial lista también Playa del Carmen"
   }
 ]
