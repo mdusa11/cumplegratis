@@ -4223,33 +4223,33 @@
     "slug": "chedraui",
     "brand": "Chedraui",
     "category": "otras-tiendas",
-    "benefit": "Bonos de cumpleaños MiChedraui (varían por campaña)",
+    "benefit": "$200 en bocina Alexa y 30% en fragancias finas",
     "benefitType": "descuento",
-    "details": "Chedraui ha lanzado campañas de cumpleaños para clientes MiChedraui: de 2021 a 2024 daban hasta $100 en el monedero MiChedraui al actualizar tu fecha de cumpleaños (para usar en el mes de tu cumpleaños), y en ago-2026 se reportó 30% de descuento en perfumería y fragancias con tope de $600 y listado de productos participantes. Chedraui no publica una promo permanente de cumpleaños; confirma la campaña vigente en tu cuenta MiChedraui, en la app o en tienda.",
+    "details": "En tu mes de cumpleaños, socios MiChedraui obtienen $200 de descuento en una bocina Alexa y 30% en fragancias finas participantes (tope de $600). Solo en tienda física, una vez por cliente, presentando el monedero MiChedraui. Vigente hasta el 31 de diciembre de 2026.",
     "program": "MiChedraui",
     "signupUrl": "https://www.chedraui.com.mx/",
     "requirements": [
-      "Cuenta MiChedraui con fecha de cumpleaños actualizada",
-      "Mecánica y monto cambian por campaña (confirmar la vigente)",
-      "Perfumería: solo fragancias del listado participante y tope de $600"
+      "Cuenta MiChedraui con cumpleaños registrado un día hábil antes del mes",
+      "Presentar el monedero MiChedraui en caja",
+      "Solo tienda física; una vez por cliente",
+      "Fragancias: solo participantes, tope de $600"
     ],
     "registerDaysBefore": null,
     "window": "mes",
-    "windowNote": "Durante tu mes de cumpleaños (según la campaña vigente)",
+    "windowNote": "Durante tu mes de cumpleaños",
     "minPurchase": null,
     "howToClaim": "Actualiza tu fecha de cumpleaños en Mi Cuenta de Chedraui y revisa el monedero o cupones de tu cuenta; sin mecánica permanente confirmada.",
     "sources": [
-      "https://www.promodescuentos.com/ofertas/es-tu-cumple-30-descuento-perfumeria-chedraui-1183998",
-      "https://cazaofertas.com.mx/otros/promo-mi-chedraui-obten-100-de-saldo-al-actualizar-tu-fecha-de-cumpleanos/"
+      "https://www.michedraui.com.mx/tyc/2023/"
     ],
-    "confidence": "baja",
+    "confidence": "alta",
     "coverage": "nacional",
     "states": [],
     "cities": [],
     "locationNote": "Publicado como oferta local en CDMX; no confirmado en otras ciudades",
     "needsId": false,
     "companions": null,
-    "validUntil": null
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "fiesta-americana-acapulco-villas",
@@ -13823,6 +13823,78 @@
     "validUntil": null
   },
   {
+    "slug": "desertika-spa",
+    "brand": "Desértika Spa",
+    "category": "servicios",
+    "benefit": "+100 puntos en tu mes de cumpleaños (membresía)",
+    "benefitType": "gratis",
+    "details": "Los miembros activos de la Membresía Desértika (Plan Balance, $949 MXN/mes) reciben un bono de 100 puntos de recompensa durante su mes de cumpleaños. Los puntos se canjean por servicios y productos (por ejemplo 1,500 puntos = masaje relajante o facial) en todas las sucursales; la membresía debe estar activa al momento del cumpleaños y los bonos están sujetos a validación del spa.",
+    "program": "Membresía Desértika",
+    "signupUrl": "https://membresia-desertika.replit.app/",
+    "requirements": [
+      "Membresía Desértika activa (Plan Balance $949/mes)",
+      "Mayor de 18 años",
+      "Membresía vigente en tu mes de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Se acreditan en tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Contrata la membresía en el sitio de Desértika; los 100 puntos se acreditan solos en tu mes de cumpleaños y los canjeas en cualquier sucursal.",
+    "sources": [
+      "https://membresia-desertika.replit.app/",
+      "https://www.desertikaspa.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Más de 14 sucursales en CDMX y zona metropolitana (Nápoles, Del Valle, Condesa, Polanco/Masaryk, San Ángel, Samara Satélite, etc.); la membresía sirve en todas",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "only-nails",
+    "brand": "Only Nails",
+    "category": "belleza",
+    "benefit": "Descuento de cumpleaños en tu servicio favorito",
+    "benefitType": "descuento",
+    "details": "La página de promociones de Only Nails anuncia un 'Descuento de Cumpleaños': descuento especial en tu servicio favorito al celebrar tu cumpleaños. El sitio no publica el porcentaje, la ventana (día, semana o mes) ni los requisitos; confirma con la sucursal al reservar.",
+    "program": null,
+    "signupUrl": "https://onlynails.mx/citas",
+    "requirements": [
+      "Reservar cita en sucursal",
+      "Confirmar condiciones con la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificada en el sitio oficial",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu cita en onlynails.mx y pregunta por el descuento de cumpleaños; probablemente pidan comprobar tu fecha de nacimiento.",
+    "sources": [
+      "https://onlynails.mx/promociones",
+      "https://onlynails.mx/sobre-nosotros"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Sucursales en el área metropolitana de Monterrey: Galerías Monterrey, Park Point, Plaza Esfera, Punto Valle y Only Nails & Beauty Calzada",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
     "slug": "pasteleria-lety",
     "brand": "Pastelería Lety",
     "category": "postres",
@@ -13859,6 +13931,114 @@
       "torreon"
     ],
     "locationNote": "Cupón canjeable solo en la tienda en línea; entrega a domicilio solo en Monterrey y su área metropolitana, el resto es pick and go en sucursal (Monterrey y Saltillo según su FAQ; también hay sucursales en Torreón)",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "outback-steakhouse-jalisco",
+    "brand": "Outback Steakhouse (Jalisco)",
+    "category": "restaurantes",
+    "benefit": "Cupón de cumpleaños de $200 a $500 en tu mes",
+    "benefitType": "descuento",
+    "details": "Los socios de Club Outbacker reciben un cupón de cumpleañero que se canjea una sola vez en el mes de su cumpleaños: $200 (nivel Wallaby, el que tienes al registrarte), $400 (Kangaroo, 6 visitas por semestre) o $500 (Koala, 12 visitas por semestre). Aplica solo al consumo de alimentos del menú regular, no para llevar, ni en bebidas alcohólicas, eventos especiales ni con otras promociones.",
+    "program": "Club Outbacker (app Outback México)",
+    "signupUrl": "https://www.outback-mexico.com/app-outback-mx.html",
+    "requirements": [
+      "Descargar la app Outback México y crear tu cuenta en el apartado Club Outbacker (gratis, 18+)",
+      "Cupón activo solo en el mes de tu cumpleaños, una sola vez",
+      "Presentar el cupón antes de ordenar; pueden pedir identificación oficial para verificar tu mes de cumpleaños",
+      "Solo alimentos del menú regular, en restaurante (no para llevar)",
+      "No aplica en bebidas alcohólicas, eventos especiales ni con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, un solo canje",
+    "minPurchase": null,
+    "howToClaim": "Muestra el cupón de cumpleañero de tu cuenta Club Outbacker en la app antes de ordenar y, si te la piden, una identificación oficial.",
+    "sources": [
+      "https://www.outback-mexico.com/Terminos_y_Condiciones_Club_Outbacker_2024_V1.pdf",
+      "https://www.outback-mexico.com/app-outback-mx.html"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "JAL"
+    ],
+    "cities": [],
+    "locationNote": "Club Outbacker es exclusivo para los restaurantes Outback Steakhouse del estado de Jalisco (los opera OBS de Occidente, Zapopan). Los términos publicados son la versión 2024 V1 y no traen fecha de término.",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "fogo-de-chao-mexico",
+    "brand": "Fogo de Chão México",
+    "category": "restaurantes",
+    "benefit": "Churrasco gratis el mes de tu cumpleaños (con 5 acompañantes)",
+    "benefitType": "gratis",
+    "details": "Durante todo el mes de tu cumpleaños comes gratis si vas con 5 acompañantes (los niños cuentan desde 6 años); incluye una rebanada de pastel, felicitación 'parabéns' y una tarjeta de regalo. Aplica una promoción por mesa, con identificación, y es válida si algún invitado consume churrasco, pescado, camarón, mercado o cortes premium.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 5 acompañantes (niños cuentan desde 6 años)",
+      "Presentar identificación oficial",
+      "Una promoción por mesa",
+      "Algún invitado debe consumir churrasco, pescado, camarón, mercado o cortes premium"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva, avisa que es tu cumpleaños y presenta tu identificación al llegar.",
+    "sources": [
+      "https://heraldodemexico.com.mx/economia/2025/8/28/tiendas-restaurantes-que-te-dan-regalos-si-cumples-anos-en-septiembre-aprovecha-estas-ofertas-725658.html",
+      "https://fogodechao.com.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "NLE"
+    ],
+    "cities": [
+      "cdmx",
+      "toluca",
+      "monterrey"
+    ],
+    "locationNote": "Restaurantes en CDMX (Polanco, Perisur, Acoxpa, Mítikah, Hyatt Insurgentes), Metepec y Monterrey. La promo la reporta El Heraldo de México (ago 2025); el sitio oficial no la publica ni indica monto de la tarjeta de regalo ni sucursales participantes: confirma al reservar.",
+    "needsId": true,
+    "companions": 5,
+    "validUntil": null
+  },
+  {
+    "slug": "bisquets-obregon",
+    "brand": "Bisquets Obregón",
+    "category": "restaurantes",
+    "benefit": "Panquessi cumpleañero de regalo",
+    "benefitType": "gratis",
+    "details": "Bisquets Obregón anunció en su cuenta oficial de X que, si los visitas en tu cumpleaños, pidas tu Panquessi cumpleañero; la promoción 'aplica para todos los cumpleañeros' y los términos y condiciones se consultan en tu sucursal. No publican reglas en su sitio (días, ventana, compra mínima, identificación), así que confirma en la sucursal.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Visitar la sucursal el día de tu cumpleaños",
+      "Pedir tu Panquessi cumpleañero",
+      "Consultar términos y condiciones en la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Al visitarlos en tu cumpleaños (no hay más detalle publicado)",
+    "minPurchase": null,
+    "howToClaim": "Pide tu Panquessi cumpleañero al mesero cuando los visites en tu cumpleaños.",
+    "sources": [
+      "https://x.com/bisquetsobregon/status/1619499608740347911"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "El anuncio es una publicación oficial de enero de 2023 y no he encontrado confirmación reciente ni términos en bisquetsobregon.com; puede variar por sucursal.",
     "needsId": false,
     "companions": null,
     "validUntil": null
@@ -14515,7 +14695,7 @@
     "coverage": "nacional",
     "states": [],
     "cities": [],
-    "locationNote": "Más de 600 tiendas Waldo's y Eleczion en la república (no tienda en línea ni Waldo's Motos)",
+    "locationNote": "Programa válido en las tiendas Waldo's y Eleczion de la república (más de 600 tiendas)",
     "needsId": false,
     "companions": null,
     "validUntil": null
@@ -15280,14 +15460,15 @@
     "slug": "palacio-de-hierro",
     "brand": "El Palacio de Hierro",
     "category": "departamentales",
-    "benefit": "Regalo especial + café y postre gratis",
+    "benefit": "Platillo gratis con Llave Palacio; vino y comida con tarjeta",
     "benefitType": "gratis",
-    "details": "Tarjetahabientes reciben en su mes de cumpleaños un regalo especial en el área de Tarjeta Palacio, café y postre sin costo en El Restaurante Palacio y Bistro, comida sin costo en El Restaurante Palacio, y botella de vino (Socio) o champagne (Total). Las cortesías de restaurante aplican con consumo mínimo.",
-    "program": "Tarjeta Palacio",
+    "details": "Sin tarjeta: con la app gratuita Llave Palacio, el festejado recibe un platillo sin costo en el Restaurante Palacio con consumo mínimo de $300 e identificación. Tarjetahabientes Palacio, Socio y Total reciben botella de vino; Total y Socio, además, comida de cortesía hasta $450. Vigente del 11 de junio al 31 de diciembre de 2026.",
+    "program": "Llave Palacio / Tarjeta Palacio",
     "signupUrl": "https://www.elpalaciodehierro.com/tarjetapalacio.html",
     "requirements": [
-      "Ser titular de Tarjeta Palacio",
-      "Identificación oficial vigente (INE o pasaporte)"
+      "Llave Palacio (app gratis) o Tarjeta Palacio",
+      "Identificación oficial vigente",
+      "Consumo mínimo de $300 (platillo Llave Palacio)"
     ],
     "registerDaysBefore": null,
     "window": "mes",
@@ -15331,7 +15512,7 @@
     "locationNote": "Solo tiendas y restaurantes Palacio participantes. Interlomas/Satélite -> naucalpan; Lerma -> toluca; Boca del Río -> veracruz",
     "needsId": true,
     "companions": null,
-    "validUntil": null
+    "validUntil": "2026-12-31"
   },
   {
     "slug": "liverpool",
@@ -15937,38 +16118,6 @@
     "locationNote": "Solo tiendas Xiaomi propias. Ubicaciones no verificadas; promo no confirmada como vigente",
     "needsId": true,
     "companions": null,
-    "validUntil": null
-  },
-  {
-    "slug": "suburbia",
-    "brand": "Suburbia",
-    "category": "departamentales",
-    "benefit": "Comida gratis y 50% en Restaurante Liverpool",
-    "benefitType": "gratis",
-    "details": "Según medios (2024), tarjetahabientes Suburbia reciben una comida gratis un miércoles de su mes de cumpleaños al ir con 2+ acompañantes y pagar con la tarjeta, y un cupón de 50% en Restaurante Liverpool. No confirmado en fuente oficial vigente.",
-    "program": "Tarjeta Suburbia / Suburbia Visa",
-    "signupUrl": "https://micredito.suburbia.com.mx/",
-    "requirements": [
-      "Ser titular de tarjeta Suburbia",
-      "Pagar con la tarjeta",
-      "Ir con 2 o más acompañantes (comida gratis)"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Mes de cumpleaños; comida solo en miércoles",
-    "minPurchase": null,
-    "howToClaim": "Consume en restaurante participante en miércoles, paga con tu tarjeta Suburbia y presenta identificación.",
-    "sources": [
-      "https://www.radioformula.com.mx/estilo-de-vida/2024/9/26/suburbia-lista-de-todos-los-descuentos-beneficios-que-obtienes-con-la-tarjeta-de-credito-834585.html",
-      "https://www.sucursales24.com.mx/suburbia/todos/"
-    ],
-    "confidence": "baja",
-    "coverage": "nacional",
-    "states": [],
-    "cities": [],
-    "locationNote": "Solo restaurantes participantes; la comida gratis aplica en miércoles. Promo no confirmada en fuente oficial vigente",
-    "needsId": true,
-    "companions": 2,
     "validUntil": null
   },
   {

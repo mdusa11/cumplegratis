@@ -1,0 +1,110 @@
+[
+  {
+    "program": "Club Outbacker (app Outback México)",
+    "signupUrl": "https://www.outback-mexico.com/app-outback-mx.html",
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara",
+      "zapopan"
+    ],
+    "locationNote": "Club Outbacker es exclusivo para los restaurantes Outback Steakhouse del estado de Jalisco (los opera OBS de Occidente, Zapopan). Los términos publicados son la versión 2024 V1 y no traen fecha de término.",
+    "companions": null,
+    "slug": "outback-steakhouse-jalisco",
+    "brand": "Outback Steakhouse (Jalisco)",
+    "category": "restaurantes",
+    "benefit": "Cupón de cumpleaños de $200 a $500 en tu mes",
+    "benefitType": "descuento",
+    "details": "Los socios de Club Outbacker reciben un cupón de cumpleañero que se canjea una sola vez en el mes de su cumpleaños: $200 (nivel Wallaby, el que tienes al registrarte), $400 (Kangaroo, 6 visitas por semestre) o $500 (Koala, 12 visitas por semestre). Aplica solo al consumo de alimentos del menú regular, no para llevar, ni en bebidas alcohólicas, eventos especiales ni con otras promociones.",
+    "requirements": [
+      "Descargar la app Outback México y crear tu cuenta en el apartado Club Outbacker (gratis, 18+)",
+      "Cupón activo solo en el mes de tu cumpleaños, una sola vez",
+      "Presentar el cupón antes de ordenar; pueden pedir identificación oficial para verificar tu mes de cumpleaños",
+      "Solo alimentos del menú regular, en restaurante (no para llevar)",
+      "No aplica en bebidas alcohólicas, eventos especiales ni con otras promociones"
+    ],
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, un solo canje",
+    "howToClaim": "Muestra el cupón de cumpleañero de tu cuenta Club Outbacker en la app antes de ordenar y, si te la piden, una identificación oficial.",
+    "sources": [
+      "https://www.outback-mexico.com/Terminos_y_Condiciones_Club_Outbacker_2024_V1.pdf",
+      "https://www.outback-mexico.com/app-outback-mx.html"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "needsId": true
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "states": [
+      "CMX",
+      "MEX",
+      "NLE"
+    ],
+    "cities": [
+      "cdmx",
+      "toluca",
+      "monterrey"
+    ],
+    "locationNote": "Restaurantes en CDMX (Polanco, Perisur, Acoxpa, Mítikah, Hyatt Insurgentes), Metepec y Monterrey. La promo la reporta El Heraldo de México (ago 2025); el sitio oficial no la publica ni indica monto de la tarjeta de regalo ni sucursales participantes: confirma al reservar.",
+    "companions": 5,
+    "slug": "fogo-de-chao-mexico",
+    "brand": "Fogo de Chão México",
+    "category": "restaurantes",
+    "benefit": "Churrasco gratis el mes de tu cumpleaños (con 5 acompañantes)",
+    "benefitType": "gratis",
+    "details": "Durante todo el mes de tu cumpleaños comes gratis si vas con 5 acompañantes (los niños cuentan desde 6 años); incluye una rebanada de pastel, felicitación 'parabéns' y una tarjeta de regalo. Aplica una promoción por mesa, con identificación, y es válida si algún invitado consume churrasco, pescado, camarón, mercado o cortes premium.",
+    "requirements": [
+      "Ir con 5 acompañantes (niños cuentan desde 6 años)",
+      "Presentar identificación oficial",
+      "Una promoción por mesa",
+      "Algún invitado debe consumir churrasco, pescado, camarón, mercado o cortes premium"
+    ],
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "howToClaim": "Reserva, avisa que es tu cumpleaños y presenta tu identificación al llegar.",
+    "sources": [
+      "https://heraldodemexico.com.mx/economia/2025/8/28/tiendas-restaurantes-que-te-dan-regalos-si-cumples-anos-en-septiembre-aprovecha-estas-ofertas-725658.html",
+      "https://fogodechao.com.mx/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "needsId": true
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "minPurchase": null,
+    "states": [],
+    "cities": [],
+    "locationNote": "El anuncio es una publicación oficial de enero de 2023 y no he encontrado confirmación reciente ni términos en bisquetsobregon.com; puede variar por sucursal.",
+    "companions": null,
+    "slug": "bisquets-obregon",
+    "brand": "Bisquets Obregón",
+    "category": "restaurantes",
+    "benefit": "Panquessi cumpleañero de regalo",
+    "benefitType": "gratis",
+    "details": "Bisquets Obregón anunció en su cuenta oficial de X que, si los visitas en tu cumpleaños, pidas tu Panquessi cumpleañero; la promoción 'aplica para todos los cumpleañeros' y los términos y condiciones se consultan en tu sucursal. No publican reglas en su sitio (días, ventana, compra mínima, identificación), así que confirma en la sucursal.",
+    "requirements": [
+      "Visitar la sucursal el día de tu cumpleaños",
+      "Pedir tu Panquessi cumpleañero",
+      "Consultar términos y condiciones en la sucursal"
+    ],
+    "window": "dia",
+    "windowNote": "Al visitarlos en tu cumpleaños (no hay más detalle publicado)",
+    "howToClaim": "Pide tu Panquessi cumpleañero al mesero cuando los visites en tu cumpleaños.",
+    "sources": [
+      "https://x.com/bisquetsobregon/status/1619499608740347911"
+    ],
+    "confidence": "baja",
+    "coverage": "nacional",
+    "needsId": false
+  }
+]

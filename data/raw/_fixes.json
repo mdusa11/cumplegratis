@@ -81,5 +81,47 @@
     "slug": "tabu-sushi-noroeste",
     "remove": true,
     "reason": "Su página oficial muestra vigencia al 31-ene-2026 (vencida); quitar hasta que publiquen una nueva"
+  },
+  {
+    "slug": "chedraui",
+    "patch": {
+      "benefit": "$200 en bocina Alexa y 30% en fragancias finas",
+      "details": "En tu mes de cumpleaños, socios MiChedraui obtienen $200 de descuento en una bocina Alexa y 30% en fragancias finas participantes (tope de $600). Solo en tienda física, una vez por cliente, presentando el monedero MiChedraui. Vigente hasta el 31 de diciembre de 2026.",
+      "requirements": [
+        "Cuenta MiChedraui con cumpleaños registrado un día hábil antes del mes",
+        "Presentar el monedero MiChedraui en caja",
+        "Solo tienda física; una vez por cliente",
+        "Fragancias: solo participantes, tope de $600"
+      ],
+      "windowNote": "Durante tu mes de cumpleaños",
+      "confidence": "alta",
+      "sources": [
+        "https://www.michedraui.com.mx/tyc/2023/"
+      ]
+    },
+    "reason": "Términos oficiales MiChedraui vigentes al 31-dic-2026"
+  },
+  {
+    "slug": "palacio-de-hierro",
+    "patch": {
+      "benefit": "Platillo gratis con Llave Palacio; vino y comida con tarjeta",
+      "details": "Sin tarjeta: con la app gratuita Llave Palacio, el festejado recibe un platillo sin costo en el Restaurante Palacio con consumo mínimo de $300 e identificación. Tarjetahabientes Palacio, Socio y Total reciben botella de vino; Total y Socio, además, comida de cortesía hasta $450. Vigente del 11 de junio al 31 de diciembre de 2026.",
+      "requirements": [
+        "Llave Palacio (app gratis) o Tarjeta Palacio",
+        "Identificación oficial vigente",
+        "Consumo mínimo de $300 (platillo Llave Palacio)"
+      ],
+      "program": "Llave Palacio / Tarjeta Palacio",
+      "sources": [
+        "https://www.elpalaciodehierro.com/tarjetapalacio/celebramos-contigo.html",
+        "https://www.elpalaciodehierro.com/sucursales.html"
+      ]
+    },
+    "reason": "T&C oficiales Llave Palacio 2026 agregan beneficio sin tarjeta"
+  },
+  {
+    "slug": "suburbia",
+    "remove": true,
+    "reason": "Ambas campañas oficiales vencidas (31-dic-2024 y 30-sep-2026)"
   }
 ]

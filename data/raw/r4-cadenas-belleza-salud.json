@@ -170,5 +170,75 @@
     "locationNote": "9 tiendas a feb-2026: Antara (CDMX), Galerías Metepec y Plaza Satélite (Edomex), Forum Tlaquepaque, Galerías y Vía Viva (Guadalajara), Fiesta San Agustín (Monterrey), Península (Tijuana) y Altacia (León); canje solo en tienda física",
     "needsId": true,
     "companions": null
+  },
+  {
+    "slug": "desertika-spa",
+    "brand": "Desértika Spa",
+    "category": "servicios",
+    "benefit": "+100 puntos en tu mes de cumpleaños (membresía)",
+    "benefitType": "gratis",
+    "details": "Los miembros activos de la Membresía Desértika (Plan Balance, $949 MXN/mes) reciben un bono de 100 puntos de recompensa durante su mes de cumpleaños. Los puntos se canjean por servicios y productos (por ejemplo 1,500 puntos = masaje relajante o facial) en todas las sucursales; la membresía debe estar activa al momento del cumpleaños y los bonos están sujetos a validación del spa.",
+    "program": "Membresía Desértika",
+    "signupUrl": "https://membresia-desertika.replit.app/",
+    "requirements": [
+      "Membresía Desértika activa (Plan Balance $949/mes)",
+      "Mayor de 18 años",
+      "Membresía vigente en tu mes de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Se acreditan en tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Contrata la membresía en el sitio de Desértika; los 100 puntos se acreditan solos en tu mes de cumpleaños y los canjeas en cualquier sucursal.",
+    "sources": [
+      "https://membresia-desertika.replit.app/",
+      "https://www.desertikaspa.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Más de 14 sucursales en CDMX y zona metropolitana (Nápoles, Del Valle, Condesa, Polanco/Masaryk, San Ángel, Samara Satélite, etc.); la membresía sirve en todas",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "only-nails",
+    "brand": "Only Nails",
+    "category": "belleza",
+    "benefit": "Descuento de cumpleaños en tu servicio favorito",
+    "benefitType": "descuento",
+    "details": "La página de promociones de Only Nails anuncia un 'Descuento de Cumpleaños': descuento especial en tu servicio favorito al celebrar tu cumpleaños. El sitio no publica el porcentaje, la ventana (día, semana o mes) ni los requisitos; confirma con la sucursal al reservar.",
+    "program": null,
+    "signupUrl": "https://onlynails.mx/citas",
+    "requirements": [
+      "Reservar cita en sucursal",
+      "Confirmar condiciones con la sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificada en el sitio oficial",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu cita en onlynails.mx y pregunta por el descuento de cumpleaños; probablemente pidan comprobar tu fecha de nacimiento.",
+    "sources": [
+      "https://onlynails.mx/promociones",
+      "https://onlynails.mx/sobre-nosotros"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "NLE"
+    ],
+    "cities": [
+      "monterrey"
+    ],
+    "locationNote": "Sucursales en el área metropolitana de Monterrey: Galerías Monterrey, Park Point, Plaza Esfera, Punto Valle y Only Nails & Beauty Calzada",
+    "needsId": false,
+    "companions": null
   }
 ]
