@@ -1135,5 +1135,112 @@
     "locationNote": "Buffet camino a Cerro de San Pedro, San Luis Potosí; la dirección exacta no se pudo confirmar.",
     "needsId": null,
     "companions": 5
+  },
+  {
+    "slug": "la-trinchera-ciudad-juarez",
+    "brand": "La Trinchera (Juárez)",
+    "category": "comida-rapida",
+    "benefit": "Cumpleañero come gratis: ensalada, hamburguesa o 10 alitas",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, el cumpleañero elige gratis una ensalada tradicional, una hamburguesa La Trinchera o 10 piezas de alitas; no incluye bebidas, aplican términos y condiciones y solo vale en las sucursales Alameda y Libramiento. No se encontraron requisitos de acompañantes, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Elegir ensalada, hamburguesa o 10 alitas",
+      "No incluye bebidas",
+      "Solo sucursales Alameda y Libramiento",
+      "Aplican términos y condiciones no detallados"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Ve a la sucursal Alameda o Libramiento y avisa que es tu cumpleaños al pedir; tel. 656 396 1378.",
+    "sources": [
+      "https://www.tiktok.com/discover/que-restaurantes-ir-en-cumplea%C3%B1os-gratis-cd-juarez",
+      "https://www.facebook.com/la.trinchera.jrz/",
+      "https://restaurantguru.com/La-Trinchera-Ciudad-Juarez"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Restaurante de alitas, boneless y hamburguesas con varias sucursales en Ciudad Juárez; no confundir con La Trrincheraa de Guadalajara.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "crepa-station-ciudad-juarez",
+    "brand": "Crepa Station",
+    "category": "postres",
+    "benefit": "Crepa gratis en tu cumpleaños (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que Crepa Station regala una crepa a quien celebra su cumpleaños. No se encontraron condiciones (consumo mínimo, identificación, tipo de crepa) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma tipos de crepa incluidos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/que-restaurantes-ir-en-cumplea%C3%B1os-gratis-cd-juarez",
+      "https://www.ubereats.com/mx/store/crepa-station-ciudad-juarez/HLxv7CZqVWq9fdXWS8Z64A"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Codorniz 3659, Ciudad Juárez; abre de 9:00 a 21:00 según listados.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "bravos-food-ciudad-juarez",
+    "brand": "Bravos Food",
+    "category": "comida-rapida",
+    "benefit": "Cumpleañero paga la mitad y recibe postre gratis",
+    "benefitType": "descuento",
+    "details": "Según la cuenta de TikTok del negocio, el cumpleañero paga la mitad y recibe un postre gratis en este restaurante de hamburguesas, alitas y boneless. No se encontraron condiciones (consumo, identificación, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma si aplica a toda la cuenta",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al pedir que es tu cumpleaños; tel. 656 511 4771.",
+    "sources": [
+      "https://www.tiktok.com/discover/que-restaurantes-ir-en-cumplea%C3%B1os-gratis-cd-juarez",
+      "https://www.facebook.com/BRAVOS.FOOD/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Cártamo 9132, Granjero, Ciudad Juárez.",
+    "needsId": null,
+    "companions": null
   }
 ]

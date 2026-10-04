@@ -791,5 +791,208 @@
     "locationNote": "Col. El Encanto, calle Privada Los Pinos, Chilpancingo (sin verificar)",
     "needsId": null,
     "companions": null
+  },
+  {
+    "slug": "healthy-vibes-bistro-cuernavaca",
+    "brand": "Healthy Vibes Bistro (Cuernavaca)",
+    "category": "restaurantes",
+    "benefit": "Shots de cortesía, mañanitas y pastel sorpresa al festejar",
+    "benefitType": "regalo-con-compra",
+    "details": "En su página oficial de celebraciones, Healthy Vibes Bistro dice que el festejo incluye shots de cortesía para el festejado, mañanitas con pastel sorpresa, música ambiental con tus playlists y el mejor spot para fotos. Se reserva una mesa grande o evento privado por WhatsApp; el sitio no publica mínimos de personas, días ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar tu celebración por WhatsApp",
+      "Mesa grande o evento privado",
+      "El sitio no publica mínimos ni vigencia: confirma al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin vigencia publicada; aparece como parte fija del festejo",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu celebración por WhatsApp desde la página de celebraciones del restaurante.",
+    "sources": [
+      "https://healthyvibesbistro.com/celebraciones-cuernavaca"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Cuernavaca, Morelos",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tres-cumbres-cuernavaca",
+    "brand": "Tres Cumbres (Cuernavaca)",
+    "category": "restaurantes",
+    "benefit": "Pastel de cortesía con vela pirotécnica al festejar",
+    "benefitType": "regalo-con-compra",
+    "details": "En la página oficial de Tres Cumbres sobre cumpleaños, el festejado recibe un pastel de cortesía con vela pirotécnica y una mesa decorada con copas vintage y el moño distintivo en la botella de vino que elijas. El sitio no detalla mínimos de personas, reservación obligatoria ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Festejar tu cumpleaños en el restaurante",
+      "Reservar por teléfono (777 137 0695)",
+      "El sitio no publica mínimos ni vigencia: confirma al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Reserva al +52 777 137 0695 y avisa que es un festejo de cumpleaños.",
+    "sources": [
+      "https://trescumbres.com/donde-festejar-cumpleanos-en-cuernavaca-en-restaurante-bonito-con-jardin/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Av. San Diego 105, Vista Hermosa, Cuernavaca",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "buffet-w-acapulco",
+    "brand": "Buffet W (Acapulco)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis y pastelito en la semana de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "El Instagram oficial del buffet (@buffetwoolworth, Costera Miguel Alemán) tiene una historia destacada llamada \"Cumpleaños\", pero sus reglas no son legibles desde fuera. Un video de TikTok sobre buffets en Acapulco dice que regalan el buffet y un pastelito si vas en la semana que corresponde a tu cumpleaños. Condiciones (acompañantes, identificación) sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en la semana de tu cumpleaños (según TikTok)",
+      "Condiciones sin confirmar: pregunta antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños, según un TikTok; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Revisa la historia \"Cumpleaños\" en su Instagram o pregunta en el restaurante antes de ir.",
+    "sources": [
+      "https://www.instagram.com/buffetwoolworth/",
+      "https://www.tiktok.com/discover/cafe-w-costera-buffet-acapulco"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Av. Costera Miguel Alemán, Acapulco",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tacos-de-la-1-tehuacan",
+    "brand": "Tacos de la 1 (Tehuacán)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero que va con amigos",
+    "benefitType": "gratis",
+    "details": "Según el resumen del buscador sobre su página de Facebook, este buffet de tacos de guisado en Tehuacán (buffet de $99 con bebida) regala el buffet al cumpleañero que llega acompañado de sus amigos. No se pudo leer la publicación original: número de acompañantes, identificación y vigencia están sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de amigos (cantidad sin confirmar)",
+      "Confirma identificación y vigencia con el negocio"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por Facebook (Tacos de la 1) o en el local antes de ir.",
+    "sources": [
+      "https://www.facebook.com/TacosDeLa1/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "tehuacan"
+    ],
+    "locationNote": "Tehuacán, Puebla (dirección exacta sin verificar)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "flamingos-tropical-sushi-acapulco",
+    "brand": "Flamingos Tropical Sushi (Acapulco)",
+    "category": "restaurantes",
+    "benefit": "Pastel de cortesía si reservas con anticipación",
+    "benefitType": "gratis",
+    "details": "Según la ficha del restaurante en la plataforma de reservaciones Reservándonos (no es canal propio), si reservas con anticipación para tu cumpleaños te dan un pastel de cortesía; también tiene sala VIP para festejos privados. Sin reglas de mínimo de personas ni vigencia, y no confirmado en su sitio o redes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con anticipación",
+      "Reglas sin confirmar: pregunta al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono (744 229 4636) y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://reservandonos.com/blog/mejores-restaurantes-para-celebrar-cumpleanos-acapulco/",
+      "https://reservandonos.com/en/place/flamingos-tropical-sushi-acapulco/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Plaza Las Pérgolas, Carr. Escénica esq. Ejército Nacional, Joyas de Brisamar, Acapulco",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "clandestino-acapulco",
+    "brand": "Clandestino (Acapulco)",
+    "category": "bares",
+    "benefit": "Cohete de shots y patito de hule en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según la ficha del bar-restaurante en la plataforma de reservaciones Reservándonos (no es canal propio), si celebras durante el mes de tu cumpleaños te consienten con detalles como un \"cohete\" de shots y un patito de hule. Sin reglas (acompañantes, consumo mínimo) ni vigencia, y no confirmado en canales propios.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar durante el mes de tu cumpleaños",
+      "Reglas sin confirmar: pregunta al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa que celebras tu cumpleaños.",
+    "sources": [
+      "https://reservandonos.com/blog/mejores-restaurantes-para-celebrar-cumpleanos-acapulco/",
+      "https://reservandonos.com/lugar/clandestino-acapulco/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Costa Azul, Acapulco",
+    "needsId": null,
+    "companions": null
   }
 ]

@@ -48,5 +48,10 @@
       "cities": []
     },
     "reason": "Cadena con tiendas en todo el país; el beneficio vive en la app MiChedraui"
+  },
+  {
+    "slug": "vena-cava-xalapa",
+    "remove": true,
+    "reason": "Su vigencia oficial terminó el 31-ago-2026; quitar hasta ver renovación"
   }
 ]

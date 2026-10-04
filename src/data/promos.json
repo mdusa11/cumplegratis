@@ -8231,6 +8231,209 @@
     "companions": null
   },
   {
+    "slug": "healthy-vibes-bistro-cuernavaca",
+    "brand": "Healthy Vibes Bistro (Cuernavaca)",
+    "category": "restaurantes",
+    "benefit": "Shots de cortesía, mañanitas y pastel sorpresa al festejar",
+    "benefitType": "regalo-con-compra",
+    "details": "En su página oficial de celebraciones, Healthy Vibes Bistro dice que el festejo incluye shots de cortesía para el festejado, mañanitas con pastel sorpresa, música ambiental con tus playlists y el mejor spot para fotos. Se reserva una mesa grande o evento privado por WhatsApp; el sitio no publica mínimos de personas, días ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar tu celebración por WhatsApp",
+      "Mesa grande o evento privado",
+      "El sitio no publica mínimos ni vigencia: confirma al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin vigencia publicada; aparece como parte fija del festejo",
+    "minPurchase": null,
+    "howToClaim": "Reserva tu celebración por WhatsApp desde la página de celebraciones del restaurante.",
+    "sources": [
+      "https://healthyvibesbistro.com/celebraciones-cuernavaca"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Cuernavaca, Morelos",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tres-cumbres-cuernavaca",
+    "brand": "Tres Cumbres (Cuernavaca)",
+    "category": "restaurantes",
+    "benefit": "Pastel de cortesía con vela pirotécnica al festejar",
+    "benefitType": "regalo-con-compra",
+    "details": "En la página oficial de Tres Cumbres sobre cumpleaños, el festejado recibe un pastel de cortesía con vela pirotécnica y una mesa decorada con copas vintage y el moño distintivo en la botella de vino que elijas. El sitio no detalla mínimos de personas, reservación obligatoria ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Festejar tu cumpleaños en el restaurante",
+      "Reservar por teléfono (777 137 0695)",
+      "El sitio no publica mínimos ni vigencia: confirma al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Reserva al +52 777 137 0695 y avisa que es un festejo de cumpleaños.",
+    "sources": [
+      "https://trescumbres.com/donde-festejar-cumpleanos-en-cuernavaca-en-restaurante-bonito-con-jardin/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuernavaca"
+    ],
+    "locationNote": "Av. San Diego 105, Vista Hermosa, Cuernavaca",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "buffet-w-acapulco",
+    "brand": "Buffet W (Acapulco)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis y pastelito en la semana de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "El Instagram oficial del buffet (@buffetwoolworth, Costera Miguel Alemán) tiene una historia destacada llamada \"Cumpleaños\", pero sus reglas no son legibles desde fuera. Un video de TikTok sobre buffets en Acapulco dice que regalan el buffet y un pastelito si vas en la semana que corresponde a tu cumpleaños. Condiciones (acompañantes, identificación) sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir en la semana de tu cumpleaños (según TikTok)",
+      "Condiciones sin confirmar: pregunta antes de ir"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños, según un TikTok; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Revisa la historia \"Cumpleaños\" en su Instagram o pregunta en el restaurante antes de ir.",
+    "sources": [
+      "https://www.instagram.com/buffetwoolworth/",
+      "https://www.tiktok.com/discover/cafe-w-costera-buffet-acapulco"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Av. Costera Miguel Alemán, Acapulco",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "tacos-de-la-1-tehuacan",
+    "brand": "Tacos de la 1 (Tehuacán)",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero que va con amigos",
+    "benefitType": "gratis",
+    "details": "Según el resumen del buscador sobre su página de Facebook, este buffet de tacos de guisado en Tehuacán (buffet de $99 con bebida) regala el buffet al cumpleañero que llega acompañado de sus amigos. No se pudo leer la publicación original: número de acompañantes, identificación y vigencia están sin confirmar.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir acompañado de amigos (cantidad sin confirmar)",
+      "Confirma identificación y vigencia con el negocio"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por Facebook (Tacos de la 1) o en el local antes de ir.",
+    "sources": [
+      "https://www.facebook.com/TacosDeLa1/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "tehuacan"
+    ],
+    "locationNote": "Tehuacán, Puebla (dirección exacta sin verificar)",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "flamingos-tropical-sushi-acapulco",
+    "brand": "Flamingos Tropical Sushi (Acapulco)",
+    "category": "restaurantes",
+    "benefit": "Pastel de cortesía si reservas con anticipación",
+    "benefitType": "gratis",
+    "details": "Según la ficha del restaurante en la plataforma de reservaciones Reservándonos (no es canal propio), si reservas con anticipación para tu cumpleaños te dan un pastel de cortesía; también tiene sala VIP para festejos privados. Sin reglas de mínimo de personas ni vigencia, y no confirmado en su sitio o redes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con anticipación",
+      "Reglas sin confirmar: pregunta al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia no especificada; confirma con el negocio",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono (744 229 4636) y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://reservandonos.com/blog/mejores-restaurantes-para-celebrar-cumpleanos-acapulco/",
+      "https://reservandonos.com/en/place/flamingos-tropical-sushi-acapulco/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Plaza Las Pérgolas, Carr. Escénica esq. Ejército Nacional, Joyas de Brisamar, Acapulco",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "clandestino-acapulco",
+    "brand": "Clandestino (Acapulco)",
+    "category": "bares",
+    "benefit": "Cohete de shots y patito de hule en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Según la ficha del bar-restaurante en la plataforma de reservaciones Reservándonos (no es canal propio), si celebras durante el mes de tu cumpleaños te consienten con detalles como un \"cohete\" de shots y un patito de hule. Sin reglas (acompañantes, consumo mínimo) ni vigencia, y no confirmado en canales propios.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar durante el mes de tu cumpleaños",
+      "Reglas sin confirmar: pregunta al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Reserva y avisa que celebras tu cumpleaños.",
+    "sources": [
+      "https://reservandonos.com/blog/mejores-restaurantes-para-celebrar-cumpleanos-acapulco/",
+      "https://reservandonos.com/lugar/clandestino-acapulco/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "GRO"
+    ],
+    "cities": [
+      "acapulco"
+    ],
+    "locationNote": "Costa Azul, Acapulco",
+    "needsId": null,
+    "companions": null
+  },
+  {
     "slug": "los-tulipanes-villahermosa",
     "brand": "Restaurante Los Tulipanes",
     "category": "restaurantes",
@@ -8299,41 +8502,6 @@
     "locationNote": "Bv. Adolfo Ruiz Cortines 10, Costa Verde, Boca del Río. Página de promociones vigente al 4-oct-2026.",
     "needsId": null,
     "companions": 6
-  },
-  {
-    "slug": "vena-cava-xalapa",
-    "brand": "Vena Cava",
-    "category": "restaurantes",
-    "benefit": "Buffet gratis la semana de tu cumpleaños con 4 personas",
-    "benefitType": "gratis",
-    "details": "El cumpleañero come gratis el buffet italiano si va con otras 4 personas que paguen su buffet de adulto ($285). Además recibe rebanada de pastel, mañanitas con vela de bengala y una ronda de shots para todos. Válido solo en la semana del cumpleaños; el buffet es de jueves a domingo de 2:00 a 6:00 pm (vigencia del buffet al 31 de agosto de 2026 según la página).",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Ir con otras 4 personas que paguen buffet de adulto",
-      "Identificación oficial con fotografía",
-      "Solo la semana de tu cumpleaños",
-      "Buffet jueves a domingo, 2:00 a 6:00 pm"
-    ],
-    "registerDaysBefore": null,
-    "window": "semana",
-    "windowNote": "La semana de tu cumpleaños, jueves a domingo de 2:00 a 6:00 pm (horario del buffet)",
-    "minPurchase": null,
-    "howToClaim": "Reserva por WhatsApp (228 116 3124), ve con 4 personas que paguen buffet y presenta tu identificación oficial con foto.",
-    "sources": [
-      "https://restaurantevenacava.com/"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "VER"
-    ],
-    "cities": [
-      "xalapa"
-    ],
-    "locationNote": "Av. Araucarias 139, Indeco Ánimas, Xalapa. La página aún muestra la promoción, pero el buffet lleva la leyenda 'vigencia al 31 de agosto de 2026' (ya pasada): confirma que sigue activo.",
-    "needsId": true,
-    "companions": 4
   },
   {
     "slug": "madison-grill-veracruz-tabasco",
@@ -8415,7 +8583,7 @@
     "slug": "gema-spa-huatulco",
     "brand": "Gema Spa Huatulco",
     "category": "belleza",
-    "benefit": "Limpieza facial gratis al reservar un tratamiento en tu cumple",
+    "benefit": "Limpieza facial gratis al reservar un tratamiento",
     "benefitType": "regalo-con-compra",
     "details": "Si reservas cualquier tratamiento para celebrar tu cumpleaños en Gema Spa, te obsequian una limpieza facial gratuita. La página de promociones no detalla identificación, días ni vigencia.",
     "program": null,
@@ -10308,6 +10476,113 @@
     "companions": 5
   },
   {
+    "slug": "la-trinchera-ciudad-juarez",
+    "brand": "La Trinchera (Juárez)",
+    "category": "comida-rapida",
+    "benefit": "Cumpleañero come gratis: ensalada, hamburguesa o 10 alitas",
+    "benefitType": "gratis",
+    "details": "Según publicaciones en redes, el cumpleañero elige gratis una ensalada tradicional, una hamburguesa La Trinchera o 10 piezas de alitas; no incluye bebidas, aplican términos y condiciones y solo vale en las sucursales Alameda y Libramiento. No se encontraron requisitos de acompañantes, identificación ni vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Elegir ensalada, hamburguesa o 10 alitas",
+      "No incluye bebidas",
+      "Solo sucursales Alameda y Libramiento",
+      "Aplican términos y condiciones no detallados"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Ve a la sucursal Alameda o Libramiento y avisa que es tu cumpleaños al pedir; tel. 656 396 1378.",
+    "sources": [
+      "https://www.tiktok.com/discover/que-restaurantes-ir-en-cumplea%C3%B1os-gratis-cd-juarez",
+      "https://www.facebook.com/la.trinchera.jrz/",
+      "https://restaurantguru.com/La-Trinchera-Ciudad-Juarez"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Restaurante de alitas, boneless y hamburguesas con varias sucursales en Ciudad Juárez; no confundir con La Trrincheraa de Guadalajara.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "crepa-station-ciudad-juarez",
+    "brand": "Crepa Station",
+    "category": "postres",
+    "benefit": "Crepa gratis en tu cumpleaños (según redes)",
+    "benefitType": "gratis",
+    "details": "Publicaciones en redes indican que Crepa Station regala una crepa a quien celebra su cumpleaños. No se encontraron condiciones (consumo mínimo, identificación, tipo de crepa) ni aviso oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma consumo mínimo",
+      "Confirma si piden identificación",
+      "Confirma tipos de crepa incluidos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/que-restaurantes-ir-en-cumplea%C3%B1os-gratis-cd-juarez",
+      "https://www.ubereats.com/mx/store/crepa-station-ciudad-juarez/HLxv7CZqVWq9fdXWS8Z64A"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Codorniz 3659, Ciudad Juárez; abre de 9:00 a 21:00 según listados.",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "bravos-food-ciudad-juarez",
+    "brand": "Bravos Food",
+    "category": "comida-rapida",
+    "benefit": "Cumpleañero paga la mitad y recibe postre gratis",
+    "benefitType": "descuento",
+    "details": "Según la cuenta de TikTok del negocio, el cumpleañero paga la mitad y recibe un postre gratis en este restaurante de hamburguesas, alitas y boneless. No se encontraron condiciones (consumo, identificación, vigencia).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Confirma si aplica a toda la cuenta",
+      "Confirma si piden identificación",
+      "Confirma vigencia"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se precisa vigencia ni día",
+    "minPurchase": null,
+    "howToClaim": "Avisa al pedir que es tu cumpleaños; tel. 656 511 4771.",
+    "sources": [
+      "https://www.tiktok.com/discover/que-restaurantes-ir-en-cumplea%C3%B1os-gratis-cd-juarez",
+      "https://www.facebook.com/BRAVOS.FOOD/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "ciudad-juarez"
+    ],
+    "locationNote": "Cártamo 9132, Granjero, Ciudad Juárez.",
+    "needsId": null,
+    "companions": null
+  },
+  {
     "slug": "tepetongo-parque-acuatico-contepec",
     "brand": "Parque Acuático Tepetongo",
     "category": "parques",
@@ -11381,6 +11656,449 @@
     ],
     "locationNote": "Calle 62 #443, Parque Santa Lucía, Centro Histórico de Mérida",
     "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "floe-merida",
+    "brand": "Floe Greek Frozen Yogurt (Mérida)",
+    "category": "postres",
+    "benefit": "Yogurt helado gratis en tu cumpleaños (según TikTok)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te regalan un yogurt helado (el producto exacto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. Su Instagram (@floe.mx) no menciona la promo en bio ni destacados.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://www.instagram.com/floe.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Plaza San Ángelo, Mérida (según su Instagram)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "corniche-merida",
+    "brand": "Corniche Artisanal Coffee & Boba (Mérida)",
+    "category": "cafe",
+    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. Su Instagram (@corniche.mid) no menciona la promo en bio ni destacados.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://www.instagram.com/corniche.mid/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Av. Cámara de Comercio 299-B, Mérida",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "fomo-bakery-merida",
+    "brand": "FOMO Bakery (Mérida)",
+    "category": "postres",
+    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. Su Instagram (@fomobakery) no menciona la promo en bio ni destacados.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://www.instagram.com/fomobakery/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Calle 39 #230 x 34 y 36, Plaza Verona, Mérida (la sucursal de Cancún es solo entrega)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "dr-galletas-merida",
+    "brand": "Dr. Galletas (Mérida)",
+    "category": "postres",
+    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. No se encontró su Instagram oficial con la promo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Sucursales en Mérida (una en col. Montecristo); sin confirmar cuáles participan",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "chunkies-merida",
+    "brand": "Chunkies (Mérida)",
+    "category": "postres",
+    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. Su Instagram (@chunkiesmid) no menciona la promo en bio ni destacados.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://www.instagram.com/chunkiesmid/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Sucursales en Mérida (una en García Lavín); sin confirmar cuáles participan",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "cafe-dicha-de-verte-merida",
+    "brand": "Café Dicha de Verte (Mérida)",
+    "category": "cafe",
+    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. Su Instagram (@dicha.de.verte) no menciona la promo en bio ni destacados.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://www.instagram.com/dicha.de.verte/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Plaza Roble, Av. José Díaz Bolio 185, Mérida",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "tremendos-roles-merida",
+    "brand": "Tremendos Roles (Mérida)",
+    "category": "postres",
+    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. Su Instagram (@tremendosroles) no menciona la promo en bio ni destacados.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://www.instagram.com/tremendosroles/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Mérida (Calle 24 x 23 y 23A, col. Miguel Alemán, según directorios)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "rooli-rolls-merida",
+    "brand": "Rooli Rolls (Mérida)",
+    "category": "postres",
+    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. Ni su sitio roolirolls.com.mx ni su Instagram (@roolirolls, que tiene programa de lealtad) mencionan la promo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://roolirolls.com.mx/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Sucursales Caucel, García Lavín y Siglo XXI, Mérida",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "hilide-helados-merida",
+    "brand": "Hilide Helados (Mérida)",
+    "category": "postres",
+    "benefit": "Helado gratis en tu cumpleaños (según TikTok)",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un helado gratis, descrito como helado de yogurt (formato y tamaño sin confirmar) mostrando tu INE y siguiendo sus redes sociales. El negocio no tiene sitio propio; la promo no está confirmada en redes oficiales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente (según TikTok)",
+      "Seguir sus redes sociales (según TikTok)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "sources": [
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Calle 20 x 19 y 19A, col. Dzitya, Mérida (según directorios de entrega)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "kraken-merida",
+    "brand": "Kraken Alta Cocina del Mar (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Tu platillo gratis en tu mes yendo con 3 personas",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Mérida (no confirmado en sitio oficial), el cumpleañero come gratis durante el mes de su cumpleaños si va con 3 personas que pidan platillo fuerte y bebida y presenta un documento que acredite su cumpleaños. Su Instagram oficial tiene un destacado llamado 'Cumpleaños', pero su contenido no se pudo leer. El dominio krakenmerida.com no es un sitio funcional.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 personas que pidan platillo fuerte y bebida",
+      "Documento que pruebe tu cumpleaños (INE)",
+      "Solo durante tu mes de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños (según TikTok)",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones por Instagram (@krakenmid) o al 999 988 2300 y presenta tu identificación al pedir.",
+    "sources": [
+      "https://www.tiktok.com/discover/restaurantes-en-merida-yucatan-para-festejar-cumplea%C3%B1os",
+      "https://www.instagram.com/krakenmid/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Plaza Boulevard, Cd. Caucel (Av. 23 locales 15-17), Mérida; un listado menciona también Plaza Malak (Norte)",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "bbt-merida",
+    "brand": "BBT (Mérida)",
+    "category": "restaurantes",
+    "benefit": "Descuento igual a tu edad (máx. 50%) en toda la cuenta",
+    "benefitType": "descuento",
+    "details": "Según una reseña de usuario en Tripadvisor (sin fecha verificada, no confirmada en sitio ni redes oficiales), en tu mes de cumpleaños la mesa recibe un descuento igual a la edad del cumpleañero (máximo 50%) mostrando tu INE; si cumples 25, 25%. Puede estar desactualizada: confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente",
+      "Solo durante tu mes de cumpleaños",
+      "Descuento máximo del 50% (según la reseña)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños (según una reseña de usuario)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE al pedir la cuenta y confirma la promoción con el restaurante.",
+    "sources": [
+      "https://www.tripadvisor.com.mx/ShowUserReviews-g150811-d10621659-r574516619-BBT-Merida_Yucatan_Peninsula.html"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "BBT Centro, Calle 65 entre 62 y 64, Centro, Mérida",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "bom-dia-costelao-playa-del-carmen",
+    "brand": "Bom Día (Costelão Playa del Carmen)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero no paga el buffet los sábados",
+    "benefitType": "gratis",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Playa del Carmen (no confirmado en sitio oficial), en el buffet de desayuno brasileño Bom Día los sábados el cumpleañero no paga si va con 3 adultos o más. Bom Día opera sábados y domingos de 8 am a 12 pm en Costelão; su Instagram tiene un destacado 'Promos' cuyo contenido no se pudo leer.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 3 adultos o más",
+      "Solo los sábados",
+      "Confirmar el documento requerido con el restaurante"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Solo sábados (según TikTok); no precisa si es el día o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Confirma condiciones por Instagram (@costelaochurrascariapdc) y avisa que es tu cumpleaños al llegar.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-regalan-en-tu-cumplea%C3%B1os-en-playa-del-carmen",
+      "https://www.instagram.com/costelaochurrascariapdc/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "playa-del-carmen"
+    ],
+    "locationNote": "Costelão, Plaza Midtown, Av. 10 con Calle 34, Playa del Carmen",
+    "needsId": null,
+    "companions": 3
+  },
+  {
+    "slug": "bovinos-steakhouse-playa-del-carmen",
+    "brand": "Bovinos Steakhouse",
+    "category": "restaurantes",
+    "benefit": "Sorpresas gratis al festejar tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Según listados de TikTok sobre promos de cumpleaños en Playa del Carmen (no confirmado en sitio oficial), al festejar tu cumpleaños en cualquiera de sus restaurantes te dan 'cositas gratis' sin especificar cuáles. Ni su sitio bovinos.restaurant ni su página de eventos mencionan cumpleaños.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Festejar tu cumpleaños en el restaurante",
+      "Detalles sin confirmar"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin confirmar",
+    "minPurchase": null,
+    "howToClaim": "Avisa que es tu cumpleaños al reservar y pregunta qué incluye la cortesía.",
+    "sources": [
+      "https://www.tiktok.com/discover/lugares-que-regalan-en-tu-cumplea%C3%B1os-en-playa-del-carmen",
+      "https://bovinos.restaurant/eventos/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "playa-del-carmen",
+      "cancun"
+    ],
+    "locationNote": "Av. 10 con Calle 12 Norte, Playa del Carmen, y Av. Yaxchilán 17, Cancún",
+    "needsId": null,
     "companions": null
   },
   {
