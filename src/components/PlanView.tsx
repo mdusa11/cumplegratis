@@ -6,6 +6,11 @@ import { useSearchParams } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import { BirthdayPicker, burst } from "./BirthdayPicker";
 import { BenefitBadge } from "./BenefitBadge";
+import { CountUp } from "./fx";
+import { locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
+import { useOpenPromo } from "./PromoSheet";
+import { availability, isAvailable } from "@/lib/availability";
+import { promos } from "@/lib/promos";
 import { postJson } from "./SuggestForm";
 import { SplitText } from "./Reveal";
 import { buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
@@ -41,7 +46,12 @@ export function PlanView() {
 }
 
 function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) {
-  const plan = useMemo(() => buildPlan(birthday), [birthday]);
+  const { location, openPicker } = useLocation();
+  useAutoAskLocation();
+  const plan = useMemo(
+    () => buildPlan(birthday, location ? promos.filter((p) => isAvailable(availability(p, location))) : promos),
+    [birthday, location],
+  );
   const done = useDone();
   const needSignup = [...plan.now, ...plan.later];
   const doneCount = needSignup.filter((i) => done.includes(i.promo.slug)).length;
@@ -58,6 +68,10 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
           Tu cumple: {birthday.d} de {MONTHS[birthday.m - 1]} ·{" "}
           <button type="button" onClick={onEdit} className="underline underline-offset-4 hover:text-hot">
             cambiar
+          </button>{" "}
+          · 📍 {location ? locationName(location) : "Todo México"} ·{" "}
+          <button type="button" onClick={openPicker} className="underline underline-offset-4 hover:text-hot">
+            {location ? "cambiar zona" : "elegir mi ciudad"}
           </button>
         </p>
         {isToday ? (
@@ -146,7 +160,9 @@ function Stat({ value, label, color }: { value: number; label: string; color: st
       className="card !rounded-2xl p-3 sm:!rounded-3xl sm:p-5"
       style={{ background: color }}
     >
-      <p className="display text-5xl sm:text-7xl">{value}</p>
+      <p className="display text-5xl sm:text-7xl">
+        <CountUp value={value} />
+      </p>
       <p className="text-sm leading-tight font-semibold sm:text-lg">{label}</p>
     </motion.div>
   );
@@ -177,6 +193,7 @@ function Group({ title, hint, items, done }: { title: string; hint: string; item
 
 function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
   const { promo, registerBy, status, estimated } = item;
+  const openPromo = useOpenPromo();
   const needsSignup = status !== "sin-registro";
   const toggle = (e: React.MouseEvent) => {
     if (!checked) burst({ x: e.clientX / window.innerWidth, y: e.clientY / window.innerHeight });
@@ -204,12 +221,26 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
       )}
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-2">
-          <Link href={`/promos/${promo.slug}`} className={cn("display text-3xl hover:text-hot sm:text-4xl", checked && "line-through decoration-4")}>
+          <Link
+            href={`/promos/${promo.slug}`}
+            onClick={(e) => {
+              if (e.metaKey || e.ctrlKey) return;
+              e.preventDefault();
+              openPromo(promo);
+            }}
+            className={cn("display text-3xl hover:text-hot sm:text-4xl", checked && "line-through decoration-4")}
+          >
             {promo.brand}
           </Link>
           <BenefitBadge type={promo.benefitType} className="!text-sm" />
         </div>
         <p className="mt-1 font-medium">{promo.benefit}</p>
+        {promo.requirements.length > 0 && (
+          <p className="mt-1 text-sm opacity-80">
+            {promo.requirements.slice(0, 2).join(" · ")}
+            {promo.requirements.length > 2 && " · …"}
+          </p>
+        )}
       </div>
       <div className="flex flex-wrap items-center gap-2">
         {registerBy && (

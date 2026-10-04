@@ -1,9 +1,11 @@
 import raw from "@/data/promos.json";
+import { CITIES, STATES, type CitySlug, type StateCode } from "./places";
 
 export type BenefitType = "gratis" | "descuento" | "2x1" | "regalo-con-compra";
 export type ClaimWindow = "mes" | "semana" | "dia" | "otro";
 export type Confidence = "alta" | "media" | "baja";
 export type GroupId = "comida" | "tiendas" | "diversion" | "servicios";
+export type Coverage = "nacional" | "estados" | "ciudades";
 
 export const CATEGORIES = {
   cafe: { label: "Café", group: "comida", emoji: "☕" },
@@ -70,6 +72,13 @@ export type Promo = {
   howToClaim: string;
   sources: string[];
   confidence: Confidence;
+  /** null = todavía no verificamos dónde aplica. */
+  coverage: Coverage | null;
+  states: StateCode[];
+  cities: CitySlug[];
+  locationNote: string | null;
+  needsId: boolean | null;
+  companions: number | null;
 };
 
 const CONFIDENCE_RANK: Record<Confidence, number> = { alta: 0, media: 1, baja: 2 };
@@ -99,4 +108,45 @@ export function signupLabel(p: Promo) {
   if (!p.program) return "Sin registro";
   if (p.registerDaysBefore != null && p.registerDaysBefore > 0) return `Regístrate ${days(p.registerDaysBefore)} antes`;
   return "Requiere registro";
+}
+
+export const money = (n: number) => `$${n.toLocaleString("es-MX")}`;
+
+/** Ícono para una viñeta de requisito según de qué habla. */
+export function ruleIcon(text: string) {
+  const t = normalize(text);
+  if (/\b(ine|identificacion|credencial|pasaporte)\b/.test(t)) return "🪪";
+  if (/acompanante|personas|amigos|invitados/.test(t)) return "👥";
+  if (/\$|compra|consumo|ticket|minimo/.test(t)) return "💳";
+  if (/registr|app|cuenta|club|miembro|socio|tarjeta|membresia|rewards|perfil/.test(t)) return "📝";
+  if (/dia|mes|semana|fecha|vigen/.test(t)) return "📅";
+  return "✦";
+}
+
+/** Reglas rápidas estructuradas (para los íconos grandes del panel). */
+export function quickRules(p: Promo) {
+  const rules: { icon: string; label: string }[] = [];
+  if (p.program) rules.push({ icon: "📝", label: p.registerDaysBefore ? `Regístrate ${days(p.registerDaysBefore)} antes` : `Registro en ${p.program}` });
+  else rules.push({ icon: "🚶", label: "Sin registro previo" });
+  if (p.needsId) rules.push({ icon: "🪪", label: "Lleva tu INE" });
+  if (p.companions) rules.push({ icon: "👥", label: `Ve con ${p.companions} ${p.companions === 1 ? "acompañante" : "acompañantes"}` });
+  if (p.minPurchase) rules.push({ icon: "💳", label: `Compra mínima ${money(p.minPurchase)}` });
+  return rules;
+}
+
+const listJoin = (items: string[]) =>
+  items.length <= 1 ? (items[0] ?? "") : `${items.slice(0, -1).join(", ")} y ${items[items.length - 1]}`;
+
+/** "Todo México", "Solo en Guadalajara", "Monterrey, Saltillo y 3 más", "Jalisco y Nuevo León". */
+export function coverageLabel(p: Promo) {
+  if (p.coverage === "nacional") return "Todo México";
+  if (p.coverage === "ciudades") {
+    const names = p.cities.map((c) => CITIES[c].name);
+    return names.length === 1 ? `Solo en ${names[0]}` : names.length <= 3 ? listJoin(names) : `${names.slice(0, 2).join(", ")} y ${names.length - 2} más`;
+  }
+  if (p.coverage === "estados") {
+    const names = p.states.map((s) => STATES[s].name);
+    return names.length <= 3 ? listJoin(names) : `${names.slice(0, 2).join(", ")} y ${names.length - 2} estados más`;
+  }
+  return "Ubicación por confirmar";
 }

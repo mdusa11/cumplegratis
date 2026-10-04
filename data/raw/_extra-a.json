@@ -1,0 +1,750 @@
+[
+ {
+  "slug": "starbucks",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Más de 900 tiendas en todo el país",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://expansion.mx/empresas/2025/12/12/cuantas-tiendas-tiene-starbucks-en-mexico"
+ },
+ {
+  "slug": "krispy-kreme",
+  "coverage": "estados",
+  "states": [
+   "CMX",
+   "MEX",
+   "HID",
+   "QUE",
+   "MOR",
+   "CHH",
+   "COA",
+   "DUR",
+   "GUA",
+   "JAL",
+   "MIC",
+   "NLE",
+   "PUE",
+   "ROO",
+   "CAM",
+   "SLP",
+   "VER",
+   "YUC"
+  ],
+  "cities": [],
+  "locationNote": "Tiendas físicas en 18 estados; no aplica en Liverpool, Walmart ni OXXO",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://tienda.krispykreme.mx/Branch"
+ },
+ {
+  "slug": "nutrisa",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Más de 20 estados; no aplica en Liverpool, Fábricas de Francia, museos ni parques",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/nutrisa/todos/"
+ },
+ {
+  "slug": "toks",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Presencia en unos 23 estados; solo consumo en restaurante",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/toks/todos/"
+ },
+ {
+  "slug": "panda-express",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "JAL",
+   "NLE"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan",
+   "tlalnepantla",
+   "guadalajara",
+   "zapopan",
+   "monterrey"
+  ],
+  "locationNote": "Solo sucursales participantes; directorios reportan otras ciudades sin verificar",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.tiendeo.mx/Tiendas/panda-express-r"
+ },
+ {
+  "slug": "dairy-queen",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Sucursales en más de 25 estados; solo sucursales participantes",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/dairy-queen/todos/"
+ },
+ {
+  "slug": "el-globo",
+  "coverage": "estados",
+  "states": [
+   "AGU",
+   "CHH",
+   "COL",
+   "GUA",
+   "JAL",
+   "MEX",
+   "CMX",
+   "MIC",
+   "MOR",
+   "PUE",
+   "ROO",
+   "SLP",
+   "SIN",
+   "TAB",
+   "NLE",
+   "NAY",
+   "YUC",
+   "QUE"
+  ],
+  "cities": [],
+  "locationNote": "Solo sucursales e islas; estados según directorios (no verificado en sitio oficial)",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/el-globo/todos/"
+ },
+ {
+  "slug": "vips",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Más de 230 restaurantes en la mayoría de los estados",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/vips/todos/"
+ },
+ {
+  "slug": "italiannis",
+  "coverage": "estados",
+  "states": [
+   "CMX",
+   "MEX",
+   "JAL",
+   "NLE",
+   "PUE",
+   "QUE",
+   "CAM",
+   "VER",
+   "MOR",
+   "GUA",
+   "GRO",
+   "OAX",
+   "SIN",
+   "MIC",
+   "CHP",
+   "TAB",
+   "HID",
+   "ZAC",
+   "ROO"
+  ],
+  "cities": [],
+  "locationNote": "Más de 90 restaurantes en 19 estados",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.italiannis.com.mx/ubicaciones/"
+ },
+ {
+  "slug": "cielito-querido",
+  "coverage": "estados",
+  "states": [
+   "BCN",
+   "CMX",
+   "MEX",
+   "GUA",
+   "JAL",
+   "PUE",
+   "QUE",
+   "ROO",
+   "SLP"
+  ],
+  "cities": [],
+  "locationNote": "Sucursales en 9 estados; no aplica en sucursal IBERO",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://cielitoquerido.com.mx/tiendas/"
+ },
+ {
+  "slug": "tgi-fridays",
+  "coverage": "ciudades",
+  "states": [
+   "ROO",
+   "YUC",
+   "TAM",
+   "BCN"
+  ],
+  "cities": [
+   "cancun",
+   "merida",
+   "tampico",
+   "tijuana"
+  ],
+  "locationNote": "Solo 4 restaurantes; condiciones varían por franquicia",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://fridays.mx/"
+ },
+ {
+  "slug": "wingstop",
+  "coverage": "estados",
+  "states": [
+   "CMX",
+   "MEX",
+   "NLE",
+   "SLP",
+   "PUE",
+   "QUE",
+   "TAM",
+   "CHP",
+   "COA",
+   "YUC",
+   "VER",
+   "CHH",
+   "SON",
+   "BCN",
+   "GUA",
+   "JAL",
+   "AGU",
+   "CAM"
+  ],
+  "cities": [],
+  "locationNote": "Más de 110 sucursales; estados según directorios (no verificado en sitio oficial)",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/wingstop/todos/"
+ },
+ {
+  "slug": "sirloin-stockade",
+  "coverage": "ciudades",
+  "states": [
+   "JAL",
+   "GUA",
+   "MIC",
+   "QUE"
+  ],
+  "cities": [
+   "guadalajara",
+   "leon",
+   "morelia",
+   "queretaro"
+  ],
+  "locationNote": "6 sucursales participantes: Guadalajara (Centro, Conchitas, Sanzio), León Plaza Mayor, Morelia y Querétaro",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://promociones.sirloinstockade.mx/operadora/cupon/cupon-cumpleanos"
+ },
+ {
+  "slug": "la-vid-argentina",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX"
+  ],
+  "cities": [
+   "cdmx",
+   "tlalnepantla",
+   "naucalpan",
+   "toluca"
+  ],
+  "locationNote": "7 sucursales en CDMX y Edomex; Interlomas -> naucalpan, Metepec -> toluca",
+  "needsId": true,
+  "companions": 1,
+  "coverageSource": "https://www.lavidargentina.com/sucursales/"
+ },
+ {
+  "slug": "chilis",
+  "coverage": "estados",
+  "states": [
+   "AGU",
+   "CHP",
+   "CHH",
+   "CMX",
+   "COA",
+   "GUA",
+   "HID",
+   "JAL",
+   "MEX",
+   "MIC",
+   "MOR",
+   "NAY",
+   "NLE",
+   "PUE",
+   "QUE",
+   "ROO",
+   "SLP",
+   "TAB",
+   "TLA",
+   "VER",
+   "YUC"
+  ],
+  "cities": [],
+  "locationNote": "Presencia en 21 estados; beneficio varía por sucursal ($200 en CDMX, pastel en otros)",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.chilis.com.mx/ubicaciones"
+ },
+ {
+  "slug": "la-mansion",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "CHP"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan",
+   "tuxtla-gutierrez"
+  ],
+  "locationNote": "8 sucursales; Bosque Real y Esmeralda -> naucalpan; promo según medios, el sitio solo ofrece pastel",
+  "needsId": true,
+  "companions": 3,
+  "coverageSource": "https://lamansion.com.mx/locations/"
+ },
+ {
+  "slug": "carls-jr",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Más de 300 restaurantes; lista de estados no verificada en sitio oficial",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/carls-jr/todos/"
+ },
+ {
+  "slug": "applebees",
+  "coverage": "ciudades",
+  "states": [
+   "BCN",
+   "CHH",
+   "SON",
+   "CMX",
+   "MOR"
+  ],
+  "cities": [
+   "tijuana",
+   "mexicali",
+   "ensenada",
+   "chihuahua",
+   "ciudad-juarez",
+   "hermosillo",
+   "cdmx",
+   "cuernavaca"
+  ],
+  "locationNote": "Operadores regionales distintos; directorios reportan otras ciudades sin verificar; Rewards sin confirmar",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://applebees.com.mx/sucursales/"
+ },
+ {
+  "slug": "beer-factory",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX"
+  ],
+  "cities": [
+   "cdmx",
+   "tlalnepantla"
+  ],
+  "locationNote": "CERRADA: Beer Factory cerró todas sus sucursales el 30-dic-2024 (CDMX y Mundo E)",
+  "needsId": true,
+  "companions": 2,
+  "coverageSource": "https://es.wikipedia.org/wiki/Beer_Factory"
+ },
+ {
+  "slug": "falafelito",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "Sucursales en CDMX (Condesa, Coyoacán, Narvarte); algunas reportadas cerradas; no verificado en sitio oficial",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.dondeir.com/restaurante/falafelito-gastronomia-arabe-vegetariana-en-la-cdmx/12848/"
+ },
+ {
+  "slug": "la-btk",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "HID"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan",
+   "tlalnepantla",
+   "ecatepec",
+   "pachuca"
+  ],
+  "locationNote": "CDMX y Edomex; Coacalco -> ecatepec; Pachuca reportada por directorios sin confirmar",
+  "needsId": true,
+  "companions": 4,
+  "coverageSource": "https://labtk.com.mx/sucursales-nueva-version/"
+ },
+ {
+  "slug": "ihop",
+  "coverage": "estados",
+  "states": [
+   "MEX",
+   "CMX",
+   "MOR",
+   "GUA",
+   "QUE",
+   "PUE",
+   "JAL",
+   "SIN",
+   "VER",
+   "YUC",
+   "TAB",
+   "ROO",
+   "MIC",
+   "CHH",
+   "COA",
+   "NLE",
+   "TAM",
+   "SON",
+   "BCN",
+   "COL"
+  ],
+  "cities": [],
+  "locationNote": "49 sucursales en ~20 estados; cada franquicia maneja su propia promo",
+  "needsId": true,
+  "companions": 3,
+  "coverageSource": "https://ihopmexico.com/sucursales/"
+ },
+ {
+  "slug": "el-farolito",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan"
+  ],
+  "locationNote": "13 sucursales (12 CDMX y 1 Edomex, Forbes 2020); otras ubicaciones sin verificar",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://forbes.com.mx/grupo-gigante-adquiere-la-franquicia-de-tacos-el-farolito/"
+ },
+ {
+  "slug": "dennys",
+  "coverage": "ciudades",
+  "states": [
+   "CHH",
+   "JAL",
+   "QUE",
+   "COA",
+   "GUA",
+   "ZAC"
+  ],
+  "cities": [
+   "ciudad-juarez",
+   "chihuahua",
+   "guadalajara",
+   "zapopan",
+   "queretaro",
+   "torreon",
+   "leon",
+   "zacatecas"
+  ],
+  "locationNote": "15 sucursales; El Salto/Tlajomulco -> guadalajara, Silao -> leon; promo sin confirmación oficial",
+  "needsId": true,
+  "companions": 2,
+  "coverageSource": "https://dennysmexico.com/sucursales"
+ },
+ {
+  "slug": "las-alitas",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "NLE",
+   "MEX"
+  ],
+  "cities": [
+   "cdmx",
+   "monterrey",
+   "toluca"
+  ],
+  "locationNote": "Promo válida solo en Nuevo León, Edomex y CDMX; Metepec -> toluca",
+  "needsId": true,
+  "companions": 3,
+  "coverageSource": "https://lasalitas.com/promo_cdmx/"
+ },
+ {
+  "slug": "potzollcalli",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "TAB",
+   "YUC"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan",
+   "tlalnepantla",
+   "ecatepec",
+   "nezahualcoyotl",
+   "toluca",
+   "villahermosa",
+   "merida"
+  ],
+  "locationNote": "Mayoría en CDMX y Edomex, más Villahermosa y Mérida; Izcalli -> tlalnepantla, Ixtapaluca -> nezahualcoyotl",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.potzollcalli.com/sucursales/"
+ },
+ {
+  "slug": "wingo",
+  "coverage": "ciudades",
+  "states": [
+   "VER"
+  ],
+  "cities": [
+   "veracruz",
+   "cordoba",
+   "xalapa"
+  ],
+  "locationNote": "Solo Veracruz; Orizaba y Río Blanco -> cordoba",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.wingo.mx/ubicaciones"
+ },
+ {
+  "slug": "caffenio",
+  "coverage": "estados",
+  "states": [
+   "SON",
+   "BCN",
+   "SIN",
+   "CHH",
+   "COA",
+   "DUR",
+   "NAY",
+   "AGU",
+   "GUA",
+   "ROO",
+   "JAL",
+   "VER"
+  ],
+  "cities": [],
+  "locationNote": "Sin sucursales en CDMX; expansión reciente a Jalisco y Veracruz; la lista puede crecer",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.lja.mx/2024/11/por-que-no-hay-caffenio-en-cdmx/"
+ },
+ {
+  "slug": "dominos",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Tiendas en casi todo el país",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/dominos-pizza/todos/"
+ },
+ {
+  "slug": "moyo",
+  "coverage": "estados",
+  "states": [
+   "CMX",
+   "MEX",
+   "PUE",
+   "QUE",
+   "GUA",
+   "MIC",
+   "GRO",
+   "NLE",
+   "ROO",
+   "YUC",
+   "JAL"
+  ],
+  "cities": [],
+  "locationNote": "Ubicaciones no verificadas: directorios dispares, app sin actualizar desde jul 2024",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/moyo/todos/"
+ },
+ {
+  "slug": "cinepolis",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Complejos en casi todos los estados; no aplica en premieres, preventas ni festivales",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/cinepolis/todos/"
+ },
+ {
+  "slug": "cinemex",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "301 complejos en 100+ ciudades; combo y nivel varían por Loop",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/cinemex/todos/"
+ },
+ {
+  "slug": "kidzania",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "NLE"
+  ],
+  "cities": [
+   "cdmx",
+   "monterrey"
+  ],
+  "locationNote": "Sedes: Santa Fe y Cuicuilco (CDMX) y Monterrey; Guadalajara aparece en Wikipedia pero no en el programa",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://es.wikipedia.org/wiki/KidZania"
+ },
+ {
+  "slug": "recorcholis",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "CHP",
+   "MEX",
+   "GUA",
+   "MOR",
+   "SIN",
+   "VER"
+  ],
+  "cities": [
+   "cdmx",
+   "tuxtla-gutierrez",
+   "toluca",
+   "naucalpan",
+   "tlalnepantla",
+   "irapuato",
+   "cuernavaca",
+   "mazatlan",
+   "veracruz"
+  ],
+  "locationNote": "Solo 12 sucursales participantes; Lerma -> toluca, Interlomas -> naucalpan, Salamanca -> irapuato",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://recorcholis.com.mx/terminos-y-condiciones"
+ },
+ {
+  "slug": "sport-bowl-merida",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ],
+  "locationNote": "Única sucursal: Periférico Norte, Mérida",
+  "needsId": true,
+  "companions": 4,
+  "coverageSource": "https://sportbowl.com.mx/"
+ },
+ {
+  "slug": "strike-39",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "Solo Galerías Coapa (Tlalpan), CDMX",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://lasillarota.com/dinero/2025/8/1/donde-estan-las-mejores-promociones-para-ir-jugar-boliche-en-la-cdmx-548411.html"
+ },
+ {
+  "slug": "grupo-xcaret-quintanarroenses",
+  "coverage": "ciudades",
+  "states": [
+   "ROO"
+  ],
+  "cities": [
+   "playa-del-carmen",
+   "cancun",
+   "tulum"
+  ],
+  "locationNote": "Solo residentes de Quintana Roo; Xcaret/Xenses (Playa), Xoximilco (Cancún), Xel-Há (Tulum)",
+  "needsId": true,
+  "companions": 4,
+  "coverageSource": "https://www.xcaret.com/es/quintanarroenses/"
+ },
+ {
+  "slug": "viva-aerobus",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón por correo válido en vuelos de la aerolínea; promo no oficial",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": null
+ },
+ {
+  "slug": "aztlan-parque-urbano",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "Solo Bosque de Chapultepec, CDMX",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.chilango.com/que-hacer/feria-de-chapultepec-requisitos-entrada-gratis-aztlan/"
+ },
+ {
+  "slug": "el-rollo",
+  "coverage": "ciudades",
+  "states": [
+   "MOR"
+  ],
+  "cities": [
+   "cuautla"
+  ],
+  "locationNote": "Parque en Tlaquiltenango, Morelos (ciudad más cercana de la lista: Cuautla)",
+  "needsId": true,
+  "companions": 1,
+  "coverageSource": "https://elrollo.com.mx/promociones/"
+ },
+ {
+  "slug": "six-flags-mexico",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "Parque en Tlalpan, CDMX (Hurricane Harbor Oaxtepec es aparte)",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sixflags.com/mexico/plan-your-visit/directions"
+ }
+]

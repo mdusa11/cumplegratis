@@ -4,8 +4,10 @@ import { notFound } from "next/navigation";
 import { BenefitBadge } from "@/components/BenefitBadge";
 import { PromoCard } from "@/components/PromoCard";
 import { ReportButtons } from "@/components/ReportButtons";
+import { WhereCard } from "@/components/WhereCard";
 import { Reveal, SplitText } from "@/components/Reveal";
-import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, type Promo } from "@/lib/promos";
+import { TitleReveal } from "@/components/fx";
+import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, quickRules, type Promo } from "@/lib/promos";
 import { API_ENABLED, SITE, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -99,9 +101,19 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
 
       <div className="mx-auto grid max-w-7xl gap-16 px-5 py-20 sm:px-8 lg:grid-cols-[1.5fr_1fr]">
         <section>
-          <Reveal>
-            <h2 className="display text-6xl sm:text-7xl">Cómo cobrarlo</h2>
-          </Reveal>
+          <TitleReveal text="Lo que necesitas" className="text-6xl sm:text-7xl" />
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {quickRules(promo).map((r, i) => (
+              <Reveal key={r.label} delay={i * 0.06} y={24}>
+                <div className="card flex h-full flex-col gap-2 bg-paper p-4">
+                  <span className="text-4xl">{r.icon}</span>
+                  <span className="leading-tight font-bold">{r.label}</span>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+
+          <TitleReveal text="Cómo cobrarlo" className="mt-16 text-6xl sm:text-7xl" />
           <ol className="mt-8 space-y-5">
             {steps(promo).map((s, i) => (
               <Reveal key={s.title} delay={i * 0.08}>
@@ -135,6 +147,9 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
         </section>
 
         <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
+          <Reveal>
+            <WhereCard promo={promo} />
+          </Reveal>
           <Reveal className="card bg-paper-2 p-6">
             <p className="mono-tag">¿Qué tan segura es?</p>
             <p className="display mt-2 text-4xl">{confidence.label}</p>

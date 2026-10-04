@@ -1,5 +1,437 @@
 [
   {
+    "slug": "del-pingo-al-tango",
+    "brand": "Del Pingo al Tango",
+    "category": "restaurantes",
+    "benefit": "Menú de 2 tiempos gratis y postre con bengala",
+    "benefitType": "gratis",
+    "details": "Adultos (11+) comen gratis un menú de 2 tiempos (entrada y plato fuerte) de lunes a viernes durante su mes si van 4 o más personas que consuman; niños de 2 a 10 años reciben un platillo infantil gratis. Todos los festejados reciben postre con bengala cualquier día del mes con cualquier consumo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación con fecha de nacimiento (INE, pasaporte o acta)",
+      "Grupo de 4+ personas que consuman (menú gratis)",
+      "Menú gratis solo de lunes a viernes",
+      "Avisar a la hostess al llegar o al reservar"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños; promoción publicada con vigencia al 31 de octubre de 2026",
+    "minPurchase": null,
+    "howToClaim": "Avisa a la hostess al reservar o al llegar y presenta tu identificación oficial con fecha de nacimiento.",
+    "sources": [
+      "https://www.delpingoaltango.mx/happingotoyou"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla"
+    ],
+    "locationNote": "Encuentro Oceanía, Parque Delta, Parque Tepeyac y Mundo E",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "asador-city-wok",
+    "brand": "Asador City Wok",
+    "category": "restaurantes",
+    "benefit": "Buffet del cumpleañero gratis con 4 que paguen",
+    "benefitType": "gratis",
+    "details": "Al comprar 4 buffets, el quinto (el del cumpleañero) es gratis, cualquier día de la semana. Válido 3 días antes y 3 días después de tu cumpleaños; no acumulable con otras promociones, descuentos ni noches de promoción.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 4 acompañantes que paguen buffet",
+      "Válido 3 días antes y 3 después de tu cumpleaños",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "3 días antes y 3 días después de tu cumpleaños, cualquier día de la semana",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial al pagar; el buffet del festejado se descuenta al comprar 4 buffets.",
+    "sources": [
+      "https://www.asadorcitywok.com.mx/buffet-libre"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla"
+    ],
+    "locationNote": "Parque Tepeyac, Encuentro Fortuna, Mundo E y Free Wok Perinorte",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "carvao-do-brasil",
+    "brand": "Carvão do Brasil",
+    "category": "restaurantes",
+    "benefit": "Buffet de espadas brasileñas gratis",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga su buffet (precio de lista $479) al comprar 3 buffets de adulto, de lunes a viernes durante el mes de su cumpleaños. Si caes en sábado o domingo, solo aplica exactamente el día de tu cumpleaños. No incluye bebidas ni aplica con otras promociones o días festivos.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con fecha de nacimiento (con copia impresa)",
+      "Comprar 3 buffets de adulto",
+      "Lunes a viernes; fin de semana solo el día exacto",
+      "Bebidas no incluidas",
+      "No aplica en días festivos ni con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños de lunes a viernes; sábado/domingo solo el día exacto",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial (con copia impresa) al ordenar.",
+    "sources": [
+      "https://carvaodobrasil.com/promociones/promocion-cumpleanero/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla",
+      "ecatepec"
+    ],
+    "locationNote": "Aplica en todas sus sucursales de CDMX y Edomex",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "la-vicenta",
+    "brand": "La Vicenta",
+    "category": "restaurantes",
+    "benefit": "Cuenta del cumpleañero gratis (martes y jueves)",
+    "benefitType": "gratis",
+    "details": "Durante todo el mes de tu cumpleaños, el festejado no paga su cuenta los días de la promoción: jueves en Miyana y Cancún/Playa del Carmen, y martes y jueves en Vallejo, Tezontle y Toreo. Se pide reservar con el coordinador de eventos de la sucursal; los acompañantes pagan normal.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar con la sucursal (coordinador de eventos)",
+      "Solo martes/jueves según sucursal",
+      "Presentar identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, solo en los días de la sucursal",
+    "minPurchase": null,
+    "howToClaim": "Reserva en tu sucursal indicando que eres cumpleañero y presenta tu identificación al llegar.",
+    "sources": [
+      "https://lavicenta.com.mx/promociones/",
+      "https://lavicenta.com.mx/blog/promocion-cumpleanero-come-gratis/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "ROO"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "cancun"
+    ],
+    "locationNote": "CDMX: Miyana, Vallejo, Tezontle, Toreo; también Cancún y Playa del Carmen",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "texas-ribs",
+    "brand": "Texas Ribs",
+    "category": "restaurantes",
+    "benefit": "$50 menos en la cuenta por cada invitado",
+    "benefitType": "descuento",
+    "details": "Durante tu mes de cumpleaños recibes $50 de descuento en la cuenta por cada invitado que coma contigo; cada invitado debe consumir plato fuerte. Solo consumo en restaurante, pagando con tarjeta de crédito o débito, y no acumulable con otras promociones.",
+    "program": "LoneStar Club (registro opcional con fecha de cumpleaños)",
+    "signupUrl": null,
+    "requirements": [
+      "Presentar identificación",
+      "Cada invitado debe consumir plato fuerte",
+      "Pagar con tarjeta de crédito o débito",
+      "Solo consumo en restaurante",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación al pedir la cuenta y paga con tarjeta.",
+    "sources": [
+      "https://www.texasribs.com.mx/promociones"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "GRO",
+      "HID",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "toluca",
+      "pachuca"
+    ],
+    "locationNote": "Todas las sucursales: Del Valle, Plaza Central, Buenavista, Atizapán, Satélite, Metepec, Acapulco, Pachuca",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "sumo-all-you-can-eat",
+    "brand": "Sumo All You Can Eat",
+    "category": "restaurantes",
+    "benefit": "Buffet, botella o postre gratis con 4 amigos",
+    "benefitType": "gratis",
+    "details": "En tu mes de cumpleaños eliges una cortesía: buffet gratis o botella de vodka, tequila o ron (con 4 acompañantes) o una copa brownie gratis (con tu pareja), según la promoción vigente. Un cumpleañero por mesa; solo consumo en restaurante en sucursales Sumo All You Can Eat y Express, no combinable con otras ofertas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente (menores: CURP impresa o digital)",
+      "1 cumpleañero por mesa + mínimo 4 acompañantes",
+      "Consumo All You Can Eat o a la carta",
+      "Solo en restaurante, no para llevar",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al mesero al llegar y presenta tu identificación vigente.",
+    "sources": [
+      "https://sumo.com.mx/promociones/",
+      "https://sumo.com.mx/sucursales/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "MOR"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla",
+      "ecatepec",
+      "nezahualcoyotl",
+      "toluca",
+      "cuernavaca"
+    ],
+    "locationNote": "Sucursales Sumo All You Can Eat y Express en CDMX, Edomex y Cuernavaca",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "gong-cha-mexico",
+    "brand": "Gong Cha",
+    "category": "cafe",
+    "benefit": "Bebida de cumpleaños gratis",
+    "benefitType": "gratis",
+    "details": "Los miembros del programa Gong Cha Rewards (niveles White, Black y Red) reciben una bebida gratis válida durante todo el mes de su cumpleaños. El nivel White no exige visitas mínimas; Black requiere 3 visitas al mes y Red 5.",
+    "program": "Gong Cha Rewards",
+    "signupUrl": "https://gongcha.mx/conoce-nuestro-programa-de-recompensas/",
+    "requirements": [
+      "Inscribirte al programa Gong Cha Rewards con tu cumpleaños",
+      "Mantener tu nivel (White, Black o Red)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Canjea tu bebida de cumpleaños desde tu wallet de Gong Cha Rewards en sucursal.",
+    "sources": [
+      "https://gongcha.mx/recompensas/terminos-y-condiciones-programa-de-lealtad/",
+      "https://gongcha.mx/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "JAL",
+      "MEX",
+      "PUE",
+      "QUE"
+    ],
+    "cities": [
+      "cdmx",
+      "toluca",
+      "guadalajara",
+      "puebla",
+      "queretaro"
+    ],
+    "locationNote": "Sucursales en CDMX, Edomex (Metepec), Guadalajara, Puebla y Querétaro",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "la-vaka",
+    "brand": "La Vaka",
+    "category": "restaurantes",
+    "benefit": "Buffet del cumpleañero gratis con 4 buffets de adulto",
+    "benefitType": "gratis",
+    "details": "Al comprar 4 buffets de adulto (precio de lista $449), el del cumpleañero va gratis, cualquier día del mes de tu cumpleaños con identificación oficial. No incluye bebidas ni aplica en días festivos o con otras promociones; el sitio oficial indica que las promociones varían por sucursal, horario y vigencia.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Comprar 4 buffets de adulto",
+      "Bebidas no incluidas",
+      "No aplica en días festivos ni con otras promociones",
+      "Confirmar vigencia en tu sucursal"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños (promoción vista con vigencia al 31-dic-2026)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación oficial en caja al comprar los buffets.",
+    "sources": [
+      "https://lavaka.mx/",
+      "https://dondeir.com/content/buffet-gratis-para-cumpleaneros-en-la-vaka/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "ecatepec"
+    ],
+    "locationNote": "Antenas, Tepeyac, Las Américas (Ecatepec) y Satélite",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "club-del-patio",
+    "brand": "Club del Patio",
+    "category": "bares",
+    "benefit": "Botella, pastel o shots de cortesía (con 5 personas)",
+    "benefitType": "gratis",
+    "details": "El festejado recibe una botella gratis, pastel o shots de cortesía si llega acompañado de al menos 5 personas; con menos acompañantes o menor consumo la cortesía se limita a shots o rebanada de pastel. El sitio oficial remite a sus redes para las promociones de cumpleaños vigentes.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial (INE)",
+      "Ir con 5 o más acompañantes mayores de edad (para la botella)",
+      "Consumo mínimo de 1 platillo por persona (para la botella)",
+      "Confirmar la promo vigente en sus redes o WhatsApp"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Día de tu cumpleaños o el día de tu festejo",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp (55 6894 0481) y presenta tu INE al llegar.",
+    "sources": [
+      "https://clubdelpatio.com/faq/",
+      "https://thehappening.com/8-lugares-que-te-consienten-con-comida-gratis-en-tu-cumpleanos/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla"
+    ],
+    "locationNote": "Patio Roma y Patio Mundo E",
+    "needsId": true,
+    "companions": 5
+  },
+  {
+    "slug": "los-uruguayos",
+    "brand": "Los Uruguayos",
+    "category": "restaurantes",
+    "benefit": "Cena de cortes y parrilla gratis en tu mes",
+    "benefitType": "gratis",
+    "details": "Los festejados comen gratis (cortes de carne, ensalada de queso de cabra, empanadas y pizzas) los lunes, martes y miércoles del mes de su cumpleaños; las bebidas no se incluyen. Se recomienda reservar por teléfono.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Lunes, martes o miércoles de tu mes",
+      "Reservar por teléfono",
+      "Bebidas no incluidas"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Lunes a miércoles durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono (55 5553 7375) y presenta tu identificación.",
+    "sources": [
+      "https://www.rsvponline.mx/must/restaurantes-para-celebrar-tu-cumpleanos-gratis?amp=",
+      "https://www.excelsior.com.mx/recetas/restaurantes-cdmx-donde-puedes-celebrar-cumpleanos-comiendo-gratis"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Atlixco 38-A, Condesa",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "el-lugar-de-max",
+    "brand": "El Lugar de Max",
+    "category": "restaurantes",
+    "benefit": "Acceso gratis a las estaciones del buffet",
+    "benefitType": "gratis",
+    "details": "El cumpleañero accede sin costo a todas las estaciones de comida durante el mes de su cumpleaños si lo acompañan 3 adultos que paguen buffet. Las bebidas no están incluidas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 3 adultos que consuman buffet",
+      "Bebidas no incluidas",
+      "Reservar con anticipación (fines de semana se llena)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva y presenta tu identificación al llegar.",
+    "sources": [
+      "https://www.excelsior.com.mx/recetas/restaurantes-cdmx-donde-puedes-celebrar-cumpleanos-comiendo-gratis",
+      "https://www.tiktok.com/@lugardemax1987/video/7491328285532589317"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Confirmar sucursal CDMX en lugardemax.com",
+    "needsId": true,
+    "companions": 3
+  },
+  {
     "slug": "starbucks",
     "brand": "Starbucks",
     "category": "cafe",
@@ -20,9 +452,16 @@
     "howToClaim": "Pide tu bebida de cumpleaños en caja mostrando la app y tu identificación oficial.",
     "sources": [
       "https://rewards.starbucks.mx/tos/rewards",
-      "https://www.milenio.com/negocios/finanzas-personales/que-te-regala-starbucks-por-tu-cumpleanos-paso-a-paso-para-obtenerlo"
+      "https://www.milenio.com/negocios/finanzas-personales/que-te-regala-starbucks-por-tu-cumpleanos-paso-a-paso-para-obtenerlo",
+      "https://expansion.mx/empresas/2025/12/12/cuantas-tiendas-tiene-starbucks-en-mexico"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Más de 900 tiendas en todo el país",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "krispy-kreme",
@@ -44,9 +483,35 @@
     "howToClaim": "Muestra el beneficio en la app y tu INE en una tienda Krispy Kreme física.",
     "sources": [
       "https://tienda.krispykreme.mx/Home/Terms",
-      "https://lasillarota.com/seleccion/2025/6/25/asi-puedes-conseguir-media-docena-de-donas-krispy-kreme-gratis-por-tu-cumpleanos-y-una-mas-hoy-454198.html"
+      "https://lasillarota.com/seleccion/2025/6/25/asi-puedes-conseguir-media-docena-de-donas-krispy-kreme-gratis-por-tu-cumpleanos-y-una-mas-hoy-454198.html",
+      "https://tienda.krispykreme.mx/Branch"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "CAM",
+      "CHH",
+      "CMX",
+      "COA",
+      "DUR",
+      "GUA",
+      "HID",
+      "JAL",
+      "MEX",
+      "MIC",
+      "MOR",
+      "NLE",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SLP",
+      "VER",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Tiendas físicas en 18 estados; no aplica en Liverpool, Walmart ni OXXO",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "nutrisa",
@@ -69,9 +534,16 @@
     "howToClaim": "Escanea tu QR de la app en sucursal y muestra identificación. No aplica en Liverpool, Fábricas de Francia, museos ni parques.",
     "sources": [
       "https://legalesapp.nutrisa.com/index-esp.html",
-      "https://x.com/NutrisaMX/status/1762250270304780465"
+      "https://x.com/NutrisaMX/status/1762250270304780465",
+      "https://www.sucursales24.com.mx/nutrisa/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Más de 20 estados; no aplica en Liverpool, Fábricas de Francia, museos ni parques",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "toks",
@@ -92,9 +564,16 @@
     "howToClaim": "Presenta el cupón de la app A Comer Club en el restaurante.",
     "sources": [
       "https://twitter.com/ToksMx/status/1665827425068933121",
-      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://www.sucursales24.com.mx/toks/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Presencia en unos 23 estados; solo consumo en restaurante",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "panda-express",
@@ -115,9 +594,28 @@
     "howToClaim": "Canjea el beneficio desde la app A Comer Club en sucursal.",
     "sources": [
       "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
-      "https://www.adn40.mx/tiempo-libre/2026-02-18/lugares-regalan-cosas-promociones-cumpleanos/"
+      "https://www.adn40.mx/tiempo-libre/2026-02-18/lugares-regalan-cosas-promociones-cumpleanos/",
+      "https://www.tiendeo.mx/Tiendas/panda-express-r"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "JAL",
+      "MEX",
+      "NLE"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla",
+      "guadalajara",
+      "zapopan",
+      "monterrey"
+    ],
+    "locationNote": "Solo sucursales participantes; directorios reportan otras ciudades sin verificar",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "dairy-queen",
@@ -139,9 +637,16 @@
     "howToClaim": "Compra el Pastel Blizzard en sucursal y muestra tu identificación oficial.",
     "sources": [
       "https://x.com/DQMexico/status/2052206787852669308",
-      "https://x.com/DQMexico/status/2030644709744402588"
+      "https://x.com/DQMexico/status/2030644709744402588",
+      "https://www.sucursales24.com.mx/dairy-queen/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Sucursales en más de 25 estados; solo sucursales participantes",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "el-globo",
@@ -162,9 +667,35 @@
     "howToClaim": "Entrega copia de tu INE o acta en caja de sucursal. No aplica en tienda en línea, Rappi ni Uber Eats.",
     "sources": [
       "https://www.elglobo.com.mx/pages/10-pastel-de-cumpleanos",
-      "https://www.elglobo.com.mx/blogs/news/unete-al-programa-de-lealtad-de-el-globo"
+      "https://www.elglobo.com.mx/blogs/news/unete-al-programa-de-lealtad-de-el-globo",
+      "https://www.sucursales24.com.mx/el-globo/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "AGU",
+      "CHH",
+      "CMX",
+      "COL",
+      "GUA",
+      "JAL",
+      "MEX",
+      "MIC",
+      "MOR",
+      "NAY",
+      "NLE",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SIN",
+      "SLP",
+      "TAB",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Solo sucursales e islas; estados según directorios (no verificado en sitio oficial)",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "vips",
@@ -186,9 +717,16 @@
     "howToClaim": "Muestra tu cuenta Wow+ y tu identificación al pedir en el restaurante.",
     "sources": [
       "https://www.cronica.com.mx/tendencias/2026/04/30/lugares-donde-dan-regalos-o-cosas-gratis-en-tu-cumpleanos-la-guia-para-comer-beber-y-comprar-sin-gastar-de-mas/",
-      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/",
+      "https://www.sucursales24.com.mx/vips/todos/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Más de 230 restaurantes en la mayoría de los estados",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "italiannis",
@@ -210,9 +748,36 @@
     "howToClaim": "Muestra tu identificación (y tu cuenta Wow+ para el descuento) al pedir en el restaurante.",
     "sources": [
       "https://mx-ita-prod-web-cdcpc3ckfpbqd6d8.eastus2-01.azurewebsites.net/preguntas-frecuentes-italiannis/",
-      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html"
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html",
+      "https://www.italiannis.com.mx/ubicaciones/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "CAM",
+      "CHP",
+      "CMX",
+      "GRO",
+      "GUA",
+      "HID",
+      "JAL",
+      "MEX",
+      "MIC",
+      "MOR",
+      "NLE",
+      "OAX",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SIN",
+      "TAB",
+      "VER",
+      "ZAC"
+    ],
+    "cities": [],
+    "locationNote": "Más de 90 restaurantes en 19 estados",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "cielito-querido",
@@ -234,9 +799,26 @@
     "minPurchase": null,
     "howToClaim": "Muestra tu código de la app y tu identificación en caja. No aplica en sucursal IBERO.",
     "sources": [
-      "https://cielitoquerido.com.mx/terminos-y-condiciones-de-la-aplicacion/"
+      "https://cielitoquerido.com.mx/terminos-y-condiciones-de-la-aplicacion/",
+      "https://cielitoquerido.com.mx/tiendas/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "BCN",
+      "CMX",
+      "GUA",
+      "JAL",
+      "MEX",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SLP"
+    ],
+    "cities": [],
+    "locationNote": "Sucursales en 9 estados; no aplica en sucursal IBERO",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "tgi-fridays",
@@ -258,9 +840,26 @@
     "howToClaim": "Presenta tu identificación física al pedir en el restaurante.",
     "sources": [
       "https://fridayscun.com.mx/promociones/",
-      "https://fridaystijuana.com/club-de-cumpleanos/"
+      "https://fridaystijuana.com/club-de-cumpleanos/",
+      "https://fridays.mx/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN",
+      "ROO",
+      "TAM",
+      "YUC"
+    ],
+    "cities": [
+      "cancun",
+      "merida",
+      "tampico",
+      "tijuana"
+    ],
+    "locationNote": "Solo 4 restaurantes; condiciones varían por franquicia",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "wingstop",
@@ -280,9 +879,35 @@
     "minPurchase": null,
     "howToClaim": "Usa los puntos abonados como pago en tu siguiente compra con la app.",
     "sources": [
-      "https://wingstopmexico.com/wingstoprewards-terminosycondiciones/"
+      "https://wingstopmexico.com/wingstoprewards-terminosycondiciones/",
+      "https://www.sucursales24.com.mx/wingstop/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "AGU",
+      "BCN",
+      "CAM",
+      "CHH",
+      "CHP",
+      "CMX",
+      "COA",
+      "GUA",
+      "JAL",
+      "MEX",
+      "NLE",
+      "PUE",
+      "QUE",
+      "SLP",
+      "SON",
+      "TAM",
+      "VER",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Más de 110 sucursales; estados según directorios (no verificado en sitio oficial)",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "sirloin-stockade",
@@ -306,7 +931,23 @@
     "sources": [
       "https://promociones.sirloinstockade.mx/operadora/cupon/cupon-cumpleanos"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "GUA",
+      "JAL",
+      "MIC",
+      "QUE"
+    ],
+    "cities": [
+      "guadalajara",
+      "leon",
+      "morelia",
+      "queretaro"
+    ],
+    "locationNote": "6 sucursales participantes: Guadalajara (Centro, Conchitas, Sanzio), León Plaza Mayor, Morelia y Querétaro",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "la-vid-argentina",
@@ -328,9 +969,24 @@
     "howToClaim": "Presenta tu identificación en el restaurante. No aplica en Shows de Tango ni a la carta.",
     "sources": [
       "https://www.lavidargentina.com/blog/services/cumpleanos/",
-      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html"
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html",
+      "https://www.lavidargentina.com/sucursales/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla",
+      "naucalpan",
+      "toluca"
+    ],
+    "locationNote": "7 sucursales en CDMX y Edomex; Interlomas -> naucalpan, Metepec -> toluca",
+    "needsId": true,
+    "companions": 1
   },
   {
     "slug": "chilis",
@@ -352,9 +1008,38 @@
     "howToClaim": "Avisa que es tu cumpleaños y muestra tu identificación al pedir la cuenta.",
     "sources": [
       "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html",
-      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/",
+      "https://www.chilis.com.mx/ubicaciones"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "AGU",
+      "CHH",
+      "CHP",
+      "CMX",
+      "COA",
+      "GUA",
+      "HID",
+      "JAL",
+      "MEX",
+      "MIC",
+      "MOR",
+      "NAY",
+      "NLE",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SLP",
+      "TAB",
+      "TLA",
+      "VER",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Presencia en 21 estados; beneficio varía por sucursal ($200 en CDMX, pastel en otros)",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "la-mansion",
@@ -376,9 +1061,24 @@
     "howToClaim": "Avisa en el restaurante y presenta tu identificación; confirma la promoción vigente con la sucursal.",
     "sources": [
       "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
-      "https://lamansion.com.mx/"
+      "https://lamansion.com.mx/",
+      "https://lamansion.com.mx/locations/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CHP",
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tuxtla-gutierrez"
+    ],
+    "locationNote": "8 sucursales; Bosque Real y Esmeralda -> naucalpan; promo según medios, el sitio solo ofrece pastel",
+    "needsId": true,
+    "companions": 3
   },
   {
     "slug": "carls-jr",
@@ -399,9 +1099,16 @@
     "minPurchase": null,
     "howToClaim": "Revisa la sección de cupones de la app en tu mes de cumpleaños y muestra identificación en sucursal.",
     "sources": [
-      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/",
+      "https://www.sucursales24.com.mx/carls-jr/todos/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Más de 300 restaurantes; lista de estados no verificada en sitio oficial",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "applebees",
@@ -422,35 +1129,31 @@
     "minPurchase": null,
     "howToClaim": "Muestra tu cuenta de la app e identificación en el restaurante.",
     "sources": [
-      "https://apps.apple.com/mx/app/id1633090455"
+      "https://apps.apple.com/mx/app/id1633090455",
+      "https://applebees.com.mx/sucursales/"
     ],
-    "confidence": "baja"
-  },
-  {
-    "slug": "beer-factory",
-    "brand": "Beer Factory",
-    "category": "restaurantes",
-    "benefit": "Tubo de cerveza de 3 litros de regalo",
-    "benefitType": "regalo-con-compra",
-    "details": "Un tubo de 3 L de cerveza de línea un día durante tu mes de cumpleaños, yendo con 2 acompañantes y con consumo mínimo en alimentos de $280 entre los tres. Solo consumo en restaurante; mayores de 18.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "ID vigente con fecha de nacimiento",
-      "Ir con 2 acompañantes",
-      "Consumo mínimo de $280 en alimentos (total de la mesa)",
-      "Mayor de 18 años"
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN",
+      "CHH",
+      "CMX",
+      "MOR",
+      "SON"
     ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Un día durante el mes de tu cumpleaños",
-    "minPurchase": 280,
-    "howToClaim": "Muestra tu identificación en el restaurante (CDMX y Edomex). El PDF oficial más reciente decía vigencia al 5 ene 2025; medios de 2026 la siguen reportando.",
-    "sources": [
-      "https://www.beerfactory.com.mx/recs/assets/images/Promociones/Beerday.pdf",
-      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    "cities": [
+      "tijuana",
+      "mexicali",
+      "ensenada",
+      "chihuahua",
+      "ciudad-juarez",
+      "hermosillo",
+      "cdmx",
+      "cuernavaca"
     ],
-    "confidence": "media"
+    "locationNote": "Operadores regionales distintos; directorios reportan otras ciudades sin verificar; Rewards sin confirmar",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "falafelito",
@@ -472,9 +1175,20 @@
     "howToClaim": "Muestra tu perfil registrado con tu fecha de cumpleaños y tu identificación en cualquier sucursal.",
     "sources": [
       "https://falafelito.com/promociones",
-      "https://www.cronica.com.mx/tendencias/2026/04/30/lugares-donde-dan-regalos-o-cosas-gratis-en-tu-cumpleanos-la-guia-para-comer-beber-y-comprar-sin-gastar-de-mas/"
+      "https://www.cronica.com.mx/tendencias/2026/04/30/lugares-donde-dan-regalos-o-cosas-gratis-en-tu-cumpleanos-la-guia-para-comer-beber-y-comprar-sin-gastar-de-mas/",
+      "https://www.dondeir.com/restaurante/falafelito-gastronomia-arabe-vegetariana-en-la-cdmx/12848/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Sucursales en CDMX (Condesa, Coyoacán, Narvarte); algunas reportadas cerradas; no verificado en sitio oficial",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "la-btk",
@@ -496,9 +1210,26 @@
     "howToClaim": "Presenta tu identificación en el restaurante, desde la apertura hasta 30 min antes del cierre.",
     "sources": [
       "https://labtk.com.mx/landing-terminos-y-condiciones-cupones/",
-      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://labtk.com.mx/sucursales-nueva-version/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "HID",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla",
+      "ecatepec",
+      "pachuca"
+    ],
+    "locationNote": "CDMX y Edomex; Coacalco -> ecatepec; Pachuca reportada por directorios sin confirmar",
+    "needsId": true,
+    "companions": 4
   },
   {
     "slug": "ihop",
@@ -521,9 +1252,37 @@
     "sources": [
       "https://ihopmexico.com/contactanos-2024/faqs/",
       "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
-      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/",
+      "https://ihopmexico.com/sucursales/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "estados",
+    "states": [
+      "BCN",
+      "CHH",
+      "CMX",
+      "COA",
+      "COL",
+      "GUA",
+      "JAL",
+      "MEX",
+      "MIC",
+      "MOR",
+      "NLE",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SIN",
+      "SON",
+      "TAB",
+      "TAM",
+      "VER",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "49 sucursales en ~20 estados; cada franquicia maneja su propia promo",
+    "needsId": true,
+    "companions": 3
   },
   {
     "slug": "el-farolito",
@@ -543,9 +1302,22 @@
     "minPurchase": null,
     "howToClaim": "Canjea el beneficio de cumpleaños de la app A Comer Club en sucursal (solo consumo en restaurante).",
     "sources": [
-      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://forbes.com.mx/grupo-gigante-adquiere-la-franquicia-de-tacos-el-farolito/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan"
+    ],
+    "locationNote": "13 sucursales (12 CDMX y 1 Edomex, Forbes 2020); otras ubicaciones sin verificar",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "dennys",
@@ -565,9 +1337,32 @@
     "minPurchase": null,
     "howToClaim": "Pregunta en tu sucursal y presenta tu identificación.",
     "sources": [
-      "https://www.tiktok.com/@marketingconmelissa/video/7446531453107719430"
+      "https://www.tiktok.com/@marketingconmelissa/video/7446531453107719430",
+      "https://dennysmexico.com/sucursales"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH",
+      "COA",
+      "GUA",
+      "JAL",
+      "QUE",
+      "ZAC"
+    ],
+    "cities": [
+      "ciudad-juarez",
+      "chihuahua",
+      "guadalajara",
+      "zapopan",
+      "queretaro",
+      "torreon",
+      "leon",
+      "zacatecas"
+    ],
+    "locationNote": "15 sucursales; El Salto/Tlajomulco -> guadalajara, Silao -> leon; promo sin confirmación oficial",
+    "needsId": true,
+    "companions": 2
   },
   {
     "slug": "las-alitas",
@@ -590,7 +1385,21 @@
     "sources": [
       "https://lasalitas.com/promo_cdmx/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "NLE"
+    ],
+    "cities": [
+      "cdmx",
+      "monterrey",
+      "toluca"
+    ],
+    "locationNote": "Promo válida solo en Nuevo León, Edomex y CDMX; Metepec -> toluca",
+    "needsId": true,
+    "companions": 3
   },
   {
     "slug": "potzollcalli",
@@ -611,9 +1420,30 @@
     "minPurchase": null,
     "howToClaim": "Muestra tu tarjeta Mi Cliente al ordenar y entrégala al mesero al pagar, junto con tu identificación.",
     "sources": [
-      "https://www.potzollcalli.com/micliente"
+      "https://www.potzollcalli.com/micliente",
+      "https://www.potzollcalli.com/sucursales/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "TAB",
+      "YUC"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "tlalnepantla",
+      "ecatepec",
+      "nezahualcoyotl",
+      "toluca",
+      "villahermosa",
+      "merida"
+    ],
+    "locationNote": "Mayoría en CDMX y Edomex, más Villahermosa y Mérida; Izcalli -> tlalnepantla, Ixtapaluca -> nezahualcoyotl",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "wingo",
@@ -635,9 +1465,22 @@
     "minPurchase": 150,
     "howToClaim": "En la app ve a 'Mis cupones' > 'Buscar cupón por código', pide al mesero el código de cumpleaños del mes y sucursal, y muéstralo.",
     "sources": [
-      "https://www.wingo.mx/cumplea%C3%B1os"
+      "https://www.wingo.mx/cumplea%C3%B1os",
+      "https://www.wingo.mx/ubicaciones"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "VER"
+    ],
+    "cities": [
+      "veracruz",
+      "cordoba",
+      "xalapa"
+    ],
+    "locationNote": "Solo Veracruz; Orizaba y Río Blanco -> cordoba",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "caffenio",
@@ -658,9 +1501,29 @@
     "minPurchase": null,
     "howToClaim": "El saldo se deposita automáticamente en tu monedero de la app; úsalo como pago.",
     "sources": [
-      "https://caffenio.com/app/wvmx/tyc/"
+      "https://caffenio.com/app/wvmx/tyc/",
+      "https://www.lja.mx/2024/11/por-que-no-hay-caffenio-en-cdmx/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "AGU",
+      "BCN",
+      "CHH",
+      "COA",
+      "DUR",
+      "GUA",
+      "JAL",
+      "NAY",
+      "ROO",
+      "SIN",
+      "SON",
+      "VER"
+    ],
+    "cities": [],
+    "locationNote": "Sin sucursales en CDMX; expansión reciente a Jalisco y Veracruz; la lista puede crecer",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "dominos",
@@ -682,9 +1545,16 @@
     "minPurchase": null,
     "howToClaim": "Usa el cupón de cumpleaños de Wow+ al pedir tu pizza.",
     "sources": [
-      "https://www.wow-plus.com/pages/terminos-y-condiciones.html"
+      "https://www.wow-plus.com/pages/terminos-y-condiciones.html",
+      "https://www.sucursales24.com.mx/dominos-pizza/todos/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas en casi todo el país",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "moyo",
@@ -704,9 +1574,28 @@
     "minPurchase": null,
     "howToClaim": "Revisa la sección de beneficios de la app y canjea en sucursal.",
     "sources": [
-      "https://apps.apple.com/mx/app/moyo-app/id6443993426"
+      "https://apps.apple.com/mx/app/moyo-app/id6443993426",
+      "https://www.sucursales24.com.mx/moyo/todos/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "estados",
+    "states": [
+      "CMX",
+      "GRO",
+      "GUA",
+      "JAL",
+      "MEX",
+      "MIC",
+      "NLE",
+      "PUE",
+      "QUE",
+      "ROO",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Ubicaciones no verificadas: directorios dispares, app sin actualizar desde jul 2024",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "cinepolis",
@@ -729,9 +1618,16 @@
     "howToClaim": "Aplícalo en taquilla/dulcería identificándote con tu Club Cinépolis o compra desde la app Cinépolis.",
     "sources": [
       "https://cinepolis.com/club-cinepolis-id/terminos-condiciones-club-cinepolis",
-      "https://www.informador.mx/entretenimiento/cinepolis-da-2x1-en-tu-mes-de-cumpleanos-como-aplicarlo-20260527-0079.html"
+      "https://www.informador.mx/entretenimiento/cinepolis-da-2x1-en-tu-mes-de-cumpleanos-como-aplicarlo-20260527-0079.html",
+      "https://www.sucursales24.com.mx/cinepolis/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Complejos en casi todos los estados; no aplica en premieres, preventas ni festivales",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "cinemex",
@@ -754,9 +1650,16 @@
     "sources": [
       "https://cinemex.com/loop/niveles-beneficios",
       "https://www.dineroenimagen.com/actualidad/mejora-tu-cumpleanos-con-cinemex-descubre-lo-que-te-regalan-gratis/165244",
-      "https://quecumple.mx/directorio/cinemex-loop/"
+      "https://quecumple.mx/directorio/cinemex-loop/",
+      "https://www.sucursales24.com.mx/cinemex/todos/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "301 complejos en 100+ ciudades; combo y nivel varían por Loop",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "kidzania",
@@ -777,9 +1680,22 @@
     "minPurchase": null,
     "howToClaim": "Presenta el PaZZport en taquilla de KidZania (Santa Fe, Cuicuilco, Monterrey) durante el mes de cumpleaños.",
     "sources": [
-      "https://mexico.kidzania.com/mx-es/bkidzanian"
+      "https://mexico.kidzania.com/mx-es/bkidzanian",
+      "https://es.wikipedia.org/wiki/KidZania"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "NLE"
+    ],
+    "cities": [
+      "cdmx",
+      "monterrey"
+    ],
+    "locationNote": "Sedes: Santa Fe y Cuicuilco (CDMX) y Monterrey; Guadalajara aparece en Wikipedia pero no en el programa",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "recorcholis",
@@ -802,7 +1718,31 @@
     "sources": [
       "https://recorcholis.com.mx/terminos-y-condiciones"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CHP",
+      "CMX",
+      "GUA",
+      "MEX",
+      "MOR",
+      "SIN",
+      "VER"
+    ],
+    "cities": [
+      "cdmx",
+      "tuxtla-gutierrez",
+      "toluca",
+      "naucalpan",
+      "tlalnepantla",
+      "irapuato",
+      "cuernavaca",
+      "mazatlan",
+      "veracruz"
+    ],
+    "locationNote": "Solo 12 sucursales participantes; Lerma -> toluca, Interlomas -> naucalpan, Salamanca -> irapuato",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "sport-bowl-merida",
@@ -825,7 +1765,17 @@
     "sources": [
       "https://sportbowl.com.mx/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "YUC"
+    ],
+    "cities": [
+      "merida"
+    ],
+    "locationNote": "Única sucursal: Periférico Norte, Mérida",
+    "needsId": true,
+    "companions": 4
   },
   {
     "slug": "strike-39",
@@ -848,7 +1798,17 @@
     "sources": [
       "https://lasillarota.com/dinero/2025/8/1/donde-estan-las-mejores-promociones-para-ir-jugar-boliche-en-la-cdmx-548411.html"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Solo Galerías Coapa (Tlalpan), CDMX",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "grupo-xcaret-quintanarroenses",
@@ -870,9 +1830,22 @@
     "minPurchase": null,
     "howToClaim": "Reserva en módulos/taquillas de Grupo Xcaret con identificación de Q. Roo.",
     "sources": [
-      "https://www.tiktok.com/@soygaboxcaret/video/7632052989594750215"
+      "https://www.tiktok.com/@soygaboxcaret/video/7632052989594750215",
+      "https://www.xcaret.com/es/quintanarroenses/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "ROO"
+    ],
+    "cities": [
+      "playa-del-carmen",
+      "cancun",
+      "tulum"
+    ],
+    "locationNote": "Solo residentes de Quintana Roo; Xcaret/Xenses (Playa), Xoximilco (Cancún), Xel-Há (Tulum)",
+    "needsId": true,
+    "companions": 4
   },
   {
     "slug": "viva-aerobus",
@@ -894,7 +1867,13 @@
     "sources": [
       "https://www.tiktok.com/discover/cupon-de-descuento-viva-aerobus-por-cumplea%C3%B1os"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón por correo válido en vuelos de la aerolínea; promo no oficial",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "aztlan-parque-urbano",
@@ -918,7 +1897,17 @@
       "https://heraldodemexico.com.mx/espectaculos/2026/3/24/con-este-truco-puedes-entrar-aztlan-feria-de-chapultepec-subirte-todos-los-juegos-sin-pagar-784716.html",
       "https://www.chilango.com/que-hacer/feria-de-chapultepec-requisitos-entrada-gratis-aztlan/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Solo Bosque de Chapultepec, CDMX",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "el-rollo",
@@ -943,7 +1932,17 @@
     "sources": [
       "https://elrollo.com.mx/promociones/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "MOR"
+    ],
+    "cities": [
+      "cuautla"
+    ],
+    "locationNote": "Parque en Tlaquiltenango, Morelos (ciudad más cercana de la lista: Cuautla)",
+    "needsId": true,
+    "companions": 1
   },
   {
     "slug": "six-flags-mexico",
@@ -963,9 +1962,20 @@
     "minPurchase": null,
     "howToClaim": "Presenta INE/acta en las taquillas de promociones del parque.",
     "sources": [
-      "https://x.com/SixFlagsMexico/status/1571262869051740162"
+      "https://x.com/SixFlagsMexico/status/1571262869051740162",
+      "https://www.sixflags.com/mexico/plan-your-visit/directions"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Parque en Tlalpan, CDMX (Hurricane Harbor Oaxtepec es aparte)",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "hooters-mexico",
@@ -987,9 +1997,32 @@
     "minPurchase": null,
     "howToClaim": "Identifícate como socio Fan Club al pagar en sucursal participante y redime tus puntos.",
     "sources": [
-      "https://hooters.com.mx/fan-club"
+      "https://hooters.com.mx/fan-club",
+      "https://hooters.com.mx/sucursales"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "JAL",
+      "MEX",
+      "NLE",
+      "PUE",
+      "QUE"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "ecatepec",
+      "toluca",
+      "queretaro",
+      "guadalajara",
+      "monterrey",
+      "puebla"
+    ],
+    "locationNote": "Solo sucursales participantes de hooters.com.mx: CDMX, Edomex (Satélite, Atizapán, Coacalco, Las Américas, Metepec), Querétaro, Guadalajara, Monterrey y Puebla. Atizapán -> naucalpan; Cosmopol (Coacalco) -> ecatepec; Metepec -> toluca. Las sucursales de Cancún son de otro operador y no figuran en el sitio oficial.",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "hsbc-mexico",
@@ -1011,7 +2044,13 @@
     "sources": [
       "https://www.hsbc.com.mx/tarjetas-de-credito/productos/easy-points/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Beneficio de tarjeta de crédito HSBC Easy Points, aplica en compras en cualquier lugar",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "santander-fiesta-rewards-oro",
@@ -1031,9 +2070,16 @@
     "minPurchase": null,
     "howToClaim": "Paga con la tarjeta en restaurante participante dentro de la semana posterior a tu cumpleaños.",
     "sources": [
-      "https://www.santander.com.mx/personas/credito-y-financiamiento/tarjetas-de-credito/fiesta-rewards-oro/"
+      "https://www.santander.com.mx/personas/credito-y-financiamiento/tarjetas-de-credito/fiesta-rewards-oro/",
+      "https://www.fiestarewards.com/finedining/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo restaurantes participantes Casual Dining e Invitta (en hoteles Grupo Posadas); consumo máximo $12,000",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "kataplum",
@@ -1051,12 +2097,22 @@
     "window": "mes",
     "windowNote": "Solo los viernes de tu mes de cumpleaños",
     "minPurchase": null,
-    "howToClaim": "Presenta la copia de tu identificación en taquillas de ¡Kataplum! (Parque Toreo, Naucalpan).",
+    "howToClaim": "Presenta la copia de tu identificación en taquillas de ¡Kataplum! (Parque Las Antenas, Iztapalapa, CDMX).",
     "sources": [
       "https://kataplum.com.mx/terminos-y-condiciones",
       "https://x.com/KataplumOficial/status/1732520585089949849"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Único parque: Parque Las Antenas, Iztapalapa (CDMX). La ficha menciona Parque Toreo/Naucalpan, pero los T&C oficiales solo listan Las Antenas",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "turibus",
@@ -1079,7 +2135,17 @@
     "sources": [
       "https://cazaofertas.com.mx/entretenimiento/turibus-cumpleanero-si-cumples-anos-en-la-semana-y-acudes-acompanado-el-tour-es-gratis/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Solo recorrido Turi Cervecero en CDMX",
+    "needsId": true,
+    "companions": 5
   },
   {
     "slug": "didi-club",
@@ -1100,9 +2166,16 @@
     "minPurchase": null,
     "howToClaim": "Los cupones aparecen en la app DiDi; aplícalos al pedir el viaje o el pedido de DiDi Food.",
     "sources": [
-      "https://web.didiglobal.com/mx/didi-club/"
+      "https://web.didiglobal.com/mx/didi-club/",
+      "https://web.didiglobal.com/mx/legal/mx-club-didi.pdf"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Válido en las ciudades de México donde opera DiDi (viajes y DiDi Food)",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "pricetravel",
@@ -1125,7 +2198,13 @@
     "sources": [
       "https://www.pricetravel.com/es/ofertas-de-viajes/feliz-cumpleanos"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Reserva en línea en todo México; solo hoteles y paquetes a destinos mexicanos",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "selva-magica",
@@ -1150,7 +2229,17 @@
       "https://www.selvamagica.com.mx/mes-de-cumpleanos-2x1-platino/",
       "https://www.tiktok.com/@selvamagica/video/7479258961561128247"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Único parque: Paseo del Zoológico 600, Guadalajara",
+    "needsId": true,
+    "companions": 1
   },
   {
     "slug": "greenspa",
@@ -1170,9 +2259,20 @@
     "minPurchase": null,
     "howToClaim": "Agenda tu cita por WhatsApp/sucursal y presenta tu identificación.",
     "sources": [
-      "https://greenspa.mx/promociones/"
+      "https://greenspa.mx/promociones/",
+      "https://greenspa.mx/contacto/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan"
+    ],
+    "locationNote": "Única sucursal listada: Sebastian Bach 4759, Zapopan (zona metropolitana de Guadalajara)",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "space-jump",
@@ -1194,7 +2294,17 @@
     "sources": [
       "https://spacejump.mx/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "CMX",
+      "MEX",
+      "QUE"
+    ],
+    "cities": [],
+    "locationNote": "Sucursales en Edomex (Santín, Zumpango, Tepozán, Atlacomulco, Ixtlahuaca, Santiago Tianguistenco), CDMX (Centenario) y Querétaro",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "alboa",
@@ -1218,7 +2328,19 @@
       "https://www.alboa.com.mx/TyCLOOP.pdf",
       "https://quecumple.mx/directorio/alboa-boliche/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla"
+    ],
+    "locationNote": "Solo Alboa Santa Fe, Artz Pedregal y Patriotismo (CDMX) y Mundo E (Tlalnepantla)",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "laboratorios-lapi",
@@ -1238,9 +2360,21 @@
     "minPurchase": null,
     "howToClaim": "Agenda tu check up en sucursal Lapi identificándote como LapiFan.",
     "sources": [
-      "https://www.lapi.com.mx/lapifan"
+      "https://www.lapi.com.mx/lapifan",
+      "https://lapi.com.mx/laboratorios-nacionales"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "CMX",
+      "MEX",
+      "QUE",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Sucursales Lapi en CDMX, Edomex (Satélite, Lomas Verdes, Cuautitlán, Interlomas, Metepec), Mérida y Querétaro",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "k1-speed-mexico",
@@ -1260,9 +2394,24 @@
     "minPurchase": null,
     "howToClaim": "Pregunta en recepción de la pista con tu cuenta K1 Speed.",
     "sources": [
-      "https://quecumple.mx/directorio/k1-speed-mexico/"
+      "https://quecumple.mx/directorio/k1-speed-mexico/",
+      "https://www.k1speed.mx/faqs.html"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "MEX",
+      "QUE"
+    ],
+    "cities": [
+      "cdmx",
+      "tlalnepantla",
+      "queretaro"
+    ],
+    "locationNote": "6 pistas: Artz Pedregal, Coapa, Garden Santa Fe, Manacar (CDMX), Mundo E (Tlalnepantla) y Querétaro. Promo no confirmada en sitio oficial",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "gotchamania",
@@ -1283,9 +2432,20 @@
     "minPurchase": null,
     "howToClaim": "Confirma por WhatsApp y presenta INE en el campo.",
     "sources": [
-      "https://quecumple.mx/directorio/gotchamania/"
+      "https://quecumple.mx/directorio/gotchamania/",
+      "https://www.dondeir.com/ciudad/gotchamania-diviertete-y-vive-al-maximo-la-adrenalina-en-cdmx/2024/07/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "3 campos en CDMX (Ajusco, Base Aérea, Santa Fe). Promo no confirmada en sitio oficial",
+    "needsId": true,
+    "companions": 5
   },
   {
     "slug": "acuario-inbursa",
@@ -1309,7 +2469,271 @@
       "https://quecumple.mx/directorio/acuario-inbursa/",
       "https://m.facebook.com/acuarioinbursa/photos/a.274845132717696/1831465767055617/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CMX"
+    ],
+    "cities": [
+      "cdmx"
+    ],
+    "locationNote": "Único acuario: Nuevo Polanco, CDMX. Promo no confirmada en sitio oficial",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mr-pampas-baja-california",
+    "brand": "Mr. Pampas Do Brasil (Tijuana y Ensenada)",
+    "category": "restaurantes",
+    "benefit": "Rodizio gratis (solo pagas bebidas)",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga el rodizio (buffet de cortes al carbón y barra de ensaladas) y solo paga sus bebidas, si va con mínimo 4 acompañantes que consuman rodizio de adulto. Válido de lunes a viernes durante la semana de tu cumpleaños; no aplica en días festivos, en diciembre ni con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial mostrada al mesero",
+      "Ir con mínimo 4 acompañantes que consuman rodizio de adulto",
+      "Solo lunes a viernes de la semana de tu cumpleaños",
+      "No aplica en días festivos ni en diciembre",
+      "No se combina con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Lunes a viernes de la semana de tu cumpleaños (vigencia 2026 reportada: 6 ene a 30 nov)",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que es tu cumpleaños y presenta tu identificación oficial al pedir.",
+    "sources": [
+      "https://menumrpampas.com/suc/veracruz",
+      "https://www.mercadeoporcorreo.com/mrp03172/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana",
+      "ensenada"
+    ],
+    "locationNote": "Términos oficiales de la marca; la promo de Ensenada aparece en su flyer propio. Condiciones pueden variar por sucursal (Tijuana: Otay y Blvd. Sánchez Taboada).",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "sonora-grill-hermosillo",
+    "brand": "Sonora Grill",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Postre de cortesía al celebrar tu cumpleaños en el restaurante, durante todo tu mes de cumpleaños, de lunes a domingo desde la apertura hasta el cierre o hasta agotar existencias. Una cortesía por cumpleañero y por reserva; solo consumo en sucursal (no delivery ni pick and go) y sujeto a disponibilidad.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solicitar el beneficio en el restaurante en tu mes de cumpleaños",
+      "Una cortesía por cumpleañero y por reserva",
+      "Solo consumo en sucursal (sin delivery ni pick and go)",
+      "Sujeto a disponibilidad"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pídelo al llegar al restaurante o al hacer tu reservación, indicando que es tu cumpleaños.",
+    "sources": [
+      "https://sonoragrill.com.mx/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "CMX",
+      "MEX",
+      "PUE",
+      "QUE",
+      "ROO",
+      "SON",
+      "YUC"
+    ],
+    "cities": [],
+    "locationNote": "Aplica en todas las sucursales del país; en el noroeste solo Hermosillo (Blvd. Kino, junto al Fiesta Americana).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "incredible-pizza-chihuahua",
+    "brand": "Incredible Pizza Chihuahua",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis en paquetes de fiesta",
+    "benefitType": "regalo-con-compra",
+    "details": "Al contratar cualquier paquete de cumpleaños, el cumpleañero entra sin costo y recibe bolsita de dulces, foto del festejado y un giro en la ruleta de premios, con acceso a atracciones y videojuegos según el paquete. Paquetes de $399 a $729 por niño, mínimo 15 invitados; lunes a viernes desde las 3 pm y sábado y domingo desde las 2 pm.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar un paquete de cumpleaños",
+      "Mínimo 15 invitados",
+      "Lun-vie desde 3 pm; sáb-dom desde 2 pm",
+      "Precios sujetos a cambio sin previo aviso"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El día de la fiesta que contrates",
+    "minPurchase": null,
+    "howToClaim": "Cotiza y reserva tu paquete por WhatsApp o teléfono (614 422 2550) con el restaurante.",
+    "sources": [
+      "https://incrediblepizzachihuahua.com/cumpleanos/",
+      "https://incrediblepizzachihuahua.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Periférico de la Juventud 6506, Col. Mezquites",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "wings-army-chihuahua-juarez",
+    "brand": "Wings Army",
+    "category": "restaurantes",
+    "benefit": "Comida gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según reportes, si vas el día de tu cumpleaños (o un día antes o después) con 4 personas, tu comida es gratis, limitada a 1 platillo fuerte y 2 bebidas no premium. No aplica con otras promociones. La marca publica sus promos como imágenes en su sitio; confirma condiciones y sucursal participante antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes",
+      "Visitar el día de tu cumpleaños, un día antes o un día después",
+      "Límite: 1 platillo fuerte y 2 bebidas no premium",
+      "No aplica con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Día de tu cumpleaños, un día antes o un día después",
+    "minPurchase": null,
+    "howToClaim": "Presenta una identificación con tu fecha de nacimiento en el cuartel (sucursal) y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://wingsarmy.mx/promociones/",
+      "https://wingsarmy.mx/en/cuarteles/chihuahua/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua",
+      "ciudad-juarez"
+    ],
+    "locationNote": "Cuarteles en Chihuahua y Ciudad Juárez (Galerías Tec, Av. Tecnológico 1770)",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "grupo-rosanegra-los-cabos",
+    "brand": "Grupo RosaNegra (Los Cabos)",
+    "category": "restaurantes",
+    "benefit": "Pastel con bengalas y ronda de shots",
+    "benefitType": "gratis",
+    "details": "Al reservar en OpenTable en uno de sus restaurantes de Cabo y escribir el código promocional de cumpleaños en peticiones especiales, la mesa recibe pastel personalizado con bengalas y una ronda especial de shots. La página oficial aún muestra el código HB2025, por lo que hay que confirmar si sigue vigente en 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar en línea por OpenTable",
+      "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+      "Identificación oficial válida el día de la reserva"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu reservación (cumpleaños)",
+    "minPurchase": null,
+    "howToClaim": "Reserva en OpenTable, agrega el código en 'special requests' y presenta tu identificación.",
+    "sources": [
+      "https://www.gruporosanegra.restaurant/en/birthday-restaurant-in-cabo"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "BCS"
+    ],
+    "cities": [
+      "los-cabos"
+    ],
+    "locationNote": "Rosa Negra, Funky Geisha, Craft San José, Amante, Chambao, Tamara Beach Club y Taboo (Cabo)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "260-grados-baja-california",
+    "brand": "260 Grados Grill & Bar",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Según reportes, el cumpleañero no paga su buffet (parrilla coreana, $390 regular) si va con al menos 1 acompañante válido; no incluye bebidas ni postres y aplica una vez por día. La web oficial solo invita a 'Festeja tu cumple' vía Messenger y no publica las reglas; confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 1 acompañante que pague buffet",
+      "No incluye bebidas ni postres",
+      "Aplica una vez por día"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Según reportes, el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y presenta tu identificación; para festejos reserva por Messenger de la página.",
+    "sources": [
+      "https://260grillbar.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana",
+      "mexicali",
+      "ensenada"
+    ],
+    "locationNote": "Sucursales Ensenada (Plaza Marina), Tijuana (Plaza Minarete / Blvd. Sánchez Taboada) y Mexicali (Plaza Gran Vía)",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "kitsilano-mazatlan",
+    "brand": "Kitsilano Burgers Mazatlán",
+    "category": "restaurantes",
+    "benefit": "Hamburguesa gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según su TikTok oficial (marzo 2025), el cumpleañero acompañado de mínimo 4 personas come totalmente gratis, válido solo pidiendo hamburguesas individuales (no combos ni otros platillos). Abierto de lunes a domingo de 2 a 11 pm.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con mínimo 4 acompañantes",
+      "Válido solo con hamburguesas individuales",
+      "No aplica en combos ni otros platillos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin ventana precisa publicada; confirma con el local",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños; contacto 669 149 1277.",
+    "sources": [
+      "https://www.tiktok.com/@kitsilanomzt/video/7483320317625289990"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": "Claussen, Olas Altas",
+    "needsId": null,
+    "companions": 4
   },
   {
     "slug": "sephora",
@@ -1332,7 +2756,13 @@
     "sources": [
       "https://www.sephora.com.mx/pages/terms.html"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Sephora en gran parte del país (unas 37) y en línea; regalo solo en tienda física participante",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "xiaomi",
@@ -1356,7 +2786,13 @@
     "sources": [
       "https://www.mi.com/mx/support/terms/birthday/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón válido solo en línea en mi.com/mx, en todo México",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "victorias-secret",
@@ -1378,7 +2814,13 @@
     "sources": [
       "https://www.victoriassecret.mx/terminos-y-condiciones/cumpleanos"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo en línea en victoriassecret.mx (válido en todo México); T&C oficiales aún citan 2023",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "bath-and-body-works",
@@ -1400,7 +2842,13 @@
     "sources": [
       "https://www.bathandbodyworks.mx/terminos-y-condiciones"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón para bathandbodyworks.mx y app (todo México); uso en tiendas físicas no especificado en T&C",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "palacio-de-hierro",
@@ -1421,9 +2869,42 @@
     "minPurchase": null,
     "howToClaim": "Acude con tu Tarjeta Palacio e identificación al módulo de Tarjeta Palacio y/o al restaurante participante.",
     "sources": [
-      "https://www.elpalaciodehierro.com/tarjetapalacio/celebramos-contigo.html"
+      "https://www.elpalaciodehierro.com/tarjetapalacio/celebramos-contigo.html",
+      "https://www.elpalaciodehierro.com/sucursales.html"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CMX",
+      "GRO",
+      "GUA",
+      "JAL",
+      "MEX",
+      "NLE",
+      "PUE",
+      "QUE",
+      "ROO",
+      "TAB",
+      "VER"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "toluca",
+      "queretaro",
+      "puebla",
+      "monterrey",
+      "guadalajara",
+      "zapopan",
+      "leon",
+      "villahermosa",
+      "veracruz",
+      "cancun",
+      "acapulco"
+    ],
+    "locationNote": "Solo tiendas y restaurantes Palacio participantes. Interlomas/Satélite -> naucalpan; Lerma -> toluca; Boca del Río -> veracruz",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "liverpool",
@@ -1445,7 +2926,13 @@
     "sources": [
       "https://www.liverpool.com.mx/tienda/paginas/restaurante"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo en sucursales con Restaurante Liverpool; consumo individual del cumpleañero",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "tous",
@@ -1467,9 +2954,46 @@
     "howToClaim": "Acude a una tienda TOUS participante (incluye stands en Palacio de Hierro), identifícate como socio MyTOUS y haz una compra.",
     "sources": [
       "https://www.tous.com/mx-es/loyalty-mytous",
-      "https://instyle.mx/estilo-de-vida/lugares-en-mexico-donde-te-regalan-cosas-en-tu-cumpleanos/"
+      "https://instyle.mx/estilo-de-vida/lugares-en-mexico-donde-te-regalan-cosas-en-tu-cumpleanos/",
+      "https://www.tiendasinfo.mx/tiendas-en-mexico/tous"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "AGU",
+      "CMX",
+      "GRO",
+      "GUA",
+      "JAL",
+      "MEX",
+      "MOR",
+      "NLE",
+      "PUE",
+      "QUE",
+      "ROO",
+      "TAB",
+      "VER"
+    ],
+    "cities": [
+      "cdmx",
+      "naucalpan",
+      "toluca",
+      "puebla",
+      "queretaro",
+      "monterrey",
+      "guadalajara",
+      "zapopan",
+      "villahermosa",
+      "acapulco",
+      "veracruz",
+      "cancun",
+      "cuernavaca",
+      "leon",
+      "aguascalientes"
+    ],
+    "locationNote": "Solo tiendas TOUS participantes (no en línea). Interlomas/Satélite -> naucalpan; Metepec -> toluca; Boca del Río -> veracruz. Directorios mencionan más puntos de venta (130+) no verificados",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "nike",
@@ -1493,7 +3017,13 @@
     "sources": [
       "https://www.nike.com/mx/help/a/terminos-de-la-promocion-de-cumpleanos"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "20% en nike.com/mx y app (todo México); 10% solo en tiendas Nike NVS/UNITE participantes con INE",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "adidas",
@@ -1517,7 +3047,13 @@
       "https://instyle.mx/estilo-de-vida/lugares-en-mexico-donde-te-regalan-cosas-en-tu-cumpleanos/",
       "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón por correo/app para adidas.mx; aplicación en tiendas físicas no verificada",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "h-and-m",
@@ -1539,7 +3075,13 @@
     "sources": [
       "https://instyle.mx/estilo-de-vida/lugares-en-mexico-donde-te-regalan-cosas-en-tu-cumpleanos/"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón en línea (hm.com/mx) o en tienda H&M; ubicaciones de tiendas no verificadas",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "innovasport",
@@ -1559,9 +3101,16 @@
     "minPurchase": null,
     "howToClaim": "En tienda identifícate con tu membresía digital o teléfono; en línea el cupón aparece en el carrito al iniciar sesión.",
     "sources": [
-      "https://www.innovasport.com/terminos-y-condiciones-legends"
+      "https://www.innovasport.com/terminos-y-condiciones-legends",
+      "https://www.sucursales24.com.mx/innovasport/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Innovasport en la mayor parte del país y en línea; Innvictus solo en algunas ciudades",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "petco",
@@ -1581,9 +3130,16 @@
     "minPurchase": null,
     "howToClaim": "Ve a tienda Petco el día del cumpleaños de tu mascota y pide la galleta mostrando su perfil en la app.",
     "sources": [
-      "https://www.petco.com.mx/somospetco"
+      "https://www.petco.com.mx/somospetco",
+      "https://www.sucursales24.com.mx/petco/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Petco en la mayor parte del país; solo tiendas participantes",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "sanborns",
@@ -1605,9 +3161,16 @@
     "minPurchase": null,
     "howToClaim": "Descarga/recibe la Carta Cumpleaños, preséntala en caja (escanean su código de barras) y paga con tu tarjeta Sanborns.",
     "sources": [
-      "https://credito.sanborns.com.mx/Home/CartaCumpleanios"
+      "https://credito.sanborns.com.mx/Home/CartaCumpleanios",
+      "https://www.sucursales24.com.mx/sanborns/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo tiendas Sanborns participantes; excluye restaurante y varias categorías",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "pandora",
@@ -1631,7 +3194,13 @@
     "sources": [
       "https://mx.pandora.net/es/t-c-de-promociones/terms-and-conditions-promotions.html"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón válido solo en línea en mx.pandora.net (todo México)",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "sears",
@@ -1654,9 +3223,16 @@
     "howToClaim": "Presenta en caja la carta de felicitación (correo/domicilio) y paga el total con tu tarjeta Sears.",
     "sources": [
       "https://www.radioformula.com.mx/estilo-de-vida/2023/8/29/sears-el-increible-regalo-que-sorprende-los-clientes-en-su-cumpleanos-778148.html",
-      "https://cazaofertas.com.mx/otros/promocion-de-cumpleanos-sears-10-de-descuento-adicional-con-tarjeta-sears/"
+      "https://cazaofertas.com.mx/otros/promocion-de-cumpleanos-sears-10-de-descuento-adicional-con-tarjeta-sears/",
+      "https://www.sucursales24.com.mx/sears/todos/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo tiendas Sears participantes; vigencia actual no confirmada",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "benavides",
@@ -1676,9 +3252,16 @@
     "minPurchase": null,
     "howToClaim": "Los puntos se abonan a tu cuenta; úsalos en tu siguiente compra en Benavides identificándote en caja o en la app.",
     "sources": [
-      "https://www.benavides.com.mx/benavidesrecompensas"
+      "https://www.benavides.com.mx/benavidesrecompensas",
+      "https://www.sucursales24.com.mx/farmacias-benavides/todos/"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Farmacias Benavides en la mayor parte del país (más presencia en norte y centro); puntos abonados a la cuenta",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "miniso",
@@ -1701,7 +3284,13 @@
       "https://www.cupondescuento.com.mx/miniso.com.mx",
       "https://www.descuento.com.mx/miniso"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón válido solo en miniso.com.mx y app (todo México), no en tiendas físicas",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "clinique",
@@ -1725,7 +3314,13 @@
       "https://www.clinique.com.mx/customer-care/loyalty",
       "https://www.clinique.com.mx/customer-care/general-info/loyalty-terms-conditions"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Código válido solo en línea en clinique.com.mx (todo México)",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "levis",
@@ -1747,7 +3342,13 @@
     "sources": [
       "https://www.levi.com.mx/redtabprogram"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Programa Red Tab en línea y en tiendas Levi's; sorpresa no detallada",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "sally-beauty",
@@ -1770,7 +3371,13 @@
     "sources": [
       "https://www.sallymexico.com/condiciones-de-las-promociones"
     ],
-    "confidence": "alta"
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Válido en tiendas Sally Beauty de todo el país y en línea",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "crocs",
@@ -1792,7 +3399,13 @@
     "sources": [
       "https://crocs.com.mx/pages/crc-birthday"
     ],
-    "confidence": "media"
+    "confidence": "media",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Descuento a través de crocs.com.mx (todo México); condiciones no publicadas",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "price-shoes",
@@ -1814,7 +3427,13 @@
     "sources": [
       "https://blog.priceshoes.com/aprovecha-tus-descuentos-como-administrar-tus-cupones/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cupón en app/web de Price Shoes (todo México); ubicaciones de tiendas físicas no verificadas",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "flexi",
@@ -1834,9 +3453,16 @@
     "minPurchase": null,
     "howToClaim": "Pregunta en tienda Flexi identificándote como miembro.",
     "sources": [
-      "https://www.promodescuentos.com/cupones/flexi.com.mx"
+      "https://www.promodescuentos.com/cupones/flexi.com.mx",
+      "https://www.sucursales24.com.mx/flexi/todos/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Tiendas Flexi en la mayor parte del país; solo sucursales participantes. Promo no confirmada en fuente oficial",
+    "needsId": false,
+    "companions": null
   },
   {
     "slug": "xiaomi-store",
@@ -1859,7 +3485,13 @@
     "sources": [
       "https://www.promodescuentos.com/ofertas/mi-store-en-tu-mes-de-cumple-recibe-500-de-descuento-en-compras-mayores-a-1000-1052131"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo tiendas Xiaomi propias. Ubicaciones no verificadas; promo no confirmada como vigente",
+    "needsId": true,
+    "companions": null
   },
   {
     "slug": "suburbia",
@@ -1881,9 +3513,16 @@
     "minPurchase": null,
     "howToClaim": "Consume en restaurante participante en miércoles, paga con tu tarjeta Suburbia y presenta identificación.",
     "sources": [
-      "https://www.radioformula.com.mx/estilo-de-vida/2024/9/26/suburbia-lista-de-todos-los-descuentos-beneficios-que-obtienes-con-la-tarjeta-de-credito-834585.html"
+      "https://www.radioformula.com.mx/estilo-de-vida/2024/9/26/suburbia-lista-de-todos-los-descuentos-beneficios-que-obtienes-con-la-tarjeta-de-credito-834585.html",
+      "https://www.sucursales24.com.mx/suburbia/todos/"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Solo restaurantes participantes; la comida gratis aplica en miércoles. Promo no confirmada en fuente oficial vigente",
+    "needsId": true,
+    "companions": 2
   },
   {
     "slug": "gandhi",
@@ -1904,8 +3543,15 @@
     "minPurchase": null,
     "howToClaim": "Consulta en caja de Gandhi con tu tarjeta Página 1.",
     "sources": [
-      "https://www.pagina1.mx/newpagina1/FAQ.html"
+      "https://www.pagina1.mx/newpagina1/FAQ.html",
+      "https://www.gandhi.com.mx/sucursales"
     ],
-    "confidence": "baja"
+    "confidence": "baja",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Librerías Gandhi en unos 25 estados; beneficio de cumpleaños sin detalle publicado",
+    "needsId": false,
+    "companions": null
   }
 ]

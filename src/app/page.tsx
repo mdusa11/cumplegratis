@@ -7,10 +7,17 @@ import { BirthdayPicker } from "@/components/BirthdayPicker";
 import { Faq, type QA } from "@/components/Faq";
 import { Reveal, ScrollWords } from "@/components/Reveal";
 import { jsonLd } from "@/lib/site";
+import { CITIES, type CitySlug } from "@/lib/places";
+import { CountUp, Magnetic, TitleReveal } from "@/components/fx";
 import { GROUPS, groupOf, promos, stats, type GroupId } from "@/lib/promos";
 
 const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence === "alta");
 const stickers = featured.filter((p) => p.brand.length <= 11);
+
+const TOP_CITIES: CitySlug[] = [
+  "cdmx", "guadalajara", "monterrey", "puebla", "queretaro", "merida", "tijuana", "leon",
+  "cancun", "toluca", "aguascalientes", "san-luis-potosi", "chihuahua", "hermosillo", "veracruz", "morelia",
+];
 
 const FAQ: QA[] = [
   {
@@ -24,6 +31,10 @@ const FAQ: QA[] = [
   {
     q: "¿Cómo sé que una promo sigue vigente?",
     a: "Cada promo trae su fuente y un sello: Verificada (sitio oficial), Reportada (medios recientes) o Sin confirmar. Además, quien la cobra nos dice si le funcionó.",
+  },
+  {
+    q: "¿Las promos aplican en mi ciudad?",
+    a: "No todas están en todos los estados. Dinos tu ciudad (o usa tu ubicación) y te mostramos solo las que te quedan cerca: negocios locales primero y luego las cadenas nacionales.",
   },
   {
     q: "¿Cumplegratis cuesta algo?",
@@ -61,10 +72,8 @@ export default function Home() {
       <HowItWorks />
 
       <section className="mx-auto max-w-7xl px-5 py-28 sm:px-8">
-        <Reveal>
-          <p className="mono-tag">Explora</p>
-          <h2 className="display mt-3 text-[clamp(3.5rem,9vw,8rem)]">¿Qué se te antoja?</h2>
-        </Reveal>
+        <p className="mono-tag">Explora</p>
+        <TitleReveal text="¿Qué se te *antoja?" className="mt-3 text-[clamp(3.5rem,9vw,8rem)]" />
         <div className="mt-12 grid gap-5 sm:grid-cols-2">
           {(Object.keys(GROUPS) as GroupId[]).map((id, i) => (
             <Reveal key={id} delay={i * 0.08}>
@@ -75,7 +84,9 @@ export default function Home() {
                 style={{ background: GROUPS[id].color }}
               >
                 <div className="flex items-start justify-between">
-                  <span className="mono-tag rounded-full border-2 border-ink bg-paper px-3 py-1">{counts[id]} promos</span>
+                  <span className="mono-tag rounded-full border-2 border-ink bg-paper px-3 py-1">
+                    <CountUp value={counts[id]} /> promos
+                  </span>
                   <span className="text-7xl transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:scale-125 group-hover:-rotate-12">
                     {GROUPS[id].emoji}
                   </span>
@@ -93,16 +104,40 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="overflow-hidden py-24">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-end justify-between gap-6 px-5 sm:px-8">
+          <div>
+            <p className="mono-tag">De Tijuana a Mérida</p>
+            <TitleReveal text="Explora por *ciudad" className="mt-3 text-[clamp(3.5rem,9vw,8rem)]" />
+            <p className="mt-3 max-w-lg text-lg font-medium">No todo está en todos lados. Cada ciudad tiene sus propios regalos.</p>
+          </div>
+          <Magnetic>
+            <Link href="/ciudades" className="btn btn-acid">
+              Ver todas →
+            </Link>
+          </Magnetic>
+        </div>
+        <Marquee speed={2} className="mt-12 rotate-1 border-y-[2.5px] border-ink bg-lilac py-3">
+          {TOP_CITIES.map((c) => (
+            <Link key={c} href={`/ciudades/${c}`} className="display flex items-center text-5xl transition-colors hover:text-paper sm:text-6xl">
+              <span className="px-5">📍 {CITIES[c].name}</span>
+            </Link>
+          ))}
+        </Marquee>
+      </section>
+
       <section className="border-y-[2.5px] border-ink bg-paper-2 py-28">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <Reveal className="flex flex-wrap items-end justify-between gap-6">
             <div>
               <p className="mono-tag">100% gratis</p>
-              <h2 className="display mt-3 text-[clamp(3.5rem,9vw,8rem)]">Lo más regalado</h2>
+              <TitleReveal text="Lo más regalado" className="mt-3 text-[clamp(3.5rem,9vw,8rem)]" />
             </div>
-            <Link href="/promos" className="btn btn-paper">
-              Ver las {stats.total} →
-            </Link>
+            <Magnetic>
+              <Link href="/promos" className="btn btn-paper">
+                Ver las {stats.total} →
+              </Link>
+            </Magnetic>
           </Reveal>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {featured.slice(0, 6).map((p, i) => (
@@ -116,8 +151,8 @@ export default function Home() {
 
       <section className="relative overflow-hidden bg-acid px-5 py-32 sm:px-8">
         <div className="mx-auto max-w-5xl text-center">
+          <TitleReveal text="¿Cuándo cumples?" className="text-[clamp(4rem,13vw,12rem)]" />
           <Reveal>
-            <h2 className="display text-[clamp(4rem,13vw,12rem)]">¿Cuándo cumples?</h2>
             <p className="mx-auto mt-6 max-w-xl text-xl font-medium">Te armamos tu calendario de regalos en dos segundos.</p>
           </Reveal>
           <Reveal delay={0.15} className="mt-10 flex justify-center">
@@ -127,10 +162,8 @@ export default function Home() {
       </section>
 
       <section id="faq" className="mx-auto max-w-5xl scroll-mt-28 px-5 py-28 sm:px-8">
-        <Reveal>
-          <p className="mono-tag">Preguntas</p>
-          <h2 className="display mt-3 mb-12 text-[clamp(3.5rem,9vw,8rem)]">Lo que todos preguntan</h2>
-        </Reveal>
+        <p className="mono-tag">Preguntas</p>
+        <TitleReveal text="Lo que todos preguntan" className="mt-3 mb-12 text-[clamp(3.5rem,9vw,8rem)]" />
         <Faq items={FAQ} />
         <script
           type="application/ld+json"

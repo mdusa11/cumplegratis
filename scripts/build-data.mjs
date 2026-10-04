@@ -1,6 +1,9 @@
-// Une data/raw/*.json en src/data/promos.json, validando cada promo. Uso: node scripts/build-data.mjs
+// Une data/raw/*.json en src/data/promos.json, validando cada promo. Uso: npm run data
+// Los archivos "_extra-*.json" no traen promos nuevas: completan ubicación y reglas de promos existentes (por slug).
+// "_fixes.json": correcciones manuales ({ slug, remove: true } quita una promo cerrada; { slug, patch: {...} } corrige campos).
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import { CITIES, STATES } from "../src/lib/places.ts";
 
 const RAW = "data/raw";
 const OUT = "src/data/promos.json";
@@ -13,6 +16,7 @@ const CATEGORIES = new Set([
 const BENEFIT = new Set(["gratis", "descuento", "2x1", "regalo-con-compra"]);
 const WINDOW = new Set(["mes", "semana", "dia", "otro"]);
 const CONFIDENCE = new Set(["alta", "media", "baja"]);
+const COVERAGE = new Set(["nacional", "estados", "ciudades"]);
 
 const isUrl = (s) => {
   try {
@@ -21,6 +25,39 @@ const isUrl = (s) => {
     return false;
   }
 };
+
+const warnings = [];
+
+/** Normaliza ubicación: descarta claves desconocidas y deduce estados a partir de ciudades. */
+function location(raw, slug) {
+  let coverage = COVERAGE.has(raw.coverage) ? raw.coverage : null;
+  const cities = (Array.isArray(raw.cities) ? raw.cities : []).filter((c) => {
+    if (c in CITIES) return true;
+    warnings.push(`${slug}: ciudad desconocida "${c}"`);
+    return false;
+  });
+  const states = new Set(
+    (Array.isArray(raw.states) ? raw.states : []).filter((s) => {
+      if (s in STATES) return true;
+      warnings.push(`${slug}: estado desconocido "${s}"`);
+      return false;
+    }),
+  );
+  cities.forEach((c) => states.add(CITIES[c].state));
+  if (coverage === "ciudades" && cities.length === 0) coverage = states.size ? "estados" : null;
+  if (coverage === "estados" && states.size === 0) coverage = null;
+  if (coverage === "nacional") return { coverage, states: [], cities: [] };
+  return { coverage, states: [...states].sort(), cities: coverage === "ciudades" ? cities : [] };
+}
+
+function extras(raw, slug) {
+  return {
+    ...location(raw, slug),
+    locationNote: raw.locationNote?.trim() || null,
+    needsId: typeof raw.needsId === "boolean" ? raw.needsId : null,
+    companions: Number.isInteger(raw.companions) && raw.companions > 0 ? raw.companions : null,
+  };
+}
 
 function check(p) {
   const errors = [];
@@ -39,10 +76,26 @@ function check(p) {
 
 const files = (await readdir(RAW)).filter((f) => f.endsWith(".json")).sort();
 const bySlug = new Map();
+const overlays = [];
+const fixes = [];
 let rejected = 0;
 
 for (const file of files) {
-  const items = JSON.parse(await readFile(join(RAW, file), "utf8"));
+  let items;
+  try {
+    items = JSON.parse(await readFile(join(RAW, file), "utf8"));
+  } catch (e) {
+    console.warn(`✗ ${file}: JSON inválido (${e.message}); se omite`);
+    continue;
+  }
+  if (file === "_fixes.json") {
+    fixes.push(...items);
+    continue;
+  }
+  if (file.startsWith("_")) {
+    overlays.push(...items);
+    continue;
+  }
   for (const raw of items) {
     const p = {
       slug: raw.slug,
@@ -61,6 +114,7 @@ for (const file of files) {
       howToClaim: raw.howToClaim?.trim() ?? "",
       sources: Array.isArray(raw.sources) ? raw.sources.filter(isUrl) : [],
       confidence: raw.confidence,
+      ...extras(raw, raw.slug),
     };
     const errors = check(p);
     if (errors.length) {
@@ -73,7 +127,32 @@ for (const file of files) {
   }
 }
 
+let applied = 0;
+for (const o of overlays) {
+  const p = bySlug.get(o.slug);
+  if (!p) {
+    warnings.push(`extra para slug inexistente "${o.slug}"`);
+    continue;
+  }
+  Object.assign(p, extras(o, o.slug));
+  if (isUrl(o.coverageSource ?? "") && !p.sources.includes(o.coverageSource)) p.sources.push(o.coverageSource);
+  applied++;
+}
+
+for (const f of fixes) {
+  if (!bySlug.has(f.slug)) continue;
+  if (f.remove) bySlug.delete(f.slug);
+  else if (f.patch) Object.assign(bySlug.get(f.slug), f.patch);
+}
+
 const promos = [...bySlug.values()];
 await writeFile(OUT, JSON.stringify(promos, null, 2) + "\n");
-const count = (k) => promos.filter((p) => p.confidence === k).length;
-console.log(`✓ ${promos.length} promos (alta ${count("alta")}, media ${count("media")}, baja ${count("baja")}), ${rejected} rechazadas → ${OUT}`);
+warnings.forEach((w) => console.warn(`⚠ ${w}`));
+const count = (k, v) => promos.filter((p) => p[k] === v).length;
+console.log(
+  `✓ ${promos.length} promos (alta ${count("confidence", "alta")}, media ${count("confidence", "media")}, baja ${count("confidence", "baja")}), ` +
+    `${rejected} rechazadas, ${applied} con ubicación verificada aparte → ${OUT}`,
+);
+console.log(
+  `  cobertura: nacional ${count("coverage", "nacional")}, estados ${count("coverage", "estados")}, ciudades ${count("coverage", "ciudades")}, sin dato ${count("coverage", null)}`,
+);

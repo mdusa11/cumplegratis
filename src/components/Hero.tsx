@@ -4,7 +4,10 @@ import { useRef } from "react";
 import { motion } from "motion/react";
 import { BirthdayPicker } from "./BirthdayPicker";
 import { SplitText } from "./Reveal";
-import { BENEFIT, type Promo } from "@/lib/promos";
+import { Floaters } from "./fx";
+import { locationName, useLocation } from "./LocationProvider";
+import { availability, isAvailable } from "@/lib/availability";
+import { BENEFIT, promos, type Promo } from "@/lib/promos";
 
 // Posiciones (en % del hero) y giro de cada sticker en escritorio.
 const SPOTS = [
@@ -16,18 +19,34 @@ const STICKER_COLORS = ["var(--color-lilac)", "var(--color-hot)", "var(--color-s
 
 export function Hero({ featured, total }: { featured: Promo[]; total: number }) {
   const area = useRef<HTMLDivElement>(null);
+  const { location, openPicker } = useLocation();
+  const near = location ? promos.filter((p) => isAvailable(availability(p, location))).length : total;
 
   return (
     <section ref={area} className="relative min-h-[100svh] overflow-hidden px-5 pt-32 pb-16 sm:px-8 md:pt-36">
+      <Floaters />
       <div className="relative z-10 mx-auto max-w-7xl">
-        <motion.p
+        <motion.button
+          type="button"
+          onClick={openPicker}
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="mono-tag inline-flex items-center gap-2 rounded-full border-2 border-ink bg-paper px-3 py-1.5"
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.97 }}
+          className="mono-tag inline-flex items-center gap-2 rounded-full border-2 border-ink bg-paper px-3 py-1.5 text-left hover:bg-sun"
         >
-          <span className="size-2 animate-pulse rounded-full bg-hot" /> {total} promos en México · actualizado octubre 2026
-        </motion.p>
+          <span className="size-2 shrink-0 animate-pulse rounded-full bg-hot" />
+          {location ? (
+            <span>
+              {near} promos cerca de {locationName(location)} · <u>cambiar</u>
+            </span>
+          ) : (
+            <span>
+              {total} promos en México · <u>¿dónde estás?</u>
+            </span>
+          )}
+        </motion.button>
 
         <h1 className="display mt-6 text-[20.5vw] sm:text-[15.5vw] lg:text-[min(13vw,24vh)]">
           <SplitText text="Tu cumple" delay={0.15} className="block" />

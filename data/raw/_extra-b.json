@@ -1,0 +1,531 @@
+[
+ {
+  "slug": "hooters-mexico",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "QUE",
+   "JAL",
+   "NLE",
+   "PUE"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan",
+   "ecatepec",
+   "toluca",
+   "queretaro",
+   "guadalajara",
+   "monterrey",
+   "puebla"
+  ],
+  "locationNote": "Solo sucursales participantes de hooters.com.mx: CDMX, Edomex (Satélite, Atizapán, Coacalco, Las Américas, Metepec), Querétaro, Guadalajara, Monterrey y Puebla. Atizapán -> naucalpan; Cosmopol (Coacalco) -> ecatepec; Metepec -> toluca. Las sucursales de Cancún son de otro operador y no figuran en el sitio oficial.",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://hooters.com.mx/sucursales"
+ },
+ {
+  "slug": "hsbc-mexico",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Beneficio de tarjeta de crédito HSBC Easy Points, aplica en compras en cualquier lugar",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.hsbc.com.mx/tarjetas-de-credito/productos/easy-points/"
+ },
+ {
+  "slug": "santander-fiesta-rewards-oro",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Solo restaurantes participantes Casual Dining e Invitta (en hoteles Grupo Posadas); consumo máximo $12,000",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.fiestarewards.com/finedining/"
+ },
+ {
+  "slug": "kataplum",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "Único parque: Parque Las Antenas, Iztapalapa (CDMX). La ficha menciona Parque Toreo/Naucalpan, pero los T&C oficiales solo listan Las Antenas",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://kataplum.com.mx/terminos-y-condiciones"
+ },
+ {
+  "slug": "turibus",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "Solo recorrido Turi Cervecero en CDMX",
+  "needsId": true,
+  "companions": 5,
+  "coverageSource": "https://cazaofertas.com.mx/entretenimiento/turibus-cumpleanero-si-cumples-anos-en-la-semana-y-acudes-acompanado-el-tour-es-gratis/"
+ },
+ {
+  "slug": "didi-club",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Válido en las ciudades de México donde opera DiDi (viajes y DiDi Food)",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://web.didiglobal.com/mx/legal/mx-club-didi.pdf"
+ },
+ {
+  "slug": "pricetravel",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Reserva en línea en todo México; solo hoteles y paquetes a destinos mexicanos",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.pricetravel.com/es/ofertas-de-viajes/feliz-cumpleanos"
+ },
+ {
+  "slug": "selva-magica",
+  "coverage": "ciudades",
+  "states": [
+   "JAL"
+  ],
+  "cities": [
+   "guadalajara"
+  ],
+  "locationNote": "Único parque: Paseo del Zoológico 600, Guadalajara",
+  "needsId": true,
+  "companions": 1,
+  "coverageSource": "https://www.selvamagica.com.mx/mes-de-cumpleanos-2x1-platino/"
+ },
+ {
+  "slug": "greenspa",
+  "coverage": "ciudades",
+  "states": [
+   "JAL"
+  ],
+  "cities": [
+   "zapopan"
+  ],
+  "locationNote": "Única sucursal listada: Sebastian Bach 4759, Zapopan (zona metropolitana de Guadalajara)",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://greenspa.mx/contacto/"
+ },
+ {
+  "slug": "space-jump",
+  "coverage": "estados",
+  "states": [
+   "MEX",
+   "CMX",
+   "QUE"
+  ],
+  "cities": [],
+  "locationNote": "Sucursales en Edomex (Santín, Zumpango, Tepozán, Atlacomulco, Ixtlahuaca, Santiago Tianguistenco), CDMX (Centenario) y Querétaro",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://spacejump.mx/"
+ },
+ {
+  "slug": "alboa",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX"
+  ],
+  "cities": [
+   "cdmx",
+   "tlalnepantla"
+  ],
+  "locationNote": "Solo Alboa Santa Fe, Artz Pedregal y Patriotismo (CDMX) y Mundo E (Tlalnepantla)",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.alboa.com.mx/TyCLOOP.pdf"
+ },
+ {
+  "slug": "laboratorios-lapi",
+  "coverage": "estados",
+  "states": [
+   "CMX",
+   "MEX",
+   "YUC",
+   "QUE"
+  ],
+  "cities": [],
+  "locationNote": "Sucursales Lapi en CDMX, Edomex (Satélite, Lomas Verdes, Cuautitlán, Interlomas, Metepec), Mérida y Querétaro",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://lapi.com.mx/laboratorios-nacionales"
+ },
+ {
+  "slug": "k1-speed-mexico",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "QUE"
+  ],
+  "cities": [
+   "cdmx",
+   "tlalnepantla",
+   "queretaro"
+  ],
+  "locationNote": "6 pistas: Artz Pedregal, Coapa, Garden Santa Fe, Manacar (CDMX), Mundo E (Tlalnepantla) y Querétaro. Promo no confirmada en sitio oficial",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.k1speed.mx/faqs.html"
+ },
+ {
+  "slug": "gotchamania",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "3 campos en CDMX (Ajusco, Base Aérea, Santa Fe). Promo no confirmada en sitio oficial",
+  "needsId": true,
+  "companions": 5,
+  "coverageSource": "https://www.dondeir.com/ciudad/gotchamania-diviertete-y-vive-al-maximo-la-adrenalina-en-cdmx/2024/07/"
+ },
+ {
+  "slug": "acuario-inbursa",
+  "coverage": "ciudades",
+  "states": [
+   "CMX"
+  ],
+  "cities": [
+   "cdmx"
+  ],
+  "locationNote": "Único acuario: Nuevo Polanco, CDMX. Promo no confirmada en sitio oficial",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://quecumple.mx/directorio/acuario-inbursa/"
+ },
+ {
+  "slug": "sephora",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Tiendas Sephora en gran parte del país (unas 37) y en línea; regalo solo en tienda física participante",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sephora.com.mx/pages/terms.html"
+ },
+ {
+  "slug": "xiaomi",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón válido solo en línea en mi.com/mx, en todo México",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.mi.com/mx/support/terms/birthday/"
+ },
+ {
+  "slug": "victorias-secret",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Solo en línea en victoriassecret.mx (válido en todo México); T&C oficiales aún citan 2023",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.victoriassecret.mx/terminos-y-condiciones/cumpleanos"
+ },
+ {
+  "slug": "bath-and-body-works",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón para bathandbodyworks.mx y app (todo México); uso en tiendas físicas no especificado en T&C",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.bathandbodyworks.mx/terminos-y-condiciones"
+ },
+ {
+  "slug": "palacio-de-hierro",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "QUE",
+   "PUE",
+   "NLE",
+   "JAL",
+   "GUA",
+   "TAB",
+   "VER",
+   "ROO",
+   "GRO"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan",
+   "toluca",
+   "queretaro",
+   "puebla",
+   "monterrey",
+   "guadalajara",
+   "zapopan",
+   "leon",
+   "villahermosa",
+   "veracruz",
+   "cancun",
+   "acapulco"
+  ],
+  "locationNote": "Solo tiendas y restaurantes Palacio participantes. Interlomas/Satélite -> naucalpan; Lerma -> toluca; Boca del Río -> veracruz",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.elpalaciodehierro.com/sucursales.html"
+ },
+ {
+  "slug": "liverpool",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Solo en sucursales con Restaurante Liverpool; consumo individual del cumpleañero",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.liverpool.com.mx/tienda/paginas/restaurante"
+ },
+ {
+  "slug": "tous",
+  "coverage": "ciudades",
+  "states": [
+   "CMX",
+   "MEX",
+   "PUE",
+   "QUE",
+   "NLE",
+   "JAL",
+   "TAB",
+   "GRO",
+   "VER",
+   "ROO",
+   "MOR",
+   "GUA",
+   "AGU"
+  ],
+  "cities": [
+   "cdmx",
+   "naucalpan",
+   "toluca",
+   "puebla",
+   "queretaro",
+   "monterrey",
+   "guadalajara",
+   "zapopan",
+   "villahermosa",
+   "acapulco",
+   "veracruz",
+   "cancun",
+   "cuernavaca",
+   "leon",
+   "aguascalientes"
+  ],
+  "locationNote": "Solo tiendas TOUS participantes (no en línea). Interlomas/Satélite -> naucalpan; Metepec -> toluca; Boca del Río -> veracruz. Directorios mencionan más puntos de venta (130+) no verificados",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.tiendasinfo.mx/tiendas-en-mexico/tous"
+ },
+ {
+  "slug": "nike",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "20% en nike.com/mx y app (todo México); 10% solo en tiendas Nike NVS/UNITE participantes con INE",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.nike.com/mx/help/a/terminos-de-la-promocion-de-cumpleanos"
+ },
+ {
+  "slug": "adidas",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón por correo/app para adidas.mx; aplicación en tiendas físicas no verificada",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": null
+ },
+ {
+  "slug": "h-and-m",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón en línea (hm.com/mx) o en tienda H&M; ubicaciones de tiendas no verificadas",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": null
+ },
+ {
+  "slug": "innovasport",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Tiendas Innovasport en la mayor parte del país y en línea; Innvictus solo en algunas ciudades",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/innovasport/todos/"
+ },
+ {
+  "slug": "petco",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Tiendas Petco en la mayor parte del país; solo tiendas participantes",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/petco/todos/"
+ },
+ {
+  "slug": "sanborns",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Solo tiendas Sanborns participantes; excluye restaurante y varias categorías",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/sanborns/todos/"
+ },
+ {
+  "slug": "pandora",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón válido solo en línea en mx.pandora.net (todo México)",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://mx.pandora.net/es/t-c-de-promociones/terms-and-conditions-promotions.html"
+ },
+ {
+  "slug": "sears",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Solo tiendas Sears participantes; vigencia actual no confirmada",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/sears/todos/"
+ },
+ {
+  "slug": "benavides",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Farmacias Benavides en la mayor parte del país (más presencia en norte y centro); puntos abonados a la cuenta",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/farmacias-benavides/todos/"
+ },
+ {
+  "slug": "miniso",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón válido solo en miniso.com.mx y app (todo México), no en tiendas físicas",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": null
+ },
+ {
+  "slug": "clinique",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Código válido solo en línea en clinique.com.mx (todo México)",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.clinique.com.mx/customer-care/general-info/loyalty-terms-conditions"
+ },
+ {
+  "slug": "levis",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Programa Red Tab en línea y en tiendas Levi's; sorpresa no detallada",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.levi.com.mx/redtabprogram"
+ },
+ {
+  "slug": "sally-beauty",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Válido en tiendas Sally Beauty de todo el país y en línea",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": "https://www.sallymexico.com/condiciones-de-las-promociones"
+ },
+ {
+  "slug": "crocs",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Descuento a través de crocs.com.mx (todo México); condiciones no publicadas",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://crocs.com.mx/pages/crc-birthday"
+ },
+ {
+  "slug": "price-shoes",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Cupón en app/web de Price Shoes (todo México); ubicaciones de tiendas físicas no verificadas",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": null
+ },
+ {
+  "slug": "flexi",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Tiendas Flexi en la mayor parte del país; solo sucursales participantes. Promo no confirmada en fuente oficial",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.sucursales24.com.mx/flexi/todos/"
+ },
+ {
+  "slug": "xiaomi-store",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Solo tiendas Xiaomi propias. Ubicaciones no verificadas; promo no confirmada como vigente",
+  "needsId": true,
+  "companions": null,
+  "coverageSource": null
+ },
+ {
+  "slug": "suburbia",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Solo restaurantes participantes; la comida gratis aplica en miércoles. Promo no confirmada en fuente oficial vigente",
+  "needsId": true,
+  "companions": 2,
+  "coverageSource": "https://www.sucursales24.com.mx/suburbia/todos/"
+ },
+ {
+  "slug": "gandhi",
+  "coverage": "nacional",
+  "states": [],
+  "cities": [],
+  "locationNote": "Librerías Gandhi en unos 25 estados; beneficio de cumpleaños sin detalle publicado",
+  "needsId": false,
+  "companions": null,
+  "coverageSource": "https://www.gandhi.com.mx/sucursales"
+ }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "slug": "mr-pampas-baja-california",
+    "brand": "Mr. Pampas Do Brasil (Tijuana y Ensenada)",
+    "category": "restaurantes",
+    "benefit": "Rodizio gratis (solo pagas bebidas)",
+    "benefitType": "gratis",
+    "details": "El cumpleañero no paga el rodizio (buffet de cortes al carbón y barra de ensaladas) y solo paga sus bebidas, si va con mínimo 4 acompañantes que consuman rodizio de adulto. Válido de lunes a viernes durante la semana de tu cumpleaños; no aplica en días festivos, en diciembre ni con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial mostrada al mesero",
+      "Ir con mínimo 4 acompañantes que consuman rodizio de adulto",
+      "Solo lunes a viernes de la semana de tu cumpleaños",
+      "No aplica en días festivos ni en diciembre",
+      "No se combina con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Lunes a viernes de la semana de tu cumpleaños (vigencia 2026 reportada: 6 ene a 30 nov)",
+    "minPurchase": null,
+    "howToClaim": "Avisa a tu mesero que es tu cumpleaños y presenta tu identificación oficial al pedir.",
+    "sources": [
+      "https://menumrpampas.com/suc/veracruz",
+      "https://www.mercadeoporcorreo.com/mrp03172/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana",
+      "ensenada"
+    ],
+    "locationNote": "Términos oficiales de la marca; la promo de Ensenada aparece en su flyer propio. Condiciones pueden variar por sucursal (Tijuana: Otay y Blvd. Sánchez Taboada).",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "sonora-grill-hermosillo",
+    "brand": "Sonora Grill",
+    "category": "restaurantes",
+    "benefit": "Postre de cortesía en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Postre de cortesía al celebrar tu cumpleaños en el restaurante, durante todo tu mes de cumpleaños, de lunes a domingo desde la apertura hasta el cierre o hasta agotar existencias. Una cortesía por cumpleañero y por reserva; solo consumo en sucursal (no delivery ni pick and go) y sujeto a disponibilidad.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Solicitar el beneficio en el restaurante en tu mes de cumpleaños",
+      "Una cortesía por cumpleañero y por reserva",
+      "Solo consumo en sucursal (sin delivery ni pick and go)",
+      "Sujeto a disponibilidad"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pídelo al llegar al restaurante o al hacer tu reservación, indicando que es tu cumpleaños.",
+    "sources": [
+      "https://sonoragrill.com.mx/promociones/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "SON",
+      "CMX",
+      "MEX",
+      "PUE",
+      "QUE",
+      "ROO",
+      "YUC"
+    ],
+    "cities": [
+      "hermosillo",
+      "cdmx",
+      "queretaro",
+      "merida"
+    ],
+    "locationNote": "Aplica en todas las sucursales del país; en el noroeste solo Hermosillo (Blvd. Kino, junto al Fiesta Americana).",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "incredible-pizza-chihuahua",
+    "brand": "Incredible Pizza Chihuahua",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis en paquetes de fiesta",
+    "benefitType": "regalo-con-compra",
+    "details": "Al contratar cualquier paquete de cumpleaños, el cumpleañero entra sin costo y recibe bolsita de dulces, foto del festejado y un giro en la ruleta de premios, con acceso a atracciones y videojuegos según el paquete. Paquetes de $399 a $729 por niño, mínimo 15 invitados; lunes a viernes desde las 3 pm y sábado y domingo desde las 2 pm.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Contratar un paquete de cumpleaños",
+      "Mínimo 15 invitados",
+      "Lun-vie desde 3 pm; sáb-dom desde 2 pm",
+      "Precios sujetos a cambio sin previo aviso"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El día de la fiesta que contrates",
+    "minPurchase": null,
+    "howToClaim": "Cotiza y reserva tu paquete por WhatsApp o teléfono (614 422 2550) con el restaurante.",
+    "sources": [
+      "https://incrediblepizzachihuahua.com/cumpleanos/",
+      "https://incrediblepizzachihuahua.com/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua"
+    ],
+    "locationNote": "Periférico de la Juventud 6506, Col. Mezquites",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "wings-army-chihuahua-juarez",
+    "brand": "Wings Army",
+    "category": "restaurantes",
+    "benefit": "Comida gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según reportes, si vas el día de tu cumpleaños (o un día antes o después) con 4 personas, tu comida es gratis, limitada a 1 platillo fuerte y 2 bebidas no premium. No aplica con otras promociones. La marca publica sus promos como imágenes en su sitio; confirma condiciones y sucursal participante antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con 4 acompañantes",
+      "Visitar el día de tu cumpleaños, un día antes o un día después",
+      "Límite: 1 platillo fuerte y 2 bebidas no premium",
+      "No aplica con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Día de tu cumpleaños, un día antes o un día después",
+    "minPurchase": null,
+    "howToClaim": "Presenta una identificación con tu fecha de nacimiento en el cuartel (sucursal) y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://wingsarmy.mx/promociones/",
+      "https://wingsarmy.mx/en/cuarteles/chihuahua/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "CHH"
+    ],
+    "cities": [
+      "chihuahua",
+      "ciudad-juarez"
+    ],
+    "locationNote": "Cuarteles en Chihuahua y Ciudad Juárez (Galerías Tec, Av. Tecnológico 1770)",
+    "needsId": true,
+    "companions": 4
+  },
+  {
+    "slug": "grupo-rosanegra-los-cabos",
+    "brand": "Grupo RosaNegra (Los Cabos)",
+    "category": "restaurantes",
+    "benefit": "Pastel con bengalas y ronda de shots",
+    "benefitType": "gratis",
+    "details": "Al reservar en OpenTable en uno de sus restaurantes de Cabo y escribir el código promocional de cumpleaños en peticiones especiales, la mesa recibe pastel personalizado con bengalas y una ronda especial de shots. La página oficial aún muestra el código HB2025, por lo que hay que confirmar si sigue vigente en 2026.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservar en línea por OpenTable",
+      "Escribir el código del cumpleaños en peticiones especiales (página oficial: HB2025)",
+      "Identificación oficial válida el día de la reserva"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu reservación (cumpleaños)",
+    "minPurchase": null,
+    "howToClaim": "Reserva en OpenTable, agrega el código en 'special requests' y presenta tu identificación.",
+    "sources": [
+      "https://www.gruporosanegra.restaurant/en/birthday-restaurant-in-cabo"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "BCS"
+    ],
+    "cities": [
+      "los-cabos"
+    ],
+    "locationNote": "Rosa Negra, Funky Geisha, Craft San José, Amante, Chambao, Tamara Beach Club y Taboo (Cabo)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "260-grados-baja-california",
+    "brand": "260 Grados Grill & Bar",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Según reportes, el cumpleañero no paga su buffet (parrilla coreana, $390 regular) si va con al menos 1 acompañante válido; no incluye bebidas ni postres y aplica una vez por día. La web oficial solo invita a 'Festeja tu cumple' vía Messenger y no publica las reglas; confirma antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 1 acompañante que pague buffet",
+      "No incluye bebidas ni postres",
+      "Aplica una vez por día"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Según reportes, el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños y presenta tu identificación; para festejos reserva por Messenger de la página.",
+    "sources": [
+      "https://260grillbar.com/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana",
+      "mexicali",
+      "ensenada"
+    ],
+    "locationNote": "Sucursales Ensenada (Plaza Marina), Tijuana (Plaza Minarete / Blvd. Sánchez Taboada) y Mexicali (Plaza Gran Vía)",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "kitsilano-mazatlan",
+    "brand": "Kitsilano Burgers Mazatlán",
+    "category": "restaurantes",
+    "benefit": "Hamburguesa gratis con 4 acompañantes",
+    "benefitType": "gratis",
+    "details": "Según su TikTok oficial (marzo 2025), el cumpleañero acompañado de mínimo 4 personas come totalmente gratis, válido solo pidiendo hamburguesas individuales (no combos ni otros platillos). Abierto de lunes a domingo de 2 a 11 pm.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con mínimo 4 acompañantes",
+      "Válido solo con hamburguesas individuales",
+      "No aplica en combos ni otros platillos"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Sin ventana precisa publicada; confirma con el local",
+    "minPurchase": null,
+    "howToClaim": "Avisa al llegar que es tu cumpleaños; contacto 669 149 1277.",
+    "sources": [
+      "https://www.tiktok.com/@kitsilanomzt/video/7483320317625289990"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "mazatlan"
+    ],
+    "locationNote": "Claussen, Olas Altas",
+    "needsId": null,
+    "companions": 4
+  }
+]

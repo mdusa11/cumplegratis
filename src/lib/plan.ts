@@ -29,9 +29,9 @@ export function nextBirthday(b: Birthday, today = new Date()) {
   return daysBetween(today, thisYear) >= 0 ? thisYear : birthdayIn(today.getFullYear() + 1, b);
 }
 
-export function buildPlan(b: Birthday, today = new Date()) {
+export function buildPlan(b: Birthday, list: Promo[] = promos, today = new Date()) {
   const birthday = nextBirthday(b, today);
-  const items: PlanItem[] = promos.map((promo) => {
+  const items: PlanItem[] = list.map((promo) => {
     if (!promo.program) return { promo, status: "sin-registro", registerBy: null, estimated: false };
     const lead = promo.registerDaysBefore ?? SAFE_DAYS;
     const registerBy = new Date(birthday.getTime() - lead * DAY);

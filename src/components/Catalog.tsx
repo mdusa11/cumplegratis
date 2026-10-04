@@ -4,6 +4,8 @@ import { useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { PromoCard } from "./PromoCard";
+import { Pin, locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
+import { AVAILABILITY_RANK, availability, isAvailable } from "@/lib/availability";
 import { BENEFIT, GROUPS, groupOf, normalize, promos, type BenefitType, type GroupId } from "@/lib/promos";
 import { BASE_PATH, cn } from "@/lib/site";
 
@@ -16,6 +18,9 @@ export function Catalog() {
   const [type, setType] = useState<BenefitType | "todos">("todos");
   const [noSignup, setNoSignup] = useState(false);
   const [query, setQuery] = useState("");
+  const [everywhere, setEverywhere] = useState(false);
+  const { location, openPicker } = useLocation();
+  useAutoAskLocation();
 
   const pickGroup = (g: GroupFilter) => {
     setGroup(g);
@@ -25,16 +30,21 @@ export function Catalog() {
 
   const results = useMemo(() => {
     const q = normalize(query.trim());
-    return promos.filter(
+    const list = promos.filter(
       (p) =>
         (group === "todos" || groupOf(p) === group) &&
         (type === "todos" || p.benefitType === type) &&
         (!noSignup || !p.program) &&
+        (!location || everywhere || isAvailable(availability(p, location))) &&
         (!q || normalize(`${p.brand} ${p.benefit} ${p.category}`).includes(q)),
     );
-  }, [group, type, noSignup, query]);
+    if (!location) return list;
+    // Lo local primero (lo que menos gente conoce), luego cadenas nacionales; lo de otras zonas al final.
+    return [...list].sort((a, b) => AVAILABILITY_RANK[availability(a, location)] - AVAILABILITY_RANK[availability(b, location)]);
+  }, [group, type, noSignup, query, location, everywhere]);
 
   const reset = () => {
+    setEverywhere(true);
     pickGroup("todos");
     setType("todos");
     setNoSignup(false);
@@ -84,11 +94,57 @@ export function Catalog() {
         </div>
       </div>
 
-      <div className="mt-10 flex items-baseline justify-between">
-        <p className="display text-4xl">
+      <div className="mt-10 flex flex-wrap items-end justify-between gap-4">
+        <p className="display text-4xl sm:text-5xl">
           <AnimatedCount value={results.length} /> {results.length === 1 ? "promo" : "promos"}
+          {location && !everywhere && <span className="text-hot"> cerca de {locationName(location).split(",")[0]}</span>}
         </p>
+        {location && (
+          <button
+            type="button"
+            onClick={() => setEverywhere((v) => !v)}
+            aria-pressed={everywhere}
+            className="flex items-center gap-3 rounded-full border-2 border-ink bg-paper py-1.5 pr-4 pl-1.5 font-semibold"
+          >
+            <span className={cn("flex h-7 w-12 items-center rounded-full border-2 border-ink p-0.5 transition-colors", everywhere ? "bg-acid" : "bg-paper-2")}>
+              <motion.span layout transition={{ type: "spring", stiffness: 600, damping: 35 }} className={cn("size-5 rounded-full bg-ink", everywhere && "ml-auto")} />
+            </span>
+            Incluir otras zonas
+          </button>
+        )}
       </div>
+
+      <AnimatePresence initial={false} mode="wait">
+        {location ? (
+          <motion.button
+            key="loc"
+            type="button"
+            onClick={openPicker}
+            initial={{ opacity: 0, y: -8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            className="mt-3 inline-flex items-center gap-2 font-semibold underline-offset-4 hover:underline"
+          >
+            📍 {locationName(location, true)} · cambiar
+          </motion.button>
+        ) : (
+          <motion.button
+            key="ask"
+            type="button"
+            onClick={openPicker}
+            initial={{ opacity: 0, y: -8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            className="card mt-4 flex w-full items-center gap-4 bg-sun p-4 text-left transition-[translate,box-shadow] hover:-translate-y-0.5 hover:shadow-hard-lg sm:p-5"
+          >
+            <Pin bounce className="shrink-0" />
+            <span>
+              <span className="display block text-3xl">¿Dónde estás?</span>
+              <span className="font-medium">No todas las promos están en todos los estados. Dinos tu ciudad y te mostramos solo las que te quedan cerca.</span>
+            </span>
+          </motion.button>
+        )}
+      </AnimatePresence>
 
       <motion.ul layout className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <AnimatePresence mode="popLayout">

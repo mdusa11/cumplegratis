@@ -3,12 +3,20 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
+import {
+  AnimatePresence,
+  motion,
+  useMotionValueEvent,
+  useScroll,
+} from "motion/react";
 import { Logo } from "./Logo";
+import { useLocation } from "./LocationProvider";
+import { CITIES, STATES } from "@/lib/places";
 import { cn } from "@/lib/site";
 
 const LINKS = [
   { href: "/promos", label: "Promos" },
+  { href: "/ciudades", label: "Ciudades" },
   { href: "/mi-cumple", label: "Mi cumple" },
 ];
 
@@ -23,7 +31,14 @@ export function Nav() {
     setHidden(y > prev && y > 240);
   });
 
-  const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
+  const { location, openPicker } = useLocation();
+  const place = location
+    ? location.city
+      ? CITIES[location.city].name
+      : STATES[location.state].short
+    : null;
+  const isActive = (href: string) =>
+    pathname === href || pathname.startsWith(`${href}/`);
   const close = () => setOpen(false);
 
   return (
@@ -46,16 +61,27 @@ export function Nav() {
               )}
             >
               {isActive(l.href) && (
-                <motion.span layoutId="nav-pill" className="absolute inset-0 -z-10 rounded-full bg-ink" transition={{ type: "spring", stiffness: 500, damping: 40 }} />
+                <motion.span
+                  layoutId="nav-pill"
+                  className="absolute inset-0 -z-10 rounded-full bg-ink"
+                  transition={{ type: "spring", stiffness: 500, damping: 40 }}
+                />
               )}
               {l.label}
             </Link>
           ))}
-          <Link href="/mi-cumple" className="btn btn-acid ml-2 !py-2.5 !text-lg">
+          <LocationPill place={place} onClick={openPicker} />
+          <Link
+            href="/mi-cumple"
+            className="btn btn-acid ml-2 !py-2.5 !text-lg"
+          >
             Arma tu plan →
           </Link>
         </div>
 
+        <div className="ml-auto md:hidden">
+          <LocationPill place={place} onClick={openPicker} compact />
+        </div>
         <button
           type="button"
           onClick={() => setOpen((o) => !o)}
@@ -63,8 +89,14 @@ export function Nav() {
           aria-label={open ? "Cerrar menú" : "Abrir menú"}
           className="relative flex size-11 items-center justify-center rounded-full border-2 border-ink bg-acid md:hidden"
         >
-          <motion.span className="absolute h-0.5 w-5 bg-ink" animate={open ? { rotate: 45, y: 0 } : { rotate: 0, y: -4 }} />
-          <motion.span className="absolute h-0.5 w-5 bg-ink" animate={open ? { rotate: -45, y: 0 } : { rotate: 0, y: 4 }} />
+          <motion.span
+            className="absolute h-0.5 w-5 bg-ink"
+            animate={open ? { rotate: 45, y: 0 } : { rotate: 0, y: -4 }}
+          />
+          <motion.span
+            className="absolute h-0.5 w-5 bg-ink"
+            animate={open ? { rotate: -45, y: 0 } : { rotate: 0, y: 4 }}
+          />
         </button>
       </nav>
 
@@ -77,9 +109,29 @@ export function Nav() {
             transition={{ type: "spring", stiffness: 420, damping: 32 }}
             className="card mx-auto mt-3 flex max-w-7xl flex-col gap-2 bg-acid p-4 md:hidden"
           >
+            <button
+              type="button"
+              onClick={() => {
+                close();
+                openPicker();
+              }}
+              className="mb-1 flex items-center justify-between rounded-2xl border-2 border-ink bg-paper px-4 py-3 text-left font-semibold"
+            >
+              <span>📍 {place ?? "Elige tu ciudad"}</span>
+              <span className="mono-tag">{place ? "cambiar" : "→"}</span>
+            </button>
             {[{ href: "/", label: "Inicio" }, ...LINKS].map((l, i) => (
-              <motion.div key={l.href} initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.05 * i }}>
-                <Link href={l.href} onClick={close} className="display block py-1 text-6xl">
+              <motion.div
+                key={l.href}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.05 * i }}
+              >
+                <Link
+                  href={l.href}
+                  onClick={close}
+                  className="display block py-1 text-6xl"
+                >
                   {l.label}
                 </Link>
               </motion.div>
@@ -88,5 +140,54 @@ export function Nav() {
         )}
       </AnimatePresence>
     </motion.header>
+  );
+}
+
+function LocationPill({
+  place,
+  onClick,
+  compact,
+}: {
+  place: string | null;
+  onClick: () => void;
+  compact?: boolean;
+}) {
+  return (
+    <motion.button
+      type="button"
+      onClick={onClick}
+      whileTap={{ scale: 0.92 }}
+      aria-label={place ? `Tu zona: ${place}. Cambiar` : "Elegir tu ciudad"}
+      className={cn(
+        "flex items-center gap-1.5 rounded-full border-2 border-ink font-semibold transition-colors hover:bg-sun",
+        compact
+          ? "relative size-11 justify-center text-lg"
+          : "ml-1 px-3.5 py-2",
+        place ? "bg-paper" : "bg-sun",
+      )}
+    >
+      <motion.span
+        animate={place ? { y: 0 } : { y: [0, -3, 0] }}
+        transition={place ? {} : { repeat: Infinity, duration: 1.2 }}
+      >
+        📍
+      </motion.span>
+      {compact && place && (
+        <span className="absolute -top-0.5 -right-0.5 size-3.5 rounded-full border-2 border-ink bg-acid" />
+      )}
+      <AnimatePresence mode="wait" initial={false}>
+        {!compact && (
+          <motion.span
+            key={place ?? "none"}
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
+            className="truncate"
+          >
+            {place ?? "Tu ciudad"}
+          </motion.span>
+        )}
+      </AnimatePresence>
+    </motion.button>
   );
 }

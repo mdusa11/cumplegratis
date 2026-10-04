@@ -5,6 +5,7 @@ import { Providers } from "@/components/Providers";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
+import { ScrollProgress } from "@/components/fx";
 import { SITE } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="es-MX" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
       <body>
         <Providers>
+          <ScrollProgress />
           <Cursor />
           <Nav />
           <main>{children}</main>

@@ -18,7 +18,7 @@ export function Footer() {
           <p className="display text-4xl text-acid sm:text-5xl">Que ningún regalo se te escape.</p>
           <p className="mt-4 max-w-sm text-paper/70">{SITE.description}</p>
         </div>
-        <FooterCol title="Explora" links={[["/promos", "Todas las promos"], ["/mi-cumple", "Mi plan de cumpleaños"], ["/promos?g=comida", "Comida gratis"]]} />
+        <FooterCol title="Explora" links={[["/promos", "Todas las promos"], ["/ciudades", "Promos por ciudad"], ["/mi-cumple", "Mi plan de cumpleaños"], ["/promos?g=comida", "Comida gratis"]]} />
         <FooterCol title="Ayuda" links={[["/promos#sugerir", "Sugerir una promo"], ["/#faq", "Preguntas frecuentes"]]} />
       </div>
 

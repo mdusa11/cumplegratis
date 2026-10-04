@@ -2,6 +2,7 @@
 
 import { useCallback, useSyncExternalStore } from "react";
 import type { Birthday } from "./plan";
+import type { UserLocation } from "./availability";
 
 // Estado local del visitante (su fecha y qué ya registró). Nada sensible: vive solo en su navegador.
 
@@ -54,6 +55,17 @@ export const toggleDone = (slug: string) => {
   const done = read<string[]>(DONE, NO_DONE);
   write(DONE, done.includes(slug) ? done.filter((s) => s !== slug) : [...done, slug]);
 };
+
+const LOCATION = "cg:location";
+const ASKED = "cg:location-asked";
+
+export const useStoredLocation = () =>
+  useSyncExternalStore(subscribe, () => read<UserLocation | null>(LOCATION, null), () => null);
+
+export const saveLocation = (loc: UserLocation | null) => write(LOCATION, loc);
+
+export const wasAskedLocation = () => read<boolean>(ASKED, false);
+export const markAskedLocation = () => write(ASKED, true);
 
 export function useMediaQuery(q: string) {
   const subscribeQuery = useCallback(
