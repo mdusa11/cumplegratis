@@ -783,5 +783,77 @@
     "locationNote": "Camino al Vado 2507, Tonalá",
     "needsId": null,
     "companions": null
+  },
+  {
+    "slug": "the-urban-live-guadalajara",
+    "brand": "The Urban Live",
+    "category": "bares",
+    "benefit": "Botella gratis para el cumpleañero (viernes)",
+    "benefitType": "gratis",
+    "details": "Según listados y publicaciones en redes, en este bar con música en vivo y DJ la botella va gratis para quien cumple años ese mes, los viernes y con reservación previa (algunas fuentes mencionan también sábados). El sitio oficial solo da datos de contacto y reservación, sin condiciones de la promoción.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Reservación previa",
+      "Cumplir años en el mes (según redes)",
+      "Viernes (algunas fuentes indican también sábados)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Viernes (según redes); confirmar si aplica solo el día o todo el mes",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp o al +52 33 1328 8482 y avisa que es tu cumpleaños.",
+    "sources": [
+      "https://theurbanlive.com/",
+      "https://www.facebook.com/theurbanlive/videos/the-urban-live-chapultepec/1714799448598974/?locale=es_LA"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Av. Chapultepec Sur 177, 2.º piso, col. Americana, Guadalajara",
+    "needsId": null,
+    "companions": null
+  },
+  {
+    "slug": "la-trrincheraa-guadalajara",
+    "brand": "La Trrincheraa",
+    "category": "restaurantes",
+    "benefit": "1 buffet gratis al comprar 2 buffets de adulto",
+    "benefitType": "gratis",
+    "details": "Durante todo el mes de tu cumpleaños, el festejado recibe 1 buffet gratis cuando se compran 2 buffets de adulto, con el INE físico del festejado y sin combinar con otras promociones. El buffet mexicano cuesta $329 por adulto en Moderna (diario, de 8:00 am a 1:30 pm) y $499 en Lienzo Charro Las Cañadas (sábados, domingos y festivos, de 8:00 am a 6:00 pm); se puede añadir pastel con bengala y festejo por $179.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE físico del festejado",
+      "Comprar 2 buffets de adulto",
+      "Solo durante el mes de tu cumpleaños",
+      "No combinable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva por WhatsApp o en línea en latrrincheraa.com y presenta el INE físico del festejado.",
+    "sources": [
+      "https://latrrincheraa.com/preguntas-frecuentes/",
+      "https://www.eldiariodeuntragon.com/desayuno-buffet-en-guadalajara/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara",
+      "zapopan"
+    ],
+    "locationNote": "Sucursal Moderna (Av. Francia 1400, Guadalajara) y Lienzo Charro Las Cañadas (San Isidro Sur 2, Zapopan); el sitio no aclara si cambia algo por sucursal",
+    "needsId": true,
+    "companions": 2
   }
 ]

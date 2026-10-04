@@ -22,8 +22,7 @@
     "howToClaim": "Ve a las taquillas del zoológico en tu mes de cumpleaños, pide el Paquete GuadaZoo y presenta tu identificación (original y copia). No vale en plataformas digitales.",
     "sources": [
       "https://www.informador.mx/jalisco/zoologico-guadalajara-lanza-promociones-para-entrar-gratis-en-junio-conoce-quienes-y-como-participar-20260613-0055.html",
-      "https://www.informador.mx/jalisco/zoologico-guadalajara-estas-personas-pueden-entrar-gratis-con-este-requisito-20260126-0043.html",
-      "https://zooguadalajara.com.mx"
+      "https://www.informador.mx/jalisco/zoologico-guadalajara-estas-personas-pueden-entrar-gratis-con-este-requisito-20260126-0043.html"
     ],
     "confidence": "media",
     "coverage": "ciudades",
@@ -245,5 +244,143 @@
     "locationNote": "Av. Vallarta 1110, Col. Americana, Guadalajara",
     "needsId": true,
     "companions": null
+  },
+  {
+    "slug": "julio-boutique-guadalajara",
+    "brand": "Julio",
+    "category": "ropa",
+    "benefit": "150 a 300 puntos ($150-$300 en mercancía) de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Los socios de JULIO Loyalty reciben puntos en su mes de cumpleaños: 150 (Classic), 200 (Premium) o 300 (Elite); cada punto vale $1 y solo se canjea por mercancía en boutiques JULIO. Los puntos se acreditan entre 7 días antes y 7 días después de la fecha registrada; hay que mostrar identificación oficial. Para afiliarte necesitas una compra inicial de $1,500 en boutique u outlet (no en línea).",
+    "program": "JULIO Loyalty",
+    "signupUrl": "https://julio.com/terminos-condiciones/",
+    "requirements": [
+      "Ser socio de JULIO Loyalty (compra inicial mínima de $1,500)",
+      "Registrar tu fecha de cumpleaños",
+      "Identificación oficial para reclamar",
+      "Puntos canjeables solo por mercancía en boutiques JULIO",
+      "Afiliación solo en boutiques y outlets, no en línea"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Se acreditan 7 días antes o después de tu fecha de cumpleaños",
+    "minPurchase": 1500,
+    "howToClaim": "Afíliate en una boutique JULIO y, cerca de tu cumpleaños, presenta tu identificación para usar los puntos en mercancía.",
+    "sources": [
+      "https://julio.com/terminos-condiciones/",
+      "https://julio.com/sucursales/"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cadena nacional. En la zona GDL: Galerías, Plaza del Sol, La Gran Plaza, Plaza Patria y Midtown (Guadalajara/Zapopan) y Outlet Las Plazas (Tlajomulco)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "joyerias-bizzarro",
+    "brand": "Joyerías Bizzarro",
+    "category": "otras-tiendas",
+    "benefit": "10% adicional en oro, diamantes y relojería de moda",
+    "benefitType": "descuento",
+    "details": "Los socios del Círculo BIZZARRO reciben un cupón de 10% adicional en joyería de oro, diamantes y relojes de moda durante su mes de cumpleaños, con compra mínima de $3,500. El cupón se envía los primeros días del mes y excluye relojes suizos, bijoux, plata, 2BEGOLD, modelos con descuento de 30% o más y eventos como Buen Fin o Hot Sale.",
+    "program": "Círculo BIZZARRO",
+    "signupUrl": "https://www.joyeriasbizzarro.com/circulo-bizzarro",
+    "requirements": [
+      "Ser socio del Círculo BIZZARRO (se pide en sucursal)",
+      "Compra mínima de $3,500",
+      "Solo en tu mes de cumpleaños",
+      "Excluye relojes suizos, bijoux, plata y 2BEGOLD",
+      "No se combina con otros cupones ni con Buen Fin o Hot Sale"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños; el cupón llega los primeros días del mes",
+    "minPurchase": 3500,
+    "howToClaim": "Pide tu membresía Círculo BIZZARRO en cualquier sucursal y usa el cupón de cumpleaños al comprar en tu mes.",
+    "sources": [
+      "https://www.joyeriasbizzarro.com/circulo-bizzarro",
+      "https://www.joyeriasbizzarro.com/sucursales-joyerias-bizzarro"
+    ],
+    "confidence": "alta",
+    "coverage": "nacional",
+    "states": [],
+    "cities": [],
+    "locationNote": "Cadena nacional. En GDL: Galerías Guadalajara, Plaza Patria, La Gran Plaza y La Perla (Plaza del Sol)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "holiday-inn-guadalajara-select",
+    "brand": "Holiday Inn Guadalajara Select",
+    "category": "restaurantes",
+    "benefit": "Desayuno buffet gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "En el mes de tu cumpleaños no pagas el desayuno buffet del hotel si vas acompañado de 3 personas que sí pagan y presentas tu INE. No aplica con otras promociones ni servicio a habitación. Es un restaurante de hotel, útil si buscas una opción distinta a la de un restaurante tradicional.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE para validar tu fecha de cumpleaños",
+      "Ir con 3 acompañantes que paguen",
+      "Solo en tu mes de cumpleaños",
+      "No aplica con otras promociones ni servicio a habitación"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva al 33 3122 2020 y presenta tu INE al llegar al desayuno buffet.",
+    "sources": [
+      "https://hisguadalajara.com.mx/promociones-descripcion.php?lan=es&id=197",
+      "https://hisguadalajara.com.mx/promociones.php?lan=es"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "guadalajara"
+    ],
+    "locationNote": "Av. Niños Héroes 3089 (esq. López Mateos), Jardines de los Arcos, Guadalajara",
+    "needsId": true,
+    "companions": 3
+  },
+  {
+    "slug": "holiday-inn-guadalajara-expo",
+    "brand": "Holiday Inn Guadalajara Expo",
+    "category": "restaurantes",
+    "benefit": "Desayuno buffet gratis + rebanada de pastel (cumpleañera)",
+    "benefitType": "gratis",
+    "details": "\"Cumpleañera no paga\": durante tu mes de cumpleaños desayunas gratis en el Restaurante La Fuente, con rebanada de pastel de cortesía, si vas con al menos 3 personas más y presentas tu INE. Las acompañantes pagan precio especial de $349 con IVA. De lunes a sábado de 9:30 a 12:00.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE",
+      "Ir con mínimo 3 acompañantes (grupo de 4)",
+      "Solo en tu mes de cumpleaños",
+      "Lunes a sábado, 9:30 a 12:00 h",
+      "Reservar al 33 3634 1034"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños, lunes a sábado",
+    "minPurchase": null,
+    "howToClaim": "Reserva por teléfono (33 3634 1034) y presenta tu INE en el Restaurante La Fuente.",
+    "sources": [
+      "https://higuadalajaraexpo.com.mx/promociones-descripcion.php?lan=es&id=201"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "JAL"
+    ],
+    "cities": [
+      "zapopan"
+    ],
+    "locationNote": "Av. López Mateos Sur 2500 (esq. Mariano Otero), Ciudad del Sol, Zapopan",
+    "needsId": true,
+    "companions": 3
   }
 ]
