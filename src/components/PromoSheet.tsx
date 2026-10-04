@@ -47,6 +47,7 @@ const BANNER: Record<Availability, { bg: string; icon: IconName }> = {
   cerca: { bg: "bg-acid", icon: "check" },
   "tu-estado": { bg: "bg-acid", icon: "check" },
   fuera: { bg: "bg-hot", icon: "warning" },
+  "en-linea": { bg: "bg-sky", icon: "phone" },
   "sin-dato": { bg: "bg-paper-2", icon: "question" },
 };
 

@@ -1,0 +1,171 @@
+[
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "window": "otro",
+    "minPurchase": null,
+    "confidence": "baja",
+    "coverage": "Tepic",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "needsId": false,
+    "companions": null,
+    "slug": "aura-restaurante-cafe-tepic",
+    "brand": "Aura Restaurante & Café",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "Aura Restaurante & Café (Tepic) invita en su TikTok oficial (@aurarestauranteca, hashtags #CelebraCumpleaños #Desayuno #tepicnayarit) a celebrar tu cumpleaños con ellos y recuerda que el cumpleañero desayuna gratis. El video no detalla condiciones (mínimo de acompañantes, identificación, días ni horario), por lo que conviene confirmar por redes o teléfono antes de ir. Dato tomado de listados de TikTok; sin sitio oficial con T&C.",
+    "requirements": [
+      "Celebrar el cumpleaños en el restaurante",
+      "Condiciones no publicadas: confirmar acompañantes e identificación antes de ir"
+    ],
+    "windowNote": "Vigencia y días no publicados; promoción difundida en TikTok del negocio",
+    "howToClaim": "Avisa al llegar o al reservar que es tu cumpleaños para que te cobren el desayuno de cortesía; confirma condiciones por redes.",
+    "sources": [
+      "https://www.tiktok.com/@aurarestauranteca",
+      "https://www.tiktok.com/discover/restaurantes-para-festejar-cumplea%C3%B1os-en-tepic"
+    ],
+    "locationNote": "Tepic, Nayarit (dirección no confirmada en la fuente)"
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "window": "otro",
+    "minPurchase": null,
+    "confidence": "baja",
+    "coverage": "Tepic",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "needsId": false,
+    "companions": null,
+    "slug": "nagatta-tepic",
+    "brand": "Nagatta Restaurante Fusión Japonesa",
+    "category": "restaurantes",
+    "benefit": "Pastel/pay de cortesía al festejar tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Nagatta (cocina fusión japonesa, Tepic) promueve en su TikTok celebrar cumpleaños con ellos: según el video incluye un postre de cortesía (pieza de pay/pastel), espacio para el grupo y cocina japonesa. Es un detalle de cortesía, no comida gratis; para recibirlo hay que celebrar el cumpleaños en el restaurante y se recomienda reservar (IG: @nagattarestaurante, tel. 311 202 4990 según su perfil). Condiciones (mínimo de personas, días) no publicadas. Fuente: TikTok/Facebook del negocio vía buscador, sin T&C.",
+    "requirements": [
+      "Celebrar el cumpleaños en el restaurante",
+      "Reservar con anticipación (recomendado)",
+      "Condiciones no publicadas: confirmar antes de ir"
+    ],
+    "windowNote": "Vigencia no publicada; promoción difundida en TikTok del negocio",
+    "howToClaim": "Reserva mencionando que es cumpleaños y avisa al llegar para recibir el postre de cortesía.",
+    "sources": [
+      "https://www.facebook.com/Nagatta.restaurante/",
+      "https://www.instagram.com/nagattarestaurante/",
+      "https://www.tiktok.com/discover/restaurantes-para-festejar-cumplea%C3%B1os-en-tepic"
+    ],
+    "locationNote": "De la Cultura 64, Tepic, Nayarit"
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "window": "otro",
+    "minPurchase": null,
+    "confidence": "baja",
+    "coverage": "Tepic",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "needsId": false,
+    "companions": null,
+    "slug": "mi-lola-tepic",
+    "brand": "Mi Lola",
+    "category": "restaurantes",
+    "benefit": "El cumpleañero no paga",
+    "benefitType": "gratis",
+    "details": "El directorio de convenios CODAPO lista a Mi Lola (pizza, carnes y vinos, abierto 24 h) con la promoción 'El cumpleañero no paga' dentro de sus promociones del año, además de 10% con tarjeta CODAPO y 'el graduado no paga'. La página no tiene fecha visible (publicaciones relacionadas son de 2018), así que la promo puede haber cambiado: confirmar por teléfono antes de ir (311 214 0238 / 311 210 1010). Condiciones (acompañantes, identificación) no especificadas.",
+    "requirements": [
+      "Condiciones no publicadas: confirmar acompañantes e identificación",
+      "Fuente sin fecha; confirmar que sigue vigente"
+    ],
+    "windowNote": "Listada como promoción del año; la fuente no indica fecha de vigencia",
+    "howToClaim": "Menciona en caja o con el mesero que es tu cumpleaños; confirma condiciones por teléfono.",
+    "sources": [
+      "https://codapo.org/wp18/mi-lola/"
+    ],
+    "locationNote": "Av. Universidad 121, Cd. del Valle, Tepic, Nayarit"
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "window": "otro",
+    "minPurchase": null,
+    "confidence": "baja",
+    "coverage": "Tepic",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "needsId": false,
+    "companions": 3,
+    "slug": "altata-mariscos-cevicheria-tepic",
+    "brand": "Restaurante de Mariscos & Cevichería Altata",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis si invita a 3 amigos",
+    "benefitType": "gratis",
+    "details": "Publicación del propio restaurante (foto en su ficha de Tripadvisor): 'Es hora de festejar tu cumpleaños y pasarla bien: invita a tres amigos y el cumpleañero come gratis'. Reservaciones al 311 456 20 20. La publicación no indica fecha, días, tope del platillo gratis ni identificación requerida; confirmar al reservar.",
+    "requirements": [
+      "Ir con 3 amigos (4 personas en total)",
+      "Reservar (311 456 20 20)",
+      "Condiciones adicionales no publicadas"
+    ],
+    "windowNote": "Sin fecha de vigencia publicada",
+    "howToClaim": "Reserva indicando que es cumpleaños y llega con 3 acompañantes; el consumo del festejado se descuenta de la cuenta.",
+    "sources": [
+      "https://www.tripadvisor.com/LocationPhotoDirectLink-g499444-d12991940-i447583858-Restaurante_de_Mariscos_Cevicheria_Altata-Tepic_Pacific_Coast.html"
+    ],
+    "locationNote": "Av. Jacarandas 283 A, entre Calle Eucalipto y Palma, Tepic, Nayarit"
+  },
+  {
+    "program": null,
+    "signupUrl": null,
+    "registerDaysBefore": null,
+    "window": "otro",
+    "minPurchase": null,
+    "confidence": "baja",
+    "coverage": "Tepic",
+    "states": [
+      "NAY"
+    ],
+    "cities": [
+      "tepic"
+    ],
+    "needsId": false,
+    "companions": null,
+    "slug": "huasteca-mariscos-tepic",
+    "brand": "Huasteca (restaurante de mariscos)",
+    "category": "restaurantes",
+    "benefit": "Cumpleañero come gratis",
+    "benefitType": "gratis",
+    "details": "La ficha de Huasteca en Tripadvisor (restaurante de mariscos con mariachi en vivo) indica que tienen la promoción 'cumpleañero come gratis'. No publica requisitos (acompañantes, identificación, días) ni fecha de vigencia, y no pudimos abrir la ficha para leer el texto completo; confirmar por teléfono o redes antes de ir.",
+    "requirements": [
+      "Condiciones no publicadas: confirmar acompañantes e identificación"
+    ],
+    "windowNote": "Vigencia no publicada",
+    "howToClaim": "Avisa al mesero o al reservar que es tu cumpleaños; confirma qué platillo incluye.",
+    "sources": [
+      "https://www.tripadvisor.com.mx/Restaurant_Review-g499444-d19846261-Reviews-Huasteca-Tepic_Pacific_Coast.html"
+    ],
+    "locationNote": "Agustín de Iturbide 340, Cd. del Valle, Tepic, Nayarit"
+  }
+]

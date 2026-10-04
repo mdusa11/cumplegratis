@@ -1,0 +1,27 @@
+name: Rebuild si vence una promo
+
+# Cloudflare (Workers Builds) publica en cada push a main. Las promos vencidas se filtran al construir,
+# así que el día después de un vencimiento empujamos un commit vacío para que el HTML se regenere.
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        run: |
+          n=$(node -e 'const y=new Date(Date.now()-864e5).toISOString().slice(0,10); console.log(require("./src/data/promos.json").filter(p=>p.validUntil===y).length)')
+          echo "expired=$n" >> "$GITHUB_OUTPUT"
+      - if: steps.check.outputs.expired != '0' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "Rebuild: ${{ steps.check.outputs.expired }} promo(s) vencieron ayer"
+          git push

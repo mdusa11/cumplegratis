@@ -11,6 +11,6 @@ export function promosInCity(city: CitySlug) {
     .sort((x, y) => byProminence(x.p, y.p) || AVAILABILITY_RANK[x.a] - AVAILABILITY_RANK[y.a]);
   return {
     local: list.filter(({ a }) => a === "tu-ciudad" || a === "cerca" || a === "tu-estado").map(({ p }) => p),
-    national: list.filter(({ a }) => a === "nacional" || a === "sin-dato").map(({ p }) => p),
+    national: list.filter(({ a }) => a === "nacional" || a === "en-linea" || a === "sin-dato").map(({ p }) => p),
   };
 }

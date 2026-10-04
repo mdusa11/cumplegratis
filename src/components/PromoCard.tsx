@@ -8,7 +8,7 @@ import { BenefitBadge } from "./BenefitBadge";
 import { useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { availability } from "@/lib/availability";
-import { CATEGORIES, GROUPS, WINDOW_LABEL, coverageLabel, expiryLabel, groupOf, quickRules, ruleIcon, type Promo } from "@/lib/promos";
+import { CATEGORIES, GROUPS, WINDOW_LABEL, coverageLabel, expiryLabel, isEverywhere, groupOf, quickRules, ruleIcon, type Promo } from "@/lib/promos";
 import { cn } from "@/lib/site";
 
 const MAX_BULLETS = 3;
@@ -95,10 +95,11 @@ export function PromoCard({ promo }: { promo: Promo }) {
             <Icon name="calendar" /> {WINDOW_LABEL[promo.window]}
           </span>
           <span className={cn("chip max-w-full !whitespace-normal leading-tight", local ? "bg-sun" : "bg-paper")}>
-            <Icon name={promo.coverage === "nacional" ? "mexico" : "pin"} /> {coverageLabel(promo)}
+            <Icon name={isEverywhere(promo) ? "mexico" : "pin"} /> {coverageLabel(promo)}
           </span>
           {avail === "fuera" && <span className="chip bg-hot">Fuera de tu zona</span>}
           {(avail === "tu-ciudad" || avail === "cerca") && <span className="chip bg-acid">✓ Cerca de ti</span>}
+          {avail === "en-linea" && <span className="chip bg-sky">En línea</span>}
           {expiry && (
             <span className="chip animate-pulse bg-hot">
               <Icon name="hourglass" /> {expiry}

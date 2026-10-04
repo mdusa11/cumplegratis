@@ -1,5 +1,6 @@
 // Une data/raw/*.json en src/data/promos.json, validando cada promo. Uso: npm run data
 // Los archivos "_extra-*.json" no traen promos nuevas: completan ubicación y reglas de promos existentes (por slug).
+// "_presence-*.json": sucursales reales de cada cadena nacional (estados, ciudades, si se cobra en línea).
 // "_fixes.json": correcciones manuales ({ slug, remove: true } quita una promo cerrada; { slug, patch: {...} } corrige campos).
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
@@ -44,12 +45,13 @@ const warnings = [];
 
 /** Normaliza ubicación: descarta claves desconocidas y deduce estados a partir de ciudades. */
 function location(raw, slug) {
-  let coverage = COVERAGE.has(raw.coverage) ? raw.coverage : null;
   const cities = (Array.isArray(raw.cities) ? raw.cities : []).filter((c) => {
     if (c in CITIES) return true;
     warnings.push(`${slug}: ciudad desconocida "${c}"`);
     return false;
   });
+  // Si el agente escribió algo raro en coverage ("Tepic"), se deduce de lo que sí trae.
+  let coverage = COVERAGE.has(raw.coverage) ? raw.coverage : raw.coverage && cities.length ? "ciudades" : raw.coverage && raw.states?.length ? "estados" : null;
   const states = new Set(
     (Array.isArray(raw.states) ? raw.states : []).map((s) => STATE_ALIASES[s] ?? s).filter((s) => {
       if (s in STATES) return true;
@@ -127,6 +129,7 @@ const files = (await readdir(RAW)).filter((f) => f.endsWith(".json")).sort();
 const bySlug = new Map();
 const overlays = [];
 const fixes = [];
+const presence = [];
 let rejected = 0;
 
 for (const file of files) {
@@ -139,6 +142,10 @@ for (const file of files) {
   }
   if (file === "_fixes.json") {
     fixes.push(...items);
+    continue;
+  }
+  if (file.startsWith("_presence")) {
+    presence.push(...items);
     continue;
   }
   if (file.startsWith("_")) {
@@ -200,6 +207,24 @@ for (const o of overlays) {
   applied++;
 }
 
+let located = 0;
+for (const o of presence) {
+  const p = bySlug.get(o.slug);
+  if (!p) {
+    warnings.push(`sucursales para slug inexistente "${o.slug}"`);
+    continue;
+  }
+  if (/^CERRADA/i.test(o.note ?? "")) warnings.push(`${o.slug}: el agente reporta que cerró (${o.note})`);
+  if (p.coverage !== "nacional" || o.scope === "servicio") continue;
+  const cities = (o.cities ?? []).filter((c) => c in CITIES);
+  const states = new Set([...(o.states ?? []).map((s) => STATE_ALIASES[s] ?? s).filter((s) => s in STATES), ...cities.map((c) => CITIES[c].state)]);
+  if (states.size === 0) continue;
+  // Presente en los 32 estados = nacional de verdad; solo guardamos ciudades para marcar "en tu ciudad".
+  p.presence = { states: [...states].sort(), cities: [...new Set(cities)].sort(), online: o.online === true };
+  for (const s of o.sources ?? []) if (isUrl(s) && !p.sources.includes(s)) p.sources.push(s);
+  located++;
+}
+
 for (const f of fixes) {
   if (!bySlug.has(f.slug)) continue;
   if (f.remove) bySlug.delete(f.slug);
@@ -223,7 +248,7 @@ warnings.forEach((w) => console.warn(`⚠ ${w}`));
 const count = (k, v) => promos.filter((p) => p[k] === v).length;
 console.log(
   `✓ ${promos.length} promos (alta ${count("confidence", "alta")}, media ${count("confidence", "media")}, baja ${count("confidence", "baja")}), ` +
-    `${rejected} rechazadas, ${applied} con ubicación verificada aparte → ${OUT}`,
+    `${rejected} rechazadas, ${applied} con ubicación verificada aparte, ${located} cadenas con sucursales → ${OUT}`,
 );
 console.log(`  vigencia: ${promos.filter((p) => p.validUntil).length} con fecha de fin, ${expired} vencidas quitadas`);
 console.log(

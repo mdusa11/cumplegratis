@@ -77,6 +77,8 @@ export type Promo = {
   coverage: Coverage | null;
   states: StateCode[];
   cities: CitySlug[];
+  /** Cadenas nacionales: dónde tienen sucursal de verdad y si el regalo también se cobra en línea. */
+  presence?: { states: StateCode[]; cities: CitySlug[]; online: boolean };
   locationNote: string | null;
   needsId: boolean | null;
   companions: number | null;
@@ -144,8 +146,15 @@ const listJoin = (items: string[]) =>
   items.length <= 1 ? (items[0] ?? "") : `${items.slice(0, -1).join(", ")} y ${items[items.length - 1]}`;
 
 /** "Todo México", "Solo en Guadalajara", "Monterrey, Saltillo y 3 más", "Jalisco y Nuevo León". */
+/** Nacional y con sucursales en (casi) todo el país. */
+export const isEverywhere = (p: Promo) => p.coverage === "nacional" && (p.presence?.states.length ?? 32) >= 30;
+
 export function coverageLabel(p: Promo) {
-  if (p.coverage === "nacional") return "Todo México";
+  if (p.coverage === "nacional") {
+    const n = p.presence?.states.length ?? 32;
+    if (isEverywhere(p)) return "Todo México";
+    return `Sucursales en ${n} ${n === 1 ? "estado" : "estados"}${p.presence?.online ? " y en línea" : ""}`;
+  }
   if (p.coverage === "ciudades") {
     const names = p.cities.map((c) => CITIES[c].name);
     return names.length === 1 ? `Solo en ${names[0]}` : names.length <= 3 ? listJoin(names) : `${names.slice(0, 2).join(", ")} y ${names.length - 2} más`;

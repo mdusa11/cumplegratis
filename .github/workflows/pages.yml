@@ -1,12 +1,11 @@
-name: GitHub Pages
+name: GitHub Pages (redirección)
 
+# La copia vieja en mdusa11.github.io/cumplegratis solo redirige a cumplegratis.fun, conservando la ruta.
 on:
   push:
     branches: [main]
+    paths: [redirect/**, .github/workflows/pages.yml]
   workflow_dispatch:
-  # Reconstruye a diario para que las promos vencidas desaparezcan solas.
-  schedule:
-    - cron: "0 11 * * *"
 
 permissions:
   contents: read
@@ -22,18 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-      - run: npm ci
-      - run: npx next build
-        env:
-          GITHUB_PAGES: "true"
-          NEXT_PUBLIC_SITE_URL: https://mdusa11.github.io/cumplegratis
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: redirect
 
   deploy:
     needs: build

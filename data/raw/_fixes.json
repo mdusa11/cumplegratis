@@ -234,5 +234,10 @@
     "slug": "fiesta-rewards-apreciare-certificado-cumpleanos",
     "remove": true,
     "reason": "Solo para quien contrata eventos/banquetes en hoteles Posadas, no es para el público general"
+  },
+  {
+    "slug": "mi-lola-tepic",
+    "remove": true,
+    "reason": "Única fuente: directorio de convenios sin fecha con material de 2018; probablemente ya no vigente"
   }
 ]
