@@ -20,7 +20,7 @@ export const MONTHS = [
 export const jsonLd = (data: unknown) => ({ __html: JSON.stringify(data).replace(/</g, "\\u003c") });
 
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-/** En GitHub Pages no hay servidor: los formularios que escriben en Supabase se ocultan. */
+/** En el export estático no hay servidor: los formularios que escriben en Supabase se ocultan. */
 export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";
 
 /**
@@ -34,8 +34,8 @@ export const LEGAL = {
   updated: "4 de octubre de 2026",
 };
 
-/** URL absoluta de una página; en GitHub Pages lleva diagonal final (trailingSlash) para coincidir con la canónica. */
-export const pageUrl = (path: string) => `${SITE.url}${path === "/" ? "" : path}${BASE_PATH ? "/" : ""}`;
+/** URL absoluta de una página; en el export estático lleva diagonal final (trailingSlash) para coincidir con la canónica. */
+export const pageUrl = (path: string) => `${SITE.url}${path === "/" ? "" : path}${API_ENABLED ? "" : "/"}`;
 
 /** BreadcrumbList para Google: [["Promos", "/promos"], ["Café", "/categorias/cafe"]] */
 export const breadcrumbs = (items: [string, string][]) => ({

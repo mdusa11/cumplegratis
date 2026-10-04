@@ -1,0 +1,57 @@
+name: Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # Reconstruye a diario para que las promos vencidas desaparezcan solas.
+  schedule:
+    - cron: "0 11 * * *"
+
+concurrency:
+  group: cloudflare
+  cancel-in-progress: true
+
+env:
+  PROJECT: cumplegratis
+  DOMAIN: cumplegratis.fun
+  CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+jobs:
+  deploy:
+    # Hasta que exista el secreto, solo corre a mano; luego CLOUDFLARE_READY=true activa push y cron.
+    if: github.event_name == 'workflow_dispatch' || vars.CLOUDFLARE_READY == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx next build
+        env:
+          STATIC_EXPORT: "true"
+          NEXT_PUBLIC_SITE_URL: https://cumplegratis.fun
+
+      - name: Cuenta y zona
+        run: |
+          api() { curl -fsS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$@"; }
+          echo "CLOUDFLARE_ACCOUNT_ID=$(api https://api.cloudflare.com/client/v4/accounts | jq -r '.result[0].id')" >> "$GITHUB_ENV"
+          echo "ZONE_ID=$(api "https://api.cloudflare.com/client/v4/zones?name=$DOMAIN" | jq -r '.result[0].id')" >> "$GITHUB_ENV"
+
+      - name: Proyecto (solo la primera vez)
+        run: npx wrangler@4 pages project create "$PROJECT" --production-branch main || true
+
+      - run: npx wrangler@4 pages deploy out --project-name "$PROJECT" --branch main --commit-dirty=true
+
+      - name: Dominio propio (idempotente)
+        run: |
+          api() { curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$@"; }
+          base=https://api.cloudflare.com/client/v4
+          for host in "$DOMAIN" "www.$DOMAIN"; do
+            api -X POST "$base/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT/domains" -d "{\"name\":\"$host\"}" | jq -c '{host: .result.name, ok: .success, errors: [.errors[].message]}'
+            if [ "$(api "$base/zones/$ZONE_ID/dns_records?name=$host" | jq '.result | length')" = "0" ]; then
+              api -X POST "$base/zones/$ZONE_ID/dns_records" -d "{\"type\":\"CNAME\",\"name\":\"$host\",\"content\":\"$PROJECT.pages.dev\",\"proxied\":true}" | jq -c '{dns: .result.name, ok: .success}'
+            fi
+          done
