@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "tabu-sushi-noroeste",
+    "brand": "Tabu Sushi",
+    "category": "restaurantes",
+    "benefit": "Ruleta cumpleañera: comida, postre, $200 o 20% de descuento",
+    "benefitType": "gratis",
+    "details": "El día de tu cumpleaños participas en la ruleta cumpleañera y ganas uno de estos premios: comida gratis (un platillo, una bebida y un postre), una bebida, un postre, $200 MXN de crédito para una visita posterior o 20% de descuento sobre la cuenta total de la mesa. Válido solo el día del cumpleaños comprobado con INE, solo en restaurante (no domicilio ni Uber Eats), no acumulable y sin validez el 14 de febrero ni el 10 de mayo. La página oficial publica vigencia al 31 de enero de 2026 o hasta agotar existencias; confirma si la renovaron.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE vigente el mismo día de tu cumpleaños",
+      "Solo consumo en restaurante (no domicilio ni Uber Eats)",
+      "Menores de edad: el premio no aplica para bebidas con alcohol",
+      "No válido el 14 de febrero ni el 10 de mayo",
+      "No acumulable con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños (vigencia publicada: 31 ene 2026 o hasta agotar existencias)",
+    "minPurchase": null,
+    "howToClaim": "Avisa en la sucursal que es tu cumpleaños, presenta tu INE y gira la ruleta; si quieres, reserva antes en tabusushi.com/ruleta.",
+    "sources": [
+      "https://tabusushi.com/promos/",
+      "https://tabusushi.com/ruleta/",
+      "https://tabusushi.com/sucursales/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "SON",
+      "BCN"
+    ],
+    "cities": [
+      "hermosillo",
+      "ciudad-obregon",
+      "tijuana",
+      "mexicali"
+    ],
+    "locationNote": "La página oficial limita la promo a Cd. Obregón, Guaymas, Hermosillo, Tijuana, Mexicali y San Luis Río Colorado (Guaymas y San Luis Río Colorado no están entre las ciudades de la lista). Hay sucursales en Guasave, La Paz y Cabo San Lucas que no figuran en la promo.",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "flyers-jump-and-fun-baja-california",
+    "brand": "Flyers Jump and Fun",
+    "category": "parques",
+    "benefit": "Saltas gratis el mismo tiempo que tus acompañantes",
+    "benefitType": "gratis",
+    "details": "El cumpleañero salta gratis durante el mismo tiempo que compren sus acompañantes, siempre que llegue con al menos una persona. Se pide comprobante de fecha de nacimiento con foto: credencial escolar con fecha de nacimiento, credencial escolar más CURP o acta, certificado escolar con foto y fecha, INE (adultos), boleta con foto más CURP o acta, o pasaporte mexicano o estadounidense. La página no precisa si aplica el día exacto o todo el mes; al registrarte también hay sorpresas el día de tu visita.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 1 acompañante",
+      "Saltas el mismo tiempo que compran tus acompañantes",
+      "Comprobante de nacimiento con foto (INE, credencial escolar, pasaporte)",
+      "Menores: credencial escolar + CURP o acta, o boleta con foto + CURP"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La página oficial no especifica el día o mes de validez; confirma en taquilla",
+    "minPurchase": null,
+    "howToClaim": "Llega con tus acompañantes, avisa en taquilla que es tu cumpleaños y presenta tu comprobante de fecha de nacimiento con foto.",
+    "sources": [
+      "https://www.flyersjumpandfun.com/entradas/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana",
+      "mexicali",
+      "ensenada"
+    ],
+    "locationNote": "Tijuana (Zona Río, Plaza Monarca, Plaza Oasis, Plaza La Pajarita), Mexicali y Ensenada",
+    "needsId": true,
+    "companions": 1
+  },
+  {
+    "slug": "fridays-tijuana-club-cumpleanos",
+    "brand": "Friday's Tijuana (Club de Cumpleaños)",
+    "category": "restaurantes",
+    "benefit": "Descuento igual a tu edad en % (invitados 10%)",
+    "benefitType": "descuento",
+    "details": "Con el Club de Cumpleaños de Friday's Tijuana el cumpleañero recibe un descuento sobre su consumo igual a su edad en porcentaje (con 30 años, 30%) y sus invitados reciben 10% de descuento en su consumo. Hay que descargar la app FRIDAYSTJ REWARDS y registrar la fecha de nacimiento antes del cumpleaños; el descuento se activa escaneando el ticket en la app. Aplica el día del cumpleaños y hasta 7 días después, solo para mayores de 18 años, con INE o identificación oficial con foto; no aplica con otras promociones.",
+    "program": "FRIDAYSTJ REWARDS (app de Friday's Tijuana)",
+    "signupUrl": "https://fridaystijuana.com/club-de-cumpleanos/",
+    "requirements": [
+      "Descargar la app FRIDAYSTJ REWARDS",
+      "Registrar tu fecha de nacimiento antes de tu cumpleaños",
+      "Solo mayores de 18 años",
+      "INE o identificación oficial con foto",
+      "Escanear tu ticket en la app para activar el descuento",
+      "No aplica con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El día de tu cumpleaños y hasta 7 días después",
+    "minPurchase": null,
+    "howToClaim": "Registra tu cumpleaños en la app antes de la fecha, escanea tu ticket y presenta tu identificación con foto al pagar.",
+    "sources": [
+      "https://fridaystijuana.com/club-de-cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Franquicia local de Tijuana con programa propio (sucursales Zona Río y Macroplaza); distinto del programa nacional de TGI Fridays",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "citicinemas-culiacan",
+    "brand": "Citicinemas",
+    "category": "cine",
+    "benefit": "Combo cumpleañero: entrada + palomitas + refresco",
+    "benefitType": "gratis",
+    "details": "Con la tarjeta de lealtad CitiPremia (desde el nivel 1) recibes en tu mes de cumpleaños un combo con 1 entrada en cualquier tipo de sala, palomitas saladas grandes (aprox. 120 g) y refresco grande (900 ml). Se canjea en taquilla presentando la tarjeta CitiPremia y el combo no puede modificarse. El registro es en la app o en citicinemas.com con tu fecha de nacimiento; los términos de febrero de 2025 indican que la tarjeta física cuesta $59 y que los beneficios se activan al día siguiente de confirmar el correo.",
+    "program": "CitiPremia",
+    "signupUrl": "https://www.citicinemas.com/beneficios-citipremia",
+    "requirements": [
+      "Registrarte en CitiPremia (app o citicinemas.com) con tu fecha de nacimiento",
+      "Confirmar tu correo para activar la tarjeta",
+      "Tarjeta física CitiPremia (cuesta $59 según términos de 2025)",
+      "Presentar la tarjeta en taquilla",
+      "Canjear solo durante el mes de tu cumpleaños"
+    ],
+    "registerDaysBefore": 1,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate, confirma tu correo y recoge tu tarjeta CitiPremia; en el mes de tu cumpleaños preséntala en taquilla para canjear el combo.",
+    "sources": [
+      "https://www.citicinemas.com/beneficios-citipremia",
+      "https://www.citicinemas.com/docs/citipremia-terminos.pdf",
+      "https://www.citicinemas.com/complejos"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "culiacan"
+    ],
+    "locationNote": "Complejos La Isla y Galerías San Miguel (Culiacán); también hay en Guasave, Guamúchil (Sinaloa) y Torreón (Coahuila)",
+    "needsId": false,
+    "companions": null
+  },
+  {
+    "slug": "ki-ooki-sushi-mexicali",
+    "brand": "Ki-ooki Sushi",
+    "category": "restaurantes",
+    "benefit": "Helado tempura de cortesía en tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Según la página de Facebook del restaurante, el cumpleañero recibe de cortesía un helado tempura al presentar su INE al hacer su compra. La publicación no detalla mínimo de consumo, acompañantes, días ni vigencia, así que conviene confirmarlo por teléfono (686 268 2867) antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Presentar tu INE al hacer tu compra",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Se entiende el día de tu cumpleaños; la publicación no lo precisa",
+    "minPurchase": null,
+    "howToClaim": "Pide tu consumo, avisa que es tu cumpleaños y muestra tu INE para recibir el helado tempura.",
+    "sources": [
+      "https://www.facebook.com/kiookisushi/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "mexicali"
+    ],
+    "locationNote": "Sucursal Independencia (Av. Fray Servando Teresa de Mier 1300, Mexicali)",
+    "needsId": true,
+    "companions": null
+  },
+  {
+    "slug": "mona-cafe-hermosillo",
+    "brand": "Mona Café",
+    "category": "cafe",
+    "benefit": "Rebanada de pastel de la casa gratis",
+    "benefitType": "gratis",
+    "details": "Según la página de Facebook del café, los cumpleañeros reciben de cortesía una rebanada del pastel de la casa. No se publican requisitos como identificación, mínimo de consumo, acompañantes o vigencia, por lo que conviene confirmar por teléfono (662 225 7472).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el café",
+      "Condiciones adicionales no publicadas (confirma si piden identificación)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica si es el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al personal que es tu cumpleaños al pedir en el café.",
+    "sources": [
+      "https://www.facebook.com/monacafehermosillo/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "SON"
+    ],
+    "cities": [
+      "hermosillo"
+    ],
+    "locationNote": "Mona Café, Av. Oaxaca 48, Hermosillo",
+    "needsId": null,
+    "companions": null
+  }
+]

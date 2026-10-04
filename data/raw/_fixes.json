@@ -53,5 +53,10 @@
     "slug": "vena-cava-xalapa",
     "remove": true,
     "reason": "Su vigencia oficial terminó el 31-ago-2026; quitar hasta ver renovación"
+  },
+  {
+    "slug": "los-alcatraces-villa-del-conquistador-cuernavaca",
+    "remove": true,
+    "reason": "Promo mensual; la última vigencia publicada (agosto 2026) ya venció"
   }
 ]

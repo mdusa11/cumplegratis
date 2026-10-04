@@ -569,7 +569,7 @@
     ],
     "locationNote": "Restaurante del hotel Live Aqua San Miguel de Allende; el sitio habla del 'titular' (posible tarjeta del programa de lealtad), confirma si necesitas membresía",
     "needsId": true,
-    "companions": 9
+    "companions": null
   },
   {
     "slug": "el-timon-mariscos-apizaco",

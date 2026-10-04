@@ -7783,7 +7783,7 @@
     ],
     "locationNote": "Restaurante del hotel Live Aqua San Miguel de Allende; el sitio habla del 'titular' (posible tarjeta del programa de lealtad), confirma si necesitas membresía",
     "needsId": true,
-    "companions": 9,
+    "companions": null,
     "validUntil": null
   },
   {
@@ -8070,45 +8070,6 @@
     "validUntil": null
   },
   {
-    "slug": "los-alcatraces-villa-del-conquistador-cuernavaca",
-    "brand": "Los Alcatraces (Hotel Villa del Conquistador)",
-    "category": "restaurantes",
-    "benefit": "Platillo de mayor precio de cortesía con 3 acompañantes",
-    "benefitType": "gratis",
-    "details": "En el restaurante Los Alcatraces del Hotel Villa del Conquistador, el platillo de mayor precio consumido por el cumpleañero va de cortesía si llega con al menos 3 acompañantes (niños, adolescentes o adultos) y presenta copia de identificación oficial. Aplica todos los días en desayunos, comidas, cenas y buffet, 7 días antes y 7 días después de tu cumpleaños; hay que mencionar la promoción al mesero y firmar el cheque. La vigencia se renueva por mes y la última publicada (agosto 2026) ya venció.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Copia de identificación oficial",
-      "Ir con 3 acompañantes o más",
-      "7 días antes o 7 después de tu cumpleaños",
-      "Mencionar la promoción al mesero y a la hostess al llegar",
-      "Firmar el cheque de consumo; no aplica con otras promos",
-      "Confirma la vigencia del mes en curso"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "Del día -7 al +7 de tu cumpleaños; vigencia mensual (última publicada: 1 al 31 de agosto de 2026)",
-    "minPurchase": null,
-    "howToClaim": "Menciona la promoción al llegar al restaurante, presenta copia de tu identificación y firma el cheque.",
-    "sources": [
-      "https://hotelvilladelconquistador.com/promocumpleanos/",
-      "https://hotelvilladelconquistador.com/restaurante"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "MOR"
-    ],
-    "cities": [
-      "cuernavaca"
-    ],
-    "locationNote": "Paseo del Conquistador 134, Lomas de Cortés, Cuernavaca",
-    "needsId": true,
-    "companions": 3,
-    "validUntil": null
-  },
-  {
     "slug": "contender-go-karts-puebla-cuernavaca",
     "brand": "Contender Go-Karts",
     "category": "experiencias",
@@ -8326,7 +8287,7 @@
     "category": "restaurantes",
     "benefit": "Buffet para el cumpleañero a $269 con 3 acompañantes",
     "benefitType": "descuento",
-    "details": "Según resultados de búsqueda sobre su Facebook, el cumpleañero paga $269 por el buffet si va acompañado de 3 personas que consuman buffet de adulto (precio regular reportado: $469 adultos). Su Instagram oficial tiene una historia destacada \"Promos\", pero las reglas no se pudieron leer en un canal propio.",
+    "details": "Según listados en línea (su Facebook y TikTok aparecen como fuente), el cumpleañero paga $269 por el buffet si va acompañado de 3 personas que consuman buffet de adulto (precio regular reportado: $469 adultos). Su Instagram oficial tiene una historia destacada \"Promos\", pero no se pudo leer la publicación original, así que reglas y vigencia siguen sin confirmar.",
     "program": null,
     "signupUrl": null,
     "requirements": [
@@ -8775,6 +8736,44 @@
     "locationNote": "Costa Azul, Acapulco",
     "needsId": null,
     "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "fogon-do-brasil-puebla",
+    "brand": "Fogón do Brasil (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Buffet y caipirinha gratis el día de tu cumpleaños (por confirmar)",
+    "benefitType": "gratis",
+    "details": "Fogón do Brasil publica en su Facebook oficial que \"tu cumpleaños será una delicia\" y pide preguntar por la promoción. Resultados de búsqueda de otras sucursales reportan buffet y caipirinha gratis para el cumpleañero, pago en efectivo, válido solo el día del cumpleaños con identificación oficial y desde un acompañante. No se encontró el detalle publicado para las sucursales de Puebla (Moratilla y La Noria) y el sitio oficial no muestra las reglas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 1 acompañante como mínimo (según otras sucursales)",
+      "Solo el día de tu cumpleaños (según otras sucursales)",
+      "Pago en efectivo (según otras sucursales)",
+      "Confirma que aplique en la sucursal de Puebla"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños, según otras sucursales; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por la promoción de cumpleaños en la sucursal (Moratilla: 222 268 2210) antes de ir.",
+    "sources": [
+      "https://www.facebook.com/fogondobrasilmarquesa/videos/s%C3%B3lo-en-fog%C3%B3n-do-brasil-tu-cumplea%C3%B1os-ser%C3%A1-una-deliciapregunta-por-nuestra-promo/432423410711326/",
+      "https://fogondobrasil.com/moratilla/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Sucursales Moratilla (Autopista México-Puebla) y La Noria (Av. 39 Poniente 1751), Puebla; sin verificar en cuál aplica",
+    "needsId": true,
+    "companions": 1,
     "validUntil": null
   },
   {
@@ -9704,6 +9703,189 @@
       "oaxaca"
     ],
     "locationNote": "Pabellón Violetas, Violetas 401, Col. Reforma, Oaxaca de Juárez. Dato de un TikTok de 2023; no pude abrir el video.",
+    "needsId": null,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "flyers-jump-and-fun-baja-california",
+    "brand": "Flyers Jump and Fun",
+    "category": "parques",
+    "benefit": "Saltas gratis el mismo tiempo que tus acompañantes",
+    "benefitType": "gratis",
+    "details": "El cumpleañero salta gratis durante el mismo tiempo que compren sus acompañantes, siempre que llegue con al menos una persona. Se pide comprobante de fecha de nacimiento con foto: credencial escolar con fecha de nacimiento, credencial escolar más CURP o acta, certificado escolar con foto y fecha, INE (adultos), boleta con foto más CURP o acta, o pasaporte mexicano o estadounidense. La página no precisa si aplica el día exacto o todo el mes; al registrarte también hay sorpresas el día de tu visita.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ir con al menos 1 acompañante",
+      "Saltas el mismo tiempo que compran tus acompañantes",
+      "Comprobante de nacimiento con foto (INE, credencial escolar, pasaporte)",
+      "Menores: credencial escolar + CURP o acta, o boleta con foto + CURP"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "La página oficial no especifica el día o mes de validez; confirma en taquilla",
+    "minPurchase": null,
+    "howToClaim": "Llega con tus acompañantes, avisa en taquilla que es tu cumpleaños y presenta tu comprobante de fecha de nacimiento con foto.",
+    "sources": [
+      "https://www.flyersjumpandfun.com/entradas/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana",
+      "mexicali",
+      "ensenada"
+    ],
+    "locationNote": "Tijuana (Zona Río, Plaza Monarca, Plaza Oasis, Plaza La Pajarita), Mexicali y Ensenada",
+    "needsId": true,
+    "companions": 1,
+    "validUntil": null
+  },
+  {
+    "slug": "fridays-tijuana-club-cumpleanos",
+    "brand": "Friday's Tijuana (Club de Cumpleaños)",
+    "category": "restaurantes",
+    "benefit": "Descuento igual a tu edad en % (invitados 10%)",
+    "benefitType": "descuento",
+    "details": "Con el Club de Cumpleaños de Friday's Tijuana el cumpleañero recibe un descuento sobre su consumo igual a su edad en porcentaje (con 30 años, 30%) y sus invitados reciben 10% de descuento en su consumo. Hay que descargar la app FRIDAYSTJ REWARDS y registrar la fecha de nacimiento antes del cumpleaños; el descuento se activa escaneando el ticket en la app. Aplica el día del cumpleaños y hasta 7 días después, solo para mayores de 18 años, con INE o identificación oficial con foto; no aplica con otras promociones.",
+    "program": "FRIDAYSTJ REWARDS (app de Friday's Tijuana)",
+    "signupUrl": "https://fridaystijuana.com/club-de-cumpleanos/",
+    "requirements": [
+      "Descargar la app FRIDAYSTJ REWARDS",
+      "Registrar tu fecha de nacimiento antes de tu cumpleaños",
+      "Solo mayores de 18 años",
+      "INE o identificación oficial con foto",
+      "Escanear tu ticket en la app para activar el descuento",
+      "No aplica con otras promociones"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El día de tu cumpleaños y hasta 7 días después",
+    "minPurchase": null,
+    "howToClaim": "Registra tu cumpleaños en la app antes de la fecha, escanea tu ticket y presenta tu identificación con foto al pagar.",
+    "sources": [
+      "https://fridaystijuana.com/club-de-cumpleanos/"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "tijuana"
+    ],
+    "locationNote": "Franquicia local de Tijuana con programa propio (sucursales Zona Río y Macroplaza); distinto del programa nacional de TGI Fridays",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "citicinemas-culiacan",
+    "brand": "Citicinemas",
+    "category": "cine",
+    "benefit": "Combo cumpleañero: entrada + palomitas + refresco",
+    "benefitType": "gratis",
+    "details": "Con la tarjeta de lealtad CitiPremia (desde el nivel 1) recibes en tu mes de cumpleaños un combo con 1 entrada en cualquier tipo de sala, palomitas saladas grandes (aprox. 120 g) y refresco grande (900 ml). Se canjea en taquilla presentando la tarjeta CitiPremia y el combo no puede modificarse. El registro es en la app o en citicinemas.com con tu fecha de nacimiento; los términos de febrero de 2025 indican que la tarjeta física cuesta $59 y que los beneficios se activan al día siguiente de confirmar el correo.",
+    "program": "CitiPremia",
+    "signupUrl": "https://www.citicinemas.com/beneficios-citipremia",
+    "requirements": [
+      "Registrarte en CitiPremia (app o citicinemas.com) con tu fecha de nacimiento",
+      "Confirmar tu correo para activar la tarjeta",
+      "Tarjeta física CitiPremia (cuesta $59 según términos de 2025)",
+      "Presentar la tarjeta en taquilla",
+      "Canjear solo durante el mes de tu cumpleaños"
+    ],
+    "registerDaysBefore": 1,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Regístrate, confirma tu correo y recoge tu tarjeta CitiPremia; en el mes de tu cumpleaños preséntala en taquilla para canjear el combo.",
+    "sources": [
+      "https://www.citicinemas.com/beneficios-citipremia",
+      "https://www.citicinemas.com/docs/citipremia-terminos.pdf",
+      "https://www.citicinemas.com/complejos"
+    ],
+    "confidence": "alta",
+    "coverage": "ciudades",
+    "states": [
+      "SIN"
+    ],
+    "cities": [
+      "culiacan"
+    ],
+    "locationNote": "Complejos La Isla y Galerías San Miguel (Culiacán); también hay en Guasave, Guamúchil (Sinaloa) y Torreón (Coahuila)",
+    "needsId": false,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "ki-ooki-sushi-mexicali",
+    "brand": "Ki-ooki Sushi",
+    "category": "restaurantes",
+    "benefit": "Helado tempura de cortesía en tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Según la página de Facebook del restaurante, el cumpleañero recibe de cortesía un helado tempura al presentar su INE al hacer su compra. La publicación no detalla mínimo de consumo, acompañantes, días ni vigencia, así que conviene confirmarlo por teléfono (686 268 2867) antes de ir.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Presentar tu INE al hacer tu compra",
+      "Condiciones adicionales no publicadas"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Se entiende el día de tu cumpleaños; la publicación no lo precisa",
+    "minPurchase": null,
+    "howToClaim": "Pide tu consumo, avisa que es tu cumpleaños y muestra tu INE para recibir el helado tempura.",
+    "sources": [
+      "https://www.facebook.com/kiookisushi/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "BCN"
+    ],
+    "cities": [
+      "mexicali"
+    ],
+    "locationNote": "Sucursal Independencia (Av. Fray Servando Teresa de Mier 1300, Mexicali)",
+    "needsId": true,
+    "companions": null,
+    "validUntil": null
+  },
+  {
+    "slug": "mona-cafe-hermosillo",
+    "brand": "Mona Café",
+    "category": "cafe",
+    "benefit": "Rebanada de pastel de la casa gratis",
+    "benefitType": "gratis",
+    "details": "Según la página de Facebook del café, los cumpleañeros reciben de cortesía una rebanada del pastel de la casa. No se publican requisitos como identificación, mínimo de consumo, acompañantes o vigencia, por lo que conviene confirmar por teléfono (662 225 7472).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Celebrar tu cumpleaños en el café",
+      "Condiciones adicionales no publicadas (confirma si piden identificación)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No se especifica si es el día exacto o el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa al personal que es tu cumpleaños al pedir en el café.",
+    "sources": [
+      "https://www.facebook.com/monacafehermosillo/"
+    ],
+    "confidence": "media",
+    "coverage": "ciudades",
+    "states": [
+      "SON"
+    ],
+    "cities": [
+      "hermosillo"
+    ],
+    "locationNote": "Mona Café, Av. Oaxaca 48, Hermosillo",
     "needsId": null,
     "companions": null,
     "validUntil": null
@@ -11885,22 +12067,23 @@
     "slug": "kantun-chi-playa-del-carmen",
     "brand": "Ecopark Kantun-Chi",
     "category": "parques",
-    "benefit": "Cumpleañero gratis al comprar 3 pases de adulto",
+    "benefit": "Cumpleañero gratis al comprar 3 accesos de adulto",
     "benefitType": "regalo-con-compra",
-    "details": "En tu mes de cumpleaños, si compras 3 pases de adulto la entrada del cumpleañero va gratis. Aplica en Grutaventura, Aguas Mágicas, Gruta Travesía y las 4 Travesías, con tarifa de extranjero, mexicano o quintanarroense, y pide identificación oficial física vigente según la tarifa. Solo se reserva por correo o teléfono; no aplica en taquilla.",
+    "details": "Compras 3 accesos de adulto y el 4.º acceso, el del cumpleañero, es gratis. Válido en tu mes de cumpleaños, presentando identificación oficial física y vigente según la tarifa (INE, pasaporte o licencia para mexicanos y quintanarroenses). Aplica en Grutaventura, Aguas Mágicas, Gruta Travesía y 4 Travesías, con tarifas de extranjeros, mexicanos y quintanarroenses. Promoción exclusiva por WhatsApp o correo; no aplica en taquilla ni con otras promociones.",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Comprar 3 pases de adulto (el cumpleañero entra gratis)",
+      "Comprar 3 accesos de adulto (el 4.º, del cumpleañero, es gratis)",
       "Solo en tu mes de cumpleaños",
-      "Identificación oficial física y vigente",
-      "Reservar por correo o teléfono; no aplica en taquilla"
+      "Identificación oficial física y vigente según tu tarifa",
+      "Reservar por WhatsApp o correo; no aplica en taquilla",
+      "No acumulable con otras promociones"
     ],
     "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Durante tu mes de cumpleaños; la página no indica fecha de vigencia de esta promo",
     "minPurchase": null,
-    "howToClaim": "Reserva en reservaciones@kantunchi.com o al 984 271 0681 pidiendo la promoción de cumpleaños y lleva tu identificación oficial.",
+    "howToClaim": "Reserva por WhatsApp al 984 271 0681 o en reservaciones@kantunchi.com pidiendo la promoción Cumpleañero Gratis y lleva tu identificación oficial.",
     "sources": [
       "https://www.kantunchi.com/promociones"
     ],
@@ -11958,7 +12141,7 @@
     "category": "restaurantes",
     "benefit": "15% de tu consumo en puntos el día de tu cumpleaños",
     "benefitType": "regalo-con-compra",
-    "details": "Con la tarjeta gratuita The Gourmet Club, el día exacto de tu cumpleaños recibes 15% de tu consumo en puntos (en vez del 10% habitual) si consumes ese día y te acompañan al menos 3 personas. Cada punto vale $1 MXN, vence a los 180 días y para canjearlo debes gastar al menos 50% adicional.",
+    "details": "Con la tarjeta gratuita The Gourmet Club, el día exacto de tu cumpleaños recibes 15% de tu consumo en puntos (en vez del 10% habitual) si consumes ese día y te acompañan al menos 3 personas. Cada punto vale $1 MXN, se puede canjear desde tu siguiente consumo, vence a los 180 días y al canjearlo debes consumir al menos 50% más del monto que pagues con puntos.",
     "program": "The Gourmet Club (MVNGATA)",
     "signupUrl": "https://mvngatahotel.com/thegourmetclub/",
     "requirements": [
@@ -11966,7 +12149,7 @@
       "Haber consumido antes en los restaurantes del hotel",
       "Consumir el día exacto de tu cumpleaños",
       "Ir con al menos 3 personas más",
-      "Puntos válidos 180 días; canje con 50% de gasto adicional"
+      "Puntos vencen a 180 días; canje con consumo 50% mayor al monto"
     ],
     "registerDaysBefore": null,
     "window": "dia",
@@ -13090,7 +13273,7 @@
     "category": "restaurantes",
     "benefit": "Cumpleañero come gratis con 5 amigos o más",
     "benefitType": "gratis",
-    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla, el cumpleañero come gratis si celebra con 5 amigos o más. Se revisó el Instagram oficial del restaurante (@antojitomio.puebla) y no menciona la promoción, así que sigue sin confirmarse en canales propios.",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla, el cumpleañero come gratis si celebra con 5 amigos o más. El restaurante tiene TikTok propio (@antojito.mo5), pero no se pudo leer el video de la promo; su Instagram oficial (@antojitomio.puebla) no la menciona, así que sigue sin confirmarse.",
     "program": null,
     "signupUrl": null,
     "requirements": [

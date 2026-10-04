@@ -10,18 +10,19 @@
   "slug": "kantun-chi-playa-del-carmen",
   "brand": "Ecopark Kantun-Chi",
   "category": "parques",
-  "benefit": "Cumpleañero gratis al comprar 3 pases de adulto",
+  "benefit": "Cumpleañero gratis al comprar 3 accesos de adulto",
   "benefitType": "regalo-con-compra",
-  "details": "En tu mes de cumpleaños, si compras 3 pases de adulto la entrada del cumpleañero va gratis. Aplica en Grutaventura, Aguas Mágicas, Gruta Travesía y las 4 Travesías, con tarifa de extranjero, mexicano o quintanarroense, y pide identificación oficial física vigente según la tarifa. Solo se reserva por correo o teléfono; no aplica en taquilla.",
+  "details": "Compras 3 accesos de adulto y el 4.º acceso, el del cumpleañero, es gratis. Válido en tu mes de cumpleaños, presentando identificación oficial física y vigente según la tarifa (INE, pasaporte o licencia para mexicanos y quintanarroenses). Aplica en Grutaventura, Aguas Mágicas, Gruta Travesía y 4 Travesías, con tarifas de extranjeros, mexicanos y quintanarroenses. Promoción exclusiva por WhatsApp o correo; no aplica en taquilla ni con otras promociones.",
   "requirements": [
-   "Comprar 3 pases de adulto (el cumpleañero entra gratis)",
+   "Comprar 3 accesos de adulto (el 4.º, del cumpleañero, es gratis)",
    "Solo en tu mes de cumpleaños",
-   "Identificación oficial física y vigente",
-   "Reservar por correo o teléfono; no aplica en taquilla"
+   "Identificación oficial física y vigente según tu tarifa",
+   "Reservar por WhatsApp o correo; no aplica en taquilla",
+   "No acumulable con otras promociones"
   ],
   "window": "mes",
   "windowNote": "Durante tu mes de cumpleaños; la página no indica fecha de vigencia de esta promo",
-  "howToClaim": "Reserva en reservaciones@kantunchi.com o al 984 271 0681 pidiendo la promoción de cumpleaños y lleva tu identificación oficial.",
+  "howToClaim": "Reserva por WhatsApp al 984 271 0681 o en reservaciones@kantunchi.com pidiendo la promoción Cumpleañero Gratis y lleva tu identificación oficial.",
   "sources": [
    "https://www.kantunchi.com/promociones"
   ],
@@ -81,13 +82,13 @@
   "category": "restaurantes",
   "benefit": "15% de tu consumo en puntos el día de tu cumpleaños",
   "benefitType": "regalo-con-compra",
-  "details": "Con la tarjeta gratuita The Gourmet Club, el día exacto de tu cumpleaños recibes 15% de tu consumo en puntos (en vez del 10% habitual) si consumes ese día y te acompañan al menos 3 personas. Cada punto vale $1 MXN, vence a los 180 días y para canjearlo debes gastar al menos 50% adicional.",
+  "details": "Con la tarjeta gratuita The Gourmet Club, el día exacto de tu cumpleaños recibes 15% de tu consumo en puntos (en vez del 10% habitual) si consumes ese día y te acompañan al menos 3 personas. Cada punto vale $1 MXN, se puede canjear desde tu siguiente consumo, vence a los 180 días y al canjearlo debes consumir al menos 50% más del monto que pagues con puntos.",
   "requirements": [
    "Tarjeta The Gourmet Club (gratis)",
    "Haber consumido antes en los restaurantes del hotel",
    "Consumir el día exacto de tu cumpleaños",
    "Ir con al menos 3 personas más",
-   "Puntos válidos 180 días; canje con 50% de gasto adicional"
+   "Puntos vencen a 180 días; canje con consumo 50% mayor al monto"
   ],
   "window": "dia",
   "windowNote": "Solo el día exacto de tu cumpleaños",

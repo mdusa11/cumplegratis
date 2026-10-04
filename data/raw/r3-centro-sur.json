@@ -288,7 +288,7 @@
     "category": "restaurantes",
     "benefit": "Cumpleañero come gratis con 5 amigos o más",
     "benefitType": "gratis",
-    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla, el cumpleañero come gratis si celebra con 5 amigos o más. Se revisó el Instagram oficial del restaurante (@antojitomio.puebla) y no menciona la promoción, así que sigue sin confirmarse en canales propios.",
+    "details": "Según listados de TikTok sobre restaurantes para cumpleaños en Puebla, el cumpleañero come gratis si celebra con 5 amigos o más. El restaurante tiene TikTok propio (@antojito.mo5), pero no se pudo leer el video de la promo; su Instagram oficial (@antojitomio.puebla) no la menciona, así que sigue sin confirmarse.",
     "program": null,
     "signupUrl": null,
     "requirements": [
@@ -557,7 +557,7 @@
     "category": "restaurantes",
     "benefit": "Buffet para el cumpleañero a $269 con 3 acompañantes",
     "benefitType": "descuento",
-    "details": "Según resultados de búsqueda sobre su Facebook, el cumpleañero paga $269 por el buffet si va acompañado de 3 personas que consuman buffet de adulto (precio regular reportado: $469 adultos). Su Instagram oficial tiene una historia destacada \"Promos\", pero las reglas no se pudieron leer en un canal propio.",
+    "details": "Según listados en línea (su Facebook y TikTok aparecen como fuente), el cumpleañero paga $269 por el buffet si va acompañado de 3 personas que consuman buffet de adulto (precio regular reportado: $469 adultos). Su Instagram oficial tiene una historia destacada \"Promos\", pero no se pudo leer la publicación original, así que reglas y vigencia siguen sin confirmar.",
     "program": null,
     "signupUrl": null,
     "requirements": [
@@ -994,5 +994,42 @@
     "locationNote": "Costa Azul, Acapulco",
     "needsId": null,
     "companions": null
+  },
+  {
+    "slug": "fogon-do-brasil-puebla",
+    "brand": "Fogón do Brasil (Puebla)",
+    "category": "restaurantes",
+    "benefit": "Buffet y caipirinha gratis el día de tu cumpleaños (por confirmar)",
+    "benefitType": "gratis",
+    "details": "Fogón do Brasil publica en su Facebook oficial que \"tu cumpleaños será una delicia\" y pide preguntar por la promoción. Resultados de búsqueda de otras sucursales reportan buffet y caipirinha gratis para el cumpleañero, pago en efectivo, válido solo el día del cumpleaños con identificación oficial y desde un acompañante. No se encontró el detalle publicado para las sucursales de Puebla (Moratilla y La Noria) y el sitio oficial no muestra las reglas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Ir con 1 acompañante como mínimo (según otras sucursales)",
+      "Solo el día de tu cumpleaños (según otras sucursales)",
+      "Pago en efectivo (según otras sucursales)",
+      "Confirma que aplique en la sucursal de Puebla"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños, según otras sucursales; sin vigencia publicada",
+    "minPurchase": null,
+    "howToClaim": "Pregunta por la promoción de cumpleaños en la sucursal (Moratilla: 222 268 2210) antes de ir.",
+    "sources": [
+      "https://www.facebook.com/fogondobrasilmarquesa/videos/s%C3%B3lo-en-fog%C3%B3n-do-brasil-tu-cumplea%C3%B1os-ser%C3%A1-una-deliciapregunta-por-nuestra-promo/432423410711326/",
+      "https://fogondobrasil.com/moratilla/"
+    ],
+    "confidence": "baja",
+    "coverage": "ciudades",
+    "states": [
+      "PUE"
+    ],
+    "cities": [
+      "puebla"
+    ],
+    "locationNote": "Sucursales Moratilla (Autopista México-Puebla) y La Noria (Av. 39 Poniente 1751), Puebla; sin verificar en cuál aplica",
+    "needsId": true,
+    "companions": 1
   }
 ]
