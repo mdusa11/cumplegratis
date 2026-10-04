@@ -1,0 +1,711 @@
+[
+  {
+    "slug": "starbucks",
+    "brand": "Starbucks",
+    "category": "cafe",
+    "benefit": "Bebida gratis de cualquier tamaño",
+    "benefitType": "gratis",
+    "details": "Una bebida preparada en barra (caliente, fría o Frappuccino) de cualquier tamaño, máximo 3 modificadores. Requiere al menos 1 compra en los 90 días previos a tu cumpleaños; no aplica bebidas embotelladas ni métodos.",
+    "program": "Starbucks Rewards",
+    "signupUrl": "https://rewards.starbucks.mx/register",
+    "requirements": [
+      "Cuenta Starbucks Rewards con fecha de nacimiento registrada",
+      "Al menos 1 compra en los 90 días previos",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu bebida de cumpleaños en caja mostrando la app y tu identificación oficial.",
+    "sources": [
+      "https://rewards.starbucks.mx/tos/rewards",
+      "https://www.milenio.com/negocios/finanzas-personales/que-te-regala-starbucks-por-tu-cumpleanos-paso-a-paso-para-obtenerlo"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "krispy-kreme",
+    "brand": "Krispy Kreme",
+    "category": "postres",
+    "benefit": "Media docena de donas Original Glaseadas",
+    "benefitType": "gratis",
+    "details": "Media docena de donas Original Glazed gratis solo el día de tu cumpleaños. Válido únicamente en tiendas físicas (no Liverpool, Walmart ni OXXO), sujeto a disponibilidad.",
+    "program": "Krispy Kreme Rewards",
+    "signupUrl": "https://apps.apple.com/mx/app/krispy-kreme-m%C3%A9xico/id1538639586",
+    "requirements": [
+      "Cuenta en la app Krispy Kreme Rewards con fecha de nacimiento",
+      "INE vigente"
+    ],
+    "registerDaysBefore": 1,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños (recomiendan registrarte 24 h antes)",
+    "minPurchase": null,
+    "howToClaim": "Muestra el beneficio en la app y tu INE en una tienda Krispy Kreme física.",
+    "sources": [
+      "https://tienda.krispykreme.mx/Home/Terms",
+      "https://lasillarota.com/seleccion/2025/6/25/asi-puedes-conseguir-media-docena-de-donas-krispy-kreme-gratis-por-tu-cumpleanos-y-una-mas-hoy-454198.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "nutrisa",
+    "brand": "Nutrisa",
+    "category": "postres",
+    "benefit": "Helado suave sencillo gratis",
+    "benefitType": "gratis",
+    "details": "Un helado suave sencillo sabor natural o de temporada; toppings extra se cobran. Requiere una compra mínima de $35 registrada en la app en los 60 días previos al mes de tu cumpleaños.",
+    "program": "App Nutrisa",
+    "signupUrl": null,
+    "requirements": [
+      "Cuenta en la app Nutrisa con fecha de nacimiento",
+      "Compra de al menos $35 con la app en los 60 días previos al mes de cumpleaños",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Escanea tu QR de la app en sucursal y muestra identificación. No aplica en Liverpool, Fábricas de Francia, museos ni parques.",
+    "sources": [
+      "https://legalesapp.nutrisa.com/index-esp.html",
+      "https://x.com/NutrisaMX/status/1762250270304780465"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "toks",
+    "brand": "Toks",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel gratis",
+    "benefitType": "gratis",
+    "details": "Cupón por una rebanada de pastel canjeable una vez durante el mes de tu cumpleaños. Solo para consumo en restaurante, no aplica para llevar.",
+    "program": "A Comer Club",
+    "signupUrl": "https://play.google.com/store/apps/details?id=com.acomerclub.grupogigante",
+    "requirements": [
+      "Registro en A Comer Club con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una vez durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta el cupón de la app A Comer Club en el restaurante.",
+    "sources": [
+      "https://twitter.com/ToksMx/status/1665827425068933121",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "panda-express",
+    "brand": "Panda Express",
+    "category": "comida-rapida",
+    "benefit": "Platillo participante gratis",
+    "benefitType": "gratis",
+    "details": "Beneficio de cumpleaños para miembros de A Comer Club (Grupo Gigante): un platillo participante. Solo en restaurante, no aplica para llevar ni con otras promociones.",
+    "program": "A Comer Club",
+    "signupUrl": "https://play.google.com/store/apps/details?id=com.acomerclub.grupogigante",
+    "requirements": [
+      "Registro en A Comer Club con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Canjea el beneficio desde la app A Comer Club en sucursal.",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://www.adn40.mx/tiempo-libre/2026-02-18/lugares-regalan-cosas-promociones-cumpleanos/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "dairy-queen",
+    "brand": "Dairy Queen",
+    "category": "postres",
+    "benefit": "Blizzard Mini gratis al comprar Pastel Blizzard",
+    "benefitType": "regalo-con-compra",
+    "details": "Compra un Pastel Blizzard durante tu semana de cumpleaños y llévate un Blizzard Mini gratis. No aplica con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Compra de un Pastel Blizzard"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Durante la semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Compra el Pastel Blizzard en sucursal y muestra tu identificación oficial.",
+    "sources": [
+      "https://x.com/DQMexico/status/2052206787852669308",
+      "https://x.com/DQMexico/status/2030644709744402588"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "el-globo",
+    "brand": "El Globo",
+    "category": "postres",
+    "benefit": "10% de descuento en pasteles y gelatinas familiares",
+    "benefitType": "descuento",
+    "details": "10% de descuento en pasteles y gelatinas familiares durante el mes de tu cumpleaños, solo en sucursales e islas. Además, socios de Invitado Consentido reciben 40 puntos (=$40) en su mes de cumpleaños.",
+    "program": null,
+    "signupUrl": "https://www.invitadoconsentido.com.mx/",
+    "requirements": [
+      "Copia de INE o acta de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Entrega copia de tu INE o acta en caja de sucursal. No aplica en tienda en línea, Rappi ni Uber Eats.",
+    "sources": [
+      "https://www.elglobo.com.mx/pages/10-pastel-de-cumpleanos",
+      "https://www.elglobo.com.mx/blogs/news/unete-al-programa-de-lealtad-de-el-globo"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "vips",
+    "brand": "Vips",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel/cheesecake de fresa gratis",
+    "benefitType": "gratis",
+    "details": "Rebanada de cheesecake de fresa gratis durante el mes de tu cumpleaños para socios Wow Rewards. Algunas fuentes indican que aplica al consumir un platillo.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Cuenta Wow Rewards/Wow+ con fecha de nacimiento",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cuenta Wow+ y tu identificación al pedir en el restaurante.",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/04/30/lugares-donde-dan-regalos-o-cosas-gratis-en-tu-cumpleanos-la-guia-para-comer-beber-y-comprar-sin-gastar-de-mas/",
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "italiannis",
+    "brand": "Italianni's",
+    "category": "restaurantes",
+    "benefit": "Budín de cortesía + $200 de descuento con Wow",
+    "benefitType": "gratis",
+    "details": "Budín de cortesía al presentar identificación durante el mes de tu cumpleaños. Si eres socio Wow Rewards, además $200 de descuento en consumo mínimo de $500.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Identificación oficial",
+      "Para el descuento de $200: cuenta Wow Rewards y consumo mínimo de $500"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación (y tu cuenta Wow+ para el descuento) al pedir en el restaurante.",
+    "sources": [
+      "https://mx-ita-prod-web-cdcpc3ckfpbqd6d8.eastus2-01.azurewebsites.net/preguntas-frecuentes-italiannis/",
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "cielito-querido",
+    "brand": "Cielito Querido Café",
+    "category": "cafe",
+    "benefit": "Bebida mediana gratis (caliente, fría o granizada)",
+    "benefitType": "gratis",
+    "details": "Una bebida tamaño mediano (473 ml) caliente, fría o granizada en tu mes de cumpleaños. Requiere un ticket mínimo de $35 registrado en la app en los 60 días previos; extras se cobran.",
+    "program": "App Cielito Querido",
+    "signupUrl": "https://apps.apple.com/mx/app/cielito-querido/id1523554018",
+    "requirements": [
+      "Cuenta en la app con fecha de nacimiento",
+      "Compra mínima de $35 con la app en los 60 días previos al mes de cumpleaños",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de cumpleaños registrado en la app",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu código de la app y tu identificación en caja. No aplica en sucursal IBERO.",
+    "sources": [
+      "https://cielitoquerido.com.mx/terminos-y-condiciones-de-la-aplicacion/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "tgi-fridays",
+    "brand": "TGI Fridays",
+    "category": "restaurantes",
+    "benefit": "Tu edad = % de descuento (máx. 50%)",
+    "benefitType": "descuento",
+    "details": "El cumpleañero recibe un descuento igual a su edad (máximo 50%) en su consumo y sus acompañantes 10%. Un cumpleañero por mesa; no aplica para llevar ni a domicilio. Condiciones varían por franquicia (Tijuana pide registrarte antes en su app y aplica del día del cumpleaños a 7 días después).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con foto",
+      "Solo un cumpleañero por mesa"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños (varía por sucursal/franquicia)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación física al pedir en el restaurante.",
+    "sources": [
+      "https://fridayscun.com.mx/promociones/",
+      "https://fridaystijuana.com/club-de-cumpleanos/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "wingstop",
+    "brand": "Wingstop",
+    "category": "comida-rapida",
+    "benefit": "$50 en puntos el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Socios nivel Lover reciben 50 puntos ($1 por punto) el día de su cumpleaños; nivel Wing Expert reciben 100 puntos. Se usan desde el día del cumpleaños.",
+    "program": "Wingstop Rewards",
+    "signupUrl": "https://wingstopmexico.com/wingstoprewards/",
+    "requirements": [
+      "Cuenta Wingstop Rewards en la app con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Los puntos se abonan el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Usa los puntos abonados como pago en tu siguiente compra con la app.",
+    "sources": [
+      "https://wingstopmexico.com/wingstoprewards-terminosycondiciones/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "sirloin-stockade",
+    "brand": "Sirloin Stockade",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis al comprar bebida refill",
+    "benefitType": "regalo-con-compra",
+    "details": "Buffet gratis en la compra de una bebida refill de adulto a precio regular, solo el día exacto de tu cumpleaños. Cupón vigente al 31 dic 2026 en sucursales Guadalajara (Centro, Conchitas, Sanzio), León Plaza Mayor, Morelia y Querétaro.",
+    "program": null,
+    "signupUrl": "https://promociones.sirloinstockade.mx/operadora/cupon/cupon-cumpleanos",
+    "requirements": [
+      "Cupón descargado del sitio",
+      "INE (CURP o acta para menores)",
+      "Compra de bebida refill de adulto"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños; no días festivos",
+    "minPurchase": null,
+    "howToClaim": "Presenta el cupón impreso o en el celular y tu identificación en caja antes de pagar.",
+    "sources": [
+      "https://promociones.sirloinstockade.mx/operadora/cupon/cupon-cumpleanos"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "la-vid-argentina",
+    "brand": "La Vid Argentina",
+    "category": "restaurantes",
+    "benefit": "Desayuno, tenedor libre o cena gratis",
+    "benefitType": "gratis",
+    "details": "Desayuno Libre, Tenedor Libre o Cena Libre gratis para el cumpleañero el día de su cumpleaños. Debe ir al menos un acompañante que compre el mismo servicio; bebidas no incluidas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE o identificación oficial con foto en original",
+      "Al menos 1 acompañante que pague el mismo servicio"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños; una vez al día, una por mesa",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en el restaurante. No aplica en Shows de Tango ni a la carta.",
+    "sources": [
+      "https://www.lavidargentina.com/blog/services/cumpleanos/",
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "chilis",
+    "brand": "Chili's",
+    "category": "restaurantes",
+    "benefit": "$200 de descuento o rebanada de pastel",
+    "benefitType": "descuento",
+    "details": "Según la sucursal: $200 de descuento (CDMX) o rebanada de pastel de chocolate (otros estados), con consumo mínimo de $500 durante el mes de cumpleaños. El beneficio varía por ubicación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Consumo mínimo de $500"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños (varía por sucursal)",
+    "minPurchase": 500,
+    "howToClaim": "Avisa que es tu cumpleaños y muestra tu identificación al pedir la cuenta.",
+    "sources": [
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html",
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "la-mansion",
+    "brand": "La Mansión",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía",
+    "benefitType": "regalo-con-compra",
+    "details": "Medios reportan botella de vino de cortesía en tu mes de cumpleaños (una por mesa, en compra de comida o cena) yendo con al menos 3 acompañantes. El sitio oficial solo menciona 'recibe un pastel especial' al festejar ahí.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Grupo de 3 o más personas (según medios)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante y presenta tu identificación; confirma la promoción vigente con la sucursal.",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://lamansion.com.mx/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "carls-jr",
+    "brand": "Carl's Jr.",
+    "category": "comida-rapida",
+    "benefit": "Combo Famous Star gratis",
+    "benefitType": "gratis",
+    "details": "Medios 2026 reportan un combo Famous Star gratis en tu mes de cumpleaños presentando identificación; otras fuentes indican que llega como cupón en la app de Carl's Jr. México. No hay términos oficiales publicados.",
+    "program": "App Carl's Jr. México",
+    "signupUrl": "https://apps.apple.com/us/app/carls-jr-m%C3%A9xico/id1482992028",
+    "requirements": [
+      "Identificación oficial",
+      "Posiblemente cuenta en la app con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Revisa la sección de cupones de la app en tu mes de cumpleaños y muestra identificación en sucursal.",
+    "sources": [
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "applebees",
+    "brand": "Applebee's",
+    "category": "restaurantes",
+    "benefit": "Postre gratis a elegir",
+    "benefitType": "gratis",
+    "details": "Postre del menú gratis para socios de Applebee's Rewards México, válido 5 días antes y hasta 15 días después de tu cumpleaños. No se encontró confirmación oficial reciente; el sitio applebeesrewards.com.mx ya no responde.",
+    "program": "Applebee's Rewards México",
+    "signupUrl": "https://apps.apple.com/mx/app/id1633090455",
+    "requirements": [
+      "Cuenta Applebee's Rewards",
+      "Identificación con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "De 5 días antes a 15 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cuenta de la app e identificación en el restaurante.",
+    "sources": [
+      "https://apps.apple.com/mx/app/id1633090455"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "beer-factory",
+    "brand": "Beer Factory",
+    "category": "restaurantes",
+    "benefit": "Tubo de cerveza de 3 litros de regalo",
+    "benefitType": "regalo-con-compra",
+    "details": "Un tubo de 3 L de cerveza de línea un día durante tu mes de cumpleaños, yendo con 2 acompañantes y con consumo mínimo en alimentos de $280 entre los tres. Solo consumo en restaurante; mayores de 18.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "ID vigente con fecha de nacimiento",
+      "Ir con 2 acompañantes",
+      "Consumo mínimo de $280 en alimentos (total de la mesa)",
+      "Mayor de 18 años"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Un día durante el mes de tu cumpleaños",
+    "minPurchase": 280,
+    "howToClaim": "Muestra tu identificación en el restaurante (CDMX y Edomex). El PDF oficial más reciente decía vigencia al 5 ene 2025; medios de 2026 la siguen reportando.",
+    "sources": [
+      "https://www.beerfactory.com.mx/recs/assets/images/Promociones/Beerday.pdf",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "falafelito",
+    "brand": "El Falafelito",
+    "category": "restaurantes",
+    "benefit": "Faláfel gratis",
+    "benefitType": "gratis",
+    "details": "Faláfel gratis durante todo tu mes de cumpleaños al registrarte en su comunidad web. No aplica para llevar, a domicilio ni con otras promociones.",
+    "program": "Comunidad Falafelito",
+    "signupUrl": "https://falafelito.com/promociones",
+    "requirements": [
+      "Registro en falafelito.com con todos tus datos",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu perfil registrado con tu fecha de cumpleaños y tu identificación en cualquier sucursal.",
+    "sources": [
+      "https://falafelito.com/promociones",
+      "https://www.cronica.com.mx/tendencias/2026/04/30/lugares-donde-dan-regalos-o-cosas-gratis-en-tu-cumpleanos-la-guia-para-comer-beber-y-comprar-sin-gastar-de-mas/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "la-btk",
+    "brand": "La BTK",
+    "category": "restaurantes",
+    "benefit": "Come Todo gratis + helado o shot",
+    "benefitType": "gratis",
+    "details": "Un Come Todo (alitas, costillas, boneless, hamburguesa, papas ilimitadas, etc.) más un scoop de helado o shot 'Lamborghini'. Requiere ir con al menos 4 acompañantes que pidan el mismo Come Todo (redes sociales mencionaban 3).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial original (INE, pasaporte o licencia)",
+      "Mínimo 4 acompañantes que consuman Come Todo"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en el restaurante, desde la apertura hasta 30 min antes del cierre.",
+    "sources": [
+      "https://labtk.com.mx/landing-terminos-y-condiciones-cupones/",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "ihop",
+    "brand": "IHOP",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis o $200 de descuento",
+    "benefitType": "gratis",
+    "details": "Según medios, desayuno gratis en tu semana de cumpleaños o $200 de descuento yendo con 3 acompañantes (cada uno con consumo de $150+). IHOP México confirma que cada sucursal maneja su propia promoción de cumpleaños.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Mínimo 3 acompañantes (según medios)"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños (varía por sucursal)",
+    "minPurchase": null,
+    "howToClaim": "Consulta con tu sucursal la promoción vigente y presenta tu INE.",
+    "sources": [
+      "https://ihopmexico.com/contactanos-2024/faqs/",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "el-farolito",
+    "brand": "El Farolito",
+    "category": "restaurantes",
+    "benefit": "Tacos al pastor gratis",
+    "benefitType": "gratis",
+    "details": "Tacos al pastor gratis para clientes inscritos en el programa de lealtad A Comer Club (Grupo Gigante). Cantidad y condiciones exactas no publicadas.",
+    "program": "A Comer Club",
+    "signupUrl": "https://play.google.com/store/apps/details?id=com.acomerclub.grupogigante",
+    "requirements": [
+      "Registro en A Comer Club con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Canjea el beneficio de cumpleaños de la app A Comer Club en sucursal (solo consumo en restaurante).",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "dennys",
+    "brand": "Denny's",
+    "category": "restaurantes",
+    "benefit": "Grand Slam o boneless gratis",
+    "benefitType": "gratis",
+    "details": "Reportes en redes indican que el cumpleañero come gratis (Grand Slam o boneless) el día de su cumpleaños, algunas sucursales piden ir con 2+ adultos. Sin confirmación oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE u otra identificación con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en tu sucursal y presenta tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/@marketingconmelissa/video/7446531453107719430"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "las-alitas",
+    "brand": "Las Alitas",
+    "category": "restaurantes",
+    "benefit": "Consumo gratis hasta $350",
+    "benefitType": "gratis",
+    "details": "El consumo del cumpleañero es gratis hasta $350 el día o la semana de su cumpleaños, yendo con al menos 3 acompañantes que pidan cada uno un platillo del menú de adultos. Vigente del 27 abr al 31 dic 2026 (promo CDMX).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente",
+      "Mínimo 3 acompañantes con platillo de adulto cada uno"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "El día de tu cumpleaños o dentro de tu semana de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en el restaurante al pedir.",
+    "sources": [
+      "https://lasalitas.com/promo_cdmx/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "potzollcalli",
+    "brand": "Potzollcalli",
+    "category": "restaurantes",
+    "benefit": "Comida gratis hasta $300",
+    "benefitType": "gratis",
+    "details": "Cortesía para el festejado con consumo máximo de $300 el día de su cumpleaños, para socios de la tarjeta Mi Cliente. Solo en restaurante, no a domicilio ni eventos.",
+    "program": "Mi Cliente Potzollcalli",
+    "signupUrl": "https://www.potzollcalli.com/micliente",
+    "requirements": [
+      "Tarjeta Mi Cliente Potzollcalli",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu tarjeta Mi Cliente al ordenar y entrégala al mesero al pagar, junto con tu identificación.",
+    "sources": [
+      "https://www.potzollcalli.com/micliente"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "wingo",
+    "brand": "Wing'O",
+    "category": "restaurantes",
+    "benefit": "Postre Fried Oreo gratis",
+    "benefitType": "regalo-con-compra",
+    "details": "Un postre Fried Oreo individual de cortesía una vez en tu mes de cumpleaños, con consumo mínimo de $150 por beneficiario. Solo en comedor.",
+    "program": "App Wing'O",
+    "signupUrl": "https://www.wingo.mx/cumplea%C3%B1os",
+    "requirements": [
+      "App Wing'O con cupón de cumpleaños",
+      "Identificación o CURP",
+      "Consumo mínimo de $150"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una vez durante el mes de tu cumpleaños",
+    "minPurchase": 150,
+    "howToClaim": "En la app ve a 'Mis cupones' > 'Buscar cupón por código', pide al mesero el código de cumpleaños del mes y sucursal, y muéstralo.",
+    "sources": [
+      "https://www.wingo.mx/cumplea%C3%B1os"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "caffenio",
+    "brand": "Caffenio",
+    "category": "cafe",
+    "benefit": "$200 en monedero (solo plan anual PLUS)",
+    "benefitType": "gratis",
+    "details": "Clientes con suscripción anual MI CAFFENIO PLUS reciben $200 en monedero electrónico el día de su cumpleaños. Los usuarios gratuitos de MI CAFFENIO no reciben beneficio de cumpleaños.",
+    "program": "MI CAFFENIO PLUS (anual, de pago)",
+    "signupUrl": "https://caffenio.com/cafeterias/micaffenioplus/anualmovil/",
+    "requirements": [
+      "Suscripción anual MI CAFFENIO PLUS (de pago)",
+      "Fecha de nacimiento registrada en MI CAFFENIO"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Se abona el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "El saldo se deposita automáticamente en tu monedero de la app; úsalo como pago.",
+    "sources": [
+      "https://caffenio.com/app/wvmx/tyc/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "dominos",
+    "brand": "Domino's Pizza",
+    "category": "comida-rapida",
+    "benefit": "Canela Baitz gratis al comprar pizza mediana o grande",
+    "benefitType": "regalo-con-compra",
+    "details": "Canela Baitz gratis en la compra de cualquier pizza mediana o grande a precio regular durante tu mes de cumpleaños, para socios Wow+. No acumulable con otras promociones.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Cuenta Wow+ con fecha de nacimiento registrada",
+      "Compra de pizza mediana o grande a precio regular",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Usa el cupón de cumpleaños de Wow+ al pedir tu pizza.",
+    "sources": [
+      "https://www.wow-plus.com/pages/terminos-y-condiciones.html"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "moyo",
+    "brand": "Moyo",
+    "category": "postres",
+    "benefit": "Beneficio de cumpleaños en la app (sin detalle)",
+    "benefitType": "gratis",
+    "details": "La app Moyo menciona 'beneficios de cumpleaños' dentro de su programa de lealtad (Fan, Lover, Adicto) y reportes indican yogurt gratis en tu cumpleaños, pero no hay términos públicos. La app no se actualiza desde jul 2024.",
+    "program": "Moyo App",
+    "signupUrl": "https://apps.apple.com/mx/app/moyo-app/id6443993426",
+    "requirements": [
+      "Cuenta en la app Moyo con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Revisa la sección de beneficios de la app y canjea en sucursal.",
+    "sources": [
+      "https://apps.apple.com/mx/app/moyo-app/id6443993426"
+    ],
+    "confidence": "baja"
+  }
+]

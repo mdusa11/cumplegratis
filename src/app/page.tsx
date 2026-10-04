@@ -9,7 +9,8 @@ import { Reveal, ScrollWords } from "@/components/Reveal";
 import { jsonLd } from "@/lib/site";
 import { GROUPS, groupOf, promos, stats, type GroupId } from "@/lib/promos";
 
-const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence !== "baja");
+const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence === "alta");
+const stickers = featured.filter((p) => p.brand.length <= 11);
 
 const FAQ: QA[] = [
   {
@@ -38,7 +39,7 @@ export default function Home() {
 
   return (
     <>
-      <Hero featured={featured} total={stats.total} />
+      <Hero featured={stickers} total={stats.total} />
 
       <Marquee className="-rotate-2 border-y-[2.5px] border-ink bg-ink py-4 text-paper">
         {promos.slice(0, 14).map((p) => (

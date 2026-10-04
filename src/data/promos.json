@@ -1,8 +1,1911 @@
 [
-  {"slug":"starbucks","brand":"Starbucks","category":"cafe","benefit":"Bebida gratis de cualquier tamaño","benefitType":"gratis","details":"Placeholder mientras llega la investigación.","program":"Starbucks Rewards","signupUrl":"https://www.starbucks.com.mx/rewards","requirements":["Ser miembro de Starbucks Rewards"],"registerDaysBefore":null,"window":"mes","windowNote":"Durante tu mes","minPurchase":null,"howToClaim":"Aparece en la app.","sources":[],"confidence":"media"},
-  {"slug":"cinepolis","brand":"Cinépolis","category":"cine","benefit":"2x1 en boletos y combo","benefitType":"2x1","details":"Placeholder.","program":"Club Cinépolis","signupUrl":null,"requirements":["Tarjeta Club Cinépolis"],"registerDaysBefore":1,"window":"mes","windowNote":"Durante tu mes","minPurchase":null,"howToClaim":"Muestra tu tarjeta.","sources":[],"confidence":"media"},
-  {"slug":"dennys","brand":"Denny's","category":"restaurantes","benefit":"Desayuno gratis","benefitType":"gratis","details":"Placeholder.","program":null,"signupUrl":null,"requirements":["INE"],"registerDaysBefore":null,"window":"mes","windowNote":"Durante tu mes","minPurchase":null,"howToClaim":"Presenta tu INE.","sources":[],"confidence":"baja"},
-  {"slug":"sephora","brand":"Sephora","category":"belleza","benefit":"Kit de regalo","benefitType":"gratis","details":"Placeholder.","program":"Beauty Club","signupUrl":null,"requirements":[],"registerDaysBefore":null,"window":"mes","windowNote":"Durante tu mes","minPurchase":null,"howToClaim":"En tienda.","sources":[],"confidence":"media"},
-  {"slug":"xiaomi","brand":"Xiaomi","category":"tecnologia","benefit":"$500 de descuento","benefitType":"descuento","details":"Placeholder.","program":"Mi Account","signupUrl":null,"requirements":[],"registerDaysBefore":null,"window":"mes","windowNote":"Durante tu mes","minPurchase":null,"howToClaim":"En tienda.","sources":[],"confidence":"baja"},
-  {"slug":"bbva","brand":"BBVA","category":"servicios","benefit":"Beneficio de cumpleaños","benefitType":"descuento","details":"Placeholder.","program":"App BBVA","signupUrl":null,"requirements":[],"registerDaysBefore":null,"window":"mes","windowNote":"Durante tu mes","minPurchase":null,"howToClaim":"En la app.","sources":[],"confidence":"baja"}
+  {
+    "slug": "starbucks",
+    "brand": "Starbucks",
+    "category": "cafe",
+    "benefit": "Bebida gratis de cualquier tamaño",
+    "benefitType": "gratis",
+    "details": "Una bebida preparada en barra (caliente, fría o Frappuccino) de cualquier tamaño, máximo 3 modificadores. Requiere al menos 1 compra en los 90 días previos a tu cumpleaños; no aplica bebidas embotelladas ni métodos.",
+    "program": "Starbucks Rewards",
+    "signupUrl": "https://rewards.starbucks.mx/register",
+    "requirements": [
+      "Cuenta Starbucks Rewards con fecha de nacimiento registrada",
+      "Al menos 1 compra en los 90 días previos",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pide tu bebida de cumpleaños en caja mostrando la app y tu identificación oficial.",
+    "sources": [
+      "https://rewards.starbucks.mx/tos/rewards",
+      "https://www.milenio.com/negocios/finanzas-personales/que-te-regala-starbucks-por-tu-cumpleanos-paso-a-paso-para-obtenerlo"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "krispy-kreme",
+    "brand": "Krispy Kreme",
+    "category": "postres",
+    "benefit": "Media docena de donas Original Glaseadas",
+    "benefitType": "gratis",
+    "details": "Media docena de donas Original Glazed gratis solo el día de tu cumpleaños. Válido únicamente en tiendas físicas (no Liverpool, Walmart ni OXXO), sujeto a disponibilidad.",
+    "program": "Krispy Kreme Rewards",
+    "signupUrl": "https://apps.apple.com/mx/app/krispy-kreme-m%C3%A9xico/id1538639586",
+    "requirements": [
+      "Cuenta en la app Krispy Kreme Rewards con fecha de nacimiento",
+      "INE vigente"
+    ],
+    "registerDaysBefore": 1,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños (recomiendan registrarte 24 h antes)",
+    "minPurchase": null,
+    "howToClaim": "Muestra el beneficio en la app y tu INE en una tienda Krispy Kreme física.",
+    "sources": [
+      "https://tienda.krispykreme.mx/Home/Terms",
+      "https://lasillarota.com/seleccion/2025/6/25/asi-puedes-conseguir-media-docena-de-donas-krispy-kreme-gratis-por-tu-cumpleanos-y-una-mas-hoy-454198.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "nutrisa",
+    "brand": "Nutrisa",
+    "category": "postres",
+    "benefit": "Helado suave sencillo gratis",
+    "benefitType": "gratis",
+    "details": "Un helado suave sencillo sabor natural o de temporada; toppings extra se cobran. Requiere una compra mínima de $35 registrada en la app en los 60 días previos al mes de tu cumpleaños.",
+    "program": "App Nutrisa",
+    "signupUrl": null,
+    "requirements": [
+      "Cuenta en la app Nutrisa con fecha de nacimiento",
+      "Compra de al menos $35 con la app en los 60 días previos al mes de cumpleaños",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Escanea tu QR de la app en sucursal y muestra identificación. No aplica en Liverpool, Fábricas de Francia, museos ni parques.",
+    "sources": [
+      "https://legalesapp.nutrisa.com/index-esp.html",
+      "https://x.com/NutrisaMX/status/1762250270304780465"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "toks",
+    "brand": "Toks",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel gratis",
+    "benefitType": "gratis",
+    "details": "Cupón por una rebanada de pastel canjeable una vez durante el mes de tu cumpleaños. Solo para consumo en restaurante, no aplica para llevar.",
+    "program": "A Comer Club",
+    "signupUrl": "https://play.google.com/store/apps/details?id=com.acomerclub.grupogigante",
+    "requirements": [
+      "Registro en A Comer Club con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una vez durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta el cupón de la app A Comer Club en el restaurante.",
+    "sources": [
+      "https://twitter.com/ToksMx/status/1665827425068933121",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "panda-express",
+    "brand": "Panda Express",
+    "category": "comida-rapida",
+    "benefit": "Platillo participante gratis",
+    "benefitType": "gratis",
+    "details": "Beneficio de cumpleaños para miembros de A Comer Club (Grupo Gigante): un platillo participante. Solo en restaurante, no aplica para llevar ni con otras promociones.",
+    "program": "A Comer Club",
+    "signupUrl": "https://play.google.com/store/apps/details?id=com.acomerclub.grupogigante",
+    "requirements": [
+      "Registro en A Comer Club con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Canjea el beneficio desde la app A Comer Club en sucursal.",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://www.adn40.mx/tiempo-libre/2026-02-18/lugares-regalan-cosas-promociones-cumpleanos/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "dairy-queen",
+    "brand": "Dairy Queen",
+    "category": "postres",
+    "benefit": "Blizzard Mini gratis al comprar Pastel Blizzard",
+    "benefitType": "regalo-con-compra",
+    "details": "Compra un Pastel Blizzard durante tu semana de cumpleaños y llévate un Blizzard Mini gratis. No aplica con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Compra de un Pastel Blizzard"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Durante la semana de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Compra el Pastel Blizzard en sucursal y muestra tu identificación oficial.",
+    "sources": [
+      "https://x.com/DQMexico/status/2052206787852669308",
+      "https://x.com/DQMexico/status/2030644709744402588"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "el-globo",
+    "brand": "El Globo",
+    "category": "postres",
+    "benefit": "10% de descuento en pasteles y gelatinas familiares",
+    "benefitType": "descuento",
+    "details": "10% de descuento en pasteles y gelatinas familiares durante el mes de tu cumpleaños, solo en sucursales e islas. Además, socios de Invitado Consentido reciben 40 puntos (=$40) en su mes de cumpleaños.",
+    "program": null,
+    "signupUrl": "https://www.invitadoconsentido.com.mx/",
+    "requirements": [
+      "Copia de INE o acta de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Entrega copia de tu INE o acta en caja de sucursal. No aplica en tienda en línea, Rappi ni Uber Eats.",
+    "sources": [
+      "https://www.elglobo.com.mx/pages/10-pastel-de-cumpleanos",
+      "https://www.elglobo.com.mx/blogs/news/unete-al-programa-de-lealtad-de-el-globo"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "vips",
+    "brand": "Vips",
+    "category": "restaurantes",
+    "benefit": "Rebanada de pastel/cheesecake de fresa gratis",
+    "benefitType": "gratis",
+    "details": "Rebanada de cheesecake de fresa gratis durante el mes de tu cumpleaños para socios Wow Rewards. Algunas fuentes indican que aplica al consumir un platillo.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Cuenta Wow Rewards/Wow+ con fecha de nacimiento",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cuenta Wow+ y tu identificación al pedir en el restaurante.",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/04/30/lugares-donde-dan-regalos-o-cosas-gratis-en-tu-cumpleanos-la-guia-para-comer-beber-y-comprar-sin-gastar-de-mas/",
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "italiannis",
+    "brand": "Italianni's",
+    "category": "restaurantes",
+    "benefit": "Budín de cortesía + $200 de descuento con Wow",
+    "benefitType": "gratis",
+    "details": "Budín de cortesía al presentar identificación durante el mes de tu cumpleaños. Si eres socio Wow Rewards, además $200 de descuento en consumo mínimo de $500.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Identificación oficial",
+      "Para el descuento de $200: cuenta Wow Rewards y consumo mínimo de $500"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu identificación (y tu cuenta Wow+ para el descuento) al pedir en el restaurante.",
+    "sources": [
+      "https://mx-ita-prod-web-cdcpc3ckfpbqd6d8.eastus2-01.azurewebsites.net/preguntas-frecuentes-italiannis/",
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "cielito-querido",
+    "brand": "Cielito Querido Café",
+    "category": "cafe",
+    "benefit": "Bebida mediana gratis (caliente, fría o granizada)",
+    "benefitType": "gratis",
+    "details": "Una bebida tamaño mediano (473 ml) caliente, fría o granizada en tu mes de cumpleaños. Requiere un ticket mínimo de $35 registrado en la app en los 60 días previos; extras se cobran.",
+    "program": "App Cielito Querido",
+    "signupUrl": "https://apps.apple.com/mx/app/cielito-querido/id1523554018",
+    "requirements": [
+      "Cuenta en la app con fecha de nacimiento",
+      "Compra mínima de $35 con la app en los 60 días previos al mes de cumpleaños",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de cumpleaños registrado en la app",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu código de la app y tu identificación en caja. No aplica en sucursal IBERO.",
+    "sources": [
+      "https://cielitoquerido.com.mx/terminos-y-condiciones-de-la-aplicacion/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "tgi-fridays",
+    "brand": "TGI Fridays",
+    "category": "restaurantes",
+    "benefit": "Tu edad = % de descuento (máx. 50%)",
+    "benefitType": "descuento",
+    "details": "El cumpleañero recibe un descuento igual a su edad (máximo 50%) en su consumo y sus acompañantes 10%. Un cumpleañero por mesa; no aplica para llevar ni a domicilio. Condiciones varían por franquicia (Tijuana pide registrarte antes en su app y aplica del día del cumpleaños a 7 días después).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con foto",
+      "Solo un cumpleañero por mesa"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños (varía por sucursal/franquicia)",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación física al pedir en el restaurante.",
+    "sources": [
+      "https://fridayscun.com.mx/promociones/",
+      "https://fridaystijuana.com/club-de-cumpleanos/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "wingstop",
+    "brand": "Wingstop",
+    "category": "comida-rapida",
+    "benefit": "$50 en puntos el día de tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Socios nivel Lover reciben 50 puntos ($1 por punto) el día de su cumpleaños; nivel Wing Expert reciben 100 puntos. Se usan desde el día del cumpleaños.",
+    "program": "Wingstop Rewards",
+    "signupUrl": "https://wingstopmexico.com/wingstoprewards/",
+    "requirements": [
+      "Cuenta Wingstop Rewards en la app con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Los puntos se abonan el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Usa los puntos abonados como pago en tu siguiente compra con la app.",
+    "sources": [
+      "https://wingstopmexico.com/wingstoprewards-terminosycondiciones/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "sirloin-stockade",
+    "brand": "Sirloin Stockade",
+    "category": "restaurantes",
+    "benefit": "Buffet gratis al comprar bebida refill",
+    "benefitType": "regalo-con-compra",
+    "details": "Buffet gratis en la compra de una bebida refill de adulto a precio regular, solo el día exacto de tu cumpleaños. Cupón vigente al 31 dic 2026 en sucursales Guadalajara (Centro, Conchitas, Sanzio), León Plaza Mayor, Morelia y Querétaro.",
+    "program": null,
+    "signupUrl": "https://promociones.sirloinstockade.mx/operadora/cupon/cupon-cumpleanos",
+    "requirements": [
+      "Cupón descargado del sitio",
+      "INE (CURP o acta para menores)",
+      "Compra de bebida refill de adulto"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día exacto de tu cumpleaños; no días festivos",
+    "minPurchase": null,
+    "howToClaim": "Presenta el cupón impreso o en el celular y tu identificación en caja antes de pagar.",
+    "sources": [
+      "https://promociones.sirloinstockade.mx/operadora/cupon/cupon-cumpleanos"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "la-vid-argentina",
+    "brand": "La Vid Argentina",
+    "category": "restaurantes",
+    "benefit": "Desayuno, tenedor libre o cena gratis",
+    "benefitType": "gratis",
+    "details": "Desayuno Libre, Tenedor Libre o Cena Libre gratis para el cumpleañero el día de su cumpleaños. Debe ir al menos un acompañante que compre el mismo servicio; bebidas no incluidas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE o identificación oficial con foto en original",
+      "Al menos 1 acompañante que pague el mismo servicio"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños; una vez al día, una por mesa",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en el restaurante. No aplica en Shows de Tango ni a la carta.",
+    "sources": [
+      "https://www.lavidargentina.com/blog/services/cumpleanos/",
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "chilis",
+    "brand": "Chili's",
+    "category": "restaurantes",
+    "benefit": "$200 de descuento o rebanada de pastel",
+    "benefitType": "descuento",
+    "details": "Según la sucursal: $200 de descuento (CDMX) o rebanada de pastel de chocolate (otros estados), con consumo mínimo de $500 durante el mes de cumpleaños. El beneficio varía por ubicación.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Consumo mínimo de $500"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños (varía por sucursal)",
+    "minPurchase": 500,
+    "howToClaim": "Avisa que es tu cumpleaños y muestra tu identificación al pedir la cuenta.",
+    "sources": [
+      "https://www.gastrolabweb.com/donde-comer/2025/6/18/come-gratis-restaurantes-que-te-regalan-postres-comida-en-tu-cumpleanos-59010.html",
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "la-mansion",
+    "brand": "La Mansión",
+    "category": "restaurantes",
+    "benefit": "Botella de vino de cortesía",
+    "benefitType": "regalo-con-compra",
+    "details": "Medios reportan botella de vino de cortesía en tu mes de cumpleaños (una por mesa, en compra de comida o cena) yendo con al menos 3 acompañantes. El sitio oficial solo menciona 'recibe un pastel especial' al festejar ahí.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Grupo de 3 o más personas (según medios)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Avisa en el restaurante y presenta tu identificación; confirma la promoción vigente con la sucursal.",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://lamansion.com.mx/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "carls-jr",
+    "brand": "Carl's Jr.",
+    "category": "comida-rapida",
+    "benefit": "Combo Famous Star gratis",
+    "benefitType": "gratis",
+    "details": "Medios 2026 reportan un combo Famous Star gratis en tu mes de cumpleaños presentando identificación; otras fuentes indican que llega como cupón en la app de Carl's Jr. México. No hay términos oficiales publicados.",
+    "program": "App Carl's Jr. México",
+    "signupUrl": "https://apps.apple.com/us/app/carls-jr-m%C3%A9xico/id1482992028",
+    "requirements": [
+      "Identificación oficial",
+      "Posiblemente cuenta en la app con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Revisa la sección de cupones de la app en tu mes de cumpleaños y muestra identificación en sucursal.",
+    "sources": [
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "applebees",
+    "brand": "Applebee's",
+    "category": "restaurantes",
+    "benefit": "Postre gratis a elegir",
+    "benefitType": "gratis",
+    "details": "Postre del menú gratis para socios de Applebee's Rewards México, válido 5 días antes y hasta 15 días después de tu cumpleaños. No se encontró confirmación oficial reciente; el sitio applebeesrewards.com.mx ya no responde.",
+    "program": "Applebee's Rewards México",
+    "signupUrl": "https://apps.apple.com/mx/app/id1633090455",
+    "requirements": [
+      "Cuenta Applebee's Rewards",
+      "Identificación con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "De 5 días antes a 15 días después de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu cuenta de la app e identificación en el restaurante.",
+    "sources": [
+      "https://apps.apple.com/mx/app/id1633090455"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "beer-factory",
+    "brand": "Beer Factory",
+    "category": "restaurantes",
+    "benefit": "Tubo de cerveza de 3 litros de regalo",
+    "benefitType": "regalo-con-compra",
+    "details": "Un tubo de 3 L de cerveza de línea un día durante tu mes de cumpleaños, yendo con 2 acompañantes y con consumo mínimo en alimentos de $280 entre los tres. Solo consumo en restaurante; mayores de 18.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "ID vigente con fecha de nacimiento",
+      "Ir con 2 acompañantes",
+      "Consumo mínimo de $280 en alimentos (total de la mesa)",
+      "Mayor de 18 años"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Un día durante el mes de tu cumpleaños",
+    "minPurchase": 280,
+    "howToClaim": "Muestra tu identificación en el restaurante (CDMX y Edomex). El PDF oficial más reciente decía vigencia al 5 ene 2025; medios de 2026 la siguen reportando.",
+    "sources": [
+      "https://www.beerfactory.com.mx/recs/assets/images/Promociones/Beerday.pdf",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "falafelito",
+    "brand": "El Falafelito",
+    "category": "restaurantes",
+    "benefit": "Faláfel gratis",
+    "benefitType": "gratis",
+    "details": "Faláfel gratis durante todo tu mes de cumpleaños al registrarte en su comunidad web. No aplica para llevar, a domicilio ni con otras promociones.",
+    "program": "Comunidad Falafelito",
+    "signupUrl": "https://falafelito.com/promociones",
+    "requirements": [
+      "Registro en falafelito.com con todos tus datos",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu perfil registrado con tu fecha de cumpleaños y tu identificación en cualquier sucursal.",
+    "sources": [
+      "https://falafelito.com/promociones",
+      "https://www.cronica.com.mx/tendencias/2026/04/30/lugares-donde-dan-regalos-o-cosas-gratis-en-tu-cumpleanos-la-guia-para-comer-beber-y-comprar-sin-gastar-de-mas/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "la-btk",
+    "brand": "La BTK",
+    "category": "restaurantes",
+    "benefit": "Come Todo gratis + helado o shot",
+    "benefitType": "gratis",
+    "details": "Un Come Todo (alitas, costillas, boneless, hamburguesa, papas ilimitadas, etc.) más un scoop de helado o shot 'Lamborghini'. Requiere ir con al menos 4 acompañantes que pidan el mismo Come Todo (redes sociales mencionaban 3).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial original (INE, pasaporte o licencia)",
+      "Mínimo 4 acompañantes que consuman Come Todo"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier día del mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en el restaurante, desde la apertura hasta 30 min antes del cierre.",
+    "sources": [
+      "https://labtk.com.mx/landing-terminos-y-condiciones-cupones/",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "ihop",
+    "brand": "IHOP",
+    "category": "restaurantes",
+    "benefit": "Desayuno gratis o $200 de descuento",
+    "benefitType": "gratis",
+    "details": "Según medios, desayuno gratis en tu semana de cumpleaños o $200 de descuento yendo con 3 acompañantes (cada uno con consumo de $150+). IHOP México confirma que cada sucursal maneja su propia promoción de cumpleaños.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Mínimo 3 acompañantes (según medios)"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Semana de tu cumpleaños (varía por sucursal)",
+    "minPurchase": null,
+    "howToClaim": "Consulta con tu sucursal la promoción vigente y presenta tu INE.",
+    "sources": [
+      "https://ihopmexico.com/contactanos-2024/faqs/",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/",
+      "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "el-farolito",
+    "brand": "El Farolito",
+    "category": "restaurantes",
+    "benefit": "Tacos al pastor gratis",
+    "benefitType": "gratis",
+    "details": "Tacos al pastor gratis para clientes inscritos en el programa de lealtad A Comer Club (Grupo Gigante). Cantidad y condiciones exactas no publicadas.",
+    "program": "A Comer Club",
+    "signupUrl": "https://play.google.com/store/apps/details?id=com.acomerclub.grupogigante",
+    "requirements": [
+      "Registro en A Comer Club con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Canjea el beneficio de cumpleaños de la app A Comer Club en sucursal (solo consumo en restaurante).",
+    "sources": [
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "dennys",
+    "brand": "Denny's",
+    "category": "restaurantes",
+    "benefit": "Grand Slam o boneless gratis",
+    "benefitType": "gratis",
+    "details": "Reportes en redes indican que el cumpleañero come gratis (Grand Slam o boneless) el día de su cumpleaños, algunas sucursales piden ir con 2+ adultos. Sin confirmación oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE u otra identificación con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en tu sucursal y presenta tu identificación.",
+    "sources": [
+      "https://www.tiktok.com/@marketingconmelissa/video/7446531453107719430"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "las-alitas",
+    "brand": "Las Alitas",
+    "category": "restaurantes",
+    "benefit": "Consumo gratis hasta $350",
+    "benefitType": "gratis",
+    "details": "El consumo del cumpleañero es gratis hasta $350 el día o la semana de su cumpleaños, yendo con al menos 3 acompañantes que pidan cada uno un platillo del menú de adultos. Vigente del 27 abr al 31 dic 2026 (promo CDMX).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente",
+      "Mínimo 3 acompañantes con platillo de adulto cada uno"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "El día de tu cumpleaños o dentro de tu semana de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en el restaurante al pedir.",
+    "sources": [
+      "https://lasalitas.com/promo_cdmx/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "potzollcalli",
+    "brand": "Potzollcalli",
+    "category": "restaurantes",
+    "benefit": "Comida gratis hasta $300",
+    "benefitType": "gratis",
+    "details": "Cortesía para el festejado con consumo máximo de $300 el día de su cumpleaños, para socios de la tarjeta Mi Cliente. Solo en restaurante, no a domicilio ni eventos.",
+    "program": "Mi Cliente Potzollcalli",
+    "signupUrl": "https://www.potzollcalli.com/micliente",
+    "requirements": [
+      "Tarjeta Mi Cliente Potzollcalli",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Muestra tu tarjeta Mi Cliente al ordenar y entrégala al mesero al pagar, junto con tu identificación.",
+    "sources": [
+      "https://www.potzollcalli.com/micliente"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "wingo",
+    "brand": "Wing'O",
+    "category": "restaurantes",
+    "benefit": "Postre Fried Oreo gratis",
+    "benefitType": "regalo-con-compra",
+    "details": "Un postre Fried Oreo individual de cortesía una vez en tu mes de cumpleaños, con consumo mínimo de $150 por beneficiario. Solo en comedor.",
+    "program": "App Wing'O",
+    "signupUrl": "https://www.wingo.mx/cumplea%C3%B1os",
+    "requirements": [
+      "App Wing'O con cupón de cumpleaños",
+      "Identificación o CURP",
+      "Consumo mínimo de $150"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una vez durante el mes de tu cumpleaños",
+    "minPurchase": 150,
+    "howToClaim": "En la app ve a 'Mis cupones' > 'Buscar cupón por código', pide al mesero el código de cumpleaños del mes y sucursal, y muéstralo.",
+    "sources": [
+      "https://www.wingo.mx/cumplea%C3%B1os"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "caffenio",
+    "brand": "Caffenio",
+    "category": "cafe",
+    "benefit": "$200 en monedero (solo plan anual PLUS)",
+    "benefitType": "gratis",
+    "details": "Clientes con suscripción anual MI CAFFENIO PLUS reciben $200 en monedero electrónico el día de su cumpleaños. Los usuarios gratuitos de MI CAFFENIO no reciben beneficio de cumpleaños.",
+    "program": "MI CAFFENIO PLUS (anual, de pago)",
+    "signupUrl": "https://caffenio.com/cafeterias/micaffenioplus/anualmovil/",
+    "requirements": [
+      "Suscripción anual MI CAFFENIO PLUS (de pago)",
+      "Fecha de nacimiento registrada en MI CAFFENIO"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Se abona el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "El saldo se deposita automáticamente en tu monedero de la app; úsalo como pago.",
+    "sources": [
+      "https://caffenio.com/app/wvmx/tyc/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "dominos",
+    "brand": "Domino's Pizza",
+    "category": "comida-rapida",
+    "benefit": "Canela Baitz gratis al comprar pizza mediana o grande",
+    "benefitType": "regalo-con-compra",
+    "details": "Canela Baitz gratis en la compra de cualquier pizza mediana o grande a precio regular durante tu mes de cumpleaños, para socios Wow+. No acumulable con otras promociones.",
+    "program": "Wow Rewards (Wow+)",
+    "signupUrl": "https://apps.apple.com/mx/app/wow-ofertas-en-restaurantes/id1017406537",
+    "requirements": [
+      "Cuenta Wow+ con fecha de nacimiento registrada",
+      "Compra de pizza mediana o grande a precio regular",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Usa el cupón de cumpleaños de Wow+ al pedir tu pizza.",
+    "sources": [
+      "https://www.wow-plus.com/pages/terminos-y-condiciones.html"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "moyo",
+    "brand": "Moyo",
+    "category": "postres",
+    "benefit": "Beneficio de cumpleaños en la app (sin detalle)",
+    "benefitType": "gratis",
+    "details": "La app Moyo menciona 'beneficios de cumpleaños' dentro de su programa de lealtad (Fan, Lover, Adicto) y reportes indican yogurt gratis en tu cumpleaños, pero no hay términos públicos. La app no se actualiza desde jul 2024.",
+    "program": "Moyo App",
+    "signupUrl": "https://apps.apple.com/mx/app/moyo-app/id6443993426",
+    "requirements": [
+      "Cuenta en la app Moyo con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Revisa la sección de beneficios de la app y canjea en sucursal.",
+    "sources": [
+      "https://apps.apple.com/mx/app/moyo-app/id6443993426"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "cinepolis",
+    "brand": "Cinépolis",
+    "category": "cine",
+    "benefit": "2x1 en boletos y dulcería todo tu mes",
+    "benefitType": "2x1",
+    "details": "Durante tu mes de cumpleaños se cargan a tu cuenta: entrada 2x1 (misma función), 2x1 en productos participantes de dulcería, cono gigante Spyral a $19 y combo crepa a $110. Válido una vez al día; no aplica en premieres, preventas ni festivales.",
+    "program": "Club Cinépolis",
+    "signupUrl": "https://cinepolis.com/club-cinepolis",
+    "requirements": [
+      "Ser socio Club Cinépolis (gratis)",
+      "Fecha de nacimiento registrada",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, una vez al día",
+    "minPurchase": null,
+    "howToClaim": "Aplícalo en taquilla/dulcería identificándote con tu Club Cinépolis o compra desde la app Cinépolis.",
+    "sources": [
+      "https://cinepolis.com/club-cinepolis-id/terminos-condiciones-club-cinepolis",
+      "https://www.informador.mx/entretenimiento/cinepolis-da-2x1-en-tu-mes-de-cumpleanos-como-aplicarlo-20260527-0079.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "cinemex",
+    "brand": "Cinemex",
+    "category": "cine",
+    "benefit": "Combo cumpleaños a precio especial (gratis en niveles altos)",
+    "benefitType": "descuento",
+    "details": "En nivel One (registro gratis) el combo cumpleaños cuesta $120 en sala tradicional (refresco mediano, palomitas medianas y Snickers) o $149 en Platino. En niveles superiores el combo es gratis y pueden incluir boletos.",
+    "program": "Cinemex Loop (antes Invitado Especial)",
+    "signupUrl": "https://cinemex.com/registro",
+    "requirements": [
+      "Cuenta Cinemex Loop",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños, una sola vez",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu tarjeta/app Cinemex Loop e INE en taquilla, dulcería o CAI.",
+    "sources": [
+      "https://cinemex.com/loop/niveles-beneficios",
+      "https://www.dineroenimagen.com/actualidad/mejora-tu-cumpleanos-con-cinemex-descubre-lo-que-te-regalan-gratis/165244",
+      "https://quecumple.mx/directorio/cinemex-loop/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "kidzania",
+    "brand": "KidZania",
+    "category": "parques",
+    "benefit": "Entrada gratis para el niño en su mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "Los ciudadanos del programa B•KidZanian reciben una entrada gratis durante el mes de su cumpleaños. Requiere tener el PaZZport (pasaporte del programa).",
+    "program": "B•KidZanian (PaZZport)",
+    "signupUrl": "https://mexico.kidzania.com/mx-es/bkidzanian",
+    "requirements": [
+      "Estar inscrito en B•KidZanian con PaZZport",
+      "Comprobar fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de cumpleaños del niño",
+    "minPurchase": null,
+    "howToClaim": "Presenta el PaZZport en taquilla de KidZania (Santa Fe, Cuicuilco, Monterrey) durante el mes de cumpleaños.",
+    "sources": [
+      "https://mexico.kidzania.com/mx-es/bkidzanian"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "recorcholis",
+    "brand": "Recórcholis",
+    "category": "experiencias",
+    "benefit": "2x1 en recargas de $300 a $1,500 los martes",
+    "benefitType": "2x1",
+    "details": "Todos los martes de tu mes de cumpleaños, 2x1 en recargas de $300 hasta $1,500 en tu Recorcard. El saldo extra no vale en boliche ni snacks; solo sucursales participantes. Vigente 27 jul–31 dic 2026.",
+    "program": "Recorcard",
+    "signupUrl": null,
+    "requirements": [
+      "Recorcard activa",
+      "Copia de INE o acta de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo los martes de tu mes de cumpleaños",
+    "minPurchase": 300,
+    "howToClaim": "Recarga en caja de sucursal participante un martes de tu mes de cumpleaños presentando INE o acta.",
+    "sources": [
+      "https://recorcholis.com.mx/terminos-y-condiciones"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "sport-bowl-merida",
+    "brand": "Sport Bowl Mérida",
+    "category": "experiencias",
+    "benefit": "Línea de boliche gratis yendo con 4 amigos",
+    "benefitType": "regalo-con-compra",
+    "details": "Si vas con 4 amigos y cada uno compra una línea, el cumpleañero juega una línea gratis. Válido cualquier día; no acumulable; no se permite pastel externo.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con fecha de nacimiento",
+      "Ir con 4 acompañantes que paguen línea"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu INE en recepción de Sport Bowl (Periférico Norte, Mérida).",
+    "sources": [
+      "https://sportbowl.com.mx/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "strike-39",
+    "brand": "Strike 39 (Galerías Coapa)",
+    "category": "experiencias",
+    "benefit": "Cumpleañero no paga línea ni zapatos",
+    "benefitType": "gratis",
+    "details": "Si celebras tu cumpleaños en Strike 39, el cumpleañero no paga línea de boliche ni renta de zapatos. Condiciones exactas no publicadas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "Celebrar ahí (probablemente con acompañantes)"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Confirmar en sucursal si aplica día o mes",
+    "minPurchase": null,
+    "howToClaim": "Presenta INE en la recepción del boliche en Galerías Coapa, CDMX.",
+    "sources": [
+      "https://lasillarota.com/dinero/2025/8/1/donde-estan-las-mejores-promociones-para-ir-jugar-boliche-en-la-cdmx-548411.html"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "grupo-xcaret-quintanarroenses",
+    "brand": "Grupo Xcaret (residentes Q. Roo)",
+    "category": "parques",
+    "benefit": "Cumpleañero entra gratis yendo con 4 que pagan",
+    "benefitType": "regalo-con-compra",
+    "details": "Para quintanarroenses: en tu mes de cumpleaños entras gratis a Xcaret, Xel-Há, Xenses o Xoximilco si vas con 4 o más acompañantes que pagan (pagan 4, entran 5). No aparece en las páginas oficiales.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Ser residente de Quintana Roo",
+      "4+ acompañantes con boleto pagado",
+      "Reservar en módulos"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Reserva en módulos/taquillas de Grupo Xcaret con identificación de Q. Roo.",
+    "sources": [
+      "https://www.tiktok.com/@soygaboxcaret/video/7632052989594750215"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "viva-aerobus",
+    "brand": "Viva Aerobus",
+    "category": "viajes",
+    "benefit": "Cupón de descuento en vuelos por cumpleaños",
+    "benefitType": "descuento",
+    "details": "Usuarios con cuenta reportan recibir por correo un cupón de descuento en su mes de cumpleaños. Porcentaje y condiciones no publicados oficialmente.",
+    "program": "Cuenta Viva / Viva Club",
+    "signupUrl": "https://www.vivaaerobus.com",
+    "requirements": [
+      "Cuenta registrada con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños (cupón por correo)",
+    "minPurchase": null,
+    "howToClaim": "Revisa tu correo en tu mes de cumpleaños e ingresa el código al reservar.",
+    "sources": [
+      "https://www.tiktok.com/discover/cupon-de-descuento-viva-aerobus-por-cumplea%C3%B1os"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "aztlan-parque-urbano",
+    "brand": "Aztlán Parque Urbano",
+    "category": "parques",
+    "benefit": "Pase ilimitado gratis en tu mes de cumpleaños",
+    "benefitType": "gratis",
+    "details": "\"Paquete Festejes\": acceso ilimitado un día a juegos mecánicos y atracciones, más 30% en Titanes del Taco y souvenirs. Mínimo 90 cm, una vez por mes de cumpleaños; no aplica Semana Santa ni puentes (vigencia 5 ene–31 dic 2026).",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial con fecha de nacimiento (INE, pasaporte, credencial escolar o acta)",
+      "Estatura mínima 90 cm"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Cualquier día de tu mes de cumpleaños, excepto Semana Santa y puentes",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu identificación en taquillas de Aztlán (Bosque de Chapultepec, CDMX).",
+    "sources": [
+      "https://heraldodemexico.com.mx/espectaculos/2026/3/24/con-este-truco-puedes-entrar-aztlan-feria-de-chapultepec-subirte-todos-los-juegos-sin-pagar-784716.html",
+      "https://www.chilango.com/que-hacer/feria-de-chapultepec-requisitos-entrada-gratis-aztlan/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "el-rollo",
+    "brand": "El Rollo Parque Acuático",
+    "category": "parques",
+    "benefit": "Entrada gratis comprando un boleto de acompañante",
+    "benefitType": "regalo-con-compra",
+    "details": "Promo #RolleroConsentido: el cumpleañero mayor de edad obtiene cortesía de entrada al comprar al menos un boleto general completo para un acompañante en taquilla. Requiere banner impreso; INE no debe ser de Morelos; no aplica con paquetes.",
+    "program": null,
+    "signupUrl": "https://elrollo.com.mx/promociones/",
+    "requirements": [
+      "Ser mayor de edad",
+      "INE o licencia vigente (no de Morelos)",
+      "Banner promocional impreso",
+      "Comprar 1 boleto general para acompañante"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Imprime el banner de la sección Promociones y preséntalo con tu INE en taquillas del parque (Tlaquiltenango, Morelos).",
+    "sources": [
+      "https://elrollo.com.mx/promociones/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "six-flags-mexico",
+    "brand": "Six Flags México",
+    "category": "parques",
+    "benefit": "50% de descuento en boleto de 1 día",
+    "benefitType": "descuento",
+    "details": "En tu mes de cumpleaños, 50% de descuento en el boleto de un día solo para el cumpleañero. No aplica en pases anuales ni con otras promociones. Confirmación oficial más reciente encontrada es de 2022.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE y/o acta de nacimiento original"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta INE/acta en las taquillas de promociones del parque.",
+    "sources": [
+      "https://x.com/SixFlagsMexico/status/1571262869051740162"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "hooters-mexico",
+    "brand": "Hooters México",
+    "category": "bares",
+    "benefit": "100 puntos ($100) de regalo en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Los socios del Hooters Fan Club reciben 100 puntos de regalo (1 punto = $1) para usar en su mes de cumpleaños en sucursales participantes. Solo mayores de 18.",
+    "program": "Hooters Fan Club",
+    "signupUrl": "https://hooters.com.mx/fan-club",
+    "requirements": [
+      "Registro gratis en Hooters Fan Club (web o WhatsApp)",
+      "Mayor de 18 años",
+      "Fecha de nacimiento registrada"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Identifícate como socio Fan Club al pagar en sucursal participante y redime tus puntos.",
+    "sources": [
+      "https://hooters.com.mx/fan-club"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "hsbc-mexico",
+    "brand": "HSBC México",
+    "category": "servicios",
+    "benefit": "Puntos dobles en compras de tu mes de cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Con la tarjeta de crédito HSBC Easy Points acumulas puntos dobles en las compras que hagas durante el mes de tu cumpleaños (y en el aniversario de la tarjeta).",
+    "program": "Tarjeta de Crédito HSBC Easy Points",
+    "signupUrl": "https://www.hsbc.com.mx/tarjetas-de-credito/productos/easy-points/",
+    "requirements": [
+      "Ser titular de tarjeta HSBC Easy Points"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Automático: paga con tu tarjeta durante tu mes de cumpleaños.",
+    "sources": [
+      "https://www.hsbc.com.mx/tarjetas-de-credito/productos/easy-points/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "santander-fiesta-rewards-oro",
+    "brand": "Santander Fiesta Rewards Oro",
+    "category": "servicios",
+    "benefit": "40% en restaurantes Casual Dining e Invitta",
+    "benefitType": "descuento",
+    "details": "Birthday bonus de la tarjeta Santander Fiesta Rewards Oro: 40% de descuento en restaurantes Casual Dining e Invitta, en un solo uso durante la semana posterior a tu cumpleaños.",
+    "program": "Tarjeta Santander Fiesta Rewards Oro",
+    "signupUrl": "https://www.santander.com.mx/personas/credito-y-financiamiento/tarjetas-de-credito/fiesta-rewards-oro/",
+    "requirements": [
+      "Ser titular de tarjeta Santander Fiesta Rewards Oro"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "Un uso en la semana posterior a tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Paga con la tarjeta en restaurante participante dentro de la semana posterior a tu cumpleaños.",
+    "sources": [
+      "https://www.santander.com.mx/personas/credito-y-financiamiento/tarjetas-de-credito/fiesta-rewards-oro/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "kataplum",
+    "brand": "¡Kataplum!",
+    "category": "parques",
+    "benefit": "2x1 en Kataporte los viernes de tu mes",
+    "benefitType": "2x1",
+    "details": "\"Viernes cumpleañero\": los viernes de tu mes de cumpleaños, 2x1 en la compra de Kataporte (acceso ilimitado a atracciones). Una promoción por cumpleañero por viernes, no acumulable; vigente al 31 dic 2026. Socios KataClub anual reciben además 1 Kataporte gratis para acompañante y combo de palomitas y refresco.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Copia de INE o acta de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo los viernes de tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta la copia de tu identificación en taquillas de ¡Kataplum! (Parque Toreo, Naucalpan).",
+    "sources": [
+      "https://kataplum.com.mx/terminos-y-condiciones",
+      "https://x.com/KataplumOficial/status/1732520585089949849"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "turibus",
+    "brand": "Turibus CDMX",
+    "category": "experiencias",
+    "benefit": "Turi Cervecero gratis yendo con 5 acompañantes",
+    "benefitType": "regalo-con-compra",
+    "details": "Si cumples años esa semana y vas con 5 acompañantes que pagan, el cumpleañero viaja gratis en el recorrido Turi Cervecero. Vigente hasta el 31 de octubre de 2026.",
+    "program": null,
+    "signupUrl": "https://www.turibus.com.mx/es/cdmx/experiencias/turibus-cervecero",
+    "requirements": [
+      "INE u otra identificación oficial",
+      "5 acompañantes con boleto pagado"
+    ],
+    "registerDaysBefore": null,
+    "window": "semana",
+    "windowNote": "La semana de tu cumpleaños; promo vigente al 31 oct 2026",
+    "minPurchase": null,
+    "howToClaim": "Compra los boletos de tus acompañantes y presenta tu INE al abordar/en taquilla del Turi Cervecero.",
+    "sources": [
+      "https://cazaofertas.com.mx/entretenimiento/turibus-cumpleanero-si-cumples-anos-en-la-semana-y-acudes-acompanado-el-tour-es-gratis/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "didi-club",
+    "brand": "DiDi",
+    "category": "servicios",
+    "benefit": "50% en un viaje y 25% en DiDi Food",
+    "benefitType": "descuento",
+    "details": "Los suscriptores de DiDi Club ($69 al mes) reciben en su mes de cumpleaños 50% de descuento en un viaje DiDi Express o Moto y un cupón de 25% en DiDi Food.",
+    "program": "DiDi Club ($69/mes)",
+    "signupUrl": "https://web.didiglobal.com/mx/didi-club/",
+    "requirements": [
+      "Suscripción activa a DiDi Club",
+      "Fecha de nacimiento en el perfil"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Los cupones aparecen en la app DiDi; aplícalos al pedir el viaje o el pedido de DiDi Food.",
+    "sources": [
+      "https://web.didiglobal.com/mx/didi-club/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "pricetravel",
+    "brand": "PriceTravel",
+    "category": "viajes",
+    "benefit": "Cupón de descuento en hoteles y paquetes",
+    "benefitType": "descuento",
+    "details": "Con el cupón de cumpleaños (CUMPLE2026) obtienes un descuento especial en hoteles y paquetes vuelo+hotel en México durante tu mes de cumpleaños. Compra mínima $5,000 en hotel o $10,000 en paquete; no aplica a meses sin intereses. Porcentaje no publicado.",
+    "program": null,
+    "signupUrl": "https://www.pricetravel.com/es/ofertas-de-viajes/feliz-cumpleanos",
+    "requirements": [
+      "Reservar durante tu mes de cumpleaños",
+      "Pago de contado (no MSI)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños",
+    "minPurchase": 5000,
+    "howToClaim": "Reserva en pricetravel.com e ingresa el código de cumpleaños vigente en el pago.",
+    "sources": [
+      "https://www.pricetravel.com/es/ofertas-de-viajes/feliz-cumpleanos"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "selva-magica",
+    "brand": "Selva Mágica",
+    "category": "parques",
+    "benefit": "2x1 en Pase Platino en tu mes de cumpleaños",
+    "benefitType": "2x1",
+    "details": "Durante tu mes de cumpleaños, el cumpleañero entra gratis al comprar un Pase Platino para su acompañante. No acumulable; solo en taquilla. Piden seguir al parque en Instagram.",
+    "program": null,
+    "signupUrl": "https://www.selvamagica.com.mx/mes-de-cumpleanos-2x1-platino/",
+    "requirements": [
+      "Copia de acta de nacimiento",
+      "Identificación con foto (INE, pasaporte, licencia o credencial escolar)",
+      "Menores de 6: acta e identificación del tutor"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tus documentos en taquillas de Selva Mágica (Guadalajara) y compra el Pase Platino del acompañante.",
+    "sources": [
+      "https://www.selvamagica.com.mx/mes-de-cumpleanos-2x1-platino/",
+      "https://www.tiktok.com/@selvamagica/video/7479258961561128247"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "greenspa",
+    "brand": "GreenSpa",
+    "category": "servicios",
+    "benefit": "15% en todos los servicios del spa",
+    "benefitType": "descuento",
+    "details": "Durante todo tu mes de cumpleaños, 15% de descuento en todos los servicios de GreenSpa. Condiciones por sucursal no detalladas.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Agenda tu cita por WhatsApp/sucursal y presenta tu identificación.",
+    "sources": [
+      "https://greenspa.mx/promociones/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "space-jump",
+    "brand": "Space Jump",
+    "category": "experiencias",
+    "benefit": "60 minutos de brincar gratis el día de tu cumple",
+    "benefitType": "gratis",
+    "details": "\"Cumpleañero salta gratis\": tiempo de salto gratis en el trampoline park el día exacto de tu cumpleaños. No incluye calcetines, alimentos ni otras atracciones; una vez por persona; sujeto a cupo. Sucursales en Edomex y Querétaro.",
+    "program": null,
+    "signupUrl": "https://spacejump.mx/",
+    "requirements": [
+      "INE, CURP, pasaporte o acta de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Presenta tu documento en recepción de cualquier sucursal Space Jump; conviene confirmar por WhatsApp.",
+    "sources": [
+      "https://spacejump.mx/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "alboa",
+    "brand": "Alboa",
+    "category": "experiencias",
+    "benefit": "1 hora de boliche + zapatos gratis",
+    "benefitType": "gratis",
+    "details": "Miembros de Alboa Loop reciben en su mes de cumpleaños 1 hora de boliche más calzado gratis, sujeto a disponibilidad de pistas. Solo Alboa Santa Fe, Artz, Patriotismo y Mundo E; una vez por mes de cumpleaños.",
+    "program": "Alboa Loop",
+    "signupUrl": "https://microsites.spnty.co/alboaloop",
+    "requirements": [
+      "Registro en Alboa Loop",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una vez durante tu mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Identifícate como socio Alboa Loop en recepción del boliche en sucursal participante.",
+    "sources": [
+      "https://www.alboa.com.mx/TyCLOOP.pdf",
+      "https://quecumple.mx/directorio/alboa-boliche/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "laboratorios-lapi",
+    "brand": "Laboratorios Lapi",
+    "category": "servicios",
+    "benefit": "Check up gratis (valor $2,481) en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Los socios LapiFan (membresía de $179 al año) reciben en su cumpleaños un Check up de laboratorio de regalo con valor de $2,481.",
+    "program": "LapiFan ($179/año)",
+    "signupUrl": "https://www.lapi.com.mx/lapifan",
+    "requirements": [
+      "Membresía LapiFan activa"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "En tu cumpleaños; confirmar ventana exacta en sucursal",
+    "minPurchase": null,
+    "howToClaim": "Agenda tu check up en sucursal Lapi identificándote como LapiFan.",
+    "sources": [
+      "https://www.lapi.com.mx/lapifan"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "k1-speed-mexico",
+    "brand": "K1 Speed México",
+    "category": "experiencias",
+    "benefit": "Carrera de go karts gratis",
+    "benefitType": "gratis",
+    "details": "Según directorio, K1 Speed regala una carrera a miembros de su programa de lealtad en su cumpleaños. No confirmado en sitio oficial.",
+    "program": "Membresía/lealtad K1 Speed",
+    "signupUrl": null,
+    "requirements": [
+      "Ser miembro del programa de lealtad"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en recepción de la pista con tu cuenta K1 Speed.",
+    "sources": [
+      "https://quecumple.mx/directorio/k1-speed-mexico/"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "gotchamania",
+    "brand": "Gotchamania",
+    "category": "experiencias",
+    "benefit": "Cumpleañero entra gratis yendo con 5 amigos",
+    "benefitType": "regalo-con-compra",
+    "details": "Según directorio, si vas con 5 amigos el cumpleañero entra gratis al gotcha. No confirmado en sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial",
+      "5 acompañantes que paguen"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No especificado",
+    "minPurchase": null,
+    "howToClaim": "Confirma por WhatsApp y presenta INE en el campo.",
+    "sources": [
+      "https://quecumple.mx/directorio/gotchamania/"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "acuario-inbursa",
+    "brand": "Acuario Inbursa",
+    "category": "experiencias",
+    "benefit": "Entrada especial a $250 (acuario + interactivo)",
+    "benefitType": "descuento",
+    "details": "Según directorio, el cumpleañero obtiene precio especial de $250 para Acuario Inbursa, Acuario Interactivo y exposición temporal. Históricamente el acuario hizo promos mensuales para cumpleañeros; no confirmado en sitio oficial.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "INE/pasaporte original y copia",
+      "Menores: acta de nacimiento o CURP"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños (por confirmar)",
+    "minPurchase": null,
+    "howToClaim": "Presenta identificación en taquilla del Acuario Inbursa (Nuevo Polanco, CDMX).",
+    "sources": [
+      "https://quecumple.mx/directorio/acuario-inbursa/",
+      "https://m.facebook.com/acuarioinbursa/photos/a.274845132717696/1831465767055617/"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "sephora",
+    "brand": "Sephora",
+    "category": "belleza",
+    "benefit": "Regalo de cumpleaños o 10-20% de descuento",
+    "benefitType": "gratis",
+    "details": "Durante tu mes de cumpleaños eliges entre un regalo (varía según temporada y existencias) o un descuento único en tu primera compra del mes: 10% Rewarder, 15% VIB, 20% Rouge. El descuento no aplica en Chanel, Dyson, Shark, The Ordinary, ELF ni fragancias.",
+    "program": "Sephora Rewards",
+    "signupUrl": "https://www.sephora.com.mx/beauty-club/",
+    "requirements": [
+      "Estar inscrito en Sephora Rewards con fecha de nacimiento",
+      "Identificación oficial"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Todo el mes de tu cumpleaños, una vez al año",
+    "minPurchase": null,
+    "howToClaim": "Solo en tienda física: presenta tu identificación oficial en caja y elige regalo o descuento.",
+    "sources": [
+      "https://www.sephora.com.mx/pages/terms.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "xiaomi",
+    "brand": "Xiaomi",
+    "category": "tecnologia",
+    "benefit": "15% de descuento (tope $2,000) en mi.com",
+    "benefitType": "descuento",
+    "details": "Cupón de 15% en productos participantes de mi.com/mx en compras desde $500 MXN, con descuento máximo de $2,000 MXN; no aplica a envío ni es acumulable. Se emite el día 1 de tu mes de cumpleaños. Nota: la promo de $500 de descuento en compras de $1,000 en Mi Store física solo aparece en una oferta ya expirada de Promodescuentos; no confirmada como vigente.",
+    "program": "Cuenta Mi (Xiaomi)",
+    "signupUrl": "https://www.mi.com/mx/",
+    "requirements": [
+      "Mayor de edad",
+      "Cuenta Mi activa",
+      "Fecha de nacimiento registrada antes del día 1 del mes de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Válido del 1 al último día del mes de tu cumpleaños (programa vigente del 1 ene al 31 dic 2026)",
+    "minPurchase": 500,
+    "howToClaim": "El cupón llega a tu cuenta Mi el día 1 de tu mes; aplícalo al pagar en mi.com/mx. Si registras la fecha ya dentro del mes, no se emite hasta el año siguiente.",
+    "sources": [
+      "https://www.mi.com/mx/support/terms/birthday/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "victorias-secret",
+    "brand": "Victoria's Secret",
+    "category": "ropa",
+    "benefit": "20% de descuento con cupón VSBDAY20",
+    "benefitType": "descuento",
+    "details": "Cupón VSBDAY20 de 20% de descuento válido en tu mes de cumpleaños solo en victoriassecret.mx. No aplica con otras promociones; 1 uso por cliente. La página oficial de T&C aún menciona el año 2023, por lo que podría haber cambiado.",
+    "program": "Newsletter Victoria's Secret México",
+    "signupUrl": "https://www.victoriassecret.mx/suscripcion",
+    "requirements": [
+      "Suscripción al newsletter con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante el mes de tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Ingresa el cupón VSBDAY20 al pagar en victoriassecret.mx durante tu mes de cumpleaños.",
+    "sources": [
+      "https://www.victoriassecret.mx/terminos-y-condiciones/cumpleanos"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "bath-and-body-works",
+    "brand": "Bath & Body Works",
+    "category": "belleza",
+    "benefit": "Cupón de cumpleaños para miembros",
+    "benefitType": "descuento",
+    "details": "Los T&C de bathandbodyworks.mx 2026 mencionan un 'cupón cumpleaños' no acumulable y sin validez en eventos de rebajas (Hot Sale, Buen Fin, etc.). El monto o producto exacto no está publicado.",
+    "program": "My Bath & Body Works Rewards",
+    "signupUrl": "https://www.bathandbodyworks.mx/",
+    "requirements": [
+      "Registro en el programa de lealtad con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños; no válido en temporadas de rebajas",
+    "minPurchase": null,
+    "howToClaim": "Revisa tu correo/cuenta en tu mes de cumpleaños y aplica el cupón en bathandbodyworks.mx o app.",
+    "sources": [
+      "https://www.bathandbodyworks.mx/terminos-y-condiciones"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "palacio-de-hierro",
+    "brand": "El Palacio de Hierro",
+    "category": "departamentales",
+    "benefit": "Regalo especial + café y postre gratis",
+    "benefitType": "gratis",
+    "details": "Tarjetahabientes reciben en su mes de cumpleaños un regalo especial en el área de Tarjeta Palacio, café y postre sin costo en El Restaurante Palacio y Bistro, comida sin costo en El Restaurante Palacio, y botella de vino (Socio) o champagne (Total). Las cortesías de restaurante aplican con consumo mínimo.",
+    "program": "Tarjeta Palacio",
+    "signupUrl": "https://www.elpalaciodehierro.com/tarjetapalacio.html",
+    "requirements": [
+      "Ser titular de Tarjeta Palacio",
+      "Identificación oficial vigente (INE o pasaporte)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños; solo el titular",
+    "minPurchase": null,
+    "howToClaim": "Acude con tu Tarjeta Palacio e identificación al módulo de Tarjeta Palacio y/o al restaurante participante.",
+    "sources": [
+      "https://www.elpalaciodehierro.com/tarjetapalacio/celebramos-contigo.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "liverpool",
+    "brand": "Liverpool",
+    "category": "departamentales",
+    "benefit": "50% de descuento en Restaurante Liverpool",
+    "benefitType": "descuento",
+    "details": "El cumpleañero obtiene 50% de descuento en su consumo individual en Restaurante Liverpool, con cualquier forma de pago (ya no exige tarjeta Liverpool en 2026). No aplica en menús completos, platillos de festival, buffet, para llevar ni con otras promociones.",
+    "program": null,
+    "signupUrl": null,
+    "requirements": [
+      "Identificación oficial vigente"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Una sola vez durante tu mes de cumpleaños (vigente 1 ene - 31 dic 2026)",
+    "minPurchase": null,
+    "howToClaim": "Consume en Restaurante Liverpool y muestra tu credencial vigente al pedir la cuenta.",
+    "sources": [
+      "https://www.liverpool.com.mx/tienda/paginas/restaurante"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "tous",
+    "brand": "Tous",
+    "category": "otras-tiendas",
+    "benefit": "Dije de regalo al comprar en tu cumpleaños",
+    "benefitType": "regalo-con-compra",
+    "details": "Socios de MyTOUS reciben un regalo exclusivo (medios reportan un dije) al realizar una compra en su mes de cumpleaños, sin importe mínimo. Las piezas de repuesto (broches, extensores) no cuentan como compra válida.",
+    "program": "MyTOUS",
+    "signupUrl": "https://www.tous.com/mx-es/loyalty-mytous",
+    "requirements": [
+      "Ser socio de MyTOUS",
+      "Realizar una compra (sin importe mínimo)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Durante tu mes de cumpleaños; un regalo al año, hasta agotar existencias",
+    "minPurchase": null,
+    "howToClaim": "Acude a una tienda TOUS participante (incluye stands en Palacio de Hierro), identifícate como socio MyTOUS y haz una compra.",
+    "sources": [
+      "https://www.tous.com/mx-es/loyalty-mytous",
+      "https://instyle.mx/estilo-de-vida/lugares-en-mexico-donde-te-regalan-cosas-en-tu-cumpleanos/"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "nike",
+    "brand": "Nike",
+    "category": "ropa",
+    "benefit": "20% en línea o 10% en tienda",
+    "benefitType": "descuento",
+    "details": "Miembros Nike reciben en su mes de cumpleaños un código de 20% en nike.com/mx o la app, o 10% en tiendas Nike participantes, con tope de $10,000 MXN. No aplica en SNKRS, Nike By You, NikeSKIMS, Air Jordan 1, Jordan Retro ni Dunk.",
+    "program": "Nike Membership",
+    "signupUrl": "https://www.nike.com/mx/membership",
+    "requirements": [
+      "Ser miembro Nike con fecha de nacimiento registrada",
+      "Registrarse al menos 1 mes antes del mes de cumpleaños",
+      "En tienda: correo de Nike e identificación oficial"
+    ],
+    "registerDaysBefore": 30,
+    "window": "mes",
+    "windowNote": "Solo durante tu mes de cumpleaños; un código por cuenta, un solo uso",
+    "minPurchase": null,
+    "howToClaim": "El código llega por correo los primeros días del mes y en la sección de recompensas de la Nike App; úsalo al pagar o muéstralo en caja con tu INE.",
+    "sources": [
+      "https://www.nike.com/mx/help/a/terminos-de-la-promocion-de-cumpleanos"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "adidas",
+    "brand": "adidas",
+    "category": "ropa",
+    "benefit": "15% a 30% de descuento según nivel adiClub",
+    "benefitType": "descuento",
+    "details": "Miembros adiClub con fecha de nacimiento registrada reciben un cupón de cumpleaños; medios reportan 15% en nivel 1 y hasta 30% en niveles superiores. Porcentaje exacto por nivel no confirmado en fuente oficial.",
+    "program": "adiClub",
+    "signupUrl": "https://www.adidas.mx/adiclub",
+    "requirements": [
+      "Ser miembro adiClub",
+      "Fecha de nacimiento registrada"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "El código llega por correo en las semanas previas a tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Usa el código que llega por correo/app en adidas.mx o la app adidas.",
+    "sources": [
+      "https://instyle.mx/estilo-de-vida/lugares-en-mexico-donde-te-regalan-cosas-en-tu-cumpleanos/",
+      "https://www.cronica.com.mx/tendencias/2026/07/31/cumples-anos-en-agosto-estas-son-las-marcas-que-tienen-regalos-gratis-o-descuentos-por-tu-cumpleanos-en-mexico-este-2026/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "h-and-m",
+    "brand": "H&M",
+    "category": "ropa",
+    "benefit": "25% de descuento de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Miembros de H&M (registro gratuito) reciben un cupón de 25% de descuento por su cumpleaños, usable en tienda o en línea. Reportes de usuarios indican que la vigencia es corta (de un día a ~2 semanas) y puede limitarse a una prenda.",
+    "program": "H&M Membership",
+    "signupUrl": "https://www2.hm.com/es_mx/member/info.html",
+    "requirements": [
+      "Ser miembro H&M con fecha de nacimiento en la app/cuenta"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia corta alrededor de tu cumpleaños (aprox. una semana); confirmar en la app",
+    "minPurchase": null,
+    "howToClaim": "Muestra el cupón desde la app H&M en caja o aplícalo en hm.com/mx.",
+    "sources": [
+      "https://instyle.mx/estilo-de-vida/lugares-en-mexico-donde-te-regalan-cosas-en-tu-cumpleanos/"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "innovasport",
+    "brand": "Innovasport / Innvictus",
+    "category": "ropa",
+    "benefit": "Cupón de descuento de cumpleaños (Legends Pro/Master)",
+    "benefitType": "descuento",
+    "details": "Usuarios Legends nivel Pro (15,000+ puntos en 12 meses) o Master (30,000+) reciben un cupón de descuento en su mes de cumpleaños para Innovasport o Innvictus, en tienda o en línea. El porcentaje no está publicado.",
+    "program": "Legends",
+    "signupUrl": "https://www.innovasport.com/legends",
+    "requirements": [
+      "Ser miembro Legends nivel Pro o Master"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Cupón de un solo uso con vigencia de 30 días desde que llega el correo",
+    "minPurchase": null,
+    "howToClaim": "En tienda identifícate con tu membresía digital o teléfono; en línea el cupón aparece en el carrito al iniciar sesión.",
+    "sources": [
+      "https://www.innovasport.com/terminos-y-condiciones-legends"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "petco",
+    "brand": "Petco",
+    "category": "mascotas",
+    "benefit": "Galleta gratis para tu mascota en su cumpleaños",
+    "benefitType": "gratis",
+    "details": "Registra sin costo a tu mascota en la Petco App y el día de su cumpleaños acude a Petco a pedir su galleta gratis. Aplica al cumpleaños de la mascota, no del dueño.",
+    "program": "Petco App / Club Petco",
+    "signupUrl": "https://www.petco.com.mx/somospetco",
+    "requirements": [
+      "Perfil de la mascota con fecha de cumpleaños en la Petco App"
+    ],
+    "registerDaysBefore": null,
+    "window": "dia",
+    "windowNote": "El día del cumpleaños de la mascota",
+    "minPurchase": null,
+    "howToClaim": "Ve a tienda Petco el día del cumpleaños de tu mascota y pide la galleta mostrando su perfil en la app.",
+    "sources": [
+      "https://www.petco.com.mx/somospetco"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "sanborns",
+    "brand": "Sanborns",
+    "category": "departamentales",
+    "benefit": "15% extra o 20% en tu pastel",
+    "benefitType": "descuento",
+    "details": "Con la Carta Cumpleaños, tarjetahabientes Sanborns obtienen 15% de descuento adicional en departamentos participantes y/o 20% en la compra de su pastel (mínimo $100 en pastelería). Excluye electrónica de marca, libros, vinos, perfumería fina, restaurante, entre otros.",
+    "program": "Tarjeta de crédito Sanborns",
+    "signupUrl": "https://credito.sanborns.com.mx/",
+    "requirements": [
+      "Ser titular de tarjeta de crédito Sanborns",
+      "Presentar la Carta Cumpleaños",
+      "Pagar con tarjeta Sanborns"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños según la carta",
+    "minPurchase": null,
+    "howToClaim": "Descarga/recibe la Carta Cumpleaños, preséntala en caja (escanean su código de barras) y paga con tu tarjeta Sanborns.",
+    "sources": [
+      "https://credito.sanborns.com.mx/Home/CartaCumpleanios"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "pandora",
+    "brand": "Pandora",
+    "category": "otras-tiendas",
+    "benefit": "10% de descuento en tu cumpleaños",
+    "benefitType": "descuento",
+    "details": "Miembros de Pandora Club reciben por correo el primer día de su mes de cumpleaños un cupón de 10% válido solo en mx.pandora.net. No aplica con otras promociones ni en productos con descuento.",
+    "program": "Pandora Club",
+    "signupUrl": "https://mx.pandora.net/es/pandora-club/",
+    "requirements": [
+      "Ser miembro de Pandora Club con fecha de nacimiento",
+      "Aceptar comunicaciones por correo",
+      "Mayor de 18 años"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Llega el día 1 del mes de cumpleaños; vigencia de 30 días tras el envío",
+    "minPurchase": null,
+    "howToClaim": "Ingresa el código en el checkout de mx.pandora.net/es.",
+    "sources": [
+      "https://mx.pandora.net/es/t-c-de-promociones/terms-and-conditions-promotions.html"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "sears",
+    "brand": "Sears",
+    "category": "departamentales",
+    "benefit": "10% adicional (hasta 15% con Black)",
+    "benefitType": "descuento",
+    "details": "Tarjetahabientes Sears reciben una carta de felicitación con 10% de descuento adicional sobre promociones vigentes (hasta 15% con tarjeta Black). No aplica en cómputo, telefonía, videojuegos, perfumería, motos y algunas marcas. Fuentes de 2018-2023; vigencia actual no confirmada.",
+    "program": "Tarjeta Sears",
+    "signupUrl": "https://www.sears.com.mx/Credito-Sears/beneficios/landing",
+    "requirements": [
+      "Ser titular de tarjeta Sears",
+      "Presentar la carta de cumpleaños",
+      "Pagar con tarjeta Sears"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños; solo en tienda física",
+    "minPurchase": null,
+    "howToClaim": "Presenta en caja la carta de felicitación (correo/domicilio) y paga el total con tu tarjeta Sears.",
+    "sources": [
+      "https://www.radioformula.com.mx/estilo-de-vida/2023/8/29/sears-el-increible-regalo-que-sorprende-los-clientes-en-su-cumpleanos-778148.html",
+      "https://cazaofertas.com.mx/otros/promocion-de-cumpleanos-sears-10-de-descuento-adicional-con-tarjeta-sears/"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "benavides",
+    "brand": "Farmacias Benavides",
+    "category": "otras-tiendas",
+    "benefit": "1,000 puntos extra en tu cumpleaños",
+    "benefitType": "gratis",
+    "details": "Miembros de Benavides Recompensas reciben 1,000 puntos adicionales por su cumpleaños (más 1,000 de bienvenida al registrarse), canjeables en compras. Programa con beneficios vigentes desde el 1 de febrero de 2026.",
+    "program": "Benavides Recompensas",
+    "signupUrl": "https://www.benavides.com.mx/benavidesrecompensas",
+    "requirements": [
+      "Registro gratuito en Benavides Recompensas (web o app) con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Puntos acreditados por tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Los puntos se abonan a tu cuenta; úsalos en tu siguiente compra en Benavides identificándote en caja o en la app.",
+    "sources": [
+      "https://www.benavides.com.mx/benavidesrecompensas"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "miniso",
+    "brand": "Miniso",
+    "category": "otras-tiendas",
+    "benefit": "20% de descuento en la app y sitio web",
+    "benefitType": "descuento",
+    "details": "Suscriptores del newsletter reciben en su mes de cumpleaños un cupón de 20% sin monto mínimo, válido solo en miniso.com.mx y la app (no en tiendas físicas). No aplica en productos Sanrio ni en Hot Sale, Black Friday, Cyber Days, etc.",
+    "program": "Newsletter Miniso",
+    "signupUrl": "https://www.miniso.com.mx/",
+    "requirements": [
+      "Suscripción al newsletter con fecha de cumpleaños"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Solo durante tu mes de cumpleaños; un uso",
+    "minPurchase": null,
+    "howToClaim": "Aplica el código recibido por correo al pagar en miniso.com.mx o en la app Miniso.",
+    "sources": [
+      "https://www.cupondescuento.com.mx/miniso.com.mx",
+      "https://www.descuento.com.mx/miniso"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "clinique",
+    "brand": "Clinique",
+    "category": "belleza",
+    "benefit": "15% de descuento de cumpleaños en línea",
+    "benefitType": "descuento",
+    "details": "Miembros de Clinique Smart Rewards reciben por correo un código de 15% de descuento de cumpleaños, válido una vez al año en compras en clinique.com.mx.",
+    "program": "Clinique Smart Rewards",
+    "signupUrl": "https://www.clinique.com.mx/smartrewards",
+    "requirements": [
+      "Ser miembro de Smart Rewards con fecha de nacimiento en el perfil",
+      "Iniciar sesión para canjear"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Debe canjearse dentro de los 30 días posteriores a tu cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Inicia sesión en clinique.com.mx y aplica el código que llega por correo en el checkout.",
+    "sources": [
+      "https://www.clinique.com.mx/customer-care/loyalty",
+      "https://www.clinique.com.mx/customer-care/general-info/loyalty-terms-conditions"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "levis",
+    "brand": "Levi's",
+    "category": "ropa",
+    "benefit": "Sorpresa de cumpleaños para miembros Red Tab",
+    "benefitType": "descuento",
+    "details": "El programa Red Tab de Levi's México promete una 'sorpresa especial' en tu cumpleaños; el contenido exacto (descuento o regalo) no está publicado.",
+    "program": "Levi's Red Tab",
+    "signupUrl": "https://www.levi.com.mx/redtabprogram",
+    "requirements": [
+      "Ser miembro Red Tab con fecha de nacimiento registrada"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Alrededor de tu cumpleaños; detalles no publicados",
+    "minPurchase": null,
+    "howToClaim": "Revisa tu correo/cuenta Red Tab en tu cumpleaños.",
+    "sources": [
+      "https://www.levi.com.mx/redtabprogram"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "sally-beauty",
+    "brand": "Sally Beauty",
+    "category": "belleza",
+    "benefit": "20% en marcas importadas + kit según nivel",
+    "benefitType": "descuento",
+    "details": "Clientes con Monedero Sally reciben el cupón CUMPLE: 20% de descuento en marcas importadas durante su mes de cumpleaños, en tienda o en línea (un canje, no acumulable). Miembros Sally Club (Plata, Oro, Diamante, Platino) además pueden elegir un kit cumpleañero (Bissu, Prosa, Difeel, etc.) sujeto a existencias.",
+    "program": "Monedero Sally / Sally Club",
+    "signupUrl": "https://www.sallymexico.com/",
+    "requirements": [
+      "Tener Monedero Sally con fecha de cumpleaños registrada",
+      "Identificación oficial en tienda"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Del 1 al último día de tu mes de cumpleaños (T&C se publican mes a mes)",
+    "minPurchase": null,
+    "howToClaim": "En tienda presenta el cupón CUMPLE (digital o impreso) e INE; en línea usa el código con tu fecha de cumpleaños registrada en el perfil.",
+    "sources": [
+      "https://www.sallymexico.com/condiciones-de-las-promociones"
+    ],
+    "confidence": "alta"
+  },
+  {
+    "slug": "crocs",
+    "brand": "Crocs",
+    "category": "ropa",
+    "benefit": "Descuento de cumpleaños Crocs Club",
+    "benefitType": "descuento",
+    "details": "Crocs México tiene una página oficial 'Recibe tu descuento de cumpleaños' para miembros de Crocs Club, pero no publica el porcentaje ni las condiciones.",
+    "program": "Crocs Club",
+    "signupUrl": "https://crocs.com.mx/pages/crc-birthday",
+    "requirements": [
+      "Registro en Crocs Club con fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños (según descripción del club)",
+    "minPurchase": null,
+    "howToClaim": "Regístrate en la página de cumpleaños de crocs.com.mx y usa el código que llegue por correo.",
+    "sources": [
+      "https://crocs.com.mx/pages/crc-birthday"
+    ],
+    "confidence": "media"
+  },
+  {
+    "slug": "price-shoes",
+    "brand": "Price Shoes",
+    "category": "ropa",
+    "benefit": "Cupón de cumpleaños de hasta 25%",
+    "benefitType": "descuento",
+    "details": "Socios de Price Shoes reportan un cupón de cumpleaños de hasta 25% de descuento, visible en 'Mis cupones' de la app o web. No hay términos oficiales publicados.",
+    "program": "Socio Price Shoes",
+    "signupUrl": "https://www.priceshoes.com/mi-cuenta",
+    "requirements": [
+      "Ser socio Price Shoes"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "Vigencia indicada en el cupón",
+    "minPurchase": null,
+    "howToClaim": "Revisa 'Mi Perfil > Mis Cupones' en la app o web y aplica el cupón.",
+    "sources": [
+      "https://blog.priceshoes.com/aprovecha-tus-descuentos-como-administrar-tus-cupones/"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "flexi",
+    "brand": "Flexi",
+    "category": "ropa",
+    "benefit": "25% de descuento en tu mes de cumpleaños",
+    "benefitType": "descuento",
+    "details": "Sitios de cupones reportan 25% de descuento en el mes de cumpleaños para miembros del Club Flexi, no acumulable. No confirmado en fuente oficial.",
+    "program": "Club Flexi",
+    "signupUrl": null,
+    "requirements": [
+      "Ser miembro del Club Flexi"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños",
+    "minPurchase": null,
+    "howToClaim": "Pregunta en tienda Flexi identificándote como miembro.",
+    "sources": [
+      "https://www.promodescuentos.com/cupones/flexi.com.mx"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "xiaomi-store",
+    "brand": "Xiaomi Store (tienda física)",
+    "category": "tecnologia",
+    "benefit": "$500 de descuento en compras desde $1,000",
+    "benefitType": "descuento",
+    "details": "Reportado como beneficio del programa de lealtad de Xiaomi Store física: cupón de $500 MXN en compras mínimas de $1,000 MXN en tu mes de cumpleaños. La única fuente es una oferta de Promodescuentos marcada como expirada; los T&C oficiales 2026 solo cubren el 15% en mi.com. No confirmado como vigente.",
+    "program": "Programa de lealtad Xiaomi Store",
+    "signupUrl": null,
+    "requirements": [
+      "Registro en el programa de lealtad de Xiaomi Store",
+      "Identificación oficial en tienda"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños",
+    "minPurchase": 1000,
+    "howToClaim": "Pregunta en una Xiaomi Store física presentando tu identificación en tu mes de cumpleaños.",
+    "sources": [
+      "https://www.promodescuentos.com/ofertas/mi-store-en-tu-mes-de-cumple-recibe-500-de-descuento-en-compras-mayores-a-1000-1052131"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "suburbia",
+    "brand": "Suburbia",
+    "category": "departamentales",
+    "benefit": "Comida gratis y 50% en Restaurante Liverpool",
+    "benefitType": "gratis",
+    "details": "Según medios (2024), tarjetahabientes Suburbia reciben una comida gratis un miércoles de su mes de cumpleaños al ir con 2+ acompañantes y pagar con la tarjeta, y un cupón de 50% en Restaurante Liverpool. No confirmado en fuente oficial vigente.",
+    "program": "Tarjeta Suburbia / Suburbia Visa",
+    "signupUrl": "https://micredito.suburbia.com.mx/",
+    "requirements": [
+      "Ser titular de tarjeta Suburbia",
+      "Pagar con la tarjeta",
+      "Ir con 2 o más acompañantes (comida gratis)"
+    ],
+    "registerDaysBefore": null,
+    "window": "mes",
+    "windowNote": "Mes de cumpleaños; comida solo en miércoles",
+    "minPurchase": null,
+    "howToClaim": "Consume en restaurante participante en miércoles, paga con tu tarjeta Suburbia y presenta identificación.",
+    "sources": [
+      "https://www.radioformula.com.mx/estilo-de-vida/2024/9/26/suburbia-lista-de-todos-los-descuentos-beneficios-que-obtienes-con-la-tarjeta-de-credito-834585.html"
+    ],
+    "confidence": "baja"
+  },
+  {
+    "slug": "gandhi",
+    "brand": "Librerías Gandhi",
+    "category": "otras-tiendas",
+    "benefit": "Beneficio de cumpleaños Página 1 (niveles Amarillo/Morado)",
+    "benefitType": "descuento",
+    "details": "El programa Página 1 (tarjeta de $140) menciona un beneficio especial de cumpleaños para niveles Amarillo y Morado; el contenido exacto no está publicado. El FAQ oficial no lo detalla.",
+    "program": "Página 1",
+    "signupUrl": "https://www.pagina1.mx/newpagina1/FAQ.html",
+    "requirements": [
+      "Tarjeta Página 1 ($140 MXN)",
+      "Nivel Amarillo o Morado"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "No publicado",
+    "minPurchase": null,
+    "howToClaim": "Consulta en caja de Gandhi con tu tarjeta Página 1.",
+    "sources": [
+      "https://www.pagina1.mx/newpagina1/FAQ.html"
+    ],
+    "confidence": "baja"
+  }
 ]

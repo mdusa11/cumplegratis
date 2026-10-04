@@ -8,10 +8,9 @@ import { BENEFIT, type Promo } from "@/lib/promos";
 
 // Posiciones (en % del hero) y giro de cada sticker en escritorio.
 const SPOTS = [
-  { left: "74%", top: "13%", rotate: -7 },
-  { left: "77%", top: "30%", rotate: 6 },
-  { left: "53%", top: "44%", rotate: -5 },
-  { left: "74%", top: "47%", rotate: 9 },
+  { left: "71%", top: "11%", rotate: -7 },
+  { left: "75%", top: "25%", rotate: 6 },
+  { left: "58%", top: "33%", rotate: -4 },
 ];
 const STICKER_COLORS = ["var(--color-lilac)", "var(--color-hot)", "var(--color-sky)", "var(--color-sun)", "var(--color-pink)", "var(--color-paper)"];
 
@@ -62,7 +61,7 @@ export function Hero({ featured, total }: { featured: Promo[]; total: number }) 
           <p className="mt-10 max-w-xl text-xl leading-snug font-medium sm:text-2xl lg:mt-0">
             Café, pastel, cine, descuentos y regalos. Pon tu fecha y te decimos <b>dónde registrarte</b> y <b>hasta cuándo</b> para cobrarlo todo.
           </p>
-          <BirthdayPicker className="mt-8 lg:mt-6 lg:flex-col xl:flex-row" />
+          <BirthdayPicker className="mt-8 lg:mt-6 lg:flex-col" />
         </motion.div>
       </div>
 
