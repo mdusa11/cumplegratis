@@ -9,6 +9,8 @@ export const SITE = {
 
 export const ACCENT = "#5b7cff";
 
+export const STUDIO = { name: "Dusa Solutions", url: "https://dusasolutions.com" };
+
 export const cn = (...classes: (string | false | null | undefined)[]) => classes.filter(Boolean).join(" ");
 
 export const MONTHS = [
@@ -28,7 +30,7 @@ export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";
  * PENDIENTE: llenar con los datos reales antes de recabar correos (nombre o razón social, domicilio y correo de contacto).
  */
 export const LEGAL = {
-  responsible: process.env.NEXT_PUBLIC_LEGAL_NAME ?? "Cumplegratis",
+  responsible: process.env.NEXT_PUBLIC_LEGAL_NAME ?? "Dusa Solutions",
   address: process.env.NEXT_PUBLIC_LEGAL_ADDRESS ?? "México",
   email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "privacidad@cumplegratis.fun",
   updated: "4 de octubre de 2026",

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Icon } from "./Icon";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { SITE } from "@/lib/site";
+import { SITE, STUDIO } from "@/lib/site";
 import { openInstall } from "./PwaInstall";
 
 export function Footer() {
@@ -19,6 +19,9 @@ export function Footer() {
         <div>
           <p className="display text-4xl text-acid sm:text-5xl">Que ningún regalo se te escape.</p>
           <p className="mt-4 max-w-sm text-paper/70">{SITE.description}</p>
+          <a href={STUDIO.url} target="_blank" rel="noopener" className="mt-6 inline-flex items-center gap-2 font-semibold text-paper/80 transition-colors hover:text-acid">
+            Un producto de <span className="underline underline-offset-4">{STUDIO.name}</span>
+          </a>
         </div>
         <FooterCol
           title="Explora"

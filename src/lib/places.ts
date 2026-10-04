@@ -84,6 +84,7 @@ export const CITIES = {
   cuernavaca: { name: "Cuernavaca", state: "MOR", lat: 18.924, lng: -99.222 },
   cuautla: { name: "Cuautla", state: "MOR", lat: 18.812, lng: -98.955 },
   tepic: { name: "Tepic", state: "NAY", lat: 21.504, lng: -104.895 },
+  "nuevo-vallarta": { name: "Nuevo Vallarta", state: "NAY", lat: 20.699, lng: -105.296 },
   monterrey: { name: "Monterrey", state: "NLE", lat: 25.687, lng: -100.316 },
   oaxaca: { name: "Oaxaca", state: "OAX", lat: 17.073, lng: -96.727 },
   huatulco: { name: "Huatulco", state: "OAX", lat: 15.768, lng: -96.135 },

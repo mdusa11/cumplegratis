@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { PwaInstall } from "@/components/PwaInstall";
-import { ACCENT, SITE, jsonLd } from "@/lib/site";
+import { ACCENT, SITE, STUDIO, jsonLd } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   openGraph: { siteName: SITE.name, locale: "es_MX", type: "website" },
   twitter: { card: "summary_large_image" },
   applicationName: "Cumplegratis",
+  authors: [{ name: STUDIO.name, url: STUDIO.url }],
+  creator: STUDIO.name,
+  publisher: STUDIO.name,
   appleWebApp: { capable: true, title: "Cumplegratis", statusBarStyle: "default" },
   formatDetection: { telephone: false },
   // Search Console / Bing: pega el código en .env (o verifica el dominio por DNS en Cloudflare y deja esto vacío).
@@ -43,8 +46,15 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={jsonLd([
-              { "@context": "https://schema.org", "@type": "Organization", name: SITE.name, url: SITE.url, logo: `${SITE.url}/icons/icon-512.png` },
-              { "@context": "https://schema.org", "@type": "WebSite", name: SITE.name, url: SITE.url, inLanguage: "es-MX", description: SITE.description },
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                name: SITE.name,
+                url: SITE.url,
+                logo: `${SITE.url}/icons/icon-512.png`,
+                parentOrganization: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url },
+              },
+              { "@context": "https://schema.org", "@type": "WebSite", name: SITE.name, url: SITE.url, inLanguage: "es-MX", description: SITE.description, publisher: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url } },
             ])}
           />
           <ScrollProgress />
