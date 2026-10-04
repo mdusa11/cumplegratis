@@ -19,6 +19,7 @@ export function Catalog() {
   const [cat, setCat] = useState<CategoryId | null>(initialCat && initialCat in CATEGORIES ? (initialCat as CategoryId) : null);
   const [type, setType] = useState<BenefitType | "todos">("todos");
   const [noSignup, setNoSignup] = useState(false);
+  const [onlyConfirmed, setOnlyConfirmed] = useState(false);
   const [query, setQuery] = useState("");
   const [everywhere, setEverywhere] = useState(false);
   const { location, openPicker } = useLocation();
@@ -49,10 +50,11 @@ export function Catalog() {
         (group === "todos" || groupOf(p) === group) &&
         (type === "todos" || p.benefitType === type) &&
         (!noSignup || !p.program) &&
+        (!onlyConfirmed || p.confidence !== "baja") &&
         (!location || everywhere || isAvailable(availability(p, location))) &&
         (!q || normalize(`${p.brand} ${p.benefit} ${CATEGORIES[p.category].label}`).includes(q)),
     );
-  }, [group, type, noSignup, query, location, everywhere]);
+  }, [group, type, noSignup, onlyConfirmed, query, location, everywhere]);
 
   const catCounts = useMemo(() => {
     const counts = new Map<CategoryId, number>();
@@ -74,6 +76,7 @@ export function Catalog() {
     setCat(null);
     setType("todos");
     setNoSignup(false);
+    setOnlyConfirmed(false);
     setQuery("");
   };
 
@@ -146,6 +149,16 @@ export function Catalog() {
           >
             <motion.span animate={{ rotate: noSignup ? 0 : -90, scale: noSignup ? 1 : 0.6 }}>{noSignup ? "✓" : "○"}</motion.span>
             Sin registro previo
+          </button>
+          <button
+            type="button"
+            onClick={() => setOnlyConfirmed((v) => !v)}
+            aria-pressed={onlyConfirmed}
+            title="Oculta las promos que solo vimos en redes y no pudimos confirmar con la marca"
+            className={cn("chip shrink-0 transition-colors", onlyConfirmed ? "bg-acid" : "bg-paper hover:bg-paper-2")}
+          >
+            <motion.span animate={{ rotate: onlyConfirmed ? 0 : -90, scale: onlyConfirmed ? 1 : 0.6 }}>{onlyConfirmed ? "✓" : "○"}</motion.span>
+            Solo confirmadas
           </button>
         </div>
       </div>
