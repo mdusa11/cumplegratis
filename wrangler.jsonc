@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cumplegratis",
+  "compatibility_date": "2026-10-01",
+  // Sitio 100% estático (next build con STATIC_EXPORT=true → out/). Sin código de Worker.
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
