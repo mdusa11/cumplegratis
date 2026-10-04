@@ -76,5 +76,10 @@
       ]
     },
     "reason": "Su sitio oficial lista también Playa del Carmen"
+  },
+  {
+    "slug": "tabu-sushi-noroeste",
+    "remove": true,
+    "reason": "Su página oficial muestra vigencia al 31-ene-2026 (vencida); quitar hasta que publiquen una nueva"
   }
 ]

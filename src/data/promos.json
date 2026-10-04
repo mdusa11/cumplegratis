@@ -10038,22 +10038,24 @@
     "slug": "arbol-de-vida-hermosillo",
     "brand": "Árbol de Vida",
     "category": "restaurantes",
-    "benefit": "Desayuno o comida gratis con 4 acompañantes",
+    "benefit": "Desayuno o comida gratis con 4 invitados",
     "benefitType": "gratis",
-    "details": "Según reportes en TikTok, el cumpleañero recibe desayuno o comida gratis (el platillo) si llega con 4 acompañantes que consuman. No se publica vigencia ni si aplica solo el día exacto, así que confirma al reservar (662 124 5180).",
+    "details": "Según reportes en TikTok, el cumpleañero recibe gratis un desayuno (chilaquiles con café de talega) o una comida (chile de la campana con bebida) si llega con al menos 4 invitados, solo el día de su cumpleaños. No se publican identificación ni vigencia; reservaciones al 662 124 5180.",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Ir con 4 acompañantes que consuman",
+      "Ir con al menos 4 invitados",
+      "Solo el día de tu cumpleaños",
       "Condiciones adicionales no publicadas"
     ],
     "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
+    "window": "dia",
+    "windowNote": "Solo el día de tu cumpleaños (según reportes)",
     "minPurchase": null,
-    "howToClaim": "Reserva, llega con tus 4 acompañantes y avisa que es tu cumpleaños.",
+    "howToClaim": "Reserva, llega con tus invitados y avisa que es tu cumpleaños.",
     "sources": [
       "https://www.facebook.com/p/Arbol-de-Vida-Hermosillo-100038850021177/",
+      "https://www.instagram.com/arboldevidahermosillo/",
       "https://www.tiktok.com/discover/restaurantes-que-regalan-en-cumplea%C3%B1os-hermosillo"
     ],
     "confidence": "baja",
@@ -10064,7 +10066,7 @@
     "cities": [
       "hermosillo"
     ],
-    "locationNote": "Árbol de Vida, Plaza Hidalgo, Centro de Hermosillo",
+    "locationNote": "Árbol de Vida, Av. Álvaro Obregón 62 (Plaza Hidalgo), Centro de Hermosillo",
     "needsId": null,
     "companions": 4,
     "validUntil": null
@@ -10432,41 +10434,6 @@
     "validUntil": null
   },
   {
-    "slug": "mi-chulo-mazatlan",
-    "brand": "Mi Chulo Mazatlán",
-    "category": "restaurantes",
-    "benefit": "Cumpleañero come gratis con 4 acompañantes",
-    "benefitType": "gratis",
-    "details": "Según un video promocional del restaurante, el cumpleañero come gratis si llega con 4 acompañantes; aplican restricciones que se consultan en el local. Reportes mencionan las sucursales de Plaza Cintrón El Toreo, Plaza Andanza y Plaza Santa Lucía Marina.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Ir con 4 acompañantes",
-      "Restricciones no publicadas: consúltalas en el restaurante"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "No se publica si aplica el día exacto o el mes de tu cumpleaños",
-    "minPurchase": null,
-    "howToClaim": "Avisa al llegar que es tu cumpleaños y confirma las condiciones con el personal.",
-    "sources": [
-      "https://www.instagram.com/michulomazatlan/",
-      "https://www.tiktok.com/discover/lugares-donde-te-dan-cosas-gratis-por-tu-cumplea%C3%B1os-en-mazatlan"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "SIN"
-    ],
-    "cities": [
-      "mazatlan"
-    ],
-    "locationNote": "Sucursales Plaza Cintrón (Av. El Toreo 311), Plaza Andanza y Plaza Santa Lucía Marina, Mazatlán",
-    "needsId": null,
-    "companions": 4,
-    "validUntil": null
-  },
-  {
     "slug": "churrascaria-do-brasil-noroeste",
     "brand": "Churrascaria Do Brasil",
     "category": "restaurantes",
@@ -10504,42 +10471,6 @@
     ],
     "locationNote": "Tijuana (Zona Río, Hipódromo, Macroplaza), Culiacán (Tres Ríos) y Mazatlán (Av. Camarón Sábalo 1200)",
     "needsId": true,
-    "companions": 4,
-    "validUntil": null
-  },
-  {
-    "slug": "el-muchacho-alegre-tijuana",
-    "brand": "El Muchacho Alegre (Tijuana)",
-    "category": "restaurantes",
-    "benefit": "Cumpleañero come gratis con 4 adultos y reservación",
-    "benefitType": "gratis",
-    "details": "Según reportes en TikTok, con reservación y 4 adultos acompañantes el cumpleañero come gratis y puede festejar con la tradicional silla voladora; algunos reportes indican que aplica durante todo el mes de cumpleaños. Sucursales Zona Río (664 310 8379) y Plaza Alameda Otay. No hay reglas oficiales publicadas.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Reservar con anticipación",
-      "Ir con 4 adultos acompañantes",
-      "Reglas oficiales no publicadas"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Según reportes, durante el mes de tu cumpleaños",
-    "minPurchase": null,
-    "howToClaim": "Reserva por teléfono e indica que festejas tu cumpleaños.",
-    "sources": [
-      "https://www.instagram.com/elmuchachoalegretj/",
-      "https://www.tiktok.com/discover/lugares-en-tijuana-donde-entras-gratis-el-cumplea%C3%B1ero"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "BCN"
-    ],
-    "cities": [
-      "tijuana"
-    ],
-    "locationNote": "Zona Río (Antonio Caso 1981) y Plaza Alameda Otay, Tijuana",
-    "needsId": null,
     "companions": 4,
     "validUntil": null
   },
@@ -10585,7 +10516,7 @@
     "category": "restaurantes",
     "benefit": "Consumo gratis para el cumpleañero con 1 invitado",
     "benefitType": "gratis",
-    "details": "Según reportes en TikTok, el consumo del cumpleañero es gratis con mínimo un invitado, una vez por día y sin necesidad de reservar, en las sucursales de Plaza Marina (Ensenada), Plaza Minarete 2 (Tijuana) y Plaza Gran Vía (Mexicali), los mismos plazas donde opera 260 Grados con una promo de condiciones idénticas. No hay reglas oficiales publicadas.",
+    "details": "Varios videos de TikTok sobre dónde festejar en Tijuana y Ensenada indican que en Mi Tierra Culichi el consumo del cumpleañero es gratis. En los mismos centros comerciales (Plaza Marina en Ensenada, Plaza Minarete 2 en Tijuana y Plaza Gran Vía en Mexicali), donde opera también 260 Grados, se reporta una promo con mínimo 1 invitado, una vez por día y sin reservación; no está confirmado que Mi Tierra Culichi comparta esas condiciones ni hay reglas oficiales publicadas.",
     "program": null,
     "signupUrl": null,
     "requirements": [
