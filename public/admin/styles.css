@@ -31,6 +31,15 @@ button, select, input { font: inherit; color: inherit; }
 .filters input, .filters select { border: 2px solid var(--ink); background: #fff; border-radius: 12px; padding: 6px 10px; max-width: 220px; }
 .filters select.active { background: var(--sun); }
 .clear { background: var(--paper-2); }
+/* En celular los filtros se van con el scroll: pegados tapaban media pantalla. */
+@media (max-width: 899px) {
+  .filters { position: static; }
+  .presets { flex-wrap: nowrap; overflow-x: auto; width: 100%; padding-bottom: 2px; }
+  .presets button { flex-shrink: 0; }
+  .filters label { flex: 1 1 140px; }
+  .filters label input { flex: 1; min-width: 0; }
+  .filters select { flex: 1 1 160px; max-width: none; }
+}
 
 main { max-width: 1400px; margin: 0 auto; padding: 16px; display: grid; gap: 16px; }
 .grid { display: grid; gap: 16px; }

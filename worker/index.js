@@ -5,6 +5,8 @@ import { admin } from "./admin.js";
 
 const TYPES = new Set(["pageview", "promo_open", "city_set", "search", "share", "whatsapp", "signup_click", "install", "birthday"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit|whatsapp\/|curl|wget|python|axios/i;
+// Robots en centros de datos que se disfrazan de navegador (Frankfurt, Oregon…): se descartan por la red de origen.
+const DATACENTER = /amazon|aws|google cloud|google llc|microsoft|azure|digitalocean|hetzner|ovh|linode|akamai|oracle|alibaba|tencent|vultr|contabo|leaseweb|m247|datacamp|scaleway|choopa|hostinger|ionos|cloudflare|fastly|zenlayer|psychz|colocrossing|hostwinds|bytedance|censys|shodan/i;
 const str = (v, n) => (typeof v === "string" && v ? v.slice(0, n) : null);
 
 function device(ua) {
@@ -34,6 +36,7 @@ async function collect(request, env) {
   if (!TYPES.has(e.t)) return new Response(null, { status: 400 });
 
   const cf = request.cf ?? {};
+  if (DATACENTER.test(cf.asOrganization ?? "")) return new Response(null, { status: 204 });
   await env.DB.prepare(
     `INSERT INTO events (ts, type, path, target, value, sid, ref, device, os, browser, standalone, country, region, city, lat, lon, app_state, app_city)
      VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18)`,
