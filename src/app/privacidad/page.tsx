@@ -81,8 +81,10 @@ export default function Privacidad() {
                 {" "}
                 Para mejorar el sitio registramos de forma anónima qué páginas y promos se ven, qué se busca, la ciudad que eliges y el mes de tu
                 cumpleaños (no el día), junto con una ubicación aproximada (país, estado y ciudad) que Cloudflare calcula a partir de tu conexión.
-                No guardamos tu IP ni usamos cookies para esto: solo un identificador aleatorio que se borra al cerrar la pestaña. También usamos
-                Cloudflare Web Analytics, que tampoco usa cookies.
+                También medimos cuánto tiempo pasa cada página a la vista, hasta dónde se desplaza la gente y qué tan rápido carga el sitio. No
+                guardamos tu IP ni usamos cookies para esto: usamos un identificador aleatorio que se borra al cerrar la pestaña y otro que se queda
+                en tu navegador solo para saber si regresas; ninguno se liga a tu nombre, correo ni teléfono, y los borras al limpiar los datos del
+                sitio. También usamos Cloudflare Web Analytics, que tampoco usa cookies.
                 {ADS.client ? " La única herramienta de terceros con cookies es la de publicidad, descrita abajo." : " No usamos cookies de terceros."}
               </p>
             </>

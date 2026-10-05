@@ -1,9 +1,25 @@
 // Analítica propia y anónima: sin cookies ni IP. Un id aleatorio por pestaña (sessionStorage) para contar visitas.
 // Solo se envía en el dominio real; en desarrollo y en vistas previas no se mide.
 
-export type TrackType = "pageview" | "promo_open" | "city_set" | "search" | "share" | "whatsapp" | "signup_click" | "install" | "birthday";
+export type TrackType = "pageview" | "leave" | "promo_open" | "city_set" | "search" | "filter" | "share" | "whatsapp" | "signup_click" | "install" | "birthday";
 
 let sid: string | null = null;
+let vid: string | null = null;
+
+// Id aleatorio que se queda en este navegador: solo sirve para saber si alguien regresa. No se liga a ningún dato personal.
+function visitor() {
+  if (vid) return vid;
+  try {
+    vid = localStorage.getItem("cg:vid");
+    if (!vid) {
+      vid = crypto.randomUUID();
+      localStorage.setItem("cg:vid", vid);
+    }
+  } catch {
+    vid = null;
+  }
+  return vid;
+}
 let referrer: string | null | undefined;
 
 function session() {
@@ -40,12 +56,14 @@ function chosenLocation(): { state?: string; city?: string | null } {
   }
 }
 
-export function track(t: TrackType, data: { target?: string | null; value?: number } = {}) {
+export type PageStats = { path?: string; sec?: number; sc?: number; lcp?: number; cls?: number; inp?: number };
+
+export function track(t: TrackType, data: { target?: string | null; value?: number } & PageStats = {}) {
   if (typeof window === "undefined" || !location.hostname.endsWith("cumplegratis.fun")) return;
   const loc = chosenLocation();
   const body = JSON.stringify({
     t,
-    p: location.pathname.replace(/(.)\/$/, "$1"),
+    p: data.path ?? location.pathname.replace(/(.)\/$/, "$1"),
     g: data.target ?? null,
     v: data.value,
     s: session(),
@@ -53,6 +71,12 @@ export function track(t: TrackType, data: { target?: string | null; value?: numb
     st: matchMedia("(display-mode: standalone)").matches,
     as: loc.state ?? null,
     ac: loc.city ?? null,
+    u: visitor(),
+    sec: data.sec,
+    sc: data.sc,
+    lcp: data.lcp,
+    cls: data.cls,
+    inp: data.inp,
   });
   try {
     if (!navigator.sendBeacon?.("/api/e", new Blob([body], { type: "application/json" }))) {

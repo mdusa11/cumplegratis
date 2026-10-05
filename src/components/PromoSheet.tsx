@@ -253,7 +253,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
           className="absolute inset-x-0 bottom-0 flex gap-2 border-t-[2.5px] border-ink bg-paper p-3 desk:bg-paper/95 desk:backdrop-blur sm:px-8 sm:py-4"
         >
           {promo.signupUrl && (
-            <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-ink min-w-0 flex-1 !px-3 !text-base sm:!px-4 sm:!text-lg">
+            <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} className="btn btn-ink min-w-0 flex-1 !px-3 !text-base sm:!px-4 sm:!text-lg">
               {promo.program ? "Registrarme" : "Sitio oficial"} ↗︎
             </a>
           )}

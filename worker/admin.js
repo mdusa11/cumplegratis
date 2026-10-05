@@ -1,3 +1,5 @@
+import { gsc } from "./gsc.js";
+
 // Panel de analítica en /admin: login con contraseña (secreto PANEL_PASSWORD) y /admin/api/stats con todos los agregados.
 
 const COOKIE = "cg_panel";
@@ -67,80 +69,102 @@ const mxDay = (s, fallback) => {
   return m ? Date.UTC(+m[1], +m[2] - 1, +m[3], 6) : fallback;
 };
 
-async function stats(url, env) {
-  const q = url.searchParams;
-  const now = Date.now();
-  const from = mxDay(q.get("from"), now - 30 * 864e5);
-  const to = mxDay(q.get("to"), now) + 864e5;
-  const range = ["ts >= ?", "ts < ?"];
-  const rangeArgs = [from, to];
-  const where = [...range];
-  const args = [...rangeArgs];
-  for (const k of ["country", "region", "city", "device"]) {
+const KPI = `SUM(type='pageview') pv, COUNT(DISTINCT CASE WHEN type='pageview' THEN sid END) visits, SUM(type='promo_open') opens,
+  SUM(type='search') searches, SUM(type='share') shares, SUM(type='whatsapp') whatsapp, SUM(type='signup_click') signups,
+  SUM(type='install') installs, SUM(type='city_set') cityset, COUNT(DISTINCT CASE WHEN standalone=1 THEN sid END) app`;
+
+// Filtros del panel → WHERE con parámetros. `shift` mueve el rango hacia atrás (periodo anterior).
+function filters(q, from, to) {
+  const where = ["ts >= ?", "ts < ?"];
+  const args = [from, to];
+  for (const k of ["country", "region", "city", "device", "app_city"]) {
     const v = q.get(k);
     if (v) {
       where.push(`${k} = ?`);
       args.push(v);
     }
   }
-  const W = where.join(" AND ");
+  return { W: where.join(" AND "), args };
+}
+
+async function stats(url, env) {
+  const q = url.searchParams;
+  const now = Date.now();
+  const from = mxDay(q.get("from"), now - 30 * 864e5);
+  const to = mxDay(q.get("to"), now) + 864e5;
+  const { W, args } = filters(q, from, to);
+  const prev = filters(q, from - (to - from), from);
   const hourly = to - from <= 3 * 864e5;
   const fmt = hourly ? "%Y-%m-%d %H:00" : "%Y-%m-%d";
   const db = env.DB;
   const st = (sql, a = args) => db.prepare(sql).bind(...a);
 
-  const [kpi, series, heat, countries, regions, cities, pages, promos, chosen, searches, refs, devices, oses, browsers, months, signups, whatsapp, options, live] =
-    await db.batch([
-      st(`SELECT SUM(type='pageview') pv, COUNT(DISTINCT CASE WHEN type='pageview' THEN sid END) visits, SUM(type='promo_open') opens,
-          SUM(type='search') searches, SUM(type='share') shares, SUM(type='whatsapp') whatsapp, SUM(type='signup_click') signups,
-          SUM(type='install') installs, SUM(type='city_set') cityset, SUM(standalone=1 AND type='pageview') app FROM events WHERE ${W}`),
-      st(`SELECT strftime('${fmt}', ${MX}, 'unixepoch') k, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits FROM events WHERE ${W} GROUP BY k ORDER BY k`),
-      st(`SELECT CAST(strftime('%w', ${MX}, 'unixepoch') AS INT) d, CAST(strftime('%H', ${MX}, 'unixepoch') AS INT) h, COUNT(*) n
-          FROM events WHERE ${W} AND type='pageview' GROUP BY d, h`),
-      st(`SELECT country k, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits FROM events WHERE ${W} GROUP BY country ORDER BY visits DESC LIMIT 60`),
-      st(`SELECT country, region k, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits FROM events WHERE ${W} GROUP BY country, region ORDER BY visits DESC LIMIT 120`),
-      st(`SELECT country, region, city k, AVG(lat) lat, AVG(lon) lon, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits
-          FROM events WHERE ${W} AND city IS NOT NULL GROUP BY country, region, city ORDER BY visits DESC LIMIT 400`),
-      st(`SELECT path k, COUNT(*) n, COUNT(DISTINCT sid) visits FROM events WHERE ${W} AND type='pageview' GROUP BY path ORDER BY n DESC LIMIT 60`),
-      st(`SELECT target k, COUNT(*) n, COUNT(DISTINCT sid) visits FROM events WHERE ${W} AND type='promo_open' GROUP BY target ORDER BY n DESC LIMIT 40`),
-      st(`SELECT target k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='city_set' GROUP BY target ORDER BY n DESC LIMIT 40`),
-      st(`SELECT target k, COUNT(*) n, MAX(value) results FROM events WHERE ${W} AND type='search' GROUP BY target ORDER BY n DESC LIMIT 80`),
-      st(`SELECT ref k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='pageview' AND ref IS NOT NULL GROUP BY ref ORDER BY n DESC LIMIT 30`),
-      st(`SELECT device k, COUNT(DISTINCT sid) n FROM events WHERE ${W} GROUP BY device ORDER BY n DESC`),
-      st(`SELECT os k, COUNT(DISTINCT sid) n FROM events WHERE ${W} GROUP BY os ORDER BY n DESC`),
-      st(`SELECT browser k, COUNT(DISTINCT sid) n FROM events WHERE ${W} GROUP BY browser ORDER BY n DESC`),
-      st(`SELECT value k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='birthday' GROUP BY value ORDER BY value`),
-      st(`SELECT target k, COUNT(*) n FROM events WHERE ${W} AND type='signup_click' GROUP BY target ORDER BY n DESC LIMIT 30`),
-      st(`SELECT path k, COUNT(*) n FROM events WHERE ${W} AND type='whatsapp' GROUP BY path ORDER BY n DESC LIMIT 30`),
-      st(`SELECT DISTINCT country, region, city FROM events WHERE ${range.join(" AND ")} AND country IS NOT NULL LIMIT 2000`, rangeArgs),
-      st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ts >= ?`, [now - 30 * 60 * 1000]),
-    ]);
+  const queries = {
+    kpi: st(`SELECT ${KPI} FROM events WHERE ${W}`),
+    prevKpi: st(`SELECT ${KPI} FROM events WHERE ${prev.W}`, prev.args),
+    sessions: st(`WITH s AS (SELECT sid, SUM(type='pageview') pv, SUM(CASE WHEN type='leave' THEN secs END) secs FROM events WHERE ${W} GROUP BY sid)
+      SELECT COUNT(*) sessions, SUM(pv=1) bounces, AVG(pv) ppv, AVG(secs) secs FROM s WHERE pv > 0`),
+    prevSessions: st(`WITH s AS (SELECT sid, SUM(type='pageview') pv, SUM(CASE WHEN type='leave' THEN secs END) secs FROM events WHERE ${prev.W} GROUP BY sid)
+      SELECT COUNT(*) sessions, SUM(pv=1) bounces, AVG(pv) ppv, AVG(secs) secs FROM s WHERE pv > 0`, prev.args),
+    visitors: st(`WITH d AS (SELECT vid, COUNT(DISTINCT strftime('%Y-%m-%d', ${MX}, 'unixepoch')) days FROM events WHERE ${W} AND vid IS NOT NULL GROUP BY vid),
+      f AS (SELECT vid, MIN(ts) first FROM events WHERE vid IN (SELECT vid FROM d) GROUP BY vid)
+      SELECT COUNT(*) visitors, SUM(d.days > 1 OR f.first < ?) back FROM d JOIN f USING (vid)`, [...args, from]),
+    funnel: st(`WITH s AS (SELECT sid, MAX(type='pageview') v, MAX(type='birthday' OR (type='pageview' AND path LIKE '/mi-cumple%')) plan,
+      MAX(type='promo_open' OR (type='pageview' AND path LIKE '/promos/_%')) promo, MAX(type='signup_click') signup FROM events WHERE ${W} GROUP BY sid)
+      SELECT SUM(v) visits, SUM(plan) plan, SUM(promo) promo, SUM(signup) signup FROM s WHERE v = 1`),
+    series: st(`SELECT strftime('${fmt}', ${MX}, 'unixepoch') k, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits FROM events WHERE ${W} GROUP BY k ORDER BY k`),
+    heat: st(`SELECT CAST(strftime('%w', ${MX}, 'unixepoch') AS INT) d, CAST(strftime('%H', ${MX}, 'unixepoch') AS INT) h, COUNT(*) n
+      FROM events WHERE ${W} AND type='pageview' GROUP BY d, h`),
+    countries: st(`SELECT country k, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits FROM events WHERE ${W} GROUP BY country ORDER BY visits DESC LIMIT 60`),
+    regions: st(`SELECT country, region k, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits FROM events WHERE ${W} GROUP BY country, region ORDER BY visits DESC LIMIT 120`),
+    cities: st(`SELECT country, region, city k, AVG(lat) lat, AVG(lon) lon, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits
+      FROM events WHERE ${W} AND city IS NOT NULL GROUP BY country, region, city ORDER BY visits DESC LIMIT 400`),
+    pages: st(`SELECT path k, COUNT(*) n, COUNT(DISTINCT sid) visits FROM events WHERE ${W} AND type='pageview' GROUP BY path ORDER BY n DESC LIMIT 60`),
+    entries: st(`WITH f AS (SELECT path, ROW_NUMBER() OVER (PARTITION BY sid ORDER BY ts) rn FROM events WHERE ${W} AND type='pageview')
+      SELECT path k, COUNT(*) n FROM f WHERE rn = 1 GROUP BY path ORDER BY n DESC LIMIT 40`),
+    time: st(`SELECT path k, COUNT(*) n, SUM(secs) secs, MAX(scroll) maxscroll, AVG(scroll) scroll FROM events WHERE ${W} AND type='leave' GROUP BY path ORDER BY n DESC LIMIT 40`),
+    promoPerf: st(`SELECT slug k, SUM(o) opens, SUM(v) views, SUM(s) signups FROM (
+        SELECT target slug, 1 o, 0 v, 0 s FROM events WHERE ${W} AND type='promo_open'
+        UNION ALL SELECT substr(path, 9) slug, 0, 1, 0 FROM events WHERE ${W} AND type='pageview' AND path LIKE '/promos/_%'
+        UNION ALL SELECT target slug, 0, 0, 1 FROM events WHERE ${W} AND type='signup_click')
+      GROUP BY slug ORDER BY opens + views DESC LIMIT 80`, [...args, ...args, ...args]),
+    chosen: st(`SELECT target k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='city_set' GROUP BY target ORDER BY n DESC LIMIT 40`),
+    pairs: st(`SELECT city, region, app_city, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND app_city IS NOT NULL AND city IS NOT NULL
+      GROUP BY city, region, app_city ORDER BY n DESC LIMIT 60`),
+    searches: st(`SELECT target k, COUNT(*) n, MAX(value) results FROM events WHERE ${W} AND type='search' GROUP BY target ORDER BY n DESC LIMIT 80`),
+    filtersUsed: st(`SELECT target k, COUNT(*) n FROM events WHERE ${W} AND type='filter' GROUP BY target ORDER BY n DESC LIMIT 40`),
+    refs: st(`SELECT ref k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='pageview' AND ref IS NOT NULL GROUP BY ref ORDER BY n DESC LIMIT 30`),
+    devices: st(`SELECT device k, COUNT(DISTINCT sid) n FROM events WHERE ${W} GROUP BY device ORDER BY n DESC`),
+    oses: st(`SELECT os k, COUNT(DISTINCT sid) n FROM events WHERE ${W} GROUP BY os ORDER BY n DESC`),
+    browsers: st(`SELECT browser k, COUNT(DISTINCT sid) n FROM events WHERE ${W} GROUP BY browser ORDER BY n DESC`),
+    standalone: st(`SELECT standalone k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='pageview' GROUP BY standalone`),
+    months: st(`SELECT value k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='birthday' GROUP BY value ORDER BY value`),
+    signups: st(`SELECT target k, COUNT(*) n FROM events WHERE ${W} AND type='signup_click' GROUP BY target ORDER BY n DESC LIMIT 30`),
+    whatsapp: st(`SELECT path k, COUNT(*) n FROM events WHERE ${W} AND type='whatsapp' GROUP BY path ORDER BY n DESC LIMIT 30`),
+    vitals: st(`SELECT device, lcp, cls, inp FROM events WHERE ${W} AND type='leave' AND (lcp IS NOT NULL OR inp IS NOT NULL) ORDER BY ts DESC LIMIT 3000`),
+    options: st(`SELECT DISTINCT country, region, city FROM events WHERE ts >= ? AND ts < ? AND country IS NOT NULL LIMIT 2000`, [from, to]),
+    appCities: st(`SELECT DISTINCT app_city FROM events WHERE ts >= ? AND ts < ? AND app_city IS NOT NULL LIMIT 500`, [from, to]),
+    live: st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ts >= ?`, [now - 30 * 60 * 1000]),
+  };
+  const names = Object.keys(queries);
+  const results = await db.batch(Object.values(queries));
+  const out = { range: { from, to, hourly } };
+  names.forEach((k, i) => (out[k] = results[i].results));
+  for (const k of ["kpi", "prevKpi", "sessions", "prevSessions", "visitors", "funnel"]) out[k] = out[k][0] ?? {};
+  out.live = out.live[0]?.n ?? 0;
+  out.appCities = out.appCities.map((r) => r.app_city);
+  return Response.json(out, { headers: { "cache-control": "no-store" } });
+}
 
-  return Response.json(
-    {
-      range: { from, to, hourly },
-      kpi: kpi.results[0],
-      series: series.results,
-      heat: heat.results,
-      countries: countries.results,
-      regions: regions.results,
-      cities: cities.results,
-      pages: pages.results,
-      promos: promos.results,
-      chosen: chosen.results,
-      searches: searches.results,
-      refs: refs.results,
-      devices: devices.results,
-      oses: oses.results,
-      browsers: browsers.results,
-      months: months.results,
-      signups: signups.results,
-      whatsapp: whatsapp.results,
-      options: options.results,
-      live: live.results[0]?.n ?? 0,
-    },
-    { headers: { "cache-control": "no-store" } },
-  );
+// Últimas acciones (sin "leave"), para el feed en vivo.
+async function live(url, env) {
+  const { W, args } = filters(url.searchParams, Date.now() - 6 * 3600e3, Date.now() + 60e3);
+  const { results } = await env.DB.prepare(
+    `SELECT ts, type, path, target, value, city, region, country, device FROM events WHERE ${W} AND type != 'leave' ORDER BY ts DESC LIMIT 50`,
+  )
+    .bind(...args)
+    .all();
+  return Response.json(results, { headers: { "cache-control": "no-store" } });
 }
 
 export async function admin(request, env) {
@@ -153,9 +177,10 @@ export async function admin(request, env) {
   if (!(await loggedIn(request, env))) {
     return path.startsWith("/admin/api/") ? new Response("No autorizado", { status: 401 }) : html(loginPage(), 401, { "x-robots-tag": "noindex" });
   }
-  if (path === "/admin/api/stats") {
+  const api = { "/admin/api/stats": stats, "/admin/api/live": live, "/admin/api/gsc": gsc }[path];
+  if (api) {
     try {
-      return await stats(url, env);
+      return await api(url, env);
     } catch (e) {
       return Response.json({ error: String(e?.message ?? e) }, { status: 500 });
     }

@@ -283,7 +283,7 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
           </span>
         )}
         {promo.signupUrl && needsSignup && !checked && (
-          <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-ink !px-4 !py-2 !text-base">
+          <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} className="btn btn-ink !px-4 !py-2 !text-base">
             Registrarme ↗︎
           </a>
         )}

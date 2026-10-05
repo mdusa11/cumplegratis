@@ -3,10 +3,11 @@ import { admin } from "./admin.js";
 // Worker del sitio: sirve el export estático (ASSETS) y recibe la analítica propia en /api/e.
 // Solo corre para /api/* y /admin* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
 
-const TYPES = new Set(["pageview", "promo_open", "city_set", "search", "share", "whatsapp", "signup_click", "install", "birthday"]);
+const TYPES = new Set(["pageview", "leave", "promo_open", "city_set", "search", "filter", "share", "whatsapp", "signup_click", "install", "birthday"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit|whatsapp\/|curl|wget|python|axios/i;
 // Robots en centros de datos que se disfrazan de navegador (Frankfurt, Oregon…): se descartan por la red de origen.
 const DATACENTER = /amazon|aws|google cloud|google llc|microsoft|azure|digitalocean|hetzner|ovh|linode|akamai|oracle|alibaba|tencent|vultr|contabo|leaseweb|m247|datacamp|scaleway|choopa|hostinger|ionos|cloudflare|fastly|zenlayer|psychz|colocrossing|hostwinds|bytedance|censys|shodan/i;
+const int = (v, max) => (Number.isFinite(v) && v >= 0 ? Math.min(Math.round(v), max) : null);
 const str = (v, n) => (typeof v === "string" && v ? v.slice(0, n) : null);
 
 function device(ua) {
@@ -38,8 +39,9 @@ async function collect(request, env) {
   const cf = request.cf ?? {};
   if (DATACENTER.test(cf.asOrganization ?? "")) return new Response(null, { status: 204 });
   await env.DB.prepare(
-    `INSERT INTO events (ts, type, path, target, value, sid, ref, device, os, browser, standalone, country, region, city, lat, lon, app_state, app_city)
-     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18)`,
+    `INSERT INTO events (ts, type, path, target, value, sid, ref, device, os, browser, standalone, country, region, city, lat, lon, app_state, app_city,
+       vid, secs, scroll, lcp, cls, inp)
+     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18, ?19, ?20, ?21, ?22, ?23, ?24)`,
   )
     .bind(
       Date.now(),
@@ -60,6 +62,12 @@ async function collect(request, env) {
       Number(cf.longitude) || null,
       str(e.as, 4),
       str(e.ac, 40),
+      str(e.u, 40),
+      int(e.sec, 6 * 3600),
+      int(e.sc, 100),
+      int(e.lcp, 120000),
+      Number.isFinite(e.cls) && e.cls >= 0 ? Math.min(e.cls, 10) : null,
+      int(e.inp, 60000),
     )
     .run();
   return new Response(null, { status: 204 });

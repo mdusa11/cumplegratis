@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { track } from "@/lib/track";
 import { AdSlot } from "./Ads";
 import { Icon } from "./Icon";
 import { useSearchParams } from "next/navigation";
@@ -77,6 +78,16 @@ export function Catalog() {
     return [...list].sort((a, b) => away(a) - away(b) || byProminence(a, b));
   }, [base, cat, location]);
 
+
+  // Qué filtros usa la gente (solo cuando cambian, no al cargar).
+  const prevFilters = useRef<Record<string, string> | null>(null);
+  useEffect(() => {
+    const now: Record<string, string> = { grupo: group, categoria: cat ?? "todas", tipo: type, "sin-registro": String(noSignup), confirmadas: String(onlyConfirmed), "otras-zonas": String(everywhere) };
+    const prev = prevFilters.current;
+    prevFilters.current = now;
+    if (!prev) return;
+    for (const k of Object.keys(now)) if (now[k] !== prev[k]) track("filter", { target: `${k}:${now[k]}` });
+  }, [group, cat, type, noSignup, onlyConfirmed, everywhere]);
 
   const reset = () => {
     setEverywhere(true);
