@@ -28,7 +28,7 @@ export function Catalog() {
   const [type, setType] = useState<BenefitType | "todos">("todos");
   const [noSignup, setNoSignup] = useState(false);
   const [onlyConfirmed, setOnlyConfirmed] = useState(false);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(params.get("q") ?? "");
   const [everywhere, setEverywhere] = useState(false);
   const { location, openPicker } = useLocation();
   useAutoAskLocation();

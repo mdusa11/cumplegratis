@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { openSearch } from "./Search";
 import { Icon } from "./Icon";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -53,8 +54,8 @@ export function Nav() {
       animate={{ y: hidden && !open ? "-130%" : "0%" }}
       transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-3 rounded-full border-[2.5px] border-ink bg-paper/90 py-2 pr-2 pl-5 shadow-hard desk:backdrop-blur-md">
-        <Logo onClick={close} />
+      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-2 sm:gap-3 rounded-full border-[2.5px] border-ink bg-paper/90 py-2 pr-2 pl-4 shadow-hard sm:pl-5 desk:backdrop-blur-md">
+        <Logo onClick={close} className="max-[380px]:text-[1.45rem]" />
 
         <div className="hidden items-center gap-1 lg:flex">
           {LINKS.map((l) => (
@@ -76,6 +77,7 @@ export function Nav() {
               {l.label}
             </Link>
           ))}
+          <SearchButton />
           <LocationPill place={place} onClick={openPicker} />
           <Link
             href="/mi-cumple"
@@ -85,7 +87,8 @@ export function Nav() {
           </Link>
         </div>
 
-        <div className="ml-auto lg:hidden">
+        <div className="ml-auto flex gap-1.5 sm:gap-2 lg:hidden">
+          <SearchButton />
           <LocationPill place={place} onClick={openPicker} compact />
         </div>
         <button
@@ -93,7 +96,7 @@ export function Nav() {
           onClick={() => setOpen((o) => !o)}
           aria-expanded={open}
           aria-label={open ? "Cerrar menú" : "Abrir menú"}
-          className="relative flex size-11 items-center justify-center rounded-full border-2 border-ink bg-acid lg:hidden"
+          className="relative flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-ink bg-acid sm:size-11 lg:hidden"
         >
           <motion.span
             className="absolute h-0.5 w-5 bg-ink"
@@ -170,6 +173,21 @@ export function Nav() {
   );
 }
 
+function SearchButton() {
+  return (
+    <motion.button
+      type="button"
+      onClick={openSearch}
+      whileTap={{ scale: 0.92 }}
+      aria-label="Buscar un lugar"
+      title="Buscar (Ctrl K)"
+      className="flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-ink bg-paper transition-colors hover:bg-sun sm:size-11 lg:ml-1"
+    >
+      <Icon name="search" className="!size-6" />
+    </motion.button>
+  );
+}
+
 function LocationPill({
   place,
   onClick,
@@ -188,7 +206,7 @@ function LocationPill({
       className={cn(
         "flex items-center gap-1.5 rounded-full border-2 border-ink font-semibold transition-colors hover:bg-sun",
         compact
-          ? "relative size-11 justify-center text-lg"
+          ? "relative size-10 shrink-0 justify-center text-lg sm:size-11"
           : "ml-1 px-3.5 py-2",
         place ? "bg-paper" : "bg-sun",
       )}

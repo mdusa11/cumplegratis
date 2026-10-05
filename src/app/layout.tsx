@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { SearchDialog } from "@/components/Search";
 import { CookieBanner } from "@/components/Ads";
 import { Big_Shoulders, Bricolage_Grotesque, Space_Mono } from "next/font/google";
 import "./globals.css";
@@ -58,13 +59,23 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 parentOrganization: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url },
                 contactPoint: { "@type": "ContactPoint", telephone: `+${WHATSAPP}`, contactType: "customer support", areaServed: "MX", availableLanguage: "es" },
               },
-              { "@context": "https://schema.org", "@type": "WebSite", name: SITE.name, url: SITE.url, inLanguage: "es-MX", description: SITE.description, publisher: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url } },
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                name: SITE.name,
+                url: SITE.url,
+                inLanguage: "es-MX",
+                description: SITE.description,
+                publisher: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url },
+                potentialAction: { "@type": "SearchAction", target: `${SITE.url}/promos/?q={search_term_string}`, "query-input": "required name=search_term_string" },
+              },
             ])}
           />
           <ScrollProgress />
           <FloatingCTA />
           <PwaInstall />
           <CookieBanner />
+          <SearchDialog />
           <Cursor />
           <Nav />
           {/* El recorte va aquí y no en <body>: en móvil, overflow en body se propaga al viewport y no evita que la página se ensanche. */}
