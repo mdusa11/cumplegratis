@@ -77,8 +77,8 @@ export type Promo = {
   coverage: Coverage | null;
   states: StateCode[];
   cities: CitySlug[];
-  /** Cadenas nacionales: dónde tienen sucursal de verdad y si el regalo también se cobra en línea. */
-  presence?: { states: StateCode[]; cities: CitySlug[]; online: boolean };
+  /** Cadenas nacionales: dónde tienen sucursal de verdad y si el regalo también se cobra en línea. `partial`: lista incompleta (localizador inaccesible), así que no se descarta donde no la encontramos. */
+  presence?: { states: StateCode[]; cities: CitySlug[]; online: boolean; partial?: true };
   locationNote: string | null;
   needsId: boolean | null;
   companions: number | null;
@@ -147,7 +147,7 @@ const listJoin = (items: string[]) =>
 
 /** "Todo México", "Solo en Guadalajara", "Monterrey, Saltillo y 3 más", "Jalisco y Nuevo León". */
 /** Nacional y con sucursales en (casi) todo el país. */
-export const isEverywhere = (p: Promo) => p.coverage === "nacional" && (p.presence?.states.length ?? 32) >= 30;
+export const isEverywhere = (p: Promo) => p.coverage === "nacional" && (!p.presence || p.presence.partial === true || p.presence.states.length >= 30);
 
 export function coverageLabel(p: Promo) {
   if (p.coverage === "nacional") {

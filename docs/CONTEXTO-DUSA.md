@@ -82,7 +82,7 @@ Web app / PWA instalable que junta **todas las promociones de cumpleaños de Mé
 - **Datos:**
   - Los agentes de investigación escriben `data/raw/*.json` y `npm run data` (`scripts/build-data.mjs`) valida, deduplica por marca, une ciudades y estados, calcula vigencias, quita las vencidas y genera `src/data/promos.json`.
   - `_extra-*.json` completa la ubicación de promos existentes y `_fixes.json` quita o corrige promos, siempre con un motivo.
-  - En proceso: `_presence-*.json` con las sucursales reales de cada cadena nacional por estado y ciudad, para no mostrar una cadena en una ciudad donde no tiene tienda.
+  - `_presence-*.json` guarda las sucursales reales de cada cadena nacional por estado y ciudad (62 de 88 cadenas; el resto son servicios o se cobran en línea). Así una cadena sale "en tu ciudad", "en tu estado", "en línea" o no sale. Las marcadas `partial` tienen lista incompleta y no se ocultan donde no se encontraron.
 - **Vigencias:** si una promo dice "vigente hasta X", se oculta sola al vencer, pero requiere un rebuild diario (pendiente de automatizar en Cloudflare).
 - **Archivos clave:**
 

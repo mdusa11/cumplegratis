@@ -220,7 +220,7 @@ for (const o of presence) {
   const states = new Set([...(o.states ?? []).map((s) => STATE_ALIASES[s] ?? s).filter((s) => s in STATES), ...cities.map((c) => CITIES[c].state)]);
   if (states.size === 0) continue;
   // Presente en los 32 estados = nacional de verdad; solo guardamos ciudades para marcar "en tu ciudad".
-  p.presence = { states: [...states].sort(), cities: [...new Set(cities)].sort(), online: o.online === true };
+  p.presence = { states: [...states].sort(), cities: [...new Set(cities)].sort(), online: o.online === true, ...(o.partial && { partial: true }) };
   for (const s of o.sources ?? []) if (isUrl(s) && !p.sources.includes(s)) p.sources.push(s);
   located++;
 }

@@ -23,7 +23,8 @@ function chainAvailability(pr: NonNullable<Promo["presence"]>, loc: UserLocation
     if (pr.cities.some((c) => distanceKm(here, CITIES[c]) <= NEARBY_KM)) return "cerca";
   }
   if (pr.states.includes(loc.state)) return "tu-estado";
-  return pr.online ? "en-linea" : "fuera";
+  if (pr.online) return "en-linea";
+  return pr.partial ? "nacional" : "fuera";
 }
 
 export const isAvailable = (a: Availability) => a !== "fuera";
