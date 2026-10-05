@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { PwaInstall } from "@/components/PwaInstall";
-import { ACCENT, SITE, STUDIO, jsonLd } from "@/lib/site";
+import { ACCENT, ADS, SITE, STUDIO, jsonLd } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
@@ -34,6 +34,8 @@ export const metadata: Metadata = {
     google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
     other: process.env.NEXT_PUBLIC_BING_VERIFICATION ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION } : undefined,
   },
+  // AdSense verifica el sitio con esta etiqueta (el script solo carga tras el aviso de cookies, y el robot no lo acepta).
+  ...(ADS.client && { other: { "google-adsense-account": ADS.client } }),
   alternates: { canonical: "/" },
 };
 
