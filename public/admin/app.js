@@ -200,7 +200,7 @@ async function load() {
   document.body.classList.add("loading");
   try {
     const qs = new URLSearchParams(Object.entries(state).filter(([, v]) => v));
-    const res = await fetch(`/api/stats?${qs}`);
+    const res = await fetch(`/admin/api/stats?${qs}`);
     if (res.status === 401) return location.reload();
     const d = await res.json();
     if (d.error) throw new Error(d.error);
@@ -265,7 +265,7 @@ $("clear").addEventListener("click", () => setState({ from: daysAgo(30), to: mxT
 Chart.defaults.font.family = '"Bricolage Grotesque", system-ui, sans-serif';
 Chart.defaults.color = C.ink;
 
-fetch("/meta.json")
+fetch("/admin/meta.json")
   .then((r) => r.json())
   .then((m) => (meta = m))
   .catch(() => {})

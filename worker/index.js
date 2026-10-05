@@ -1,5 +1,7 @@
+import { admin } from "./admin.js";
+
 // Worker del sitio: sirve el export estático (ASSETS) y recibe la analítica propia en /api/e.
-// Solo corre para /api/* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
+// Solo corre para /api/* y /admin* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
 
 const TYPES = new Set(["pageview", "promo_open", "city_set", "search", "share", "whatsapp", "signup_click", "install", "birthday"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit|whatsapp\/|curl|wget|python|axios/i;
@@ -64,6 +66,7 @@ const worker = {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/api/e") return collect(request, env);
+    if (url.pathname === "/admin" || url.pathname.startsWith("/admin/")) return admin(request, env);
     return env.ASSETS.fetch(request);
   },
 };

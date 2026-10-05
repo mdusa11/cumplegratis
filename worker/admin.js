@@ -1,4 +1,4 @@
-// Panel de analítica de Cumplegratis: login con contraseña (secreto PANEL_PASSWORD) y /api/stats con todos los agregados.
+// Panel de analítica en /admin: login con contraseña (secreto PANEL_PASSWORD) y /admin/api/stats con todos los agregados.
 
 const COOKIE = "cg_panel";
 const DAYS_LOGGED = 30;
@@ -38,7 +38,7 @@ h1{font-family:"Big Shoulders",sans-serif;text-transform:uppercase;font-size:44p
 p{margin:0 0 18px;font-weight:500}input{width:100%;font:inherit;font-size:18px;padding:12px 14px;border:2.5px solid var(--ink);border-radius:14px;background:var(--paper)}
 button{margin-top:12px;width:100%;font-family:"Big Shoulders",sans-serif;text-transform:uppercase;font-size:22px;padding:12px;border:2.5px solid var(--ink);border-radius:999px;background:var(--ink);color:var(--paper);cursor:pointer}
 .err{color:var(--hot);font-weight:700;margin-top:10px}
-</style></head><body><form method="post" action="/login">
+</style></head><body><form method="post" action="/admin/login">
 <h1>Cumple <span>panel</span></h1><p>Analítica privada de Cumplegratis.</p>
 <input type="password" name="password" placeholder="Contraseña" autocomplete="current-password" autofocus required>
 <button>Entrar</button>${error ? `<p class="err">${error}</p>` : ""}</form></body></html>`;
@@ -57,7 +57,7 @@ async function login(request, env) {
   const value = `${exp}.${await sign(env.PANEL_PASSWORD, `panel|${exp}`)}`;
   return new Response(null, {
     status: 303,
-    headers: { location: "/", "set-cookie": `${COOKIE}=${value}; Path=/; Max-Age=${DAYS_LOGGED * 86400}; HttpOnly; Secure; SameSite=Strict` },
+    headers: { location: "/admin/", "set-cookie": `${COOKIE}=${value}; Path=/admin; Max-Age=${DAYS_LOGGED * 86400}; HttpOnly; Secure; SameSite=Strict` },
   });
 }
 
@@ -143,27 +143,26 @@ async function stats(url, env) {
   );
 }
 
-const worker = {
-  async fetch(request, env) {
-    const url = new URL(request.url);
-    if (url.pathname === "/login" && request.method === "POST") return login(request, env);
-    if (url.pathname === "/logout") return new Response(null, { status: 303, headers: { location: "/", "set-cookie": `${COOKIE}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Strict` } });
-    if (!(await loggedIn(request, env))) {
-      return url.pathname.startsWith("/api/") ? new Response("No autorizado", { status: 401 }) : html(loginPage(), 401);
+export async function admin(request, env) {
+  const url = new URL(request.url);
+  const path = url.pathname;
+  if (path === "/admin/login" && request.method === "POST") return login(request, env);
+  if (path === "/admin/logout") {
+    return new Response(null, { status: 303, headers: { location: "/admin/", "set-cookie": `${COOKIE}=; Path=/admin; Max-Age=0; HttpOnly; Secure; SameSite=Strict` } });
+  }
+  if (!(await loggedIn(request, env))) {
+    return path.startsWith("/admin/api/") ? new Response("No autorizado", { status: 401 }) : html(loginPage(), 401, { "x-robots-tag": "noindex" });
+  }
+  if (path === "/admin/api/stats") {
+    try {
+      return await stats(url, env);
+    } catch (e) {
+      return Response.json({ error: String(e?.message ?? e) }, { status: 500 });
     }
-    if (url.pathname === "/api/stats") {
-      try {
-        return await stats(url, env);
-      } catch (e) {
-        return Response.json({ error: String(e?.message ?? e) }, { status: 500 });
-      }
-    }
-    const res = await env.ASSETS.fetch(request);
-    const out = new Response(res.body, res);
-    out.headers.set("cache-control", "no-store");
-    out.headers.set("x-robots-tag", "noindex");
-    return out;
-  },
-};
-
-export default worker;
+  }
+  const res = await env.ASSETS.fetch(request);
+  const out = new Response(res.body, res);
+  out.headers.set("cache-control", "no-store");
+  out.headers.set("x-robots-tag", "noindex");
+  return out;
+}

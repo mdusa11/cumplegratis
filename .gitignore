@@ -41,6 +41,5 @@ yarn-error.log*
 next-env.d.ts
 .env
 data/verify-input-*.json
-panel/public/meta.json
-panel/.dev.vars
+.dev.vars
 .wrangler/
