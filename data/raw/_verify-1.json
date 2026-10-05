@@ -1,0 +1,412 @@
+[
+ {
+  "slug": "los-uruguayos",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo medios de 2016 (rsvponline) y listados 2023; excelsior 2026 no lo menciona."
+ },
+ {
+  "slug": "piazolla",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo trendmexico (2023) lo lista; sin sitio ni redes oficiales."
+ },
+ {
+  "slug": "carls-jr",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [
+   "https://www.pluxee.mx/blog/promociones-cumpleanos-pluxee/"
+  ],
+  "correction": null,
+  "note": "Pluxee (blog, ene-2026) dice combo Famous Star gratis con ID; el sitio oficial carlsjr.com.mx no publica promo de cumpleaños; otras notas hablan de cupón en app."
+ },
+ {
+  "slug": "applebees",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [
+   "https://applebees.com.mx/contactanos/contactanos-preguntas-frecuentes/"
+  ],
+  "correction": null,
+  "note": "applebeesrewards.com.mx ya no resuelve; FAQ oficial de applebees.com.mx dice que cada sucursal maneja promos de cumpleaños distintas; sin T&C del postre Rewards."
+ },
+ {
+  "slug": "dennys",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "dennysmexico.com no menciona promo de cumpleaños; solo un TikTok de 2024 de tercero."
+ },
+ {
+  "slug": "moyo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Medios dicen que la app muestra beneficios de cumpleaños pero nadie detalla cuál; app sin actualizar desde 2024."
+ },
+ {
+  "slug": "grupo-xcaret-quintanarroenses",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok abr-2026 de @soygaboxcaret (cuenta no verificada como oficial); xcaret.com/quintanarroenses no menciona beneficio de cumpleaños."
+ },
+ {
+  "slug": "viva-aerobus",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok/cupones de terceros (cupón por correo ~$50); sin T&C oficiales."
+ },
+ {
+  "slug": "six-flags-mexico",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Única fuente oficial es un tuit de 2022 de @SixFlagsMexico; el sitio actual no publica la promo; agregadores de cupones no cuentan."
+ },
+ {
+  "slug": "la-churrasqueria-maneiro-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial (precios Revolución 2232) no menciona promo; solo TikTok de 2024 de una creadora."
+ },
+ {
+  "slug": "chololo-patria-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo directorios/TikTok; no pude leer el contenido de FB/IG oficiales."
+ },
+ {
+  "slug": "mariscos-zapopan-restaurante",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover; sin sitio ni redes oficiales legibles."
+ },
+ {
+  "slug": "tres-generaciones-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "tresgeneracionesgdl.com muestra hoy una página de agencia 'en construcción' (dominio posiblemente ya no del restaurante); no hay cierre confirmado ni promo oficial."
+ },
+ {
+  "slug": "casa-maro-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Reservandonos lo lista abierto (Lun-Dom 8:00-15:30) pero sin mencionar el pan francés; FB oficial no legible."
+ },
+ {
+  "slug": "punto-mazatlan-gdl",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok/IG no legibles; sin confirmación con fecha."
+ },
+ {
+  "slug": "isabella-club-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Directorios repiten la promo (2a botella, shots, pastelito); FB oficial no legible."
+ },
+ {
+  "slug": "korean-bbq-guadalajara-zapopan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "koreanbbq.mx no menciona promo de cumpleaños; solo TikTok discover."
+ },
+ {
+  "slug": "la-perla-de-jalisco-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover; sin sitio ni redes oficiales."
+ },
+ {
+  "slug": "la-perla-del-pacifico-tonala",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "TikTok oficial @perlapacificocampestre es de ago-2024, fuera de 2025-2026; sin otra fuente."
+ },
+ {
+  "slug": "han-kang-sushi-buffet-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Listados 2026 de blog/Rappi; FB oficial no legible; no es medio confiable."
+ },
+ {
+  "slug": "fogon-de-cirilo-tonala",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "FB oficial menciona 'cumpleañero gratis' pero no pude leer fecha ni términos."
+ },
+ {
+  "slug": "the-urban-live-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial no menciona la promo; el video de FB oficial no mostró fecha legible."
+ },
+ {
+  "slug": "acuario-michin-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial no menciona promo; solo reseña de Tripadvisor y blog."
+ },
+ {
+  "slug": "la-santa-dance-night-club-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo Funshaft (directorio de antros, con aviso de 'verificar antes de reservar')."
+ },
+ {
+  "slug": "lola-lolita-bar-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo Funshaft (página con imágenes de 2017, con aviso de 'verificar')."
+ },
+ {
+  "slug": "100-natural",
+  "verdict": "confirmada-oficial",
+  "confidence": "alta",
+  "newSources": [
+   "https://www.100natural.com/puntos100/terminos_condiciones.php"
+  ],
+  "correction": {
+   "details": "Con la tarjeta Puntos 100, recibes un cupón por cumpleaños de $100 (consumo mínimo $300) o de $200 (consumo mínimo $500). No es canjeable por efectivo ni puntos, y no se puede dividir la cuenta al usarlo.",
+   "requirements": [
+    "Tarjeta Puntos 100",
+    "Consumo mínimo de $300 (cupón $100) o $500 (cupón $200)",
+    "Un cupón por cumpleaños"
+   ]
+  },
+  "note": "T&C oficiales de Puntos 100 confirman el cupón de cumpleaños de 100/200 puntos con consumo mínimo $300/$500."
+ },
+ {
+  "slug": "mac-cosmetics-mexico",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo posta.com.mx (jul-2024) y cupones de terceros; maccosmetics.com.mx/offer-details devuelve 403."
+ },
+ {
+  "slug": "the-body-shop-mexico",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Páginas legales y FAQ de thebodyshop.mx dan 404; solo hay datos del club en otros países."
+ },
+ {
+  "slug": "spin-premia-oxxo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [
+   "https://spinpremia.com/preguntas-frecuentes/"
+  ],
+  "correction": null,
+  "note": "FAQ oficial de Spin Premia confirma que existen 'puntos de regalo por cumpleaños' pero sin monto ni T&C."
+ },
+ {
+  "slug": "mr-pampas",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "promociones.php oficial sigue fechada 2019 y sin reglas concretas; las reglas (semana del cumple, 4 adultos) vienen de Tripadvisor."
+ },
+ {
+  "slug": "the-food-box",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Promo en TikTok oficial @thefoodbox pero de may-2024, fuera de 2025-2026."
+ },
+ {
+  "slug": "el-gran-pastor",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "elgranpastor.com dice que sus promos mensuales cambian y no menciona cumpleaños."
+ },
+ {
+  "slug": "la-santa-kitchen-bar",
+  "verdict": "confirmada-oficial",
+  "confidence": "alta",
+  "newSources": [
+   "https://www.threads.com/@lasantakitchenbar/post/DOwTtASD3Ei/video-el-festejado-no-paga-celebra-tu-cumplea%C3%B1os-en-la-santa-de-regalo-tenemos-para-ti"
+  ],
+  "correction": {
+   "benefit": "2 drinks y 1 platillo gratis para el festejado",
+   "details": "El festejado recibe 2 drinks y 1 platillo de regalo al reservar y llegar con 3 amistades. Aplica en todas las sucursales.",
+   "windowNote": "Lunes a jueves a partir de las 7:00 pm",
+   "howToClaim": "Reserva por mensaje directo (DM) o al 81 2894 7924 y llega con 3 amistades.",
+   "requirements": [
+    "Reservación previa",
+    "Llegar con 3 amistades"
+   ]
+  },
+  "note": "Threads oficial de @lasantakitchenbar (otoño 2025): 'El festejado no paga', 2 drinks y 1 platillo, L-J desde 7 pm, todas las sucursales."
+ },
+ {
+  "slug": "la-cipolla-saltillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial solo tiene un testimonio ('venir en martes en el mes de tu cumpleaños'), sin T&C."
+ },
+ {
+  "slug": "wings-army-chihuahua-juarez",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Página oficial de promociones es solo imágenes ilegibles; único respaldo textual es un tuit de Wings Army Oaxaca de 2022."
+ },
+ {
+  "slug": "260-grados-baja-california",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "260grillbar.com no menciona promo de cumpleaños (solo reservas); sin otra fuente."
+ },
+ {
+  "slug": "kitsilano-mazatlan",
+  "verdict": "confirmada-oficial",
+  "confidence": "alta",
+  "newSources": [
+   "https://www.tiktok.com/@kitsilanomzt/video/7483320317625289990"
+  ],
+  "correction": {
+   "details": "Cumpleañeros acompañados de mínimo 4 personas comen gratis. Válido solo pidiendo hamburguesas individuales (no combos ni otros platillos).",
+   "requirements": [
+    "Llegar con mínimo 4 personas",
+    "Solo hamburguesas individuales, sin combos"
+   ]
+  },
+  "note": "TikTok oficial de @kitsilanomzt (mar-2025) publica la promo con esos términos; horario L-D 2-11 pm."
+ },
+ {
+  "slug": "moira-mazatlan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover; sin fuente oficial legible."
+ },
+ {
+  "slug": "31-sushi-bar-mazatlan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover; sin fuente oficial legible."
+ },
+ {
+  "slug": "cafe-sabina-guadalajara",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; no aparece en nota de Telediario (2022)."
+ },
+ {
+  "slug": "pozole-la-morenita-leon",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover y reseñas."
+ },
+ {
+  "slug": "buffet-sabor-a-mexico-leon",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover y directorios."
+ },
+ {
+  "slug": "mexican-tacos-bar-leon",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover."
+ },
+ {
+  "slug": "restaurante-el-cielo-leon",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok discover."
+ },
+ {
+  "slug": "la-esquina-del-waffle-leon",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok/directorios; no pude leer perfiles oficiales."
+ },
+ {
+  "slug": "lucky-wings-queretaro-slp",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "queretaroqro.com (oct-2024) lo lista; luckywings.mx confirma sucursal en Querétaro pero no la promo."
+ },
+ {
+  "slug": "cabo-grill-queretaro",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "queretaroqro.com (oct-2024, L-V $99 + brownie); cabogrill.mx no muestra la promo."
+ }
+]

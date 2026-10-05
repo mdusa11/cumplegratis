@@ -541,7 +541,6 @@
   "states": [
    "AGU",
    "CMX",
-   "GUA",
    "JAL",
    "MEX",
    "MIC",
@@ -557,7 +556,6 @@
    "cdmx",
    "cuernavaca",
    "guadalajara",
-   "leon",
    "monterrey",
    "morelia",
    "naucalpan",
@@ -567,14 +565,17 @@
    "xalapa",
    "zapopan"
   ],
-  "storeCount": 35,
-  "note": "Lista de boutiques propias (informabtl.com, 2020, ~31 boutiques) cruzada con tiendeo/sucursales24/prensa. Excluidos corners Liverpool/Palacio y outlets (la promo no aplica ahi; p.ej. Outlet Puebla Premier no cuenta). Naucalpan por listados de Plaza Satelite (confianza media). Datos de 2020: pueden haber cerrado tiendas; localizador oficial scappino.com/es/puntos-de-venta mezcla corners Liverpool y no distingue boutiques.",
+  "storeCount": null,
+  "note": "Solo boutiques propias (sin corners Liverpool/Palacio ni outlets; Outlet Puebla Premier y Premium Outlets Queretaro no cuentan). scappino.com/es/puntos-de-venta hoy solo lista corners Liverpool, asi que cada boutique se verifico con su pagina oficial de tienda en scappino.com (CDMX: Reforma 222, Perisur, Parque Tezontle, Plaza Carso, Parque Delta; Satelite 2 Naucalpan; Galerias Cuernavaca; Valle Oriente Monterrey; Andares, Gran Plaza y Galerias Guadalajara; Galerias Queretaro; Plaza Las Americas Xalapa y Morelia; Altaria Aguascalientes; Andamar Veracruz; Ampliacion Las Americas Cancun; Galerias Metepec) y directorios de centros comerciales. Quitada Leon (Plaza Mayor aparece como tienda cerrada; hoy solo corners Liverpool y outlet). Sin cierres 2025-2026 encontrados en prensa. Lista base de 2020; puede faltar alguna boutique abierta despues (p.ej. Antea Queretaro, misma ciudad).",
   "sources": [
-   "https://www.informabtl.com/scappino-lanza-safe-shopping-y-la-lista-de-sus-tiendas-abiertas-en-mexico/",
-   "https://www.tiendeo.mx/Tiendas/scappino-r",
-   "https://www.sucursales24.com.mx/scappino/todos/",
-   "https://www.scappino.com/es/puntos-de-venta"
-  ]
+   "https://www.scappino.com/es/puntos-de-venta",
+   "https://www.scappino.com/es/scappino-parque-tezontle",
+   "https://www.scappino.com/es/scappino-galerias-cuernavaca",
+   "https://www.scappino.com/es/scappino-valle-oriente-monterrey",
+   "https://www.dondeirdecompras.com/plaza-mayor-leon/",
+   "https://www.informabtl.com/scappino-lanza-safe-shopping-y-la-lista-de-sus-tiendas-abiertas-en-mexico/"
+  ],
+  "partial": true
  },
  {
   "slug": "city-club-premia",

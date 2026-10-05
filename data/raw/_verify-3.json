@@ -1,0 +1,398 @@
+[
+ {
+  "slug": "clandestino-acapulco",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Reservándonos lista \"Cumpleaños\" como amenidad y el bar sigue abierto (jue-sáb 22:00-05:00); sin promo en canal propio."
+ },
+ {
+  "slug": "fogon-do-brasil-puebla",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial fogondobrasil.com/moratilla no menciona promo de cumpleaños; solo el video de FB de otra sucursal pide preguntar por la promo."
+ },
+ {
+  "slug": "varadero-xalapa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resúmenes de TikTok; ni FB ni IG oficiales con reglas verificables."
+ },
+ {
+  "slug": "la-chata-xalapa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sigue apareciendo solo en TikTok/resúmenes; no se pudo abrir post oficial con fecha 2025-2026."
+ },
+ {
+  "slug": "feng-sheng-xalapa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resumen de TikTok/Facebook sin reglas ni fecha verificable."
+ },
+ {
+  "slug": "santa-lupita-xalapa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo ficha de directorio infoisinfo y TikTok; sin canal oficial."
+ },
+ {
+  "slug": "los-pocitos-emiliano-zapata",
+  "verdict": "confirmada-confiable",
+  "confidence": "media",
+  "newSources": [
+   "https://lasillarota.com/veracruz/estado/2026/8/2/vacaciones-de-verano-los-pocitos-inaugurara-nueva-atraccion-acuatica-en-emiliano-zapata-523084.html",
+   "https://www.tiktok.com/@lospocitosparque/video/7399345422709329157"
+  ],
+  "correction": {
+   "windowNote": "Válido 3 días antes, el día y 3 días después de tu cumpleaños (según publicación oficial del parque, 2024)",
+   "requirements": [
+    "Identificación oficial con fecha de nacimiento (INE o CURP digital)"
+   ]
+  },
+  "note": "La Silla Rota (2-ago-2026): \"Los cumpleañeros entran totalmente gratis\" (entrada $150, INAPAM $100). TikTok oficial del parque (2024) añade: válido 3 días antes, el día y 3 días después."
+ },
+ {
+  "slug": "aquatico-inbursa-veracruz",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [
+   "https://aquaticoinbursa.com.mx/terminos-condiciones.html"
+  ],
+  "correction": null,
+  "note": "T&C oficiales: cumpleañero entra gratis solo al contratar paquete Aquafiesta (no en vacaciones); la promo \"mes de tu cumpleaños con CURP\" solo aparece en cazaofertas 2019 y calendario antiguo."
+ },
+ {
+  "slug": "las-delicias-marinas-la-antigua",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok de creadores y resúmenes; FB oficial sin promo verificable."
+ },
+ {
+  "slug": "pizzando-orizaba",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resúmenes de TikTok; sin publicación oficial fechada."
+ },
+ {
+  "slug": "tango-y-pasta-orizaba",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resúmenes de TikTok; sin publicación oficial fechada."
+ },
+ {
+  "slug": "holiday-inn-coatzacoalcos-las-ventanas",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resumen de TikTok; sitio IHG sin promo de cumpleaños."
+ },
+ {
+  "slug": "la-taberna-del-bohemio-coatzacoalcos",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sin mención de la promo fuera de TikTok; el restaurante sigue operando (buffet)."
+ },
+ {
+  "slug": "tino-lee-villahermosa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok de terceros; sin reglas oficiales."
+ },
+ {
+  "slug": "sampa-grill-villahermosa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "FB oficial y TikTok mencionan descuento por edad sin reglas; sin fecha 2025-2026 ni detalle verificable."
+ },
+ {
+  "slug": "la-calabaza-tuxtla-gutierrez",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo reseña de Tripadvisor y sitio antiguo; sin canal oficial actual."
+ },
+ {
+  "slug": "caffeiro-tuxtla-gutierrez",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resúmenes de TikTok; sin publicación oficial fechada."
+ },
+ {
+  "slug": "catedral-oaxaca",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial no menciona la promo; solo reseñas hablan de postre de cortesía."
+ },
+ {
+  "slug": "la-chicatana-oaxaca",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok de 2023; el local aparece hoy como Cantina Xicatana Mezcalera (mismo domicilio, Pabellón Violetas), sin promo confirmada."
+ },
+ {
+  "slug": "rakun-caffe-tijuana",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resumen de TikTok/IG sin publicación oficial fechada (INE en caja, 1 bebida) ; local sigue operando."
+ },
+ {
+  "slug": "bribon-hermosillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial bribonmx.com no menciona promo de cumpleaños; solo TikTok."
+ },
+ {
+  "slug": "arbol-de-vida-hermosillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok/redes sin fecha 2025-2026; el restaurante sigue operando (reseñas 2026)."
+ },
+ {
+  "slug": "mariscos-la-jaibita-hermosillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "lajaibita.mx solo lista Monterrey; promo de Hermosillo solo en TikTok/FB sin fecha verificable."
+ },
+ {
+  "slug": "las-herraduras-hermosillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sin fuentes nuevas; solo TikTok."
+ },
+ {
+  "slug": "cinnabon-hermosillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "cinnabon.mx solo lista sucursales; sin promo de rol+bebida confirmada."
+ },
+ {
+  "slug": "mariscos-la-baja-culiacan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "FB oficial existe pero sin promo verificable."
+ },
+ {
+  "slug": "bonara-culiacan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resultados repiten TikTok/FB sin fecha (requiere reservar 1 semana antes); sin confirmación fechada."
+ },
+ {
+  "slug": "chinalin-roll-culiacan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok/IG sin publicación fechada 2025-2026 verificable."
+ },
+ {
+  "slug": "lazy-tea-boba-shop-noroeste",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "No se halló ninguna publicación sobre promo de cumpleaños fuera de TikTok."
+ },
+ {
+  "slug": "el-tenampa-campestre-mazatlan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Nota Luz Noticias (oct-2025) sobre el restaurante no menciona la promo; solo TikTok."
+ },
+ {
+  "slug": "la-tostaderia-del-mar-mazatlan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok/resúmenes; sin canal oficial fechado."
+ },
+ {
+  "slug": "roys-mazatlan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "FB oficial muestra \"cumpleañero gratis con 4 acompañantes\" los viernes pero sin fecha visible; no cuenta como 2025-2026."
+ },
+ {
+  "slug": "churrascaria-do-brasil-noroeste",
+  "verdict": "confirmada-oficial",
+  "confidence": "alta",
+  "newSources": [
+   "https://churrascariadobrasil.com.mx/",
+   "https://churrascariadobrasil.com.mx/wp-content/uploads/2023/10/churrascaria-do-brasil-precios-horario-cumpleanero-2.jpg"
+  ],
+  "correction": {
+   "benefit": "Cumpleañero no paga el rodizio (Tijuana)",
+   "windowNote": "Lunes a miércoles; Hipódromo de 12:00 a 18:00, Zona Río y Macro todo el día",
+   "requirements": [
+    "Hipódromo: acompañado de 4 personas adultas",
+    "No combinable con otras promociones"
+   ]
+  },
+  "note": "Sitio oficial muestra el cartel \"Cumpleañero no paga rodizio\" para Tijuana (Hipódromo, Macro, Zona Río); la imagen se subió en oct-2023 pero sigue en la home. No cubre Culiacán/Mazatlán."
+ },
+ {
+  "slug": "la-macha-tijuana",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "lamacharestaurante.com solo menciona que organizan cumpleaños; promo solo en TikTok/Pinterest."
+ },
+ {
+  "slug": "mi-tierra-culichi-baja-california",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; sin sitio/FB oficial con la promo."
+ },
+ {
+  "slug": "china-king-buffet-tijuana",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo directorio y TikTok; sin promo en FB oficial verificable."
+ },
+ {
+  "slug": "teasty-tijuana",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "teasty.mx no menciona promo; solo TikTok/IG sin fecha."
+ },
+ {
+  "slug": "quiriego-mexicali",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "quiriego.mx no muestra la promo; términos ($300, grupo de 4, solo Mexicali) solo en TikTok/FB sin fecha confirmada."
+ },
+ {
+  "slug": "pez-gallo-mexicali",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "pezgallo.mx no menciona vale de $500; solo TikTok."
+ },
+ {
+  "slug": "mariscos-el-sonorense-mexicali",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "TikTok oficial del negocio (oct-2024, no 2025-2026) dice cumpleañeros gratis en sucursal Novena; sin publicación más reciente."
+ },
+ {
+  "slug": "restaurante-lucia-ensenada",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo FB/TikTok sin fecha ni reglas claras."
+ },
+ {
+  "slug": "la-paz-foodtruck-la-paz",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; sin canal oficial fechado."
+ },
+ {
+  "slug": "hecho-en-brazza-san-luis-potosi",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok/IG sin publicación oficial fechada 2025-2026."
+ },
+ {
+  "slug": "carnitas-la-huerta-san-luis-potosi",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; FB/IG oficiales sin promo verificable."
+ },
+ {
+  "slug": "carranza-1573-san-luis-potosi",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok y Tripadvisor; FB oficial sin promo verificable."
+ },
+ {
+  "slug": "hilton-san-luis-potosi-restaurante",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio Hilton no menciona la promo; solo TikTok."
+ },
+ {
+  "slug": "winepark-san-luis-potosi",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; OpenTable sin la promo."
+ }
+]

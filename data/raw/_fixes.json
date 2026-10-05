@@ -239,5 +239,34 @@
     "slug": "mi-lola-tepic",
     "remove": true,
     "reason": "Única fuente: directorio de convenios sin fecha con material de 2018; probablemente ya no vigente"
+  },
+  {
+    "slug": "comida-callejera-xl-queretaro",
+    "remove": true,
+    "reason": "El TikTok citado es de Heredia, Costa Rica; no hay sucursal en Querétaro"
+  },
+  {
+    "slug": "churrascaria-do-brasil-noroeste",
+    "patch": {
+      "coverage": "ciudades",
+      "cities": [
+        "tijuana"
+      ],
+      "states": [
+        "BCN"
+      ],
+      "locationNote": "Tijuana: Hipódromo, Macro y Zona Río"
+    },
+    "reason": "El cartel oficial de la promo solo cubre las sucursales de Tijuana"
+  },
+  {
+    "slug": "aquatico-inbursa-veracruz",
+    "remove": true,
+    "reason": "Los T&C oficiales dan entrada al cumpleañero solo con el paquete Aquafiesta (de pago); la promo con CURP es de 2019-2020"
+  },
+  {
+    "slug": "balneario-san-juan-durango",
+    "remove": true,
+    "reason": "POSTA 2025: el cumpleañero entra gratis solo al contratar un paquete de fiesta ($1,400-4,200, 10-30 invitados)"
   }
 ]

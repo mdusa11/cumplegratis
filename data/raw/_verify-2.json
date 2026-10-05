@@ -1,0 +1,390 @@
+[
+ {
+  "slug": "don-carbon-queretaro",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo reaparece en el directorio queretaroqro.com (nov 2024); doncarbon.com.mx/doncarbon.mx no muestra promos de cumpleaños ni abrió la página de promociones."
+ },
+ {
+  "slug": "mama-fish-queretaro",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo el directorio queretaroqro.com; sin fuente oficial ni cierre detectado (sigue listado con horario)."
+ },
+ {
+  "slug": "restaurante-hakuna-queretaro",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo el directorio queretaroqro.com; Facebook/Tripadvisor no muestran la promo; sigue operando en Plaza Q7001."
+ },
+ {
+  "slug": "pepe-el-toro-queretaro",
+  "verdict": "cerrada",
+  "confidence": "baja",
+  "newSources": [
+   "https://wanderlog.com/place/details/729476/pepe-el-toro",
+   "https://www.alertaqronoticias.com/2022/08/27/suspenden-autoridades-el-antro-pepe-el-toro/"
+  ],
+  "correction": null,
+  "note": "Google Maps (vía Wanderlog) lo marca 'Permanently closed' todos los días; antes fue suspendido/clausurado por autoridades en 2022. Un directorio viejo (guiabbb) aún lo lista abierto, pero parece desactualizado."
+ },
+ {
+  "slug": "selva-taurina-queretaro",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo el directorio queretaroqro.com; selvataurina.com no menciona promo de cumpleaños (el sitio parece genérico)."
+ },
+ {
+  "slug": "comida-callejera-xl-queretaro",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "El video de TikTok es de @chef_krasinski y la promo es en Heredia - San José (Costa Rica), no en Querétaro; no se encontró sucursal en Querétaro. Conviene retirarla."
+ },
+ {
+  "slug": "taquinos-queretaro",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo reportes de TikTok (discover), sin reglas oficiales ni publicación del negocio."
+ },
+ {
+  "slug": "artemisia-san-luis-potosi",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo el video de TikTok de @gabiespinom; Facebook/Instagram del negocio no mostraron la promo; sigue abierto (Casa H)."
+ },
+ {
+  "slug": "chuy-yen-tampico",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sigue abierto desde 1978 (buffet $199), pero la promo solo aparece en resúmenes de sus redes, sin texto verificable."
+ },
+ {
+  "slug": "el-huachinango-reynosa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok y Facebook en resúmenes de buscador (cumpleañero gratis con 3 adultos, buffet $299); sin términos oficiales fechados."
+ },
+ {
+  "slug": "rafitas-restaurant-bar-matamoros",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo aparece en resúmenes de redes/TikTok; Tripadvisor no menciona la promo; sin T&C oficiales."
+ },
+ {
+  "slug": "la-botanita-reynosa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo un resumen de su página de Facebook sin fecha ni condiciones verificables."
+ },
+ {
+  "slug": "tipioka-tampico",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "tipioka.com (home, sucursales, Tipi'Ókard, promociones) no menciona descuento de cumpleaños; Galerías Altama sí figura como sucursal. La promo solo aparece en guía no oficial."
+ },
+ {
+  "slug": "nikkori-sushi-saltillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "El sitio nikkori.mx está suspendido; texto de resultados indica promo (4 acompañantes, consumo mín. $500, INE, solo en salón, no festivos) pero la única nota fechada es cazaofertas 2019."
+ },
+ {
+  "slug": "paneamore-saltillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo el video de TikTok de @dondeirsaltillo (mar 2024); sin confirmación en canales oficiales."
+ },
+ {
+  "slug": "meson-de-la-acequia-saltillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resúmenes de TikTok/Facebook (comida gratis + velita y rebanada); Uber Eats figuraba cerrado en dic 2025; sin confirmación oficial."
+ },
+ {
+  "slug": "kimchee-saltillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resumen de TikTok del negocio sin texto verificable; sigue operando en Plaza Arcada."
+ },
+ {
+  "slug": "picanha-y-carvao-saltillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resúmenes de redes y Kupi; el sitio no trae la promo; sin T&C oficiales fechados."
+ },
+ {
+  "slug": "stars-and-cream-tampico",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resumen de redes dice cumpleañero gratis con 2 acompañantes de igual o menor consumo, pero starscream.mx no muestra la promo y no hay fecha."
+ },
+ {
+  "slug": "el-costenito-saltillo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo la nota de POSTA (12 jul 2024): botella gratis un miércoles del mes con identificación; sin confirmación 2025-2026."
+ },
+ {
+  "slug": "don-arturo-mariscos-matamoros",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo el video de @hellomatamoros (dic 2024) dice que invita al cumpleañero con INE; sin confirmación oficial ni T&C."
+ },
+ {
+  "slug": "reginas-reynosa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo una página de resultados de TikTok; sin canales oficiales verificables."
+ },
+ {
+  "slug": "la-makarena-reynosa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo su Instagram en resúmenes de buscador, sin texto/fecha verificable."
+ },
+ {
+  "slug": "las-shulas-cevicheria-reynosa",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "No se encontró nada sobre la promo fuera de resúmenes de su Facebook."
+ },
+ {
+  "slug": "songui-mariscos-torreon",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resumen de sus redes dice 'el cumpleañero no paga', sin condiciones ni fecha verificables."
+ },
+ {
+  "slug": "jardin-jhorros-lerdo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "No se halló la promo; menú/redes solo muestran buffet de fin de semana $149 (niños gratis); sin 'Cumpleañero Gratis' verificable."
+ },
+ {
+  "slug": "don-triton-tlaxcala",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "No se encontró la promo en resultados; solo buffet ($319) y redes sin texto verificable."
+ },
+ {
+  "slug": "buffa-wings-apizaco",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Búsqueda no devolvió ninguna mención de la promo (Tripadvisor/Yelp/sitio sin cumpleaños)."
+ },
+ {
+  "slug": "el-payo-cocina-de-mar-apizaco",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Publicación de El Imparcial de Tlaxcala en Facebook (10 de enero, año no visible) corrobora $250 con 5 acompañantes; sin T&C oficiales ni fecha clara para confirmar."
+ },
+ {
+  "slug": "la-carika-restaurante-pachuca",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resúmenes de redes dicen gratis con INE y mín. 5 personas el día exacto, pero sin texto oficial fechado; el negocio aparece con otra dirección (Blvd. Felipe Ángeles 1400)."
+ },
+ {
+  "slug": "supremos-tacos-drinks-pachuca",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resumen de su Facebook (gratis con 3 adultos en el mes de cumpleaños); sin fecha ni T&C verificables."
+ },
+ {
+  "slug": "doblecero-horno-y-parrilla-celaya",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resúmenes de redes; sin términos ni fecha verificables."
+ },
+ {
+  "slug": "picanteria-mariscos-pachuca",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resumen de sus redes: entrada, fuerte, cerveza de barril y postre con INE ('La Pica se mocha'), pero sin texto/fecha verificable ni T&C oficiales."
+ },
+ {
+  "slug": "parque-acuatico-tlaco-chilcuautla",
+  "verdict": "confirmada-confiable",
+  "confidence": "media",
+  "newSources": [
+   "https://www.posta.com.mx/share/hidalgo-en-este-parque-acuatico-si-cumples-anos-te-diviertes-gratis/vl2067322",
+   "https://www.cronista.com/mexico/vida-estilo/el-parque-acuatico-de-aguas-termales-que-tiene-una-bonita-alberca-con-forma-de-playa-los-que-cumplen-anos-ingresan-gratis-y-los-jubilados-tienen-descuento/"
+  ],
+  "correction": {
+   "howToClaim": "Lleva copia de tu INE; aplica si cumples años la semana de tu visita (entrada general ~$165-170).",
+   "requirements": [
+    "Cumplir años la semana de tu visita",
+    "Copia de identificación oficial (INE)"
+   ]
+  },
+  "note": "POSTA (17 jul 2025) y El Cronista (2024) reportan entrada gratis si cumples años la semana de tu visita con copia de INE; tlacoac.com no lo lista pero sigue operando (entrada $165)."
+ },
+ {
+  "slug": "el-timon-mariscos-apizaco",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "No se halló mención de la promo en resultados; solo buffet $280 y Facebook sin texto verificable."
+ },
+ {
+  "slug": "mariscos-el-oceano-celaya",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resumen dice 'los cumpleañeros no pagan', pero su sitio wix no trae la promo; sin T&C ni fecha."
+ },
+ {
+  "slug": "agridulce-restaurante-san-miguel-de-allende",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resumen de TikTok sugiere cumpleañero gratis con 1 adulto el día exacto, pero parece de la sucursal de otra ciudad (Santiago); sin confirmación en San Miguel."
+ },
+ {
+  "slug": "altamar-restaurante-cuautla",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resumen de TikTok/Facebook (platillo favorito gratis + pastel), sin fecha ni T&C verificables."
+ },
+ {
+  "slug": "dos-mil-uno-restaurante-cuautla",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "No se encontró mención de promo de cumpleaños; solo buffet matutino ~$177."
+ },
+ {
+  "slug": "helados-azteca-tehuacan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "El perfil de Instagram del negocio indica 'Te regalamos 1/2 litro de helado en tu cumpleaños' (resumen menciona compra mínima $100), pero sin fecha ni T&C verificables."
+ },
+ {
+  "slug": "buffet-del-barrio-cuernavaca",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resumen de redes: $269 con 3 acompañantes que consuman buffet adulto; sin fecha ni T&C oficiales."
+ },
+ {
+  "slug": "jule-do-brasil-acapulco",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo Reservandonos (plataforma de reservas) y listados; sin fuente oficial ni confiable fechada."
+ },
+ {
+  "slug": "kuro-casa-de-sushi-cholula",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Resultados no detallan la promo de 5 personas; solo TikTok/Facebook sin texto verificable."
+ },
+ {
+  "slug": "villa-camaron-puebla-cholula",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo cuponerapp 2021 y TikTok; villacamaron.com no menciona cumpleaños; notas de 2025 (e-consulta) no la incluyen."
+ },
+ {
+  "slug": "bugambilias-buffet-chilpancingo",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo Facebook/TikTok (gratis todo el mes, buffet 8:30-14:00); sin T&C verificables."
+ },
+ {
+  "slug": "tacos-de-la-1-tehuacan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo resumen de su Facebook (buffet $99, cumpleañero gratis con amigos), sin fecha ni condiciones."
+ },
+ {
+  "slug": "flamingos-tropical-sushi-acapulco",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo Reservandonos (pastel de cortesía con reserva anticipada); sin fuente oficial ni medio fechado."
+ }
+]

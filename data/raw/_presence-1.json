@@ -548,24 +548,27 @@
   "online": true,
   "states": [
    "CMX",
-   "NLE",
    "JAL",
+   "MEX",
+   "NLE",
    "PUE",
    "QUE"
   ],
   "cities": [
    "cdmx",
-   "monterrey",
    "guadalajara",
-   "zapopan",
+   "monterrey",
+   "naucalpan",
    "puebla",
-   "queretaro"
+   "queretaro",
+   "zapopan"
   ],
-  "storeCount": null,
-  "note": "DUDA: lamer.com.mx/stores da 403 (Akamai). Dato de resultado de busqueda sobre lamer.com.mx/offers (La Mer en Liverpool y Palacio de Hierro en CDMX, Monterrey, Guadalajara, Puebla y Queretaro) y Palacio de Hierro lista Creme de la Mer (Polanco, Santa Fe, Perisur, Coyoacan, Queretaro); no verificado en la fuente primaria. La Mer se vende en mostradores de departamentales, probablemente tambien en otras ciudades con Liverpool/Palacio. Beneficio tambien en lamer.com.mx.",
+  "storeCount": 11,
+  "note": "PARCIAL: lamer.com.mx/stores da 403 (Akamai) y no se pudo leer. Lista basada en la pagina oficial de El Palacio de Hierro (PDP Creme de la Mer): sesiones/mostrador La Mer en Palacio Polanco, Santa Fe, Perisur, Coyoacan, Durango (CDMX), Queretaro, Puebla, Satelite (Naucalpan), Interlomas (Huixquilucan, sin slug), Guadalajara (Andares, Zapopan) y Monterrey (Paseo San Pedro). lamer.com.mx/cabinas confirma servicio solo en CDMX, Monterrey, Guadalajara, Puebla y Queretaro (Liverpool o Palacio). No se encontro fuente accesible de mostradores La Mer en Liverpool: ciudades con solo Liverpool (si las hay) quedan fuera. Otros Palacio (Veracruz, Cancun, Leon, Merida) sin confirmar La Mer. Beneficio tambien en lamer.com.mx.",
   "sources": [
-   "https://www.lamer.com.mx/stores",
+   "https://www.lamer.com.mx/cabinas",
    "https://www.lamer.com.mx/offers",
+   "https://www.elpalaciodehierro.com/creme-de-la-mer-crema-hidratante-500-ml-10847527.html",
    "https://www.elpalaciodehierro.com/marcas/la-mer/"
   ],
   "partial": true

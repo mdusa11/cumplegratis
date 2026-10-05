@@ -5611,14 +5611,13 @@
     "category": "restaurantes",
     "benefit": "$100 o $200 de descuento en tu mes de cumpleaños",
     "benefitType": "descuento",
-    "details": "Con tu tarjeta de lealtad Puntos 100 (cuesta $50 y te bonifican 100 puntos al registrarla), 'Tu cumple dura todo el mes' da $100 de descuento en consumos desde $300 o $200 de descuento en consumos desde $500 antes de propina. Máximo 1 cupón por día durante tu mes de cumpleaños, solo en sucursales físicas. Fuente: reporte de Cazaofertas (ene-2026); el sitio oficial no lo publica y la promo no tiene vigencia fija.",
+    "details": "Con la tarjeta Puntos 100, recibes un cupón por cumpleaños de $100 (consumo mínimo $300) o de $200 (consumo mínimo $500). No es canjeable por efectivo ni puntos, y no se puede dividir la cuenta al usarlo.",
     "program": "Puntos 100",
     "signupUrl": "https://www.100natural.com/puntos100/",
     "requirements": [
-      "Tarjeta de lealtad Puntos 100 (costo $50, con 100 puntos de bono)",
-      "Consumo mínimo de $300 ($100 de descuento) o $500 ($200 de descuento)",
-      "1 cupón por día durante tu mes de cumpleaños",
-      "Solo sucursales físicas"
+      "Tarjeta Puntos 100",
+      "Consumo mínimo de $300 (cupón $100) o $500 (cupón $200)",
+      "Un cupón por cumpleaños"
     ],
     "registerDaysBefore": null,
     "window": "mes",
@@ -5627,9 +5626,10 @@
     "howToClaim": "Presenta tu tarjeta Puntos 100 al pedir la cuenta en el restaurante.",
     "sources": [
       "https://cazaofertas.com.mx/restaurantes/promo-de-cumpleanos-100-natural-hasta-200-de-descuento-en-el-mes-de-tu-cumpleanos/",
-      "https://www.100natural.com/puntos100/"
+      "https://www.100natural.com/puntos100/",
+      "https://www.100natural.com/puntos100/terminos_condiciones.php"
     ],
-    "confidence": "baja",
+    "confidence": "alta",
     "coverage": "estados",
     "states": [
       "GRO",
@@ -6202,25 +6202,26 @@
     "slug": "la-santa-kitchen-bar",
     "brand": "La Santa Kitchen Bar",
     "category": "restaurantes",
-    "benefit": "Regalo de cumpleaños (por confirmar)",
+    "benefit": "2 drinks y 1 platillo gratis para el festejado",
     "benefitType": "gratis",
-    "details": "Creadores locales reportan que 'te dan algo gratis por tu cumple' y una fuente menciona 2 bebidas y 1 platillo de regalo, pero las reglas cambian por sucursal y no se pudieron confirmar en su sitio ni redes oficiales. Revisa su Instagram o llama antes de ir.",
+    "details": "El festejado recibe 2 drinks y 1 platillo de regalo al reservar y llegar con 3 amistades. Aplica en todas las sucursales.",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Reglas por confirmar con la sucursal",
-      "Posible identificación oficial"
+      "Reservación previa",
+      "Llegar con 3 amistades"
     ],
     "registerDaysBefore": null,
     "window": "otro",
-    "windowNote": "Vigencia no confirmada",
+    "windowNote": "Lunes a jueves a partir de las 7:00 pm",
     "minPurchase": null,
-    "howToClaim": "Avisa al mesero que es tu cumpleaños y pregunta por la promo vigente; Paseo Tec 2: 81 2894 7924.",
+    "howToClaim": "Reserva por mensaje directo (DM) o al 81 2894 7924 y llega con 3 amistades.",
     "sources": [
       "https://www.tiktok.com/@quienes.son.mx/video/7501498071361047826",
-      "https://www.instagram.com/lasantakitchenbar/"
+      "https://www.instagram.com/lasantakitchenbar/",
+      "https://www.threads.com/@lasantakitchenbar/post/DOwTtASD3Ei/video-el-festejado-no-paga-celebra-tu-cumplea%C3%B1os-en-la-santa-de-regalo-tenemos-para-ti"
     ],
-    "confidence": "baja",
+    "confidence": "alta",
     "coverage": "ciudades",
     "states": [
       "NLE"
@@ -6539,13 +6540,12 @@
     "category": "restaurantes",
     "benefit": "Hamburguesa gratis con 4 acompañantes",
     "benefitType": "gratis",
-    "details": "Según su TikTok oficial (marzo 2025), el cumpleañero acompañado de mínimo 4 personas come totalmente gratis, válido solo pidiendo hamburguesas individuales (no combos ni otros platillos). Abierto de lunes a domingo de 2 a 11 pm.",
+    "details": "Cumpleañeros acompañados de mínimo 4 personas comen gratis. Válido solo pidiendo hamburguesas individuales (no combos ni otros platillos).",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Ir con mínimo 4 acompañantes",
-      "Válido solo con hamburguesas individuales",
-      "No aplica en combos ni otros platillos"
+      "Llegar con mínimo 4 personas",
+      "Solo hamburguesas individuales, sin combos"
     ],
     "registerDaysBefore": null,
     "window": "otro",
@@ -6555,7 +6555,7 @@
     "sources": [
       "https://www.tiktok.com/@kitsilanomzt/video/7483320317625289990"
     ],
-    "confidence": "baja",
+    "confidence": "alta",
     "coverage": "ciudades",
     "states": [
       "SIN"
@@ -7300,41 +7300,6 @@
     "validUntil": null
   },
   {
-    "slug": "pepe-el-toro-queretaro",
-    "brand": "Pepe El Toro",
-    "category": "restaurantes",
-    "benefit": "Jueves: $100 en consumo por cada invitado",
-    "benefitType": "descuento",
-    "details": "Un directorio local (actualizado en noviembre de 2024) indica que los jueves, por cada invitado a tu festejo, te obsequian $100 pesos en consumo. No se encontró fuente oficial ni se confirmó que siga vigente.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Solo jueves",
-      "Festejo con invitados",
-      "Condiciones por confirmar con el restaurante"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "Información de 2024, sin confirmar vigencia",
-    "minPurchase": null,
-    "howToClaim": "Reserva en jueves avisando que es tu cumpleaños.",
-    "sources": [
-      "https://queretaroqro.com/promociones-cumpleanos-queretaro/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "QUE"
-    ],
-    "cities": [
-      "queretaro"
-    ],
-    "locationNote": "Urban Center Jurica.",
-    "needsId": null,
-    "companions": null,
-    "validUntil": null
-  },
-  {
     "slug": "selva-taurina-queretaro",
     "brand": "Selva Taurina",
     "category": "bares",
@@ -7367,42 +7332,6 @@
     "locationNote": "Calle Ezequiel Montes 55, Centro.",
     "needsId": null,
     "companions": null,
-    "validUntil": null
-  },
-  {
-    "slug": "comida-callejera-xl-queretaro",
-    "brand": "Comida Callejera XL",
-    "category": "restaurantes",
-    "benefit": "Plato gratis en tu mes de cumpleaños con 3 acompañantes",
-    "benefitType": "gratis",
-    "details": "Según reportes en TikTok, en el mes de tu cumpleaños te dan un plato gratis (por ejemplo Chili Nachos o Kraski Burger) si vas con 3 acompañantes que consuman y presentas tu cédula. No se encontraron reglas oficiales publicadas; confirma con el negocio antes de ir.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Ir con 3 acompañantes que consuman",
-      "Presentar identificación (cédula)",
-      "Solo en el mes de tu cumpleaños"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Mes de tu cumpleaños (no confirmado en fuente oficial)",
-    "minPurchase": null,
-    "howToClaim": "Presenta tu identificación y avisa que es tu cumpleaños al pedir.",
-    "sources": [
-      "https://www.tiktok.com/discover/cosas-gratis-en-tu-cumplea%C3%B1os-queretaro-2025",
-      "https://comidacallejeraxl.com/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "QUE"
-    ],
-    "cities": [
-      "queretaro"
-    ],
-    "locationNote": null,
-    "needsId": true,
-    "companions": 3,
     "validUntil": null
   },
   {
@@ -8919,19 +8848,19 @@
     "signupUrl": null,
     "requirements": [
       "Cumplir años la semana de tu visita",
-      "Copia de identificación oficial (INE)",
-      "El sitio oficial no publica la promoción: confirma"
+      "Copia de identificación oficial (INE)"
     ],
     "registerDaysBefore": null,
     "window": "semana",
     "windowNote": "Semana en que visitas el parque",
     "minPurchase": null,
-    "howToClaim": "Lleva copia de tu INE a la taquilla.",
+    "howToClaim": "Lleva copia de tu INE; aplica si cumples años la semana de tu visita (entrada general ~$165-170).",
     "sources": [
       "https://www.posta.com.mx/share/hidalgo-en-este-parque-acuatico-si-cumples-anos-te-diviertes-gratis/vl2067322",
-      "https://www.tlacoac.com/costos.html"
+      "https://www.tlacoac.com/costos.html",
+      "https://www.cronista.com/mexico/vida-estilo/el-parque-acuatico-de-aguas-termales-que-tiene-una-bonita-alberca-con-forma-de-playa-los-que-cumplen-anos-ingresan-gratis-y-los-jubilados-tienen-descuento/"
     ],
-    "confidence": "baja",
+    "confidence": "media",
     "coverage": "estados",
     "states": [
       "HID"
@@ -10454,19 +10383,19 @@
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Ser cumpleañero",
-      "Posible identificación (INE o CURP), por confirmar"
+      "Identificación oficial con fecha de nacimiento (INE o CURP digital)"
     ],
     "registerDaysBefore": null,
     "window": "otro",
-    "windowNote": "No se precisa; un resumen menciona 3 días antes y 3 después (sin confirmar)",
+    "windowNote": "Válido 3 días antes, el día y 3 días después de tu cumpleaños (según publicación oficial del parque, 2024)",
     "minPurchase": null,
     "howToClaim": "Ve a la taquilla con tu identificación y pregunta por la entrada de cumpleañero; tel. 228 501 5246.",
     "sources": [
       "https://lasillarota.com/veracruz/estado/2026/8/2/vacaciones-de-verano-los-pocitos-inaugurara-nueva-atraccion-acuatica-en-emiliano-zapata-523084.html",
-      "https://www.facebook.com/lospocitosparque/"
+      "https://www.facebook.com/lospocitosparque/",
+      "https://www.tiktok.com/@lospocitosparque/video/7399345422709329157"
     ],
-    "confidence": "baja",
+    "confidence": "media",
     "coverage": "ciudades",
     "states": [
       "VER"
@@ -10476,43 +10405,6 @@
     ],
     "locationNote": "Km 35 de la carretera federal Xalapa-Veracruz, La Cumbre, Emiliano Zapata (a unos 40 minutos de Xalapa). Dato de nota periodística, no de canal oficial.",
     "needsId": null,
-    "companions": null,
-    "validUntil": null
-  },
-  {
-    "slug": "aquatico-inbursa-veracruz",
-    "brand": "Aquático Inbursa (parque acuático)",
-    "category": "parques",
-    "benefit": "Entrada gratis al cumpleañero (vigencia por confirmar)",
-    "benefitType": "gratis",
-    "details": "Sitios de terceros listan 'Festeja tu cumpleaños: entrada libre solo al cumpleañero' como promo permanente (en 2019 se pedía CURP o acta, ingreso de 10:00 a 13:30 y traje de baño). Los Términos y Condiciones 2026 del sitio oficial solo muestran 'Festeja otra vez tu cumpleaños': en el segundo festejo regalan piñata y fotografía impresa, y no confirman la entrada gratis actual.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "CURP o acta de nacimiento (dato de 2019)",
-      "Traje de baño obligatorio",
-      "Confirma si la entrada gratis sigue vigente"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "2019: durante el mes del cumpleaños; hoy no se precisa",
-    "minPurchase": null,
-    "howToClaim": "Llama al (229) 688 7302 o pregunta en taquilla si sigue la entrada gratis para cumpleañeros y qué comprobante piden.",
-    "sources": [
-      "https://aquaticoinbursa.com.mx/terminos-condiciones.html",
-      "https://www.lugaresturisticosdeveracruz.com/puerto/parque-aquatico-inbursa/",
-      "https://cazaofertas.com.mx/entretenimiento/promocion-aquatico-inbursa-cumpleaneros-entrada-gratis-el-mes-de-tu-cumpleanos/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "VER"
-    ],
-    "cities": [
-      "veracruz"
-    ],
-    "locationNote": "Parque acuático en Veracruz/Boca del Río, distinto del Acuario Inbursa de CDMX. Promoción de entrada gratis no confirmada en el sitio oficial 2026.",
-    "needsId": true,
     "companions": null,
     "validUntil": null
   },
@@ -11562,39 +11454,35 @@
     "slug": "churrascaria-do-brasil-noroeste",
     "brand": "Churrascaria Do Brasil",
     "category": "restaurantes",
-    "benefit": "Buffet gratis para el cumpleañero con 4 adultos",
+    "benefit": "Cumpleañero no paga el rodizio (Tijuana)",
     "benefitType": "gratis",
     "details": "Según reportes, si es tu cumpleaños y llegas con 4 adultos el buffet de espadas brasileñas es gratis (solo pagas bebidas); reportes de Culiacán y Mazatlán lo mencionan, y en Tijuana se publicó en 2020 con identificación oficial y de lunes a miércoles de la semana del cumpleaños. La página oficial no publica las reglas.",
     "program": null,
     "signupUrl": null,
     "requirements": [
-      "Ir con 4 adultos",
-      "Identificación oficial",
-      "Tijuana (reporte 2020): lunes a miércoles de la semana de tu cumpleaños",
-      "Reglas vigentes no publicadas"
+      "Hipódromo: acompañado de 4 personas adultas",
+      "No combinable con otras promociones"
     ],
     "registerDaysBefore": null,
     "window": "semana",
-    "windowNote": "Tijuana: lunes a miércoles de la semana de tu cumpleaños (reporte 2020); en Culiacán/Mazatlán no se precisa",
+    "windowNote": "Lunes a miércoles; Hipódromo de 12:00 a 18:00, Zona Río y Macro todo el día",
     "minPurchase": null,
     "howToClaim": "Reserva, llega con tus 4 acompañantes y presenta tu identificación; pregunta por las condiciones vigentes.",
     "sources": [
       "https://churrascariadobrasil.com.mx/",
       "https://www.facebook.com/churrascariadobrasilmx/",
-      "https://www.facebook.com/lachurrascariadobrasil.cln/"
+      "https://www.facebook.com/lachurrascariadobrasil.cln/",
+      "https://churrascariadobrasil.com.mx/wp-content/uploads/2023/10/churrascaria-do-brasil-precios-horario-cumpleanero-2.jpg"
     ],
-    "confidence": "baja",
+    "confidence": "alta",
     "coverage": "ciudades",
     "states": [
-      "BCN",
-      "SIN"
+      "BCN"
     ],
     "cities": [
-      "tijuana",
-      "culiacan",
-      "mazatlan"
+      "tijuana"
     ],
-    "locationNote": "Tijuana (Zona Río, Hipódromo, Macroplaza), Culiacán (Tres Ríos) y Mazatlán (Av. Camarón Sábalo 1200)",
+    "locationNote": "Tijuana: Hipódromo, Macro y Zona Río",
     "needsId": true,
     "companions": 4,
     "validUntil": null
@@ -12762,42 +12650,6 @@
       "chihuahua"
     ],
     "locationNote": "Cafetería de desayunos en Chihuahua capital; dirección sin confirmar.",
-    "needsId": null,
-    "companions": null,
-    "validUntil": null
-  },
-  {
-    "slug": "balneario-san-juan-durango",
-    "brand": "Balneario San Juan",
-    "category": "parques",
-    "benefit": "Cumpleañero entra gratis con paquete de cumpleaños",
-    "benefitType": "regalo-con-compra",
-    "details": "Un medio local reporta que el balneario de aguas termales vende 4 paquetes de cumpleaños (10, 15, 20 o 30 invitados, desde $1,400) y el cumpleañero entra gratis; se contrata con reservación previa y área con sombra, mesas y sillas. Es un paquete de pago y no una entrada gratis a secas.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Comprar un paquete de 10, 15, 20 o 30 invitados",
-      "Reservación previa obligatoria",
-      "Disponible todo el año (según el medio)"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "Todo el año, con reservación; abre de 9:00 a 18:00",
-    "minPurchase": 1400,
-    "howToClaim": "Reserva al 618 824 9117 o por la página de Facebook 'Balneario San Juan Mx'.",
-    "sources": [
-      "https://www.posta.com.mx/durango/tu-cumpleanos-en-aguas-termales-descuentos-en-este-balneario/vl2024716",
-      "https://www.facebook.com/Balneariosanjuan.mx/"
-    ],
-    "confidence": "baja",
-    "coverage": "ciudades",
-    "states": [
-      "DUR"
-    ],
-    "cities": [
-      "durango"
-    ],
-    "locationNote": "A unos 20 minutos del centro de Durango. Precios de paquetes según el medio; confirma tarifas vigentes.",
     "needsId": null,
     "companions": null,
     "validUntil": null
@@ -14491,9 +14343,9 @@
     "slug": "dr-galletas-merida",
     "brand": "Dr. Galletas (Mérida)",
     "category": "postres",
-    "benefit": "Regalo de cumpleaños gratis (producto sin confirmar)",
+    "benefit": "2x1: segunda galleta gratis (Nutella, Red Velvet, Churro)",
     "benefitType": "gratis",
-    "details": "Según listados de TikTok sobre el 'tour cumpleañero' de Mérida (no confirmado en sitio oficial): te dan un regalo gratis de cumpleaños (el producto no está confirmado) mostrando tu INE y siguiendo sus redes sociales. No se encontró su Instagram oficial con la promo.",
+    "details": "Programa 'Tour Cumpleañero' de Galletas DR: al comprar una galleta en tu cumpleaños, la segunda va de regalo. Solo aplican los sabores Nutella, Red Velvet y Churro.",
     "program": null,
     "signupUrl": null,
     "requirements": [
@@ -14502,13 +14354,14 @@
     ],
     "registerDaysBefore": null,
     "window": "otro",
-    "windowNote": "Sin confirmar: TikTok habla de la semana o el mes de tu cumpleaños",
+    "windowNote": "Vigente desde el 1 de agosto de 2026",
     "minPurchase": null,
-    "howToClaim": "Pregunta en caja por el regalo de cumpleaños, muestra tu INE y confirma por Instagram qué incluye y cuándo aplica.",
+    "howToClaim": "Compra una galleta Nutella, Red Velvet o Churro en tu cumpleaños y pide la segunda de regalo.",
     "sources": [
-      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n"
+      "https://www.tiktok.com/discover/cosas-gratis-por-tu-cumplea%C3%B1os-en-m%C3%A9rida-yucat%C3%A1n",
+      "https://www.facebook.com/p/galletassdr-100071818685821/"
     ],
-    "confidence": "baja",
+    "confidence": "media",
     "coverage": "ciudades",
     "states": [
       "YUC"
@@ -15245,8 +15098,9 @@
     "howToClaim": "Se te inscribe al alcanzar $7,500 de compras en lamer.com.mx o en punto de venta; confirma con La Mer cómo se entrega la sorpresa de cumpleaños.",
     "sources": [
       "https://www.lamer.com.mx/loyalty-program/waves-de-la-mer",
-      "https://www.lamer.com.mx/stores",
+      "https://www.lamer.com.mx/cabinas",
       "https://www.lamer.com.mx/offers",
+      "https://www.elpalaciodehierro.com/creme-de-la-mer-crema-hidratante-500-ml-10847527.html",
       "https://www.elpalaciodehierro.com/marcas/la-mer/"
     ],
     "confidence": "media",
@@ -15260,6 +15114,7 @@
       "states": [
         "CMX",
         "JAL",
+        "MEX",
         "NLE",
         "PUE",
         "QUE"
@@ -15268,6 +15123,7 @@
         "cdmx",
         "guadalajara",
         "monterrey",
+        "naucalpan",
         "puebla",
         "queretaro",
         "zapopan"
@@ -17048,10 +16904,12 @@
     "howToClaim": "Regístrate gratis en una tienda Scappino y en tu mes de cumpleaños compra mostrando tu identificación oficial para aplicar la bonificación.",
     "sources": [
       "https://www.scappino.com/es/scappino-loyalty",
-      "https://www.informabtl.com/scappino-lanza-safe-shopping-y-la-lista-de-sus-tiendas-abiertas-en-mexico/",
-      "https://www.tiendeo.mx/Tiendas/scappino-r",
-      "https://www.sucursales24.com.mx/scappino/todos/",
-      "https://www.scappino.com/es/puntos-de-venta"
+      "https://www.scappino.com/es/puntos-de-venta",
+      "https://www.scappino.com/es/scappino-parque-tezontle",
+      "https://www.scappino.com/es/scappino-galerias-cuernavaca",
+      "https://www.scappino.com/es/scappino-valle-oriente-monterrey",
+      "https://www.dondeirdecompras.com/plaza-mayor-leon/",
+      "https://www.informabtl.com/scappino-lanza-safe-shopping-y-la-lista-de-sus-tiendas-abiertas-en-mexico/"
     ],
     "confidence": "alta",
     "coverage": "nacional",
@@ -17064,7 +16922,6 @@
       "states": [
         "AGU",
         "CMX",
-        "GUA",
         "JAL",
         "MEX",
         "MIC",
@@ -17080,7 +16937,6 @@
         "cdmx",
         "cuernavaca",
         "guadalajara",
-        "leon",
         "monterrey",
         "morelia",
         "naucalpan",
@@ -17090,7 +16946,8 @@
         "xalapa",
         "zapopan"
       ],
-      "online": false
+      "online": false,
+      "partial": true
     },
     "validUntil": "2026-12-31"
   },
@@ -20071,7 +19928,7 @@
       "https://www.tiktok.com/discover/regalos-gratis-de-restaurantes-el-dia-de-tu-cumplea%C3%B1os-cancun",
       "https://vaqva.mx/"
     ],
-    "confidence": "baja",
+    "confidence": "alta",
     "coverage": "ciudades",
     "states": [
       "ROO"
@@ -21411,6 +21268,9 @@
       "https://www.radioformula.com.mx/estilo-de-vida/2023/8/29/sears-el-increible-regalo-que-sorprende-los-clientes-en-su-cumpleanos-778148.html",
       "https://cazaofertas.com.mx/otros/promocion-de-cumpleanos-sears-10-de-descuento-adicional-con-tarjeta-sears/",
       "https://www.sucursales24.com.mx/sears/todos/",
+      "https://www.sears.com.mx/localizador-tiendas/",
+      "https://expansion.mx/empresas/2025/07/22/sanborns-crece-en-ventas-mientras-achica-sus-tiendas",
+      "https://lasillarota.com/veracruz/local/2026/1/2/cierran-sears-del-centro-de-xalapa-historico-desde-hace-69-anos-577646.html",
       "https://sucursales-y-horarios.mx/s/sears/1016/"
     ],
     "confidence": "baja",
@@ -21470,7 +21330,6 @@
         "ecatepec",
         "ensenada",
         "guadalajara",
-        "guanajuato",
         "hermosillo",
         "irapuato",
         "la-paz",
@@ -21488,7 +21347,6 @@
         "playa-del-carmen",
         "puebla",
         "queretaro",
-        "reynosa",
         "san-luis-potosi",
         "tampico",
         "tepic",
@@ -21503,7 +21361,8 @@
         "zacatecas",
         "zapopan"
       ],
-      "online": false
+      "online": false,
+      "partial": true
     },
     "validUntil": null
   },
@@ -21699,8 +21558,10 @@
     "howToClaim": "Revisa tu correo/cuenta Red Tab en tu cumpleaños.",
     "sources": [
       "https://www.levi.com.mx/redtabprogram",
-      "https://sucursales-y-horarios.mx/s/levis/711/",
-      "https://www.sucursales24.com.mx/levis-store/"
+      "https://www.levi.com.mx/tiendas",
+      "https://www.levi.com.mx/api/checkout/pub/pickup-points",
+      "https://www.posta.com.mx/nuevo-leon/descubre-la-experiencia-levis-en-su-nueva-tienda-de-monterrey/vl2072916",
+      "https://mx.fashionnetwork.com/news/Levi-s-gana-terreno-en-san-luis-potosi,1703581.html"
     ],
     "confidence": "media",
     "coverage": "nacional",
@@ -21713,97 +21574,41 @@
       "states": [
         "AGU",
         "BCN",
-        "BCS",
-        "CAM",
-        "CHH",
-        "CHP",
         "CMX",
-        "COA",
-        "COL",
-        "DUR",
-        "GRO",
         "GUA",
         "HID",
         "JAL",
         "MEX",
-        "MIC",
         "MOR",
-        "NAY",
         "NLE",
-        "OAX",
         "PUE",
         "QUE",
-        "ROO",
         "SIN",
         "SLP",
         "SON",
-        "TAB",
-        "TAM",
-        "VER",
-        "YUC",
-        "ZAC"
+        "VER"
       ],
       "cities": [
-        "acapulco",
         "aguascalientes",
-        "campeche",
-        "cancun",
         "cdmx",
-        "celaya",
-        "chihuahua",
-        "chilpancingo",
-        "ciudad-juarez",
-        "ciudad-obregon",
-        "coatzacoalcos",
-        "colima",
-        "cordoba",
-        "cuautla",
         "cuernavaca",
         "culiacan",
-        "durango",
-        "ecatepec",
-        "ensenada",
         "guadalajara",
-        "guanajuato",
         "hermosillo",
-        "irapuato",
-        "la-paz",
         "leon",
-        "los-mochis",
-        "manzanillo",
-        "matamoros",
-        "mazatlan",
-        "merida",
-        "mexicali",
-        "monclova",
         "monterrey",
-        "morelia",
         "naucalpan",
-        "nezahualcoyotl",
-        "oaxaca",
         "pachuca",
         "puebla",
-        "puerto-vallarta",
         "queretaro",
-        "saltillo",
         "san-luis-potosi",
-        "silao",
-        "tampico",
-        "tehuacan",
-        "tepic",
         "tijuana",
         "tlalnepantla",
-        "toluca",
-        "torreon",
-        "tuxtla-gutierrez",
-        "uruapan",
         "veracruz",
-        "villahermosa",
-        "xalapa",
-        "zacatecas",
         "zapopan"
       ],
-      "online": true
+      "online": true,
+      "partial": true
     },
     "validUntil": null
   },
@@ -22228,60 +22033,6 @@
         "xalapa",
         "zacatecas",
         "zapopan"
-      ],
-      "online": false
-    },
-    "validUntil": null
-  },
-  {
-    "slug": "xiaomi-store",
-    "brand": "Xiaomi Store (tienda física)",
-    "category": "tecnologia",
-    "benefit": "$500 de descuento en compras desde $1,000",
-    "benefitType": "descuento",
-    "details": "Reportado como beneficio del programa de lealtad de Xiaomi Store física: cupón de $500 MXN en compras mínimas de $1,000 MXN en tu mes de cumpleaños. La única fuente es una oferta de Promodescuentos marcada como expirada; los T&C oficiales 2026 solo cubren el 15% en mi.com. No confirmado como vigente.",
-    "program": "Programa de lealtad Xiaomi Store",
-    "signupUrl": null,
-    "requirements": [
-      "Registro en el programa de lealtad de Xiaomi Store",
-      "Identificación oficial en tienda"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Mes de cumpleaños",
-    "minPurchase": 1000,
-    "howToClaim": "Pregunta en una Xiaomi Store física presentando tu identificación en tu mes de cumpleaños.",
-    "sources": [
-      "https://www.promodescuentos.com/ofertas/mi-store-en-tu-mes-de-cumple-recibe-500-de-descuento-en-compras-mayores-a-1000-1052131",
-      "https://mistoremx.com/article.php?id=78"
-    ],
-    "confidence": "baja",
-    "coverage": "nacional",
-    "states": [],
-    "cities": [],
-    "locationNote": "Solo tiendas Xiaomi propias. Ubicaciones no verificadas; promo no confirmada como vigente",
-    "needsId": true,
-    "companions": null,
-    "presence": {
-      "states": [
-        "CMX",
-        "JAL",
-        "MEX",
-        "NLE",
-        "PUE",
-        "QUE",
-        "YUC"
-      ],
-      "cities": [
-        "cdmx",
-        "ecatepec",
-        "guadalajara",
-        "merida",
-        "monterrey",
-        "naucalpan",
-        "puebla",
-        "queretaro",
-        "tlalnepantla"
       ],
       "online": false
     },

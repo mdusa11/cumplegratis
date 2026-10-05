@@ -1,0 +1,379 @@
+[
+ {
+  "slug": "floe-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo aparece en listados de TikTok del 'tour cumpleañero'; sin publicación propia ni sitio con la promo."
+ },
+ {
+  "slug": "corniche-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Citado en listados TikTok; su IG/FB y Uber Eats no muestran la promo."
+ },
+ {
+  "slug": "fomo-bakery-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo guías/TikTok del tour cumpleañero; sin fuente propia del negocio."
+ },
+ {
+  "slug": "dr-galletas-merida",
+  "verdict": "confirmada-confiable",
+  "confidence": "media",
+  "newSources": [
+   "https://www.facebook.com/p/galletassdr-100071818685821/"
+  ],
+  "correction": {
+   "benefit": "2x1: segunda galleta gratis (Nutella, Red Velvet, Churro)",
+   "details": "Programa 'Tour Cumpleañero' de Galletas DR: al comprar una galleta en tu cumpleaños, la segunda va de regalo. Solo aplican los sabores Nutella, Red Velvet y Churro.",
+   "windowNote": "Vigente desde el 1 de agosto de 2026",
+   "howToClaim": "Compra una galleta Nutella, Red Velvet o Churro en tu cumpleaños y pide la segunda de regalo."
+  },
+  "note": "(Bajada a media: la publicación de Facebook no se pudo abrir, solo se vio en resultados de búsqueda.) Publicación oficial en FB de Galletas DR (vía búsqueda): desde 1 ago 2026, 2x1 en galletas Nutella/Red Velvet/Churro en tu cumpleaños; no es 'regalo gratis' genérico."
+ },
+ {
+  "slug": "chunkies-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Citado en listados TikTok del tour cumpleañero; páginas propias no muestran la promo."
+ },
+ {
+  "slug": "cafe-dicha-de-verte-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sin ninguna mención de cumpleaños fuera de TikTok."
+ },
+ {
+  "slug": "tremendos-roles-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo guías TikTok; sin publicación propia visible con la promo."
+ },
+ {
+  "slug": "rooli-rolls-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Su sitio oficial (roolirolls.com.mx) no menciona promoción de cumpleaños."
+ },
+ {
+  "slug": "hilide-helados-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sin nada en sitios o redes visibles aparte de TikTok."
+ },
+ {
+  "slug": "kraken-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Detalle (3 personas, INE, Plaza Malak y Caucel) viene solo de listados TikTok; sin T&C ni publicación propia con fecha."
+ },
+ {
+  "slug": "bbt-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo reseña de Tripadvisor sin fecha verificable; sin publicación oficial 2025-2026."
+ },
+ {
+  "slug": "bom-dia-costelao-playa-del-carmen",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; el perfil de Costelão no muestra la promo de forma verificable."
+ },
+ {
+  "slug": "bovinos-steakhouse-playa-del-carmen",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Su página de eventos no menciona promo de cumpleaños; sin confirmación."
+ },
+ {
+  "slug": "bisquets-obregon",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Único respaldo es un tuit oficial de 2023 (Panquessi cumpleañero, 'consulta T&C en sucursal'); sin publicación 2025-2026."
+ },
+ {
+  "slug": "sky-zone-cdmx",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Su página de promociones no muestra promo de cumpleaños salta gratis; solo paquetes de fiesta; sin confirmar."
+ },
+ {
+  "slug": "inflalandia-quack",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial no menciona promo de cumpleañero; solo blog y TikTok."
+ },
+ {
+  "slug": "hurricane-harbor-oaxtepec",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial de Six Flags no muestra la promo; solo directorios y sitios de cupones."
+ },
+ {
+  "slug": "bershka-mmbrs",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "T&C oficiales solo describen MMBRS en general; una nota de 2023 hablaba de 15% (distinto); sin confirmar el monto."
+ },
+ {
+  "slug": "lacoste-club-mexico",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "lacoste.com/mx bloquea la consulta (403); solo sitios de cupones mencionan el 10%."
+ },
+ {
+  "slug": "cineteca-nacional-entrada-cumpleanos",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial no menciona entrada gratis por cumpleaños; solo un blog (mar 2026)."
+ },
+ {
+  "slug": "balneario-la-onda-oacalco-morelos",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo directorio balneariosenmorelos ('precios 2026') y un tuit viejo; sin sitio ni red oficial."
+ },
+ {
+  "slug": "careva-centro-ecoturistico-actopan",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial no menciona cumpleaños; solo directorio."
+ },
+ {
+  "slug": "balneario-la-cantera-tula-de-allende",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo directorio; la nota de medio hallada (2024) es de otro balneario."
+ },
+ {
+  "slug": "dinoax-parque-museo-tematico-oaxaca",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sitio oficial e IG solo mencionan paquetes de fiesta; sin entrada gratis visible; solo TikTok/FB sin acceso al texto."
+ },
+ {
+  "slug": "aura-restaurante-cafe-tepic",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; sin sitio ni publicación verificable."
+ },
+ {
+  "slug": "nagatta-tepic",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo guías TikTok; perfiles no muestran la promo de forma verificable."
+ },
+ {
+  "slug": "altata-mariscos-cevicheria-tepic",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Pie de foto en Tripadvisor con la promo (invita a 3 amigos, texto del negocio) pero sin fecha; sigue operando según su FB."
+ },
+ {
+  "slug": "huasteca-mariscos-tepic",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Sin ninguna fuente nueva; solo reseña de Tripadvisor."
+ },
+ {
+  "slug": "caribbean-juice-bar-cancun",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo guía VivoEnMX 2026 (directorio) y TikTok; sin publicación oficial verificada."
+ },
+ {
+  "slug": "birra-el-pariente-cancun",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo guía VivoEnMX y su IG sin texto de la promo accesible."
+ },
+ {
+  "slug": "los-irresistibles-cancun",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo guía VivoEnMX; sin fuente propia."
+ },
+ {
+  "slug": "xb-restaurante-cancun",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; página de FB sin texto accesible."
+ },
+ {
+  "slug": "va-q-va-cancun",
+  "verdict": "confirmada-oficial",
+  "confidence": "alta",
+  "newSources": [
+   "https://vaqva.mx/"
+  ],
+  "correction": null,
+  "note": "Su sitio oficial lista como promoción activa 'El cumpleañero come gratis'; sin T&C detallados en el sitio."
+ },
+ {
+  "slug": "pizza-ajedrez-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok y FB sin texto accesible de la promo."
+ },
+ {
+  "slug": "cafe-bar-500-noches-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Fuentes solo mencionan festejo semanal de cumpleañeros los lunes, no el esquema 4+1; sin confirmar."
+ },
+ {
+  "slug": "el-rey-elotero-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo listados TikTok."
+ },
+ {
+  "slug": "casa-yucatan-merida",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo listados TikTok; sin publicación propia."
+ },
+ {
+  "slug": "antojito-mio-puebla",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok y perfiles sin texto accesible de la promo."
+ },
+ {
+  "slug": "buffet-3-leguas-puebla",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok; perfiles sin texto accesible."
+ },
+ {
+  "slug": "pa-dentro-buffet-cantina-puebla",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo TikTok."
+ },
+ {
+  "slug": "sears",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo cazaofertas y nota de 2023; sears.com.mx no confirma (no accesible)."
+ },
+ {
+  "slug": "price-shoes",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Blog oficial (2025) explica cupones pero no menciona cupón de cumpleaños; 25% no confirmado."
+ },
+ {
+  "slug": "flexi",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "Solo sitios de cupones; flexi.com.mx no muestra beneficio de cumpleaños."
+ },
+ {
+  "slug": "xiaomi-store",
+  "verdict": "vencida",
+  "confidence": "baja",
+  "newSources": [
+   "https://www.mi.com/mx/support/terms/birthday/",
+   "https://www.promodescuentos.com/ofertas/mi-store-en-tu-mes-de-cumple-recibe-500-de-descuento-en-compras-mayores-a-1000-1052131"
+  ],
+  "correction": {
+   "benefit": "Cupón 15% en Mi.com (mín. $500, tope $2,000)",
+   "details": "T&C oficiales 'Cupón exclusivo de cumpleaños de Mi.com': cupón del 15% en productos participantes con compra mínima de $500 y descuento máximo de $2,000, enviado a tu Mi Cuenta en el mes de tu cumpleaños.",
+   "windowNote": "Actividad vigente del 1 de enero al 31 de diciembre de 2026",
+   "howToClaim": "Regístrate en Mi Cuenta en mi.com/mx con tu fecha de cumpleaños correcta; el cupón llega automático en tu mes."
+  },
+  "note": "La oferta de $500 en compras de $1,000 aparece expirada; los T&C oficiales (vía búsqueda, 403 al abrir) ahora describen un cupón online de 15%. Ya no coincide con lo publicado."
+ },
+ {
+  "slug": "gandhi",
+  "verdict": "sigue-sin-confirmar",
+  "confidence": "baja",
+  "newSources": [],
+  "correction": null,
+  "note": "T&C y FAQ oficiales de Página 1 no mencionan beneficio de cumpleaños; solo directorios."
+ }
+]
