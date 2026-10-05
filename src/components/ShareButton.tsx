@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { track } from "@/lib/track";
 import { AnimatePresence, motion } from "motion/react";
 import { Icon } from "./Icon";
 import { SITE, cn } from "@/lib/site";
@@ -20,6 +21,7 @@ export function ShareButton({ path, text, label = "Compartir", iconOnly, classNa
   }, [menu]);
 
   const share = async () => {
+    track("share", { target: path });
     if (navigator.share) {
       try {
         await navigator.share({ title: SITE.name, text, url });

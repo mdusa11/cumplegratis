@@ -1,0 +1,71 @@
+// Worker del sitio: sirve el export estático (ASSETS) y recibe la analítica propia en /api/e.
+// Solo corre para /api/* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
+
+const TYPES = new Set(["pageview", "promo_open", "city_set", "search", "share", "whatsapp", "signup_click", "install", "birthday"]);
+const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit|whatsapp\/|curl|wget|python|axios/i;
+const str = (v, n) => (typeof v === "string" && v ? v.slice(0, n) : null);
+
+function device(ua) {
+  if (/ipad|tablet|(android(?!.*mobile))/i.test(ua)) return "tablet";
+  if (/mobi|iphone|android/i.test(ua)) return "mobile";
+  return "desktop";
+}
+const os = (ua) => (/android/i.test(ua) ? "Android" : /iphone|ipad|ipod/i.test(ua) ? "iOS" : /windows/i.test(ua) ? "Windows" : /mac os/i.test(ua) ? "macOS" : /linux/i.test(ua) ? "Linux" : "Otro");
+const browser = (ua) =>
+  /edg\//i.test(ua) ? "Edge" : /samsungbrowser/i.test(ua) ? "Samsung" : /opr\/|opera/i.test(ua) ? "Opera" : /firefox|fxios/i.test(ua) ? "Firefox" : /crios|chrome/i.test(ua) ? "Chrome" : /safari/i.test(ua) ? "Safari" : "Otro";
+
+async function collect(request, env) {
+  if (request.method !== "POST") return new Response(null, { status: 405 });
+  const origin = request.headers.get("origin") ?? request.headers.get("referer") ?? "";
+  if (!/^https:\/\/([a-z0-9-]+\.)?cumplegratis\.fun(\/|$)/.test(origin)) return new Response(null, { status: 403 });
+  const ua = request.headers.get("user-agent") ?? "";
+  if (BOT.test(ua)) return new Response(null, { status: 204 });
+
+  let e;
+  try {
+    const text = await request.text();
+    if (text.length > 2048) return new Response(null, { status: 413 });
+    e = JSON.parse(text);
+  } catch {
+    return new Response(null, { status: 400 });
+  }
+  if (!TYPES.has(e.t)) return new Response(null, { status: 400 });
+
+  const cf = request.cf ?? {};
+  await env.DB.prepare(
+    `INSERT INTO events (ts, type, path, target, value, sid, ref, device, os, browser, standalone, country, region, city, lat, lon, app_state, app_city)
+     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18)`,
+  )
+    .bind(
+      Date.now(),
+      e.t,
+      str(e.p, 200),
+      str(e.g, 120),
+      Number.isFinite(e.v) ? Math.trunc(e.v) : null,
+      str(e.s, 40),
+      str(e.r, 80),
+      device(ua),
+      os(ua),
+      browser(ua),
+      e.st ? 1 : 0,
+      str(cf.country, 2),
+      str(cf.region, 80),
+      str(cf.city, 80),
+      Number(cf.latitude) || null,
+      Number(cf.longitude) || null,
+      str(e.as, 4),
+      str(e.ac, 40),
+    )
+    .run();
+  return new Response(null, { status: 204 });
+}
+
+const worker = {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    if (url.pathname === "/api/e") return collect(request, env);
+    return env.ASSETS.fetch(request);
+  },
+};
+
+export default worker;

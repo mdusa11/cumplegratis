@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "cumplegratis-panel",
+  "compatibility_date": "2026-10-01",
+  // Panel privado de analítica (panel.cumplegratis.fun). El Worker revisa la sesión antes de servir cualquier archivo.
+  "main": "src/index.js",
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cumplegratis-analytics",
+      "database_id": "3d290f08-4809-4c86-9216-eb00924747c2"
+    }
+  ]
+}

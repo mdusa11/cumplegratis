@@ -79,7 +79,10 @@ export default function Privacidad() {
               <p>
                 Si instalas la app, se guarda una copia de las páginas que visitas para que funcionen sin conexión.
                 {" "}
-                Contamos visitas con Cloudflare Web Analytics, que no usa cookies ni te identifica: solo suma páginas vistas de forma agregada.
+                Para mejorar el sitio registramos de forma anónima qué páginas y promos se ven, qué se busca, la ciudad que eliges y el mes de tu
+                cumpleaños (no el día), junto con una ubicación aproximada (país, estado y ciudad) que Cloudflare calcula a partir de tu conexión.
+                No guardamos tu IP ni usamos cookies para esto: solo un identificador aleatorio que se borra al cerrar la pestaña. También usamos
+                Cloudflare Web Analytics, que tampoco usa cookies.
                 {ADS.client ? " La única herramienta de terceros con cookies es la de publicidad, descrita abajo." : " No usamos cookies de terceros."}
               </p>
             </>

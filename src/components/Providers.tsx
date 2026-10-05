@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, type ReactNode } from "react";
+import { Analytics } from "./Analytics";
 import { MotionConfig } from "motion/react";
 import Lenis from "lenis";
 import { gsap } from "gsap";
@@ -30,7 +31,10 @@ export function Providers({ children }: { children: ReactNode }) {
   return (
     <MotionConfig reducedMotion="user">
       <LocationProvider>
-        <PromoSheetProvider>{children}</PromoSheetProvider>
+        <PromoSheetProvider>
+          <Analytics />
+          {children}
+        </PromoSheetProvider>
       </LocationProvider>
     </MotionConfig>
   );

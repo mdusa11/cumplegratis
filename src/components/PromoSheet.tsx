@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { track } from "@/lib/track";
 import { ShareButton } from "./ShareButton";
 import { Icon, type IconName } from "./Icon";
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
@@ -20,8 +21,12 @@ export const useOpenPromo = () => useContext(SheetContext);
 export function PromoSheetProvider({ children }: { children: ReactNode }) {
   const [promo, setPromo] = useState<Promo | null>(null);
   const close = useCallback(() => setPromo(null), []);
+  const open = useCallback((p: Promo) => {
+    setPromo(p);
+    track("promo_open", { target: p.slug });
+  }, []);
   return (
-    <SheetContext.Provider value={setPromo}>
+    <SheetContext.Provider value={open}>
       {children}
       <AnimatePresence>{promo && <Sheet key={promo.slug} promo={promo} onClose={close} />}</AnimatePresence>
     </SheetContext.Provider>

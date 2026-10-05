@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useSyncExternalStore } from "react";
+import { track } from "./track";
 import type { Birthday } from "./plan";
 import type { UserLocation } from "./availability";
 
@@ -47,7 +48,10 @@ const NO_DONE: string[] = [];
 export const useStoredBirthday = () =>
   useSyncExternalStore(subscribe, () => read<Birthday | null>(BIRTHDAY, null), () => null);
 
-export const saveBirthday = (b: Birthday) => write(BIRTHDAY, b);
+export const saveBirthday = (b: Birthday) => {
+  write(BIRTHDAY, b);
+  track("birthday", { value: b.m });
+};
 
 export const useDone = () => useSyncExternalStore(subscribe, () => read<string[]>(DONE, NO_DONE), () => NO_DONE);
 
@@ -62,7 +66,10 @@ const ASKED = "cg:location-asked";
 export const useStoredLocation = () =>
   useSyncExternalStore(subscribe, () => read<UserLocation | null>(LOCATION, null), () => null);
 
-export const saveLocation = (loc: UserLocation | null) => write(LOCATION, loc);
+export const saveLocation = (loc: UserLocation | null) => {
+  write(LOCATION, loc);
+  if (loc) track("city_set", { target: loc.city ?? loc.state });
+};
 
 export const wasAskedLocation = () => read<boolean>(ASKED, false);
 export const markAskedLocation = () => write(ASKED, true);

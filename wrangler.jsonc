@@ -2,10 +2,20 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cumplegratis",
   "compatibility_date": "2026-10-01",
-  // Sitio 100% estático (next build con STATIC_EXPORT=true → out/). Sin código de Worker.
+  // Sitio estático (next build con STATIC_EXPORT=true → out/). El Worker solo atiende /api/* (analítica propia).
+  "main": "worker/index.js",
   "assets": {
     "directory": "./out",
+    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
-    "not_found_handling": "404-page"
-  }
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cumplegratis-analytics",
+      "database_id": "3d290f08-4809-4c86-9216-eb00924747c2"
+    }
+  ]
 }

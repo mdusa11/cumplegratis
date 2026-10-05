@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { track } from "@/lib/track";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { Icon } from "./Icon";
@@ -92,6 +93,13 @@ export function SearchDialog() {
           x.score - y.score || (x.a && y.a ? AVAILABILITY_RANK[x.a] - AVAILABILITY_RANK[y.a] : 0) || byProminence(x.p, y.p),
       );
   }, [q, location]);
+
+  // Se registra lo que la gente busca (y si encontró algo) cuando deja de escribir.
+  useEffect(() => {
+    if (q.length < 2) return;
+    const t = setTimeout(() => track("search", { target: q, value: results.length }), 1200);
+    return () => clearTimeout(t);
+  }, [q, results.length]);
 
   const close = () => setOpen(false);
 
