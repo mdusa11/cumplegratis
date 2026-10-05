@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ShareButton } from "./ShareButton";
 import { Icon, type IconName } from "./Icon";
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { useSearchParams } from "next/navigation";
@@ -97,6 +98,12 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
           <Stat value={plan.now.length} label="registros urgentes" color="var(--color-hot)" />
           <Stat value={plan.walkIn.length} label="solo con tu INE" color="var(--color-sky)" />
         </div>
+        <ShareButton
+          path={`/mi-cumple/?m=${birthday.m}&d=${birthday.d}`}
+          text={`En mi cumple me regalan ${plan.total} cosas: café, pastel, cine y más. Arma tu plan gratis en Cumplegratis:`}
+          label="Compartir mi plan"
+          className="mt-4 !text-lg"
+        />
 
         {needSignup.length > 0 && (
           <div className="card mt-6 bg-paper p-5">

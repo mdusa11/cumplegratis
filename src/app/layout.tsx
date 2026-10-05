@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { SearchDialog } from "@/components/Search";
 import { CookieBanner } from "@/components/Ads";
 import { Big_Shoulders, Bricolage_Grotesque, Space_Mono } from "next/font/google";
@@ -9,7 +10,7 @@ import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { PwaInstall } from "@/components/PwaInstall";
-import { ACCENT, ADS, SITE, STUDIO, WHATSAPP, jsonLd } from "@/lib/site";
+import { ACCENT, ADS, CF_BEACON, SITE, STUDIO, WHATSAPP, jsonLd } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
@@ -84,6 +85,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <Footer />
           </div>
         </Providers>
+        {CF_BEACON && (
+          <Script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: CF_BEACON })} strategy="afterInteractive" />
+        )}
       </body>
     </html>
   );

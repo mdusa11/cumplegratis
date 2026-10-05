@@ -1,6 +1,7 @@
 // Une data/raw/*.json en src/data/promos.json, validando cada promo. Uso: npm run data
 // Los archivos "_extra-*.json" no traen promos nuevas: completan ubicación y reglas de promos existentes (por slug).
 // "_presence-*.json": sucursales reales de cada cadena nacional (estados, ciudades, si se cobra en línea).
+// "_verify-*.json": re-verificación de promos sin confirmar (sube confianza, corrige o quita cerradas/vencidas).
 // "_fixes.json": correcciones manuales ({ slug, remove: true } quita una promo cerrada; { slug, patch: {...} } corrige campos).
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
@@ -130,6 +131,7 @@ const bySlug = new Map();
 const overlays = [];
 const fixes = [];
 const presence = [];
+const verify = [];
 let rejected = 0;
 
 for (const file of files) {
@@ -142,6 +144,10 @@ for (const file of files) {
   }
   if (file === "_fixes.json") {
     fixes.push(...items);
+    continue;
+  }
+  if (file.startsWith("_verify")) {
+    verify.push(...items);
     continue;
   }
   if (file.startsWith("_presence")) {
@@ -225,6 +231,28 @@ for (const o of presence) {
   located++;
 }
 
+const RANK = { alta: 0, media: 1, baja: 2 };
+const verified = { up: 0, gone: 0 };
+for (const v of verify) {
+  const p = bySlug.get(v.slug);
+  if (!p) continue;
+  if (v.verdict === "cerrada" || v.verdict === "vencida") {
+    warnings.push(`${v.slug}: ${v.verdict} según re-verificación (${v.note ?? ""})`);
+    bySlug.delete(v.slug);
+    verified.gone++;
+    continue;
+  }
+  if (!/^confirmada/.test(v.verdict ?? "") || !(v.confidence in RANK) || RANK[v.confidence] >= RANK[p.confidence]) continue;
+  const sources = (v.newSources ?? []).filter((s) => isUrl(s) && !blocked(s));
+  if (sources.length === 0) continue;
+  p.confidence = v.confidence;
+  for (const s of sources) if (!p.sources.includes(s)) p.sources.push(s);
+  const c = v.correction ?? {};
+  for (const k of ["benefit", "details", "windowNote", "howToClaim"]) if (typeof c[k] === "string" && c[k].trim()) p[k] = c[k].trim();
+  if (Array.isArray(c.requirements) && c.requirements.length) p.requirements = c.requirements.filter(Boolean);
+  verified.up++;
+}
+
 for (const f of fixes) {
   if (!bySlug.has(f.slug)) continue;
   if (f.remove) bySlug.delete(f.slug);
@@ -248,7 +276,7 @@ warnings.forEach((w) => console.warn(`⚠ ${w}`));
 const count = (k, v) => promos.filter((p) => p[k] === v).length;
 console.log(
   `✓ ${promos.length} promos (alta ${count("confidence", "alta")}, media ${count("confidence", "media")}, baja ${count("confidence", "baja")}), ` +
-    `${rejected} rechazadas, ${applied} con ubicación verificada aparte, ${located} cadenas con sucursales → ${OUT}`,
+    `${rejected} rechazadas, ${applied} con ubicación verificada aparte, ${located} cadenas con sucursales, ${verified.up} confirmadas y ${verified.gone} quitadas al re-verificar → ${OUT}`,
 );
 console.log(`  vigencia: ${promos.filter((p) => p.validUntil).length} con fecha de fin, ${expired} vencidas quitadas`);
 console.log(

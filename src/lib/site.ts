@@ -15,6 +15,9 @@ export const STUDIO = { name: "Dusa Solutions", url: "https://dusasolutions.com"
 export const WHATSAPP = "523114857991";
 export const whatsappUrl = (text: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
 
+/** Cloudflare Web Analytics (sin cookies). Vacío = se usa la inyección automática del panel o no se mide. */
+export const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON ?? "";
+
 /** AdSense: vacío = sin anuncios, sin aviso de cookies y sin ads.txt. El ID de editor y el del bloque son públicos. */
 export const ADS = {
   client: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",

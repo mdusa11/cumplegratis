@@ -78,7 +78,9 @@ export default function Privacidad() {
               </p>
               <p>
                 Si instalas la app, se guarda una copia de las páginas que visitas para que funcionen sin conexión.
-                {ADS.client ? " La única herramienta de terceros es la de publicidad, descrita abajo." : " No usamos herramientas de analítica ni cookies de terceros."}
+                {" "}
+                Contamos visitas con Cloudflare Web Analytics, que no usa cookies ni te identifica: solo suma páginas vistas de forma agregada.
+                {ADS.client ? " La única herramienta de terceros con cookies es la de publicidad, descrita abajo." : " No usamos cookies de terceros."}
               </p>
             </>
           ),

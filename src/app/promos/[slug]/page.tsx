@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ShareButton } from "@/components/ShareButton";
 import { AdSlot } from "@/components/Ads";
 import { Icon } from "@/components/Icon";
 import Link from "next/link";
@@ -97,6 +98,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             <Link href="/mi-cumple" className="btn btn-paper">
               Ver mi plan completo
             </Link>
+            <ShareButton path={`/promos/${promo.slug}/`} text={`${promo.brand}: ${promo.benefit} en tu cumpleaños. Así se cobra:`} />
           </div>
         </div>
         <ParallaxIcon name={cat.icon} />
