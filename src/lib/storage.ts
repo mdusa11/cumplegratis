@@ -67,6 +67,13 @@ export const saveLocation = (loc: UserLocation | null) => write(LOCATION, loc);
 export const wasAskedLocation = () => read<boolean>(ASKED, false);
 export const markAskedLocation = () => write(ASKED, true);
 
+export type Consent = "all" | "essential";
+const CONSENT = "cg:consent";
+
+export const useConsent = () => useSyncExternalStore(subscribe, () => read<Consent | null>(CONSENT, null), () => null);
+
+export const saveConsent = (c: Consent | null) => write(CONSENT, c);
+
 export function useMediaQuery(q: string) {
   const subscribeQuery = useCallback(
     (l: () => void) => {

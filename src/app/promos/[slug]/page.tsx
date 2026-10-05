@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AdSlot } from "@/components/Ads";
 import { Icon } from "@/components/Icon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -115,6 +116,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             ))}
           </div>
 
+          <AdSlot className="mt-16" />
           <TitleReveal text="Cómo cobrarlo" className="mt-16 text-6xl sm:text-7xl" />
           <ol className="mt-8 space-y-5">
             {steps(promo).map((s, i) => (

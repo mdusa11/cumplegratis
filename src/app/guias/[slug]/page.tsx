@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AdSlot } from "@/components/Ads";
 import { Icon } from "@/components/Icon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -37,8 +38,9 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
       <p className="mono-tag mt-4 opacity-70">Actualizada: {SITE.lastReview}</p>
       <p className="mt-8 text-xl leading-relaxed font-medium">{g.intro}</p>
 
-      {g.sections.map((s) => (
+      {g.sections.map((s, i) => (
         <section key={s.title} className="mt-14">
+          {i === 1 && <AdSlot className="mb-14" />}
           <div className="flex items-center gap-3">
             {s.icon && <Icon name={s.icon} shadow className="!size-10 sm:!size-12" />}
             <TitleReveal text={s.title} as="h2" className="text-4xl sm:text-5xl" />

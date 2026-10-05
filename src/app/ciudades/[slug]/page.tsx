@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AdSlot } from "@/components/Ads";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PromoCard } from "@/components/PromoCard";
@@ -70,7 +71,7 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
 
       <section className="mt-20">
         <TitleReveal text="Las *favoritas de siempre" className="text-5xl sm:text-7xl" />
-        <p className="mt-3 text-lg font-medium">Cadenas que todos conocen y que también aplican en {name}.</p>
+        <p className="mt-3 text-lg font-medium">Cadenas que todos conocen: primero las que tienen sucursal en {name}, luego las que se cobran en línea o en todo el país.</p>
         <ul className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {national.map((p) => (
             <li key={p.slug} className="lazy-paint">
@@ -79,6 +80,8 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
           ))}
         </ul>
       </section>
+
+      <AdSlot className="mt-16" />
 
       {local.length > 0 && (
         <section className="mt-20">

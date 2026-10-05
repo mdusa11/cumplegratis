@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { CookieBanner } from "@/components/Ads";
 import { Big_Shoulders, Bricolage_Grotesque, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/Providers";
@@ -60,6 +61,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <ScrollProgress />
           <FloatingCTA />
           <PwaInstall />
+          <CookieBanner />
           <Cursor />
           <Nav />
           {/* El recorte va aquí y no en <body>: en móvil, overflow en body se propaga al viewport y no evita que la página se ensanche. */}

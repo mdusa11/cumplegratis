@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/LegalPage";
-import { LEGAL, SITE } from "@/lib/site";
+import { ADS, LEGAL, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Aviso de privacidad",
@@ -60,8 +60,8 @@ export default function Privacidad() {
                 empiece tu mes.
               </p>
               <p>
-                <b>Finalidad secundaria:</b> mejorar el catálogo con las sugerencias y reportes que envías. No usamos tus datos para publicidad ni
-                perfilamiento, y no los vendemos.
+                <b>Finalidad secundaria:</b> mejorar el catálogo con las sugerencias y reportes que envías. No usamos tus datos para perfilamiento
+                y no los vendemos.
               </p>
             </>
           ),
@@ -77,12 +77,42 @@ export default function Privacidad() {
                 sitio en tu navegador.
               </p>
               <p>
-                Si instalas la app, se guarda una copia de las páginas que visitas para que funcionen sin conexión. No usamos herramientas de analítica ni
-                cookies de terceros.
+                Si instalas la app, se guarda una copia de las páginas que visitas para que funcionen sin conexión.
+                {ADS.client ? " La única herramienta de terceros es la de publicidad, descrita abajo." : " No usamos herramientas de analítica ni cookies de terceros."}
               </p>
             </>
           ),
         },
+        ...(ADS.client
+          ? [
+              {
+                id: "publicidad",
+                title: "Publicidad y cookies",
+                body: (
+                  <>
+                    <p>
+                      {SITE.name} es gratis gracias a anuncios de Google AdSense. Google y sus socios usan cookies e identificadores para mostrar
+                      anuncios, limitar cuántas veces ves el mismo y medir su desempeño. Nosotros no recibimos ni compartimos tu fecha de cumpleaños,
+                      tu zona ni tu correo con Google.
+                    </p>
+                    <p>
+                      Al entrar te preguntamos: si aceptas, los anuncios pueden personalizarse según tu actividad; si eliges «Solo esenciales», verás
+                      anuncios no personalizados. Puedes cambiar tu elección en «Preferencias de cookies», al pie de cada página, y administrar la
+                      personalización en{" "}
+                      <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">
+                        adssettings.google.com
+                      </a>
+                      . Más detalles en{" "}
+                      <a href="https://policies.google.com/technologies/ads?hl=es-419" target="_blank" rel="noopener noreferrer">
+                        cómo usa Google las cookies en publicidad
+                      </a>
+                      .
+                    </p>
+                  </>
+                ),
+              },
+            ]
+          : []),
         {
           id: "encargados",
           title: "Con quién se comparten",

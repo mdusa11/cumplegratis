@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { AdSlot } from "./Ads";
 import { Icon } from "./Icon";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
@@ -14,6 +15,9 @@ type GroupFilter = GroupId | "todos";
 
 const LAYOUT_LIMIT = 36;
 const ANIMATED_ITEMS = 24;
+
+// Anuncios ligeros: después de la tarjeta 12 y de la 36.
+const AD_AFTER = [11, 35];
 
 export function Catalog() {
   const params = useSearchParams();
@@ -236,7 +240,7 @@ export function Catalog() {
       {/* Reacomodo animado solo con listas cortas; con cientos de tarjetas mediría todas en cada filtro. */}
       <motion.ul layout={results.length <= LAYOUT_LIMIT} className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <AnimatePresence mode="popLayout" initial={false}>
-          {results.map((p, i) => (
+          {results.flatMap((p, i) => [
             <motion.li
               key={p.slug}
               layout={results.length <= LAYOUT_LIMIT}
@@ -247,8 +251,15 @@ export function Catalog() {
               className={i >= ANIMATED_ITEMS ? "lazy-paint" : undefined}
             >
               <PromoCard promo={p} />
-            </motion.li>
-          ))}
+            </motion.li>,
+            ...(AD_AFTER.includes(i)
+              ? [
+                  <li key={`ad-${i}`} className="col-span-full">
+                    <AdSlot />
+                  </li>,
+                ]
+              : []),
+          ])}
         </AnimatePresence>
       </motion.ul>
 

@@ -11,6 +11,12 @@ export const ACCENT = "#5b7cff";
 
 export const STUDIO = { name: "Dusa Solutions", url: "https://dusasolutions.com" };
 
+/** AdSense: vacío = sin anuncios, sin aviso de cookies y sin ads.txt. El ID de editor y el del bloque son públicos. */
+export const ADS = {
+  client: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",
+  slot: process.env.NEXT_PUBLIC_ADSENSE_SLOT ?? "",
+};
+
 export const cn = (...classes: (string | false | null | undefined)[]) => classes.filter(Boolean).join(" ");
 
 export const MONTHS = [

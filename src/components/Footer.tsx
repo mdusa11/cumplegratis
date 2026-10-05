@@ -4,7 +4,8 @@ import Link from "next/link";
 import { Icon } from "./Icon";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { SITE, STUDIO } from "@/lib/site";
+import { ADS, SITE, STUDIO } from "@/lib/site";
+import { openCookiePrefs } from "./Ads";
 import { openInstall } from "./PwaInstall";
 
 export function Footer() {
@@ -58,6 +59,11 @@ export function Footer() {
         <Link href="/privacidad" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Aviso de privacidad
         </Link>
+        {ADS.client && (
+          <button type="button" onClick={openCookiePrefs} className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+            Preferencias de cookies
+          </button>
+        )}
         <span className="text-paper/40">© {new Date().getFullYear()} {SITE.name}</span>
       </div>
       <p className="mx-auto max-w-7xl px-5 text-sm text-paper/50 sm:px-8">
