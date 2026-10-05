@@ -56,7 +56,7 @@ main { max-width: 1400px; margin: 0 auto; padding: 16px; display: grid; gap: 16p
 .map { height: 460px; border: 2px solid var(--ink); border-radius: 16px; overflow: hidden; }
 .leaflet-container { font-family: inherit; }
 
-.heat { display: grid; grid-template-columns: 34px repeat(24, 1fr); gap: 2px; font-family: "Space Mono", monospace; font-size: 10px; }
+.heat { display: grid; grid-template-columns: 30px repeat(24, minmax(0, 1fr)); gap: 2px; font-family: "Space Mono", monospace; font-size: 10px; }
 .heat div { aspect-ratio: 1; border-radius: 3px; background: var(--paper-2); }
 .heat .lbl { background: none; aspect-ratio: auto; display: flex; align-items: center; justify-content: center; opacity: .7; }
 
