@@ -15,8 +15,8 @@ export const STUDIO = { name: "Dusa Solutions", url: "https://dusasolutions.com"
 export const WHATSAPP = "523114857991";
 export const whatsappUrl = (text: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
 
-/** Cloudflare Web Analytics (sin cookies). El token es público. */
-export const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON ?? "4c811daec6dd4fff8138791722bac199";
+/** Cloudflare Web Analytics: Cloudflare ya inyecta el medidor automático; esto solo para un sitio fuera de Cloudflare. */
+export const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON ?? "";
 
 /** AdSense: vacío = sin anuncios, sin aviso de cookies y sin ads.txt. El ID de editor y el del bloque son públicos. */
 export const ADS = {
