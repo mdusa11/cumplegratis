@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Icon } from "./Icon";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { ADS, SITE, STUDIO } from "@/lib/site";
+import { ADS, SITE, STUDIO, whatsappUrl } from "@/lib/site";
 import { openCookiePrefs } from "./Ads";
 import { openInstall } from "./PwaInstall";
 
@@ -22,6 +22,14 @@ export function Footer() {
           <p className="mt-4 max-w-sm text-paper/70">{SITE.description}</p>
           <a href={STUDIO.url} target="_blank" rel="noopener" className="mt-6 inline-flex items-center gap-2 font-semibold text-paper/80 transition-colors hover:text-acid">
             Un producto de <span className="underline underline-offset-4">{STUDIO.name}</span>
+          </a>
+          <a
+            href={whatsappUrl("Hola, tengo un negocio y quiero registrar mi promo de cumpleaños en Cumplegratis.")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 flex items-center gap-2 font-semibold text-paper/80 transition-colors hover:text-acid"
+          >
+            <Icon name="whatsapp" /> ¿Tienes un negocio? Regístralo por WhatsApp
           </a>
         </div>
         <FooterCol

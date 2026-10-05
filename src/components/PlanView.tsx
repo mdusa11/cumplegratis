@@ -212,7 +212,14 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
   };
 
   return (
-    <div className={cn("card flex flex-wrap items-center gap-4 p-4 transition-colors sm:flex-nowrap sm:p-5", checked ? "bg-paper-2" : "bg-paper")}>
+    // Toda la tarjeta abre el detalle; la casilla y los enlaces conservan su propia acción.
+    <div
+      onClick={(e) => !(e.target as Element).closest("a, button") && openPromo(promo)}
+      className={cn(
+        "card flex cursor-pointer flex-wrap items-center gap-4 p-4 transition-[colors,translate,box-shadow] hover:-translate-y-0.5 hover:shadow-hard-lg sm:flex-nowrap sm:p-5",
+        checked ? "bg-paper-2" : "bg-paper",
+      )}
+    >
       {needsSignup && (
         <button
           type="button"

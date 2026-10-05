@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { PwaInstall } from "@/components/PwaInstall";
-import { ACCENT, ADS, SITE, STUDIO, jsonLd } from "@/lib/site";
+import { ACCENT, ADS, SITE, STUDIO, WHATSAPP, jsonLd } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
@@ -56,6 +56,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 url: SITE.url,
                 logo: `${SITE.url}/icons/icon-512.png`,
                 parentOrganization: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url },
+                contactPoint: { "@type": "ContactPoint", telephone: `+${WHATSAPP}`, contactType: "customer support", areaServed: "MX", availableLanguage: "es" },
               },
               { "@context": "https://schema.org", "@type": "WebSite", name: SITE.name, url: SITE.url, inLanguage: "es-MX", description: SITE.description, publisher: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url } },
             ])}

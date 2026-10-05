@@ -11,6 +11,10 @@ export const ACCENT = "#5b7cff";
 
 export const STUDIO = { name: "Dusa Solutions", url: "https://dusasolutions.com" };
 
+/** Negocios que quieren aparecer (o corregir su promo) nos escriben por WhatsApp. */
+export const WHATSAPP = "523114857991";
+export const whatsappUrl = (text: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
+
 /** AdSense: vacío = sin anuncios, sin aviso de cookies y sin ads.txt. El ID de editor y el del bloque son públicos. */
 export const ADS = {
   client: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",

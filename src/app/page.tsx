@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BusinessCta } from "@/components/BusinessCta";
 import { Icon } from "@/components/Icon";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
@@ -220,6 +221,10 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <div className="mx-auto max-w-6xl px-5 pt-24 sm:px-8">
+        <BusinessCta />
+      </div>
 
       <section id="faq" className="mx-auto max-w-5xl scroll-mt-28 px-5 py-28 sm:px-8">
         <p className="mono-tag">Preguntas</p>

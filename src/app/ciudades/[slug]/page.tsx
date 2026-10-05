@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BusinessCta } from "@/components/BusinessCta";
 import { AdSlot } from "@/components/Ads";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -96,6 +97,8 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
           </ul>
         </section>
       )}
+
+      <BusinessCta city={name} className="mt-20" />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(breadcrumbs([["Ciudades", "/ciudades"], [name, `/ciudades/${slug}`]]))} />
       <script
