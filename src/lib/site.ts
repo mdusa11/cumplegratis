@@ -45,7 +45,7 @@ export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";
 export const LEGAL = {
   responsible: process.env.NEXT_PUBLIC_LEGAL_NAME ?? "Dusa Solutions",
   address: process.env.NEXT_PUBLIC_LEGAL_ADDRESS ?? "México",
-  email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "privacidad@cumplegratis.fun",
+  email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "dusasolutionsmx@gmail.com",
   updated: "4 de octubre de 2026",
 };
 
