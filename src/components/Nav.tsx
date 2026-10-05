@@ -30,7 +30,10 @@ export function Nav() {
 
   useMotionValueEvent(scrollY, "change", (y) => {
     const prev = scrollY.getPrevious() ?? 0;
-    setHidden(y > prev && y > 240);
+    const hide = y > prev && y > 240;
+    setHidden(hide);
+    // La barra de filtros del catálogo sube a ocupar el lugar del menú cuando este se esconde.
+    document.documentElement.dataset.nav = hide ? "hidden" : "shown";
   });
 
   const { location, openPicker } = useLocation();

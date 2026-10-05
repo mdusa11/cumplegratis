@@ -91,7 +91,7 @@ export function Catalog() {
   return (
     <>
       {/* En móvil la barra no se queda pegada: con tantas opciones taparía media pantalla. */}
-      <div className="z-30 -mx-5 border-y-[2.5px] border-ink bg-paper/95 px-5 py-4 desk:backdrop-blur-md sm:-mx-8 sm:px-8 lg:sticky lg:top-24">
+      <div className="z-30 -mx-5 border-y-[2.5px] border-ink bg-paper px-5 py-4 transition-[top] duration-[450ms] ease-[var(--ease-out-expo)] desk:bg-paper/95 desk:backdrop-blur-md sm:-mx-8 sm:px-8 lg:sticky lg:top-24 lg:in-data-[nav=hidden]:top-0">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <LayoutGroup id="groups">
             <div className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1" role="tablist" aria-label="Categoría">
