@@ -9,7 +9,7 @@ import { useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { AVAILABILITY_RANK, availability, type Availability } from "@/lib/availability";
 import { CITIES, STATES } from "@/lib/places";
-import { CATEGORIES, GROUPS, byProminence, groupOf, normalize, promos } from "@/lib/promos";
+import { CATEGORIES, GROUPS, byProminence, groupOf, normalize, type Promo } from "@/lib/promo-meta";
 import { lockScroll } from "@/lib/scroll";
 import { cn, whatsappUrl } from "@/lib/site";
 
@@ -18,8 +18,14 @@ export const openSearch = () => window.dispatchEvent(new Event("cg:search"));
 const MAX = 40;
 const SUGGESTIONS = ["Starbucks", "Cine", "Pastel", "Spa", "Hamburguesa", "Tepic", "Sin registro"];
 
+type Entry = { p: Promo; brand: string; text: string };
+
 // Texto buscable de cada promo: marca, programa, regalo, categoría y dónde aplica (incluidas las sucursales de cadenas).
-const INDEX = promos.map((p) => {
+// Las ~500 promos se descargan hasta que alguien abre el buscador, no en cada página.
+let index: Promise<Entry[]> | null = null;
+const loadIndex = () =>
+  (index ??= import("@/lib/promos").then(({ promos }) =>
+    promos.map((p) => {
   const places = [...p.cities, ...(p.presence?.cities ?? [])].map((c) => CITIES[c].name);
   const states = [...p.states, ...(p.presence?.states ?? [])].map((s) => STATES[s].name);
   const cat = CATEGORIES[p.category];
@@ -30,7 +36,8 @@ const INDEX = promos.map((p) => {
       [p.brand, p.program, p.benefit, cat.label, GROUPS[cat.group].label, p.locationNote, p.program ? "" : "sin registro", ...places, ...states].join(" "),
     ),
   };
-});
+    }),
+  ));
 
 const CHIP: Partial<Record<Availability, [string, string]>> = {
   "tu-ciudad": ["En tu ciudad", "bg-acid"],
@@ -44,6 +51,7 @@ const CHIP: Partial<Record<Availability, [string, string]>> = {
 export function SearchDialog() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [entries, setEntries] = useState<Entry[] | null>(null);
   const input = useRef<HTMLInputElement>(null);
   const { location } = useLocation();
   const openPromo = useOpenPromo();
@@ -67,6 +75,7 @@ export function SearchDialog() {
 
   useEffect(() => {
     if (!open) return;
+    loadIndex().then(setEntries);
     lockScroll(true);
     const esc = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
     window.addEventListener("keydown", esc);
@@ -80,9 +89,9 @@ export function SearchDialog() {
 
   const q = normalize(query.trim());
   const results = useMemo(() => {
-    if (q.length < 2) return [];
+    if (q.length < 2 || !entries) return [];
     const words = q.split(/\s+/);
-    return INDEX.filter((e) => words.every((w) => e.text.includes(w)))
+    return entries.filter((e) => words.every((w) => e.text.includes(w)))
       .map((e) => ({
         p: e.p,
         a: location ? availability(e.p, location) : null,
@@ -92,14 +101,14 @@ export function SearchDialog() {
         (x, y) =>
           x.score - y.score || (x.a && y.a ? AVAILABILITY_RANK[x.a] - AVAILABILITY_RANK[y.a] : 0) || byProminence(x.p, y.p),
       );
-  }, [q, location]);
+  }, [q, location, entries]);
 
   // Se registra lo que la gente busca (y si encontró algo) cuando deja de escribir.
   useEffect(() => {
-    if (q.length < 2) return;
+    if (q.length < 2 || !entries) return;
     const t = setTimeout(() => track("search", { target: q, value: results.length }), 1200);
     return () => clearTimeout(t);
-  }, [q, results.length]);
+  }, [q, results.length, entries]);
 
   const close = () => setOpen(false);
 
@@ -150,8 +159,10 @@ export function SearchDialog() {
                       </button>
                     ))}
                   </div>
-                  <p className="mt-4 text-sm font-medium opacity-70">Busca entre {promos.length} promos de todo México, sin importar tu zona.</p>
+                  <p className="mt-4 text-sm font-medium opacity-70">Busca entre {entries?.length ?? "cientos de"} promos de todo México, sin importar tu zona.</p>
                 </div>
+              ) : !entries ? (
+                <p className="py-6 text-center font-medium opacity-70">Cargando…</p>
               ) : results.length === 0 ? (
                 <div className="py-6 text-center">
                   <p className="display text-4xl">No lo tenemos… aún</p>

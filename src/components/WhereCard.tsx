@@ -5,7 +5,7 @@ import { Icon } from "./Icon";
 import { locationName, useLocation } from "./LocationProvider";
 import { availability } from "@/lib/availability";
 import { CITIES, STATES } from "@/lib/places";
-import { coverageLabel, isEverywhere, type Promo } from "@/lib/promos";
+import { coverageLabel, isEverywhere, type Promo } from "@/lib/promo-meta";
 import { cn } from "@/lib/site";
 
 /** "Dónde aplica" + si está en la zona del visitante. */

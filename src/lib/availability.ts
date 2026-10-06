@@ -1,5 +1,5 @@
 import { CITIES, NEARBY_KM, distanceKm, type CitySlug, type StateCode } from "./places";
-import type { Promo } from "./promos";
+import type { Promo } from "./promo-meta";
 
 export type UserLocation = { state: StateCode; city: CitySlug | null };
 export type Availability = "nacional" | "tu-ciudad" | "cerca" | "tu-estado" | "en-linea" | "fuera" | "sin-dato";

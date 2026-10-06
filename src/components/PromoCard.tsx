@@ -8,7 +8,7 @@ import { BenefitBadge } from "./BenefitBadge";
 import { useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { availability } from "@/lib/availability";
-import { CATEGORIES, GROUPS, WINDOW_LABEL, coverageLabel, expiryLabel, isEverywhere, groupOf, quickRules, ruleIcon, type Promo } from "@/lib/promos";
+import { CATEGORIES, GROUPS, WINDOW_LABEL, coverageLabel, expiryLabel, isEverywhere, groupOf, quickRules, ruleIcon, type Promo } from "@/lib/promo-meta";
 import { cn } from "@/lib/site";
 
 const MAX_BULLETS = 3;

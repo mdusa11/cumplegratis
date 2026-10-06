@@ -1,4 +1,4 @@
-import { BENEFIT, type Promo } from "@/lib/promos";
+import { BENEFIT, type Promo } from "@/lib/promo-meta";
 
 export function BenefitBadge({ type, className = "" }: { type: Promo["benefitType"]; className?: string }) {
   return (

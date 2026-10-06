@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Icon } from "./Icon";
 import { burst } from "./BirthdayPicker";
 import { motion } from "motion/react";
@@ -10,7 +10,7 @@ import { Floaters } from "./fx";
 import { StickerRow } from "./StickerRow";
 import { locationName, useLocation } from "./LocationProvider";
 import { availability, isAvailable } from "@/lib/availability";
-import { BENEFIT, promos, type Promo } from "@/lib/promos";
+import { BENEFIT, type Promo } from "@/lib/promo-meta";
 
 // Posiciones (en % del hero) y giro de cada sticker en escritorio.
 const SPOTS = [
@@ -23,7 +23,16 @@ const STICKER_COLORS = ["var(--color-lilac)", "var(--color-hot)", "var(--color-s
 export function Hero({ featured, total, row }: { featured: Promo[]; total: number; row: Promo[] }) {
   const area = useRef<HTMLDivElement>(null);
   const { location, openPicker } = useLocation();
-  const near = location ? promos.filter((p) => isAvailable(availability(p, location))).length : total;
+  // El conteo "cerca de ti" necesita las ~500 promos: se descargan después de pintar, no en la carga inicial.
+  const [near, setNear] = useState<number | null>(null);
+  useEffect(() => {
+    if (!location) return;
+    let alive = true;
+    import("@/lib/promos").then(({ promos }) => alive && setNear(promos.filter((p) => isAvailable(availability(p, location))).length));
+    return () => {
+      alive = false;
+    };
+  }, [location]);
 
   return (
     <section ref={area} className="relative min-h-[100svh] overflow-hidden px-5 pt-32 pb-16 sm:px-8 md:pt-36">
@@ -42,7 +51,7 @@ export function Hero({ featured, total, row }: { featured: Promo[]; total: numbe
           <span className="size-2 shrink-0 animate-pulse rounded-full bg-hot" />
           {location ? (
             <span>
-              {near} promos cerca de {locationName(location)} · <u>cambiar</u>
+              {near ?? ""} promos cerca de {locationName(location)} · <u>cambiar</u>
             </span>
           ) : (
             <span>

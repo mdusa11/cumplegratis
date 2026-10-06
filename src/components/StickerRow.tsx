@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { Icon } from "./Icon";
 import { motion } from "motion/react";
 import { useOpenPromo } from "./PromoSheet";
-import { BENEFIT, type Promo } from "@/lib/promos";
+import { BENEFIT, type Promo } from "@/lib/promo-meta";
 
 const COLORS = ["var(--color-lilac)", "var(--color-hot)", "var(--color-sky)", "var(--color-sun)", "var(--color-pink)", "var(--color-acid)"];
 const TILT = [-6, 4, -3, 7, -5, 3, -7, 5];

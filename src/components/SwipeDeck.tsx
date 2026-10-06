@@ -7,7 +7,7 @@ import { useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { BenefitBadge } from "./BenefitBadge";
 import { availability, isAvailable } from "@/lib/availability";
-import { CATEGORIES, GROUPS, byProminence, coverageLabel, groupOf, quickRules, type Promo } from "@/lib/promos";
+import { CATEGORIES, GROUPS, byProminence, coverageLabel, groupOf, quickRules, type Promo } from "@/lib/promo-meta";
 
 const THRESHOLD = 110;
 export const buzz = () => navigator.vibrate?.(12);

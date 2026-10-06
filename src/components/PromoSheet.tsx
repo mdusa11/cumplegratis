@@ -10,7 +10,7 @@ import { BenefitBadge } from "./BenefitBadge";
 import { useLocation, locationName } from "./LocationProvider";
 import { AVAILABILITY_LABEL, availability, type Availability } from "@/lib/availability";
 import { CITIES, STATES } from "@/lib/places";
-import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, groupOf, quickRules, ruleIcon, validityText, type Promo } from "@/lib/promos";
+import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, groupOf, quickRules, ruleIcon, validityText, type Promo } from "@/lib/promo-meta";
 import { lockScroll } from "@/lib/scroll";
 import { cn } from "@/lib/site";
 import { useMediaQuery } from "@/lib/storage";
