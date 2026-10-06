@@ -16,9 +16,9 @@ export function StickerRow({ promos }: { promos: Promo[] }) {
   return (
     <div className="mt-12 xl:hidden">
       <p className="mono-tag mb-3 flex items-center gap-2">
-        <motion.span animate={{ x: [0, 6, 0] }} transition={{ repeat: Infinity, duration: 1.4 }}>
+        <span className="inline-block animate-nudge">
           <Icon name="arrowRight" />
-        </motion.span>
+        </span>
         Desliza y toca uno
       </p>
       <div ref={area} className="-mx-5 overflow-hidden px-5 py-6 sm:-mx-8 sm:px-8">

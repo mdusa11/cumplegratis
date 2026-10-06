@@ -82,8 +82,11 @@ export function CountUp({ value, className, duration = 1.4 }: { value: number; c
 /** Título que entra palabra por palabra al aparecer en pantalla. `*palabra` la resalta en verde. */
 export function TitleReveal({ text, className, as: Tag = "h2" }: { text: string; className?: string; as?: "h1" | "h2" | "h3" }) {
   const words = text.split(" ");
+  // Un solo observador por título (antes había uno por palabra).
+  const ref = useRef<HTMLHeadingElement>(null);
+  const inView = useInView(ref, { once: true, margin: "-60px" });
   return (
-    <Tag className={cn("display", className)} aria-label={text.replace(/\*/g, "")}>
+    <Tag ref={ref} className={cn("display", className)} aria-label={text.replace(/\*/g, "")}>
       {words.map((w, i) => {
         const hl = w.startsWith("*");
         return (
@@ -91,8 +94,7 @@ export function TitleReveal({ text, className, as: Tag = "h2" }: { text: string;
             <motion.span
               className={cn("inline-block", hl && "rounded-[0.1em] bg-acid px-[0.08em]")}
               initial={{ y: "105%", rotate: 6 }}
-              whileInView={{ y: "0%", rotate: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
+              animate={inView ? { y: "0%", rotate: 0 } : undefined}
               transition={{ duration: 0.8, ease: EASE, delay: i * 0.06 }}
             >
               {hl ? w.slice(1) : w}
@@ -207,9 +209,9 @@ export function FloatingCTA() {
           className="fixed inset-x-4 bottom-4 z-40 lg:hidden"
         >
           <Link href="/mi-cumple" className="btn btn-acid w-full !py-4 !text-xl shadow-hard-lg">
-            <motion.span animate={{ rotate: [0, -12, 12, 0] }} transition={{ repeat: Infinity, duration: 2, repeatDelay: 1 }}>
+            <span className="inline-block animate-shake">
               <Icon name="cake" tone="var(--color-paper)" />
-            </motion.span>
+            </span>
             Armar mi plan
           </Link>
         </motion.div>

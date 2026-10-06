@@ -140,9 +140,7 @@ export function AppIcon({ className, wiggle }: { className?: string; wiggle?: bo
     <motion.img
       src={`${BASE_PATH}/icons/icon-192.png`}
       alt=""
-      className={cn("rounded-[22%] border-2 border-ink shadow-hard-sm", className)}
-      animate={wiggle ? { rotate: [0, -8, 8, -4, 0] } : undefined}
-      transition={wiggle ? { repeat: Infinity, duration: 1.2, repeatDelay: 2.5 } : undefined}
+      className={cn("rounded-[22%] border-2 border-ink shadow-hard-sm", wiggle && "animate-jiggle", className)}
     />
   );
 }

@@ -27,6 +27,42 @@
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
   --animate-spin-slow: spin 16s linear infinite;
   --animate-wiggle: wiggle 2.4s ease-in-out infinite;
+  /* Bucles que antes corrían en JS (Motion) cuadro por cuadro; en CSS van en la GPU. Usan las propiedades
+     sueltas translate/rotate/scale para no pisar el transform que ya trae el elemento. */
+  --animate-nudge: nudge 1.4s ease-in-out infinite;
+  --animate-hop: hop 1.2s ease-in-out infinite;
+  --animate-hop-lg: hop-lg 0.7s ease-in-out infinite;
+  --animate-shake: shake 3s ease-in-out infinite;
+  --animate-jiggle: jiggle 3.7s ease-in-out infinite;
+  --animate-radar: radar 1.5s ease-out infinite;
+
+  @keyframes nudge {
+    0%, 100% { translate: 0 0; }
+    50% { translate: 6px 0; }
+  }
+  @keyframes hop {
+    0%, 100% { translate: 0 0; }
+    50% { translate: 0 -3px; }
+  }
+  @keyframes hop-lg {
+    0%, 100% { translate: 0 0; }
+    50% { translate: 0 -10px; }
+  }
+  @keyframes shake {
+    0%, 66.7%, 100% { rotate: 0deg; }
+    22% { rotate: -12deg; }
+    44% { rotate: 12deg; }
+  }
+  @keyframes jiggle {
+    0%, 32.4%, 100% { rotate: 0deg; }
+    8% { rotate: -8deg; }
+    16% { rotate: 8deg; }
+    24% { rotate: -4deg; }
+  }
+  @keyframes radar {
+    from { scale: 0.3; opacity: 0.9; }
+    to { scale: 1.8; opacity: 0; }
+  }
 
   @keyframes wiggle {
     0%, 100% { transform: rotate(-4deg); }

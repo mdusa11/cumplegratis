@@ -144,17 +144,22 @@ function SpinBadge({ total }: { total: number }) {
       data-cursor="¡Fiesta!"
       aria-hidden
     >
-      <svg viewBox="0 0 100 100" className="absolute inset-0 animate-spin-slow">
-        <defs>
-          <path id="circle" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0" />
-        </defs>
-        <text className="fill-ink font-mono text-[11px] font-bold uppercase">
-          <textPath href="#circle" textLength="228" lengthAdjust="spacing">
-            {text}
-          </textPath>
-        </text>
-      </svg>
-      <Icon name="cake" className="animate-wiggle !size-[0.36em]" />
+      {/* Gira el <span>, no el <svg>: un SVG animado no pasa a la GPU y obligaba a repintar la página en cada cuadro. */}
+      <span className="absolute inset-0 animate-spin-slow">
+        <svg viewBox="0 0 100 100" className="size-full">
+          <defs>
+            <path id="circle" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0" />
+          </defs>
+          <text className="fill-ink font-mono text-[11px] font-bold uppercase">
+            <textPath href="#circle" textLength="228" lengthAdjust="spacing">
+              {text}
+            </textPath>
+          </text>
+        </svg>
+      </span>
+      <span className="inline-flex animate-wiggle">
+        <Icon name="cake" className="!size-[0.36em]" />
+      </span>
     </motion.span>
   );
 }

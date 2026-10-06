@@ -238,18 +238,21 @@ function Select({
 
 /** Pin de mapa: rebota mientras busca, cae con resorte al encontrar. */
 export function Pin({ bounce, drop, className }: { bounce?: boolean; drop?: boolean; className?: string }) {
+  // El rebote va en CSS sobre el <span> (GPU); un <svg> animado obliga a repintar en cada cuadro.
   return (
-    <motion.svg
-      viewBox="0 0 40 52"
-      className={cn("relative h-12 w-10 drop-shadow-[3px_3px_0_#0b0b0b]", className)}
-      initial={drop ? { y: -60, opacity: 0 } : false}
-      animate={bounce ? { y: [0, -10, 0] } : { y: 0, opacity: 1 }}
-      transition={bounce ? { repeat: Infinity, duration: 0.7, ease: "easeInOut" } : { type: "spring", stiffness: 400, damping: 12 }}
-      aria-hidden
-    >
-      <path d="M20 2C10 2 3 9.5 3 19c0 12 17 31 17 31s17-19 17-31C37 9.5 30 2 20 2z" fill="#ff5a36" stroke="#0b0b0b" strokeWidth="3" />
-      <circle cx="20" cy="19" r="6.5" fill="#f3f0e8" stroke="#0b0b0b" strokeWidth="3" />
-    </motion.svg>
+    <span className={cn("relative inline-block", bounce && "animate-hop-lg", className)}>
+      <motion.svg
+        viewBox="0 0 40 52"
+        className="block h-12 w-10 drop-shadow-[3px_3px_0_#0b0b0b]"
+        initial={drop ? { y: -60, opacity: 0 } : false}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ type: "spring", stiffness: 400, damping: 12 }}
+        aria-hidden
+      >
+        <path d="M20 2C10 2 3 9.5 3 19c0 12 17 31 17 31s17-19 17-31C37 9.5 30 2 20 2z" fill="#ff5a36" stroke="#0b0b0b" strokeWidth="3" />
+        <circle cx="20" cy="19" r="6.5" fill="#f3f0e8" stroke="#0b0b0b" strokeWidth="3" />
+      </motion.svg>
+    </span>
   );
 }
 
@@ -257,13 +260,7 @@ function Radar() {
   return (
     <>
       {[0, 0.5, 1].map((delay) => (
-        <motion.span
-          key={delay}
-          className="absolute inset-0 rounded-full border-[2.5px] border-ink"
-          initial={{ scale: 0.3, opacity: 0.9 }}
-          animate={{ scale: 1.8, opacity: 0 }}
-          transition={{ repeat: Infinity, duration: 1.5, delay, ease: "easeOut" }}
-        />
+        <span key={delay} className="absolute inset-0 animate-radar rounded-full border-[2.5px] border-ink opacity-0" style={{ animationDelay: `${delay}s` }} />
       ))}
     </>
   );

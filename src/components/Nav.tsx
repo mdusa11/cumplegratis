@@ -211,12 +211,9 @@ function LocationPill({
         place ? "bg-paper" : "bg-sun",
       )}
     >
-      <motion.span
-        animate={place ? { y: 0 } : { y: [0, -3, 0] }}
-        transition={place ? {} : { repeat: Infinity, duration: 1.2 }}
-      >
+      <span className={cn("inline-block", !place && "animate-hop")}>
         <Icon name="pin" />
-      </motion.span>
+      </span>
       {compact && place && (
         <span className="absolute -top-0.5 -right-0.5 size-3.5 rounded-full border-2 border-ink bg-acid" />
       )}

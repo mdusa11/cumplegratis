@@ -6,9 +6,12 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { motion } from "motion/react";
+import { smooth } from "@/lib/scroll";
 import { useMediaQuery } from "@/lib/storage";
 
-gsap.registerPlugin(ScrollTrigger, useGSAP);
+// ScrollTrigger se registra solo al usarse (escritorio): mientras está activo mantiene un requestAnimationFrame
+// perpetuo que obliga al navegador a trabajar cada cuadro, aunque nada se mueva.
+gsap.registerPlugin(useGSAP);
 
 const STEPS = [
   {
@@ -45,6 +48,12 @@ export function HowItWorks() {
       const mm = gsap.matchMedia();
       // Scroll horizontal fijado solo en escritorio con mouse; en tablets/celulares es pesado y se siente trabado.
       mm.add("(min-width: 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)", () => {
+        gsap.registerPlugin(ScrollTrigger);
+        ScrollTrigger.enable();
+        // Lenis se crea en un efecto del padre, que corre después de este: se engancha un cuadro más tarde si hace falta.
+        let unsync: (() => void) | undefined;
+        const sync = () => (unsync = smooth.lenis?.on("scroll", ScrollTrigger.update));
+        const syncFrame = smooth.lenis ? (sync(), 0) : requestAnimationFrame(sync);
         const el = track.current!;
         const distance = () => el.scrollWidth - window.innerWidth;
         const tween = gsap.to(el, {
@@ -72,6 +81,11 @@ export function HowItWorks() {
             },
           );
         });
+        return () => {
+          cancelAnimationFrame(syncFrame);
+          unsync?.();
+          ScrollTrigger.disable();
+        };
       });
     },
     { scope: section },
