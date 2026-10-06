@@ -128,3 +128,11 @@ h3 { font-family: "Big Shoulders", sans-serif; text-transform: uppercase; font-s
 .muted { opacity: .7; }
 .google .grid.two { grid-template-columns: 1fr; }
 @media (min-width: 900px) { .google .grid.two { grid-template-columns: 1fr 1fr; } }
+
+/* Rapidez real: la tabla no se sale de la tarjeta */
+.vitals { overflow-x: auto; }
+.vitals table { table-layout: fixed; }
+.vitals th, .vitals td { padding: 6px 5px; }
+.vitals th { white-space: normal; line-height: 1.2; }
+.vitals th:first-child, .vitals td:first-child { width: 30%; }
+.vitals td.n { font-size: 13px; }
