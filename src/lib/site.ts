@@ -20,7 +20,7 @@ export const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON ?? "";
 
 /** AdSense: vacío = sin anuncios, sin aviso de cookies y sin ads.txt. El ID de editor y el del bloque son públicos. */
 export const ADS = {
-  client: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",
+  client: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-8612524538834472",
   slot: process.env.NEXT_PUBLIC_ADSENSE_SLOT ?? "",
 };
 
