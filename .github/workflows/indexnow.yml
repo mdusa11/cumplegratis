@@ -13,10 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Esperar a que Cloudflare publique
-        run: sleep 240
+        run: sleep ${{ github.event_name == 'workflow_dispatch' && 1 || 240 }}
       - name: Enviar URLs del sitemap
         run: |
+          echo "Llave desde el runner: $(curl -s -o /dev/null -w '%{http_code}' https://cumplegratis.fun/d01c003672fde43a5fd195049db62daf.txt)"
           urls=$(curl -fsS https://cumplegratis.fun/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' | jq -R . | jq -s .)
           echo "$(echo "$urls" | jq length) URLs"
           jq -n --argjson urls "$urls" '{host: "cumplegratis.fun", key: "d01c003672fde43a5fd195049db62daf", keyLocation: "https://cumplegratis.fun/d01c003672fde43a5fd195049db62daf.txt", urlList: $urls}' > body.json
-          curl -sS -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H "Content-Type: application/json; charset=utf-8" --data @body.json
+          curl -sS -w "\nIndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H "Content-Type: application/json; charset=utf-8" --data @body.json
