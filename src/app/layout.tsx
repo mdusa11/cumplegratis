@@ -19,7 +19,7 @@ const mono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Cumplegratis · Promos y regalos gratis en tu cumpleaños en México",
+    default: `Promociones de cumpleaños en México ${new Date().getFullYear()} · Cumplegratis`,
     template: "%s · Cumplegratis",
   },
   description: SITE.description,

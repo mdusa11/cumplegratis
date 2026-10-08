@@ -31,6 +31,10 @@ const byGroup = (g: GroupId) => verified.filter((p) => groupOf(p) === g);
 const freeFood = verified.filter((p) => isFood(p) && p.benefitType === "gratis");
 const walkIn = verified.filter((p) => !p.program);
 const advance = verified.filter((p) => p.program && p.registerDaysBefore);
+// "El cumpleañero no paga": comida gratis yendo con acompañantes que sí pagan.
+const withFriends = verified.filter((p) => isFood(p) && p.benefitType === "gratis" && p.companions);
+const soloFree = verified.filter((p) => isFood(p) && p.benefitType === "gratis" && !p.companions);
+const programs = verified.filter((p) => p.program);
 
 export const GUIDES: Guide[] = [
   {
@@ -137,6 +141,50 @@ export const GUIDES: Guide[] = [
     faq: [
       { q: "¿Con cuánta anticipación debo registrarme?", a: "Entre 1 y 45 días según la marca; si no lo dice, 30 días antes es lo más seguro." },
       { q: "¿Qué necesito para cobrar un regalo de cumpleaños?", a: "Normalmente una identificación oficial con tu fecha de nacimiento y, si aplica, estar registrado en el programa de la marca." },
+    ],
+  },
+  {
+    slug: "cumpleanero-come-gratis",
+    title: `Cumpleañero come gratis en México: restaurantes (${year})`,
+    short: "Cumpleañero come gratis",
+    icon: "plate",
+    description: `${withFriends.length + soloFree.length} restaurantes y cafés en México donde el cumpleañero come gratis: cuántos acompañantes piden, qué incluye y cómo cobrarlo.`,
+    intro: `"El cumpleañero no paga" es la promo más buscada: vas con amigos o familia, ellos pagan su consumo y a ti te regalan el platillo. Aquí están las ${withFriends.length} que piden acompañantes y otras ${soloFree.length} donde te regalan algo aunque vayas solo, todas verificadas.`,
+    sections: [
+      { icon: "people", title: "Con acompañantes: el cumpleañero no paga", promos: withFriends },
+      { icon: "plate", title: "Aunque vayas solo", promos: top(soloFree, 16) },
+      {
+        title: "Antes de ir",
+        tips: [
+          "Reserva y avisa que es tu cumpleaños: varios restaurantes lo piden por adelantado.",
+          "Cuenta bien a los acompañantes: si piden 3 o 4, tienen que consumir.",
+          "Lleva tu INE: la fecha de nacimiento debe coincidir con el día, semana o mes de la promo.",
+          "Pregunta si aplica en tu sucursal: muchos negocios locales solo la dan en una.",
+        ],
+      },
+    ],
+    faq: [
+      { q: "¿Dónde come gratis el cumpleañero en México?", a: `Por ejemplo en ${top(withFriends, 6).map((p) => p.brand).join(", ")}. Revisa cada uno: cambian los acompañantes y los días.` },
+      { q: "¿Cuántos acompañantes tengo que llevar?", a: "Depende del lugar: lo más común es entre 2 y 4 personas que consuman normalmente." },
+      { q: "¿Tengo que llevar identificación?", a: "Sí, casi siempre piden INE o pasaporte con tu fecha de nacimiento." },
+    ],
+  },
+  {
+    slug: "programas-de-lealtad-con-regalo-de-cumpleanos",
+    title: `Programas de lealtad con regalo de cumpleaños (${year})`,
+    short: "Programas con regalo de cumpleaños",
+    icon: "register",
+    description: `${programs.length} programas de lealtad en México que te dan un regalo de cumpleaños: Starbucks Rewards, Club Cinépolis y más, con cuánto antes registrarte.`,
+    intro: `La mayoría de los regalos de cumpleaños vienen de un programa de lealtad: te registras con tu fecha de nacimiento y la marca te manda el regalo en tu fecha. Estos son los ${programs.length} programas verificados, con la anticipación que piden.`,
+    sections: [
+      { icon: GROUPS.comida.icon, title: "Comida y café", promos: programs.filter((p) => groupOf(p) === "comida") },
+      { icon: GROUPS.tiendas.icon, title: "Tiendas", promos: programs.filter((p) => groupOf(p) === "tiendas") },
+      { icon: GROUPS.diversion.icon, title: "Cine y entretenimiento", promos: programs.filter((p) => groupOf(p) === "diversion") },
+      { icon: GROUPS.servicios.icon, title: "Tarjetas, apps y viajes", promos: programs.filter((p) => groupOf(p) === "servicios") },
+    ],
+    faq: [
+      { q: "¿Qué programas de lealtad dan regalo de cumpleaños?", a: `Entre los más conocidos: ${top(programs, 8).map((p) => p.program).join(", ")}.` },
+      { q: "¿Con cuánta anticipación me registro?", a: "Depende del programa, de 1 a 45 días. Si la marca no lo publica, regístrate 30 días antes de tu cumpleaños." },
     ],
   },
 ];

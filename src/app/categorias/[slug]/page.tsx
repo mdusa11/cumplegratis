@@ -15,6 +15,24 @@ export function generateStaticParams() {
 }
 
 const year = new Date().getFullYear();
+
+// Títulos con la frase que la gente busca (ver docs/seo-investigacion.md).
+const CATEGORY_TITLE: Partial<Record<CategoryId, string>> = {
+  cafe: "Café gratis en tu cumpleaños en México",
+  postres: "Helado, pastel y postres gratis en tu cumpleaños",
+  restaurantes: "Restaurantes que te regalan comida en tu cumpleaños",
+  "comida-rapida": "Hamburguesa y pizza gratis en tu cumpleaños",
+  belleza: "Regalos de cumpleaños en tiendas de belleza",
+  ropa: "Descuentos de cumpleaños en tiendas de ropa",
+  departamentales: "Descuento de cumpleaños en Liverpool y departamentales",
+  tecnologia: "Descuentos de cumpleaños en tecnología",
+  cine: "Cine gratis o 2x1 en tu cumpleaños: Cinépolis y Cinemex",
+  parques: "Parques y balnearios gratis en tu cumpleaños",
+  experiencias: "Boliche, karts y experiencias gratis en tu cumpleaños",
+  bares: "Bares y bebidas gratis en tu cumpleaños",
+  servicios: "Bancos y apps con regalo de cumpleaños",
+  viajes: "Hoteles y viajes con descuento de cumpleaños",
+};
 const category = (slug: string) => (slug in CATEGORIES ? (slug as CategoryId) : null);
 const inCategory = (c: CategoryId) => promos.filter((p) => p.category === c).sort(byProminence);
 
@@ -25,7 +43,7 @@ export async function generateMetadata({ params }: PageProps<"/categorias/[slug]
   const label = CATEGORIES[c].label.toLowerCase();
   const brands = list.slice(0, 4).map((p) => p.brand).join(", ");
   return {
-    title: `Promos de cumpleaños de ${label} en México ${year}`,
+    title: `${CATEGORY_TITLE[c] ?? `Promos de cumpleaños de ${label} en México`} (${year})`,
     description: `${list.length} lugares de ${label} que te regalan algo en tu cumpleaños: ${brands} y más. Requisitos, cuándo registrarte y cómo cobrarlo.`,
     alternates: { canonical: `/categorias/${c}` },
   };

@@ -1,0 +1,22 @@
+name: IndexNow
+
+# Tras cada publicación avisa a Bing (y a quienes usan IndexNow: Copilot, DuckDuckGo, Yandex…) qué URLs existen,
+# para que las lean pronto. Lee el sitemap en vivo una vez que Cloudflare terminó de publicar.
+on:
+  push:
+    branches: [main]
+    paths: [src/**, public/**, data/**]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Esperar a que Cloudflare publique
+        run: sleep 240
+      - name: Enviar URLs del sitemap
+        run: |
+          urls=$(curl -fsS https://cumplegratis.fun/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' | jq -R . | jq -s .)
+          echo "$(echo "$urls" | jq length) URLs"
+          jq -n --argjson urls "$urls" '{host: "cumplegratis.fun", key: "d01c003672fde43a5fd195049db62daf", keyLocation: "https://cumplegratis.fun/d01c003672fde43a5fd195049db62daf.txt", urlList: $urls}' > body.json
+          curl -sS -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H "Content-Type: application/json; charset=utf-8" --data @body.json

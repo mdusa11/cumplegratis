@@ -4,6 +4,7 @@ import { SplitText } from "@/components/Reveal";
 import { Reveal } from "@/components/Reveal";
 import { promosInCity } from "@/lib/cities-data";
 import { CITIES, STATES, citiesOf, type StateCode } from "@/lib/places";
+import { STATE_SLUG } from "@/lib/seo-pages";
 
 export const metadata: Metadata = {
   title: "Promos de cumpleaños por ciudad",
@@ -24,7 +25,11 @@ export default function CitiesPage() {
         {states.map((s, i) => (
           <Reveal key={s} delay={(i % 3) * 0.05} y={24} className="mb-5 break-inside-avoid">
             <section className="card bg-paper p-5">
-              <h2 className="display text-3xl">{STATES[s].name}</h2>
+              <h2 className="display text-3xl">
+                <Link href={`/estados/${STATE_SLUG[s]}`} className="hover:text-hot hover:underline">
+                  {STATES[s].name}
+                </Link>
+              </h2>
               <ul className="mt-3 flex flex-wrap gap-2">
                 {citiesOf(s).map((c) => {
                   const { local } = promosInCity(c);

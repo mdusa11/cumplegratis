@@ -11,8 +11,11 @@ import { WhereCard } from "@/components/WhereCard";
 import { ParallaxIcon } from "@/components/ParallaxIcon";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
-import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, getPromo, groupOf, promos, relatedPromos, signupLabel, days, quickRules, validityText, type Promo } from "@/lib/promos";
+import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, getPromo, groupOf, money, promos, relatedPromos, signupLabel, days, quickRules, validityText, type Promo } from "@/lib/promos";
 import { API_ENABLED, SITE, breadcrumbs, jsonLd } from "@/lib/site";
+import { FaqList } from "@/components/FaqList";
+import { CITIES, STATES } from "@/lib/places";
+import { STATE_SLUG } from "@/lib/seo-pages";
 
 export const dynamicParams = false;
 
@@ -22,11 +25,21 @@ export function generateStaticParams() {
 
 const year = new Date().getFullYear();
 
+// Como la gente lo busca: "<marca> cumpleaños", qué regala y el año. Si no cabe (~60), el regalo va en la descripción.
+function promoTitle(p: Promo) {
+  const brand = p.brand.replace(/\s*\([^)]*\)/g, "").trim();
+  const gift = p.benefit.charAt(0).toLowerCase() + p.benefit.slice(1);
+  const full = `${brand} cumpleaños: ${gift} (${year})`;
+  if (full.length <= 62) return full;
+  const mid = `${brand} cumpleaños ${year}: qué regala y requisitos`;
+  return mid.length <= 62 ? mid : `${brand}: regalo de cumpleaños ${year}`;
+}
+
 export async function generateMetadata({ params }: PageProps<"/promos/[slug]">): Promise<Metadata> {
   const promo = getPromo((await params).slug);
   if (!promo) return {};
   return {
-    title: `${promo.brand} en tu cumpleaños ${year}: ${promo.benefit}`,
+    title: promoTitle(promo),
     description: `${promo.details} Requisitos, cuándo registrarte y cómo cobrarlo paso a paso.`.slice(0, 300),
     alternates: { canonical: `/promos/${promo.slug}` },
     // Sin confirmar: visible en el sitio, pero fuera del índice de Google hasta verificarla (calidad del dominio).
@@ -55,14 +68,25 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
   const group = GROUPS[groupOf(promo)];
   const confidence = CONFIDENCE[promo.confidence];
   const related = relatedPromos(promo);
+  const extras = [
+    promo.needsId && "llevar una identificación oficial (INE)",
+    promo.companions && `ir con ${promo.companions} ${promo.companions === 1 ? "acompañante" : "acompañantes"}`,
+    promo.minPurchase && `una compra mínima de ${money(promo.minPurchase)}`,
+  ].filter(Boolean);
   const faq = [
     { q: `¿Qué regala ${promo.brand} en tu cumpleaños?`, a: `${promo.benefit}. ${promo.details}` },
     {
       q: `¿Hay que registrarse para el regalo de cumpleaños de ${promo.brand}?`,
       a: promo.program ? `Sí, en ${promo.program}. ${signupLabel(promo)}.` : "No, basta con tu identificación oficial.",
     },
-    { q: `¿Cuándo se puede cobrar?`, a: promo.windowNote },
+    { q: `¿Cuándo se puede cobrar el regalo de ${promo.brand}?`, a: [promo.windowNote, validityText(promo)].filter(Boolean).join(". ") },
+    { q: `¿Cómo pido mi regalo de cumpleaños en ${promo.brand}?`, a: promo.howToClaim },
+    { q: `¿En qué ciudades aplica?`, a: [coverageLabel(promo), promo.locationNote].filter(Boolean).join(". ") },
+    ...(extras.length ? [{ q: "¿Qué piden para dártelo?", a: `Además de tu fecha de cumpleaños, piden ${extras.join(", ")}.` }] : []),
   ];
+  // Enlaces a las páginas de ciudad y estado donde aplica (también ayudan a que Google las descubra).
+  const whereCities = (promo.cities.length ? promo.cities : (promo.presence?.cities ?? [])).slice(0, 16);
+  const whereStates = (promo.cities.length ? [] : promo.states.length ? promo.states : (promo.presence?.states ?? [])).slice(0, 16);
 
   return (
     <article>
@@ -150,6 +174,30 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
               </ul>
             )}
           </Reveal>
+
+          <FaqList items={faq} className="mt-16" />
+
+          {(whereCities.length > 0 || whereStates.length > 0) && (
+            <nav className="mt-14" aria-label={`Dónde aplica ${promo.brand}`}>
+              <h2 className="display text-4xl sm:text-5xl">Más promos donde aplica</h2>
+              <ul className="mt-5 flex flex-wrap gap-2">
+                {whereCities.map((c) => (
+                  <li key={c}>
+                    <Link href={`/ciudades/${c}`} className="chip bg-paper transition-colors hover:bg-acid">
+                      Promos de cumpleaños en {CITIES[c].name}
+                    </Link>
+                  </li>
+                ))}
+                {whereStates.map((st) => (
+                  <li key={st}>
+                    <Link href={`/estados/${STATE_SLUG[st]}`} className="chip bg-paper transition-colors hover:bg-acid">
+                      Promos de cumpleaños en {STATES[st].name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
         </section>
 
         <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
@@ -205,14 +253,6 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             [promo.brand, `/promos/${promo.slug}`],
           ]),
         )}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={jsonLd({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
-        })}
       />
     </article>
   );

@@ -37,6 +37,7 @@ export function Footer() {
           links={[
             ["/promos", "Todas las promos"],
             ["/ciudades", "Promos por ciudad"],
+            ["/cumpleanos", "Promos por mes"],
             ["/categorias/restaurantes", "Comida gratis"],
             ["/categorias/belleza", "Belleza"],
             ["/categorias/cine", "Cine"],

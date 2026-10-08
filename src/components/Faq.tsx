@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { AnimatePresence, motion } from "motion/react";
+import { motion } from "motion/react";
 import { ACCENT } from "@/lib/site";
 
 export type QA = { q: string; a: string };
@@ -29,19 +29,16 @@ export function Faq({ items }: { items: QA[] }) {
                 +
               </motion.span>
             </button>
-            <AnimatePresence initial={false}>
-              {isOpen && (
-                <motion.div
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: "auto", opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                  className="overflow-hidden"
-                >
-                  <p className="max-w-3xl pb-8 text-xl leading-relaxed">{item.a}</p>
-                </motion.div>
-              )}
-            </AnimatePresence>
+            {/* La respuesta siempre está en el HTML (plegada): así Google la lee aunque la pregunta esté cerrada. */}
+            <motion.div
+              initial={false}
+              animate={isOpen ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
+              transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+              className="overflow-hidden"
+              aria-hidden={!isOpen}
+            >
+              <p className="max-w-3xl pb-8 text-xl leading-relaxed">{item.a}</p>
+            </motion.div>
           </div>
         );
       })}

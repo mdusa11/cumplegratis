@@ -8,7 +8,7 @@ import { PromoCard } from "@/components/PromoCard";
 import { BirthdayPicker } from "@/components/BirthdayPicker";
 import { Faq, type QA } from "@/components/Faq";
 import { Reveal, ScrollWords } from "@/components/Reveal";
-import { jsonLd } from "@/lib/site";
+import { jsonLd, MONTHS } from "@/lib/site";
 import { CITIES, type CitySlug } from "@/lib/places";
 import { ClipReveal, CountUp, Magnetic, TitleReveal } from "@/components/fx";
 import { SwipeDeck } from "@/components/SwipeDeck";
@@ -220,6 +220,20 @@ export default function Home() {
             </Reveal>
           ))}
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 pt-24 sm:px-8">
+        <p className="mono-tag">Por mes</p>
+        <TitleReveal text="¿En qué mes *cumples?" className="mt-3 text-[clamp(3rem,8vw,6.5rem)]" />
+        <ul className="mt-8 grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-6">
+          {MONTHS.map((m) => (
+            <li key={m}>
+              <Link href={`/cumpleanos/${m}`} className="chip w-full justify-center bg-paper !py-3 !text-base capitalize transition-colors hover:bg-acid">
+                {m}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <div className="mx-auto max-w-6xl px-5 pt-24 sm:px-8">

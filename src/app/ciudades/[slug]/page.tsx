@@ -11,6 +11,7 @@ import { promosInCity } from "@/lib/cities-data";
 import { CITIES, STATES, type CitySlug } from "@/lib/places";
 import { CATEGORIES } from "@/lib/promos";
 import { breadcrumbs, itemList, jsonLd } from "@/lib/site";
+import { GROUP_PAGE, STATE_SLUG, cityGroups } from "@/lib/seo-pages";
 
 export const dynamicParams = false;
 
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: PageProps<"/ciudades/[slug]">
   const { local, national } = promosInCity(slug);
   const name = CITIES[slug].name;
   return {
-    title: `Promos de cumpleaños en ${name} ${year}: ${local.length + national.length} regalos y descuentos`,
+    title: `Promociones de cumpleaños en ${slug === "cdmx" ? "CDMX" : name} ${year}: ${local.length + national.length} lugares`,
     description: `${local.length + national.length} lugares que te regalan algo en tu cumpleaños en ${name}, ${STATES[CITIES[slug].state].name}: ${local.length} locales y ${national.length} cadenas nacionales. Requisitos y cómo cobrarlos.`,
     alternates: { canonical: `/ciudades/${slug}` },
   };
@@ -51,7 +52,9 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
           Ciudades
         </Link>
         <span>/</span>
-        <span>{STATES[state].name}</span>
+        <Link href={`/estados/${STATE_SLUG[state]}`} className="underline-offset-4 hover:underline">
+          {STATES[state].name}
+        </Link>
       </nav>
       <h1 className="display mt-4 text-[clamp(3.6rem,11vw,10rem)]">
         <SplitText text="Promos de cumple en" className="block text-[0.45em]" />
@@ -69,6 +72,17 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
         </p>
         <SetCityButton city={slug} />
       </div>
+      {cityGroups(slug).length > 0 && (
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {cityGroups(slug).map((g) => (
+            <li key={g}>
+              <Link href={`/ciudades/${slug}/${GROUP_PAGE[g].slug}`} className="chip bg-paper transition-colors hover:bg-acid">
+                {GROUP_PAGE[g].title(name)}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
 
       <section className="mt-20">
         <TitleReveal text="Las *favoritas de siempre" className="text-5xl sm:text-7xl" />
