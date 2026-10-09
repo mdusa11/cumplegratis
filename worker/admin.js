@@ -106,8 +106,10 @@ async function stats(url, env) {
   const queries = {
     kpi: st(`SELECT ${KPI} FROM events WHERE ${W}`),
     days: st(
-      `SELECT COUNT(DISTINCT CASE WHEN ts >= ? THEN sid END) today, COUNT(DISTINCT CASE WHEN ts < ? THEN sid END) yesterday FROM events WHERE ${geo.W} AND type='pageview'`,
-      [todayStart, todayStart, ...geo.args],
+      `SELECT COUNT(DISTINCT CASE WHEN ts >= ? THEN sid END) today, COUNT(DISTINCT CASE WHEN ts < ? THEN sid END) yesterday,
+        COUNT(DISTINCT CASE WHEN ts >= ? AND ${GOOGLE} THEN sid END) googleToday, COUNT(DISTINCT CASE WHEN ts < ? AND ${GOOGLE} THEN sid END) googleYesterday
+       FROM events WHERE ${geo.W} AND type='pageview'`,
+      [todayStart, todayStart, todayStart, todayStart, ...geo.args],
     ),
     google: st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='pageview' AND ${GOOGLE}`),
     prevGoogle: st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ${prev.W} AND type='pageview' AND ${GOOGLE}`, prev.args),

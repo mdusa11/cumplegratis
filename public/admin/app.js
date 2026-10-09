@@ -189,7 +189,7 @@ function today(d) {
   $("today").innerHTML = `
     <div class="hi"><b>${fmt.format(t)}</b><span>Visitas hoy</span>${delta(t, y)}</div>
     <div><b>${fmt.format(y)}</b><span>Ayer</span></div>
-    <div><b>${fmt.format(d.google)}</b><span>Desde Google en el periodo</span>${delta(d.google, d.prevGoogle)}</div>
+    <div><b>${fmt.format(d.days.googleToday ?? 0)}</b><span>Desde Google hoy</span>${delta(d.days.googleToday ?? 0, d.days.googleYesterday ?? 0)}</div>
     <div><b>${fmt.format(d.live)}</b><span>En línea ahora</span></div>
     <div class="wide">${escapeHtml(ADS_STATUS)}</div>`;
 }
