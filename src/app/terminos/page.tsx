@@ -102,20 +102,35 @@ export default function Terminos() {
           id: "uso",
           title: "Uso permitido",
           body: (
-            <p>
-              Puedes usar el sitio para fines personales y no comerciales. No está permitido extraer de forma masiva o automatizada su contenido, intentar
-              vulnerar su seguridad o usarlo para fines ilícitos.
-            </p>
+            <>
+              <p>
+                Puedes usar el sitio para fines personales y no comerciales, y compartir o citar promociones sueltas siempre que enlaces a la página
+                de {SITE.name} de donde salieron.
+              </p>
+              <p>
+                No está permitido extraer de forma masiva o automatizada su contenido (scraping), copiar o republicar la base de promociones total o
+                parcialmente en otro sitio, app, directorio o publicación, intentar vulnerar su seguridad o usarlo para fines ilícitos. Los buscadores y
+                asistentes que solo enlazan o citan el sitio pueden indexarlo.
+              </p>
+            </>
           ),
         },
         {
           id: "propiedad",
           title: "Propiedad intelectual",
           body: (
-            <p>
-              El diseño, los textos, la selección y organización de la información, el código y la marca {SITE.name} pertenecen a su titular y están
-              protegidos por la Ley Federal del Derecho de Autor y la Ley Federal de Protección a la Propiedad Industrial.
-            </p>
+            <>
+              <p>
+                El diseño, los textos, el código y la marca {SITE.name} pertenecen a su titular y están protegidos por la Ley Federal del Derecho de
+                Autor y la Ley Federal de Protección a la Propiedad Industrial.
+              </p>
+              <p>
+                La base de promociones es una compilación propia: la selección, verificación, clasificación por ciudad y estado, fechas de registro y
+                redacción de cada ficha son obra de {SITE.name} y están protegidas como base de datos conforme a los artículos 13 y 107 de la Ley Federal
+                del Derecho de Autor. Los nombres y marcas de cada negocio pertenecen a sus titulares. Si detectamos una copia, podemos pedir su retiro a
+                quien la publique y a los buscadores, y ejercer las acciones legales que correspondan.
+              </p>
+            </>
           ),
         },
         {

@@ -46,7 +46,7 @@ export const LEGAL = {
   responsible: process.env.NEXT_PUBLIC_LEGAL_NAME ?? "Dusa Solutions",
   address: process.env.NEXT_PUBLIC_LEGAL_ADDRESS ?? "Av. Patria 3995, Col. Lomas de Atemajac, Zapopan, Jalisco, México",
   email: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "dusasolutionsmx@gmail.com",
-  updated: "4 de octubre de 2026",
+  updated: "8 de octubre de 2026",
 };
 
 /** URL absoluta de una página; en el export estático lleva diagonal final (trailingSlash) para coincidir con la canónica. */

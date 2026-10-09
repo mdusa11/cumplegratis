@@ -29,7 +29,7 @@ const ACTION = {
 let meta = { promos: {}, cities: {}, states: {} };
 const charts = {};
 const csv = {};
-let map, markers;
+let map;
 
 const mxToday = () => new Date(Date.now() - 6 * 3600e3).toISOString().slice(0, 10);
 const daysAgo = (n) => new Date(Date.now() - 6 * 3600e3 - (n - 1) * 864e5).toISOString().slice(0, 10);
@@ -289,22 +289,63 @@ function heatmap(rows) {
   $("heat").innerHTML = html;
 }
 
+// Mapa vectorial de OpenFreeMap con MapLibre: gratis, sin llave y sin límite de cargas.
+const MAP_TEXT = {
+  "CooperativeGesturesHandler.WindowsHelpText": "Usa Ctrl + rueda para acercar el mapa",
+  "CooperativeGesturesHandler.MacHelpText": "Usa ⌘ + rueda para acercar el mapa",
+  "CooperativeGesturesHandler.MobileHelpText": "Usa dos dedos para mover el mapa",
+};
+let mapReady, popup;
 function drawMap(cities) {
-  if (!map) {
-    map = L.map("map", { scrollWheelZoom: false }).setView([23.6, -102.5], 5);
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', maxZoom: 18 }).addTo(map);
-    markers = L.layerGroup().addTo(map);
-  }
-  markers.clearLayers();
   const pts = cities.filter((c) => c.lat && c.lon);
   const max = Math.max(1, ...pts.map((c) => c.visits));
-  for (const c of pts) {
-    L.circleMarker([c.lat, c.lon], { radius: 6 + 26 * Math.sqrt(c.visits / max), color: C.ink, weight: 2, fillColor: state.city === c.k ? C.hot : C.acid, fillOpacity: 0.75 })
-      .bindTooltip(`<b>${escapeHtml(es(c.k))}</b>, ${escapeHtml(es(c.region))}<br>${fmt.format(c.visits)} visitas · ${fmt.format(c.pv)} páginas`)
-      .on("click", () => setState({ country: c.country ?? "", region: c.region ?? "", city: state.city === c.k ? "" : c.k }))
-      .addTo(markers);
+  const data = {
+    type: "FeatureCollection",
+    features: pts.map((c) => ({
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [c.lon, c.lat] },
+      properties: { k: c.k, region: c.region ?? "", country: c.country ?? "", visits: c.visits, pv: c.pv, r: 6 + 26 * Math.sqrt(c.visits / max), on: state.city === c.k },
+    })),
+  };
+  if (!map) {
+    map = new maplibregl.Map({ container: "map", style: "https://tiles.openfreemap.org/styles/positron", center: [-102.5, 23.6], zoom: 4, cooperativeGestures: true, locale: MAP_TEXT, attributionControl: { compact: true } });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
+    popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 8 });
+    mapReady = new Promise((done) =>
+      map.on("load", () => {
+        map.addSource("cities", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+        map.addLayer({
+          id: "cities",
+          type: "circle",
+          source: "cities",
+          layout: { "circle-sort-key": ["-", 0, ["get", "visits"]] },
+          paint: { "circle-radius": ["get", "r"], "circle-color": ["case", ["get", "on"], C.hot, C.acid], "circle-opacity": 0.8, "circle-stroke-color": C.ink, "circle-stroke-width": 2 },
+        });
+        map.on("mousemove", "cities", (e) => {
+          const f = e.features[0], c = f.properties;
+          map.getCanvas().style.cursor = "pointer";
+          popup.setLngLat(f.geometry.coordinates).setHTML(`<b>${escapeHtml(es(c.k))}</b>, ${escapeHtml(es(c.region))}<br>${fmt.format(c.visits)} visitas · ${fmt.format(c.pv)} páginas`).addTo(map);
+        });
+        map.on("mouseleave", "cities", () => {
+          map.getCanvas().style.cursor = "";
+          popup.remove();
+        });
+        map.on("click", "cities", (e) => {
+          const c = e.features[0].properties;
+          setState({ country: c.country, region: c.region, city: state.city === c.k ? "" : c.k });
+        });
+        done();
+      }),
+    );
   }
-  if (pts.length && (state.city || state.region)) map.fitBounds(L.latLngBounds(pts.map((c) => [c.lat, c.lon])).pad(0.4), { maxZoom: 10 });
+  mapReady.then(() => {
+    map.getSource("cities").setData(data);
+    if (pts.length && (state.city || state.region)) {
+      const bounds = new maplibregl.LngLatBounds();
+      pts.forEach((c) => bounds.extend([c.lon, c.lat]));
+      map.fitBounds(bounds, { padding: 60, maxZoom: 10 });
+    }
+  });
 }
 
 function donut(id, rows, label, colors = [C.acid, C.hot, C.sun, C.sky, C.lilac]) {

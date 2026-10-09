@@ -63,7 +63,8 @@ main { max-width: 1400px; margin: 0 auto; padding: 16px; display: grid; gap: 16p
 .chart { position: relative; height: 280px; }
 .chart.small { height: 220px; }
 .map { height: 460px; border: 2px solid var(--ink); border-radius: 16px; overflow: hidden; }
-.leaflet-container { font-family: inherit; }
+.maplibregl-map, .maplibregl-popup-content { font-family: inherit; }
+.maplibregl-popup-content { border: 2px solid var(--ink); border-radius: 10px; padding: 6px 10px; font-size: 13px; }
 
 .heat { display: grid; grid-template-columns: 30px repeat(24, minmax(0, 1fr)); gap: 2px; font-family: "Space Mono", monospace; font-size: 10px; }
 .heat div { aspect-ratio: 1; border-radius: 3px; background: var(--paper-2); }
