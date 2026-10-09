@@ -313,6 +313,7 @@ function drawMap(cities) {
     popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 8 });
     mapReady = new Promise((done) =>
       map.on("load", () => {
+        for (const l of map.getStyle().layers) if (l.type === "symbol" && l.layout?.["text-field"]) map.setLayoutProperty(l.id, "text-field", ["coalesce", ["get", "name:es"], ["get", "name"]]);
         map.addSource("cities", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
         map.addLayer({
           id: "cities",
