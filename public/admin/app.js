@@ -216,7 +216,7 @@ function insights(d) {
     out.push(`<b>${pct(s.bounces / s.sessions)}</b> se va tras ver una sola página: más enlaces a otras promos y ciudades ayudan a que se queden.`);
   const missing = d.searches.filter((r) => r.results === 0).slice(0, 3);
   if (missing.length) out.push(`Buscaron y no encontraron: ${missing.map((r) => `<b>«${escapeHtml(r.k)}»</b>`).join(", ")}.`);
-  $("insights").innerHTML = out.slice(0, 6).map((x) => `<li><span>${x}</span></li>`).join("");
+  $("insights").innerHTML = out.slice(0, 6).map((x) => `<li><span>${x.replace(/\.(<\/b>)?\.$/, ".$1")}</span></li>`).join("");
 }
 
 function quality(s, ps, v) {
