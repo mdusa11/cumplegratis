@@ -136,3 +136,24 @@ h3 { font-family: "Big Shoulders", sans-serif; text-transform: uppercase; font-s
 .vitals th { white-space: normal; line-height: 1.2; }
 .vitals th:first-child, .vitals td:first-child { width: 30%; }
 .vitals td.n { font-size: 13px; }
+
+/* Resumen, atajos y secciones */
+.jump { display: flex; gap: 6px; overflow-x: auto; padding: 10px 16px; border-bottom: 2.5px solid var(--ink); background: var(--paper-2); }
+.jump a { flex-shrink: 0; font-weight: 700; color: var(--ink); text-decoration: none; border: 2px solid var(--ink); border-radius: 999px; padding: 4px 12px; background: #fff; }
+.jump a:hover { background: var(--sun); }
+.sec { display: grid; gap: 16px; scroll-margin-top: 140px; }
+@media (max-width: 899px) { .sec { scroll-margin-top: 12px; } }
+.sec-title { font-family: "Big Shoulders", sans-serif; text-transform: uppercase; font-size: 44px; margin: 18px 0 0; line-height: 1; }
+.summary { display: grid; gap: 16px; }
+@media (min-width: 900px) { .summary { grid-template-columns: 1.1fr 1fr; align-items: start; } }
+.today { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.today div { border: 2px solid var(--ink); border-radius: 14px; padding: 10px 12px; background: var(--paper); }
+.today div.hi { background: var(--acid); }
+.today b { display: block; font-family: "Big Shoulders", sans-serif; font-size: 40px; line-height: 1; }
+.today span { font-size: 13px; font-weight: 700; }
+.today em { margin-left: 6px; font-style: normal; font-family: "Space Mono", monospace; font-size: 11px; font-weight: 700; border: 1.5px solid var(--ink); border-radius: 999px; padding: 0 6px; background: #fff; }
+.today .wide { grid-column: span 2; font-size: 14px; font-weight: 600; background: var(--sun); }
+.insights { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.insights li { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; line-height: 1.35; padding: 10px 12px; border-radius: 12px; background: var(--paper); }
+.insights li::before { content: ""; flex-shrink: 0; width: 10px; height: 10px; margin-top: 5px; border: 2px solid var(--ink); background: var(--hot); transform: rotate(45deg); }
+.insights b { font-weight: 800; }

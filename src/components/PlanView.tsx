@@ -139,7 +139,8 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
       <Group icon="id" title="Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={plan.walkIn} done={done} />
 
       <InstallCard />
-      <ReminderForm birthday={birthday} />
+      {/* Sin backend los recordatorios no existen: no se muestra una sección "muy pronto" (AdSense rechaza sitios en construcción). */}
+      {API_ENABLED && <ReminderForm birthday={birthday} />}
     </>
   );
 }

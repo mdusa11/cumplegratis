@@ -99,8 +99,19 @@ async function stats(url, env) {
   const db = env.DB;
   const st = (sql, a = args) => db.prepare(sql).bind(...a);
 
+  // Hoy y ayer en hora de México (independiente del rango elegido, pero con los demás filtros).
+  const todayStart = mxDay(new Date(now - 6 * 3600e3).toISOString().slice(0, 10), now);
+  const geo = filters(q, todayStart - 864e5, now + 60e3);
+  const GOOGLE = "ref LIKE '%google.%'";
   const queries = {
     kpi: st(`SELECT ${KPI} FROM events WHERE ${W}`),
+    days: st(
+      `SELECT COUNT(DISTINCT CASE WHEN ts >= ? THEN sid END) today, COUNT(DISTINCT CASE WHEN ts < ? THEN sid END) yesterday FROM events WHERE ${geo.W} AND type='pageview'`,
+      [todayStart, todayStart, ...geo.args],
+    ),
+    google: st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='pageview' AND ${GOOGLE}`),
+    prevGoogle: st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ${prev.W} AND type='pageview' AND ${GOOGLE}`, prev.args),
+    googleEntries: st(`SELECT path k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='pageview' AND ${GOOGLE} GROUP BY path ORDER BY n DESC LIMIT 30`),
     prevKpi: st(`SELECT ${KPI} FROM events WHERE ${prev.W}`, prev.args),
     sessions: st(`WITH s AS (SELECT sid, SUM(type='pageview') pv, SUM(CASE WHEN type='leave' THEN secs END) secs FROM events WHERE ${W} GROUP BY sid)
       SELECT COUNT(*) sessions, SUM(pv=1) bounces, AVG(pv) ppv, AVG(secs) secs FROM s WHERE pv > 0`),
@@ -150,7 +161,9 @@ async function stats(url, env) {
   const results = await db.batch(Object.values(queries));
   const out = { range: { from, to, hourly } };
   names.forEach((k, i) => (out[k] = results[i].results));
-  for (const k of ["kpi", "prevKpi", "sessions", "prevSessions", "visitors", "funnel"]) out[k] = out[k][0] ?? {};
+  for (const k of ["kpi", "prevKpi", "sessions", "prevSessions", "visitors", "funnel", "days"]) out[k] = out[k][0] ?? {};
+  out.google = out.google[0]?.n ?? 0;
+  out.prevGoogle = out.prevGoogle[0]?.n ?? 0;
   out.live = out.live[0]?.n ?? 0;
   out.appCities = out.appCities.map((r) => r.app_city);
   return Response.json(out, { headers: { "cache-control": "no-store" } });

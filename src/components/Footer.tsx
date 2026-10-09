@@ -62,6 +62,12 @@ export function Footer() {
       </div>
 
       <div className="mx-auto flex max-w-7xl flex-wrap gap-x-6 gap-y-2 px-5 pb-4 text-sm font-semibold sm:px-8">
+        <Link href="/acerca" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+          Acerca de
+        </Link>
+        <Link href="/contacto" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+          Contacto
+        </Link>
         <Link href="/terminos" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Términos y condiciones
         </Link>

@@ -181,6 +181,44 @@ function kpis(k, p, live) {
   $("live").textContent = fmt.format(live);
 }
 
+// Publicidad: estado manual hasta que AdSense apruebe el sitio.
+const ADS_STATUS = "Publicidad: Google está revisando el sitio (solicitado el 6 de octubre). Al aprobarlo se prenden los anuncios.";
+
+function today(d) {
+  const t = d.days.today ?? 0, y = d.days.yesterday ?? 0;
+  $("today").innerHTML = `
+    <div class="hi"><b>${fmt.format(t)}</b><span>Visitas hoy</span>${delta(t, y)}</div>
+    <div><b>${fmt.format(y)}</b><span>Ayer</span></div>
+    <div><b>${fmt.format(d.google)}</b><span>Desde Google en el periodo</span>${delta(d.google, d.prevGoogle)}</div>
+    <div><b>${fmt.format(d.live)}</b><span>En línea ahora</span></div>
+    <div class="wide">${escapeHtml(ADS_STATUS)}</div>`;
+}
+
+// Frases con lo más útil del periodo; solo afirma lo que dicen los datos.
+function insights(d) {
+  const out = [];
+  const visits = d.kpi.visits ?? 0;
+  if (!visits) {
+    $("insights").innerHTML = `<li>Todavía no hay visitas en este periodo.</li>`;
+    return;
+  }
+  const share = (n) => Math.round((n / visits) * 100);
+  const city = d.cities[0];
+  if (city) out.push(`La mayoría viene de <b>${escapeHtml(es(city.k))}</b> (${share(city.visits)}% de las visitas).`);
+  const direct = Math.max(0, visits - d.refs.reduce((a, r) => a + r.n, 0));
+  out.push(`<b>${fmt.format(d.google)}</b> visitas llegaron desde Google y <b>${fmt.format(direct)}</b> directo (enlace compartido o escrito).`);
+  if (d.googleEntries[0]) out.push(`Lo que más encuentran en Google: <b>${escapeHtml(pageName(d.googleEntries[0].k))}</b>.`);
+  else if (d.entries[0]) out.push(`La mayoría entra por <b>${escapeHtml(pageName(d.entries[0].k))}</b>.`);
+  const top = d.promoPerf[0];
+  if (top) out.push(`Promo más vista: <b>${escapeHtml(promoName(top.k))}</b> (${fmt.format(top.views + top.opens)} veces).`);
+  const s = d.sessions;
+  if (s.sessions && s.bounces / s.sessions > 0.7)
+    out.push(`<b>${pct(s.bounces / s.sessions)}</b> se va tras ver una sola página: más enlaces a otras promos y ciudades ayudan a que se queden.`);
+  const missing = d.searches.filter((r) => r.results === 0).slice(0, 3);
+  if (missing.length) out.push(`Buscaron y no encontraron: ${missing.map((r) => `<b>«${escapeHtml(r.k)}»</b>`).join(", ")}.`);
+  $("insights").innerHTML = out.slice(0, 6).map((x) => `<li><span>${x}</span></li>`).join("");
+}
+
 function quality(s, ps, v) {
   const bounce = s.sessions ? s.bounces / s.sessions : 0;
   const pbounce = ps.sessions ? ps.bounces / ps.sessions : 0;
@@ -214,12 +252,12 @@ function funnel(f) {
 function seriesChart(rows, hourly) {
   charts.series?.destroy();
   charts.series = new Chart($("series"), {
-    type: "line",
+    type: "bar",
     data: {
       labels: rows.map((r) => (hourly ? r.k.slice(5) : r.k.slice(5).split("-").reverse().join("/"))),
       datasets: [
-        { label: "Visitas", data: rows.map((r) => r.visits), borderColor: C.acid, backgroundColor: C.acid + "33", fill: true, tension: 0.3, borderWidth: 3 },
-        { label: "Páginas vistas", data: rows.map((r) => r.pv), borderColor: C.hot, borderWidth: 2, tension: 0.3, pointRadius: 0 },
+        { type: "bar", label: "Visitas", data: rows.map((r) => r.visits), backgroundColor: C.acid, borderColor: C.ink, borderWidth: 2, borderRadius: 6, order: 2 },
+        { type: "line", label: "Páginas vistas", data: rows.map((r) => r.pv), borderColor: C.hot, backgroundColor: C.hot, borderWidth: 2.5, tension: 0.15, pointRadius: 3, order: 1 },
       ],
     },
     options: { responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } },
@@ -307,6 +345,9 @@ async function load() {
 
     syncControls(d.options, d.appCities);
     kpis(d.kpi, d.prevKpi, d.live);
+    today(d);
+    insights(d);
+    list("googleEntries", d.googleEntries, { name: (r) => pageName(r.k) });
     quality(d.sessions, d.prevSessions, d.visitors);
     funnel(d.funnel);
     seriesChart(d.series, d.range.hourly);

@@ -29,6 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...MONTHS.map((m) => page(`/cumpleanos/${m}`, 0.8, "monthly")),
     ...Object.keys(CATEGORIES).map((c) => page(`/categorias/${c}`, 0.8)),
     ...promos.filter((p) => p.confidence !== "baja").map((p) => page(`/promos/${p.slug}`, 0.7)),
+    page("/acerca", 0.4, "monthly"),
+    page("/contacto", 0.4, "monthly"),
     page("/terminos", 0.2, "yearly"),
     page("/privacidad", 0.2, "yearly"),
   ];

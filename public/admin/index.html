@@ -41,69 +41,86 @@
   <button class="clear" id="clear">Limpiar</button>
 </section>
 
+<nav class="jump" aria-label="Secciones">
+  <a href="#resumen">Resumen</a><a href="#origen">Origen</a><a href="#contenido">Contenido</a><a href="#promos">Promos</a><a href="#publico">Público</a><a href="#rapidez">Rapidez</a><a href="#google">Google</a>
+</nav>
+
 <main>
-  <div class="kpis" id="kpis"></div>
+  <section id="resumen" class="sec">
+    <article class="card summary"><div class="today" id="today"></div><ul class="insights" id="insights"></ul></article>
+    <div class="kpis" id="kpis"></div>
+    <div class="grid two">
+      <article class="card"><h2>Calidad de la visita <small>vs. el periodo anterior</small></h2><div class="quality" id="quality"></div></article>
+      <article class="card"><h2>Embudo <small>de cada 100 visitas…</small></h2><div class="funnel" id="funnel"></div></article>
+    </div>
+    <div class="grid two">
+      <article class="card"><h2>Visitas por día</h2><div class="chart"><canvas id="series"></canvas></div></article>
+      <article class="card"><h2>¿A qué hora entran? <small>hora del centro de México</small></h2><div id="heat" class="heat"></div></article>
+    </div>
+  </section>
 
-  <div class="grid two">
-    <article class="card"><h2>Calidad de la visita <small>vs. el periodo anterior</small></h2><div class="quality" id="quality"></div></article>
-    <article class="card"><h2>Embudo <small>de cada 100 visitas…</small></h2><div class="funnel" id="funnel"></div></article>
-  </div>
+  <section id="origen" class="sec">
+    <h2 class="sec-title">Origen</h2>
+    <div class="grid two">
+      <article class="card"><h2>Llegan desde Google por <button class="csv" data-for="googleEntries">CSV</button><small>la página que encontraron en Google</small></h2><ol class="list" id="googleEntries"></ol></article>
+      <article class="card"><h2>De dónde llegan <button class="csv" data-for="refs">CSV</button></h2><ol class="list" id="refs"></ol></article>
+    </div>
+    <article class="card">
+      <h2>¿Desde dónde visitan? <small>toca un punto para filtrar esa ciudad</small></h2>
+      <div id="map" class="map"></div>
+    </article>
+    <div class="grid three">
+      <article class="card"><h2>Países <button class="csv" data-for="countries">CSV</button></h2><ol class="list" id="countries"></ol></article>
+      <article class="card"><h2>Estados <button class="csv" data-for="regions">CSV</button></h2><ol class="list" id="regions"></ol></article>
+      <article class="card"><h2>Ciudades <button class="csv" data-for="cities">CSV</button></h2><ol class="list" id="cities"></ol></article>
+    </div>
+    <div class="grid two">
+      <article class="card"><h2>En vivo <small>últimas acciones · se actualiza cada 15 s</small></h2><ol class="feed" id="feed"></ol></article>
+      <article class="card"><h2>Dónde están vs. qué ciudad eligen <button class="csv" data-for="pairs">CSV</button><small>gente buscando promos de otra ciudad</small></h2><div class="table" id="pairs"></div></article>
+    </div>
+  </section>
 
-  <div class="grid two">
-    <article class="card"><h2>Visitas en el tiempo</h2><div class="chart"><canvas id="series"></canvas></div></article>
-    <article class="card"><h2>¿A qué hora entran? <small>hora del centro de México</small></h2><div id="heat" class="heat"></div></article>
-  </div>
+  <section id="contenido" class="sec">
+    <h2 class="sec-title">Contenido</h2>
+    <div class="grid three">
+      <article class="card"><h2>Páginas más vistas <button class="csv" data-for="pages">CSV</button></h2><ol class="list" id="pages"></ol></article>
+      <article class="card"><h2>Por dónde entran <button class="csv" data-for="entries">CSV</button><small>primera página de la visita</small></h2><ol class="list" id="entries"></ol></article>
+      <article class="card"><h2>Tiempo y scroll <button class="csv" data-for="time">CSV</button><small>promedio por página</small></h2><div class="table" id="time"></div></article>
+    </div>
+    <div class="grid three">
+      <article class="card"><h2>Lo que buscan <button class="csv" data-for="searches">CSV</button></h2><ol class="list" id="searches"></ol></article>
+      <article class="card"><h2>Buscan y no encuentran <button class="csv" data-for="missing">CSV</button><small>promos que faltan</small></h2><ol class="list" id="missing"></ol></article>
+      <article class="card"><h2>Filtros del catálogo <button class="csv" data-for="filtersUsed">CSV</button></h2><ol class="list" id="filtersUsed"></ol></article>
+    </div>
+  </section>
 
-  <article class="card">
-    <h2>¿Desde dónde visitan? <small>toca un punto para filtrar esa ciudad</small></h2>
-    <div id="map" class="map"></div>
-  </article>
+  <section id="promos" class="sec">
+    <h2 class="sec-title">Promos</h2>
+    <article class="card"><h2>Rendimiento por promo <button class="csv" data-for="promoPerf">CSV</button><small>quién la ve, la abre y va a registrarse</small></h2><div class="table" id="promoPerf"></div></article>
+    <div class="grid three">
+      <article class="card"><h2>Ciudad que eligen en el sitio <button class="csv" data-for="chosen">CSV</button></h2><ol class="list" id="chosen"></ol></article>
+      <article class="card"><h2>Clics para registrarse <button class="csv" data-for="signups">CSV</button><small>por promo</small></h2><ol class="list" id="signups"></ol></article>
+      <article class="card"><h2>WhatsApp de negocios <button class="csv" data-for="whatsapp">CSV</button><small>desde qué página</small></h2><ol class="list" id="whatsapp"></ol></article>
+    </div>
+  </section>
 
-  <div class="grid three">
-    <article class="card"><h2>Países <button class="csv" data-for="countries">CSV</button></h2><ol class="list" id="countries"></ol></article>
-    <article class="card"><h2>Estados <button class="csv" data-for="regions">CSV</button></h2><ol class="list" id="regions"></ol></article>
-    <article class="card"><h2>Ciudades <button class="csv" data-for="cities">CSV</button></h2><ol class="list" id="cities"></ol></article>
-  </div>
+  <section id="publico" class="sec">
+    <h2 class="sec-title">Público</h2>
+    <div class="grid four">
+      <article class="card"><h2>Dispositivo</h2><div class="chart small"><canvas id="devices"></canvas></div></article>
+      <article class="card"><h2>App instalada vs. navegador</h2><div class="chart small"><canvas id="standalone"></canvas></div></article>
+      <article class="card"><h2>Sistema <button class="csv" data-for="oses">CSV</button></h2><ol class="list" id="oses"></ol></article>
+      <article class="card"><h2>Navegador <button class="csv" data-for="browsers">CSV</button></h2><ol class="list" id="browsers"></ol></article>
+    </div>
+    <article class="card"><h2>Mes de cumpleaños <small>de quienes arman su plan</small></h2><div class="chart small"><canvas id="months"></canvas></div></article>
+  </section>
 
-  <div class="grid two">
-    <article class="card"><h2>En vivo <small>últimas acciones · se actualiza cada 15 s</small></h2><ol class="feed" id="feed"></ol></article>
-    <article class="card"><h2>Dónde están vs. qué ciudad eligen <button class="csv" data-for="pairs">CSV</button><small>gente buscando promos de otra ciudad</small></h2><div class="table" id="pairs"></div></article>
-  </div>
-
-  <div class="grid three">
-    <article class="card"><h2>Páginas más vistas <button class="csv" data-for="pages">CSV</button></h2><ol class="list" id="pages"></ol></article>
-    <article class="card"><h2>Por dónde entran <button class="csv" data-for="entries">CSV</button><small>primera página de la visita</small></h2><ol class="list" id="entries"></ol></article>
-    <article class="card"><h2>Tiempo y scroll <button class="csv" data-for="time">CSV</button><small>promedio por página</small></h2><div class="table" id="time"></div></article>
-  </div>
-
-  <article class="card"><h2>Rendimiento por promo <button class="csv" data-for="promoPerf">CSV</button><small>quién la ve, la abre y va a registrarse</small></h2><div class="table" id="promoPerf"></div></article>
-
-  <div class="grid three">
-    <article class="card"><h2>Ciudad que eligen en el sitio <button class="csv" data-for="chosen">CSV</button></h2><ol class="list" id="chosen"></ol></article>
-    <article class="card"><h2>Lo que buscan <button class="csv" data-for="searches">CSV</button></h2><ol class="list" id="searches"></ol></article>
-    <article class="card"><h2>Buscan y no encuentran <button class="csv" data-for="missing">CSV</button><small>promos que faltan</small></h2><ol class="list" id="missing"></ol></article>
-  </div>
-
-  <div class="grid three">
-    <article class="card"><h2>Filtros del catálogo <button class="csv" data-for="filtersUsed">CSV</button></h2><ol class="list" id="filtersUsed"></ol></article>
-    <article class="card"><h2>De dónde llegan <button class="csv" data-for="refs">CSV</button></h2><ol class="list" id="refs"></ol></article>
-    <article class="card"><h2>Clics para registrarse <button class="csv" data-for="signups">CSV</button><small>por promo</small></h2><ol class="list" id="signups"></ol></article>
-  </div>
-
-  <div class="grid four">
-    <article class="card"><h2>Dispositivo</h2><div class="chart small"><canvas id="devices"></canvas></div></article>
-    <article class="card"><h2>App instalada vs. navegador</h2><div class="chart small"><canvas id="standalone"></canvas></div></article>
-    <article class="card"><h2>Sistema <button class="csv" data-for="oses">CSV</button></h2><ol class="list" id="oses"></ol></article>
-    <article class="card"><h2>Navegador <button class="csv" data-for="browsers">CSV</button></h2><ol class="list" id="browsers"></ol></article>
-  </div>
-
-  <div class="grid three">
-    <article class="card"><h2>Mes de cumpleaños</h2><div class="chart small"><canvas id="months"></canvas></div></article>
+  <section id="rapidez" class="sec">
+    <h2 class="sec-title">Rapidez</h2>
     <article class="card"><h2>Rapidez real <small>75% de las visitas carga así o mejor</small></h2><div class="vitals" id="vitals"></div></article>
-    <article class="card"><h2>WhatsApp de negocios <button class="csv" data-for="whatsapp">CSV</button><small>desde qué página</small></h2><ol class="list" id="whatsapp"></ol></article>
-  </div>
+  </section>
 
-  <section class="card google" id="google">
+  <section class="card google sec" id="google">
     <h2>Google <small>Search Console · con qué búsquedas te encuentran</small></h2>
     <div id="gsc"><p class="muted">Cargando…</p></div>
   </section>
