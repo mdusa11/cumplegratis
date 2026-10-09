@@ -149,6 +149,7 @@ const aiName = (k) => AI.find(([re]) => re.test(k ?? ""))?.[1];
 const refName = (k) => {
   const ai = aiName(k);
   if (ai) return `${ai} (IA)`;
+  if (k === "compartido (enlace)") return "Alguien les pasó el enlace";
   const m = /^(.+?) \((app|enlace)\)$/.exec(k ?? "");
   if (!m) return REF_NAMES[k] ?? k;
   return `${REF_NAMES[m[1]] ?? m[1]} (${m[2] === "app" ? "app" : "enlace corto"})`;

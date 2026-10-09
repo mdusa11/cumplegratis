@@ -8,7 +8,8 @@ import { SITE, cn } from "@/lib/site";
 
 /** Menú nativo de compartir en el celular; en computadora, WhatsApp o copiar el enlace. */
 export function ShareButton({ path, text, label = "Compartir", iconOnly, className }: { path: string; text: string; label?: string; iconOnly?: boolean; className?: string }) {
-  const url = `${SITE.url}${path}`;
+  // La marca deja ver en el panel cuántas visitas llegan porque alguien pasó el enlace.
+  const url = `${SITE.url}${path}${path.includes("?") ? "&" : "?"}utm_source=compartido`;
   const [menu, setMenu] = useState(false);
   const [copied, setCopied] = useState(false);
   const box = useRef<HTMLDivElement>(null);
