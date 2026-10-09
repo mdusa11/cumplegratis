@@ -36,10 +36,13 @@ function session() {
   return sid;
 }
 
-// El origen (Google, WhatsApp…) solo cuenta en la primera página de la visita.
+// El origen (Google, TikTok…) solo cuenta en la primera página de la visita. Un ?utm_source= (enlaces cortos /tt, /ig…)
+// manda sobre el referrer, porque las apps casi nunca lo envían.
 function firstReferrer() {
   if (referrer !== undefined) return null;
   try {
+    const utm = new URLSearchParams(location.search).get("utm_source");
+    if (utm) return (referrer = `${utm.toLowerCase().slice(0, 30)} (enlace)`);
     const host = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, "") : "";
     referrer = host && !host.endsWith("cumplegratis.fun") ? host : null;
   } catch {
@@ -68,6 +71,7 @@ export function track(t: TrackType, data: { target?: string | null; value?: numb
     g: data.target ?? null,
     v: data.value,
     s: session(),
+    f: t === "pageview" && referrer === undefined,
     r: t === "pageview" ? firstReferrer() : null,
     st: matchMedia("(display-mode: standalone)").matches,
     as: loc.state ?? null,

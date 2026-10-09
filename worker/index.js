@@ -8,6 +8,19 @@ const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternal
 // Robots en centros de datos que se disfrazan de navegador (Frankfurt, Oregon…): se descartan por la red de origen.
 const DATACENTER = /amazon|aws|google cloud|google llc|microsoft|azure|digitalocean|hetzner|ovh|linode|akamai|oracle|alibaba|tencent|vultr|contabo|leaseweb|m247|datacamp|scaleway|choopa|hostinger|ionos|cloudflare|fastly|zenlayer|psychz|colocrossing|hostwinds|bytedance|censys|shodan/i;
 const int = (v, max) => (Number.isFinite(v) && v >= 0 ? Math.min(Math.round(v), max) : null);
+// Navegadores dentro de apps: no mandan de dónde vienen, pero se identifican en el user-agent.
+const IN_APP = [
+  [/musical_ly|tiktok|bytedancewebview|trill_/i, "tiktok (app)"],
+  [/instagram/i, "instagram (app)"],
+  [/fban|fbav|fb_iab|messenger/i, "facebook (app)"],
+  [/\bgsa\//i, "google.com (app)"],
+  [/twitter|twitterandroid/i, "x (app)"],
+  [/snapchat/i, "snapchat (app)"],
+  [/telegram/i, "telegram (app)"],
+  [/linkedinapp/i, "linkedin (app)"],
+  [/pinterest/i, "pinterest (app)"],
+];
+const inApp = (ua) => IN_APP.find(([re]) => re.test(ua))?.[1] ?? null;
 const str = (v, n) => (typeof v === "string" && v ? v.slice(0, n) : null);
 
 function device(ua) {
@@ -50,7 +63,7 @@ async function collect(request, env) {
       str(e.g, 120),
       Number.isFinite(e.v) ? Math.trunc(e.v) : null,
       str(e.s, 40),
-      str(e.r, 80),
+      str(e.r, 80) ?? (e.t === "pageview" && e.f ? inApp(ua) : null),
       device(ua),
       os(ua),
       browser(ua),

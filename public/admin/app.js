@@ -141,6 +141,14 @@ function downloadCsv(id) {
   URL.revokeObjectURL(a.href);
 }
 
+// "tiktok (app)" → "TikTok (app)"; "instagram (enlace)" → "Instagram (enlace corto)".
+const REF_NAMES = { tiktok: "TikTok", instagram: "Instagram", facebook: "Facebook", "google.com": "Google", whatsapp: "WhatsApp", youtube: "YouTube", x: "X / Twitter", telegram: "Telegram", snapchat: "Snapchat", linkedin: "LinkedIn", pinterest: "Pinterest" };
+const refName = (k) => {
+  const m = /^(.+?) \((app|enlace)\)$/.exec(k ?? "");
+  if (!m) return k;
+  return `${REF_NAMES[m[1]] ?? m[1]} (${m[2] === "app" ? "app" : "enlace corto"})`;
+};
+
 const filterName = (k) => String(k ?? "").replace(":", ": ").replace(/: true$/, ": activado").replace(/: false$/, ": desactivado");
 
 function pageName(path) {
@@ -397,7 +405,7 @@ async function load() {
     list("missing", d.searches.filter((r) => r.results === 0));
     list("filtersUsed", d.filtersUsed, { name: (r) => filterName(r.k) });
     const direct = Math.max(0, (d.kpi.visits ?? 0) - d.refs.reduce((s, r) => s + r.n, 0));
-    list("refs", [...d.refs, ...(direct ? [{ k: "Directo / sin origen", n: direct }] : [])].sort((a, b) => b.n - a.n));
+    list("refs", [...d.refs, ...(direct ? [{ k: "Directo / sin origen", n: direct }] : [])].sort((a, b) => b.n - a.n), { name: (r) => refName(r.k) });
     list("signups", d.signups, { name: (r) => promoName(r.k) });
     donut("devices", d.devices, (r) => DEVICE[r.k] ?? r.k);
     donut("standalone", d.standalone, (r) => (r.k ? "App instalada" : "Navegador"), [C.paper, C.acid]);
