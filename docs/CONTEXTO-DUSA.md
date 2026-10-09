@@ -39,7 +39,7 @@ Web app / PWA instalable que junta **todas las promociones de cumpleaños de Mé
 - **Modo descubrir:** baraja tipo swipe.
 - **Páginas SEO:** `/ciudades/[slug]`, `/categorias/[slug]` y `/guias/[slug]`, cada una con intro única y datos estructurados (Breadcrumb, ItemList, FAQ, Article, Organization con `parentOrganization` = Dusa Solutions).
 - **PWA:** instalable, funciona offline, rota a horizontal, con banner de instalación y guía para iOS.
-- **Legal:** `/terminos` y `/privacidad`. El responsable es Dusa Solutions y el correo de contacto es dusasolutionsmx@gmail.com; **faltan razón social y domicilio reales**, y revisión de abogado antes de recabar correos.
+- **Legal:** `/terminos` y `/privacidad`. El responsable es Dusa Solutions (Av. Patria 3995, Lomas de Atemajac, Zapopan, Jal.) y el correo de contacto es dusasolutionsmx@gmail.com; **falta confirmar la razón social**, y revisión de abogado antes de recabar correos.
 - **Footer:** "Un producto de Dusa Solutions" con enlace a dusasolutions.com.
 
 ## Marca y diseño
