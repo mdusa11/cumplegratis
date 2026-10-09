@@ -59,7 +59,8 @@ function chosenLocation(): { state?: string; city?: string | null } {
 export type PageStats = { path?: string; sec?: number; sc?: number; lcp?: number; cls?: number; inp?: number };
 
 export function track(t: TrackType, data: { target?: string | null; value?: number } & PageStats = {}) {
-  if (typeof window === "undefined" || !location.hostname.endsWith("cumplegratis.fun")) return;
+  // navigator.webdriver: navegadores automatizados (pruebas, robots disfrazados de celular). No son personas.
+  if (typeof window === "undefined" || !location.hostname.endsWith("cumplegratis.fun") || navigator.webdriver) return;
   const loc = chosenLocation();
   const body = JSON.stringify({
     t,
