@@ -46,6 +46,17 @@ export const viewport: Viewport = { themeColor: ACCENT };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es-MX" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
+      {ADS.client && (
+        <head>
+          {/* AdSense va en el HTML para que Google lo detecte. Hasta que el visitante acepte, solo anuncios no personalizados. */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `try{(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=localStorage.getItem("cg:consent")==='"all"'?0:1}catch(e){}`,
+            }}
+          />
+          <script async crossOrigin="anonymous" src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS.client}`} />
+        </head>
+      )}
       <body>
         <Providers>
           <script

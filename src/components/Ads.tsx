@@ -12,19 +12,13 @@ declare global {
   }
 }
 
-/** Carga AdSense una sola vez, ya que el visitante eligió en el aviso. "Solo esenciales" = anuncios no personalizados. */
+/** El script ya viene en el HTML (layout); aquí solo se ajusta si los anuncios pueden ser personalizados. */
 function useAdsScript() {
   const consent = useConsent();
   useEffect(() => {
-    if (!ADS.client || !consent || document.getElementById("adsbygoogle-js")) return;
+    if (!ADS.client) return;
     window.adsbygoogle = window.adsbygoogle || [];
-    if (consent === "essential") window.adsbygoogle.requestNonPersonalizedAds = 1;
-    const s = document.createElement("script");
-    s.id = "adsbygoogle-js";
-    s.async = true;
-    s.crossOrigin = "anonymous";
-    s.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS.client}`;
-    document.head.appendChild(s);
+    window.adsbygoogle.requestNonPersonalizedAds = consent === "all" ? 0 : 1;
   }, [consent]);
   return consent;
 }
@@ -70,7 +64,7 @@ export function CookieBanner() {
 export function AdSlot({ className }: { className?: string }) {
   const consent = useConsent();
   const ref = useRef<HTMLModElement>(null);
-  const ready = Boolean(ADS.client && ADS.slot && consent);
+  const ready = Boolean(ADS.client && ADS.slot);
 
   useEffect(() => {
     if (!ready || !ref.current || ref.current.dataset.adsbygoogleStatus) return;
