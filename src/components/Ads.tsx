@@ -62,7 +62,6 @@ export function CookieBanner() {
 
 /** Bloque de anuncio con el marco de la marca; reserva altura para no mover la página al cargar. */
 export function AdSlot({ className }: { className?: string }) {
-  const consent = useConsent();
   const ref = useRef<HTMLModElement>(null);
   const ready = Boolean(ADS.client && ADS.slot);
 
