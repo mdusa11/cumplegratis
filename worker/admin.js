@@ -70,7 +70,7 @@ const mxDay = (s, fallback) => {
 };
 
 const KPI = `SUM(type='pageview') pv, COUNT(DISTINCT CASE WHEN type='pageview' THEN sid END) visits, SUM(type='promo_open') opens,
-  SUM(type='search') searches, SUM(type='share') shares, SUM(type='whatsapp') whatsapp, SUM(type='signup_click') signups,
+  SUM(type='search') searches, SUM(type='share') shares, SUM(type='whatsapp') whatsapp, SUM(type='signup_click' AND target NOT LIKE '%.%') signups,
   SUM(type='install') installs, SUM(type='city_set') cityset, COUNT(DISTINCT CASE WHEN standalone=1 THEN sid END) app`;
 
 // Filtros del panel → WHERE con parámetros. `shift` mueve el rango hacia atrás (periodo anterior).
@@ -123,7 +123,7 @@ async function stats(url, env) {
       f AS (SELECT vid, MIN(ts) first FROM events WHERE vid IN (SELECT vid FROM d) GROUP BY vid)
       SELECT COUNT(*) visitors, SUM(d.days > 1 OR f.first < ?) back FROM d JOIN f USING (vid)`, [...args, from]),
     funnel: st(`WITH s AS (SELECT sid, MAX(type='pageview') v, MAX(type='birthday' OR (type='pageview' AND path LIKE '/mi-cumple%')) plan,
-      MAX(type='promo_open' OR (type='pageview' AND path LIKE '/promos/_%')) promo, MAX(type='signup_click') signup FROM events WHERE ${W} GROUP BY sid)
+      MAX(type='promo_open' OR (type='pageview' AND path LIKE '/promos/_%')) promo, MAX(type='signup_click' AND target NOT LIKE '%.%') signup FROM events WHERE ${W} GROUP BY sid)
       SELECT SUM(v) visits, SUM(plan) plan, SUM(promo) promo, SUM(signup) signup FROM s WHERE v = 1`),
     series: st(`SELECT strftime('${fmt}', ${MX}, 'unixepoch') k, SUM(type='pageview') pv, COUNT(DISTINCT sid) visits FROM events WHERE ${W} GROUP BY k ORDER BY k`),
     heat: st(`SELECT CAST(strftime('%w', ${MX}, 'unixepoch') AS INT) d, CAST(strftime('%H', ${MX}, 'unixepoch') AS INT) h, COUNT(*) n
@@ -139,7 +139,7 @@ async function stats(url, env) {
     promoPerf: st(`SELECT slug k, SUM(o) opens, SUM(v) views, SUM(s) signups FROM (
         SELECT target slug, 1 o, 0 v, 0 s FROM events WHERE ${W} AND type='promo_open'
         UNION ALL SELECT substr(path, 9) slug, 0, 1, 0 FROM events WHERE ${W} AND type='pageview' AND path LIKE '/promos/_%'
-        UNION ALL SELECT target slug, 0, 0, 1 FROM events WHERE ${W} AND type='signup_click')
+        UNION ALL SELECT target slug, 0, 0, 1 FROM events WHERE ${W} AND type='signup_click' AND target NOT LIKE '%.%')
       GROUP BY slug ORDER BY opens + views DESC LIMIT 80`, [...args, ...args, ...args]),
     chosen: st(`SELECT target k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='city_set' GROUP BY target ORDER BY n DESC LIMIT 40`),
     pairs: st(`SELECT city, region, app_city, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND app_city IS NOT NULL AND city IS NOT NULL
@@ -152,7 +152,7 @@ async function stats(url, env) {
     browsers: st(`SELECT browser k, COUNT(DISTINCT sid) n FROM events WHERE ${W} GROUP BY browser ORDER BY n DESC`),
     standalone: st(`SELECT standalone k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='pageview' GROUP BY standalone`),
     months: st(`SELECT value k, COUNT(DISTINCT sid) n FROM events WHERE ${W} AND type='birthday' GROUP BY value ORDER BY value`),
-    signups: st(`SELECT target k, COUNT(*) n FROM events WHERE ${W} AND type='signup_click' GROUP BY target ORDER BY n DESC LIMIT 30`),
+    signups: st(`SELECT target k, COUNT(*) n FROM events WHERE ${W} AND type='signup_click' AND target NOT LIKE '%.%' GROUP BY target ORDER BY n DESC LIMIT 30`),
     whatsapp: st(`SELECT path k, COUNT(*) n FROM events WHERE ${W} AND type='whatsapp' GROUP BY path ORDER BY n DESC LIMIT 30`),
     vitals: st(`SELECT device, lcp, cls, inp FROM events WHERE ${W} AND type='leave' AND (lcp IS NOT NULL OR inp IS NOT NULL) ORDER BY ts DESC LIMIT 3000`),
     options: st(`SELECT DISTINCT country, region, city FROM events WHERE ts >= ? AND ts < ? AND country IS NOT NULL LIMIT 2000`, [from, to]),

@@ -49,7 +49,8 @@ export function Analytics() {
       if (!a) return;
       if (a.hostname === "wa.me") track("whatsapp", { target: location.pathname });
       else if (a.hostname && !a.hostname.endsWith("cumplegratis.fun") && a.rel.includes("nofollow"))
-        track("signup_click", { target: a.dataset.promo ?? a.hostname.replace(/^www\./, "") });
+        // Solo el botón de registro trae data-promo; los demás enlaces externos son las fuentes de la promo.
+        track(a.dataset.promo ? "signup_click" : "source", { target: a.dataset.promo ?? a.hostname.replace(/^www\./, "") });
     };
     const scroll = () => {
       const p = page.current;

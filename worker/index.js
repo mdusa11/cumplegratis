@@ -3,7 +3,7 @@ import { admin } from "./admin.js";
 // Worker del sitio: sirve el export estático (ASSETS) y recibe la analítica propia en /api/e.
 // Solo corre para /api/* y /admin* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
 
-const TYPES = new Set(["pageview", "leave", "promo_open", "city_set", "search", "filter", "share", "whatsapp", "signup_click", "install", "birthday"]);
+const TYPES = new Set(["pageview", "leave", "promo_open", "city_set", "search", "filter", "share", "whatsapp", "signup_click", "source", "install", "birthday"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit|whatsapp\/|curl|wget|python|axios/i;
 // Robots en centros de datos que se disfrazan de navegador (Frankfurt, Oregon…): se descartan por la red de origen.
 const DATACENTER = /amazon|aws|google cloud|google llc|microsoft|azure|digitalocean|hetzner|ovh|linode|akamai|oracle|alibaba|tencent|vultr|contabo|leaseweb|m247|datacamp|scaleway|choopa|hostinger|ionos|cloudflare|fastly|zenlayer|psychz|colocrossing|hostwinds|bytedance|censys|shodan/i;
