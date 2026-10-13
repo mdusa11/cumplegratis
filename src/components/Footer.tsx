@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Icon } from "./Icon";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { ADS, SITE, STUDIO, whatsappUrl } from "@/lib/site";
+import { ADS, SITE, SOCIAL, STUDIO, whatsappUrl } from "@/lib/site";
 import { openCookiePrefs } from "./Ads";
 import { openInstall } from "./PwaInstall";
 
@@ -31,6 +31,24 @@ export function Footer() {
           >
             <Icon name="whatsapp" /> ¿Tienes un negocio? Regístralo por WhatsApp
           </a>
+          <div className="mt-5 flex flex-wrap gap-3">
+            {(
+              [
+                [SOCIAL.instagram, "instagram", "Instagram"],
+                [SOCIAL.tiktok, "tiktok", "TikTok"],
+              ] as const
+            ).map(([href, icon, label]) => (
+              <a
+                key={icon}
+                href={href}
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center gap-2 rounded-full border-2 border-paper/30 px-4 py-2 font-semibold text-paper/80 transition-colors hover:border-acid hover:text-acid"
+              >
+                <Icon name={icon} /> {label}
+              </a>
+            ))}
+          </div>
         </div>
         <FooterCol
           title="Explora"

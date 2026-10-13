@@ -10,6 +10,7 @@ export const SITE = {
 export const ACCENT = "#5b7cff";
 
 export const STUDIO = { name: "Dusa Solutions", url: "https://dusasolutions.com" };
+export const SOCIAL = { instagram: "https://www.instagram.com/cumplegratis.fun/", tiktok: "https://www.tiktok.com/@cumplegratis.fun" };
 
 /** Negocios que quieren aparecer (o corregir su promo) nos escriben por WhatsApp. */
 export const WHATSAPP = "523114857991";

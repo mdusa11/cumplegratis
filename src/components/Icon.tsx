@@ -310,6 +310,16 @@ const ICONS = {
       <path d="M9.2 7.8c.4 0 .6.1.8.5l.7 1.6c.1.3 0 .6-.2.8l-.6.6c.6 1.3 1.7 2.4 3 3l.6-.6c.2-.2.5-.3.8-.2l1.6.7c.4.2.5.4.5.8 0 1.2-1 2-2.2 2-3.9 0-7-3.1-7-7 0-1.2.8-2.2 2-2.2z" fill={C.paper} />
     </>
   ),
+  instagram: (t = C.pink) => (
+    <>
+      <rect x="3.5" y="3.5" width="17" height="17" rx="5" fill={t} />
+      <circle cx="12" cy="12" r="3.8" fill="none" stroke={C.ink} strokeWidth="1.9" />
+      <circle cx="16.9" cy="7.1" r="1.1" fill={C.ink} />
+    </>
+  ),
+  tiktok: (t = C.sky) => (
+    <path d="M13.5 3h3c.2 1.9 1.5 3.4 3.5 3.6v3c-1.3 0-2.5-.4-3.5-1v5.9a5.5 5.5 0 1 1-5.5-5.5v3a2.5 2.5 0 1 0 2.5 2.5z" fill={t} />
+  ),
   share: (t = C.sky) => (
     <>
       <path d="M5 11v8.5a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5V11" fill={t} />
