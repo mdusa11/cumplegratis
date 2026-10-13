@@ -102,10 +102,16 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             </Link>
           </nav>
           <h1 className="mt-6">
-            <span className="display block text-[clamp(4rem,15vw,13rem)] break-words">
+            {/* Se achica si la palabra más larga no cabe en el ancho: así no se parte ni se sale. */}
+            <span
+              className="display block text-[clamp(4rem,15vw,13rem)]"
+              style={{ fontSize: `min(clamp(4rem, 15vw, 13rem), calc(86vw / ${Math.max(...promo.brand.split(" ").map((w) => w.length)) * 0.5}))` }}
+            >
               <SplitText text={promo.brand} stagger={0.04} />
             </span>
-            <span className="mt-4 block max-w-3xl text-3xl leading-tight font-bold sm:text-4xl">{promo.benefit} en tu cumpleaños</span>
+            <span className="mt-4 block max-w-3xl text-3xl leading-tight font-bold sm:text-4xl">{promo.benefit}
+              {/cumple/i.test(promo.benefit) ? "" : " en tu cumpleaños"}
+            </span>
           </h1>
           <div className="mt-8 flex flex-wrap gap-2">
             <BenefitBadge type={promo.benefitType} />

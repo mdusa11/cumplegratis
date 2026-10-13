@@ -52,18 +52,26 @@ function Word({ children, progress, range }: { children: string; progress: Motio
 export function SplitText({ text, className, delay = 0, stagger = 0.03 }: { text: string; className?: string; delay?: number; stagger?: number }) {
   return (
     <span className={cn("-mt-[0.18em] inline-block overflow-hidden pt-[0.18em] pb-[0.06em]", className)} aria-label={text}>
-      {Array.from(text).map((ch, i) => (
-        <motion.span
-          key={i}
-          aria-hidden
-          className="inline-block whitespace-pre"
-          initial={{ y: "110%", rotate: 8 }}
-          animate={{ y: "0%", rotate: 0 }}
-          transition={{ duration: 0.9, ease: EASE, delay: delay + i * stagger }}
-        >
-          {ch}
-        </motion.span>
-      ))}
+      {/* Letras agrupadas por palabra: el renglón solo se corta entre palabras, nunca a media palabra. */}
+      {text.split(" ").map((word, w, words) => {
+        const start = words.slice(0, w).join(" ").length + (w ? 1 : 0);
+        return (
+          <span key={w} className="inline-block whitespace-nowrap">
+            {Array.from(word + (w < words.length - 1 ? " " : "")).map((ch, i) => (
+              <motion.span
+                key={i}
+                aria-hidden
+                className="inline-block whitespace-pre"
+                initial={{ y: "110%", rotate: 8 }}
+                animate={{ y: "0%", rotate: 0 }}
+                transition={{ duration: 0.9, ease: EASE, delay: delay + (start + i) * stagger }}
+              >
+                {ch}
+              </motion.span>
+            ))}
+          </span>
+        );
+      })}
     </span>
   );
 }
