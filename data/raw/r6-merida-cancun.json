@@ -1,0 +1,172 @@
+[
+ {
+  "slug": "buffet-xinhao-merida",
+  "brand": "Buffet comida china Xinhao (Mérida)",
+  "category": "restaurantes",
+  "benefit": "Buffet gratis para el cumpleañero en su mes",
+  "benefitType": "gratis",
+  "details": "Buffet de comida cantonesa gratis para quien cumple años en el mes. Lo publican como promo de cada mes (septiembre y octubre de 2026). Hay que ir con al menos 4 personas que paguen su buffet y no se junta con otras promociones.",
+  "program": null,
+  "signupUrl": null,
+  "requirements": [
+   "Mínimo 4 acompañantes que paguen su buffet",
+   "Documento que compruebe tu fecha de nacimiento",
+   "No acumulable con otras promociones"
+  ],
+  "registerDaysBefore": null,
+  "window": "mes",
+  "windowNote": "Todo el mes de tu cumpleaños (la publican mes por mes)",
+  "minPurchase": null,
+  "howToClaim": "Ve a la sucursal con tus acompañantes y presenta tu identificación al pedir el buffet.",
+  "sources": [
+   "https://www.facebook.com/permalink.php?story_fbid=pfbid02h82WJTkS33MDUJNHrUSVX9Bnkw8sApWxBDggPp5b7Cv5YnWG55MBDqKFaenLqL15l&id=61574764208147"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ],
+  "locationNote": "Av. Internacional 841, Cd. Industrial, Mérida",
+  "needsId": true,
+  "companions": 4
+ },
+ {
+  "slug": "galo-sushi-merida",
+  "brand": "Galo Sushi (Mérida)",
+  "category": "restaurantes",
+  "benefit": "Brownie de postre gratis",
+  "benefitType": "gratis",
+  "details": "Te regalan un brownie si tu cumpleaños fue hace menos de una semana o es en los próximos 7 días. Aplica todos los días del año en sus sucursales Centro y Brisas.",
+  "program": null,
+  "signupUrl": null,
+  "requirements": [
+   "INE o CURP",
+   "Cumpleaños dentro de los 7 días antes o después"
+  ],
+  "registerDaysBefore": null,
+  "window": "otro",
+  "windowNote": "Desde 7 días antes hasta 7 días después de tu cumpleaños",
+  "minPurchase": null,
+  "howToClaim": "Pide tu brownie en la sucursal Centro o Brisas mostrando tu INE o CURP.",
+  "sources": [
+   "https://www.facebook.com/permalink.php?story_fbid=pfbid02T6jpZCEnUCRv1zuXfJxVs51Nv6zXSdaC7KvpZvrGUZKreLfjSGbn9pLYn8n4fbpul&id=61558658031134"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ],
+  "locationNote": "Sucursales Centro y Brisas (C. 26 Diagonal 584, Las Brisas), Mérida",
+  "needsId": true,
+  "companions": null
+ },
+ {
+  "slug": "fuego-real-merida",
+  "brand": "Fuego Real Rodizio Brasileño (Mérida)",
+  "category": "restaurantes",
+  "benefit": "Rodizio gratis todo el mes de tu cumpleaños",
+  "benefitType": "gratis",
+  "details": "El cumpleañero come gratis el buffet de rodizio cualquier día de su mes, si va con 4 personas que consuman buffet. No aplica domingos ni días festivos, ni con otras promociones.",
+  "program": null,
+  "signupUrl": null,
+  "requirements": [
+   "4 acompañantes que consuman buffet",
+   "No aplica domingos ni días festivos",
+   "No acumulable con otras promociones"
+  ],
+  "registerDaysBefore": null,
+  "window": "mes",
+  "windowNote": "Todo el mes de tu cumpleaños, excepto domingos y festivos",
+  "minPurchase": null,
+  "howToClaim": "Reserva al 999 638 9333 y avisa que vas a festejar tu cumpleaños.",
+  "sources": [
+   "https://fuegoreal.com.mx/promociones"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ],
+  "locationNote": "Av. Líbano 37-A, Mérida",
+  "needsId": null,
+  "companions": 4
+ },
+ {
+  "slug": "mansion-merida-desayuno",
+  "brand": "Mansión Mérida Hotel Boutique",
+  "category": "restaurantes",
+  "benefit": "Desayuno gratis y rebanada de pastel en tu mes",
+  "benefitType": "gratis",
+  "details": "En mesa de mínimo 4 personas, el cumpleañero desayuna gratis y le dan una rebanada de pastel. Vale todo el mes del cumpleaños, solo con reservación previa y con máximo 2 cortesías por reserva. Desayuno entre semana de $290 por persona; buffet de fin de semana a $360.",
+  "program": null,
+  "signupUrl": null,
+  "requirements": [
+   "Mesa de mínimo 4 personas",
+   "Reservación previa",
+   "Máximo 2 cortesías por reserva"
+  ],
+  "registerDaysBefore": null,
+  "window": "mes",
+  "windowNote": "Todo el mes de tu cumpleaños",
+  "minPurchase": null,
+  "howToClaim": "Reserva al (999) 924 4642 y avisa que es por tu cumpleaños.",
+  "sources": [
+   "https://www.mansionmerida.com/gastronomia/desayunos-mansion"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "YUC"
+  ],
+  "cities": [
+   "merida"
+  ],
+  "locationNote": "Centro de Mérida, Calle 59 frente al Parque Hidalgo",
+  "needsId": null,
+  "companions": 3
+ },
+ {
+  "slug": "occidental-costa-cancun-daypass",
+  "brand": "Occidental Costa Cancún (Acceso Sin Límite)",
+  "category": "experiencias",
+  "benefit": "Day pass gratis en tu semana, solo para socios de Acceso Sin Límite",
+  "benefitType": "gratis",
+  "details": "Si tienes la membresía Acceso Sin Límite vigente (es de paga), entras gratis al day pass todo incluido del Occidental Costa Cancún durante la semana de tu cumpleaños, de 9:00 a 17:00, yendo con al menos 2 adultos que paguen tarifa de socio. La promo cubre al titular y hasta 3 invitados. Vigente hasta el 31 de diciembre de 2026.",
+  "program": "Acceso Sin Límite (membresía de pago)",
+  "signupUrl": "https://accesosinlimite.com/promociones/occidental-costa-cancun/",
+  "requirements": [
+   "Membresía Acceso Sin Límite digital vigente (de pago)",
+   "Mínimo 2 adultos pagando tarifa Acceso Sin Límite",
+   "Identificación original para acreditar tu fecha",
+   "No acumulable con otras promociones"
+  ],
+  "registerDaysBefore": null,
+  "window": "semana",
+  "windowNote": "Semana de tu cumpleaños, de 9:00 a 17:00",
+  "minPurchase": null,
+  "howToClaim": "Llega al hotel y presenta tu membresía vigente e identificación en la recepción o el acceso.",
+  "sources": [
+   "https://accesosinlimite.com/promociones/occidental-costa-cancun/"
+  ],
+  "confidence": "alta",
+  "coverage": "ciudades",
+  "states": [
+   "ROO"
+  ],
+  "cities": [
+   "cancun"
+  ],
+  "locationNote": "Blvd. Kukulcán km 4.5, Zona Hotelera, Cancún",
+  "needsId": true,
+  "companions": 2
+ }
+]

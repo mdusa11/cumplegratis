@@ -268,5 +268,30 @@
     "slug": "balneario-san-juan-durango",
     "remove": true,
     "reason": "POSTA 2025: el cumpleañero entra gratis solo al contratar un paquete de fiesta ($1,400-4,200, 10-30 invitados)"
+  },
+  {
+    "slug": "eladios-bar-merida",
+    "patch": {
+      "benefit": "Cubeta de 4 cervezas gratis en tu semana",
+      "benefitType": "gratis",
+      "details": "Promo \"En tu CUMPLE Eladio's da la tanda\": cubeta de 4 cervezas de 210 ml gratis en la mesa del cumpleañero, en la semana de su cumpleaños (de lunes a domingo). Solo mayores de 18 años, con 3 amigos mayores de edad (mínimo 4 en la mesa). Si hay varios cumpleañeros, cada uno debe cumplir las condiciones. Vigente hasta el 30 de noviembre de 2026.",
+      "requirements": [
+        "Mayor de 18 años",
+        "Ir con 3 amigos mayores de edad (mínimo 4 en la mesa)",
+        "Identificación oficial con fotografía"
+      ],
+      "window": "semana",
+      "windowNote": "Semana de tu cumpleaños, de lunes a domingo",
+      "howToClaim": "Ve a cualquier Eladio's de Mérida con tus amigos y presenta tu identificación.",
+      "sources": [
+        "https://www.eladiosbar.com/promociones",
+        "https://www.eladiosbar.com/ubicaciones"
+      ],
+      "confidence": "alta",
+      "needsId": true,
+      "companions": 3,
+      "locationNote": "Sucursales Centro, Altabrisa, Itzáes, Oriente y Galerías en Mérida (y Progreso)"
+    },
+    "reason": "Promo oficial vigente en eladiosbar.com/promociones (verificada 12-oct-2026); eladios.com.mx ya no responde"
   }
 ]
