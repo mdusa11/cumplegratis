@@ -35,6 +35,14 @@ const advance = verified.filter((p) => p.program && p.registerDaysBefore);
 const withFriends = verified.filter((p) => isFood(p) && p.benefitType === "gratis" && p.companions);
 const soloFree = verified.filter((p) => isFood(p) && p.benefitType === "gratis" && !p.companions);
 const programs = verified.filter((p) => p.program);
+const isSweet = (p: Promo) => p.category === "postres" || /postre|pastel|helado|dona|brownie|cupcake|rebanada|nieve|crepa|galleta|malteada/i.test(p.benefit);
+const sweets = verified.filter(isSweet);
+// CDMX: negocios de la ciudad y cadenas con sucursal ahí (o sin lista de sucursales todavía).
+const inCdmx = (p: Promo) =>
+  p.coverage === "nacional" ? !p.presence || p.presence.online || p.presence.states.includes("CMX") : p.cities.includes("cdmx") || (p.coverage === "estados" && p.states.includes("CMX"));
+// Primero los negocios de la ciudad: es lo que no encuentras en cualquier otra lista.
+const cdmx = verified.filter(inCdmx).sort((a, b) => Number(a.coverage === "nacional") - Number(b.coverage === "nacional"));
+const cdmxLocal = cdmx.filter((p) => p.coverage !== "nacional");
 
 export const GUIDES: Guide[] = [
   {
@@ -185,6 +193,59 @@ export const GUIDES: Guide[] = [
     faq: [
       { q: "¿Qué programas de lealtad dan regalo de cumpleaños?", a: `Entre los más conocidos: ${top(programs, 8).map((p) => p.program).join(", ")}.` },
       { q: "¿Con cuánta anticipación me registro?", a: "Depende del programa, de 1 a 45 días. Si la marca no lo publica, regístrate 30 días antes de tu cumpleaños." },
+    ],
+  },
+  {
+    slug: "postres-gratis-en-tu-cumpleanos",
+    title: `Postres gratis en tu cumpleaños en México (${year})`,
+    short: "Postres gratis en tu cumpleaños",
+    icon: "donut",
+    description: `${sweets.length} lugares en México que te regalan postre en tu cumpleaños: pastel, helado, donas, brownies y más, con requisitos y cómo cobrarlo.`,
+    intro: `Un postre es el regalo de cumpleaños más fácil de cobrar: casi nunca piden acompañantes y muchas veces basta con tu INE. Juntamos las ${sweets.length} promociones verificadas que te regalan algo dulce, desde cadenas que están en todo el país hasta pastelerías y cafés locales.`,
+    sections: [
+      { icon: "donut", title: "Cadenas en todo México", promos: sweets.filter((p) => p.coverage === "nacional") },
+      { icon: "cake", title: "Pastelerías, cafés y restaurantes locales", promos: top(sweets.filter((p) => p.coverage !== "nacional"), 30) },
+      {
+        title: "Para que no te lo nieguen",
+        tips: [
+          "Lleva tu INE o CURP: la fecha de nacimiento es lo primero que revisan.",
+          "Si es de un programa de lealtad, regístrate antes: el cupón suele llegar a la app o al correo.",
+          "Pregunta si vale para llevar: algunos solo lo dan si consumes en el lugar.",
+          "Junta varios en tu semana: con el plan de Cumplegratis ves cuáles quedan cerca de ti.",
+        ],
+      },
+    ],
+    faq: [
+      { q: "¿Dónde me regalan postre en mi cumpleaños?", a: `Por ejemplo en ${top(sweets, 6).map((p) => p.brand).join(", ")}. Revisa en cada ficha si aplica en tu ciudad.` },
+      { q: "¿Tengo que comprar algo para que me den el postre?", a: "En la mayoría no, pero algunos lugares lo dan solo si consumes en la mesa. Cada ficha dice si hay compra mínima." },
+      { q: "¿Qué identificación piden?", a: "Casi siempre INE, pasaporte o licencia con tu fecha de nacimiento. Algunos aceptan CURP." },
+    ],
+  },
+  {
+    slug: "que-hacer-gratis-en-tu-cumpleanos-cdmx",
+    title: `Qué hacer gratis en tu cumpleaños en CDMX (${year})`,
+    short: "Cumpleaños gratis en CDMX",
+    icon: "pin",
+    description: `${cdmx.length} promociones de cumpleaños que puedes cobrar en la Ciudad de México: dónde comer gratis, cine, parques, experiencias y regalos, con requisitos.`,
+    intro: `La Ciudad de México es donde más promos de cumpleaños hay: ${cdmxLocal.length} negocios de la ciudad y decenas de cadenas con sucursal aquí. Te las ordenamos por plan para que armes tu día completo sin gastar de más.`,
+    sections: [
+      { icon: "plate", title: "Comer gratis en CDMX", promos: top(cdmx.filter((p) => isFood(p) && p.benefitType === "gratis"), 24) },
+      { icon: "popcorn", title: "Cine, parques y experiencias", promos: top(cdmx.filter((p) => groupOf(p) === "diversion"), 20) },
+      { icon: "gift", title: "Regalos y descuentos en tiendas", promos: top(cdmx.filter((p) => groupOf(p) === "tiendas"), 16) },
+      {
+        title: "Arma tu día",
+        tips: [
+          "Desayuno, comida y postre pueden salir gratis en lugares distintos: revisa que te queden cerca.",
+          "Reserva en restaurantes de Polanco, Roma y Condesa: en fin de semana se llenan.",
+          "Los parques y experiencias suelen pedir INE en taquilla y a veces ir con alguien que pague.",
+          "En Mi plan de Cumplegratis eliges CDMX y ves todo con fechas de registro.",
+        ],
+      },
+    ],
+    faq: [
+      { q: "¿Dónde comer gratis en mi cumpleaños en CDMX?", a: `Algunas opciones: ${top(cdmx.filter((p) => isFood(p) && p.benefitType === "gratis"), 6).map((p) => p.brand).join(", ")}.` },
+      { q: "¿Qué lugares en CDMX dan entrada gratis en tu cumpleaños?", a: `Por ejemplo ${top(cdmx.filter((p) => groupOf(p) === "diversion" && p.benefitType === "gratis"), 5).map((p) => p.brand).join(", ")}. Revisa requisitos en cada ficha.` },
+      { q: "¿Cuántas promos de cumpleaños hay en la Ciudad de México?", a: `Tenemos ${cdmx.length} verificadas que puedes cobrar en CDMX, entre negocios locales y cadenas.` },
     ],
   },
 ];
