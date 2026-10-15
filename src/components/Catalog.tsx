@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { ChannelFilter, countChannels, type ChannelPick } from "./ChannelFilter";
 import { track } from "@/lib/track";
 import { AdSlot } from "./Ads";
 import { Icon } from "./Icon";
@@ -8,7 +9,7 @@ import { useSearchParams } from "next/navigation";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { PromoCard } from "./PromoCard";
 import { Pin, locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
-import { availability, isAvailable } from "@/lib/availability";
+import { availability, channel, isAvailable } from "@/lib/availability";
 import { BENEFIT, CATEGORIES, GROUPS, byProminence, groupOf, normalize, promos, type BenefitType, type CategoryId, type GroupId } from "@/lib/promos";
 import { BASE_PATH, cn } from "@/lib/site";
 
@@ -31,6 +32,7 @@ export function Catalog() {
   const [onlyConfirmed, setOnlyConfirmed] = useState(false);
   const [query, setQuery] = useState(params.get("q") ?? "");
   const [everywhere, setEverywhere] = useState(false);
+  const [chan, setChan] = useState<ChannelPick>("todas");
   const { location, openPicker } = useLocation();
   useAutoAskLocation();
 
@@ -71,23 +73,26 @@ export function Catalog() {
     return counts;
   }, [base]);
 
+  const inCat = useMemo(() => base.filter((p) => !cat || p.category === cat), [base, cat]);
+  const chanCounts = useMemo(() => countChannels(inCat, (p) => channel(p, location)), [inCat, location]);
+
   const results = useMemo(() => {
-    const list = base.filter((p) => !cat || p.category === cat);
+    const list = chan === "todas" ? inCat : inCat.filter((p) => channel(p, location) === chan);
     // Famosas verificadas arriba, luego locales verificadas, luego lo sin confirmar; lo de otras zonas siempre al final.
     const away = (p: (typeof list)[number]) => (location && !isAvailable(availability(p, location)) ? 1 : 0);
     return [...list].sort((a, b) => away(a) - away(b) || byProminence(a, b));
-  }, [base, cat, location]);
+  }, [inCat, chan, location]);
 
 
   // Qué filtros usa la gente (solo cuando cambian, no al cargar).
   const prevFilters = useRef<Record<string, string> | null>(null);
   useEffect(() => {
-    const now: Record<string, string> = { grupo: group, categoria: cat ?? "todas", tipo: type, "sin-registro": String(noSignup), confirmadas: String(onlyConfirmed), "otras-zonas": String(everywhere) };
+    const now: Record<string, string> = { grupo: group, categoria: cat ?? "todas", tipo: type, "sin-registro": String(noSignup), confirmadas: String(onlyConfirmed), "otras-zonas": String(everywhere), canal: chan };
     const prev = prevFilters.current;
     prevFilters.current = now;
     if (!prev) return;
     for (const k of Object.keys(now)) if (now[k] !== prev[k]) track("filter", { target: `${k}:${now[k]}` });
-  }, [group, cat, type, noSignup, onlyConfirmed, everywhere]);
+  }, [group, cat, type, noSignup, onlyConfirmed, everywhere, chan]);
 
   const reset = () => {
     setEverywhere(true);
@@ -96,6 +101,7 @@ export function Catalog() {
     setType("todos");
     setNoSignup(false);
     setOnlyConfirmed(false);
+    setChan("todas");
     setQuery("");
   };
 
@@ -194,6 +200,10 @@ export function Catalog() {
             Solo confirmadas
           </button>
         </div>
+      </div>
+
+      <div className="mt-3">
+        <ChannelFilter id="catalog-channel" value={chan} onChange={setChan} counts={chanCounts} />
       </div>
 
       <div className="mt-10 flex flex-wrap items-end justify-between gap-4">

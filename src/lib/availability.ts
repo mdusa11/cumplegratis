@@ -41,3 +41,15 @@ export const AVAILABILITY_LABEL: Record<Availability, string> = {
 
 /** Las locales primero: son las que menos gente conoce. */
 export const AVAILABILITY_RANK: Record<Availability, number> = { "tu-ciudad": 0, cerca: 1, "tu-estado": 2, nacional: 3, "en-linea": 4, "sin-dato": 5, fuera: 6 };
+
+/** Cómo se cobra: en un negocio de la zona, en una sucursal de cadena, o en línea (código, app, tarjeta). */
+export type Channel = "local" | "sucursal" | "en-linea";
+
+export function channel(p: Promo, loc: UserLocation | null): Channel {
+  if (p.coverage !== "nacional") return "local";
+  // Cadenas sin lista de sucursales: casi todas se cobran con código por correo, app o tarjeta.
+  if (!p.presence) return "en-linea";
+  return loc && availability(p, loc) === "en-linea" ? "en-linea" : "sucursal";
+}
+
+export const CHANNEL_LABEL: Record<Channel, string> = { local: "Locales y regionales", sucursal: "Cadenas con sucursal", "en-linea": "En línea y apps" };

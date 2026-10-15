@@ -12,7 +12,8 @@ import { CountUp } from "./fx";
 import { InstallCard } from "./PwaInstall";
 import { locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
-import { availability, isAvailable } from "@/lib/availability";
+import { availability, channel, isAvailable } from "@/lib/availability";
+import { ChannelFilter, countChannels, type ChannelPick } from "./ChannelFilter";
 import { days, promos } from "@/lib/promos";
 import { postJson } from "./SuggestForm";
 import { SplitText } from "./Reveal";
@@ -51,9 +52,12 @@ export function PlanView() {
 function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) {
   const { location, openPicker } = useLocation();
   useAutoAskLocation();
+  const [pick, setPick] = useState<ChannelPick>("todas");
+  const nearby = useMemo(() => (location ? promos.filter((p) => isAvailable(availability(p, location))) : promos), [location]);
+  const counts = useMemo(() => countChannels(nearby, (p) => channel(p, location)), [nearby, location]);
   const plan = useMemo(
-    () => buildPlan(birthday, location ? promos.filter((p) => isAvailable(availability(p, location))) : promos),
-    [birthday, location],
+    () => buildPlan(birthday, pick === "todas" ? nearby : nearby.filter((p) => channel(p, location) === pick)),
+    [birthday, nearby, pick, location],
   );
   const done = useDone();
   const needSignup = [...plan.now, ...plan.later];
@@ -93,7 +97,10 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
           </h1>
         )}
 
-        <div className="mt-10 grid grid-cols-3 gap-2 sm:gap-4">
+        <div className="mt-8">
+          <ChannelFilter id="plan-channel" value={pick} onChange={setPick} counts={counts} />
+        </div>
+        <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-4">
           <Stat value={plan.total} label="regalos te esperan" color="var(--color-acid)" />
           <Stat value={plan.now.length} label="registros urgentes" color="var(--color-hot)" />
           <Stat value={plan.walkIn.length} label="solo con tu INE" color="var(--color-sky)" />
