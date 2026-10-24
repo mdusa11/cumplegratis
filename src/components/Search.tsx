@@ -11,7 +11,7 @@ import { AVAILABILITY_RANK, availability, type Availability } from "@/lib/availa
 import { CITIES, STATES } from "@/lib/places";
 import { CATEGORIES, GROUPS, byProminence, groupOf, normalize, type Promo } from "@/lib/promo-meta";
 import { lockScroll } from "@/lib/scroll";
-import { cn, whatsappUrl } from "@/lib/site";
+import { MONTHS, cn, whatsappUrl } from "@/lib/site";
 
 export const openSearch = () => window.dispatchEvent(new Event("cg:search"));
 
@@ -103,6 +103,17 @@ export function SearchDialog() {
       );
   }, [q, location, entries]);
 
+  // Atajos a páginas de mes, ciudad o estado: buscar «noviembre» o «puebla» lleva directo a esa página.
+  const shortcuts = useMemo(() => {
+    if (q.length < 3) return [];
+    const slug = (s: string) => normalize(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    const out: { href: string; label: string }[] = [];
+    for (const m of MONTHS) if (m.startsWith(q)) out.push({ href: `/cumpleanos/${m}`, label: `Cumpleaños en ${m}` });
+    for (const [c, info] of Object.entries(CITIES)) if (normalize(info.name).startsWith(q)) out.push({ href: `/ciudades/${c}`, label: `Promos en ${info.name}` });
+    for (const st of Object.values(STATES)) if (normalize(st.name).startsWith(q)) out.push({ href: `/estados/${slug(st.name)}`, label: `Promos en ${st.name}` });
+    return out.slice(0, 4);
+  }, [q]);
+
   // Se registra lo que la gente busca (y si encontró algo) cuando deja de escribir.
   useEffect(() => {
     if (q.length < 2 || !entries) return;
@@ -163,7 +174,7 @@ export function SearchDialog() {
                 </div>
               ) : !entries ? (
                 <p className="py-6 text-center font-medium opacity-70">Cargando…</p>
-              ) : results.length === 0 ? (
+              ) : results.length === 0 && shortcuts.length === 0 ? (
                 <div className="py-6 text-center">
                   <p className="display text-4xl">No lo tenemos… aún</p>
                   <p className="mt-2 font-medium">Si sabes que «{query.trim()}» regala algo en tu cumpleaños, avísanos.</p>
@@ -178,6 +189,15 @@ export function SearchDialog() {
                 </div>
               ) : (
                 <>
+                  {shortcuts.length > 0 && (
+                    <div className="mb-3 flex flex-wrap gap-2">
+                      {shortcuts.map((s) => (
+                        <Link key={s.href} href={s.href} onClick={close} className="chip gap-1 bg-acid font-semibold">
+                          <Icon name={s.href.startsWith("/cumpleanos") ? "calendar" : "pin"} /> {s.label}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
                   <p className="mono-tag mb-2 opacity-70">
                     {results.length} {results.length === 1 ? "resultado" : "resultados"}
                   </p>

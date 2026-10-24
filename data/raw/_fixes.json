@@ -290,8 +290,32 @@
       "confidence": "alta",
       "needsId": true,
       "companions": 3,
-      "locationNote": "Sucursales Centro, Altabrisa, Itzáes, Oriente y Galerías en Mérida (y Progreso)"
+      "locationNote": "Sucursales Centro, Altabrisa, Itzáes, Oriente y Galerías en Mérida (y Progreso)",
+      "program": null,
+      "signupUrl": null,
+      "registerDaysBefore": null
     },
     "reason": "Promo oficial vigente en eladiosbar.com/promociones (verificada 12-oct-2026); eladios.com.mx ya no responde"
+  },
+  {
+    "slug": "nike",
+    "patch": {
+      "signupUrl": "https://www.nike.com/mx/register"
+    },
+    "reason": "nike.com/mx/membership da 404 (revisado 24-oct-2026)"
+  },
+  {
+    "slug": "studio-f-mexico-ten-card",
+    "patch": {
+      "signupUrl": "https://www.studiofmexico.com/tencard"
+    },
+    "reason": "/inscribirme entra en bucle de redirecciones a fidelizacion.studiof.com.co (24-oct-2026)"
+  },
+  {
+    "slug": "pista-de-hielo-la-noria-puebla",
+    "patch": {
+      "signupUrl": "http://www.pistadehielolanoria.com/promociones/"
+    },
+    "reason": "su https tiene certificado inválido; por http abre bien (24-oct-2026)"
   }
 ]

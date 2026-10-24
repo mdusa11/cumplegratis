@@ -14207,8 +14207,8 @@
     "benefit": "Cubeta de 4 cervezas gratis en tu semana",
     "benefitType": "gratis",
     "details": "Promo \"En tu CUMPLE Eladio's da la tanda\": cubeta de 4 cervezas de 210 ml gratis en la mesa del cumpleañero, en la semana de su cumpleaños (de lunes a domingo). Solo mayores de 18 años, con 3 amigos mayores de edad (mínimo 4 en la mesa). Si hay varios cumpleañeros, cada uno debe cumplir las condiciones. Vigente hasta el 30 de noviembre de 2026.",
-    "program": "Boletín de miembros de Eladio's Bar",
-    "signupUrl": "https://eladios.com.mx/",
+    "program": null,
+    "signupUrl": null,
     "requirements": [
       "Mayor de 18 años",
       "Ir con 3 amigos mayores de edad (mínimo 4 en la mesa)",
@@ -15589,7 +15589,7 @@
     "benefitType": "gratis",
     "details": "El cumpleañero entra gratis a la pista de hielo el día exacto de su cumpleaños, en horario de sesión pública, presentando INE, CURP o acta de nacimiento (en menores) en taquilla para comprobar su fecha de nacimiento. Confirma en taquilla: la página oficial de promociones no abrió completa al verificar.",
     "program": null,
-    "signupUrl": "https://www.pistadehielolanoria.com/promociones/",
+    "signupUrl": "http://www.pistadehielolanoria.com/promociones/",
     "requirements": [
       "Ir el día exacto de tu cumpleaños en sesión pública",
       "INE, CURP o acta de nacimiento (menores) en taquilla"
@@ -16800,7 +16800,7 @@
     "benefitType": "descuento",
     "details": "Las socias de Ten Card reciben descuento en su mes de cumpleaños: la página del programa indica 15% en mercancía de última colección presentando identificación, y la página 'SMS Cumple' indica 25% con un código que llega por correo en los primeros 5 días hábiles del mes. Hay que estar inscrita en Ten Card al menos 45 días antes del cumpleaños; aplica en tiendas Studio F de línea o en la tienda en línea, no en outlets, corners en Liverpool ni en la tienda de Andares (Guadalajara), colección Legado ni gift cards, y no se combina con otras promociones.",
     "program": "Ten Card",
-    "signupUrl": "https://www.studiofmexico.com/inscribirme",
+    "signupUrl": "https://www.studiofmexico.com/tencard",
     "requirements": [
       "Estar inscrita en Ten Card al menos 45 días antes de tu cumpleaños",
       "Presentar identificación oficial (INE) en tienda con el código",
@@ -20887,7 +20887,7 @@
     "benefitType": "descuento",
     "details": "Miembros Nike reciben en su mes de cumpleaños un código de 20% en nike.com/mx o la app, o 10% en tiendas Nike participantes, con tope de $10,000 MXN. No aplica en SNKRS, Nike By You, NikeSKIMS, Air Jordan 1, Jordan Retro ni Dunk.",
     "program": "Nike Membership",
-    "signupUrl": "https://www.nike.com/mx/membership",
+    "signupUrl": "https://www.nike.com/mx/register",
     "requirements": [
       "Ser miembro Nike con fecha de nacimiento registrada",
       "Registrarse al menos 1 mes antes del mes de cumpleaños",
