@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "el-paradero-durango",
+  "brand": "El Paradero (Durango)",
+  "category": "restaurantes",
+  "benefit": "Comida gratis para el cumpleañero que festeje con al menos 4 amigos",
+  "benefitType": "gratis",
+  "details": "Restaurante de pescados y mariscos con más de 30 años en la ciudad. Según nota de Posta Durango (mayo 2025), si el cumpleañero festeja con al menos 4 amigos su comida es gratis. La nota no precisa qué platillos cubre ni si hay día u horario limitado.",
+  "program": null,
+  "signupUrl": null,
+  "requirements": "Acudir con al menos 4 amigos",
+  "registerDaysBefore": null,
+  "window": "otro",
+  "windowNote": "La nota no dice si es solo el día o todo el mes: pregunta al reservar",
+  "minPurchase": null,
+  "howToClaim": "Ir al restaurante con el grupo; confirmar condiciones con el local, ya que la nota es de 2025. Abre de lunes a domingo desde las 9:00.",
+  "sources": [
+   "https://www.posta.com.mx/durango/el-restaurante-de-durango-famoso-por-su-especial-ceviche-de-pescado/vl2041606"
+  ],
+  "confidence": "media",
+  "coverage": "ciudades",
+  "states": [
+   "DUR"
+  ],
+  "cities": [
+   "durango"
+  ],
+  "locationNote": "Zona sur, colonia Jalisco, casi esquina con Av. Real del Mezquital",
+  "needsId": null,
+  "companions": 4
+ },
+ {
+  "slug": "mariscos-el-charco-hermosillo",
+  "brand": "Mariscos El Charco (Hermosillo)",
+  "category": "restaurantes",
+  "benefit": "Cumpleañero come gratis en grupos de más de 6 personas (promo de la Ruta de la H)",
+  "benefitType": "gratis",
+  "details": "Promoción listada en el sitio oficial del festival gastronómico Ruta de la H 2026 para este restaurante. Solo vigente durante el festival; el sitio no da más condiciones. Vigente hasta el 1 de noviembre de 2026.",
+  "program": null,
+  "signupUrl": null,
+  "requirements": "Grupo de más de 6 personas",
+  "registerDaysBefore": null,
+  "window": "otro",
+  "windowNote": "Solo del 22 de octubre al 1 de noviembre de 2026 (Ruta de la H)",
+  "minPurchase": null,
+  "howToClaim": "Acudir al restaurante durante el festival con un grupo de más de 6 personas y mencionar la promo de la Ruta de la H.",
+  "sources": [
+   "https://rutadelah.mx/"
+  ],
+  "confidence": "media",
+  "coverage": "ciudades",
+  "states": [
+   "SON"
+  ],
+  "cities": [
+   "hermosillo"
+  ],
+  "locationNote": "Plaza Cantabria, Blvd. Luis Donaldo Colosio 803, Local 6, La Rioja",
+  "needsId": null,
+  "companions": 6
+ }
+]

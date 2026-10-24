@@ -1,49 +1,63 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import { AdSlot } from "./Ads";
-import { ChannelFilter, countChannels, type ChannelPick } from "./ChannelFilter";
+import { ChannelFilter } from "./ChannelFilter";
+import { countChannels, type ChannelPick } from "@/lib/channels";
 import { Icon } from "./Icon";
 import { PromoCard } from "./PromoCard";
 import { TitleReveal } from "./fx";
 import { channel } from "@/lib/availability";
-import { CATEGORIES, GROUPS, type CategoryId, type Promo } from "@/lib/promos";
+import { CATEGORIES, GROUPS, type CategoryId, type Promo } from "@/lib/promo-meta";
 import type { CitySlug, StateCode } from "@/lib/places";
 import { cn } from "@/lib/site";
+import { useLazy } from "@/lib/use-lazy";
 import { saveLocation } from "@/lib/storage";
 
-const PAGE = 12;
+const PAGE = 24;
 
-type Props = { city: CitySlug; state: StateCode; name: string; national: Promo[]; local: Promo[] };
+type Card = { key: string; node: ReactNode };
+/** Lo que trae el HTML estático: conteos y las primeras tarjetas de cada sección. El resto sale de `promosInCity`, que se baja aparte. */
+export type CityInitial = { cats: [CategoryId, number][]; chans: Record<ChannelPick, number>; total: number; local: { total: number; first: Card[] }; national: { total: number; first: Card[] } };
+type Props = { city: CitySlug; state: StateCode; name: string; initial: CityInitial };
 
-export function CityPromos({ city, state, name, national, local }: Props) {
+const loadCity = (city: CitySlug) => import("@/lib/cities-data").then((m) => m.promosInCity(city));
+
+export function CityPromos({ city, state, name, initial }: Props) {
   const [cat, setCat] = useState<CategoryId | null>(null);
   const [chan, setChan] = useState<ChannelPick>("todas");
   const loc = useMemo(() => ({ state, city }), [state, city]);
-  const all = useMemo(() => [...local, ...national], [local, national]);
+  const [data, go] = useLazy(() => loadCity(city));
+  const all = useMemo(() => (data ? [...data.local, ...data.national] : []), [data]);
 
   const inCat = useMemo(() => all.filter((p) => !cat || p.category === cat), [all, cat]);
-  const chanCounts = useMemo(() => countChannels(inCat, (p) => channel(p, loc)), [inCat, loc]);
+  const chanCounts = useMemo(() => (data ? countChannels(inCat, (p) => channel(p, loc)) : initial.chans), [data, inCat, loc, initial.chans]);
   const inChan = useMemo(() => all.filter((p) => chan === "todas" || channel(p, loc) === chan), [all, chan, loc]);
   const catCounts = useMemo(() => {
-    const counts = new Map<CategoryId, number>();
-    inChan.forEach((p) => counts.set(p.category, (counts.get(p.category) ?? 0) + 1));
+    const counts = new Map<CategoryId, number>(data ? [] : initial.cats);
+    if (data) inChan.forEach((p) => counts.set(p.category, (counts.get(p.category) ?? 0) + 1));
     return counts;
-  }, [inChan]);
-  const shown = useMemo(() => new Set(inCat.filter((p) => chan === "todas" || channel(p, loc) === chan).map((p) => p.slug)), [inCat, chan, loc]);
+  }, [data, inChan, initial.cats]);
+  const shown = useMemo(() => new Set(inChan.filter((p) => !cat || p.category === cat).map((p) => p.slug)), [inChan, cat]);
+  const total = data ? inChan.length : initial.total;
 
   const groupOrder = Object.keys(GROUPS);
   const cats = (Object.keys(CATEGORIES) as CategoryId[])
-    .filter((c) => all.some((p) => p.category === c))
+    .filter((c) => (data ? all.some((p) => p.category === c) : catCounts.has(c)))
     .sort((a, b) => groupOrder.indexOf(CATEGORIES[a].group) - groupOrder.indexOf(CATEGORIES[b].group));
 
+  const sectionOf = (list: Promo[] | undefined, init: CityInitial["local"]) =>
+    data ? { total: list!.filter((p) => shown.has(p.slug)).length, cards: list!.filter((p) => shown.has(p.slug)).map((p) => ({ key: p.slug, node: <PromoCard promo={p} /> })) } : { total: init.total, cards: init.first };
+  const local = sectionOf(data?.local, initial.local);
+  const national = sectionOf(data?.national, initial.national);
+
   return (
-    <>
+    <div onPointerDownCapture={go} onFocusCapture={go}>
       <div className="mt-10 border-y-[2.5px] border-ink py-4">
         <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1" role="group" aria-label="Tipo de lugar">
           <Pill active={!cat} onClick={() => setCat(null)}>
-            Todo<Count active={!cat}>{inChan.length}</Count>
+            Todo<Count active={!cat}>{total}</Count>
           </Pill>
           {cats.map((c) => {
             const n = catCounts.get(c) ?? 0;
@@ -64,18 +78,18 @@ export function CityPromos({ city, state, name, national, local }: Props) {
         </Link>
       </div>
 
-      {local.length > 0 && (
-        <Section title={`Solo en ${name} y *alrededores`} hint="Negocios locales y cadenas regionales: las que casi nadie conoce." items={local} shown={shown} />
+      {local.total > 0 && (
+        <Section title={`Solo en ${name} y *alrededores`} hint="Negocios locales y cadenas regionales: las que casi nadie conoce." section={local} go={go} />
       )}
-      {local.length > 0 && <AdSlot className="mt-16" />}
+      {local.total > 0 && <AdSlot className="mt-16" />}
       <Section
         title="Las *favoritas de siempre"
         hint={`Cadenas que todos conocen: primero las que tienen sucursal en ${name}, luego las que se cobran en línea o en todo el país.`}
-        items={national}
-        shown={shown}
+        section={national}
+        go={go}
       />
-      {local.length === 0 && <AdSlot className="mt-16" />}
-      {shown.size === 0 && (
+      {local.total === 0 && <AdSlot className="mt-16" />}
+      {data && shown.size === 0 && (
         <div className="card mt-10 bg-paper-2 p-8 text-center">
           <p className="display text-4xl">Nada con esos filtros</p>
           <button
@@ -90,32 +104,37 @@ export function CityPromos({ city, state, name, national, local }: Props) {
           </button>
         </div>
       )}
-    </>
+    </div>
   );
 }
 
-// Todas las tarjetas viven en el HTML (SEO); las que no caben en la página o en el filtro solo se ocultan con CSS.
-function Section({ title, hint, items, shown }: { title: string; hint: string; items: Promo[]; shown: Set<string> }) {
+// El HTML trae las primeras 24 de cada sección (con enlaces a sus fichas); «Ver las restantes» baja el resto.
+function Section({ title, hint, section, go }: { title: string; hint: string; section: { total: number; cards: Card[] }; go: () => void }) {
   const [open, setOpen] = useState(false);
-  if (items.length === 0) return null;
-  const rank = new Map(items.filter((p) => shown.has(p.slug)).map((p, i) => [p.slug, i]));
-  const extra = Math.max(0, rank.size - PAGE);
+  if (section.total === 0) return null;
+  const extra = section.total - PAGE;
+  const cards = open ? section.cards : section.cards.slice(0, PAGE);
   return (
-    <section className={cn("mt-20", rank.size === 0 && "hidden")}>
+    <section className="mt-20">
       <TitleReveal text={title} className="text-5xl sm:text-7xl" />
       <p className="mt-3 text-lg font-medium">{hint}</p>
       <ul className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {items.map((p) => {
-          const i = rank.get(p.slug);
-          return (
-            <li key={p.slug} className={cn("lazy-paint", (i === undefined || (!open && i >= PAGE)) && "hidden")}>
-              <PromoCard promo={p} />
-            </li>
-          );
-        })}
+        {cards.map((c) => (
+          <li key={c.key} className="lazy-paint">
+            {c.node}
+          </li>
+        ))}
       </ul>
       {extra > 0 && (
-        <button type="button" onClick={() => setOpen((v) => !v)} aria-expanded={open} className="btn btn-paper mt-8">
+        <button
+          type="button"
+          onClick={() => {
+            go();
+            setOpen((v) => !v);
+          }}
+          aria-expanded={open}
+          className="btn btn-paper mt-8"
+        >
           {open ? "Ver menos" : `Ver las ${extra} restantes`}
         </button>
       )}

@@ -70,7 +70,8 @@ export function CountUp({ value, className, duration = 1.4 }: { value: number; c
     return () => controls.stop();
   }, [inView, value, duration, reduced]);
   return (
-    <span ref={ref} className={cn("tabular-nums", className)}>
+    // Ancho reservado desde el inicio: contar de 0 a 278 cambiaba el ancho y reacomodaba el párrafo (CLS 0.2 en escritorio).
+    <span ref={ref} className={cn("inline-block tabular-nums", className)} style={{ minWidth: `${String(value).length}ch` }}>
       {value}
     </span>
   );

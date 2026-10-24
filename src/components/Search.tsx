@@ -187,7 +187,7 @@ export function SearchDialog() {
                 placeholder="Busca un lugar, ciudad o regalo…"
                 aria-label="Buscar"
                 enterKeyHint="search"
-                className="min-w-0 flex-1 bg-transparent text-xl font-semibold outline-none placeholder:text-ink/40 sm:text-2xl"
+                className="min-w-0 flex-1 bg-transparent text-xl font-semibold outline-none placeholder:text-ink/60 sm:text-2xl"
               />
               <button type="button" onClick={close} aria-label="Cerrar" className="flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-ink">
                 <Icon name="close" />
@@ -258,7 +258,7 @@ export function SearchDialog() {
                             }}
                             className={cn(
                               "flex w-full items-center gap-3 rounded-2xl border-2 border-ink bg-paper p-3 text-left transition-colors hover:bg-paper-2",
-                              a === "fuera" && "opacity-60",
+                              a === "fuera" && "opacity-70",
                             )}
                           >
                             <span className="flex size-11 shrink-0 items-center justify-center rounded-xl border-2 border-ink" style={{ background: GROUPS[groupOf(p)].color }}>

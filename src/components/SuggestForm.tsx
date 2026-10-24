@@ -43,7 +43,7 @@ export function SuggestForm() {
           <button type="submit" disabled={state === "sending"} className="btn btn-ink self-start disabled:opacity-60">
             {state === "sending" ? "Enviando…" : "Mandar promo"}
           </button>
-          {state === "error" && <p className="font-semibold text-hot">No se pudo enviar. Intenta de nuevo en un rato.</p>}
+          {state === "error" && <p className="font-bold">No se pudo enviar. Intenta de nuevo en un rato.</p>}
           <p className="text-sm font-medium">
             No incluyas datos personales. Al enviarla aceptas los{" "}
             <Link href="/terminos" className="underline underline-offset-2">

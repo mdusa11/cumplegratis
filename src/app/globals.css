@@ -12,6 +12,8 @@
   --color-acid: #5b7cff;
   --color-lilac: #b9a6ff;
   --color-hot: #ff5a36;
+  /* Para texto chico sobre papel: el hot normal da 2.7:1; este 5.3:1. */
+  --color-hot-deep: #b8320d;
   --color-pink: #ff9bd9;
   --color-sky: #7cd6ff;
   --color-sun: #ffd23f;
@@ -139,6 +141,10 @@ body::after {
 
   .chip {
     @apply inline-flex items-center gap-1.5 rounded-full border-2 border-ink px-3 py-1 text-sm font-semibold leading-none whitespace-nowrap;
+  }
+
+  .field::placeholder {
+    color: color-mix(in srgb, var(--color-ink) 62%, transparent);
   }
 
   .card {

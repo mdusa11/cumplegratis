@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { BusinessCta } from "@/components/BusinessCta";
 import { Icon } from "@/components/Icon";
+import { AdSlot } from "@/components/Ads";
 import { Suspense } from "react";
 import { Catalog } from "@/components/Catalog";
 import { SuggestForm } from "@/components/SuggestForm";
 import { SplitText } from "@/components/Reveal";
 import { PromoCard } from "@/components/PromoCard";
-import { promos, stats } from "@/lib/promos";
+import { countChannels } from "@/lib/channels";
+import { channel } from "@/lib/availability";
+import { byProminence, promos, stats } from "@/lib/promos";
 import { API_ENABLED, PAGE_SIZE, whatsappUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -14,6 +17,29 @@ export const metadata: Metadata = {
   description: `${stats.total} marcas que te regalan algo en tu cumpleaños: comida gratis, cine 2x1, descuentos en tiendas y más. Filtra y descubre cómo cobrar cada una.`,
   alternates: { canonical: "/promos" },
 };
+
+// Solo las primeras en el HTML; cada promo tiene su propia ficha en el sitemap. El resto lo baja el catálogo en el navegador.
+const first = [...promos].sort(byProminence).slice(0, PAGE_SIZE);
+const AD_AFTER = 11;
+
+function FirstCards() {
+  return (
+    <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {first.flatMap((p, i) => [
+        <li key={p.slug} className="lazy-paint">
+          <PromoCard promo={p} />
+        </li>,
+        ...(i === AD_AFTER
+          ? [
+              <li key="ad" className="col-span-full">
+                <AdSlot />
+              </li>,
+            ]
+          : []),
+      ])}
+    </ul>
+  );
+}
 
 export default function PromosPage() {
   return (
@@ -26,18 +52,10 @@ export default function PromosPage() {
       </h1>
 
       <div className="mt-5">
-        <Suspense
-          fallback={
-            <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {promos.map((p, i) => (
-                <li key={p.slug} className={i >= PAGE_SIZE ? "hidden" : "lazy-paint"}>
-                  <PromoCard promo={p} />
-                </li>
-              ))}
-            </ul>
-          }
-        >
-          <Catalog />
+        <Suspense fallback={<FirstCards />}>
+          <Catalog total={promos.length} channels={countChannels(promos, (p) => channel(p, null))}>
+            <FirstCards />
+          </Catalog>
         </Suspense>
       </div>
 

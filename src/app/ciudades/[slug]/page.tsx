@@ -8,8 +8,11 @@ import { SetCityButton } from "@/components/SetCityButton";
 import { CountUp } from "@/components/fx";
 import { promosInCity } from "@/lib/cities-data";
 import { CITIES, STATES, type CitySlug } from "@/lib/places";
-import { CATEGORIES } from "@/lib/promos";
-import { breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
+import { CATEGORIES, type CategoryId } from "@/lib/promos";
+import { PromoCard } from "@/components/PromoCard";
+import { countChannels } from "@/lib/channels";
+import { channel } from "@/lib/availability";
+import { PAGE_SIZE, breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 import { GROUP_PAGE, STATE_SLUG, cityGroups } from "@/lib/seo-pages";
 
 export const dynamicParams = false;
@@ -38,6 +41,8 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
   if (!slug) notFound();
   const { name, state } = CITIES[slug];
   const { local, national } = promosInCity(slug);
+  const loc = { state, city: slug };
+  const cards = (list: typeof local) => list.slice(0, PAGE_SIZE).map((p) => ({ key: p.slug, node: <PromoCard promo={p} /> }));
   // Texto propio de cada ciudad (marcas y categorías locales) para que ninguna página sea copia de otra.
   // Los ejemplos, de negocios de la ciudad antes que de cadenas regionales: son los que no conoces.
   const own = (p: (typeof local)[number]) => p.coverage === "ciudades" && p.cities.length <= 2;
@@ -87,14 +92,25 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
         </ul>
       )}
 
-      <CityPromos city={slug} state={state} name={name} national={national} local={local} />
+      <CityPromos
+        city={slug}
+        state={state}
+        name={name}
+        initial={{
+          total: local.length + national.length,
+          cats: (Object.keys(CATEGORIES) as CategoryId[]).map((c): [CategoryId, number] => [c, [...local, ...national].filter((p) => p.category === c).length]).filter(([, n]) => n > 0),
+          chans: countChannels([...local, ...national], (p) => channel(p, loc)),
+          local: { total: local.length, first: cards(local) },
+          national: { total: national.length, first: cards(national) },
+        }}
+      />
 
       <BusinessCta city={name} className="mt-20" />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(breadcrumbs([["Ciudades", "/ciudades"], [name, `/ciudades/${slug}`]]))} />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={jsonLd(itemList(`Promos de cumpleaños en ${name}`, [...national, ...local].map((p) => [`${p.brand}: ${p.benefit}`, `/promos/${p.slug}`])))}
+        dangerouslySetInnerHTML={jsonLd(itemList(`Promos de cumpleaños en ${name}`, [...national, ...local].slice(0, 50).map((p) => [`${p.brand}: ${p.benefit}`, `/promos/${p.slug}`])))}
       />
     </div>
   );

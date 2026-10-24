@@ -12,7 +12,8 @@ import { ParallaxIcon } from "@/components/ParallaxIcon";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
 import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, getPromo, groupOf, money, promos, relatedPromos, signupLabel, days, quickRules, validityText, readableSources, type Promo } from "@/lib/promos";
-import { API_ENABLED, SITE, breadcrumbs, clip, jsonLd } from "@/lib/site";
+import { ReportChange } from "@/components/ReportChange";
+import { API_ENABLED, breadcrumbs, clip, jsonLd } from "@/lib/site";
 import { DoneToggle, PersonalCard } from "@/components/PromoActions";
 import { FaqList } from "@/components/FaqList";
 import { CITIES, STATES } from "@/lib/places";
@@ -273,7 +274,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
                 )}
               </>
             )}
-            <p className="mono-tag mt-4 opacity-60">Revisada: {SITE.lastReview}</p>
+            <ReportChange slug={promo.slug} brand={promo.brand} className="mt-4" />
           </Reveal>
           {API_ENABLED && (
           <Reveal delay={0.1} className="card bg-acid p-6">

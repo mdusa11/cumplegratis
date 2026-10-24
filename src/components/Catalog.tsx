@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { ChannelFilter, countChannels, type ChannelPick } from "./ChannelFilter";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { ChannelFilter } from "./ChannelFilter";
+import { countChannels, type ChannelPick } from "@/lib/channels";
 import { track } from "@/lib/track";
 import { AdSlot } from "./Ads";
 import { Icon } from "./Icon";
@@ -11,8 +12,9 @@ import { PromoCard } from "./PromoCard";
 import { locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
 import { availability, channel, isAvailable } from "@/lib/availability";
 import { SAFE_DAYS } from "@/lib/plan";
-import { BENEFIT, CATEGORIES, GROUPS, byProminence, groupOf, normalize, promos, type BenefitType, type CategoryId, type GroupId, type Promo } from "@/lib/promos";
+import { BENEFIT, CATEGORIES, GROUPS, byProminence, groupOf, normalize, type BenefitType, type CategoryId, type GroupId, type Promo } from "@/lib/promo-meta";
 import { PAGE_SIZE, cn } from "@/lib/site";
+import { loadPromos, useLazy } from "@/lib/use-lazy";
 
 type GroupFilter = GroupId | "todos";
 
@@ -30,7 +32,10 @@ const pick = <T extends string>(v: string | null, allowed: readonly string[], fa
 // Anuncios ligeros: después de la tarjeta 12 y de la 36.
 const AD_AFTER = [11, 35];
 
-export function Catalog() {
+const NONE: Promo[] = [];
+
+/** `children` trae las primeras tarjetas ya en el HTML; la lista completa se baja aparte (en reposo, al tocar algo o si la URL trae filtros). */
+export function Catalog({ total, channels, children }: { total: number; channels: Record<ChannelPick, number>; children: ReactNode }) {
   const params = useSearchParams();
   const [group, setGroup] = useState<GroupFilter>(pick(params.get("g"), Object.keys(GROUPS), "todos"));
   const [cat, setCat] = useState<CategoryId | null>(() => {
@@ -46,6 +51,12 @@ export function Catalog() {
   const [sort, setSort] = useState<Sort>(pick(params.get("orden"), ["az", "facil"], "populares"));
   const { location, openPicker } = useLocation();
   useAutoAskLocation();
+  const [all, go] = useLazy(loadPromos, params.toString() !== "");
+  const promos = all ?? NONE;
+  useEffect(() => {
+    if (location) go();
+  }, [location, go]);
+  const filtering = group !== "todos" || !!cat || type !== "todos" || noSignup || onlyConfirmed || !!query.trim() || everywhere || chan !== "todas" || sort !== "populares" || !!location;
 
   // Todos los filtros viajan en la URL (sin apilar historial): recargar o volver de una ficha los conserva.
   useEffect(() => {
@@ -81,7 +92,7 @@ export function Catalog() {
         (!location || everywhere || isAvailable(availability(p, location))) &&
         (!q || normalize(`${p.brand} ${p.benefit} ${CATEGORIES[p.category].label}`).includes(q)),
     );
-  }, [group, type, noSignup, onlyConfirmed, query, location, everywhere]);
+  }, [promos, group, type, noSignup, onlyConfirmed, query, location, everywhere]);
 
   const catCounts = useMemo(() => {
     const counts = new Map<CategoryId, number>();
@@ -104,6 +115,7 @@ export function Catalog() {
     };
     return [...list].sort((a, b) => away(a) - away(b) || order[sort](a, b));
   }, [inCat, chan, location, sort]);
+  const count = all ? results.length : total;
 
   // Cada cambio de filtro u orden vuelve a las primeras 24.
   const sig = `${group}|${cat}|${type}|${noSignup}|${onlyConfirmed}|${everywhere}|${chan}|${sort}|${query}`;
@@ -134,7 +146,7 @@ export function Catalog() {
   };
 
   return (
-    <>
+    <div onPointerDownCapture={go} onFocusCapture={go}>
       {/* En móvil la barra no se queda pegada: con tantas opciones taparía media pantalla. */}
       <div className="z-30 -mx-5 border-y-[2.5px] border-ink bg-paper px-5 py-4 transition-[top] duration-[450ms] ease-[var(--ease-out-expo)] desk:bg-paper/95 desk:backdrop-blur-md sm:-mx-8 sm:px-8 lg:sticky lg:top-24 lg:in-data-[nav=hidden]:top-0">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
@@ -231,12 +243,12 @@ export function Catalog() {
       </div>
 
       <div className="mt-3">
-        <ChannelFilter id="catalog-channel" value={chan} onChange={setChan} counts={chanCounts} />
+        <ChannelFilter id="catalog-channel" value={chan} onChange={setChan} counts={all ? chanCounts : channels} />
       </div>
 
       <div className="mt-6 flex flex-wrap items-end justify-between gap-x-4 gap-y-3">
         <p className="display text-4xl sm:text-5xl">
-          <AnimatedCount value={results.length} /> {results.length === 1 ? "promo" : "promos"}
+          <AnimatedCount value={count} /> {count === 1 ? "promo" : "promos"}
           {location && !everywhere && <span className="text-hot"> cerca de {locationName(location).split(",")[0]}</span>}
         </p>
         <div className="flex flex-wrap items-center gap-3">
@@ -303,7 +315,27 @@ export function Catalog() {
         )}
       </AnimatePresence>
 
+      {!all && (
+        <>
+          <div className={cn("mt-4", filtering && "invisible")}>{children}</div>
+          {total > PAGE_SIZE && !filtering && (
+            <div className="mt-10 flex justify-center">
+              <button
+                type="button"
+                onClick={() => {
+                  go();
+                  setPaging({ sig, n: PAGE_SIZE * 2 });
+                }}
+                className="btn btn-ink"
+              >
+                Ver {Math.min(PAGE_SIZE, total - PAGE_SIZE)} más <span className="opacity-70">({PAGE_SIZE} de {total})</span>
+              </button>
+            </div>
+          )}
+        </>
+      )}
       {/* Reacomodo animado solo con listas cortas; con cientos de tarjetas mediría todas en cada filtro. */}
+      {all && (
       <motion.ul layout={visible.length <= LAYOUT_LIMIT} className="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <AnimatePresence mode="popLayout" initial={false}>
           {visible.flatMap((p, i) => [
@@ -328,8 +360,9 @@ export function Catalog() {
           ])}
         </AnimatePresence>
       </motion.ul>
+      )}
 
-      {results.length > shown && (
+      {all && results.length > shown && (
         <div className="mt-10 flex justify-center">
           <button type="button" onClick={() => setPaging({ sig, n: shown + PAGE_SIZE })} className="btn btn-ink">
             Ver {Math.min(PAGE_SIZE, results.length - shown)} más <span className="opacity-70">({shown} de {results.length})</span>
@@ -338,7 +371,7 @@ export function Catalog() {
       )}
 
       <AnimatePresence>
-        {results.length === 0 && (
+        {all && results.length === 0 && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="card mt-6 bg-paper-2 p-10 text-center">
             <Icon name="search" shadow className="!size-16" />
             <p className="display mt-4 text-5xl">Nada por aquí</p>
@@ -348,7 +381,7 @@ export function Catalog() {
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </div>
   );
 }
 

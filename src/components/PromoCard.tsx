@@ -27,6 +27,8 @@ export function PromoCard({ promo }: { promo: Promo }) {
   const bullets = promo.requirements.length ? promo.requirements : quickRules(promo).map((r) => r.label);
   const local = promo.coverage === "ciudades" || promo.coverage === "estados";
   const expiry = expiryLabel(promo);
+  // Atenuar la tarjeta entera dejaba los chips de color bajo 4.5:1; solo se atenúa el contenido.
+  const dim = avail === "fuera" && "opacity-70 transition-opacity group-hover:opacity-100";
 
   const tilt = (e: PointerEvent<HTMLElement>) => {
     if (e.pointerType !== "mouse") return;
@@ -54,7 +56,6 @@ export function PromoCard({ promo }: { promo: Promo }) {
         onPointerLeave={reset}
         className={cn(
           "card group relative flex h-full flex-col overflow-hidden bg-paper p-5 transition-[box-shadow,opacity] duration-200 hover:shadow-hard-lg",
-          avail === "fuera" && "opacity-60 hover:opacity-100",
         )}
       >
         <span
@@ -62,18 +63,18 @@ export function PromoCard({ promo }: { promo: Promo }) {
           className="absolute -top-16 -right-16 size-40 rounded-full border-[2.5px] border-ink transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:scale-[2.6]"
           style={{ background: group.color }}
         />
-        <div className="relative flex items-start justify-between gap-3">
+        <div className={cn("relative flex items-start justify-between gap-3", dim)}>
           <span className="mono-tag pt-1">
             <Icon name={cat.icon} /> {cat.label}
           </span>
           <BenefitBadge type={promo.benefitType} />
         </div>
-        <h3 className="display relative mt-7 line-clamp-2 text-5xl break-words sm:text-[3.4rem]">{promo.brand.replace(/\s*\([^)]*\)/g, "")}</h3>
-        <p className="relative mt-2 text-lg leading-snug font-bold">{promo.benefit}</p>
+        <h3 className={cn("display relative mt-7 line-clamp-2 text-5xl break-words sm:text-[3.4rem]", dim)}>{promo.brand.replace(/\s*\([^)]*\)/g, "")}</h3>
+        <p className={cn("relative mt-2 text-lg leading-snug font-bold", dim)}>{promo.benefit}</p>
 
         {bullets.length > 0 && (
-          <div className="relative mt-4 rounded-2xl border-2 border-dashed border-ink/40 bg-paper/70 p-3">
-            <p className="mono-tag mb-1.5 !text-[0.65rem] opacity-70">Necesitas</p>
+          <div className={cn("relative mt-4 rounded-2xl border-2 border-dashed border-ink/40 bg-paper/70 p-3", dim)}>
+            <p className="mono-tag mb-1.5 !text-[0.65rem]">Necesitas</p>
             <ul className="space-y-1">
               {bullets.slice(0, MAX_BULLETS).map((b, i) => (
                 <li

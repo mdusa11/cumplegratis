@@ -1,4 +1,4 @@
-import { promos, type Promo } from "./promos";
+import type { Promo } from "./promo-meta";
 
 export type Birthday = { m: number; d: number };
 export type PlanStatus = "urgente" | "tarde" | "despues" | "sin-registro";
@@ -29,7 +29,7 @@ export function nextBirthday(b: Birthday, today = new Date()) {
   return daysBetween(today, thisYear) >= 0 ? thisYear : birthdayIn(today.getFullYear() + 1, b);
 }
 
-export function buildPlan(b: Birthday, list: Promo[] = promos, today = new Date()) {
+export function buildPlan(b: Birthday, list: Promo[], today = new Date()) {
   const birthday = nextBirthday(b, today);
   const items: PlanItem[] = list.map((promo) => {
     if (!promo.program) return { promo, status: "sin-registro", registerBy: null, estimated: false };

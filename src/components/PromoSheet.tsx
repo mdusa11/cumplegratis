@@ -4,18 +4,20 @@ import Link from "next/link";
 import { track } from "@/lib/track";
 import { ShareButton } from "./ShareButton";
 import { Icon, type IconName } from "./Icon";
-import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { AnimatePresence, motion, useDragControls, type PanInfo } from "motion/react";
 import { BenefitBadge } from "./BenefitBadge";
 import { DoneToggle } from "./PromoActions";
 import { useLocation, locationName } from "./LocationProvider";
-import { AVAILABILITY_LABEL, availability, type Availability } from "@/lib/availability";
+import { ReportChange } from "./ReportChange";
+import { AVAILABILITY_LABEL, availability, isAvailable, type Availability } from "@/lib/availability";
 import { CITIES, STATES } from "@/lib/places";
-import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, groupOf, quickRules, ruleIcon, readableSources, validityText, type Promo } from "@/lib/promo-meta";
+import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, CONFIDENCE_RANK, byProminence, coverageLabel, groupOf, quickRules, ruleIcon, readableSources, validityText, type Promo } from "@/lib/promo-meta";
 import { cacheFichas } from "@/lib/offline";
 import { lockScroll } from "@/lib/scroll";
 import { cn } from "@/lib/site";
 import { useMediaQuery } from "@/lib/storage";
+import { loadPromos, useLazy } from "@/lib/use-lazy";
 
 const SheetContext = createContext<(p: Promo) => void>(() => {});
 export const useOpenPromo = () => useContext(SheetContext);
@@ -252,7 +254,12 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
                   ))}
                 </motion.ul>
               )}
+              <motion.div variants={ITEM}>
+                <ReportChange slug={promo.slug} brand={promo.brand} className="mt-3" />
+              </motion.div>
             </Section>
+
+            <Similar promo={promo} />
           </motion.div>
         </div>
 
@@ -274,6 +281,39 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
         </motion.footer>
       </motion.aside>
     </div>
+  );
+}
+
+function Similar({ promo }: { promo: Promo }) {
+  const { location } = useLocation();
+  const [list] = useLazy(loadPromos, true);
+  const open = useOpenPromo();
+  const near = useMemo(
+    () =>
+      (list ?? [])
+        .filter((p) => p.category === promo.category && p.slug !== promo.slug && (!location || isAvailable(availability(p, location))))
+        // Primero lo confirmado: recomendar algo «sin confirmar» junto a una marca verificada resta confianza.
+        .sort((a, b) => CONFIDENCE_RANK[a.confidence] - CONFIDENCE_RANK[b.confidence] || byProminence(a, b))
+        .slice(0, 3),
+    [list, promo, location],
+  );
+  if (near.length === 0) return null;
+  return (
+    <Section title={location ? "Parecidas en tu zona" : `Más de ${CATEGORIES[promo.category].label.toLowerCase()}`}>
+      <ul className="space-y-2">
+        {near.map((p) => (
+          <motion.li key={p.slug} variants={ITEM}>
+            <button type="button" onClick={() => open(p)} className="card flex w-full items-center justify-between gap-3 bg-paper p-3 text-left transition-colors hover:bg-paper-2">
+              <span className="min-w-0">
+                <span className="display block truncate text-2xl">{p.brand.replace(/\s*\([^)]*\)/g, "")}</span>
+                <span className="block text-sm leading-snug font-semibold">{p.benefit}</span>
+              </span>
+              <BenefitBadge type={p.benefitType} />
+            </button>
+          </motion.li>
+        ))}
+      </ul>
+    </Section>
   );
 }
 

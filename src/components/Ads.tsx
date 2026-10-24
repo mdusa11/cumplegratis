@@ -75,7 +75,7 @@ export function AdSlot({ className }: { className?: string }) {
   if (!ready) return null;
   return (
     <aside className={cn("rounded-[1.6rem] border-2 border-dashed border-ink/30 bg-paper-2/60 p-3", className)} aria-label="Publicidad">
-      <p className="mono-tag mb-2 !text-[0.65rem] opacity-60">Publicidad</p>
+      <p className="mono-tag mb-2 !text-[0.65rem] opacity-70">Publicidad</p>
       <ins
         ref={ref}
         className="adsbygoogle block min-h-[250px]"

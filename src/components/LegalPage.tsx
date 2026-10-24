@@ -29,7 +29,7 @@ export function LegalPage({ kicker, title, intro, sections }: { kicker: string; 
           {sections.map((s, i) => (
             <section key={s.id} id={s.id} className="scroll-mt-28">
               <h2 className="display flex items-baseline gap-3 text-4xl sm:text-5xl">
-                <span className="text-hot">{String(i + 1).padStart(2, "0")}</span>
+                <span className="text-hot-deep">{String(i + 1).padStart(2, "0")}</span>
                 {s.title}
               </h2>
               <div className="legal mt-4 space-y-4 text-lg leading-relaxed">{s.body}</div>

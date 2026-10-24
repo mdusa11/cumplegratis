@@ -1,10 +1,10 @@
 "use client";
 
 import { LayoutGroup, motion } from "motion/react";
-import { CHANNEL_LABEL, type Channel } from "@/lib/availability";
+import { CHANNEL_LABEL } from "@/lib/availability";
+import type { ChannelPick } from "@/lib/channels";
 import { cn } from "@/lib/site";
 
-export type ChannelPick = Channel | "todas";
 
 /** Separa lo local de lo que es igual en todo México (cadenas y promos en línea). */
 export function ChannelFilter({ value, onChange, counts, id }: { value: ChannelPick; onChange: (c: ChannelPick) => void; counts: Record<ChannelPick, number>; id: string }) {
@@ -38,10 +38,4 @@ export function ChannelFilter({ value, onChange, counts, id }: { value: ChannelP
       </LayoutGroup>
     </div>
   );
-}
-
-export function countChannels<T>(list: T[], of: (x: T) => ChannelPick): Record<ChannelPick, number> {
-  const counts: Record<ChannelPick, number> = { todas: list.length, local: 0, sucursal: 0, "en-linea": 0 };
-  list.forEach((x) => counts[of(x)]++);
-  return counts;
 }

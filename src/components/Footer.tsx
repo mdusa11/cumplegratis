@@ -97,7 +97,7 @@ export function Footer() {
             Preferencias de cookies
           </button>
         )}
-        <span className="text-paper/40">© {new Date().getFullYear()} {SITE.name}</span>
+        <span className="text-paper/60">© {new Date().getFullYear()} {SITE.name}</span>
       </div>
       <p className="mx-auto max-w-7xl px-5 text-sm text-paper/50 sm:px-8">
         Cumplegratis no está afiliado a ninguna de las marcas mencionadas; sus nombres pertenecen a sus titulares y se usan solo para identificar

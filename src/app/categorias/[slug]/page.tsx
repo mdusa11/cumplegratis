@@ -7,7 +7,7 @@ import { ShowMore } from "@/components/ShowMore";
 import { SplitText } from "@/components/Reveal";
 import { CountUp } from "@/components/fx";
 import { CATEGORIES, GROUPS, byProminence, promos, type CategoryId } from "@/lib/promos";
-import { breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
+import { PAGE_SIZE, breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -91,7 +91,8 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
 
       <ShowMore
         className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
-        items={list.map((p) => ({ key: p.slug, node: <PromoCard promo={p} /> }))}
+        first={list.slice(0, PAGE_SIZE).map((p) => ({ key: p.slug, node: <PromoCard promo={p} /> }))}
+        rest={list.slice(PAGE_SIZE).map((p) => p.slug)}
       />
 
       <p className="mt-14 text-lg font-medium">
@@ -107,7 +108,7 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
         dangerouslySetInnerHTML={jsonLd(
           itemList(
             `Promos de cumpleaños de ${label}`,
-            list.map((p) => [`${p.brand}: ${p.benefit}`, `/promos/${p.slug}`]),
+            list.slice(0, 50).map((p) => [`${p.brand}: ${p.benefit}`, `/promos/${p.slug}`]),
           ),
         )}
       />

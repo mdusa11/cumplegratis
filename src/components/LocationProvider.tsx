@@ -76,7 +76,7 @@ export function LocationBand() {
     <div className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-3 rounded-2xl border-2 border-ink bg-sun px-4 py-3">
       <p className="min-w-0 flex-1 basis-60 font-medium">
         <Icon name="pin" /> Estás viendo <b>todo México</b>. <b>¿Dónde estás?</b>
-        {state.status === "error" && <span className="mt-1 block text-sm font-semibold text-hot">{state.message}</span>}
+        {state.status === "error" && <span className="mt-1 block text-sm font-bold">{state.message}</span>}
       </p>
       <div className="flex flex-wrap gap-2">
         <button type="button" onClick={locate} disabled={state.status === "locating"} className="btn btn-ink !px-4 !py-2 !text-base disabled:opacity-60">
@@ -214,7 +214,7 @@ function LocationSheet({ initial, onClose }: { initial: UserLocation | null; onC
                 </span>
               </button>
               {gps.status === "error" && (
-                <motion.p initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} className="mt-3 font-semibold text-hot">
+                <motion.p initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} className="mt-3 font-semibold text-hot-deep">
                   {gps.message}
                 </motion.p>
               )}

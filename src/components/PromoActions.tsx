@@ -52,7 +52,7 @@ export function PersonalCard({ promo, className }: { promo: Promo; className?: s
       <Icon name="calendar" /> Para tu cumple del {birthday.d} de {MONTHS[birthday.m - 1]}:{" "}
       {item.status === "tarde" ? "debiste registrarte antes del" : "regístrate antes del"} <b>{formatDate(item.registerBy)}</b>
       {item.status === "tarde" && ". Quizá ya no alcanzas; intenta igual"}
-      {item.estimated && <span className="mt-1 block text-sm font-medium opacity-80">Estimado a {SAFE_DAYS} días: la marca no publica su anticipación.</span>}
+      {item.estimated && <span className="mt-1 block text-sm font-medium">Estimado a {SAFE_DAYS} días: la marca no publica su anticipación.</span>}
     </p>
   );
 }
