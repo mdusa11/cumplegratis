@@ -17,6 +17,8 @@ import { ChannelFilter, countChannels, type ChannelPick } from "./ChannelFilter"
 import { days, promos } from "@/lib/promos";
 import { postJson } from "./SuggestForm";
 import { SplitText } from "./Reveal";
+import { buildIcs } from "@/lib/ics";
+import { track } from "@/lib/track";
 import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
 import { API_ENABLED, MONTHS, cn } from "@/lib/site";
 import { toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
@@ -74,6 +76,19 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
   const doneCount = needSignup.filter((i) => done.includes(i.promo.slug)).length;
   const isToday = plan.daysLeft === 0;
 
+  const downloadIcs = () => {
+    track("share", { target: "calendario" });
+    const blob = new Blob([buildIcs(needSignup, plan.birthday)], { type: "text/calendar" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "cumplegratis-mi-cumple.ics";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+
   useEffect(() => {
     if (isToday) burst({ x: 0.5, y: 0.3 });
   }, [isToday]);
@@ -115,12 +130,17 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
           <Stat value={plan.now.length} label="registros urgentes" color="var(--color-hot)" />
           <Stat value={plan.walkIn.length} label="solo con tu INE" color="var(--color-sky)" />
         </div>
+        <div className="mt-4 flex flex-wrap gap-3">
         <ShareButton
           path={`/mi-cumple/?m=${birthday.m}&d=${birthday.d}`}
           text={`En mi cumple me regalan ${plan.total} cosas: café, pastel, cine y más. Arma tu plan gratis en Cumplegratis:`}
           label="Compartir mi plan"
-          className="mt-4 !text-lg"
+          className="!text-lg"
         />
+        <button type="button" onClick={downloadIcs} className="btn btn-paper gap-2 !text-lg">
+          <Icon name="calendar" /> Agregar a mi calendario
+        </button>
+        </div>
 
         {needSignup.length > 0 && (
           <div className="card mt-6 bg-paper p-5">

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { AdSlot } from "@/components/Ads";
+import { GuideNav } from "@/components/GuideNav";
 import { Icon } from "@/components/Icon";
+import { Fragment } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SplitText } from "@/components/Reveal";
@@ -8,6 +10,7 @@ import { TitleReveal } from "@/components/fx";
 import { BenefitBadge } from "@/components/BenefitBadge";
 import { GUIDES, getGuide, promoLine } from "@/lib/guides";
 import { CATEGORIES } from "@/lib/promos";
+import { slugify } from "@/lib/seo-pages";
 import { SITE, breadcrumbs, jsonLd, pageUrl } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -22,6 +25,8 @@ export async function generateMetadata({ params }: PageProps<"/guias/[slug]">): 
 export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) {
   const g = getGuide((await params).slug);
   if (!g) notFound();
+  const ids = g.sections.map((s) => slugify(s.title));
+  const tips = g.sections.find((s) => s.tips)?.tips?.slice(0, 3);
   const others = GUIDES.filter((o) => o.slug !== g.slug);
 
   return (
@@ -32,14 +37,32 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
         </Link>
       </nav>
       <Icon name={g.icon} shadow className="mt-6 !size-16" />
-      <h1 className="display mt-3 text-[clamp(3rem,8vw,6.5rem)]">
+      <h1 className="display mt-3 text-[clamp(3rem,8vw,6.5rem)] leading-[0.95]">
         <SplitText text={g.title} stagger={0.012} />
       </h1>
       <p className="mono-tag mt-4 opacity-70">Actualizada: {SITE.lastReview}</p>
       <p className="mt-8 text-xl leading-relaxed font-medium">{g.intro}</p>
 
+      {g.sections.length > 1 && (
+        <GuideNav items={g.sections.map((s, i) => ({ id: ids[i], title: s.title }))} />
+      )}
+
+      {tips && (
+        <aside className="card mt-8 bg-sun p-5 sm:p-6" aria-label="En resumen">
+          <p className="display text-3xl">En resumen</p>
+          <ul className="mt-3 space-y-2">
+            {tips.map((t) => (
+              <li key={t} className="flex gap-3 font-medium">
+                <span aria-hidden className="mt-2 size-2.5 shrink-0 rotate-45 border-2 border-ink bg-hot" />
+                {t}
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
+
       {g.sections.map((s, i) => (
-        <section key={s.title} className="mt-14">
+        <section key={s.title} id={ids[i]} className="mt-14 scroll-mt-28">
           {i === 1 && <AdSlot className="mb-14" />}
           <div className="flex items-center gap-3">
             {s.icon && <Icon name={s.icon} shadow className="!size-10 sm:!size-12" />}
@@ -49,7 +72,16 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
           {s.promos && s.promos.length > 0 && (
             <ol className="mt-6 space-y-3">
               {s.promos.map((p, i) => (
-                <li key={p.slug} className="lazy-paint card flex gap-4 bg-paper p-4 sm:p-5">
+                <Fragment key={p.slug}>
+                {s.promos!.length > 20 && i === 15 && (
+                  <li className="card flex flex-wrap items-center justify-between gap-4 bg-acid p-5">
+                    <p className="display text-3xl">Arma tu plan de cumpleaños</p>
+                    <Link href="/mi-cumple" className="btn btn-ink">
+                      Armar mi plan <Icon name="party" />
+                    </Link>
+                  </li>
+                )}
+                <li className="lazy-paint card flex gap-4 bg-paper p-4 sm:p-5">
                   <span className="display flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-ink bg-acid text-xl">{i + 1}</span>
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2">
@@ -64,6 +96,7 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
                     </p>
                   </div>
                 </li>
+                </Fragment>
               ))}
             </ol>
           )}

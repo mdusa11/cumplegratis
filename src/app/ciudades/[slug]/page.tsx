@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { BusinessCta } from "@/components/BusinessCta";
-import { AdSlot } from "@/components/Ads";
+import { CityPromos } from "@/components/CityPromos";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { PromoCard } from "@/components/PromoCard";
 import { SplitText } from "@/components/Reveal";
 import { SetCityButton } from "@/components/SetCityButton";
-import { CountUp, TitleReveal } from "@/components/fx";
+import { CountUp } from "@/components/fx";
 import { promosInCity } from "@/lib/cities-data";
 import { CITIES, STATES, type CitySlug } from "@/lib/places";
 import { CATEGORIES } from "@/lib/promos";
@@ -40,7 +39,11 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
   const { name, state } = CITIES[slug];
   const { local, national } = promosInCity(slug);
   // Texto propio de cada ciudad (marcas y categorías locales) para que ninguna página sea copia de otra.
-  const topLocal = local.slice(0, 3).map((p) => p.brand);
+  // Los ejemplos, de negocios de la ciudad antes que de cadenas regionales: son los que no conoces.
+  const own = (p: (typeof local)[number]) => p.coverage === "ciudades" && p.cities.length <= 2;
+  const topLocal = [...local.filter(own), ...local.filter((p) => !own(p))]
+    .slice(0, 3)
+    .map((p) => p.brand.replace(/\s*\([^)]*\)/g, ""));
   const catCount = new Map<string, number>();
   local.forEach((p) => catCount.set(CATEGORIES[p.category].label.toLowerCase(), (catCount.get(CATEGORIES[p.category].label.toLowerCase()) ?? 0) + 1));
   const topCats = [...catCount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([c]) => c);
@@ -66,7 +69,7 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
             <CountUp value={local.length + national.length} />
           </b>{" "}
           lugares te regalan algo en tu cumpleaños en {name}: {national.length} cadenas que ya conoces y {local.length}{" "}
-          {local.length === 1 ? "negocio local" : "negocios locales"}
+          {local.length === 1 ? "local o regional" : "locales y regionales"}
           {topLocal.length > 0 && <> como {topLocal.join(", ")}</>}.
           {topCats.length > 0 && <> Lo que más hay aquí: {topCats.join(", ")}.</>}
         </p>
@@ -84,33 +87,7 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
         </ul>
       )}
 
-      <section className="mt-20">
-        <TitleReveal text="Las *favoritas de siempre" className="text-5xl sm:text-7xl" />
-        <p className="mt-3 text-lg font-medium">Cadenas que todos conocen: primero las que tienen sucursal en {name}, luego las que se cobran en línea o en todo el país.</p>
-        <ul className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {national.map((p) => (
-            <li key={p.slug} className="lazy-paint">
-              <PromoCard promo={p} />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <AdSlot className="mt-16" />
-
-      {local.length > 0 && (
-        <section className="mt-20">
-          <TitleReveal text={`Solo en ${name} y *alrededores`} className="text-5xl sm:text-7xl" />
-          <p className="mt-3 text-lg font-medium">Negocios locales y cadenas regionales: las que casi nadie conoce.</p>
-          <ul className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {local.map((p) => (
-              <li key={p.slug} className="lazy-paint">
-                <PromoCard promo={p} />
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <CityPromos city={slug} state={state} name={name} national={national} local={local} />
 
       <BusinessCta city={name} className="mt-20" />
 
