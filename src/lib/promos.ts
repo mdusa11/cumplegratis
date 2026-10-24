@@ -14,8 +14,16 @@ export const promos: Promo[] = (raw as Promo[])
 
 export const getPromo = (slug: string) => promos.find((p) => p.slug === slug);
 
-export const relatedPromos = (promo: Promo, count = 3) =>
-  promos.filter((p) => p.slug !== promo.slug && groupOf(p) === groupOf(promo)).slice(0, count);
+const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+const rotate = <T,>(list: T[], by: number) => (list.length ? [...list.slice(by % list.length), ...list.slice(0, by % list.length)] : list);
+
+/** Misma categoría primero, luego mismo grupo; las confirmadas antes que las dudosas. El desplazamiento depende del slug para que cada ficha muestre otras. */
+export const relatedPromos = (promo: Promo, count = 6) => {
+  const offset = hash(promo.slug);
+  const sameGroup = promos.filter((p) => p.slug !== promo.slug && groupOf(p) === groupOf(promo));
+  const tier = (list: Promo[]) => [...rotate(list.filter((p) => p.confidence !== "baja"), offset), ...rotate(list.filter((p) => p.confidence === "baja"), offset)];
+  return [...tier(sameGroup.filter((p) => p.category === promo.category)), ...tier(sameGroup.filter((p) => p.category !== promo.category))].slice(0, count);
+};
 
 export const stats = {
   total: promos.length,

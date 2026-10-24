@@ -64,11 +64,8 @@ export function CountUp({ value, className, duration = 1.4 }: { value: number; c
   const reduced = useReducedMotion();
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
-    if (!inView || reduced) {
-      el.textContent = inView || reduced ? String(value) : "0";
-      return;
-    }
+    // Fuera de pantalla se queda el número real (el del HTML): si el observador nunca dispara, nadie ve un «0».
+    if (!el || !inView || reduced) return;
     const controls = animate(0, value, { duration, ease: EASE, onUpdate: (v) => (el.textContent = String(Math.round(v))) });
     return () => controls.stop();
   }, [inView, value, duration, reduced]);

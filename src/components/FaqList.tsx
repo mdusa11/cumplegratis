@@ -3,7 +3,7 @@ import { jsonLd } from "@/lib/site";
 export type QA = { q: string; a: string };
 
 /** Preguntas frecuentes plegables con <details>: las respuestas siempre están en el HTML (Google las lee) y llevan su FAQPage. */
-export function FaqList({ items, title = "Preguntas frecuentes", className }: { items: QA[]; title?: string; className?: string }) {
+export function FaqList({ items, jsonLdItems = items, title = "Preguntas frecuentes", className }: { items: QA[]; jsonLdItems?: QA[]; title?: string; className?: string }) {
   if (!items.length) return null;
   return (
     <section className={className}>
@@ -26,7 +26,7 @@ export function FaqList({ items, title = "Preguntas frecuentes", className }: { 
         dangerouslySetInnerHTML={jsonLd({
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: items.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+          mainEntity: jsonLdItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         })}
       />
     </section>

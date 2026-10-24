@@ -72,12 +72,30 @@ export function Analytics() {
         observers.push(o);
       } catch {}
     };
+    // Como Chrome: el LCP deja de contar tras la primera interacción y el CLS es la mayor ventana de saltos
+    // (cada ventana cierra tras 1 s sin saltos o a los 5 s), no la suma de toda la sesión.
+    let interacted = false;
+    const stop = () => (interacted = true);
+    addEventListener("pointerdown", stop, { once: true, capture: true });
+    addEventListener("keydown", stop, { once: true, capture: true });
+    let win = 0;
+    let winStart = 0;
+    let winLast = 0;
     observe("largest-contentful-paint", (l) => {
       const last = l.getEntries().at(-1);
-      if (last) vitals.current.lcp = Math.round(last.startTime);
+      if (last && !interacted) vitals.current.lcp = Math.round(last.startTime);
     });
     observe("layout-shift", (l) => {
-      for (const e of l.getEntries() as (PerformanceEntry & { value: number; hadRecentInput: boolean })[]) if (!e.hadRecentInput) vitals.current.cls += e.value;
+      for (const e of l.getEntries() as (PerformanceEntry & { value: number; hadRecentInput: boolean })[]) {
+        if (e.hadRecentInput) continue;
+        if (win && e.startTime - winLast < 1000 && e.startTime - winStart < 5000) win += e.value;
+        else {
+          win = e.value;
+          winStart = e.startTime;
+        }
+        winLast = e.startTime;
+        vitals.current.cls = Math.max(vitals.current.cls, win);
+      }
     });
     observe("event", (l) => {
       for (const e of l.getEntries()) vitals.current.inp = Math.max(vitals.current.inp, Math.round(e.duration));
@@ -94,6 +112,8 @@ export function Analytics() {
       document.removeEventListener("visibilitychange", visibility);
       removeEventListener("pagehide", flush);
       removeEventListener("appinstalled", installed);
+      removeEventListener("pointerdown", stop, { capture: true });
+      removeEventListener("keydown", stop, { capture: true });
       observers.forEach((o) => o.disconnect());
     };
   }, []);

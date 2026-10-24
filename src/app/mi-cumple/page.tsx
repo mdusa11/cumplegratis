@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { PlanView } from "@/components/PlanView";
+import { PlanPlaceholder, PlanView } from "@/components/PlanView";
 
 export const metadata: Metadata = {
   title: "Mi plan de cumpleaños",
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function MiCumplePage() {
   return (
     <div className="mx-auto max-w-6xl px-5 pt-32 pb-10 sm:px-8 md:pt-40">
-      <Suspense>
+      <Suspense fallback={<PlanPlaceholder />}>
         <PlanView />
       </Suspense>
     </div>

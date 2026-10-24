@@ -84,8 +84,28 @@ export default async function MonthPage({ params }: PageProps<"/cumpleanos/[mes]
         <p className="mt-3 max-w-3xl text-lg font-medium">
           Las marcas que piden registro y la fecha límite si cumples el 1 o el último día de {name} {year}. Cuando la marca no publica la anticipación usamos 30 días para ir a la segura.
         </p>
-        <div className="card mt-8 overflow-x-auto bg-paper p-2 sm:p-4">
-          <table className="w-full min-w-[520px] text-left">
+        <div className="card mt-8 bg-paper p-2 sm:p-4">
+          <ul className="divide-y divide-ink/15 sm:hidden">
+            {deadlines.map((d) => (
+              <li key={d.promo.slug} className="p-2 py-3">
+                <Link href={`/promos/${d.promo.slug}/`} className="font-bold hover:text-hot hover:underline">
+                  {d.promo.brand}
+                </Link>
+                <p className="text-sm">{d.promo.benefit}</p>
+                <dl className="mt-2 grid grid-cols-2 gap-2 text-sm">
+                  <div>
+                    <dt className="mono-tag !text-[0.65rem] opacity-70">Si cumples el 1</dt>
+                    <dd>{formatDate(d.first)}{d.estimated && "*"}</dd>
+                  </div>
+                  <div>
+                    <dt className="mono-tag !text-[0.65rem] opacity-70">Si cumples el {new Date(year, m, 0).getDate()}</dt>
+                    <dd>{formatDate(d.last)}{d.estimated && "*"}</dd>
+                  </div>
+                </dl>
+              </li>
+            ))}
+          </ul>
+          <table className="hidden w-full text-left sm:table">
             <thead className="mono-tag">
               <tr className="border-b-2 border-ink">
                 <th className="p-2">Marca</th>
@@ -98,7 +118,7 @@ export default async function MonthPage({ params }: PageProps<"/cumpleanos/[mes]
               {deadlines.map((d) => (
                 <tr key={d.promo.slug} className="border-b border-ink/15">
                   <td className="p-2 font-bold">
-                    <Link href={`/promos/${d.promo.slug}`} className="hover:text-hot hover:underline">
+                    <Link href={`/promos/${d.promo.slug}/`} className="hover:text-hot hover:underline">
                       {d.promo.brand}
                     </Link>
                   </td>

@@ -84,8 +84,8 @@ export function Hero({ featured, total, row }: { featured: Promo[]; total: numbe
         </h1>
 
         <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ y: 24 }}
+          animate={{ y: 0 }}
           transition={{ delay: 1, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="xl:absolute xl:right-0 xl:bottom-2 xl:w-[38%]"
         >

@@ -47,17 +47,39 @@ export async function generateMetadata({ params }: PageProps<"/promos/[slug]">):
   };
 }
 
+const norm = (s: string) => s.toLowerCase().replace(/\s+/g, " ").replace(/[.\s]+$/, "").trim();
+const host = (u: string) => new URL(u).hostname.replace("www.", "");
+
 function steps(p: Promo) {
   const list: { title: string; body: string }[] = [];
   if (p.program) {
-    const when = p.registerDaysBefore ? `al menos ${days(p.registerDaysBefore)} antes de tu cumpleaños` : "con varias semanas de anticipación";
-    list.push({ title: `Entra a ${p.program}`, body: `Regístrate ${when} y pon tu fecha de nacimiento en tu perfil.` });
+    const when = p.registerDaysBefore ? `al menos ${days(p.registerDaysBefore)} antes de tu cumpleaños` : null;
+    list.push({
+      title: `Entra a ${p.program}`,
+      body: when
+        ? `Regístrate ${when} y pon tu fecha de nacimiento en tu perfil.`
+        : "Regístrate cuanto antes: la marca no publica con cuántos días de anticipación (te recomendamos 30). Pon tu fecha de nacimiento en tu perfil.",
+    });
   } else {
     list.push({ title: "No necesitas registrarte", body: "Basta con una identificación oficial que muestre tu fecha de nacimiento." });
   }
   list.push({ title: WINDOW_LABEL[p.window], body: [p.windowNote, validityText(p)].filter(Boolean).join(". ") });
   list.push({ title: "Cóbralo", body: p.howToClaim });
   return list;
+}
+
+function SourceList({ list, className = "mt-4" }: { list: string[]; className?: string }) {
+  return (
+    <ul className={`${className} space-y-1 text-sm`}>
+      {list.map((s) => (
+        <li key={s} className="truncate">
+          <a href={s} target="_blank" rel="noopener noreferrer nofollow" className="underline underline-offset-2 hover:text-hot">
+            {host(s)}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
 }
 
 export default async function PromoPage({ params }: PageProps<"/promos/[slug]">) {
@@ -73,6 +95,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
     promo.companions && `ir con ${promo.companions} ${promo.companions === 1 ? "acompañante" : "acompañantes"}`,
     promo.minPurchase && `una compra mínima de ${money(promo.minPurchase)}`,
   ].filter(Boolean);
+  const stepList = steps(promo);
   const faq = [
     { q: `¿Qué regala ${promo.brand} en tu cumpleaños?`, a: `${promo.benefit}. ${promo.details}` },
     {
@@ -84,9 +107,21 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
     { q: `¿En qué ciudades aplica?`, a: [coverageLabel(promo), promo.locationNote].filter(Boolean).join(". ") },
     ...(extras.length ? [{ q: "¿Qué piden para dártelo?", a: `Además de tu fecha de cumpleaños, piden ${extras.join(", ")}.` }] : []),
   ];
+  // En pantalla se omiten las preguntas que solo repiten "La letra chiquita" o los pasos; el JSON-LD conserva todas.
+  const seen = [promo.details, ...stepList.map((s) => s.body)].map(norm);
+  const visibleFaq = faq.filter((f) => !seen.some((t) => t && (norm(f.a).includes(t) || t === norm(f.a))));
   // Enlaces a las páginas de ciudad y estado donde aplica (también ayudan a que Google las descubra).
-  const whereCities = (promo.cities.length ? promo.cities : (promo.presence?.cities ?? [])).slice(0, 16);
-  const whereStates = (promo.cities.length ? [] : promo.states.length ? promo.states : (promo.presence?.states ?? [])).slice(0, 16);
+  const allCities = promo.cities.length ? promo.cities : (promo.presence?.cities ?? []);
+  const allStates = promo.cities.length ? [] : promo.states.length ? promo.states : (promo.presence?.states ?? []);
+  const onlyStates = allStates.length > 8;
+  const where = [
+    ...(onlyStates ? [] : allCities.map((c) => ({ href: `/ciudades/${c}`, name: CITIES[c].name }))),
+    ...allStates.map((st) => ({ href: `/estados/${STATE_SLUG[st]}`, name: STATES[st].name })),
+  ].filter((w, i, a) => a.findIndex((x) => x.name === w.name) === i);
+  const brandHost = (promo.signupUrl ? host(promo.signupUrl) : "").split(".").slice(-2).join(".");
+  const sources = [...promo.sources].sort((a, b) => Number(host(b).endsWith(brandHost) && !!brandHost) - Number(host(a).endsWith(brandHost) && !!brandHost));
+  const mainSources = sources.length > 2 ? sources.slice(0, 2) : sources;
+  const moreSources = sources.slice(mainSources.length);
 
   return (
     <article>
@@ -117,6 +152,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             <BenefitBadge type={promo.benefitType} />
             <span className="chip bg-paper">{WINDOW_LABEL[promo.window]}</span>
             <span className="chip bg-paper">{signupLabel(promo)}</span>
+            <span className="chip bg-paper"><Icon name="pin" /> {coverageLabel(promo)}</span>
             {promo.minPurchase && <span className="chip bg-paper">Compra mínima ${promo.minPurchase.toLocaleString("es-MX")}</span>}
           </div>
           <div className="mt-10 flex flex-wrap gap-3">
@@ -126,10 +162,15 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
               </a>
             )}
             <Link href="/mi-cumple" className="btn btn-paper">
-              Ver mi plan completo
+              Armar mi plan de cumpleaños
             </Link>
             <ShareButton path={`/promos/${promo.slug}/`} text={`${promo.brand}: ${promo.benefit} en tu cumpleaños. Así se cobra:`} />
           </div>
+          <p className="mt-6 text-lg font-bold">
+            <Link href={`/categorias/${promo.category}/`} className="underline underline-offset-4 hover:text-hot">
+              Más de {cat.label} →
+            </Link>
+          </p>
         </div>
         <ParallaxIcon name={cat.icon} />
       </header>
@@ -151,7 +192,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
           <AdSlot className="mt-16" />
           <TitleReveal text="Cómo cobrarlo" className="mt-16 text-6xl sm:text-7xl" />
           <ol className="mt-8 space-y-5">
-            {steps(promo).map((s, i) => (
+            {stepList.map((s, i) => (
               <Reveal key={s.title} delay={i * 0.08}>
                 <li className="card flex gap-5 bg-paper p-6">
                   <span className="display flex size-14 shrink-0 items-center justify-center rounded-full border-[2.5px] border-ink bg-acid text-3xl">
@@ -181,27 +222,23 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             )}
           </Reveal>
 
-          <FaqList items={faq} className="mt-16" />
+          <FaqList items={visibleFaq} jsonLdItems={faq} className="mt-16" />
 
-          {(whereCities.length > 0 || whereStates.length > 0) && (
+          {where.length > 0 && (
             <nav className="mt-14" aria-label={`Dónde aplica ${promo.brand}`}>
               <h2 className="display text-4xl sm:text-5xl">Más promos donde aplica</h2>
               <ul className="mt-5 flex flex-wrap gap-2">
-                {whereCities.map((c) => (
-                  <li key={c}>
-                    <Link href={`/ciudades/${c}`} className="chip bg-paper transition-colors hover:bg-acid">
-                      Promos de cumpleaños en {CITIES[c].name}
-                    </Link>
-                  </li>
-                ))}
-                {whereStates.map((st) => (
-                  <li key={st}>
-                    <Link href={`/estados/${STATE_SLUG[st]}`} className="chip bg-paper transition-colors hover:bg-acid">
-                      Promos de cumpleaños en {STATES[st].name}
+                {where.slice(0, 8).map((w) => (
+                  <li key={w.href}>
+                    <Link href={w.href} className="chip bg-paper transition-colors hover:bg-acid">
+                      {w.name}
                     </Link>
                   </li>
                 ))}
               </ul>
+              <Link href="/ciudades/" className="mt-4 inline-block font-bold underline underline-offset-4 hover:text-hot">
+                Ver todas las ciudades →
+              </Link>
             </nav>
           )}
         </section>
@@ -214,16 +251,16 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             <p className="mono-tag">¿Qué tan segura es?</p>
             <p className="display mt-2 text-4xl">{confidence.label}</p>
             <p className="mt-2">{confidence.hint}</p>
-            {promo.sources.length > 0 && (
-              <ul className="mt-4 space-y-1 text-sm">
-                {promo.sources.map((s) => (
-                  <li key={s} className="truncate">
-                    <a href={s} target="_blank" rel="noopener noreferrer nofollow" className="underline underline-offset-2 hover:text-hot">
-                      {new URL(s).hostname.replace("www.", "")}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+            {sources.length > 0 && (
+              <>
+                <SourceList list={mainSources} />
+                {moreSources.length > 0 && (
+                  <details className="mt-2 text-sm">
+                    <summary className="cursor-pointer font-bold">Ver más fuentes</summary>
+                    <SourceList list={moreSources} className="mt-2" />
+                  </details>
+                )}
+              </>
             )}
             <p className="mono-tag mt-4 opacity-60">Revisada: {SITE.lastReview}</p>
           </Reveal>
@@ -240,12 +277,15 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
       {related.length > 0 && (
         <section className="border-t-[2.5px] border-ink bg-paper-2 px-5 py-20 sm:px-8">
           <div className="mx-auto max-w-7xl">
-            <h2 className="display text-6xl sm:text-7xl">También en {group.label.toLowerCase()}</h2>
+            <h2 className="display text-6xl sm:text-7xl">Más promos de {cat.label.toLowerCase()}</h2>
             <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((p) => (
                 <PromoCard key={p.slug} promo={p} />
               ))}
             </div>
+            <Link href={`/categorias/${promo.category}/`} className="mt-10 inline-block text-xl font-bold underline underline-offset-4 hover:text-hot">
+              Ver todas las de {cat.label} →
+            </Link>
           </div>
         </section>
       )}

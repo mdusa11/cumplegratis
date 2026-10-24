@@ -24,7 +24,9 @@ function chainAvailability(pr: NonNullable<Promo["presence"]>, loc: UserLocation
   }
   if (pr.states.includes(loc.state)) return "tu-estado";
   if (pr.online) return "en-linea";
-  return pr.partial ? "nacional" : "fuera";
+  // Aunque la lista de sucursales esté incompleta, no la damos por buena donde no encontramos ninguna:
+  // mostrar una cadena que no existe en tu ciudad es peor que esconder una que sí.
+  return "fuera";
 }
 
 export const isAvailable = (a: Availability) => a !== "fuera";

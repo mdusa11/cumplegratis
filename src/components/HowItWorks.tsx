@@ -39,6 +39,7 @@ const STEPS = [
 
 /** En escritorio la sección se queda fija y las tarjetas pasan en horizontal con el scroll. */
 export function HowItWorks() {
+  const wrap = useRef<HTMLDivElement>(null);
   const section = useRef<HTMLElement>(null);
   const desktop = useMediaQuery("(min-width: 1024px) and (hover: hover) and (pointer: fine)");
   const track = useRef<HTMLDivElement>(null);
@@ -60,12 +61,12 @@ export function HowItWorks() {
           x: () => -distance(),
           ease: "none",
           scrollTrigger: {
-            trigger: section.current,
-            pin: true,
+            // Sin pin (provocaba CLS al entrar y salir): el contenedor externo da el recorrido y la sección va sticky.
+            trigger: wrap.current,
+            start: "top top",
+            end: "bottom bottom",
             // `true` sigue al scroll 1:1: Lenis ya lo suaviza; un segundo suavizado lo hacía sentir lento.
             scrub: true,
-            anticipatePin: 1,
-            end: () => `+=${distance()}`,
             invalidateOnRefresh: true,
           },
         });
@@ -88,11 +89,13 @@ export function HowItWorks() {
         };
       });
     },
-    { scope: section },
+    { scope: wrap },
   );
 
   return (
-    <section ref={section} className="relative overflow-hidden bg-paper py-20 desk:flex desk:h-screen desk:items-center desk:py-0">
+    // Alto = una pantalla + lo que recorre el track (34vw + 3×46vw + 6vw + 12vw + 3 gaps de 3rem − 100vw).
+    <div ref={wrap} className="desk:h-[calc(100vh+90vw+9rem)]">
+    <section ref={section} className="relative overflow-hidden bg-paper py-20 desk:sticky desk:top-0 desk:flex desk:h-screen desk:items-center desk:py-0">
       <div
         ref={track}
         className="flex flex-col gap-8 px-5 sm:px-8 lg:grid lg:grid-cols-3 desk:flex desk:w-max desk:flex-row desk:items-center desk:gap-12 desk:pr-[12vw] desk:pl-[6vw] desk:will-change-transform"
@@ -109,6 +112,7 @@ export function HowItWorks() {
         ))}
       </div>
     </section>
+    </div>
   );
 }
 
@@ -119,6 +123,8 @@ function StepCard({ step: s, index, animate }: { step: (typeof STEPS)[number]; i
       data-step
       initial={animate ? { opacity: 0, y: 60, rotate: index % 2 ? -3 : 3 } : false}
       whileInView={animate ? { opacity: 1, y: 0, rotate: 0 } : undefined}
+      // Al pasar a escritorio tras hidratar, `initial` ya dejó opacity 0 y nada la sube: GSAP solo mueve rotate/scale.
+      animate={animate ? undefined : { opacity: 1 }}
       viewport={{ once: true, margin: "-60px" }}
       transition={{ type: "spring", stiffness: 160, damping: 20, delay: index * 0.08 }}
       className="card relative flex min-h-[22rem] flex-col justify-between p-7 sm:p-10 desk:h-[68vh] desk:w-[46vw] desk:shrink-0"

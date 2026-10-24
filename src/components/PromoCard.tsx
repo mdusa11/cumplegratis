@@ -68,7 +68,7 @@ export function PromoCard({ promo }: { promo: Promo }) {
           </span>
           <BenefitBadge type={promo.benefitType} />
         </div>
-        <h3 className="display relative mt-7 text-5xl break-words sm:text-[3.4rem]">{promo.brand}</h3>
+        <h3 className="display relative mt-7 line-clamp-2 text-5xl break-words sm:text-[3.4rem]">{promo.brand.replace(/\s*\([^)]*\)/g, "")}</h3>
         <p className="relative mt-2 text-lg leading-snug font-bold">{promo.benefit}</p>
 
         {bullets.length > 0 && (

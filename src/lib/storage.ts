@@ -92,3 +92,6 @@ export function useMediaQuery(q: string) {
   );
   return useSyncExternalStore(subscribeQuery, () => window.matchMedia(q).matches, () => false);
 }
+
+/** `false` en el servidor y en la hidratación, `true` después: para no pintar contenido que depende de localStorage antes de leerlo. */
+export const useHydrated = () => useSyncExternalStore(() => () => {}, () => true, () => false);

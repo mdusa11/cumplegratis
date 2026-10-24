@@ -19,7 +19,7 @@ import { postJson } from "./SuggestForm";
 import { SplitText } from "./Reveal";
 import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
 import { API_ENABLED, MONTHS, cn } from "@/lib/site";
-import { toggleDone, useDone, useStoredBirthday } from "@/lib/storage";
+import { toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
 
 function useBirthday(): Birthday | null {
   const params = useSearchParams();
@@ -30,10 +30,20 @@ function useBirthday(): Birthday | null {
   return stored;
 }
 
+// Ocupa lo mismo que la vista final y deja el título en el HTML para buscadores (sin parpadeo para quien ya guardó su fecha).
+export const PlanPlaceholder = () => (
+  <section className="min-h-[80svh]">
+    <h1 className="sr-only">Tu plan de cumpleaños: qué promos registrar y hasta cuándo</h1>
+  </section>
+);
+
 export function PlanView() {
   const birthday = useBirthday();
   const [editing, setEditing] = useState(false);
+  const hydrated = useHydrated();
 
+  // Hasta leer localStorage se reserva la misma altura: así el pie no sube y baja al aparecer el plan.
+  if (!hydrated) return <PlanPlaceholder />;
   if (!birthday || editing) {
     return (
       <section className="flex min-h-[80svh] flex-col justify-center">
