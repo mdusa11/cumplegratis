@@ -11,7 +11,7 @@ import { BenefitBadge } from "@/components/BenefitBadge";
 import { GUIDES, getGuide, promoLine } from "@/lib/guides";
 import { CATEGORIES } from "@/lib/promos";
 import { slugify } from "@/lib/seo-pages";
-import { SITE, breadcrumbs, jsonLd, pageUrl } from "@/lib/site";
+import { SITE, breadcrumbs, clip, jsonLd, pageUrl } from "@/lib/site";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => GUIDES.map((g) => ({ slug: g.slug }));
@@ -19,7 +19,7 @@ export const generateStaticParams = () => GUIDES.map((g) => ({ slug: g.slug }));
 export async function generateMetadata({ params }: PageProps<"/guias/[slug]">): Promise<Metadata> {
   const g = getGuide((await params).slug);
   if (!g) return {};
-  return { title: g.title, description: g.description, alternates: { canonical: `/guias/${g.slug}` }, openGraph: { type: "article" } };
+  return { title: g.title, description: clip(g.description), alternates: { canonical: `/guias/${g.slug}` }, openGraph: { type: "article" } };
 }
 
 export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) {
@@ -32,7 +32,7 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
   return (
     <article className="mx-auto max-w-4xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
       <nav className="mono-tag flex gap-2" aria-label="Migas">
-        <Link href="/guias" className="underline-offset-4 hover:underline">
+        <Link href="/guias" className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           Guías
         </Link>
       </nav>

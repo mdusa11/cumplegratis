@@ -79,21 +79,21 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-wrap gap-x-6 gap-y-2 px-5 pb-4 text-sm font-semibold sm:px-8">
-        <Link href="/acerca" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+      <div className="mx-auto flex max-w-7xl flex-wrap gap-x-6 px-5 pb-4 text-sm font-semibold sm:px-8">
+        <Link href="/acerca" className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Acerca de
         </Link>
-        <Link href="/contacto" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+        <Link href="/contacto" className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Contacto
         </Link>
-        <Link href="/terminos" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+        <Link href="/terminos" className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Términos y condiciones
         </Link>
-        <Link href="/privacidad" className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+        <Link href="/privacidad" className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Aviso de privacidad
         </Link>
         {ADS.client && (
-          <button type="button" onClick={openCookiePrefs} className="text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+          <button type="button" onClick={openCookiePrefs} className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
             Preferencias de cookies
           </button>
         )}
@@ -120,10 +120,10 @@ function FooterCol({ title, links }: { title: string; links: [string, string][] 
   return (
     <div>
       <p className="mono-tag text-paper/50">{title}</p>
-      <ul className="mt-4 space-y-2">
+      <ul className="mt-3">
         {links.map(([href, label]) => (
           <li key={href}>
-            <Link href={href} className="text-lg font-semibold transition-colors hover:text-acid">
+            <Link href={href} className="inline-block py-2.5 text-lg font-semibold transition-colors hover:text-acid">
               {label}
             </Link>
           </li>

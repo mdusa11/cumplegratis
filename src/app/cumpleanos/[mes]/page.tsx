@@ -8,7 +8,7 @@ import { SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
 import { formatDate } from "@/lib/plan";
 import { MONTH_NOTE, capital, monthBySlug, monthDeadlines, monthName, monthPromos, monthYear } from "@/lib/seo-pages";
-import { MONTHS, breadcrumbs, itemList, jsonLd } from "@/lib/site";
+import { MONTHS, breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: PageProps<"/cumpleanos/[mes]"
   const { total, free } = monthPromos();
   return {
     title: `Promociones de cumpleaños en ${name} ${year} en México`,
-    description: `¿Cumples en ${name}? ${total} promos de cumpleaños en México (${free.length} gratis) y hasta cuándo registrarte en cada una para cobrarlas en ${name} ${year}.`,
+    description: clip(`¿Cumples en ${name}? ${total} promos de cumpleaños en México (${free.length} gratis) y hasta cuándo registrarte en cada una para cobrarlas en ${name} ${year}.`),
     alternates: { canonical: `/cumpleanos/${MONTHS[m - 1]}` },
   };
 }
@@ -62,7 +62,7 @@ export default async function MonthPage({ params }: PageProps<"/cumpleanos/[mes]
   return (
     <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
       <nav className="mono-tag flex gap-2" aria-label="Migas">
-        <Link href="/cumpleanos" className="underline-offset-4 hover:underline">
+        <Link href="/cumpleanos" className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           Por mes
         </Link>
         <span>/</span>

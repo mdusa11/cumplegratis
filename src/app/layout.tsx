@@ -10,6 +10,7 @@ import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
 import { FloatingCTA, ScrollProgress } from "@/components/fx";
 import { PwaInstall } from "@/components/PwaInstall";
+import { RegisterPrompt } from "@/components/PromoActions";
 import { ACCENT, ADS, CF_BEACON, LEGAL, SITE, SOCIAL, STUDIO, WHATSAPP, jsonLd } from "@/lib/site";
 
 const display = Big_Shoulders({ subsets: ["latin"], variable: "--font-big-shoulders", display: "swap", adjustFontFallback: false });
@@ -58,6 +59,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </head>
       )}
       <body>
+        <a href="#contenido" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[200] focus:rounded-full focus:border-2 focus:border-ink focus:bg-acid focus:px-4 focus:py-3 focus:font-bold">
+          Saltar al contenido
+        </a>
         <Providers>
           <script
             type="application/ld+json"
@@ -89,11 +93,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <PwaInstall />
           <CookieBanner />
           <SearchDialog />
+          <RegisterPrompt />
           <Cursor />
           <Nav />
           {/* El recorte va aquí y no en <body>: en móvil, overflow en body se propaga al viewport y no evita que la página se ensanche. */}
           <div className="overflow-x-clip">
-            <main>{children}</main>
+            <main id="contenido" tabIndex={-1} className="outline-none">{children}</main>
             <Footer />
           </div>
         </Providers>

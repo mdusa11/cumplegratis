@@ -72,3 +72,10 @@ export const itemList = (name: string, paths: [string, string][]) => ({
   numberOfItems: paths.length,
   itemListElement: paths.map(([n, path], i) => ({ "@type": "ListItem", position: i + 1, name: n, url: pageUrl(path) })),
 });
+
+/** Recorta en límite de palabra para que una meta description no pase de `max` caracteres. */
+export function clip(s: string, max = 160) {
+  const t = s.replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  return `${t.slice(0, max - 1).replace(/[\s,;:.\-–]*\S*$/, "")}…`;
+}

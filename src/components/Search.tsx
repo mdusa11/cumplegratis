@@ -18,6 +18,28 @@ export const openSearch = () => window.dispatchEvent(new Event("cg:search"));
 const MAX = 40;
 const SUGGESTIONS = ["Starbucks", "Cine", "Pastel", "Spa", "Hamburguesa", "Tepic", "Sin registro"];
 
+// Sin apóstrofes, puntos ni guiones: «dominos» encuentra Domino's y «mcdonalds» McDonald's.
+const norm = (s: string) => normalize(s).replace(/['’‘`.\-]/g, "");
+
+function editDistance(a: string, b: string) {
+  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[b.length];
+}
+
+/** «12 de marzo», «12 marzo» o «12/03» como cumpleaños. */
+function parseDate(q: string): { d: number; m: number } | null {
+  const slash = q.match(/^(\d{1,2})\/(\d{1,2})$/);
+  const words = q.match(/^(\d{1,2})\s+(?:de\s+)?([a-z]+)$/);
+  const d = Number((slash ?? words)?.[1]);
+  const m = slash ? Number(slash[2]) : words ? MONTHS.indexOf(words[2]) + 1 : 0;
+  return m >= 1 && m <= 12 && d >= 1 && d <= new Date(2024, m, 0).getDate() ? { d, m } : null;
+}
+
 type Entry = { p: Promo; brand: string; text: string };
 
 // Texto buscable de cada promo: marca, programa, regalo, categoría y dónde aplica (incluidas las sucursales de cadenas).
@@ -31,8 +53,8 @@ const loadIndex = () =>
   const cat = CATEGORIES[p.category];
   return {
     p,
-    brand: normalize(p.brand),
-    text: normalize(
+    brand: norm(p.brand),
+    text: norm(
       [p.brand, p.program, p.benefit, cat.label, GROUPS[cat.group].label, p.locationNote, p.program ? "" : "sin registro", ...places, ...states].join(" "),
     ),
   };
@@ -87,7 +109,7 @@ export function SearchDialog() {
     };
   }, [open]);
 
-  const q = normalize(query.trim());
+  const q = norm(query.trim());
   const results = useMemo(() => {
     if (q.length < 2 || !entries) return [];
     const words = q.split(/\s+/);
@@ -108,11 +130,24 @@ export function SearchDialog() {
     if (q.length < 3) return [];
     const slug = (s: string) => normalize(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
     const out: { href: string; label: string }[] = [];
+    const date = parseDate(q);
+    if (date) out.push({ href: `/mi-cumple/?m=${date.m}&d=${date.d}`, label: `Ver mi plan para el ${date.d} de ${MONTHS[date.m - 1]}` });
     for (const m of MONTHS) if (m.startsWith(q)) out.push({ href: `/cumpleanos/${m}`, label: `Cumpleaños en ${m}` });
     for (const [c, info] of Object.entries(CITIES)) if (normalize(info.name).startsWith(q)) out.push({ href: `/ciudades/${c}`, label: `Promos en ${info.name}` });
     for (const st of Object.values(STATES)) if (normalize(st.name).startsWith(q)) out.push({ href: `/estados/${slug(st.name)}`, label: `Promos en ${st.name}` });
     return out.slice(0, 4);
   }, [q]);
+
+  // Sin resultados: la marca de nombre más parecido (hasta 2 letras de diferencia).
+  const didYouMean = useMemo(() => {
+    if (q.length < 3 || !entries || results.length > 0) return null;
+    let best: { e: Entry; dist: number } | null = null;
+    for (const e of entries) {
+      const dist = Math.min(editDistance(q, e.brand), editDistance(q, e.brand.split(" ")[0]));
+      if (dist <= 2 && (!best || dist < best.dist || (dist === best.dist && byProminence(e.p, best.e.p) < 0))) best = { e, dist };
+    }
+    return best?.e.p.brand.replace(/\s*\([^)]*\)/g, "") ?? null;
+  }, [q, entries, results.length]);
 
   // Se registra lo que la gente busca (y si encontró algo) cuando deja de escribir.
   useEffect(() => {
@@ -177,6 +212,15 @@ export function SearchDialog() {
               ) : results.length === 0 && shortcuts.length === 0 ? (
                 <div className="py-6 text-center">
                   <p className="display text-4xl">No lo tenemos… aún</p>
+                  {didYouMean && (
+                    <p className="mt-2 font-semibold">
+                      ¿Quisiste decir{" "}
+                      <button type="button" onClick={() => setQuery(didYouMean)} className="underline underline-offset-4 hover:text-hot">
+                        {didYouMean}
+                      </button>
+                      ?
+                    </p>
+                  )}
                   <p className="mt-2 font-medium">Si sabes que «{query.trim()}» regala algo en tu cumpleaños, avísanos.</p>
                   <a
                     href={whatsappUrl(`Hola, ¿${query.trim()} tiene promo de cumpleaños? No la encontré en Cumplegratis.`)}
@@ -193,7 +237,7 @@ export function SearchDialog() {
                     <div className="mb-3 flex flex-wrap gap-2">
                       {shortcuts.map((s) => (
                         <Link key={s.href} href={s.href} onClick={close} className="chip gap-1 bg-acid font-semibold">
-                          <Icon name={s.href.startsWith("/cumpleanos") ? "calendar" : "pin"} /> {s.label}
+                          <Icon name={s.href.startsWith("/cumpleanos") || s.href.startsWith("/mi-cumple") ? "calendar" : "pin"} /> {s.label}
                         </Link>
                       ))}
                     </div>

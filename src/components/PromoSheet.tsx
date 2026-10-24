@@ -7,10 +7,11 @@ import { Icon, type IconName } from "./Icon";
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
 import { AnimatePresence, motion, useDragControls, type PanInfo } from "motion/react";
 import { BenefitBadge } from "./BenefitBadge";
+import { DoneToggle } from "./PromoActions";
 import { useLocation, locationName } from "./LocationProvider";
 import { AVAILABILITY_LABEL, availability, type Availability } from "@/lib/availability";
 import { CITIES, STATES } from "@/lib/places";
-import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, groupOf, quickRules, ruleIcon, validityText, type Promo } from "@/lib/promo-meta";
+import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, groupOf, quickRules, ruleIcon, readableSources, validityText, type Promo } from "@/lib/promo-meta";
 import { lockScroll } from "@/lib/scroll";
 import { cn } from "@/lib/site";
 import { useMediaQuery } from "@/lib/storage";
@@ -54,6 +55,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
   const cat = CATEGORIES[promo.category];
   const rules = quickRules(promo);
   const avail = location ? availability(promo, location) : null;
+  const sources = readableSources(promo.sources);
 
   useEffect(() => {
     lockScroll(true);
@@ -176,6 +178,12 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
               )}
             </Section>
 
+            {promo.program && (
+              <motion.div variants={ITEM} className="mt-4">
+                <DoneToggle promo={promo} />
+              </motion.div>
+            )}
+
             <Section title="Cuándo">
               <motion.p variants={ITEM} className="text-lg">
                 <Icon name="calendar" /> {promo.windowNote}
@@ -231,9 +239,9 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
               <motion.p variants={ITEM}>
                 <b>{CONFIDENCE[promo.confidence].label}:</b> {CONFIDENCE[promo.confidence].hint}
               </motion.p>
-              {promo.sources.length > 0 && (
+              {sources.length > 0 && (
                 <motion.ul variants={ITEM} className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm">
-                  {promo.sources.map((s) => (
+                  {sources.map((s) => (
                     <li key={s}>
                       <a href={s} target="_blank" rel="noopener noreferrer nofollow" className="underline underline-offset-2 hover:text-hot">
                         {new URL(s).hostname.replace("www.", "")}
@@ -253,7 +261,7 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
           className="absolute inset-x-0 bottom-0 flex gap-2 border-t-[2.5px] border-ink bg-paper p-3 desk:bg-paper/95 desk:backdrop-blur sm:px-8 sm:py-4"
         >
           {promo.signupUrl && (
-            <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} className="btn btn-ink min-w-0 flex-1 !px-3 !text-base sm:!px-4 sm:!text-lg">
+            <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} {...(promo.program && { "data-register": promo.slug, "data-program": promo.program })} className="btn btn-ink min-w-0 flex-1 !px-3 !text-base sm:!px-4 sm:!text-lg">
               {promo.program ? "Registrarme" : "Sitio oficial"} ↗︎
             </a>
           )}

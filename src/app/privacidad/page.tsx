@@ -4,7 +4,7 @@ import { ADS, LEGAL, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Aviso de privacidad",
-  description: "Aviso de privacidad integral de Cumplegratis conforme a la LFPDPPP.",
+  description: "Aviso de privacidad integral de Cumplegratis conforme a la LFPDPPP: qué datos guardamos, para qué, cuánto tiempo y cómo ejercer tus derechos ARCO.",
   alternates: { canonical: "/privacidad" },
 };
 

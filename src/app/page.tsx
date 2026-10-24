@@ -13,9 +13,9 @@ import { CITIES, type CitySlug } from "@/lib/places";
 import { ClipReveal, CountUp, Magnetic, TitleReveal } from "@/components/fx";
 import { SwipeDeck } from "@/components/SwipeDeck";
 import { GUIDES } from "@/lib/guides";
-import { GROUPS, groupOf, promos, stats, type GroupId } from "@/lib/promos";
+import { GROUPS, byProminence, groupOf, promos, stats, type GroupId } from "@/lib/promos";
 
-const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence === "alta");
+const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence === "alta").sort(byProminence);
 const stickers = featured.filter((p) => p.brand.length <= 11);
 
 const TOP_CITIES: CitySlug[] = [

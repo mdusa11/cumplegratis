@@ -6,7 +6,7 @@ import { useMediaQuery } from "@/lib/storage";
 
 /** Bolita que sigue al mouse y se infla sobre links. `data-cursor="Texto"` le pone etiqueta. */
 export function Cursor() {
-  const enabled = useMediaQuery("(pointer: fine) and (prefers-reduced-motion: no-preference)");
+  const enabled = useMediaQuery("(pointer: fine) and (hover: hover) and (prefers-reduced-motion: no-preference)");
   const x = useMotionValue(-100);
   const y = useMotionValue(-100);
   const sx = useSpring(x, { stiffness: 600, damping: 45, mass: 0.4 });
@@ -44,7 +44,7 @@ export function Cursor() {
   return (
     <motion.div
       aria-hidden
-      className="pointer-events-none fixed top-0 left-0 z-[100] flex items-center justify-center rounded-full border-2 border-ink bg-acid"
+      className="pointer-events-none fixed top-0 left-0 z-[80] flex items-center justify-center rounded-full border-2 border-ink bg-acid"
       style={{ x: sx, y: sy, translateX: "-50%", translateY: "-50%" }}
       animate={{ width: size, height: size, scale: down ? 0.8 : 1, opacity: hover && !hover.label ? 0.6 : 1 }}
       transition={{ type: "spring", stiffness: 400, damping: 28 }}

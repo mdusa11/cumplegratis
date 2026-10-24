@@ -11,7 +11,7 @@ import { promosInCity } from "@/lib/cities-data";
 import { CITIES, STATES, citiesOf, type StateCode } from "@/lib/places";
 import { CATEGORIES } from "@/lib/promos";
 import { STATE_SLUG, promosInState, stateBySlug } from "@/lib/seo-pages";
-import { breadcrumbs, itemList, jsonLd } from "@/lib/site";
+import { breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps<"/estados/[slug]">)
   const name = STATES[code].name;
   return {
     title: `Promociones de cumpleaños en ${name} ${year}`,
-    description: `${local.length + national.length} lugares que te regalan algo en tu cumpleaños en ${name}: ${local.length} negocios locales y ${national.length} cadenas. Comida gratis, cine, descuentos, requisitos y cómo cobrarlo.`,
+    description: clip(`${local.length + national.length} lugares que te regalan algo en tu cumpleaños en ${name}: ${local.length} negocios locales y ${national.length} cadenas. Comida gratis, cine, descuentos, requisitos y cómo cobrarlo.`),
     alternates: { canonical: `/estados/${STATE_SLUG[code]}` },
   };
 }
@@ -71,7 +71,7 @@ export default async function StatePage({ params }: PageProps<"/estados/[slug]">
   return (
     <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
       <nav className="mono-tag flex gap-2" aria-label="Migas">
-        <Link href="/ciudades" className="underline-offset-4 hover:underline">
+        <Link href="/ciudades" className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           Ciudades
         </Link>
         <span>/</span>

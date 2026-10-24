@@ -5,7 +5,7 @@ import { LEGAL, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Términos y condiciones",
-  description: "Términos y condiciones de uso de Cumplegratis.",
+  description: "Términos y condiciones de uso de Cumplegratis: qué ofrece el sitio, el alcance de la información de promociones, uso permitido y límites de responsabilidad.",
   alternates: { canonical: "/terminos" },
 };
 

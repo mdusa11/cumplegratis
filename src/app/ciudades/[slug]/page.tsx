@@ -9,7 +9,7 @@ import { CountUp } from "@/components/fx";
 import { promosInCity } from "@/lib/cities-data";
 import { CITIES, STATES, type CitySlug } from "@/lib/places";
 import { CATEGORIES } from "@/lib/promos";
-import { breadcrumbs, itemList, jsonLd } from "@/lib/site";
+import { breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 import { GROUP_PAGE, STATE_SLUG, cityGroups } from "@/lib/seo-pages";
 
 export const dynamicParams = false;
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps<"/ciudades/[slug]">
   const name = CITIES[slug].name;
   return {
     title: `Promociones de cumpleaños en ${slug === "cdmx" ? "CDMX" : name} ${year}: ${local.length + national.length} lugares`,
-    description: `${local.length + national.length} lugares que te regalan algo en tu cumpleaños en ${name}, ${STATES[CITIES[slug].state].name}: ${local.length} locales y ${national.length} cadenas nacionales. Requisitos y cómo cobrarlos.`,
+    description: clip(`${local.length + national.length} lugares que te regalan algo en tu cumpleaños en ${name}, ${STATES[CITIES[slug].state].name}: ${local.length} locales y ${national.length} cadenas nacionales. Requisitos y cómo cobrarlos.`),
     alternates: { canonical: `/ciudades/${slug}` },
   };
 }
@@ -51,11 +51,11 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
   return (
     <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
       <nav className="mono-tag flex gap-2" aria-label="Migas">
-        <Link href="/ciudades" className="underline-offset-4 hover:underline">
+        <Link href="/ciudades" className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           Ciudades
         </Link>
         <span>/</span>
-        <Link href={`/estados/${STATE_SLUG[state]}`} className="underline-offset-4 hover:underline">
+        <Link href={`/estados/${STATE_SLUG[state]}`} className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           {STATES[state].name}
         </Link>
       </nav>

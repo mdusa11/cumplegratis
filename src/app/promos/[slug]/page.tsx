@@ -11,8 +11,9 @@ import { WhereCard } from "@/components/WhereCard";
 import { ParallaxIcon } from "@/components/ParallaxIcon";
 import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
-import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, getPromo, groupOf, money, promos, relatedPromos, signupLabel, days, quickRules, validityText, type Promo } from "@/lib/promos";
-import { API_ENABLED, SITE, breadcrumbs, jsonLd } from "@/lib/site";
+import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, getPromo, groupOf, money, promos, relatedPromos, signupLabel, days, quickRules, validityText, readableSources, type Promo } from "@/lib/promos";
+import { API_ENABLED, SITE, breadcrumbs, clip, jsonLd } from "@/lib/site";
+import { DoneToggle, PersonalCard } from "@/components/PromoActions";
 import { FaqList } from "@/components/FaqList";
 import { CITIES, STATES } from "@/lib/places";
 import { STATE_SLUG } from "@/lib/seo-pages";
@@ -26,8 +27,12 @@ export function generateStaticParams() {
 const year = new Date().getFullYear();
 
 // Como la gente lo busca: "<marca> cumpleaños", qué regala y el año. Si no cabe (~60), el regalo va en la descripción.
+const plainBrand = (b: string) => b.replace(/\s*\([^)]*\)/g, "").trim();
+const brandCount = promos.reduce((m, p) => m.set(plainBrand(p.brand), (m.get(plainBrand(p.brand)) ?? 0) + 1), new Map<string, number>());
+
 function promoTitle(p: Promo) {
-  const brand = p.brand.replace(/\s*\([^)]*\)/g, "").trim();
+  // Varias sucursales o sedes comparten marca: conservar el paréntesis (ciudad, sede) para que cada título sea único.
+  const brand = (brandCount.get(plainBrand(p.brand)) ?? 0) > 1 ? p.brand : plainBrand(p.brand);
   const gift = p.benefit.charAt(0).toLowerCase() + p.benefit.slice(1);
   const full = `${brand} cumpleaños: ${gift} (${year})`;
   if (full.length <= 62) return full;
@@ -40,7 +45,7 @@ export async function generateMetadata({ params }: PageProps<"/promos/[slug]">):
   if (!promo) return {};
   return {
     title: promoTitle(promo),
-    description: `${promo.details} Requisitos, cuándo registrarte y cómo cobrarlo paso a paso.`.slice(0, 300),
+    description: clip(`${promo.details} Requisitos, cuándo registrarte y cómo cobrarlo paso a paso.`),
     alternates: { canonical: `/promos/${promo.slug}` },
     // Sin confirmar: visible en el sitio, pero fuera del índice de Google hasta verificarla (calidad del dominio).
     ...(promo.confidence === "baja" && { robots: { index: false, follow: true } }),
@@ -119,7 +124,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
     ...allStates.map((st) => ({ href: `/estados/${STATE_SLUG[st]}`, name: STATES[st].name })),
   ].filter((w, i, a) => a.findIndex((x) => x.name === w.name) === i);
   const brandHost = (promo.signupUrl ? host(promo.signupUrl) : "").split(".").slice(-2).join(".");
-  const sources = [...promo.sources].sort((a, b) => Number(host(b).endsWith(brandHost) && !!brandHost) - Number(host(a).endsWith(brandHost) && !!brandHost));
+  const sources = readableSources(promo.sources).sort((a, b) => Number(host(b).endsWith(brandHost) && !!brandHost) - Number(host(a).endsWith(brandHost) && !!brandHost));
   const mainSources = sources.length > 2 ? sources.slice(0, 2) : sources;
   const moreSources = sources.slice(mainSources.length);
 
@@ -128,11 +133,11 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
       <header className="relative overflow-hidden border-b-[2.5px] border-ink px-5 pt-32 pb-16 sm:px-8 md:pt-40" style={{ background: group.color }}>
         <div className="relative z-10 mx-auto max-w-7xl">
           <nav className="mono-tag flex gap-2" aria-label="Migas">
-            <Link href="/promos" className="underline-offset-4 hover:underline">
+            <Link href="/promos" className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
               Promos
             </Link>
             <span>/</span>
-            <Link href={`/categorias/${promo.category}`} className="underline-offset-4 hover:underline">
+            <Link href={`/categorias/${promo.category}`} className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
               <Icon name={cat.icon} /> {cat.label}
             </Link>
           </nav>
@@ -157,7 +162,7 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
           </div>
           <div className="mt-10 flex flex-wrap gap-3">
             {promo.signupUrl && (
-              <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} className="btn btn-ink max-w-full !whitespace-normal" data-cursor="Ir">
+              <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} {...(promo.program && { "data-register": promo.slug, "data-program": promo.program })} className="btn btn-ink max-w-full !whitespace-normal" data-cursor="Ir">
                 {promo.program ? `Registrarme en ${promo.program}` : "Sitio oficial"} ↗︎
               </a>
             )}
@@ -166,6 +171,12 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             </Link>
             <ShareButton path={`/promos/${promo.slug}/`} text={`${promo.brand}: ${promo.benefit} en tu cumpleaños. Así se cobra:`} />
           </div>
+          {promo.program && (
+            <div className="mt-6 flex max-w-2xl flex-col items-start gap-3">
+              <PersonalCard promo={promo} className="w-full" />
+              <DoneToggle promo={promo} />
+            </div>
+          )}
           <p className="mt-6 text-lg font-bold">
             <Link href={`/categorias/${promo.category}/`} className="underline underline-offset-4 hover:text-hot">
               Más de {cat.label} →

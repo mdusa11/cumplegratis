@@ -21,14 +21,19 @@ import { buildIcs } from "@/lib/ics";
 import { track } from "@/lib/track";
 import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
 import { API_ENABLED, MONTHS, cn } from "@/lib/site";
-import { toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
+import { saveBirthday, toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
 
 function useBirthday(): Birthday | null {
   const params = useSearchParams();
   const stored = useStoredBirthday();
   const m = Number(params.get("m"));
   const d = Number(params.get("d"));
-  if (m >= 1 && m <= 12 && d >= 1 && d <= 31) return { m, d };
+  const valid = m >= 1 && m <= 12 && d >= 1 && d <= new Date(2024, m, 0).getDate();
+  // Quien abre un plan compartido y aún no tiene fecha se queda con esa.
+  useEffect(() => {
+    if (valid && !stored) saveBirthday({ m, d });
+  }, [valid, stored, m, d]);
+  if (valid) return { m, d };
   return stored;
 }
 
@@ -72,6 +77,13 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
     [birthday, nearby, pick, location],
   );
   const done = useDone();
+  // Gratis primero y luego por fecha límite.
+  const free = (i: PlanItem) => (i.promo.benefitType === "gratis" ? 0 : 1);
+  const order = (a: PlanItem, b: PlanItem) => free(a) - free(b) || (a.registerBy?.getTime() ?? 0) - (b.registerBy?.getTime() ?? 0);
+  const urgent = plan.now.filter((i) => i.status === "urgente").sort(order);
+  const late = plan.now.filter((i) => i.status === "tarde").sort(order);
+  const later = [...plan.later].sort(order);
+  const walkIn = [...plan.walkIn].sort(order);
   const needSignup = [...plan.now, ...plan.later];
   const doneCount = needSignup.filter((i) => done.includes(i.promo.slug)).length;
   const isToday = plan.daysLeft === 0;
@@ -98,11 +110,11 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
       <section className="pb-12">
         <p className="mono-tag">
           Tu cumple: {birthday.d} de {MONTHS[birthday.m - 1]} ·{" "}
-          <button type="button" onClick={onEdit} className="underline underline-offset-4 hover:text-hot">
+          <button type="button" onClick={onEdit} className="-my-3.5 inline-block py-3.5 underline underline-offset-4 hover:text-hot">
             cambiar
           </button>{" "}
           · <Icon name="pin" /> {location ? locationName(location) : "Todo México"} ·{" "}
-          <button type="button" onClick={openPicker} className="underline underline-offset-4 hover:text-hot">
+          <button type="button" onClick={openPicker} className="-my-3.5 inline-block py-3.5 underline underline-offset-4 hover:text-hot">
             {location ? "cambiar zona" : "elegir mi ciudad"}
           </button>
         </p>
@@ -127,7 +139,7 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
         </div>
         <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-4">
           <Stat value={plan.total} label="regalos te esperan" color="var(--color-acid)" />
-          <Stat value={plan.now.length} label="registros urgentes" color="var(--color-hot)" />
+          <Stat value={needSignup.length} label="por registrar" color="var(--color-hot)" />
           <Stat value={plan.walkIn.length} label="solo con tu INE" color="var(--color-sky)" />
         </div>
         <div className="mt-4 flex flex-wrap gap-3">
@@ -168,12 +180,13 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
       <Group
         icon="fire"
         title="Regístrate ya"
-        hint="Su fecha límite ya está cerca (o ya pasó: regístrate igual por si alcanzas)."
-        items={plan.now}
+        hint="Su fecha límite ya está cerca."
+        items={urgent}
         done={done}
+        extra={{ title: "Quizá ya no alcanzas (intenta igual)", hint: "Su plazo ya pasó. Algunas marcas igual lo aceptan, o te sirve para el próximo año.", items: late }}
       />
-      <Group icon="calendar" title="Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={plan.later} done={done} />
-      <Group icon="id" title="Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={plan.walkIn} done={done} />
+      <Group icon="calendar" title="Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={later} done={done} />
+      <Group icon="id" title="Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={walkIn} done={done} />
 
       <InstallCard />
       {/* Sin backend los recordatorios no existen: no se muestra una sección "muy pronto" (AdSense rechaza sitios en construcción). */}
@@ -220,29 +233,45 @@ function Stat({ value, label, color }: { value: number; label: string; color: st
   );
 }
 
-function Group({ icon, title, hint, items, done }: { icon: IconName; title: string; hint: string; items: PlanItem[]; done: string[] }) {
-  if (items.length === 0) return null;
+type Extra = { title: string; hint: string; items: PlanItem[] };
+
+function Group({ icon, title, hint, items, done, extra }: { icon: IconName; title: string; hint: string; items: PlanItem[]; done: string[]; extra?: Extra }) {
+  if (items.length === 0 && !extra?.items.length) return null;
   return (
     <section className="py-10">
       <h2 className="display flex items-center gap-3 text-5xl sm:text-7xl">
         <Icon name={icon} shadow className="!size-[0.8em]" />
         {title}
       </h2>
-      <p className="mt-2 text-lg font-medium">{hint}</p>
-      <ul className="mt-6 space-y-3">
-        {items.map((item, i) => (
-          <motion.li
-            key={item.promo.slug}
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-40px" }}
-            transition={{ delay: Math.min(i, 6) * 0.05, type: "spring", stiffness: 260, damping: 26 }}
-          >
-            <Row item={item} checked={done.includes(item.promo.slug)} />
-          </motion.li>
-        ))}
-      </ul>
+      {items.length > 0 && <p className="mt-2 text-lg font-medium">{hint}</p>}
+      <Rows items={items} done={done} />
+      {extra && extra.items.length > 0 && (
+        <div className={items.length ? "mt-10" : "mt-6"}>
+          <h3 className="display text-3xl text-ink/70 sm:text-4xl">{extra.title}</h3>
+          <p className="mt-1 text-base font-medium opacity-70">{extra.hint}</p>
+          <Rows items={extra.items} done={done} />
+        </div>
+      )}
     </section>
+  );
+}
+
+function Rows({ items, done }: { items: PlanItem[]; done: string[] }) {
+  if (items.length === 0) return null;
+  return (
+    <ul className="mt-6 space-y-3">
+      {items.map((item, i) => (
+        <motion.li
+          key={item.promo.slug}
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: "-40px" }}
+          transition={{ delay: Math.min(i, 6) * 0.05, type: "spring", stiffness: 260, damping: 26 }}
+        >
+          <Row item={item} checked={done.includes(item.promo.slug)} />
+        </motion.li>
+      ))}
+    </ul>
   );
 }
 
@@ -308,7 +337,7 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
       <div className="flex flex-wrap items-center gap-2">
         {registerBy && (
           <span className="flex flex-col gap-1">
-            <span className={cn("chip self-start", status === "tarde" ? "bg-hot" : status === "urgente" ? "bg-sun" : "bg-paper")}>
+            <span className={cn("chip self-start", status === "tarde" ? "bg-paper-2" : status === "urgente" ? "bg-sun" : "bg-paper")}>
               <Icon name="register" /> {status === "tarde" ? "Quizá ya no alcanzas" : `Regístrate antes del ${formatDate(registerBy)}`}
             </span>
             {status !== "tarde" && (
@@ -321,7 +350,7 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
           </span>
         )}
         {promo.signupUrl && needsSignup && !checked && (
-          <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} className="btn btn-ink !px-4 !py-2 !text-base">
+          <a href={promo.signupUrl} target="_blank" rel="noopener noreferrer nofollow" data-promo={promo.slug} data-register={promo.slug} data-program={promo.program ?? ""} className="btn btn-ink !px-4 !py-2 !text-base">
             Registrarme ↗︎
           </a>
         )}

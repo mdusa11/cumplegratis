@@ -10,7 +10,7 @@ import { CountUp } from "@/components/fx";
 import { CITIES, STATES, type CitySlug } from "@/lib/places";
 import { CATEGORIES } from "@/lib/promos";
 import { GROUP_PAGE, STATE_SLUG, cityGroupParams, cityGroups, groupBySlug, promosInCityGroup } from "@/lib/seo-pages";
-import { breadcrumbs, itemList, jsonLd } from "@/lib/site";
+import { breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps<"/ciudades/[slug]/[
   const all = [...local, ...national];
   return {
     title: `${GROUP_PAGE[r.group].title(name)} (${year})`,
-    description: `${all.length} lugares en ${name} que te regalan algo en tu cumpleaños: ${all.slice(0, 4).map((p) => p.brand).join(", ")} y más. Qué regalan, requisitos y cómo cobrarlo.`,
+    description: clip(`${all.length} lugares en ${name} que te regalan algo en tu cumpleaños: ${all.slice(0, 4).map((p) => p.brand).join(", ")} y más. Qué regalan, requisitos y cómo cobrarlo.`),
     alternates: { canonical: `/ciudades/${r.city}/${GROUP_PAGE[r.group].slug}` },
   };
 }
@@ -76,11 +76,11 @@ export default async function CityGroupPage({ params }: PageProps<"/ciudades/[sl
   return (
     <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
       <nav className="mono-tag flex flex-wrap gap-2" aria-label="Migas">
-        <Link href={`/estados/${STATE_SLUG[state]}`} className="underline-offset-4 hover:underline">
+        <Link href={`/estados/${STATE_SLUG[state]}`} className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           {STATES[state].name}
         </Link>
         <span>/</span>
-        <Link href={`/ciudades/${city}`} className="underline-offset-4 hover:underline">
+        <Link href={`/ciudades/${city}`} className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           {name}
         </Link>
       </nav>

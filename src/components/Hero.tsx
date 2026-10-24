@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { Icon } from "./Icon";
 import { burst } from "./BirthdayPicker";
 import { motion } from "motion/react";
@@ -11,6 +12,9 @@ import { StickerRow } from "./StickerRow";
 import { locationName, useLocation } from "./LocationProvider";
 import { availability, isAvailable } from "@/lib/availability";
 import { BENEFIT, type Promo } from "@/lib/promo-meta";
+import { buildPlan, daysBetween, nextBirthday, type Birthday } from "@/lib/plan";
+import { useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
+import { MONTHS } from "@/lib/site";
 
 // Posiciones (en % del hero) y giro de cada sticker en escritorio.
 const SPOTS = [
@@ -92,7 +96,7 @@ export function Hero({ featured, total, row }: { featured: Promo[]; total: numbe
           <p className="mt-10 max-w-xl text-xl leading-snug font-medium sm:text-2xl xl:mt-0">
             Café, pastel, cine, descuentos y regalos. Pon tu fecha y te decimos <b>dónde registrarte</b> y <b>hasta cuándo</b> para cobrarlo todo.
           </p>
-          <BirthdayPicker className="mt-8 xl:mt-6 xl:flex-col" />
+          <HeroForm />
         </motion.div>
       </div>
 
@@ -129,6 +133,49 @@ export function Hero({ featured, total, row }: { featured: Promo[]; total: numbe
         ))}
       </div>
     </section>
+  );
+}
+
+// Quien ya guardó su fecha ve su avance en vez del formulario; el HTML estático y la hidratación siempre traen el formulario.
+function HeroForm() {
+  const stored = useStoredBirthday();
+  const hydrated = useHydrated();
+  const [editing, setEditing] = useState(false);
+  if (!hydrated || !stored || editing) return <BirthdayPicker className="mt-8 xl:mt-6 xl:flex-col" />;
+  return <ReturningPlan birthday={stored} onEdit={() => setEditing(true)} />;
+}
+
+function ReturningPlan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) {
+  const { location } = useLocation();
+  const done = useDone();
+  const [list, setList] = useState<Promo[] | null>(null);
+  useEffect(() => {
+    let alive = true;
+    import("@/lib/promos").then(({ promos }) => alive && setList(location ? promos.filter((p) => isAvailable(availability(p, location))) : promos));
+    return () => {
+      alive = false;
+    };
+  }, [location]);
+  const left = daysBetween(new Date(), nextBirthday(birthday));
+  const plan = list && buildPlan(birthday, list);
+  const pending = plan ? [...plan.now, ...plan.later] : null;
+  return (
+    <div className="mt-8 flex min-h-[8.5rem] flex-col items-start justify-center gap-3 xl:mt-6">
+      <p className="display text-4xl sm:text-5xl">
+        {left === 0 ? "¡Hoy es tu cumple!" : left === 1 ? "Falta 1 día para tu cumple" : `Faltan ${left} días para tu cumple`}
+      </p>
+      <p className="mono-tag">
+        {pending ? `${pending.filter((i) => done.includes(i.promo.slug)).length} de ${pending.length} registros` : "Calculando tu plan…"} · {birthday.d} de {MONTHS[birthday.m - 1]}
+      </p>
+      <div className="flex flex-wrap items-center gap-x-5">
+        <Link href="/mi-cumple/" className="btn btn-ink">
+          Seguir mi plan
+        </Link>
+        <button type="button" onClick={onEdit} className="-my-3 py-3 text-base font-semibold underline underline-offset-4 hover:text-hot">
+          cambiar fecha
+        </button>
+      </div>
+    </div>
   );
 }
 

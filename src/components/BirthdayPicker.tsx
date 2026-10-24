@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, type FormEvent } from "react";
+import { useRef, useState, type FormEvent, type Ref } from "react";
 import { Icon } from "./Icon";
 import { useRouter } from "next/navigation";
 import { motion } from "motion/react";
@@ -24,6 +24,8 @@ export function BirthdayPicker({ className, size = "md", onDone }: { className?:
   const [month, setMonth] = useState<number | "">("");
   const [day, setDay] = useState<number | "">("");
   const buttonRef = useRef<HTMLButtonElement>(null);
+  const dayRef = useRef<HTMLSelectElement>(null);
+  const monthRef = useRef<HTMLSelectElement>(null);
 
   const m = month || stored?.m || "";
   const d = day || stored?.d || "";
@@ -32,7 +34,10 @@ export function BirthdayPicker({ className, size = "md", onDone }: { className?:
 
   const submit = (e: FormEvent) => {
     e.preventDefault();
-    if (!ready) return;
+    if (!ready) {
+      (m ? dayRef : monthRef).current?.focus();
+      return;
+    }
     saveBirthday({ m: Number(m), d: Number(d) });
     const r = buttonRef.current?.getBoundingClientRect();
     burst(r && { x: (r.left + r.width / 2) / window.innerWidth, y: (r.top + r.height / 2) / window.innerHeight });
@@ -47,7 +52,7 @@ export function BirthdayPicker({ className, size = "md", onDone }: { className?:
   return (
     <form onSubmit={submit} className={cn("flex flex-col gap-3 sm:flex-row sm:items-stretch", className)}>
       <div className="flex gap-3">
-        <Select label="Día" value={d} onChange={(v) => setDay(v)} big={big} className="w-28 sm:w-32">
+        <Select label="Día" selectRef={dayRef} value={d} onChange={(v) => setDay(v)} big={big} className="w-28 sm:w-32">
           <option value="">Día</option>
           {Array.from({ length: maxDay }, (_, i) => (
             <option key={i + 1} value={i + 1}>
@@ -55,7 +60,7 @@ export function BirthdayPicker({ className, size = "md", onDone }: { className?:
             </option>
           ))}
         </Select>
-        <Select label="Mes" value={m} onChange={(v) => setMonth(v)} big={big} className="flex-1 sm:w-48">
+        <Select label="Mes" selectRef={monthRef} value={m} onChange={(v) => setMonth(v)} big={big} className="flex-1 sm:w-48">
           <option value="">Mes</option>
           {MONTHS.map((name, i) => (
             <option key={name} value={i + 1}>
@@ -67,13 +72,12 @@ export function BirthdayPicker({ className, size = "md", onDone }: { className?:
       <motion.button
         ref={buttonRef}
         type="submit"
-        disabled={!ready}
         data-cursor="¡Va!"
         animate={ready ? { scale: [1, 1.06, 1] } : { scale: 1 }}
         transition={{ duration: 0.4 }}
-        className={cn("btn btn-ink disabled:cursor-not-allowed disabled:opacity-50", big && "!px-8 !py-4 !text-2xl")}
+        className={cn("btn", ready ? "btn-ink" : "btn-paper", big && "!px-8 !py-4 !text-2xl")}
       >
-        Armar mi plan <Icon name="party" />
+        {ready ? "Armar mi plan" : "Elige tu fecha"} <Icon name="party" />
       </motion.button>
     </form>
   );
@@ -86,7 +90,9 @@ function Select({
   children,
   big,
   className,
+  selectRef,
 }: {
+  selectRef: Ref<HTMLSelectElement>;
   label: string;
   value: number | "";
   onChange: (v: number | "") => void;
@@ -98,6 +104,7 @@ function Select({
     <label className={cn("relative block", className)}>
       <span className="sr-only">{label}</span>
       <select
+        ref={selectRef}
         value={value}
         onChange={(e) => onChange(e.target.value ? Number(e.target.value) : "")}
         className={cn("field cursor-pointer pr-10", big && "!py-4 !text-xl")}

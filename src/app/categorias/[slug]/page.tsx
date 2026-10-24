@@ -6,7 +6,7 @@ import { PromoCard } from "@/components/PromoCard";
 import { SplitText } from "@/components/Reveal";
 import { CountUp } from "@/components/fx";
 import { CATEGORIES, GROUPS, byProminence, promos, type CategoryId } from "@/lib/promos";
-import { breadcrumbs, itemList, jsonLd } from "@/lib/site";
+import { breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: PageProps<"/categorias/[slug]
   const brands = list.slice(0, 4).map((p) => p.brand).join(", ");
   return {
     title: `${CATEGORY_TITLE[c] ?? `Promos de cumpleaños de ${label} en México`} (${year})`,
-    description: `${list.length} lugares de ${label} que te regalan algo en tu cumpleaños: ${brands} y más. Requisitos, cuándo registrarte y cómo cobrarlo.`,
+    description: clip(`${list.length} lugares de ${label} que te regalan algo en tu cumpleaños: ${brands} y más. Requisitos, cuándo registrarte y cómo cobrarlo.`),
     alternates: { canonical: `/categorias/${c}` },
   };
 }
@@ -60,7 +60,7 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
   return (
     <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
       <nav className="mono-tag flex gap-2" aria-label="Migas">
-        <Link href="/promos" className="underline-offset-4 hover:underline">
+        <Link href="/promos" className="-my-3.5 inline-block py-3.5 underline-offset-4 hover:underline">
           Promos
         </Link>
         <span>/</span>

@@ -186,3 +186,16 @@ export function prominence(p: Promo) {
 }
 
 export const byProminence = (a: Promo, b: Promo) => prominence(a) - prominence(b) || a.brand.localeCompare(b.brand, "es");
+
+// Hosts de CDN o imágenes que a veces se cuelan entre las fuentes: no sirven como referencia para el lector.
+const ASSET_HOST = /(^|\.)(scene7\.com|cloudfront\.net)$|^(cdn|images?|img|static)[\d-]*\./;
+
+/** Fuentes sin duplicados por URL y sin hosts de CDN/imágenes. */
+export const readableSources = (list: string[]) =>
+  [...new Set(list)].filter((u) => {
+    try {
+      return !ASSET_HOST.test(new URL(u).hostname);
+    } catch {
+      return false;
+    }
+  });
