@@ -10,7 +10,8 @@ import { BirthdayPicker, burst } from "./BirthdayPicker";
 import { BenefitBadge } from "./BenefitBadge";
 import { CountUp } from "./fx";
 import { InstallCard } from "./PwaInstall";
-import { locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
+import { GiftPlan } from "./GiftPlan";
+import { LocationBand, locationName, useLocation } from "./LocationProvider";
 import { useOpenPromo } from "./PromoSheet";
 import { availability, channel, isAvailable } from "@/lib/availability";
 import { ChannelFilter, countChannels, type ChannelPick } from "./ChannelFilter";
@@ -20,7 +21,8 @@ import { SplitText } from "./Reveal";
 import { buildIcs } from "@/lib/ics";
 import { track } from "@/lib/track";
 import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
-import { API_ENABLED, MONTHS, cn } from "@/lib/site";
+import { API_ENABLED, MONTHS, REMINDERS_ON, cn } from "@/lib/site";
+import { ReminderSignup } from "./ReminderSignup";
 import { saveBirthday, toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
 
 function useBirthday(): Birthday | null {
@@ -68,7 +70,7 @@ export function PlanView() {
 
 function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) {
   const { location, openPicker } = useLocation();
-  useAutoAskLocation();
+  const reminder = useSearchParams().get("recordatorio");
   const [pick, setPick] = useState<ChannelPick>("todas");
   const nearby = useMemo(() => (location ? promos.filter((p) => isAvailable(availability(p, location))) : promos), [location]);
   const counts = useMemo(() => countChannels(nearby, (p) => channel(p, location)), [nearby, location]);
@@ -107,6 +109,12 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
 
   return (
     <>
+      <LocationBand />
+      {reminder && (
+        <p role="status" className={cn("card mb-6 p-4 font-semibold", reminder === "ok" ? "bg-acid" : "bg-hot")}>
+          {reminder === "ok" ? "Listo: tus recordatorios están activos. Te escribimos 30 días antes de tu cumple." : "Ese enlace ya no es válido. Suscríbete otra vez desde aquí abajo."}
+        </p>
+      )}
       <section className="pb-12">
         <p className="mono-tag">
           Tu cumple: {birthday.d} de {MONTHS[birthday.m - 1]} ·{" "}
@@ -152,6 +160,7 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
         <button type="button" onClick={downloadIcs} className="btn btn-paper gap-2 !text-lg">
           <Icon name="calendar" /> Agregar a mi calendario
         </button>
+        <GiftPlan total={promos.length} />
         </div>
 
         {needSignup.length > 0 && (
@@ -177,7 +186,21 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
       <p className="card mb-4 bg-paper-2 p-4 text-base font-medium">
         <Icon name="bulb" className="mr-1" /> Las fechas son <b>hasta cuándo registrarte</b> en cada programa (no cuándo cobrar). El regalo lo cobras en tu cumpleaños: el {birthday.d} de {MONTHS[birthday.m - 1]}.
       </p>
+      <nav aria-label="Secciones del plan" className="sticky top-[5.25rem] z-30 -mx-5 flex gap-2 overflow-x-auto border-y-2 border-ink bg-paper px-5 py-2 transition-[top] duration-[450ms] ease-[var(--ease-out-expo)] in-data-[nav=hidden]:top-0 sm:-mx-8 sm:px-8">
+        {[
+          { id: "ya", label: "Regístrate ya", n: urgent.length + late.length },
+          { id: "despues", label: "Más adelante", n: later.length },
+          { id: "sin-registro", label: "Sin registro", n: walkIn.length },
+        ]
+          .filter((a) => a.n > 0)
+          .map((a) => (
+            <a key={a.id} href={`#${a.id}`} className="chip shrink-0 bg-paper transition-colors hover:bg-acid">
+              {a.label} <span className="rounded-full bg-paper-2 px-1.5 text-xs">{a.n}</span>
+            </a>
+          ))}
+      </nav>
       <Group
+        id="ya"
         icon="fire"
         title="Regístrate ya"
         hint="Su fecha límite ya está cerca."
@@ -185,12 +208,12 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
         done={done}
         extra={{ title: "Quizá ya no alcanzas (intenta igual)", hint: "Su plazo ya pasó. Algunas marcas igual lo aceptan, o te sirve para el próximo año.", items: late }}
       />
-      <Group icon="calendar" title="Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={later} done={done} />
-      <Group icon="id" title="Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={walkIn} done={done} />
+      <Group id="despues" icon="calendar" title="Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={later} done={done} />
+      <Group id="sin-registro" icon="id" title="Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={walkIn} done={done} />
 
       <InstallCard />
-      {/* Sin backend los recordatorios no existen: no se muestra una sección "muy pronto" (AdSense rechaza sitios en construcción). */}
-      {API_ENABLED && <ReminderForm birthday={birthday} />}
+      {/* Apagados no se muestran: una sección "muy pronto" la rechaza AdSense como sitio en construcción. */}
+      {REMINDERS_ON ? <ReminderSignup birthday={birthday} city={location?.city} /> : API_ENABLED && <ReminderForm birthday={birthday} />}
     </>
   );
 }
@@ -235,10 +258,10 @@ function Stat({ value, label, color }: { value: number; label: string; color: st
 
 type Extra = { title: string; hint: string; items: PlanItem[] };
 
-function Group({ icon, title, hint, items, done, extra }: { icon: IconName; title: string; hint: string; items: PlanItem[]; done: string[]; extra?: Extra }) {
+function Group({ id, icon, title, hint, items, done, extra }: { id: string; icon: IconName; title: string; hint: string; items: PlanItem[]; done: string[]; extra?: Extra }) {
   if (items.length === 0 && !extra?.items.length) return null;
   return (
-    <section className="py-10">
+    <section id={id} className="scroll-mt-36 py-10">
       <h2 className="display flex items-center gap-3 text-5xl sm:text-7xl">
         <Icon name={icon} shadow className="!size-[0.8em]" />
         {title}
@@ -256,13 +279,21 @@ function Group({ icon, title, hint, items, done, extra }: { icon: IconName; titl
   );
 }
 
+const GROUP_LIMIT = 10;
+
 function Rows({ items, done }: { items: PlanItem[]; done: string[] }) {
+  const [all, setAll] = useState(false);
   if (items.length === 0) return null;
+  // Las ya registradas bajan al final del grupo (el orden original se conserva dentro de cada mitad).
+  const sorted = [...items.filter((i) => !done.includes(i.promo.slug)), ...items.filter((i) => done.includes(i.promo.slug))];
+  const list = all ? sorted : sorted.slice(0, GROUP_LIMIT);
   return (
+    <>
     <ul className="mt-6 space-y-3">
-      {items.map((item, i) => (
+      {list.map((item, i) => (
         <motion.li
           key={item.promo.slug}
+          layout="position"
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-40px" }}
@@ -272,6 +303,12 @@ function Rows({ items, done }: { items: PlanItem[]; done: string[] }) {
         </motion.li>
       ))}
     </ul>
+    {sorted.length > GROUP_LIMIT && !all && (
+      <button type="button" onClick={() => setAll(true)} className="btn btn-paper mt-5">
+        Ver los {sorted.length - GROUP_LIMIT} restantes
+      </button>
+    )}
+    </>
   );
 }
 
@@ -291,7 +328,7 @@ function Row({ item, checked }: { item: PlanItem; checked: boolean }) {
       onClick={(e) => !(e.target as Element).closest("a, button") && openPromo(promo)}
       className={cn(
         "card flex cursor-pointer flex-wrap items-center gap-4 p-4 transition-[colors,translate,box-shadow] hover:-translate-y-0.5 hover:shadow-hard-lg sm:flex-nowrap sm:p-5",
-        checked ? "bg-paper-2" : "bg-paper",
+        checked ? "bg-paper-2 opacity-60" : "bg-paper",
       )}
     >
       {needsSignup && (

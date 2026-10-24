@@ -12,6 +12,7 @@ import { useLocation, locationName } from "./LocationProvider";
 import { AVAILABILITY_LABEL, availability, type Availability } from "@/lib/availability";
 import { CITIES, STATES } from "@/lib/places";
 import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, groupOf, quickRules, ruleIcon, readableSources, validityText, type Promo } from "@/lib/promo-meta";
+import { cacheFichas } from "@/lib/offline";
 import { lockScroll } from "@/lib/scroll";
 import { cn } from "@/lib/site";
 import { useMediaQuery } from "@/lib/storage";
@@ -25,6 +26,7 @@ export function PromoSheetProvider({ children }: { children: ReactNode }) {
   const open = useCallback((p: Promo) => {
     setPromo(p);
     track("promo_open", { target: p.slug });
+    cacheFichas([p.slug]);
   }, []);
   return (
     <SheetContext.Provider value={open}>

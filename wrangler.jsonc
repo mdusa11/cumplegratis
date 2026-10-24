@@ -11,6 +11,8 @@
     "not_found_handling": "404-page",
     "run_worker_first": ["/api/*", "/admin", "/admin/*"]
   },
+  // 15:00 UTC = 9:00 en la Ciudad de México (sin horario de verano desde 2022).
+  "triggers": { "crons": ["0 15 * * *"] },
   "d1_databases": [
     {
       "binding": "DB",

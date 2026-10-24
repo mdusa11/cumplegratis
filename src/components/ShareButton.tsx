@@ -7,7 +7,7 @@ import { Icon } from "./Icon";
 import { SITE, cn } from "@/lib/site";
 
 /** Menú nativo de compartir en el celular; en computadora, WhatsApp o copiar el enlace. */
-export function ShareButton({ path, text, label = "Compartir", iconOnly, className }: { path: string; text: string; label?: string; iconOnly?: boolean; className?: string }) {
+export function ShareButton({ path, text, label = "Compartir", iconOnly, disabled, className }: { path: string; text: string; label?: string; iconOnly?: boolean; disabled?: boolean; className?: string }) {
   // La marca deja ver en el panel cuántas visitas llegan porque alguien pasó el enlace.
   const url = `${SITE.url}${path}${path.includes("?") ? "&" : "?"}utm_source=compartido`;
   const [menu, setMenu] = useState(false);
@@ -42,7 +42,7 @@ export function ShareButton({ path, text, label = "Compartir", iconOnly, classNa
 
   return (
     <div ref={box} className={cn("relative", iconOnly && "shrink-0")}>
-      <button type="button" onClick={share} aria-label={label} className={cn("btn btn-paper gap-2", className)}>
+      <button type="button" onClick={share} aria-label={label} disabled={disabled} className={cn("btn btn-paper gap-2 disabled:opacity-50", className)}>
         <Icon name="share" className={cn(iconOnly && "!size-6")} /> {!iconOnly && label}
       </button>
       <AnimatePresence>

@@ -5,6 +5,8 @@ import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { HowItWorks } from "@/components/HowItWorks";
 import { PromoCard } from "@/components/PromoCard";
+import { NextMonthBanner } from "@/components/NextMonthBanner";
+import { nextMonthReach } from "@/lib/seo-pages";
 import { BirthdayPicker } from "@/components/BirthdayPicker";
 import { Faq, type QA } from "@/components/Faq";
 import { Reveal, ScrollWords } from "@/components/Reveal";
@@ -16,6 +18,7 @@ import { GUIDES } from "@/lib/guides";
 import { GROUPS, byProminence, groupOf, promos, stats, type GroupId } from "@/lib/promos";
 
 const featured = promos.filter((p) => p.benefitType === "gratis" && p.confidence === "alta").sort(byProminence);
+const nextMonth = nextMonthReach();
 const stickers = featured.filter((p) => p.brand.length <= 11);
 
 const TOP_CITIES: CitySlug[] = [
@@ -71,6 +74,10 @@ export default function Home() {
   return (
     <>
       <Hero featured={stickers} total={stats.total} row={featured.slice(0, 12)} />
+
+      <div className="mx-auto max-w-7xl px-5 pt-8 sm:px-8">
+        <NextMonthBanner {...nextMonth} />
+      </div>
 
       <Marquee className="-rotate-2 border-y-[2.5px] border-ink bg-ink py-4 text-paper">
         {promos.slice(0, 14).map((p) => (

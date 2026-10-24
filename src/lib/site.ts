@@ -25,6 +25,9 @@ export const ADS = {
   slot: process.env.NEXT_PUBLIC_ADSENSE_SLOT ?? "",
 };
 
+/** Tarjetas por tanda en catálogo y categorías. */
+export const PAGE_SIZE = 24;
+
 export const cn = (...classes: (string | false | null | undefined)[]) => classes.filter(Boolean).join(" ");
 
 export const MONTHS = [
@@ -38,6 +41,8 @@ export const jsonLd = (data: unknown) => ({ __html: JSON.stringify(data).replace
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 /** En el export estático no hay servidor: los formularios que escriben en Supabase se ocultan. */
 export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";
+/** Recordatorios por correo (Worker + Resend). Se enciende cuando el dominio esté verificado en Resend y exista el secreto RESEND_API_KEY. */
+export const REMINDERS_ON = false;
 
 /**
  * Datos del responsable para Términos y Aviso de privacidad (LFPDPPP).

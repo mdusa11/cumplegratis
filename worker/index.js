@@ -1,4 +1,5 @@
 import { admin } from "./admin.js";
+import { confirm, runReminders, signup, unsubscribe } from "./reminders.js";
 
 // Worker del sitio: sirve el export estático (ASSETS) y recibe la analítica propia en /api/e.
 // Solo corre para /api/* y /admin* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
@@ -90,8 +91,15 @@ const worker = {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/api/e") return collect(request, env);
+    if (url.pathname === "/api/reminders") return request.method === "POST" ? signup(request, env) : new Response(null, { status: 405 });
+    if (url.pathname === "/api/reminders/confirm") return confirm(request, env);
+    if (url.pathname === "/api/reminders/unsubscribe") return unsubscribe(request, env);
     if (url.pathname === "/admin" || url.pathname.startsWith("/admin/")) return admin(request, env);
     return env.ASSETS.fetch(request);
+  },
+  // Cron diario (9:00 CDMX): avisos de cumpleaños + limpieza de datos.
+  async scheduled(_event, env, ctx) {
+    ctx.waitUntil(runReminders(env));
   },
 };
 

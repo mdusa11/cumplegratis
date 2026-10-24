@@ -2,6 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { Icon } from "./Icon";
 import { CITIES, STATES, citiesOf, nearestCity, type CitySlug, type StateCode } from "@/lib/places";
 import type { UserLocation } from "@/lib/availability";
 import { lockScroll } from "@/lib/scroll";
@@ -30,6 +31,63 @@ export function useAutoAskLocation() {
     }, 1200);
     return () => clearTimeout(t);
   }, [location, openPicker]);
+}
+
+const NEAR_KM = 25;
+
+/** Paso 2 del plan: banda en línea (sin modal). Con GPS a menos de 25 km aplica la ciudad directo y avisa. */
+export function LocationBand() {
+  const { location, openPicker } = useLocation();
+  const [state, setState] = useState<{ status: "idle" | "locating" } | { status: "error"; message: string } | { status: "set"; name: string }>({ status: "idle" });
+
+  const locate = () => {
+    if (!("geolocation" in navigator)) return openPicker();
+    setState({ status: "locating" });
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        const { slug, km } = nearestCity({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        if (km < NEAR_KM) {
+          saveLocation({ state: CITIES[slug].state, city: slug });
+          setState({ status: "set", name: `${CITIES[slug].name}, ${STATES[CITIES[slug].state].short}` });
+        } else {
+          setState({ status: "error", message: "Estás lejos de las ciudades que tenemos. Elige la tuya." });
+          openPicker();
+        }
+      },
+      (err) => setState({ status: "error", message: err.code === err.PERMISSION_DENIED ? "No nos diste permiso. Sin problema: elige tu ciudad." : "No pudimos ubicarte. Elige tu ciudad." }),
+      { enableHighAccuracy: false, timeout: 12000, maximumAge: 600_000 },
+    );
+  };
+
+  if (location && state.status === "set") {
+    return (
+      <p role="status" className="mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 rounded-2xl border-2 border-ink bg-acid px-4 py-3 font-semibold">
+        <span>
+          <Icon name="pin" /> Te ubicamos en {state.name}
+        </span>
+        <button type="button" onClick={openPicker} className="-my-3.5 py-3.5 underline underline-offset-4 hover:text-hot">
+          cambiar
+        </button>
+      </p>
+    );
+  }
+  if (location) return null;
+  return (
+    <div className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-3 rounded-2xl border-2 border-ink bg-sun px-4 py-3">
+      <p className="min-w-0 flex-1 basis-60 font-medium">
+        <Icon name="pin" /> Estás viendo <b>todo México</b>. <b>¿Dónde estás?</b>
+        {state.status === "error" && <span className="mt-1 block text-sm font-semibold text-hot">{state.message}</span>}
+      </p>
+      <div className="flex flex-wrap gap-2">
+        <button type="button" onClick={locate} disabled={state.status === "locating"} className="btn btn-ink !px-4 !py-2 !text-base disabled:opacity-60">
+          {state.status === "locating" ? "Buscándote…" : "Usar mi ubicación"}
+        </button>
+        <button type="button" onClick={openPicker} className="btn btn-paper !px-4 !py-2 !text-base">
+          Elegir ciudad
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export function LocationProvider({ children }: { children: ReactNode }) {

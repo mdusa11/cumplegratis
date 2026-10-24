@@ -2,7 +2,8 @@
 // - Páginas: red primero (datos frescos), si falla usa la copia guardada y si no hay, /offline.
 // - /_next/static: nunca cambian (llevan hash) → caché primero.
 // - Imágenes, fuentes e íconos: copia guardada al instante y se actualiza por detrás.
-const VERSION = "cg-v4";
+// - Fichas /promos/{slug}/: la página avisa (postMessage) cuáles guardar al abrir una promo y, en ratos libres, las de su plan/ciudad.
+const VERSION = "cg-v5";
 const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const PAGES = `${VERSION}-pages`;
 const STATIC = `${VERSION}-static`;
@@ -32,6 +33,40 @@ self.addEventListener("activate", (event) => {
   );
 });
 
+const MAX_PAGES = 40;
+
+// Solo fichas de promo de este mismo sitio; nunca /api/ ni /admin.
+function pageUrl(raw) {
+  try {
+    const u = new URL(raw, self.location.origin);
+    const ok = u.origin === self.location.origin && u.pathname.startsWith(`${BASE}/promos/`) && !/\/(api|admin)(\/|$)/.test(u.pathname);
+    if (!ok) return null;
+    u.search = "";
+    u.hash = "";
+    if (!u.pathname.endsWith("/")) u.pathname += "/";
+    return u.href;
+  } catch {
+    return null;
+  }
+}
+
+async function cachePages(urls) {
+  const cache = await caches.open(PAGES);
+  for (const raw of urls.slice(0, MAX_PAGES)) {
+    const url = pageUrl(raw);
+    if (!url || (await cache.match(url))) continue;
+    try {
+      const res = await fetch(url);
+      if (cacheable(res)) await cache.put(url, res);
+    } catch {}
+  }
+}
+
+self.addEventListener("message", (event) => {
+  const { type, urls } = event.data || {};
+  if (type === "cache-pages" && Array.isArray(urls)) event.waitUntil(cachePages(urls));
+});
+
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
@@ -48,7 +83,15 @@ self.addEventListener("fetch", (event) => {
           }
           return res;
         })
-        .catch(async () => (await caches.match(request, { ignoreSearch: true })) || (await caches.match(`${BASE}/offline/`)) || caches.match(`${BASE}/offline`)),
+        .catch(async () => {
+          const alt = url.pathname.endsWith("/") ? url.pathname.slice(0, -1) : `${url.pathname}/`;
+          return (
+            (await caches.match(request, { ignoreSearch: true })) ||
+            (await caches.match(url.origin + alt, { ignoreSearch: true })) ||
+            (await caches.match(`${BASE}/offline/`)) ||
+            caches.match(`${BASE}/offline`)
+          );
+        }),
     );
     return;
   }

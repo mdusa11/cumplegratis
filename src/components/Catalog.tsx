@@ -8,50 +8,66 @@ import { Icon } from "./Icon";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { PromoCard } from "./PromoCard";
-import { Pin, locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
+import { locationName, useAutoAskLocation, useLocation } from "./LocationProvider";
 import { availability, channel, isAvailable } from "@/lib/availability";
-import { BENEFIT, CATEGORIES, GROUPS, byProminence, groupOf, normalize, promos, type BenefitType, type CategoryId, type GroupId } from "@/lib/promos";
-import { BASE_PATH, cn } from "@/lib/site";
+import { SAFE_DAYS } from "@/lib/plan";
+import { BENEFIT, CATEGORIES, GROUPS, byProminence, groupOf, normalize, promos, type BenefitType, type CategoryId, type GroupId, type Promo } from "@/lib/promos";
+import { PAGE_SIZE, cn } from "@/lib/site";
 
 type GroupFilter = GroupId | "todos";
 
 const LAYOUT_LIMIT = 36;
 const ANIMATED_ITEMS = 24;
 
+type Sort = "populares" | "az" | "facil";
+const SORTS: { id: Sort; label: string }[] = [
+  { id: "populares", label: "Más populares" },
+  { id: "az", label: "A-Z" },
+  { id: "facil", label: "Más fácil" },
+];
+const pick = <T extends string>(v: string | null, allowed: readonly string[], fallback: T) => (v && allowed.includes(v) ? (v as T) : fallback);
+
 // Anuncios ligeros: después de la tarjeta 12 y de la 36.
 const AD_AFTER = [11, 35];
 
 export function Catalog() {
   const params = useSearchParams();
-  const initial = params.get("g");
-  const initialCat = params.get("c");
-  const [group, setGroup] = useState<GroupFilter>(initial && initial in GROUPS ? (initial as GroupId) : "todos");
-  const [cat, setCat] = useState<CategoryId | null>(initialCat && initialCat in CATEGORIES ? (initialCat as CategoryId) : null);
-  const [type, setType] = useState<BenefitType | "todos">("todos");
-  const [noSignup, setNoSignup] = useState(false);
-  const [onlyConfirmed, setOnlyConfirmed] = useState(false);
+  const [group, setGroup] = useState<GroupFilter>(pick(params.get("g"), Object.keys(GROUPS), "todos"));
+  const [cat, setCat] = useState<CategoryId | null>(() => {
+    const c = params.get("c");
+    return c && c in CATEGORIES ? (c as CategoryId) : null;
+  });
+  const [type, setType] = useState<BenefitType | "todos">(pick(params.get("tipo"), Object.keys(BENEFIT), "todos"));
+  const [noSignup, setNoSignup] = useState(params.get("sinregistro") === "1");
+  const [onlyConfirmed, setOnlyConfirmed] = useState(params.get("confirmadas") === "1");
   const [query, setQuery] = useState(params.get("q") ?? "");
-  const [everywhere, setEverywhere] = useState(false);
-  const [chan, setChan] = useState<ChannelPick>("todas");
+  const [everywhere, setEverywhere] = useState(params.get("zonas") === "1");
+  const [chan, setChan] = useState<ChannelPick>(pick(params.get("canal"), ["local", "sucursal", "en-linea"], "todas"));
+  const [sort, setSort] = useState<Sort>(pick(params.get("orden"), ["az", "facil"], "populares"));
   const { location, openPicker } = useLocation();
   useAutoAskLocation();
 
-  const syncUrl = (g: GroupFilter, c: CategoryId | null) => {
+  // Todos los filtros viajan en la URL (sin apilar historial): recargar o volver de una ficha los conserva.
+  useEffect(() => {
     const qs = new URLSearchParams();
-    if (g !== "todos") qs.set("g", g);
-    if (c) qs.set("c", c);
+    if (group !== "todos") qs.set("g", group);
+    if (cat) qs.set("c", cat);
+    if (type !== "todos") qs.set("tipo", type);
+    if (noSignup) qs.set("sinregistro", "1");
+    if (onlyConfirmed) qs.set("confirmadas", "1");
+    if (chan !== "todas") qs.set("canal", chan);
+    if (everywhere) qs.set("zonas", "1");
+    if (sort !== "populares") qs.set("orden", sort);
+    if (query.trim()) qs.set("q", query.trim());
     const search = qs.toString();
-    window.history.replaceState(null, "", `${BASE_PATH}/promos${BASE_PATH ? "/" : ""}${search ? `?${search}` : ""}`);
-  };
+    window.history.replaceState(window.history.state, "", `${window.location.pathname}${search ? `?${search}` : ""}`);
+  }, [group, cat, type, noSignup, onlyConfirmed, chan, everywhere, sort, query]);
+
   const pickGroup = (g: GroupFilter) => {
     setGroup(g);
     setCat(null);
-    syncUrl(g, null);
   };
-  const pickCat = (c: CategoryId | null) => {
-    setCat(c);
-    syncUrl(group, c);
-  };
+  const pickCat = setCat;
 
   // Todo menos el tipo: sirve para contar cuántas promos hay de cada tipo con los demás filtros puestos.
   const base = useMemo(() => {
@@ -80,9 +96,20 @@ export function Catalog() {
     const list = chan === "todas" ? inCat : inCat.filter((p) => channel(p, location) === chan);
     // Famosas verificadas arriba, luego locales verificadas, luego lo sin confirmar; lo de otras zonas siempre al final.
     const away = (p: (typeof list)[number]) => (location && !isAvailable(availability(p, location)) ? 1 : 0);
-    return [...list].sort((a, b) => away(a) - away(b) || byProminence(a, b));
-  }, [inCat, chan, location]);
+    const order: Record<Sort, (a: Promo, b: Promo) => number> = {
+      populares: byProminence,
+      az: (a, b) => a.brand.localeCompare(b.brand, "es"),
+      // Sin registro primero y luego los que piden menos anticipación (si la marca no lo dice, se asumen 30 días).
+      facil: (a, b) => Number(!!a.program) - Number(!!b.program) || (a.registerDaysBefore ?? SAFE_DAYS) - (b.registerDaysBefore ?? SAFE_DAYS) || byProminence(a, b),
+    };
+    return [...list].sort((a, b) => away(a) - away(b) || order[sort](a, b));
+  }, [inCat, chan, location, sort]);
 
+  // Cada cambio de filtro u orden vuelve a las primeras 24.
+  const sig = `${group}|${cat}|${type}|${noSignup}|${onlyConfirmed}|${everywhere}|${chan}|${sort}|${query}`;
+  const [paging, setPaging] = useState({ sig, n: PAGE_SIZE });
+  const shown = paging.sig === sig ? paging.n : PAGE_SIZE;
+  const visible = results.slice(0, shown);
 
   // Qué filtros usa la gente (solo cuando cambian, no al cargar).
   const prevFilters = useRef<Record<string, string> | null>(null);
@@ -103,6 +130,7 @@ export function Catalog() {
     setOnlyConfirmed(false);
     setChan("todas");
     setQuery("");
+    setSort("populares");
   };
 
   return (
@@ -206,24 +234,41 @@ export function Catalog() {
         <ChannelFilter id="catalog-channel" value={chan} onChange={setChan} counts={chanCounts} />
       </div>
 
-      <div className="mt-10 flex flex-wrap items-end justify-between gap-4">
+      <div className="mt-6 flex flex-wrap items-end justify-between gap-x-4 gap-y-3">
         <p className="display text-4xl sm:text-5xl">
           <AnimatedCount value={results.length} /> {results.length === 1 ? "promo" : "promos"}
           {location && !everywhere && <span className="text-hot"> cerca de {locationName(location).split(",")[0]}</span>}
         </p>
-        {location && (
-          <button
-            type="button"
-            onClick={() => setEverywhere((v) => !v)}
-            aria-pressed={everywhere}
-            className="flex items-center gap-3 rounded-full border-2 border-ink bg-paper py-1.5 pr-4 pl-1.5 font-semibold"
-          >
-            <span className={cn("flex h-7 w-12 items-center rounded-full border-2 border-ink p-0.5 transition-colors", everywhere ? "bg-acid" : "bg-paper-2")}>
-              <motion.span layout transition={{ type: "spring", stiffness: 600, damping: 35 }} className={cn("size-5 rounded-full bg-ink", everywhere && "ml-auto")} />
+        <div className="flex flex-wrap items-center gap-3">
+          <label className="flex items-center gap-2 font-semibold">
+            <span className="mono-tag">Ordenar</span>
+            <span className="relative block">
+              <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} className="field cursor-pointer !w-auto !py-2 !pr-9 !text-base !shadow-hard-sm">
+                {SORTS.map((o) => (
+                  <option key={o.id} value={o.id}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+              <span aria-hidden className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 text-xs">
+                ▼
+              </span>
             </span>
-            Incluir otras zonas
-          </button>
-        )}
+          </label>
+          {location && (
+            <button
+              type="button"
+              onClick={() => setEverywhere((v) => !v)}
+              aria-pressed={everywhere}
+              className="flex items-center gap-3 rounded-full border-2 border-ink bg-paper py-1.5 pr-4 pl-1.5 font-semibold"
+            >
+              <span className={cn("flex h-7 w-12 items-center rounded-full border-2 border-ink p-0.5 transition-colors", everywhere ? "bg-acid" : "bg-paper-2")}>
+                <motion.span layout transition={{ type: "spring", stiffness: 600, damping: 35 }} className={cn("size-5 rounded-full bg-ink", everywhere && "ml-auto")} />
+              </span>
+              Incluir otras zonas
+            </button>
+          )}
+        </div>
       </div>
 
       <AnimatePresence initial={false} mode="wait">
@@ -247,24 +292,24 @@ export function Catalog() {
             initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
-            className="card mt-4 flex w-full items-center gap-4 bg-sun p-4 text-left transition-[translate,box-shadow] hover:-translate-y-0.5 hover:shadow-hard-lg sm:p-5"
+            className="mt-3 flex w-full items-center gap-3 rounded-2xl border-2 border-ink bg-sun px-4 py-2 text-left font-medium transition-colors hover:bg-sun/80"
           >
-            <Pin bounce className="shrink-0" />
-            <span>
-              <span className="display block text-3xl">¿Dónde estás?</span>
-              <span className="font-medium">No todas las promos están en todos los estados. Dinos tu ciudad y te mostramos solo las que te quedan cerca.</span>
+            <Icon name="pin" className="shrink-0" />
+            <span className="min-w-0 flex-1 truncate">
+              <b>¿Dónde estás?</b> Dinos tu ciudad y ves solo lo que te queda cerca.
             </span>
+            <u className="shrink-0 font-semibold">Elegir</u>
           </motion.button>
         )}
       </AnimatePresence>
 
       {/* Reacomodo animado solo con listas cortas; con cientos de tarjetas mediría todas en cada filtro. */}
-      <motion.ul layout={results.length <= LAYOUT_LIMIT} className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <motion.ul layout={visible.length <= LAYOUT_LIMIT} className="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <AnimatePresence mode="popLayout" initial={false}>
-          {results.flatMap((p, i) => [
+          {visible.flatMap((p, i) => [
             <motion.li
               key={p.slug}
-              layout={results.length <= LAYOUT_LIMIT}
+              layout={visible.length <= LAYOUT_LIMIT}
               initial={i < ANIMATED_ITEMS ? { opacity: 0, scale: 0.85, y: 20 } : false}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={i < ANIMATED_ITEMS ? { opacity: 0, scale: 0.85 } : { opacity: 0, transition: { duration: 0 } }}
@@ -283,6 +328,14 @@ export function Catalog() {
           ])}
         </AnimatePresence>
       </motion.ul>
+
+      {results.length > shown && (
+        <div className="mt-10 flex justify-center">
+          <button type="button" onClick={() => setPaging({ sig, n: shown + PAGE_SIZE })} className="btn btn-ink">
+            Ver {Math.min(PAGE_SIZE, results.length - shown)} más <span className="opacity-70">({shown} de {results.length})</span>
+          </button>
+        </div>
+      )}
 
       <AnimatePresence>
         {results.length === 0 && (

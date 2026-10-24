@@ -36,8 +36,10 @@ export default function Privacidad() {
           title: "Datos que recabamos",
           body: (
             <>
-              <p>
-                <b>Si te suscribes a recordatorios:</b> correo electrónico y día y mes de cumpleaños (no pedimos el año, así que no conocemos tu edad).
+              <p id="recordatorios">
+                <b>Si te suscribes a recordatorios:</b> correo electrónico, día y mes de cumpleaños (no pedimos el año, así que no conocemos tu edad) y,
+                si la elegiste, tu ciudad, para avisarte solo de promos que te quedan cerca. Te pedimos confirmar la suscripción con un enlace que
+                llega a tu correo; sin esa confirmación no te enviamos nada más.
               </p>
               <p>
                 <b>Si sugieres o reportas una promoción:</b> el texto que escribas. Te pedimos no incluir datos personales.
@@ -56,8 +58,8 @@ export default function Privacidad() {
           body: (
             <>
               <p>
-                <b>Finalidad principal (necesaria):</b> enviarte recordatorios para registrarte a tiempo en los programas de cumpleaños y avisarte cuando
-                empiece tu mes.
+                <b>Finalidad principal (necesaria):</b> enviarte recordatorios para registrarte a tiempo en los programas de cumpleaños: normalmente un
+                correo 30 días antes, otro 14 días antes y uno el día anterior a tu cumpleaños.
               </p>
               <p>
                 <b>Finalidad secundaria:</b> mejorar el catálogo con las sugerencias y reportes que envías. No usamos tus datos para perfilamiento
@@ -127,8 +129,8 @@ export default function Privacidad() {
             <>
               <p>
                 No transferimos tus datos a terceros. Para operar el servicio nos apoyamos en proveedores que actúan como encargados y solo tratan los
-                datos por nuestra cuenta: alojamiento del sitio, base de datos (Supabase) y envío de correos. Algunos de estos proveedores pueden almacenar
-                información fuera de México, con medidas de seguridad equivalentes.
+                datos por nuestra cuenta: Cloudflare (alojamiento del sitio y base de datos) y Resend (envío de correos). Estos proveedores pueden
+                almacenar información fuera de México, con medidas de seguridad equivalentes.
               </p>
               <p>Solo compartiríamos datos si una autoridad competente lo requiere conforme a la ley.</p>
             </>
@@ -156,8 +158,8 @@ export default function Privacidad() {
           title: "Cuánto tiempo los guardamos",
           body: (
             <p>
-              Conservamos tu correo mientras sigas suscrito a los recordatorios. Si te das de baja, lo eliminamos en un plazo razonable, salvo que la ley
-              nos obligue a conservarlo.
+              Conservamos tu correo mientras sigas suscrito a los recordatorios. Si no confirmas la suscripción, lo borramos a los 7 días; si te das de
+              baja, lo borramos a más tardar 30 días después, salvo que la ley nos obligue a conservarlo.
             </p>
           ),
         },

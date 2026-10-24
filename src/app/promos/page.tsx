@@ -7,7 +7,7 @@ import { SuggestForm } from "@/components/SuggestForm";
 import { SplitText } from "@/components/Reveal";
 import { PromoCard } from "@/components/PromoCard";
 import { promos, stats } from "@/lib/promos";
-import { API_ENABLED, whatsappUrl } from "@/lib/site";
+import { API_ENABLED, PAGE_SIZE, whatsappUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Todas las promociones de cumpleaños en México",
@@ -17,19 +17,20 @@ export const metadata: Metadata = {
 
 export default function PromosPage() {
   return (
-    <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
+    <div className="mx-auto max-w-7xl px-5 pt-28 pb-24 sm:px-8 md:pt-32">
       <p className="mono-tag">{stats.total} marcas · {stats.free} totalmente gratis</p>
-      <h1 className="display mt-3 text-[clamp(4rem,13vw,11rem)]">
-        <SplitText text="Todas las" className="block" />
-        <SplitText text="promos" delay={0.2} className="block text-hot" />
+      {/* Una sola línea en escritorio: así los filtros y las primeras tarjetas entran en el primer pantallazo. */}
+      <h1 className="display mt-2 text-[clamp(3.4rem,10vw,4.5rem)] md:text-[5.5rem]">
+        <SplitText text="Todas las" className="mr-[0.25em]" />
+        <SplitText text="promos" delay={0.2} className="text-hot" />
       </h1>
 
-      <div className="mt-10">
+      <div className="mt-5">
         <Suspense
           fallback={
             <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {promos.map((p) => (
-                <li key={p.slug} className="lazy-paint">
+              {promos.map((p, i) => (
+                <li key={p.slug} className={i >= PAGE_SIZE ? "hidden" : "lazy-paint"}>
                   <PromoCard promo={p} />
                 </li>
               ))}

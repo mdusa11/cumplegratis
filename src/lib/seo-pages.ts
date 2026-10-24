@@ -137,3 +137,14 @@ export function monthPromos() {
   };
 }
 
+
+/** Mes que sigue a `today` y cuántas promos con registro aún alcanzan su fecha límite para quien cumple el día 1 de ese mes. */
+export function nextMonthReach(today = new Date()) {
+  const m = (today.getMonth() + 1) % 12 + 1;
+  const start = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
+  // Lo que todavía se puede cobrar si cumples ese mes: lo que no pide registro más los programas cuya fecha límite
+  // (para quien cumple a fin de mes) aún no pasa. Contar solo los registros daba números chicos y engañosos.
+  const register = monthDeadlines(m, monthYear(m, today)).filter((d) => d.last.getTime() >= start).length;
+  const walkIn = promos.filter((p) => !p.program && p.confidence !== "baja").length;
+  return { month: m, count: register + walkIn, register };
+}

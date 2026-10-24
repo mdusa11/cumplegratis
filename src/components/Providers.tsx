@@ -5,6 +5,7 @@ import { Analytics } from "./Analytics";
 import { MotionConfig } from "motion/react";
 import Lenis from "lenis";
 import { smooth } from "@/lib/scroll";
+import { OfflinePrefetch } from "./OfflinePrefetch";
 import { LocationProvider } from "./LocationProvider";
 import { PromoSheetProvider } from "./PromoSheet";
 
@@ -41,6 +42,7 @@ export function Providers({ children }: { children: ReactNode }) {
       <LocationProvider>
         <PromoSheetProvider>
           <Analytics />
+          <OfflinePrefetch />
           {children}
         </PromoSheetProvider>
       </LocationProvider>

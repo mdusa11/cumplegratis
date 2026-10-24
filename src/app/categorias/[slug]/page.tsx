@@ -3,6 +3,7 @@ import { Icon } from "@/components/Icon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PromoCard } from "@/components/PromoCard";
+import { ShowMore } from "@/components/ShowMore";
 import { SplitText } from "@/components/Reveal";
 import { CountUp } from "@/components/fx";
 import { CATEGORIES, GROUPS, byProminence, promos, type CategoryId } from "@/lib/promos";
@@ -88,13 +89,10 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
         ))}
       </div>
 
-      <ul className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {list.map((p) => (
-          <li key={p.slug} className="lazy-paint">
-            <PromoCard promo={p} />
-          </li>
-        ))}
-      </ul>
+      <ShowMore
+        className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
+        items={list.map((p) => ({ key: p.slug, node: <PromoCard promo={p} /> }))}
+      />
 
       <p className="mt-14 text-lg font-medium">
         ¿Quieres ver solo lo que hay en tu ciudad?{" "}

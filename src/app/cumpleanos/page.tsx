@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Reveal, SplitText } from "@/components/Reveal";
-import { MONTH_NOTE, capital, monthYear } from "@/lib/seo-pages";
+import { NextMonthBanner } from "@/components/NextMonthBanner";
+import { MONTH_NOTE, capital, monthYear, nextMonthReach } from "@/lib/seo-pages";
 import { MONTHS } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 export default function MonthsPage() {
   return (
     <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
+      <NextMonthBanner {...nextMonthReach()} className="mb-8" />
       <p className="mono-tag">12 meses</p>
       <h1 className="display mt-3 text-[clamp(4rem,13vw,11rem)]">
         <SplitText text="¿En qué mes" className="block" />
