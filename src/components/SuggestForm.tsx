@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Icon } from "./Icon";
 import { useState, type FormEvent } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { whatsappUrl } from "@/lib/site";
 
 type State = "idle" | "sending" | "ok" | "error";
 
@@ -23,7 +24,7 @@ export function SuggestForm() {
     if (!brand.trim()) return;
     setState("sending");
     try {
-      await postJson("/api/reports", { slug: "nueva", kind: "new", note: `${brand.trim()} — ${note.trim()}` });
+      await postJson("/api/suggest", { kind: "nueva", brand: brand.trim(), note: note.trim() });
       setState("ok");
     } catch {
       setState("error");
@@ -39,11 +40,14 @@ export function SuggestForm() {
       ) : (
         <motion.form key="form" exit={{ opacity: 0, y: -10 }} onSubmit={submit} className="flex flex-col gap-3">
           <input value={brand} onChange={(e) => setBrand(e.target.value)} placeholder="Marca (ej. Toks)" maxLength={80} className="field" required />
-          <input value={note} onChange={(e) => setNote(e.target.value)} placeholder="¿Qué regalan y cómo se cobra?" maxLength={400} className="field" />
+          <input value={note} onChange={(e) => setNote(e.target.value)} placeholder="¿Qué regalan y cómo se cobra?" maxLength={600} className="field" />
           <button type="submit" disabled={state === "sending"} className="btn btn-ink self-start disabled:opacity-60">
             {state === "sending" ? "Enviando…" : "Mandar promo"}
           </button>
           {state === "error" && <p className="font-bold">No se pudo enviar. Intenta de nuevo en un rato.</p>}
+          <a href={whatsappUrl("Hola, conozco una promo de cumpleaños que no está en Cumplegratis: ")} target="_blank" rel="noopener noreferrer" className="text-sm font-bold underline underline-offset-2">
+            ¿Prefieres mandarla por WhatsApp?
+          </a>
           <p className="text-sm font-medium">
             No incluyas datos personales. Al enviarla aceptas los{" "}
             <Link href="/terminos" className="underline underline-offset-2">

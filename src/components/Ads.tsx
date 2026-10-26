@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { ADS, cn } from "@/lib/site";
@@ -60,25 +61,24 @@ export function CookieBanner() {
   );
 }
 
-/** Bloque de anuncio con el marco de la marca; reserva altura para no mover la página al cargar. */
-export function AdSlot({ className }: { className?: string }) {
+const NO_ADS = /^\/(admin|offline)(\/|$)/;
+
+function Unit({ className }: { className?: string }) {
   const ref = useRef<HTMLModElement>(null);
-  const ready = Boolean(ADS.client && ADS.slot);
 
   useEffect(() => {
-    if (!ready || !ref.current || ref.current.dataset.adsbygoogleStatus) return;
+    if (!ref.current || ref.current.dataset.adsbygoogleStatus) return;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch {}
-  }, [ready]);
+  }, []);
 
-  if (!ready) return null;
   return (
     <aside className={cn("rounded-[1.6rem] border-2 border-dashed border-ink/30 bg-paper-2/60 p-3", className)} aria-label="Publicidad">
       <p className="mono-tag mb-2 !text-[0.65rem] opacity-70">Publicidad</p>
       <ins
         ref={ref}
-        className="adsbygoogle block min-h-[250px]"
+        className="adsbygoogle block min-h-[280px] md:min-h-[250px]"
         data-ad-client={ADS.client}
         data-ad-slot={ADS.slot}
         data-ad-format="auto"
@@ -86,4 +86,11 @@ export function AdSlot({ className }: { className?: string }) {
       />
     </aside>
   );
+}
+
+/** Bloque de anuncio con el marco de la marca. Sin slot no renderiza nada; con key por ruta cada página crea su propio <ins> y su push. */
+export function AdSlot({ className }: { className?: string }) {
+  const pathname = usePathname();
+  if (!ADS.client || !ADS.slot || NO_ADS.test(pathname)) return null;
+  return <Unit key={pathname} className={className} />;
 }

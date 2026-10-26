@@ -81,7 +81,7 @@ export function CityPromos({ city, state, name, initial }: Props) {
       {local.total > 0 && (
         <Section title={`Solo en ${name} y *alrededores`} hint="Negocios locales y cadenas regionales: las que casi nadie conoce." section={local} go={go} />
       )}
-      {local.total > 0 && <AdSlot className="mt-16" />}
+      {local.total > 0 && <AdSlot className="mt-24" />}
       <Section
         title="Las *favoritas de siempre"
         hint={`Cadenas que todos conocen: primero las que tienen sucursal en ${name}, luego las que se cobran en línea o en todo el país.`}

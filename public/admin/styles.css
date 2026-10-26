@@ -158,3 +158,18 @@ h3 { font-family: "Big Shoulders", sans-serif; text-transform: uppercase; font-s
 .insights li { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; line-height: 1.35; padding: 10px 12px; border-radius: 12px; background: var(--paper); }
 .insights li::before { content: ""; flex-shrink: 0; width: 10px; height: 10px; margin-top: 5px; border: 2px solid var(--ink); background: var(--hot); transform: rotate(45deg); }
 .insights b { font-weight: 800; }
+
+/* Sugerencias */
+.sugs { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; max-height: 480px; overflow-y: auto; }
+.sugs li { display: flex; gap: 12px; justify-content: space-between; align-items: flex-start; padding: 10px 12px; border-radius: 12px; background: var(--paper); font-size: 14px; }
+.sugs li.nueva { background: var(--sun); }
+.sugs li.descartada { opacity: .55; }
+.sugs p { margin: 4px 0; overflow-wrap: anywhere; }
+.sugs small { opacity: .75; overflow-wrap: anywhere; }
+.sugs .acts { display: flex; gap: 6px; flex-shrink: 0; }
+.sugs .acts button { font: inherit; font-weight: 700; border: 2px solid var(--ink); border-radius: 999px; padding: 3px 12px; background: #fff; cursor: pointer; }
+.sugs .acts button:disabled { opacity: .4; cursor: default; }
+.sugs .empty { display: block; opacity: .55; font-style: italic; background: none; }
+@media (max-width: 599px) { .sugs li { flex-direction: column; } }
+#newVisitors td, #errors td { white-space: normal; }
+#newVisitors .table, #errors .table { overflow-x: auto; }

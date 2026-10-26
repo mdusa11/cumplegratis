@@ -1,4 +1,5 @@
 import { gsc } from "./gsc.js";
+import { suggestions } from "./suggest.js";
 
 // Panel de analítica en /admin: login con contraseña (secreto PANEL_PASSWORD) y /admin/api/stats con todos los agregados.
 
@@ -158,6 +159,20 @@ async function stats(url, env) {
     options: st(`SELECT DISTINCT country, region, city FROM events WHERE ts >= ? AND ts < ? AND country IS NOT NULL LIMIT 2000`, [from, to]),
     appCities: st(`SELECT DISTINCT app_city FROM events WHERE ts >= ? AND ts < ? AND app_city IS NOT NULL LIMIT 500`, [from, to]),
     live: st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ts >= ?`, [now - 30 * 60 * 1000]),
+    errors: st(`SELECT target k, COUNT(*) n, COUNT(DISTINCT path) pages, MIN(path) path, GROUP_CONCAT(DISTINCT browser) browsers, GROUP_CONCAT(DISTINCT device) devices, GROUP_CONCAT(DISTINCT os) oses, MAX(ts) last
+      FROM events WHERE ${W} AND type='error' GROUP BY target ORDER BY last DESC LIMIT 60`),
+    newVisitors: st(`WITH c AS (SELECT vid, MIN(ts) first FROM events WHERE vid IN (SELECT vid FROM events WHERE ${W} AND vid IS NOT NULL) GROUP BY vid HAVING first >= ? ORDER BY first DESC LIMIT 100),
+      f AS (SELECT c.vid, c.first, (SELECT sid FROM events e WHERE e.vid = c.vid AND e.ts = c.first LIMIT 1) sid FROM c)
+      SELECT f.first, (SELECT city FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) city, (SELECT region FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) region,
+        (SELECT country FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) country, (SELECT device FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) device,
+        (SELECT os FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) os, (SELECT browser FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) browser,
+        (SELECT ref FROM events e WHERE e.sid = f.sid AND e.type = 'pageview' AND e.ref IS NOT NULL ORDER BY ts LIMIT 1) ref,
+        (SELECT group_concat(path, '|') FROM (SELECT path FROM events e WHERE e.sid = f.sid AND e.type = 'pageview' ORDER BY ts LIMIT 5)) pages,
+        (SELECT COUNT(DISTINCT target) FROM events e WHERE e.sid = f.sid AND e.type = 'promo_open') promos,
+        (SELECT COUNT(*) FROM events e WHERE e.sid = f.sid AND e.type IN ('birthday', 'city_set')) planned,
+        (SELECT COUNT(*) FROM events e WHERE e.sid = f.sid AND e.type = 'signup_click' AND e.target NOT LIKE '%.%') signup,
+        (SELECT COUNT(DISTINCT strftime('%Y-%m-%d', ${MX}, 'unixepoch')) FROM events WHERE vid = f.vid) days
+      FROM f ORDER BY f.first DESC`, [...args, from]),
   };
   const names = Object.keys(queries);
   const results = await db.batch(Object.values(queries));
@@ -192,10 +207,10 @@ export async function admin(request, env) {
   if (!(await loggedIn(request, env))) {
     return path.startsWith("/admin/api/") ? new Response("No autorizado", { status: 401 }) : html(loginPage(), 401, { "x-robots-tag": "noindex" });
   }
-  const api = { "/admin/api/stats": stats, "/admin/api/live": live, "/admin/api/gsc": gsc }[path];
+  const api = { "/admin/api/stats": stats, "/admin/api/live": live, "/admin/api/gsc": gsc, "/admin/api/suggestions": suggestions }[path];
   if (api) {
     try {
-      return await api(url, env);
+      return await api(url, env, request);
     } catch (e) {
       return Response.json({ error: String(e?.message ?? e) }, { status: 500 });
     }

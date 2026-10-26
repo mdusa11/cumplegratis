@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "data": "node scripts/build-data.mjs && node scripts/admin-meta.mjs && node scripts/promos-min.mjs",
-    "build:static": "STATIC_EXPORT=true next build"
+    "build:static": "STATIC_EXPORT=true next build",
+    "smoke": "node scripts/smoke.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { BusinessCta } from "@/components/BusinessCta";
-import { Icon } from "@/components/Icon";
 import { AdSlot } from "@/components/Ads";
 import { Suspense } from "react";
 import { Catalog } from "@/components/Catalog";
@@ -10,7 +9,7 @@ import { PromoCard } from "@/components/PromoCard";
 import { countChannels } from "@/lib/channels";
 import { channel } from "@/lib/availability";
 import { byProminence, promos, stats } from "@/lib/promos";
-import { API_ENABLED, PAGE_SIZE, whatsappUrl } from "@/lib/site";
+import { AD_EVERY, PAGE_SIZE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Todas las promociones de cumpleaños en México",
@@ -20,7 +19,6 @@ export const metadata: Metadata = {
 
 // Solo las primeras en el HTML; cada promo tiene su propia ficha en el sitemap. El resto lo baja el catálogo en el navegador.
 const first = [...promos].sort(byProminence).slice(0, PAGE_SIZE);
-const AD_AFTER = 11;
 
 function FirstCards() {
   return (
@@ -29,7 +27,7 @@ function FirstCards() {
         <li key={p.slug} className="lazy-paint">
           <PromoCard promo={p} />
         </li>,
-        ...(i === AD_AFTER
+        ...((i + 1) % AD_EVERY === 0 && (i + 1) / AD_EVERY <= 3
           ? [
               <li key="ad" className="col-span-full">
                 <AdSlot />
@@ -65,18 +63,7 @@ export default function PromosPage() {
           <h2 className="display mt-3 text-6xl sm:text-7xl">¿Falta una?</h2>
           <p className="mt-4 text-lg font-medium">Si conoces una marca que regala algo en tu cumpleaños y no está aquí, mándanosla.</p>
         </div>
-        {API_ENABLED ? (
-          <SuggestForm />
-        ) : (
-          <a
-            href={whatsappUrl("Hola, conozco una promo de cumpleaños que no está en Cumplegratis: ")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-ink justify-center gap-3 self-center !py-4 !text-xl !whitespace-normal"
-          >
-            <Icon name="whatsapp" className="!size-7" /> Mándala por WhatsApp
-          </a>
-        )}
+        <SuggestForm />
       </section>
       <BusinessCta className="mt-8" />
     </div>

@@ -465,6 +465,29 @@ async function load() {
     d.months.forEach((r) => r.k >= 1 && r.k <= 12 && (months[r.k - 1] = r.n));
     bars("months", MONTHS, months, C.pink);
     vitals(d.vitals);
+    const mxTime = (ts) => new Date(ts - 6 * 3600e3).toISOString().slice(0, 16).replace("T", " ");
+    const where = (r) => [r.city && es(r.city), r.region && es(r.region), r.country && r.country !== "MX" ? cname(r.country) : ""].filter(Boolean).join(", ") || "Desconocido";
+    table("newVisitors", d.newVisitors, [
+      { label: "Primera visita (hora MX)", get: (r) => mxTime(r.first) },
+      { label: "Desde", get: where },
+      { label: "Dispositivo", get: (r) => `${DEVICE[r.device] ?? r.device} · ${r.os}` },
+      { label: "Navegador", get: (r) => r.browser },
+      { label: "Origen", get: (r) => (r.ref ? refName(r.ref) : "Directo") },
+      { label: "Páginas", get: (r) => (r.pages ? r.pages.split("|").map(pageName).join(" › ") : "—") },
+      { label: "Promos abiertas", get: (r) => r.promos, fmt: (v) => fmt.format(v) },
+      { label: "Cumple / ciudad", get: (r) => (r.planned ? "Sí" : "No") },
+      { label: "Fue a registrarse", get: (r) => (r.signup ? "Sí" : "No") },
+      { label: "Regresó otro día", get: (r) => (r.days >= 2 ? "Sí" : "No") },
+    ]);
+    const uniqBy = (s) => [...new Set((s ?? "").split(","))].filter(Boolean);
+    table("errors", d.errors, [
+      { label: "Mensaje", get: (r) => r.k },
+      { label: "Veces", get: (r) => r.n, fmt: (v) => fmt.format(v) },
+      { label: "Páginas", get: (r) => (r.pages > 1 ? `${pageName(r.path)} y ${r.pages - 1} más` : pageName(r.path)) },
+      { label: "Navegadores", get: (r) => uniqBy(r.browsers).join(", ") },
+      { label: "Dispositivos", get: (r) => uniqBy(r.devices).map((v) => DEVICE[v] ?? v).join(", ") },
+      { label: "Última vez (hora MX)", get: (r) => mxTime(r.last) },
+    ]);
     list("whatsapp", d.whatsapp, { name: (r) => pageName(r.k) });
     $("updated").textContent = `Actualizado ${new Date().toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" })}`;
   } catch (e) {
@@ -473,6 +496,36 @@ async function load() {
     document.body.classList.remove("loading");
   }
 }
+
+async function loadSuggestions() {
+  try {
+    const res = await fetch("/admin/api/suggestions");
+    if (!res.ok) return;
+    const rows = await res.json();
+    const news = rows.filter((r) => r.status === "nueva").length;
+    $("sugCount").textContent = rows.length ? `${news} nueva${news === 1 ? "" : "s"} de ${rows.length}` : "";
+    $("suggestions").innerHTML = rows.length
+      ? rows
+          .map(
+            (r) => `<li class="${r.status}"><div><b>${escapeHtml(r.brand)}</b> <span class="tag">${r.kind === "cambio" ? "cambio" : "nueva"}</span>${r.status !== "nueva" ? ` <span class="tag">${r.status}</span>` : ""}
+          <p>${escapeHtml(r.note) || "<i>Sin detalle</i>"}</p>
+          <small>${mxDate(r.created_at)}${r.city ? ` · ${escapeHtml(cityName(r.city))}` : ""}${/^https?:\/\//.test(r.url ?? "") ? ` · <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer nofollow">${escapeHtml(r.url)}</a>` : ""}</small></div>
+          <div class="acts"><button data-id="${r.id}" data-s="aprobada"${r.status === "aprobada" ? " disabled" : ""}>Aprobar</button><button data-id="${r.id}" data-s="descartada"${r.status === "descartada" ? " disabled" : ""}>Descartar</button></div></li>`,
+          )
+          .join("")
+      : `<li class="empty">Sin sugerencias todavía</li>`;
+  } catch {}
+}
+const mxDate = (ts) => new Date(ts - 6 * 3600e3).toISOString().slice(0, 16).replace("T", " ");
+$("suggestions").addEventListener("click", async (e) => {
+  const b = e.target.closest("button[data-id]");
+  if (!b) return;
+  b.disabled = true;
+  try {
+    await fetch("/admin/api/suggestions", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: Number(b.dataset.id), status: b.dataset.s }) });
+  } catch {}
+  loadSuggestions();
+});
 
 async function loadLive() {
   try {
@@ -574,8 +627,10 @@ fetch("/admin/meta.json")
     load();
     loadLive();
     loadGoogle();
+    loadSuggestions();
   });
 
 // Todo se refresca solo mientras la pestaña está visible; lo "en vivo", más seguido.
 setInterval(() => document.visibilityState === "visible" && load(), 60_000);
 setInterval(() => document.visibilityState === "visible" && loadLive(), 15_000);
+setInterval(() => document.visibilityState === "visible" && loadSuggestions(), 60_000);

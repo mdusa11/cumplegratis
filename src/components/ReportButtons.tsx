@@ -5,14 +5,18 @@ import { Icon } from "./Icon";
 import { AnimatePresence, motion } from "motion/react";
 import { postJson } from "./SuggestForm";
 import { burst } from "./BirthdayPicker";
+import { track } from "@/lib/track";
+import { SITE } from "@/lib/site";
 
-export function ReportButtons({ slug }: { slug: string }) {
+export function ReportButtons({ slug, brand }: { slug: string; brand: string }) {
   const [sent, setSent] = useState<"works" | "broken" | null>(null);
 
   const report = async (kind: "works" | "broken", e: React.MouseEvent) => {
     setSent(kind);
     if (kind === "works") burst({ x: e.clientX / window.innerWidth, y: e.clientY / window.innerHeight });
-    postJson("/api/reports", { slug, kind }).catch(() => {});
+    // «Sí me la dieron» es una señal anónima para la analítica; «Ya no existe» cae en la bandeja de sugerencias del panel.
+    if (kind === "works") track("worked", { target: slug });
+    else postJson("/api/suggest", { kind: "cambio", brand, note: "Reportada desde la ficha: ya no existe", url: `${SITE.url}/promos/${slug}/` }).catch(() => {});
   };
 
   return (

@@ -1,10 +1,11 @@
 import { admin } from "./admin.js";
 import { confirm, runReminders, signup, unsubscribe } from "./reminders.js";
+import { suggest } from "./suggest.js";
 
 // Worker del sitio: sirve el export estático (ASSETS) y recibe la analítica propia en /api/e.
 // Solo corre para /api/* y /admin* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
 
-const TYPES = new Set(["pageview", "leave", "promo_open", "city_set", "search", "filter", "share", "whatsapp", "signup_click", "source", "install", "birthday"]);
+const TYPES = new Set(["pageview", "leave", "promo_open", "city_set", "search", "filter", "share", "whatsapp", "signup_click", "source", "install", "birthday", "error", "worked"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit|whatsapp\/|curl|wget|python|axios/i;
 // Robots en centros de datos que se disfrazan de navegador (Frankfurt, Oregon…): se descartan por la red de origen.
 const DATACENTER = /amazon|aws|google cloud|google llc|microsoft|azure|digitalocean|hetzner|ovh|linode|akamai|oracle|alibaba|tencent|vultr|contabo|leaseweb|m247|datacamp|scaleway|choopa|hostinger|ionos|cloudflare|fastly|zenlayer|psychz|colocrossing|hostwinds|bytedance|censys|shodan/i;
@@ -92,6 +93,7 @@ const worker = {
     const url = new URL(request.url);
     if (url.pathname === "/api/e") return collect(request, env);
     if (url.pathname === "/api/reminders") return request.method === "POST" ? signup(request, env) : new Response(null, { status: 405 });
+    if (url.pathname === "/api/suggest") return suggest(request, env);
     if (url.pathname === "/api/reminders/confirm") return confirm(request, env);
     if (url.pathname === "/api/reminders/unsubscribe") return unsubscribe(request, env);
     if (url.pathname === "/admin" || url.pathname.startsWith("/admin/")) return admin(request, env);

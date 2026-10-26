@@ -13,7 +13,7 @@ import { Reveal, SplitText } from "@/components/Reveal";
 import { TitleReveal } from "@/components/fx";
 import { CATEGORIES, CONFIDENCE, GROUPS, WINDOW_LABEL, coverageLabel, getPromo, groupOf, money, promos, relatedPromos, signupLabel, days, quickRules, validityText, readableSources, type Promo } from "@/lib/promos";
 import { ReportChange } from "@/components/ReportChange";
-import { API_ENABLED, breadcrumbs, clip, jsonLd } from "@/lib/site";
+import { breadcrumbs, clip, jsonLd } from "@/lib/site";
 import { DoneToggle, PersonalCard } from "@/components/PromoActions";
 import { FaqList } from "@/components/FaqList";
 import { CITIES, STATES } from "@/lib/places";
@@ -201,7 +201,6 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             ))}
           </div>
 
-          <AdSlot className="mt-16" />
           <TitleReveal text="Cómo cobrarlo" className="mt-16 text-6xl sm:text-7xl" />
           <ol className="mt-8 space-y-5">
             {stepList.map((s, i) => (
@@ -218,6 +217,8 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
               </Reveal>
             ))}
           </ol>
+
+          <AdSlot className="mt-14" />
 
           <Reveal className="mt-14">
             <h2 className="display text-5xl">La letra chiquita</h2>
@@ -276,13 +277,11 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             )}
             <ReportChange slug={promo.slug} brand={promo.brand} className="mt-4" />
           </Reveal>
-          {API_ENABLED && (
           <Reveal delay={0.1} className="card bg-acid p-6">
             <p className="mono-tag">¿Ya la cobraste?</p>
             <p className="display mt-2 mb-5 text-4xl">¿Te funcionó?</p>
-            <ReportButtons slug={promo.slug} />
+            <ReportButtons slug={promo.slug} brand={promo.brand} />
           </Reveal>
-          )}
         </aside>
       </div>
 

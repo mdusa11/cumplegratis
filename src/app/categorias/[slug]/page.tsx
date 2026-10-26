@@ -3,6 +3,7 @@ import { Icon } from "@/components/Icon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PromoCard } from "@/components/PromoCard";
+import { AdSlot } from "@/components/Ads";
 import { ShowMore } from "@/components/ShowMore";
 import { SplitText } from "@/components/Reveal";
 import { CountUp } from "@/components/fx";
@@ -94,6 +95,8 @@ export default async function CategoryPage({ params }: PageProps<"/categorias/[s
         first={list.slice(0, PAGE_SIZE).map((p) => ({ key: p.slug, node: <PromoCard promo={p} /> }))}
         rest={list.slice(PAGE_SIZE).map((p) => p.slug)}
       />
+
+      <AdSlot className="mt-24" />
 
       <p className="mt-14 text-lg font-medium">
         ¿Quieres ver solo lo que hay en tu ciudad?{" "}

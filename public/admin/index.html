@@ -42,7 +42,7 @@
 </section>
 
 <nav class="jump" aria-label="Secciones">
-  <a href="#resumen">Resumen</a><a href="#origen">Origen</a><a href="#contenido">Contenido</a><a href="#promos">Promos</a><a href="#publico">Público</a><a href="#rapidez">Rapidez</a><a href="#google">Google</a>
+  <a href="#resumen">Resumen</a><a href="#origen">Origen</a><a href="#contenido">Contenido</a><a href="#promos">Promos</a><a href="#publico">Público</a><a href="#rapidez">Rapidez</a><a href="#nuevos">Visitantes nuevos</a><a href="#sugerencias">Sugerencias</a><a href="#errores">Errores</a><a href="#google">Google</a>
 </nav>
 
 <main>
@@ -118,6 +118,21 @@
   <section id="rapidez" class="sec">
     <h2 class="sec-title">Rapidez</h2>
     <article class="card"><h2>Rapidez real <small>75% de las visitas carga así o mejor</small></h2><div class="vitals" id="vitals"></div></article>
+  </section>
+
+  <section id="nuevos" class="sec">
+    <h2 class="sec-title">Visitantes nuevos</h2>
+    <article class="card"><h2>Primera visita en el periodo <button class="csv" data-for="newVisitors">CSV</button><small>los 100 más recientes · sin IP ni datos personales</small></h2><div class="table" id="newVisitors"></div></article>
+  </section>
+
+  <section id="sugerencias" class="sec">
+    <h2 class="sec-title">Sugerencias</h2>
+    <article class="card"><h2>Promos que mandan los visitantes <small id="sugCount"></small></h2><ul class="sugs" id="suggestions"></ul></article>
+  </section>
+
+  <section id="errores" class="sec">
+    <h2 class="sec-title">Errores</h2>
+    <article class="card"><h2>Errores reales en el navegador <button class="csv" data-for="errors">CSV</button><small>de nuestro código, sin extensiones ni anuncios</small></h2><div class="table" id="errors"></div></article>
   </section>
 
   <section class="card google sec" id="google">

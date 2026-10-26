@@ -1,0 +1,48 @@
+name: Smoke
+
+# Revisa que las rutas clave respondan 200 y muestren su contenido (build estático local y producción diaria).
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  local:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save playwright@1.63.0
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build:static
+      - name: Servir out
+        run: |
+          npx -y serve out -l 3000 > serve.log 2>&1 &
+          for i in $(seq 1 60); do
+            curl -fsS -o /dev/null http://localhost:3000/ && break
+            sleep 1
+          done
+      - run: node scripts/smoke.mjs http://localhost:3000
+
+  production:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save playwright@1.63.0
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/smoke.mjs https://cumplegratis.fun

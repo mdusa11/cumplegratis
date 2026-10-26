@@ -20,10 +20,14 @@ export const whatsappUrl = (text: string) => `https://wa.me/${WHATSAPP}?text=${e
 export const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON ?? "";
 
 /** AdSense: vacío = sin anuncios, sin aviso de cookies y sin ads.txt. El ID de editor y el del bloque son públicos. */
+// Para encender todos los anuncios basta con poner aquí el número de bloque (o en NEXT_PUBLIC_ADSENSE_SLOT).
 export const ADS = {
   client: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-8612524538834472",
   slot: process.env.NEXT_PUBLIC_ADSENSE_SLOT ?? "",
 };
+
+/** Un anuncio cada tantas tarjetas en listados, máximo 3 por página. */
+export const AD_EVERY = 12;
 
 /** Tarjetas por tanda en catálogo y categorías. */
 export const PAGE_SIZE = 24;

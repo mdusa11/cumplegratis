@@ -26,6 +26,7 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
   const g = getGuide((await params).slug);
   if (!g) notFound();
   const ids = g.sections.map((s) => slugify(s.title));
+  let adsLeft = 3;
   const tips = g.sections.find((s) => s.tips)?.tips?.slice(0, 3);
   const others = GUIDES.filter((o) => o.slug !== g.slug);
 
@@ -63,7 +64,6 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
 
       {g.sections.map((s, i) => (
         <section key={s.title} id={ids[i]} className="mt-14 scroll-mt-28">
-          {i === 1 && <AdSlot className="mb-14" />}
           <div className="flex items-center gap-3">
             {s.icon && <Icon name={s.icon} shadow className="!size-10 sm:!size-12" />}
             <TitleReveal text={s.title} as="h2" className="text-4xl sm:text-5xl" />
@@ -73,6 +73,11 @@ export default async function GuidePage({ params }: PageProps<"/guias/[slug]">) 
             <ol className="mt-6 space-y-3">
               {s.promos.map((p, i) => (
                 <Fragment key={p.slug}>
+                {i > 0 && i % 10 === 0 && adsLeft-- > 0 && (
+                  <li className="list-none">
+                    <AdSlot />
+                  </li>
+                )}
                 {s.promos!.length > 20 && i === 15 && (
                   <li className="card flex flex-wrap items-center justify-between gap-4 bg-acid p-5">
                     <p className="display text-3xl">Arma tu plan de cumpleaños</p>

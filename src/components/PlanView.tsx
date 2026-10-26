@@ -22,6 +22,7 @@ import { SplitText } from "./Reveal";
 import { buildIcs } from "@/lib/ics";
 import { track } from "@/lib/track";
 import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
+import { AdSlot } from "./Ads";
 import { API_ENABLED, MONTHS, REMINDERS_ON, cn } from "@/lib/site";
 import { ReminderSignup } from "./ReminderSignup";
 import { saveBirthday, toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
@@ -210,6 +211,7 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
         extra={{ title: "Quizá ya no alcanzas (intenta igual)", hint: "Su plazo ya pasó. Algunas marcas igual lo aceptan, o te sirve para el próximo año.", items: late }}
       />
       <Group id="despues" icon="calendar" title="Más adelante" hint="Tienes tiempo, pero no lo dejes para el final." items={later} done={done} />
+      {later.length > 0 && walkIn.length > 0 && <AdSlot className="my-6" />}
       <Group id="sin-registro" icon="id" title="Sin registro" hint="Solo llega en tu fecha con identificación oficial." items={walkIn} done={done} />
 
       <InstallCard />

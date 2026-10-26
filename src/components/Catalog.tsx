@@ -13,7 +13,7 @@ import { locationName, useAutoAskLocation, useLocation } from "./LocationProvide
 import { availability, channel, isAvailable } from "@/lib/availability";
 import { SAFE_DAYS } from "@/lib/plan";
 import { BENEFIT, CATEGORIES, GROUPS, byProminence, groupOf, normalize, type BenefitType, type CategoryId, type GroupId, type Promo } from "@/lib/promo-meta";
-import { PAGE_SIZE, cn } from "@/lib/site";
+import { AD_EVERY, PAGE_SIZE, cn } from "@/lib/site";
 import { loadPromos, useLazy } from "@/lib/use-lazy";
 
 type GroupFilter = GroupId | "todos";
@@ -29,8 +29,8 @@ const SORTS: { id: Sort; label: string }[] = [
 ];
 const pick = <T extends string>(v: string | null, allowed: readonly string[], fallback: T) => (v && allowed.includes(v) ? (v as T) : fallback);
 
-// Anuncios ligeros: después de la tarjeta 12 y de la 36.
-const AD_AFTER = [11, 35];
+// Anuncio tras cada 12 tarjetas, máximo 3.
+const hasAd = (i: number) => (i + 1) % AD_EVERY === 0 && (i + 1) / AD_EVERY <= 3;
 
 const NONE: Promo[] = [];
 
@@ -350,7 +350,7 @@ export function Catalog({ total, channels, children }: { total: number; channels
             >
               <PromoCard promo={p} />
             </motion.li>,
-            ...(AD_AFTER.includes(i)
+            ...(hasAd(i)
               ? [
                   <li key={`ad-${i}`} className="col-span-full">
                     <AdSlot />

@@ -16,6 +16,7 @@ export function Analytics() {
   const pathname = usePathname();
   const page = useRef<Page | null>(null);
   const vitals = useRef({ lcp: 0, cls: 0, inp: 0 });
+  const errors = useRef(new Set<string>());
 
   // Cierra el tramo visible de la página actual y lo manda.
   const flush = () => {
@@ -39,6 +40,7 @@ export function Analytics() {
 
   useEffect(() => {
     flush();
+    errors.current.clear();
     page.current = { path: clean(pathname), visibleSince: document.visibilityState === "visible" ? performance.now() : null, ms: 0, scroll: 0, vitalsSent: page.current !== null };
     track("pageview");
   }, [pathname]);
@@ -62,6 +64,30 @@ export function Analytics() {
       else if (page.current) page.current.visibleSince = performance.now();
     };
     const installed = () => track("install");
+
+    // Errores reales de nuestro código: máximo 5 por página y sin repetir mensaje; se ignoran extensiones y scripts de terceros.
+    const seen = errors.current;
+    const report = (msg: string, line: number | undefined, file = "") => {
+      const m = msg.replace(/\s+/g, " ").trim().slice(0, 160);
+      if (!m || seen.size >= 5 || seen.has(m)) return;
+      if (file && (new URL(file, location.href).origin !== location.origin || /googlesyndication|adsbygoogle|cloudflareinsights/i.test(file))) return;
+      if (!file && /^script error\.?$/i.test(m)) return;
+      seen.add(m);
+      track("error", { target: m, value: line });
+    };
+    const onError = (e: ErrorEvent) => {
+      try {
+        report(e.message || String(e.error ?? ""), e.lineno, e.filename);
+      } catch {}
+    };
+    const onRejection = (e: PromiseRejectionEvent) => {
+      try {
+        const r = e.reason;
+        report(r instanceof Error ? `${r.name}: ${r.message}` : String(r ?? ""), undefined, r instanceof Error ? (/(https?:\/\/[^\s)]+?):\d+:\d+/.exec(r.stack ?? "")?.[1] ?? "") : "");
+      } catch {}
+    };
+    addEventListener("error", onError);
+    addEventListener("unhandledrejection", onRejection);
 
     // Web Vitals sin librería: el último LCP, la suma de saltos de diseño y la interacción más lenta.
     const observers: PerformanceObserver[] = [];
@@ -112,6 +138,8 @@ export function Analytics() {
       document.removeEventListener("visibilitychange", visibility);
       removeEventListener("pagehide", flush);
       removeEventListener("appinstalled", installed);
+      removeEventListener("error", onError);
+      removeEventListener("unhandledrejection", onRejection);
       removeEventListener("pointerdown", stop, { capture: true });
       removeEventListener("keydown", stop, { capture: true });
       observers.forEach((o) => o.disconnect());

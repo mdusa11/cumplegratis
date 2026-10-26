@@ -1,7 +1,7 @@
 // Analítica propia y anónima: sin cookies ni IP. Un id aleatorio por pestaña (sessionStorage) para contar visitas.
 // Solo se envía en el dominio real; en desarrollo y en vistas previas no se mide.
 
-export type TrackType = "pageview" | "leave" | "promo_open" | "city_set" | "search" | "filter" | "share" | "whatsapp" | "signup_click" | "source" | "install" | "birthday";
+export type TrackType = "pageview" | "leave" | "promo_open" | "city_set" | "search" | "filter" | "share" | "whatsapp" | "signup_click" | "source" | "install" | "birthday" | "error" | "worked";
 
 let sid: string | null = null;
 let vid: string | null = null;
