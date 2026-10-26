@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { BusinessCta } from "@/components/BusinessCta";
 import { Icon } from "@/components/Icon";
+import { Suspense } from "react";
 import { Hero } from "@/components/Hero";
+import { BlokkuHomeCard } from "@/components/BlokkuWelcome";
 import { Marquee } from "@/components/Marquee";
 import { HowItWorks } from "@/components/HowItWorks";
 import { PromoCard } from "@/components/PromoCard";
@@ -73,6 +75,9 @@ export default function Home() {
 
   return (
     <>
+      <Suspense>
+        <BlokkuHomeCard />
+      </Suspense>
       <Hero featured={stickers} total={stats.total} row={featured.slice(0, 12)} />
 
       <div className="mx-auto max-w-7xl px-5 pt-8 sm:px-8">

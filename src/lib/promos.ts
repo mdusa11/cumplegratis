@@ -1,4 +1,6 @@
 import raw from "@/data/promos.json";
+import { blokkuPromo } from "@/data/blokku-promo";
+import { BLOKKU_PROMO_ON } from "./site";
 import { CATEGORIES, CONFIDENCE_RANK, groupOf, type Promo } from "./promo-meta";
 
 // La lista completa de promos. En componentes de cliente, importar de aquí solo donde de verdad se necesita la lista
@@ -8,7 +10,7 @@ export * from "./promo-meta";
 // Se evalúa al construir el sitio (diario en CI) y otra vez en el navegador: lo vencido no se muestra.
 const today = new Date().toISOString().slice(0, 10);
 
-export const promos: Promo[] = (raw as Promo[])
+export const promos: Promo[] = [...(raw as Promo[]), ...(BLOKKU_PROMO_ON ? [blokkuPromo] : [])]
   .filter((p) => p.category in CATEGORIES && !(p.validUntil && p.validUntil < today))
   .sort((a, b) => CONFIDENCE_RANK[a.confidence] - CONFIDENCE_RANK[b.confidence] || a.brand.localeCompare(b.brand, "es"));
 

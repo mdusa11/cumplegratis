@@ -41,7 +41,9 @@ function session() {
 function firstReferrer() {
   if (referrer !== undefined) return null;
   try {
-    const utm = new URLSearchParams(location.search).get("utm_source");
+    const q = new URLSearchParams(location.search);
+    // ?ref=blokku: visitas desde el cofre de cumpleaños del juego Blokku.
+    const utm = q.get("utm_source") ?? (q.get("ref") === "blokku" ? "blokku" : null);
     if (utm) return (referrer = `${utm.toLowerCase().slice(0, 30)} (enlace)`);
     const host = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, "") : "";
     referrer = host && !host.endsWith("cumplegratis.fun") ? host : null;

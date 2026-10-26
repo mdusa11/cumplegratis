@@ -48,6 +48,9 @@ export const API_ENABLED = process.env.NEXT_PUBLIC_STATIC !== "1";
 /** Recordatorios por correo (Worker + Resend). Se enciende cuando el dominio esté verificado en Resend y exista el secreto RESEND_API_KEY. */
 export const REMINDERS_ON = false;
 
+/** Promo de cumpleaños de Blokku 2.0 (src/data/blokku-promo.ts). Apagada = no existe en listados, sitemap, conteos, fichas ni JSON-LD. Encender el día que salga la 2.0 (ver README). */
+export const BLOKKU_PROMO_ON = false;
+
 /**
  * Datos del responsable para Términos y Aviso de privacidad (LFPDPPP).
  * PENDIENTE: llenar con los datos reales antes de recabar correos (nombre o razón social, domicilio y correo de contacto).

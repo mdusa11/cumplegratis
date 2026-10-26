@@ -25,6 +25,7 @@ import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "
 import { AdSlot } from "./Ads";
 import { API_ENABLED, MONTHS, REMINDERS_ON, cn } from "@/lib/site";
 import { ReminderSignup } from "./ReminderSignup";
+import { BlokkuWelcome } from "./BlokkuWelcome";
 import { saveBirthday, toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
 
 function useBirthday(): Birthday | null {
@@ -58,6 +59,7 @@ export function PlanView() {
   if (!birthday || editing) {
     return (
       <section className="flex min-h-[80svh] flex-col justify-center">
+        <BlokkuWelcome />
         <p className="mono-tag">Tu plan de cumpleaños</p>
         <h1 className="display mt-3 text-[clamp(4rem,14vw,12rem)]">
           <SplitText text="¿Cuándo" className="block" />
@@ -112,6 +114,7 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
   return (
     <>
       <LocationBand />
+      <BlokkuWelcome />
       {reminder && (
         <p role="status" className={cn("card mb-6 p-4 font-semibold", reminder === "ok" ? "bg-acid" : "bg-hot")}>
           {reminder === "ok" ? "Listo: tus recordatorios están activos. Te escribimos 30 días antes de tu cumple." : "Ese enlace ya no es válido. Suscríbete otra vez desde aquí abajo."}

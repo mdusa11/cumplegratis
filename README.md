@@ -24,3 +24,11 @@ npm run data         # une data/raw/*.json → src/data/promos.json (valida cada
 6. Rebuild diario (promos vencidas): Deploy Hook de Cloudflare llamado desde un cron (o Cron Trigger).
 
 Modo estático: las rutas `/api` (`route.dynamic.ts`) se excluyen solas; los formularios se ocultan hasta conectar Supabase con un runtime de servidor.
+
+## Promo de Blokku (apagada hasta la 2.0)
+
+Blokku (juego de Dusa Solutions) regala en tu cumple 500 Bloques, Bloques dobles y un marco «Cumpleañero». La entrada vive en `src/data/blokku-promo.ts`, fuera del pipeline `data/raw`, para que no llegue a `promos-min.json` ni al panel mientras esté apagada.
+
+- Interruptor: `BLOKKU_PROMO_ON` en `src/lib/site.ts` (hoy `false`). Con `false` no aparece en listados, sitemap, conteos, llms.txt, JSON-LD ni como ficha `/promos/blokku` (el export no la genera).
+- Encender el día que salga Blokku 2.0: cambiar a `true`, `npm run lint && npm run build:static`, commit y push a `main` (publica solo).
+- Bienvenida desde el juego: `/mi-cumple?ref=blokku&m=MES&d=DIA` (y `/?ref=blokku`). Esas visitas se registran como fuente `blokku (enlace)` en el panel `/admin` (sección de orígenes).
