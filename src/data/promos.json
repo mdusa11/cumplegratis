@@ -6245,7 +6245,7 @@
     ],
     "locationNote": "Sucursales como Paseo Tec 2, Nogalar, Plaza Sienna y Plaza Citadel",
     "needsId": null,
-    "companions": null,
+    "companions": 3,
     "validUntil": null
   },
   {
@@ -6398,43 +6398,6 @@
     "cities": [],
     "locationNote": "Todas las sucursales (CDMX: Amores, Coyoacán, Miyana, Nápoles, Narvarte, Reforma, Coapa, Roma; Edomex: Mundo E)",
     "needsId": false,
-    "companions": null,
-    "validUntil": null
-  },
-  {
-    "slug": "incredible-pizza-chihuahua",
-    "brand": "Incredible Pizza Chihuahua",
-    "category": "parques",
-    "benefit": "Cumpleañero entra gratis en paquetes de fiesta",
-    "benefitType": "regalo-con-compra",
-    "details": "Al contratar cualquier paquete de cumpleaños, el cumpleañero entra sin costo y recibe bolsita de dulces, foto del festejado y un giro en la ruleta de premios, con acceso a atracciones y videojuegos según el paquete. Paquetes de $399 a $729 por niño, mínimo 15 invitados; lunes a viernes desde las 3 pm y sábado y domingo desde las 2 pm.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Contratar un paquete de cumpleaños",
-      "Mínimo 15 invitados",
-      "Lun-vie desde 3 pm; sáb-dom desde 2 pm",
-      "Precios sujetos a cambio sin previo aviso"
-    ],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "El día de la fiesta que contrates",
-    "minPurchase": null,
-    "howToClaim": "Cotiza y reserva tu paquete por WhatsApp o teléfono (614 422 2550) con el restaurante.",
-    "sources": [
-      "https://incrediblepizzachihuahua.com/cumpleanos/",
-      "https://incrediblepizzachihuahua.com/"
-    ],
-    "confidence": "alta",
-    "coverage": "ciudades",
-    "states": [
-      "CHH"
-    ],
-    "cities": [
-      "chihuahua"
-    ],
-    "locationNote": "Periférico de la Juventud 6506, Col. Mezquites",
-    "needsId": null,
     "companions": null,
     "validUntil": null
   },
@@ -7559,7 +7522,7 @@
     ],
     "locationNote": "Sucursal Arboledas, Matamoros (página de Facebook \"Mariscos de la Rosa Suc. Arboledas\"). No pude abrir el post original: confirma por redes o teléfono.",
     "needsId": true,
-    "companions": null,
+    "companions": 5,
     "validUntil": null
   },
   {

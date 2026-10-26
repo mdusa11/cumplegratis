@@ -317,5 +317,24 @@
       "signupUrl": "http://www.pistadehielolanoria.com/promociones/"
     },
     "reason": "su https tiene certificado inválido; por http abre bien (24-oct-2026)"
+  },
+  {
+    "slug": "la-santa-kitchen-bar",
+    "patch": {
+      "companions": 3
+    },
+    "reason": "El detalle dice 'llegar con 3 amistades' pero el campo estaba vacío (26-oct-2026)"
+  },
+  {
+    "slug": "mariscos-de-la-rosa-matamoros",
+    "patch": {
+      "companions": 5
+    },
+    "reason": "'yendo con un mínimo de 5 personas' (26-oct-2026)"
+  },
+  {
+    "slug": "incredible-pizza-chihuahua",
+    "remove": true,
+    "reason": "Es un paquete de fiesta pagado ($399-$729 por niño, mínimo 15 invitados), no un regalo de cumpleaños"
   }
 ]
