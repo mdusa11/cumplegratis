@@ -210,6 +210,10 @@ export async function admin(request, env) {
   const api = { "/admin/api/stats": stats, "/admin/api/live": live, "/admin/api/gsc": gsc, "/admin/api/suggestions": suggestions }[path];
   if (api) {
     try {
+      // El panel abierto todo el día agotaba el límite gratis de lecturas de D1 (5 M filas/día):
+      // las estadísticas se sirven de caché del datacenter durante 5 min (solo tras pasar el login).
+      if (path === "/admin/api/stats" && request.method === "GET") return await cached(url, 300, () => api(url, env, request));
+      if (path === "/admin/api/live") return await cached(url, 60, () => api(url, env, request));
       return await api(url, env, request);
     } catch (e) {
       return Response.json({ error: String(e?.message ?? e) }, { status: 500 });
@@ -220,4 +224,17 @@ export async function admin(request, env) {
   out.headers.set("cache-control", "no-store");
   out.headers.set("x-robots-tag", "noindex");
   return out;
+}
+
+async function cached(url, seconds, make) {
+  const key = new Request(`https://panel-cache.cumplegratis.fun${url.pathname}?${[...url.searchParams].sort().map(([k, v]) => `${k}=${v}`).join("&")}`);
+  const cache = caches.default;
+  const hit = await cache.match(key);
+  if (hit) return new Response(hit.body, { headers: { "content-type": "application/json", "cache-control": "no-store", "x-panel-cache": "hit" } });
+  const res = await make();
+  if (res.ok) {
+    const body = await res.clone().arrayBuffer();
+    await cache.put(key, new Response(body, { headers: { "content-type": "application/json", "cache-control": `max-age=${seconds}` } }));
+  }
+  return res;
 }

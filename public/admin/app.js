@@ -631,6 +631,6 @@ fetch("/admin/meta.json")
   });
 
 // Todo se refresca solo mientras la pestaña está visible; lo "en vivo", más seguido.
-setInterval(() => document.visibilityState === "visible" && load(), 60_000);
-setInterval(() => document.visibilityState === "visible" && loadLive(), 15_000);
-setInterval(() => document.visibilityState === "visible" && loadSuggestions(), 60_000);
+setInterval(() => document.visibilityState === "visible" && load(), 300_000);
+setInterval(() => document.visibilityState === "visible" && loadLive(), 60_000);
+setInterval(() => document.visibilityState === "visible" && loadSuggestions(), 300_000);
