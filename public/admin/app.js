@@ -57,7 +57,7 @@ function readState() {
   } catch {}
   const s = {};
   for (const k of FILTERS) s[k] = url.get(k) ?? (url.toString() ? "" : (saved[k] ?? ""));
-  if (!s.from) s.from = daysAgo(30);
+  if (!s.from) s.from = daysAgo(7);
   if (!s.to) s.to = mxToday();
   return s;
 }
@@ -610,7 +610,7 @@ $("region").addEventListener("change", (e) => setState({ region: e.target.value,
 $("city").addEventListener("change", (e) => setState({ city: e.target.value }));
 $("app_city").addEventListener("change", (e) => setState({ app_city: e.target.value }));
 $("device").addEventListener("change", (e) => setState({ device: e.target.value }));
-$("clear").addEventListener("click", () => setState({ from: daysAgo(30), to: mxToday(), country: "", region: "", city: "", app_city: "", device: "" }));
+$("clear").addEventListener("click", () => setState({ from: daysAgo(7), to: mxToday(), country: "", region: "", city: "", app_city: "", device: "" }));
 document.addEventListener("click", (e) => {
   const b = e.target.closest?.("button.csv");
   if (b) downloadCsv(b.dataset.for);
@@ -631,6 +631,6 @@ fetch("/admin/meta.json")
   });
 
 // Todo se refresca solo mientras la pestaña está visible; lo "en vivo", más seguido.
-setInterval(() => document.visibilityState === "visible" && load(), 300_000);
+setInterval(() => document.visibilityState === "visible" && load(), 900_000);
 setInterval(() => document.visibilityState === "visible" && loadLive(), 60_000);
 setInterval(() => document.visibilityState === "visible" && loadSuggestions(), 300_000);

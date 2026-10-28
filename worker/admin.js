@@ -91,7 +91,7 @@ function filters(q, from, to) {
 async function stats(url, env) {
   const q = url.searchParams;
   const now = Date.now();
-  const from = mxDay(q.get("from"), now - 30 * 864e5);
+  const from = mxDay(q.get("from"), now - 7 * 864e5);
   const to = mxDay(q.get("to"), now) + 864e5;
   const { W, args } = filters(q, from, to);
   const prev = filters(q, from - (to - from), from);
@@ -161,18 +161,6 @@ async function stats(url, env) {
     live: st(`SELECT COUNT(DISTINCT sid) n FROM events WHERE ts >= ?`, [now - 30 * 60 * 1000]),
     errors: st(`SELECT target k, COUNT(*) n, COUNT(DISTINCT path) pages, MIN(path) path, GROUP_CONCAT(DISTINCT browser) browsers, GROUP_CONCAT(DISTINCT device) devices, GROUP_CONCAT(DISTINCT os) oses, MAX(ts) last
       FROM events WHERE ${W} AND type='error' GROUP BY target ORDER BY last DESC LIMIT 60`),
-    newVisitors: st(`WITH c AS (SELECT vid, MIN(ts) first FROM events WHERE vid IN (SELECT vid FROM events WHERE ${W} AND vid IS NOT NULL) GROUP BY vid HAVING first >= ? ORDER BY first DESC LIMIT 100),
-      f AS (SELECT c.vid, c.first, (SELECT sid FROM events e WHERE e.vid = c.vid AND e.ts = c.first LIMIT 1) sid FROM c)
-      SELECT f.first, (SELECT city FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) city, (SELECT region FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) region,
-        (SELECT country FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) country, (SELECT device FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) device,
-        (SELECT os FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) os, (SELECT browser FROM events e WHERE e.vid = f.vid AND e.ts = f.first LIMIT 1) browser,
-        (SELECT ref FROM events e WHERE e.sid = f.sid AND e.type = 'pageview' AND e.ref IS NOT NULL ORDER BY ts LIMIT 1) ref,
-        (SELECT group_concat(path, '|') FROM (SELECT path FROM events e WHERE e.sid = f.sid AND e.type = 'pageview' ORDER BY ts LIMIT 5)) pages,
-        (SELECT COUNT(DISTINCT target) FROM events e WHERE e.sid = f.sid AND e.type = 'promo_open') promos,
-        (SELECT COUNT(*) FROM events e WHERE e.sid = f.sid AND e.type IN ('birthday', 'city_set')) planned,
-        (SELECT COUNT(*) FROM events e WHERE e.sid = f.sid AND e.type = 'signup_click' AND e.target NOT LIKE '%.%') signup,
-        (SELECT COUNT(DISTINCT strftime('%Y-%m-%d', ${MX}, 'unixepoch')) FROM events WHERE vid = f.vid) days
-      FROM f ORDER BY f.first DESC`, [...args, from]),
   };
   const names = Object.keys(queries);
   const results = await db.batch(Object.values(queries));
@@ -183,6 +171,7 @@ async function stats(url, env) {
   out.prevGoogle = out.prevGoogle[0]?.n ?? 0;
   out.live = out.live[0]?.n ?? 0;
   out.appCities = out.appCities.map((r) => r.app_city);
+  out.newVisitors = await newVisitors(db, from, to);
   return Response.json(out, { headers: { "cache-control": "no-store" } });
 }
 
@@ -211,8 +200,8 @@ export async function admin(request, env) {
   if (api) {
     try {
       // El panel abierto todo el día agotaba el límite gratis de lecturas de D1 (5 M filas/día):
-      // las estadísticas se sirven de caché del datacenter durante 5 min (solo tras pasar el login).
-      if (path === "/admin/api/stats" && request.method === "GET") return await cached(url, 300, () => api(url, env, request));
+      // las estadísticas se sirven de caché del datacenter durante 15 min (solo tras pasar el login).
+      if (path === "/admin/api/stats" && request.method === "GET") return await cached(url, 900, () => api(url, env, request));
       if (path === "/admin/api/live") return await cached(url, 60, () => api(url, env, request));
       return await api(url, env, request);
     } catch (e) {
@@ -237,4 +226,35 @@ async function cached(url, seconds, make) {
     await cache.put(key, new Response(body, { headers: { "content-type": "application/json", "cache-control": `max-age=${seconds}` } }));
   }
   return res;
+}
+
+// Visitantes cuya primera visita cae en el periodo. Antes era una consulta con subconsultas por fila que leía
+// ~600 mil filas por carga y agotó el límite diario de D1; ahora son dos lecturas lineales y el resto se arma aquí.
+async function newVisitors(db, from, to) {
+  const { results: firsts } = await db
+    .prepare(`SELECT vid, MIN(ts) first FROM events WHERE vid IS NOT NULL GROUP BY vid HAVING first >= ?1 AND first < ?2 ORDER BY first DESC LIMIT 100`)
+    .bind(from, to)
+    .all();
+  if (!firsts.length) return [];
+  const { results: rows } = await db
+    .prepare(`SELECT vid, sid, ts, type, path, target, ref, city, region, country, device, os, browser FROM events WHERE vid IN (${firsts.map(() => "?").join(",")}) ORDER BY ts`)
+    .bind(...firsts.map((f) => f.vid))
+    .all();
+  const byVid = new Map(firsts.map((f) => [f.vid, []]));
+  for (const r of rows) byVid.get(r.vid)?.push(r);
+  return firsts.map(({ vid, first }) => {
+    const all = byVid.get(vid);
+    const head = all.find((r) => r.ts === first) ?? all[0];
+    const s = all.filter((r) => r.sid === head.sid);
+    return {
+      first,
+      city: head.city, region: head.region, country: head.country, device: head.device, os: head.os, browser: head.browser,
+      ref: s.find((r) => r.type === "pageview" && r.ref)?.ref ?? null,
+      pages: s.filter((r) => r.type === "pageview").slice(0, 5).map((r) => r.path).join("|"),
+      promos: new Set(s.filter((r) => r.type === "promo_open").map((r) => r.target)).size,
+      planned: s.filter((r) => r.type === "birthday" || r.type === "city_set").length,
+      signup: s.filter((r) => r.type === "signup_click" && !String(r.target).includes(".")).length,
+      days: new Set(all.map((r) => new Date(r.ts - 21600e3).toISOString().slice(0, 10))).size,
+    };
+  });
 }
