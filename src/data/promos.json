@@ -19851,6 +19851,39 @@
     "validUntil": "2026-11-01"
   },
   {
+    "slug": "parque-girasoles-purisima",
+    "brand": "Parque Girasoles (Purísima del Rincón)",
+    "category": "parques",
+    "benefit": "Entrada gratis al balneario para el cumpleañero",
+    "benefitType": "gratis",
+    "details": "El cumpleañero entra gratis al balneario si compra en línea el acceso de 2 acompañantes (adultos $180, niños $90, en cualquier combinación). Hay que reservar con al menos un día de anticipación; martes cerrado de septiembre a febrero. Vigente hasta el 31 de diciembre de 2026.",
+    "program": null,
+    "signupUrl": "https://parquegirasoles.com/paquete/cumpleanero-gratis/",
+    "requirements": [
+      "Comprar el acceso de 2 acompañantes",
+      "Reservar al menos 1 día antes",
+      "Identificación con tu fecha de nacimiento"
+    ],
+    "registerDaysBefore": null,
+    "window": "otro",
+    "windowNote": "En tu cumpleaños; confirma al reservar si aplica todo tu mes",
+    "minPurchase": null,
+    "howToClaim": "Reserva en su sitio el paquete «Cumpleañero Gratis» con los accesos de tus acompañantes y presenta tu identificación al llegar.",
+    "sources": [
+      "https://parquegirasoles.com/paquete/cumpleanero-gratis/"
+    ],
+    "confidence": "alta",
+    "coverage": "estados",
+    "states": [
+      "GUA"
+    ],
+    "cities": [],
+    "locationNote": "Purísima del Rincón, Gto., a unos 30 min de León",
+    "needsId": true,
+    "companions": 2,
+    "validUntil": "2026-12-31"
+  },
+  {
     "slug": "porfirios-merida",
     "brand": "Porfirio's Mérida",
     "category": "restaurantes",

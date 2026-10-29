@@ -16,14 +16,14 @@ import { useOpenPromo } from "./PromoSheet";
 import { availability, channel, isAvailable } from "@/lib/availability";
 import { ChannelFilter } from "./ChannelFilter";
 import { countChannels, type ChannelPick } from "@/lib/channels";
-import { days, promos } from "@/lib/promos";
+import { byProminence, days, groupOf, promos, type Promo } from "@/lib/promos";
 import { postJson } from "./SuggestForm";
 import { SplitText } from "./Reveal";
 import { buildIcs } from "@/lib/ics";
 import { track } from "@/lib/track";
 import { SAFE_DAYS, buildPlan, formatDate, type Birthday, type PlanItem } from "@/lib/plan";
 import { AdSlot } from "./Ads";
-import { API_ENABLED, MONTHS, REMINDERS_ON, cn } from "@/lib/site";
+import { API_ENABLED, MONTHS, REMINDERS_ON, SITE, cn } from "@/lib/site";
 import { ReminderSignup } from "./ReminderSignup";
 import { BlokkuWelcome } from "./BlokkuWelcome";
 import { saveBirthday, toggleDone, useDone, useHydrated, useStoredBirthday } from "@/lib/storage";
@@ -107,6 +107,58 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   };
 
+  const [busy, setBusy] = useState(false);
+  const [notice, setNotice] = useState("");
+  const shareImage = async () => {
+    if (busy) return;
+    setBusy(true);
+    track("share", { target: "imagen" });
+    try {
+      const all = [...urgent, ...late, ...later, ...walkIn].map((i) => i.promo);
+      // Lo que antoja compartir: comida y planes gratis de marcas conocidas antes que puntos o descuentos.
+      const appeal = (p: Promo) => (groupOf(p) === "comida" ? 0 : groupOf(p) === "diversion" ? 1 : 2);
+      const top = all.filter((p) => p.benefitType === "gratis" && p.confidence === "alta").sort((a, b) => appeal(a) - appeal(b) || byProminence(a, b));
+      const brands = [...top, ...all.filter((p) => !top.includes(p))].slice(0, 3).map((p) => ({ brand: p.brand, benefit: p.benefit }));
+      const { renderShareCard } = await import("./ShareCard");
+      const blob = await renderShareCard({
+        day: birthday.d,
+        month: MONTHS[birthday.m - 1],
+        total: plan.total,
+        toRegister: needSignup.length,
+        walkIn: plan.walkIn.length,
+        brands,
+        city: location ? locationName(location) : undefined,
+      });
+      const file = new File([blob], "cumplegratis-mi-cumple.png", { type: "image/png" });
+      const url = `${SITE.url}/mi-cumple/?m=${birthday.m}&d=${birthday.d}&utm_source=compartido`;
+      if (navigator.canShare?.({ files: [file] })) {
+        try {
+          await navigator.share({ files: [file], text: `Mira cuántos regalos me tocan en mi cumple: ${url}` });
+        } catch {}
+      } else {
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = file.name;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+        let copied = false;
+        try {
+          await navigator.clipboard.writeText(url);
+          copied = true;
+        } catch {}
+        setNotice(copied ? "Imagen descargada y enlace copiado." : "Imagen descargada.");
+        setTimeout(() => setNotice(""), 4000);
+      }
+    } catch {
+      setNotice("No se pudo crear la imagen. Intenta otra vez.");
+      setTimeout(() => setNotice(""), 4000);
+    } finally {
+      setBusy(false);
+    }
+  };
+
   useEffect(() => {
     if (isToday) burst({ x: 0.5, y: 0.3 });
   }, [isToday]);
@@ -165,8 +217,16 @@ function Plan({ birthday, onEdit }: { birthday: Birthday; onEdit: () => void }) 
         <button type="button" onClick={downloadIcs} className="btn btn-paper gap-2 !text-lg">
           <Icon name="calendar" /> Agregar a mi calendario
         </button>
+        <button type="button" onClick={shareImage} disabled={busy} className="btn btn-paper gap-2 !text-lg disabled:opacity-50">
+          <Icon name="share" /> {busy ? "Generando…" : "Compartir como imagen"}
+        </button>
         <GiftPlan total={promos.length} />
         </div>
+        {notice && (
+          <p role="status" className="mt-3 font-semibold">
+            {notice}
+          </p>
+        )}
 
         {needSignup.length > 0 && (
           <div className="card mt-6 bg-paper p-5">
