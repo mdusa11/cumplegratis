@@ -264,6 +264,9 @@ export default async function PromoPage({ params }: PageProps<"/promos/[slug]">)
             <p className="mono-tag">¿Qué tan segura es?</p>
             <p className="display mt-2 text-4xl">{confidence.label}</p>
             <p className="mt-2">{confidence.hint}</p>
+            <Link href="/como-verificamos" className="mt-2 inline-block text-sm font-bold underline underline-offset-4 hover:text-hot">
+              Cómo verificamos
+            </Link>
             {sources.length > 0 && (
               <>
                 <SourceList list={mainSources} />

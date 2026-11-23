@@ -83,6 +83,9 @@ export function Footer() {
         <Link href="/acerca" className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Acerca de
         </Link>
+        <Link href="/como-verificamos" className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
+          Cómo verificamos
+        </Link>
         <Link href="/contacto" className="inline-block py-3 text-paper/70 underline-offset-4 hover:text-acid hover:underline">
           Contacto
         </Link>

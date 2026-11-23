@@ -256,6 +256,12 @@ export default function Home() {
         <p className="mono-tag">Preguntas</p>
         <TitleReveal text="Lo que todos preguntan" className="mt-3 mb-12 text-[clamp(3.5rem,9vw,8rem)]" />
         <Faq items={FAQ} />
+        <p className="mt-8 text-lg font-medium">
+          ¿Más dudas?{" "}
+          <Link href="/respuestas" className="font-bold underline underline-offset-4 hover:text-hot">
+            Mira más preguntas respondidas →
+          </Link>
+        </p>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={jsonLd({

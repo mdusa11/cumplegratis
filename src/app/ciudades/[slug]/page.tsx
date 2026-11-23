@@ -7,13 +7,13 @@ import { SplitText } from "@/components/Reveal";
 import { SetCityButton } from "@/components/SetCityButton";
 import { CountUp } from "@/components/fx";
 import { promosInCity } from "@/lib/cities-data";
-import { CITIES, STATES, type CitySlug } from "@/lib/places";
-import { CATEGORIES, type CategoryId } from "@/lib/promos";
+import { CITIES, NEARBY_KM, STATES, citiesOf, distanceKm, type CitySlug } from "@/lib/places";
+import { CATEGORIES, byProminence, promos, type CategoryId } from "@/lib/promos";
 import { PromoCard } from "@/components/PromoCard";
 import { countChannels } from "@/lib/channels";
 import { channel } from "@/lib/availability";
 import { PAGE_SIZE, breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
-import { GROUP_PAGE, STATE_SLUG, cityGroups } from "@/lib/seo-pages";
+import { GROUP_PAGE, STATE_SLUG, cityGroups, isThinCity } from "@/lib/seo-pages";
 
 export const dynamicParams = false;
 
@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: PageProps<"/ciudades/[slug]">
     title: `Promociones de cumpleaños en ${slug === "cdmx" ? "CDMX" : name} ${year}: ${local.length + national.length} lugares`,
     description: clip(`${local.length + national.length} lugares que te regalan algo en tu cumpleaños en ${name}, ${STATES[CITIES[slug].state].name}: ${local.length} locales y ${national.length} cadenas nacionales. Requisitos y cómo cobrarlos.`),
     alternates: { canonical: `/ciudades/${slug}` },
+    ...(isThinCity(slug) && { robots: { index: false, follow: true } }),
   };
 }
 
@@ -52,6 +53,27 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
   const catCount = new Map<string, number>();
   local.forEach((p) => catCount.set(CATEGORIES[p.category].label.toLowerCase(), (catCount.get(CATEGORIES[p.category].label.toLowerCase()) ?? 0) + 1));
   const topCats = [...catCount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([c]) => c);
+
+  // Bloque propio: solo locales confirmadas de esta ciudad, sus categorías, cuáles no existen en otro lado y vecinas cercanas.
+  const confirmed = promos.filter((p) => p.coverage === "ciudades" && p.cities.includes(slug) && p.confidence !== "baja").sort(byProminence);
+  const only = confirmed.filter((p) => p.cities.length === 1);
+  const brandOf = (p: (typeof promos)[number]) => p.brand.replace(/\s*\([^)]*\)/g, "");
+  const cats = new Map<CategoryId, number>();
+  confirmed.forEach((p) => cats.set(p.category, (cats.get(p.category) ?? 0) + 1));
+  const catRank = [...cats.entries()].sort((a, b) => b[1] - a[1]);
+  const lead = catRank[0] && catRank[0][1] >= 2 && catRank[0][1] > confirmed.length / 3 ? catRank[0] : null;
+  const featured = [...only, ...confirmed.filter((p) => p.cities.length > 1)].slice(0, 5);
+  const nearby = (Object.keys(CITIES) as CitySlug[])
+    .filter((c) => c !== slug)
+    .map((c) => ({ c, km: distanceKm(CITIES[slug], CITIES[c]) }))
+    .filter(({ km }) => km <= NEARBY_KM)
+    .sort((a, b) => a.km - b.km)
+    .slice(0, 4);
+  const sameState = citiesOf(state).filter((c) => c !== slug && !nearby.some((n) => n.c === c)).slice(0, 3);
+  const nat = national.length;
+  const many = (n: number, one: string, other: string) => `${n} ${n === 1 ? one : other}`;
+  const join = (xs: string[]) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} y ${xs[xs.length - 1]}`);
+  const stateName = STATES[state].name;
 
   return (
     <div className="mx-auto max-w-7xl px-5 pt-32 pb-24 sm:px-8 md:pt-40">
@@ -104,6 +126,92 @@ export default async function CityPage({ params }: PageProps<"/ciudades/[slug]">
           national: { total: national.length, first: cards(national) },
         }}
       />
+
+      <section className="mt-20 max-w-3xl space-y-4 text-lg leading-relaxed" aria-labelledby="sobre-ciudad">
+        <h2 id="sobre-ciudad" className="display text-4xl sm:text-5xl">
+          Promos de cumple en {name}, en corto
+        </h2>
+        {confirmed.length === 0 ? (
+          <p>
+            Por ahora no tenemos negocios propios de {name} con promo de cumpleaños confirmada, así que lo que ves aquí son {many(nat, "cadena nacional", "cadenas nacionales")} con sucursal o canje en línea. Si conoces un lugar de {name} que regale algo,{" "}
+            <Link href="/promos#sugerir" className="font-bold underline underline-offset-4 hover:text-hot">
+              mándanoslo
+            </Link>{" "}
+            y lo verificamos.
+          </p>
+        ) : (
+          <>
+            <p>
+              En {name} hay {many(confirmed.length, "promo local confirmada", "promos locales confirmadas")}
+              {nat > 0 && <>, además de {many(nat, "cadena nacional", "cadenas nacionales")}</>}.
+              {lead ? (
+                <> Lo que más pesa es {CATEGORIES[lead[0]].label.toLowerCase()} ({lead[1]} de {confirmed.length})</>
+              ) : catRank.length > 1 ? (
+                <> Están repartidas entre {join(catRank.slice(0, 3).map(([c]) => CATEGORIES[c].label.toLowerCase()))}, sin una categoría que domine</>
+              ) : (
+                <> Todas son de {CATEGORIES[catRank[0][0]].label.toLowerCase()}</>
+              )}
+              {lead && catRank.length > 1 && <>, seguido de {join(catRank.slice(1, 3).map(([c]) => CATEGORIES[c].label.toLowerCase()))}</>}.
+            </p>
+            {featured.length > 0 && (
+              <p>
+                {only.length > 0 ? "Para empezar, " : "Las más visibles son "}
+                {featured.map((p, i) => (
+                  <span key={p.slug}>
+                    {i > 0 && (i === featured.length - 1 ? " y " : ", ")}
+                    <Link href={`/promos/${p.slug}`} className="font-bold underline underline-offset-4 hover:text-hot">
+                      {brandOf(p)}
+                    </Link>
+                  </span>
+                ))}
+                {only.length > 0 ? "." : ", que también aplican en otras ciudades."}
+                {only.length > 0 && (
+                  <>
+                    {" "}
+                    {only.length === confirmed.length
+                      ? `Todas son exclusivas de ${name}.`
+                      : `${many(only.length, "es exclusiva", "son exclusivas")} de ${name}; ${confirmed.length - only.length === 1 ? "la otra también vale" : "las demás también valen"} en otras ciudades.`}
+                  </>
+                )}
+              </p>
+            )}
+          </>
+        )}
+        <p>
+          {nearby.length > 0 ? (
+            <>
+              Si te mueves por la zona, a menos de {NEARBY_KM} km también tienes{" "}
+              {nearby.map(({ c }, i) => (
+                <span key={c}>
+                  {i > 0 && (i === nearby.length - 1 ? " y " : ", ")}
+                  <Link href={`/ciudades/${c}`} className="font-bold underline underline-offset-4 hover:text-hot">
+                    {CITIES[c].name}
+                  </Link>
+                </span>
+              ))}
+              .{" "}
+            </>
+          ) : sameState.length > 0 ? (
+            <>
+              No hay otra ciudad nuestra a menos de {NEARBY_KM} km; en {stateName} también puedes ver{" "}
+              {sameState.map((c, i) => (
+                <span key={c}>
+                  {i > 0 && (i === sameState.length - 1 ? " y " : ", ")}
+                  <Link href={`/ciudades/${c}`} className="font-bold underline underline-offset-4 hover:text-hot">
+                    {CITIES[c].name}
+                  </Link>
+                </span>
+              ))}
+              .{" "}
+            </>
+          ) : null}
+          Todo lo de{" "}
+          <Link href={`/estados/${STATE_SLUG[state]}`} className="font-bold underline underline-offset-4 hover:text-hot">
+            {stateName}
+          </Link>{" "}
+          está en su página de estado.
+        </p>
+      </section>
 
       <BusinessCta city={name} className="mt-20" />
 

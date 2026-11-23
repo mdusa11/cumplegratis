@@ -1,9 +1,11 @@
+import Link from "next/link";
 import { jsonLd } from "@/lib/site";
 
 export type QA = { q: string; a: string };
+type Item = QA & { links?: { label: string; href: string }[] };
 
 /** Preguntas frecuentes plegables con <details>: las respuestas siempre están en el HTML (Google las lee) y llevan su FAQPage. */
-export function FaqList({ items, jsonLdItems = items, title = "Preguntas frecuentes", className }: { items: QA[]; jsonLdItems?: QA[]; title?: string; className?: string }) {
+export function FaqList({ items, jsonLdItems = items, title = "Preguntas frecuentes", className }: { items: Item[]; jsonLdItems?: QA[]; title?: string; className?: string }) {
   if (!items.length) return null;
   return (
     <section className={className}>
@@ -18,6 +20,17 @@ export function FaqList({ items, jsonLdItems = items, title = "Preguntas frecuen
               </span>
             </summary>
             <p className="mt-3 text-lg leading-relaxed">{f.a}</p>
+            {f.links?.length ? (
+              <ul className="mt-4 flex flex-wrap gap-2">
+                {f.links.map((l) => (
+                  <li key={l.href}>
+                    <Link href={l.href} className="chip bg-paper transition-colors hover:bg-acid">
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </details>
         ))}
       </div>

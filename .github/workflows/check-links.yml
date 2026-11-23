@@ -1,0 +1,37 @@
+name: Check links
+
+# El día 1 de cada mes revisa los enlaces de las promos y abre (o actualiza) un issue con los rotos.
+on:
+  schedule:
+    - cron: '0 14 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-links.mjs > links.md
+      - name: Issue con los rotos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat links.md
+          if ! grep -q '^- ' <(sed -n '/^## Rotos/,/^## Bloqueados/p' links.md); then
+            echo "Sin enlaces rotos."
+            exit 0
+          fi
+          TITLE="Enlaces rotos de promos ($(date -u +%Y-%m))"
+          NUM=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number')
+          if [ -n "$NUM" ]; then
+            gh issue edit "$NUM" --body-file links.md
+          else
+            gh issue create --title "$TITLE" --body-file links.md
+          fi

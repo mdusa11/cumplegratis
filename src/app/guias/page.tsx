@@ -30,6 +30,12 @@ export default function Guias() {
           </Reveal>
         ))}
       </div>
+      <p className="mt-10 text-lg font-medium">
+        ¿Prefieres respuestas rápidas?{" "}
+        <Link href="/respuestas" className="font-bold underline underline-offset-4 hover:text-hot">
+          Preguntas sobre regalos de cumpleaños, respondidas →
+        </Link>
+      </p>
     </div>
   );
 }

@@ -65,9 +65,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Providers>
           <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={jsonLd([
+            dangerouslySetInnerHTML={jsonLd({
+              "@context": "https://schema.org",
+              "@graph": [
               {
-                "@context": "https://schema.org",
                 "@type": "Organization",
                 name: SITE.name,
                 url: SITE.url,
@@ -77,7 +78,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 contactPoint: { "@type": "ContactPoint", telephone: `+${WHATSAPP}`, email: LEGAL.email, contactType: "customer support", areaServed: "MX", availableLanguage: "es" },
               },
               {
-                "@context": "https://schema.org",
                 "@type": "WebSite",
                 name: SITE.name,
                 url: SITE.url,
@@ -86,7 +86,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 publisher: { "@type": "Organization", name: STUDIO.name, url: STUDIO.url },
                 potentialAction: { "@type": "SearchAction", target: `${SITE.url}/promos/?q={search_term_string}`, "query-input": "required name=search_term_string" },
               },
-            ])}
+              ],
+            })}
           />
           <ScrollProgress />
           <FloatingCTA />

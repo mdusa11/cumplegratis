@@ -5,7 +5,7 @@ import { SITE, cn, pageUrl, whatsappUrl } from "@/lib/site";
 export function ReportChange({ slug, brand, className }: { slug: string; brand: string; className?: string }) {
   return (
     <div className={cn("flex flex-wrap items-center gap-x-4 gap-y-2", className)}>
-      <p className="mono-tag">Revisada: {SITE.lastReview}</p>
+      <p className="mono-tag">Revisada: {SITE.lastReview} por el equipo de Cumplegratis</p>
       <a
         href={whatsappUrl(`Hola, la promo de ${brand} en Cumplegratis cambió o ya no existe: ${pageUrl(`/promos/${slug}`)}`)}
         target="_blank"

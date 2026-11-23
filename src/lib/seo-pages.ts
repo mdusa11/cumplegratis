@@ -28,6 +28,18 @@ export function promosInState(state: StateCode) {
   };
 }
 
+/* ---------- Páginas flacas (noindex y fuera del sitemap) ---------- */
+
+export const THIN_MIN = 3;
+
+/** Ciudad con menos de 3 promos locales confirmadas propias: queda accesible pero sin indexar. */
+export const isThinCity = (city: CitySlug) =>
+  promos.filter((p) => p.coverage === "ciudades" && p.cities.includes(city) && p.confidence !== "baja").length < THIN_MIN;
+
+/** Estado con menos de 3 promos locales o regionales confirmadas. */
+export const isThinState = (state: StateCode) =>
+  promos.filter((p) => p.coverage != null && p.coverage !== "nacional" && p.states.includes(state) && p.confidence !== "baja").length < THIN_MIN;
+
 /* ---------- Ciudad × tipo ---------- */
 
 export const CITY_GROUP_MIN = 6;

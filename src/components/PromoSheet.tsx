@@ -242,6 +242,10 @@ function Sheet({ promo, onClose }: { promo: Promo; onClose: () => void }) {
             <Section title="¿Qué tan segura es?">
               <motion.p variants={ITEM}>
                 <b>{CONFIDENCE[promo.confidence].label}:</b> {CONFIDENCE[promo.confidence].hint}
+                {" "}
+                <Link href="/como-verificamos" onClick={onClose} className="font-bold underline underline-offset-2 hover:text-hot">
+                  Cómo verificamos
+                </Link>
               </motion.p>
               {sources.length > 0 && (
                 <motion.ul variants={ITEM} className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm">

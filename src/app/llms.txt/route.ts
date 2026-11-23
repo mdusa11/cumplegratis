@@ -2,6 +2,7 @@
 
 export const dynamic = "force-static";
 import { CATEGORIES, byProminence, promos, signupLabel, type CategoryId } from "@/lib/promos";
+import { answers } from "@/lib/respuestas";
 import { GUIDES } from "@/lib/guides";
 import { MONTHS, SITE, STUDIO, pageUrl } from "@/lib/site";
 
@@ -15,6 +16,10 @@ export function GET() {
     `> ${SITE.tagline}. ${SITE.description}`,
     "",
     `Directorio independiente y gratuito de promociones de cumpleaños en México, hecho por ${STUDIO.name}. Cada promo dice qué regalan, si hay que registrarse y con cuántos días de anticipación, cuándo se cobra (el día, la semana o el mes), requisitos y en qué estados o ciudades aplica. Se revisa contra las fuentes oficiales de cada marca; última revisión: ${SITE.lastReview}. Las condiciones las pone cada marca y pueden cambiar.`,
+    "",
+    "## Respuestas rápidas",
+    ...answers().map((r) => `- ${r.q} ${r.a}`),
+    `- Más preguntas con enlaces a cada marca: ${pageUrl("/respuestas")}`,
     "",
     "## Secciones",
     `- [Todas las promos](${pageUrl("/promos")}): catálogo completo con filtros por ciudad, categoría y tipo de regalo`,

@@ -10,7 +10,7 @@ import { CountUp, TitleReveal } from "@/components/fx";
 import { promosInCity } from "@/lib/cities-data";
 import { CITIES, STATES, citiesOf, type StateCode } from "@/lib/places";
 import { CATEGORIES } from "@/lib/promos";
-import { STATE_SLUG, promosInState, stateBySlug } from "@/lib/seo-pages";
+import { STATE_SLUG, isThinState, promosInState, stateBySlug } from "@/lib/seo-pages";
 import { breadcrumbs, clip, itemList, jsonLd } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: PageProps<"/estados/[slug]">)
     title: `Promociones de cumpleaños en ${name} ${year}`,
     description: clip(`${local.length + national.length} lugares que te regalan algo en tu cumpleaños en ${name}: ${local.length} negocios locales y ${national.length} cadenas. Comida gratis, cine, descuentos, requisitos y cómo cobrarlo.`),
     alternates: { canonical: `/estados/${STATE_SLUG[code]}` },
+    ...(isThinState(code) && { robots: { index: false, follow: true } }),
   };
 }
 
