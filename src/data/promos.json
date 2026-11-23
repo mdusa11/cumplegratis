@@ -161,15 +161,16 @@
     "slug": "sumo-all-you-can-eat",
     "brand": "Sumo All You Can Eat",
     "category": "restaurantes",
-    "benefit": "Buffet, botella o postre gratis con 4 amigos",
+    "benefit": "Buffet, postre, 2 jarras de cerveza o botella de Bacardí/Skyy gratis (eliges uno)",
     "benefitType": "gratis",
-    "details": "En tu mes de cumpleaños eliges una cortesía: buffet gratis o botella de vodka, tequila o ron (con 4 acompañantes) o una copa brownie gratis (con tu pareja), según la promoción vigente. Un cumpleañero por mesa; solo consumo en restaurante en sucursales Sumo All You Can Eat y Express, no combinable con otras ofertas.",
+    "details": "En el mes de tu cumpleaños eliges una cortesía: buffet All You Can Eat gratis (se activa con la compra de una bebida), postre de temporada, 2 jarras de cerveza clara de 1.8 L cada una, o una botella de Bacardí blanco 750 ml o Skyy 750 ml (se consume en el restaurante, sin mezcladores). Requiere 1 cumpleañero por mesa y mínimo 4 acompañantes que consuman buffet o a la carta; el postre de temporada aplica si el cumpleañero es menor de edad o no va con al menos 4 personas. Solo consumo en restaurante en sucursales Sumo All You Can Eat y Express; no acumulable con otras promociones.",
     "program": null,
     "signupUrl": null,
     "requirements": [
       "Identificación oficial vigente (menores: CURP impresa o digital)",
-      "1 cumpleañero por mesa + mínimo 4 acompañantes",
-      "Consumo All You Can Eat o a la carta",
+      "1 cumpleañero por mesa + mínimo 4 acompañantes (excepto el postre, que aplica si eres menor o vas con menos de 4)",
+      "Acompañantes con consumo de buffet o a la carta",
+      "Buffet gratis: promoción individual, se activa comprando una bebida; cerveza y botella no sustituyen esa bebida",
       "Solo en restaurante, no para llevar",
       "No combinable con otras promociones"
     ],
@@ -177,10 +178,10 @@
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños",
     "minPurchase": null,
-    "howToClaim": "Avisa al mesero al llegar y presenta tu identificación vigente.",
+    "howToClaim": "Reserva o avisa al llegar, elige tu cortesía y presenta tu identificación oficial vigente (INE o CURP si eres menor).",
     "sources": [
-      "https://sumo.com.mx/promociones/",
-      "https://sumo.com.mx/sucursales/"
+      "https://sumo.com.mx/#promos",
+      "https://sumo.com.mx/#sucursales"
     ],
     "confidence": "alta",
     "coverage": "ciudades",
@@ -209,20 +210,21 @@
     "category": "cafe",
     "benefit": "Bebida de cumpleaños gratis",
     "benefitType": "gratis",
-    "details": "Los miembros del programa Gong Cha Rewards (niveles White, Black y Red) reciben una bebida gratis válida durante todo el mes de su cumpleaños. El nivel White no exige visitas mínimas; Black requiere 3 visitas al mes y Red 5.",
+    "details": "Los miembros de Gong cha Rewards reciben una bebida de cumpleaños gratis, válida durante el mes de su cumpleaños, en los tres niveles del programa (nivel inicial; nivel de 3 visitas al mes; nivel de 5 visitas al mes). El sitio ya no nombra los niveles White, Black y Red. La inscripción es por WhatsApp y se obtiene una tarjeta digital para Apple Wallet o Google Wallet; sin app.",
     "program": "Gong Cha Rewards",
-    "signupUrl": "https://gongcha.mx/conoce-nuestro-programa-de-recompensas/",
+    "signupUrl": "https://gongcha.mx/recompensas/",
     "requirements": [
-      "Inscribirte al programa Gong Cha Rewards con tu cumpleaños",
-      "Mantener tu nivel (White, Black o Red)"
+      "Inscribirte a Gong cha Rewards por WhatsApp con tu fecha de cumpleaños y guardar tu tarjeta digital en Apple Wallet o Google Wallet",
+      "Canjear dentro del mes de tu cumpleaños"
     ],
     "registerDaysBefore": null,
     "window": "mes",
     "windowNote": "Todo el mes de tu cumpleaños",
     "minPurchase": null,
-    "howToClaim": "Canjea tu bebida de cumpleaños desde tu wallet de Gong Cha Rewards en sucursal.",
+    "howToClaim": "Muestra tu tarjeta digital Gong cha Rewards (Apple Wallet o Google Wallet) en sucursal durante el mes de tu cumpleaños.",
     "sources": [
-      "https://gongcha.mx/recompensas/terminos-y-condiciones-programa-de-lealtad/",
+      "https://gongcha.mx/recompensas/",
+      "https://gongcha.mx/wp-content/uploads/2026/11/TERMINOS-Y-CONDICIONES-.pdf",
       "https://gongcha.mx/"
     ],
     "confidence": "alta",
@@ -4363,49 +4365,6 @@
     "validUntil": null
   },
   {
-    "slug": "la-nona-lola-guadalajara",
-    "brand": "La Nona Lola",
-    "category": "restaurantes",
-    "benefit": "Pizza gratis en miércoles y viernes de cumpleañero",
-    "benefitType": "gratis",
-    "details": "La pizzería tiene 'Miércoles de cumpleañero' (una pizza participante gratis en el mes de tu cumpleaños) y una promo de viernes con pizza participante o botella gratis. Según sus páginas de restricciones: cumplir años en el mes, 1 promoción por mesa, consumir 1 entrada por persona, identificación con fotografía y fecha de nacimiento, solo en restaurante y sin mínimo de personas. La página de restricciones de Guadalajara no se pudo abrir (sitio caído al revisarlo), por lo que las reglas salen de las de otras sucursales.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Identificación oficial con foto y fecha de nacimiento",
-      "Cumplir años en el mes en que canjeas",
-      "Pedir 1 entrada por persona",
-      "1 promoción por mesa; solo pizzas participantes",
-      "Solo consumo en el restaurante"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Miércoles (pizza) y viernes (pizza o botella) del mes de tu cumpleaños",
-    "minPurchase": null,
-    "howToClaim": "Pide en mesa en miércoles o viernes y presenta tu identificación con foto.",
-    "sources": [
-      "https://www.lanonalola.mx/restricciones-aguascalientes",
-      "https://www.lanonalola.mx/restriccionesleon",
-      "https://www.tiktok.com/@atascadosgdl/video/7430622348002282757"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "AGU",
-      "GUA",
-      "JAL"
-    ],
-    "cities": [
-      "guadalajara",
-      "leon",
-      "aguascalientes"
-    ],
-    "locationNote": "Sucursal Guadalajara en Avanti Plaza (Morelos 1739 int. 7, col. Americana); también hay sucursales en León, Aguascalientes y Guanajuato. Confirmar que la promoción aplica en tu sucursal",
-    "needsId": true,
-    "companions": null,
-    "validUntil": null
-  },
-  {
     "slug": "zoologico-guadalajara",
     "brand": "Zoológico Guadalajara",
     "category": "parques",
@@ -5319,7 +5278,8 @@
     "minPurchase": null,
     "howToClaim": "Reserva la oferta \"Celebra tu cumpleaños en Acapulco\" en fiestamericana.com y usa los 3 cupones durante tu estancia.",
     "sources": [
-      "https://www.fiestamericana.com/ofertas/celebra-tu-cumpleanos-en-acapulco"
+      "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-acapulco-villas/ofertas?detail-item=celebra-tu-cumpleanos-en-acapulco",
+      "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-acapulco-villas/ofertas"
     ],
     "confidence": "alta",
     "coverage": "ciudades",
@@ -5356,7 +5316,8 @@
     "minPurchase": null,
     "howToClaim": "Reserva la oferta \"Celebra tu cumpleaños en Cancún\" en fiestamericana.com con estancia mínima de 3 noches.",
     "sources": [
-      "https://www.fiestamericana.com/ofertas/celebra-tu-cumpleanos-en-cancun"
+      "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-cancun-villas/ofertas?detail-item=celebra-tu-cumpleanos-en-cancun",
+      "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-cancun-villas/ofertas"
     ],
     "confidence": "alta",
     "coverage": "ciudades",
@@ -15320,11 +15281,10 @@
     "minPurchase": 130,
     "howToClaim": "Compra o renueva tu membresía anual, avisa en recepción de la pista en tu mes de cumpleaños y muestra tu identificación.",
     "sources": [
-      "https://tienda.k1speed.mx/product/paquetes-de-carreras/",
-      "https://www.eluniversal.com.mx/destinos/saca-al-checo-perez-que-llevas-dentro-en-estos-kartodromos/",
-      "https://www.k1speed.mx/faqs.html"
+      "https://www.k1speed.mx/faqs.html",
+      "https://www.eluniversal.com.mx/destinos/saca-al-checo-perez-que-llevas-dentro-en-estos-kartodromos/"
     ],
-    "confidence": "media",
+    "confidence": "baja",
     "coverage": "ciudades",
     "states": [
       "CMX",

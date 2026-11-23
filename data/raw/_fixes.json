@@ -341,5 +341,86 @@
     "slug": "selva-magica",
     "remove": true,
     "reason": "El parque cerró (aviso de Manuel, 23-nov-2026)"
+  },
+  {
+    "slug": "sumo-all-you-can-eat",
+    "patch": {
+      "benefit": "Buffet, postre, 2 jarras de cerveza o botella de Bacardí/Skyy gratis (eliges uno)",
+      "details": "En el mes de tu cumpleaños eliges una cortesía: buffet All You Can Eat gratis (se activa con la compra de una bebida), postre de temporada, 2 jarras de cerveza clara de 1.8 L cada una, o una botella de Bacardí blanco 750 ml o Skyy 750 ml (se consume en el restaurante, sin mezcladores). Requiere 1 cumpleañero por mesa y mínimo 4 acompañantes que consuman buffet o a la carta; el postre de temporada aplica si el cumpleañero es menor de edad o no va con al menos 4 personas. Solo consumo en restaurante en sucursales Sumo All You Can Eat y Express; no acumulable con otras promociones.",
+      "signupUrl": null,
+      "requirements": [
+        "Identificación oficial vigente (menores: CURP impresa o digital)",
+        "1 cumpleañero por mesa + mínimo 4 acompañantes (excepto el postre, que aplica si eres menor o vas con menos de 4)",
+        "Acompañantes con consumo de buffet o a la carta",
+        "Buffet gratis: promoción individual, se activa comprando una bebida; cerveza y botella no sustituyen esa bebida",
+        "Solo en restaurante, no para llevar",
+        "No combinable con otras promociones"
+      ],
+      "howToClaim": "Reserva o avisa al llegar, elige tu cortesía y presenta tu identificación oficial vigente (INE o CURP si eres menor).",
+      "sources": [
+        "https://sumo.com.mx/#promos",
+        "https://sumo.com.mx/#sucursales"
+      ],
+      "confidence": "alta"
+    },
+    "reason": "23-nov-2026: sumo.com.mx (inicio, sección 03 Promos > PROMOS DE SIEMPRE) lista «PROMO CUMPLEAÑERO GRATIS: Elige uno: buffet gratis, postre de temporada, 2 jarras de cerveza clara o una botella de Bacardí o Skyy» con el legal completo (1 cumpleañero por mesa + 4 acompañantes mínimo, todo el mes del cumpleaños, INE o CURP). /promociones/ ya no existe (404); las promos viven en la home. Ya no menciona vodka/tequila/ron genérico ni la copa brownie para la pareja. La lista de sucursales/ciudades no se re-verificó."
+  },
+  {
+    "slug": "gong-cha-mexico",
+    "patch": {
+      "details": "Los miembros de Gong cha Rewards reciben una bebida de cumpleaños gratis, válida durante el mes de su cumpleaños, en los tres niveles del programa (nivel inicial; nivel de 3 visitas al mes; nivel de 5 visitas al mes). El sitio ya no nombra los niveles White, Black y Red. La inscripción es por WhatsApp y se obtiene una tarjeta digital para Apple Wallet o Google Wallet; sin app.",
+      "signupUrl": "https://gongcha.mx/recompensas/",
+      "requirements": [
+        "Inscribirte a Gong cha Rewards por WhatsApp con tu fecha de cumpleaños y guardar tu tarjeta digital en Apple Wallet o Google Wallet",
+        "Canjear dentro del mes de tu cumpleaños"
+      ],
+      "howToClaim": "Muestra tu tarjeta digital Gong cha Rewards (Apple Wallet o Google Wallet) en sucursal durante el mes de tu cumpleaños.",
+      "sources": [
+        "https://gongcha.mx/recompensas/",
+        "https://gongcha.mx/wp-content/uploads/2026/11/TERMINOS-Y-CONDICIONES-.pdf",
+        "https://gongcha.mx/"
+      ],
+      "confidence": "alta"
+    },
+    "reason": "23-nov-2026: gongcha.mx/recompensas/ (menú REWARDS) dice «Sin apps... Inicia un chat en WhatsApp, obtén tu tarjeta digital y guárdala en tu Apple Wallet o Google Wallet» y en los tres niveles lista «Bebida de cumpleaños gratis (Válido el mes de tu cumpleaños)»; niveles por 3 y 5 visitas al mes. El PDF de términos (gongcha.mx/wp-content/uploads/2026/11/) solo cubre puntos/vigencia y no menciona cumpleaños. Los nombres White/Black/Red ya no aparecen. Las rutas viejas dan 404."
+  },
+  {
+    "slug": "fiesta-americana-acapulco-villas",
+    "patch": {
+      "signupUrl": null,
+      "sources": [
+        "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-acapulco-villas/ofertas?detail-item=celebra-tu-cumpleanos-en-acapulco",
+        "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-acapulco-villas/ofertas"
+      ]
+    },
+    "reason": "23-nov-2026: la web de Fiesta Americana migró a fiestamericanatravelty.com. La página de ofertas del hotel (/fiesta-americana/hoteles/fiesta-americana-acapulco-villas/ofertas) lista «Celebra tu cumpleaños en Acapulco: Resort Credit de $600 MXN»; el detalle (HTTP 200) sigue con 3 cupones de $200 (El Mexicano, Stelaris Lobby Bar, Blu), un crédito por habitación, reservar hasta el 15-dic-2026 y viajar hasta el 18-dic-2026. Datos sin cambios; solo cambió la URL."
+  },
+  {
+    "slug": "fiesta-americana-cancun-villas",
+    "patch": {
+      "signupUrl": null,
+      "sources": [
+        "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-cancun-villas/ofertas?detail-item=celebra-tu-cumpleanos-en-cancun",
+        "https://www.fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-cancun-villas/ofertas"
+      ]
+    },
+    "reason": "23-nov-2026: la página de ofertas del hotel (fiestamericanatravelty.com/fiesta-americana/hoteles/fiesta-americana-cancun-villas/ofertas) lista «Celebra tu cumpleaños en Cancún: Hasta 15% OFF»; el detalle (HTTP 200) sigue con 15% estancia, 10% alimentos y bebidas, 15% spa, 3 noches mínimo desde Villa Master Suite, reservar hasta el 15-dic-2026 y viajar hasta el 18-dic-2026. Datos sin cambios; solo cambió la URL."
+  },
+  {
+    "slug": "la-nona-lola-guadalajara",
+    "remove": true,
+    "reason": "Su dominio lanonalola.mx ahora es un casino en línea y no hay otra fuente oficial legible (23-nov-2026)"
+  },
+  {
+    "slug": "k1-speed-mexico",
+    "patch": {
+      "confidence": "baja",
+      "signupUrl": "https://www.k1speed.mx/",
+      "sources": [
+        "https://www.k1speed.mx/faqs.html",
+        "https://www.eluniversal.com.mx/destinos/saca-al-checo-perez-que-llevas-dentro-en-estos-kartodromos/"
+      ]
+    },
+    "reason": "tienda.k1speed.mx ya no existe y el sitio oficial no menciona el beneficio de cumpleaños (23-nov-2026)"
   }
 ]
