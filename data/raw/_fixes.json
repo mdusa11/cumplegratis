@@ -336,5 +336,10 @@
     "slug": "incredible-pizza-chihuahua",
     "remove": true,
     "reason": "Es un paquete de fiesta pagado ($399-$729 por niño, mínimo 15 invitados), no un regalo de cumpleaños"
+  },
+  {
+    "slug": "selva-magica",
+    "remove": true,
+    "reason": "El parque cerró (aviso de Manuel, 23-nov-2026)"
   }
 ]

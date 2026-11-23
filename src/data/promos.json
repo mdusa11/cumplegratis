@@ -1,43 +1,5 @@
 [
   {
-    "slug": "del-pingo-al-tango",
-    "brand": "Del Pingo al Tango",
-    "category": "restaurantes",
-    "benefit": "Menú de 2 tiempos gratis y postre con bengala",
-    "benefitType": "gratis",
-    "details": "Adultos (11+) comen gratis un menú de 2 tiempos (entrada y plato fuerte) de lunes a viernes durante su mes si van 4 o más personas que consuman; niños de 2 a 10 años reciben un platillo infantil gratis. Todos los festejados reciben postre con bengala cualquier día del mes con cualquier consumo.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Identificación con fecha de nacimiento (INE, pasaporte o acta)",
-      "Grupo de 4+ personas que consuman (menú gratis)",
-      "Menú gratis solo de lunes a viernes",
-      "Avisar a la hostess al llegar o al reservar"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Todo el mes de tu cumpleaños; promoción publicada con vigencia al 31 de octubre de 2026",
-    "minPurchase": null,
-    "howToClaim": "Avisa a la hostess al reservar o al llegar y presenta tu identificación oficial con fecha de nacimiento.",
-    "sources": [
-      "https://www.delpingoaltango.mx/happingotoyou"
-    ],
-    "confidence": "alta",
-    "coverage": "ciudades",
-    "states": [
-      "CMX",
-      "MEX"
-    ],
-    "cities": [
-      "cdmx",
-      "tlalnepantla"
-    ],
-    "locationNote": "Encuentro Oceanía, Parque Delta, Parque Tepeyac y Mundo E",
-    "needsId": true,
-    "companions": 3,
-    "validUntil": "2026-10-31"
-  },
-  {
     "slug": "asador-city-wok",
     "brand": "Asador City Wok",
     "category": "restaurantes",
@@ -626,44 +588,6 @@
     "needsId": true,
     "companions": null,
     "validUntil": "2026-12-31"
-  },
-  {
-    "slug": "brasa-do-brasilia",
-    "brand": "Brasa do Brasilia",
-    "category": "restaurantes",
-    "benefit": "Rodizio gratis para el cumpleañero (5ª persona gratis)",
-    "benefitType": "gratis",
-    "details": "De lunes a viernes durante tu mes de cumpleaños, el festejado no paga su rodizio al consumir cuatro rodizios de adulto adicionales. Requiere identificación oficial vigente con fecha de nacimiento, no aplica en días festivos ni se acumula con otras promociones; el sitio oficial la publica con vigencia al 31 de octubre de 2026.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [
-      "Identificación oficial vigente con fecha de nacimiento",
-      "Consumir 4 rodizios de adulto adicionales",
-      "Solo de lunes a viernes; no aplica en días festivos",
-      "Avisar a la hostess al llegar o al reservar",
-      "No acumulable con otras promociones"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Todo el mes de tu cumpleaños, lunes a viernes; vigencia vista al 31-oct-2026",
-    "minPurchase": null,
-    "howToClaim": "Avisa a la hostess al reservar o al llegar y presenta tu identificación oficial.",
-    "sources": [
-      "https://www.brasadobrasilia.mx/promociones",
-      "https://www.brasadobrasilia.mx/"
-    ],
-    "confidence": "alta",
-    "coverage": "ciudades",
-    "states": [
-      "CMX"
-    ],
-    "cities": [
-      "cdmx"
-    ],
-    "locationNote": "Plaza Cuicuilco Inbursa y Plaza Carso Palmas",
-    "needsId": true,
-    "companions": 4,
-    "validUntil": "2026-10-31"
   },
   {
     "slug": "american-eagle-aerie",
@@ -3486,40 +3410,6 @@
     "validUntil": "2026-12-31"
   },
   {
-    "slug": "turibus",
-    "brand": "Turibus CDMX",
-    "category": "experiencias",
-    "benefit": "Turi Cervecero gratis yendo con 5 acompañantes",
-    "benefitType": "regalo-con-compra",
-    "details": "Si cumples años esa semana y vas con 5 acompañantes que pagan, el cumpleañero viaja gratis en el recorrido Turi Cervecero. Vigente hasta el 31 de octubre de 2026.",
-    "program": null,
-    "signupUrl": "https://www.turibus.com.mx/es/cdmx/experiencias/turibus-cervecero",
-    "requirements": [
-      "INE u otra identificación oficial",
-      "5 acompañantes con boleto pagado"
-    ],
-    "registerDaysBefore": null,
-    "window": "semana",
-    "windowNote": "La semana de tu cumpleaños; promo vigente al 31 oct 2026",
-    "minPurchase": null,
-    "howToClaim": "Compra los boletos de tus acompañantes y presenta tu INE al abordar/en taquilla del Turi Cervecero.",
-    "sources": [
-      "https://cazaofertas.com.mx/entretenimiento/turibus-cumpleanero-si-cumples-anos-en-la-semana-y-acudes-acompanado-el-tour-es-gratis/"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "CMX"
-    ],
-    "cities": [
-      "cdmx"
-    ],
-    "locationNote": "Solo recorrido Turi Cervecero en CDMX",
-    "needsId": true,
-    "companions": 5,
-    "validUntil": "2026-10-31"
-  },
-  {
     "slug": "didi-club",
     "brand": "DiDi",
     "category": "servicios",
@@ -3578,42 +3468,6 @@
     "locationNote": "Reserva en línea en todo México; solo hoteles y paquetes a destinos mexicanos",
     "needsId": false,
     "companions": null,
-    "validUntil": null
-  },
-  {
-    "slug": "selva-magica",
-    "brand": "Selva Mágica",
-    "category": "parques",
-    "benefit": "2x1 en Pase Platino en tu mes de cumpleaños",
-    "benefitType": "2x1",
-    "details": "Durante tu mes de cumpleaños, el cumpleañero entra gratis al comprar un Pase Platino para su acompañante. No acumulable; solo en taquilla. Piden seguir al parque en Instagram.",
-    "program": null,
-    "signupUrl": "https://www.selvamagica.com.mx/mes-de-cumpleanos-2x1-platino/",
-    "requirements": [
-      "Copia de acta de nacimiento",
-      "Identificación con foto (INE, pasaporte, licencia o credencial escolar)",
-      "Menores de 6: acta e identificación del tutor"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Todo tu mes de cumpleaños",
-    "minPurchase": null,
-    "howToClaim": "Presenta tus documentos en taquillas de Selva Mágica (Guadalajara) y compra el Pase Platino del acompañante.",
-    "sources": [
-      "https://www.selvamagica.com.mx/mes-de-cumpleanos-2x1-platino/",
-      "https://www.tiktok.com/@selvamagica/video/7479258961561128247"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "JAL"
-    ],
-    "cities": [
-      "guadalajara"
-    ],
-    "locationNote": "Único parque: Paseo del Zoológico 600, Guadalajara",
-    "needsId": true,
-    "companions": 1,
     "validUntil": null
   },
   {
@@ -4588,43 +4442,6 @@
     "needsId": true,
     "companions": null,
     "validUntil": null
-  },
-  {
-    "slug": "sealand-guadalajara",
-    "brand": "Sealand Guadalajara",
-    "category": "parques",
-    "benefit": "Pase de expedición general gratis (valor $269)",
-    "benefitType": "gratis",
-    "details": "El cumpleañero entra gratis a Sealand Guadalajara con el pase general (valor $269) durante su mes de cumpleaños, mostrando identificación oficial con foto. Solo en taquilla, una vez por mes de cumpleaños, no acumulable con otras promociones; los acompañantes pagan su entrada. Vigente hasta el 31 de octubre de 2026.",
-    "program": null,
-    "signupUrl": "https://www.sealand.com.mx/guadalajara/promocion-de-cumpleanos/",
-    "requirements": [
-      "Identificación oficial con foto que compruebe tu mes de cumpleaños",
-      "Canje solo en taquilla (no en línea)",
-      "Una vez por mes de cumpleaños",
-      "No acumulable con otras promociones o descuentos",
-      "Confirmar disponibilidad al momento de la compra"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "Todo tu mes de cumpleaños, vigente hasta el 31 oct 2026",
-    "minPurchase": null,
-    "howToClaim": "Presenta tu identificación oficial con foto en la taquilla de Sealand (Santa Anita), de lunes a domingo.",
-    "sources": [
-      "https://www.sealand.com.mx/guadalajara/promocion-de-cumpleanos/"
-    ],
-    "confidence": "alta",
-    "coverage": "ciudades",
-    "states": [
-      "JAL"
-    ],
-    "cities": [
-      "guadalajara"
-    ],
-    "locationNote": "Solo Sealand Guadalajara, Centro Comercial Santa Anita (zona Tlajomulco/Tlaquepaque). Tel. 33 1598 8270",
-    "needsId": true,
-    "companions": null,
-    "validUntil": "2026-10-31"
   },
   {
     "slug": "mr-e-cuartos-de-escape-guadalajara",
@@ -15483,40 +15300,6 @@
     "validUntil": "2026-12-15"
   },
   {
-    "slug": "chimulco-parque-acuatico",
-    "brand": "Balneario Chimulco",
-    "category": "parques",
-    "benefit": "Cumpleañero del mes ingresa gratis",
-    "benefitType": "gratis",
-    "details": "La página de promociones del balneario publica cada mes la promoción \"Cumpleañero ingresa gratis\" (octubre 2026: \"Cumpleañero ingresa gratis en octubre\"). Debes imprimir la promoción y presentarla en taquilla con una credencial vigente al momento de pagar; después de pagar ya no es válida. Promoción de octubre vigente hasta el 31 de octubre de 2026; el sitio no detalla acompañantes ni restricciones de fechas especiales.",
-    "program": null,
-    "signupUrl": "https://www.chimulco.com.mx/promociones",
-    "requirements": [
-      "Cumplir años en el mes de la promoción (octubre 2026)",
-      "Credencial vigente",
-      "Imprimir la promoción y presentarla en taquilla antes de pagar"
-    ],
-    "registerDaysBefore": null,
-    "window": "mes",
-    "windowNote": "La promo cambia cada mes en la página oficial; octubre 2026 vigente hasta el 31 de octubre de 2026",
-    "minPurchase": null,
-    "howToClaim": "Imprime la promoción desde chimulco.com.mx/promociones y entrégala en taquilla con tu credencial antes de pagar.",
-    "sources": [
-      "https://www.chimulco.com.mx/promociones",
-      "https://www.informador.mx/jalisco/zoologico-guadalajara-lanza-promociones-para-entrar-gratis-en-junio-conoce-quienes-y-como-participar-20260613-0055.html"
-    ],
-    "confidence": "alta",
-    "coverage": "estados",
-    "states": [
-      "JAL"
-    ],
-    "cities": [],
-    "locationNote": "Balneario Chimulco, Villa Corona, Jalisco (a unos 40 min de Guadalajara por la autopista a Barra de Navidad)",
-    "needsId": true,
-    "companions": null,
-    "validUntil": "2026-10-31"
-  },
-  {
     "slug": "k1-speed-mexico",
     "brand": "K1 Speed México",
     "category": "experiencias",
@@ -19818,37 +19601,6 @@
     "needsId": null,
     "companions": 4,
     "validUntil": null
-  },
-  {
-    "slug": "mariscos-el-charco-hermosillo",
-    "brand": "Mariscos El Charco (Hermosillo)",
-    "category": "restaurantes",
-    "benefit": "Cumpleañero come gratis en grupos de más de 6 personas (promo de la Ruta de la H)",
-    "benefitType": "gratis",
-    "details": "Promoción listada en el sitio oficial del festival gastronómico Ruta de la H 2026 para este restaurante. Solo vigente durante el festival; el sitio no da más condiciones. Vigente hasta el 1 de noviembre de 2026.",
-    "program": null,
-    "signupUrl": null,
-    "requirements": [],
-    "registerDaysBefore": null,
-    "window": "otro",
-    "windowNote": "Solo del 22 de octubre al 1 de noviembre de 2026 (Ruta de la H)",
-    "minPurchase": null,
-    "howToClaim": "Acudir al restaurante durante el festival con un grupo de más de 6 personas y mencionar la promo de la Ruta de la H.",
-    "sources": [
-      "https://rutadelah.mx/"
-    ],
-    "confidence": "media",
-    "coverage": "ciudades",
-    "states": [
-      "SON"
-    ],
-    "cities": [
-      "hermosillo"
-    ],
-    "locationNote": "Plaza Cantabria, Blvd. Luis Donaldo Colosio 803, Local 6, La Rioja",
-    "needsId": null,
-    "companions": 6,
-    "validUntil": "2026-11-01"
   },
   {
     "slug": "parque-girasoles-purisima",
