@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(Object.keys(STATES) as StateCode[]).filter((c) => !isThinState(c)).map((c) => page(`/estados/${STATE_SLUG[c]}`, 0.8)),
     page("/cumpleanos", 0.8, "monthly"),
     ...MONTHS.map((m) => page(`/cumpleanos/${m}`, 0.8, "monthly")),
+    page("/categorias", 0.7, "monthly"),
     ...Object.keys(CATEGORIES).map((c) => page(`/categorias/${c}`, 0.8)),
     ...promos.filter((p) => p.confidence !== "baja").map((p) => page(`/promos/${p.slug}`, 0.7)),
     page("/como-verificamos", 0.5, "monthly"),

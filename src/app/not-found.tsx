@@ -3,7 +3,11 @@ import Link from "next/link";
 import { SearchButton } from "@/components/SearchButton";
 
 // Next ya emite robots noindex en el 404; repetirlo aquí duplicaba la etiqueta.
-export const metadata: Metadata = { title: "Página no encontrada" };
+export const metadata: Metadata = {
+  title: "Página no encontrada",
+  description: "Esta página de Cumplegratis no existe. Busca tu promo de cumpleaños o revisa todas las promociones.",
+  alternates: { canonical: null },
+};
 
 export default function NotFound() {
   return (

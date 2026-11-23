@@ -7,7 +7,7 @@ import { LEGAL, SITE, STUDIO, clip, jsonLd, pageUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Cómo verificamos cada promo",
-  description: clip(`De dónde sale cada una de las ${stats.total} promos de cumpleaños de ${SITE.name}, qué significa cada nivel de confianza, cada cuánto las revisamos y cómo reportar un cambio.`),
+  description: clip(`De dónde sale cada una de las ${stats.total} promos de cumpleaños de ${SITE.name}, cómo las revisamos y qué significa cada nivel de confianza.`),
   alternates: { canonical: "/como-verificamos" },
 };
 

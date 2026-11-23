@@ -89,5 +89,9 @@ export const itemList = (name: string, paths: [string, string][]) => ({
 export function clip(s: string, max = 160) {
   const t = s.replace(/\s+/g, " ").trim();
   if (t.length <= max) return t;
-  return `${t.slice(0, max - 1).replace(/[\s,;:.\-–]*\S*$/, "")}…`;
+  const cut = t.slice(0, max - 1);
+  // Si cabe una oración completa con buen largo, mejor terminar ahí que a media frase.
+  const end = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf(": "));
+  if (end >= max * 0.55) return cut.slice(0, end + 1).replace(/:$/, ".");
+  return `${cut.replace(/[\s,;:.\-–]*\S*$/, "").replace(/\s+(?:a|al|de|del|el|la|las|los|lo|un|una|y|o|en|con|por|para|que|su|sus|tu|tus)$/i, "")}…`;
 }
