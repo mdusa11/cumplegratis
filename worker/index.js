@@ -1,6 +1,7 @@
 import { admin } from "./admin.js";
 import { confirm, runReminders, signup, unsubscribe } from "./reminders.js";
 import { suggest } from "./suggest.js";
+import { votes } from "./votes.js";
 
 // Worker del sitio: sirve el export estático (ASSETS) y recibe la analítica propia en /api/e.
 // Solo corre para /api/* y /admin* (run_worker_first); el resto lo sirve Cloudflare directo desde los assets.
@@ -94,6 +95,7 @@ const worker = {
     if (url.pathname === "/api/e") return collect(request, env);
     if (url.pathname === "/api/reminders") return request.method === "POST" ? signup(request, env) : new Response(null, { status: 405 });
     if (url.pathname === "/api/suggest") return suggest(request, env);
+    if (url.pathname === "/api/votes") return votes(request, env);
     if (url.pathname === "/api/reminders/confirm") return confirm(request, env);
     if (url.pathname === "/api/reminders/unsubscribe") return unsubscribe(request, env);
     if (url.pathname === "/admin" || url.pathname.startsWith("/admin/")) return admin(request, env);
