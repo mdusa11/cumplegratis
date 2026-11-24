@@ -96,6 +96,13 @@ const worker = {
     if (url.pathname === "/api/reminders") return request.method === "POST" ? signup(request, env) : new Response(null, { status: 405 });
     if (url.pathname === "/api/suggest") return suggest(request, env);
     if (url.pathname === "/api/votes") return votes(request, env);
+    // Ubicación aproximada que Cloudflare calcula por la conexión: solo para sugerir la ciudad (el visitante confirma).
+    if (url.pathname === "/api/where") {
+      const cf = request.cf ?? {};
+      const lat = Number(cf.latitude), lng = Number(cf.longitude);
+      const body = cf.country === "MX" && Number.isFinite(lat) && Number.isFinite(lng) ? { lat, lng } : {};
+      return new Response(JSON.stringify(body), { headers: { "content-type": "application/json", "cache-control": "private, no-store" } });
+    }
     if (url.pathname === "/api/reminders/confirm") return confirm(request, env);
     if (url.pathname === "/api/reminders/unsubscribe") return unsubscribe(request, env);
     if (url.pathname === "/admin" || url.pathname.startsWith("/admin/")) return admin(request, env);

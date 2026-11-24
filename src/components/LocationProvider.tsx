@@ -35,9 +35,38 @@ export function useAutoAskLocation() {
 
 const NEAR_KM = 25;
 
+// Ciudad sugerida con la ubicación aproximada que Cloudflare saca de la conexión (sin pedir permiso de GPS).
+// Nunca se aplica sola: solo se ofrece para que el visitante la confirme con un toque.
+let guessReq: Promise<{ slug: CitySlug; km: number } | null> | null = null;
+function guessCity() {
+  guessReq ??= fetch("/api/where")
+    .then((r) => (r.ok ? r.json() : {}))
+    .then((p: { lat?: number; lng?: number }) => {
+      if (typeof p.lat !== "number" || typeof p.lng !== "number") return null;
+      const near = nearestCity({ lat: p.lat, lng: p.lng });
+      return near.km <= 40 ? { slug: near.slug, km: Math.round(near.km) } : null;
+    })
+    .catch(() => null);
+  return guessReq;
+}
+
+function useGuessedCity(enabled: boolean) {
+  const [guess, setGuess] = useState<CitySlug | null>(null);
+  useEffect(() => {
+    if (!enabled) return;
+    let live = true;
+    guessCity().then((g) => live && setGuess(g?.slug ?? null));
+    return () => {
+      live = false;
+    };
+  }, [enabled]);
+  return enabled ? guess : null;
+}
+
 /** Paso 2 del plan: banda en línea (sin modal). Con GPS a menos de 25 km aplica la ciudad directo y avisa. */
 export function LocationBand() {
   const { location, openPicker } = useLocation();
+  const guess = useGuessedCity(!location);
   const [state, setState] = useState<{ status: "idle" | "locating" } | { status: "error"; message: string } | { status: "set"; name: string }>({ status: "idle" });
 
   const locate = () => {
@@ -79,6 +108,18 @@ export function LocationBand() {
         {state.status === "error" && <span className="mt-1 block text-sm font-bold">{state.message}</span>}
       </p>
       <div className="flex flex-wrap gap-2">
+        {guess && state.status !== "locating" && (
+          <button
+            type="button"
+            onClick={() => {
+              saveLocation({ state: CITIES[guess].state, city: guess });
+              setState({ status: "set", name: `${CITIES[guess].name}, ${STATES[CITIES[guess].state].short}` });
+            }}
+            className="btn btn-acid !px-4 !py-2 !text-base"
+          >
+            Sí, estoy en {CITIES[guess].name}
+          </button>
+        )}
         <button type="button" onClick={locate} disabled={state.status === "locating"} className="btn btn-ink !px-4 !py-2 !text-base disabled:opacity-60">
           {state.status === "locating" ? "Buscándote…" : "Usar mi ubicación"}
         </button>
@@ -104,13 +145,22 @@ export function LocationProvider({ children }: { children: ReactNode }) {
   );
 }
 
-type Gps = { status: "idle" } | { status: "locating" } | { status: "found"; city: CitySlug; km: number } | { status: "error"; message: string };
+type Gps = { status: "idle" } | { status: "locating" } | { status: "found"; city: CitySlug; km: number; approx?: boolean } | { status: "error"; message: string };
 
 function LocationSheet({ initial, onClose }: { initial: UserLocation | null; onClose: () => void }) {
   const desktop = useMediaQuery("(min-width: 768px)");
   const [gps, setGps] = useState<Gps>({ status: "idle" });
   const [state, setState] = useState<StateCode | "">(initial?.state ?? "");
   const [city, setCity] = useState<CitySlug | "">(initial?.city ?? "");
+
+  useEffect(() => {
+    if (initial) return;
+    let live = true;
+    guessCity().then((g) => live && g && setGps((cur) => (cur.status === "idle" ? { status: "found", city: g.slug, km: g.km, approx: true } : cur)));
+    return () => {
+      live = false;
+    };
+  }, [initial]);
 
   useEffect(() => {
     lockScroll(true);
@@ -183,10 +233,10 @@ function LocationSheet({ initial, onClose }: { initial: UserLocation | null; onC
               className="card mt-6 flex flex-col items-center bg-acid p-6 text-center"
             >
               <Pin drop />
-              <p className="mono-tag mt-3">Te ubicamos en</p>
+              <p className="mono-tag mt-3">{gps.approx ? "Parece que estás en" : "Te ubicamos en"}</p>
               <p className="display mt-1 text-5xl">{CITIES[gps.city].name}</p>
               <p className="font-semibold">{STATES[CITIES[gps.city].state].name}</p>
-              {gps.km > 40 && <p className="mt-2 text-sm">Es la ciudad más cercana que tenemos (a unos {gps.km} km).</p>}
+              {!gps.approx && gps.km > 40 && <p className="mt-2 text-sm">Es la ciudad más cercana que tenemos (a unos {gps.km} km).</p>}
               <div className="mt-5 flex flex-wrap justify-center gap-3">
                 <button type="button" className="btn btn-ink" onClick={() => save({ state: CITIES[gps.city].state, city: gps.city })}>
                   ¡Sí, ahí! ✓

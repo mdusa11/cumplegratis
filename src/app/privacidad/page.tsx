@@ -46,7 +46,9 @@ export default function Privacidad() {
               </p>
               <p>
                 <b>Tu ubicación:</b> si usas “Usar mi ubicación”, tu navegador te pide permiso y calculamos la ciudad más cercana <b>dentro de tu
-                dispositivo</b>. Tus coordenadas no se envían ni se guardan en nuestros servidores.
+                dispositivo</b>. Tus coordenadas no se envían ni se guardan en nuestros servidores. Para sugerirte tu ciudad sin pedir permiso,
+                también usamos la ubicación aproximada que Cloudflare calcula a partir de tu conexión: no la guardamos para esto y tú decides si
+                aceptas la sugerencia.
               </p>
               <p>No recabamos datos personales sensibles ni datos financieros.</p>
             </>
