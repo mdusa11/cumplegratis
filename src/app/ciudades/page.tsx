@@ -26,7 +26,7 @@ export default function CitiesPage() {
           <Reveal key={s} delay={(i % 3) * 0.05} y={24} className="mb-5 break-inside-avoid">
             <section className="card bg-paper p-5">
               <h2 className="display text-3xl">
-                <Link href={`/estados/${STATE_SLUG[s]}`} className="hover:text-hot hover:underline">
+                <Link href={`/estados/${STATE_SLUG[s]}`} prefetch={false} className="hover:text-hot hover:underline">
                   {STATES[s].name}
                 </Link>
               </h2>
@@ -35,7 +35,7 @@ export default function CitiesPage() {
                   const { local } = promosInCity(c);
                   return (
                     <li key={c}>
-                      <Link href={`/ciudades/${c}`} className="chip bg-paper transition-colors hover:bg-acid">
+                      <Link href={`/ciudades/${c}`} prefetch={false} className="chip bg-paper transition-colors hover:bg-acid">
                         {CITIES[c].name}
                         {local.length > 0 && <span className="rounded-full bg-ink px-1.5 text-xs text-paper">{local.length}</span>}
                       </Link>
