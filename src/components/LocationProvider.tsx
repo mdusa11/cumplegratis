@@ -112,7 +112,7 @@ export function LocationBand() {
           <button
             type="button"
             onClick={() => {
-              saveLocation({ state: CITIES[guess].state, city: guess });
+              saveLocation({ state: CITIES[guess].state, city: guess }, 1);
               setState({ status: "set", name: `${CITIES[guess].name}, ${STATES[CITIES[guess].state].short}` });
             }}
             className="btn btn-acid !px-4 !py-2 !text-base"
@@ -189,8 +189,8 @@ function LocationSheet({ initial, onClose }: { initial: UserLocation | null; onC
     );
   };
 
-  const save = (loc: UserLocation | null) => {
-    saveLocation(loc);
+  const save = (loc: UserLocation | null, via?: 1 | 2) => {
+    saveLocation(loc, via);
     markAskedLocation();
     onClose();
   };
@@ -238,7 +238,7 @@ function LocationSheet({ initial, onClose }: { initial: UserLocation | null; onC
               <p className="font-semibold">{STATES[CITIES[gps.city].state].name}</p>
               {!gps.approx && gps.km > 40 && <p className="mt-2 text-sm">Es la ciudad más cercana que tenemos (a unos {gps.km} km).</p>}
               <div className="mt-5 flex flex-wrap justify-center gap-3">
-                <button type="button" className="btn btn-ink" onClick={() => save({ state: CITIES[gps.city].state, city: gps.city })}>
+                <button type="button" className="btn btn-ink" onClick={() => save({ state: CITIES[gps.city].state, city: gps.city }, gps.approx ? 1 : 2)}>
                   ¡Sí, ahí! ✓
                 </button>
                 <button type="button" className="btn btn-paper" onClick={() => setGps({ status: "idle" })}>

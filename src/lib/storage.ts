@@ -66,9 +66,10 @@ const ASKED = "cg:location-asked";
 export const useStoredLocation = () =>
   useSyncExternalStore(subscribe, () => read<UserLocation | null>(LOCATION, null), () => null);
 
-export const saveLocation = (loc: UserLocation | null) => {
+// via: 1 = aceptó la ciudad sugerida, 2 = GPS, sin valor = la eligió a mano
+export const saveLocation = (loc: UserLocation | null, via?: 1 | 2) => {
   write(LOCATION, loc);
-  if (loc) track("city_set", { target: loc.city ?? loc.state });
+  if (loc) track("city_set", { target: loc.city ?? loc.state, value: via });
 };
 
 export const wasAskedLocation = () => read<boolean>(ASKED, false);
